@@ -18,11 +18,11 @@
         h1,h2,h3,h4,h5,h6,.font-heading{font-family:'Sora',sans-serif}
 
         /* === SODI WORDMARK === */
-        .sodi-mark{font-family:'Sora',sans-serif;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;font-size:1.25rem;color:#fff;position:relative}
-        /* The signature: thin green underline offset */
-        .sodi-mark::after{content:'';position:absolute;bottom:-4px;left:0;width:100%;height:2px;background:#00FFA3;border-radius:1px}
-        .sodi-mark-sm{font-family:'Sora',sans-serif;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;font-size:1rem;color:#fff}
-        .sodi-mark-lg{font-family:'Sora',sans-serif;font-weight:800;letter-spacing:0.22em;text-transform:uppercase}
+        .sodi-mark{font-family:'Sora',sans-serif;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;font-size:1.35rem;color:#fff;position:relative}
+        /* The signature: thin green underline offset — 65% width, left-aligned */
+        .sodi-mark::after{content:'';position:absolute;bottom:-4px;left:0;width:65%;height:2px;background:#00FFA3;border-radius:1px}
+        .sodi-mark-sm{font-family:'Sora',sans-serif;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;font-size:1rem;color:#fff}
+        .sodi-mark-lg{font-family:'Sora',sans-serif;font-weight:800;letter-spacing:0.20em;text-transform:uppercase}
 
         /* === SIGNATURE LINE — the "SODI gesture" === */
         .sodi-line{height:2px;background:linear-gradient(90deg,#00FFA3,transparent);border-radius:1px}
@@ -52,9 +52,9 @@
         @media(hover:hover){.sodi-card.ind:hover{border-color:rgba(255,107,0,.2)}.sodi-card.ind:hover::before{background:linear-gradient(90deg,transparent,rgba(255,107,0,.4),transparent)}}
 
         /* WA Float */
-        .wa-btn{position:fixed;bottom:20px;right:20px;z-index:90;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:transform .3s,box-shadow .3s}
-        .wa-btn:hover{transform:scale(1.1);box-shadow:0 6px 28px rgba(37,211,102,.55)}
-        .wa-btn::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(37,211,102,.3);animation:wr 2s ease-out infinite}
+        .wa-btn{position:fixed;bottom:20px;right:20px;z-index:90;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(37,211,102,.25);transition:transform .3s,box-shadow .3s}
+        .wa-btn:hover{transform:scale(1.1);box-shadow:0 4px 18px rgba(37,211,102,.35)}
+        .wa-btn::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1.5px solid rgba(37,211,102,.2);animation:wr 2.5s ease-out infinite}
         @keyframes wr{0%{transform:scale(1);opacity:1}100%{transform:scale(1.5);opacity:0}}
 
         /* Marquee */
@@ -195,8 +195,8 @@
         <div class="md:col-span-8 sodi-card p-6 md:p-9 flex flex-col justify-between min-h-[300px] rv group">
             <div>
                 <div class="w-11 h-11 bg-s-accentDim rounded-xl flex items-center justify-center text-s-accent mb-5 border border-s-accent/10 group-hover:bg-s-accent group-hover:text-s-bg transition-colors"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
-                <h3 class="font-heading text-xl md:text-2xl font-bold mb-2">Webs que venden</h3>
-                <p class="text-s-sub text-sm leading-relaxed max-w-lg mb-6">No es diseño. Es una máquina de conversión abierta 24/7. Sitios institucionales, catálogos y tiendas online con carrito y pagos integrados.</p>
+                <h3 class="font-heading text-xl md:text-2xl font-bold mb-2">Webs conectadas a tu operación</h3>
+                <p class="text-s-sub text-sm leading-relaxed max-w-lg mb-6">No es diseño. Es una máquina de conversión abierta 24/7 que organiza tu demanda. Sitios institucionales, catálogos y tiendas online con carrito y pagos integrados.</p>
             </div>
             <ul class="flex flex-wrap gap-2 mt-auto">
                 <li class="flex items-center gap-1.5 text-xs text-s-sub bg-white/[0.03] px-3 py-1.5 rounded-lg border border-white/[0.04]"><svg class="ck ck-sm text-s-accent" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Landing pages</li>
@@ -246,7 +246,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-10 text-left">
         <div class="bg-white/[0.025] border border-white/[0.04] rounded-2xl p-5"><div class="text-red-400/60 text-xl mb-3">💬</div><p class="text-sm text-s-sub">Responder mensajes <strong class="text-white">uno por uno, a mano</strong></p></div>
         <div class="bg-white/[0.025] border border-white/[0.04] rounded-2xl p-5"><div class="text-red-400/60 text-xl mb-3">📋</div><p class="text-sm text-s-sub">Planillas de Excel <strong class="text-white">desordenadas y duplicadas</strong></p></div>
-        <div class="bg-white/[0.025] border border-white/[0.04] rounded-2xl p-5"><div class="text-red-400/60 text-xl mb-3">🧠</div><p class="text-sm text-s-sub">Acordarte todo <strong class="text-white">de memoria</strong></p></div>
+        <div class="bg-white/[0.025] border border-white/[0.04] rounded-2xl p-5"><div class="text-red-400/60 text-xl mb-3">🧠</div><p class="text-sm text-s-sub">Depender de <strong class="text-white">una persona que sabe todo</strong></p></div>
     </div>
     <p class="text-s-sub text-base mb-4">No necesitás más esfuerzo. <strong class="text-white">Necesitás sistema.</strong></p>
     <a href="#soluciones" class="text-s-accent font-semibold text-sm hover:underline">Ver soluciones →</a>
