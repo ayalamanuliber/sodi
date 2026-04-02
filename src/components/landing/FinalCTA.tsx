@@ -23,7 +23,7 @@ export function FinalCTA() {
           <div className="relative z-10 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
             <Link
               href="/diagnostico"
-              className="w-full sm:w-auto bg-s-accent text-black px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-[0_15px_40px_rgba(0,255,163,0.2)]"
+              className="btn-primary w-full sm:w-auto bg-s-accent text-black px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight flex items-center justify-center gap-3"
             >
               Hacer diagnóstico guiado
             </Link>
@@ -31,7 +31,7 @@ export function FinalCTA() {
               href="https://wa.me/5491157210923"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 hover:bg-white/5 transition-all flex items-center justify-center gap-2 uppercase tracking-tight"
+              className="btn-secondary w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 flex items-center justify-center gap-2 uppercase tracking-tight"
             >
               <svg className="w-4 h-4 text-s-wa" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2C6.477 2 2 6.477 2 12c0 1.892.527 3.66 1.438 5.163L2 22l4.97-1.392A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" />

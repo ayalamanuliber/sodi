@@ -25,7 +25,7 @@ export function Qualification() {
             <motion.div
               key={i}
               {...fadeUp(i * 0.1)}
-              className="p-4 sm:p-5 bg-white/[0.02] border border-white/5 rounded-xl flex items-start gap-3"
+              className="p-4 sm:p-5 bg-white/[0.02] border border-white/5 rounded-xl flex items-start gap-3 hover:border-white/10 hover:bg-white/[0.03] transition-all duration-300"
             >
               <svg className="w-4 h-4 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
                 <path d="M5 13l4 4L19 7" />

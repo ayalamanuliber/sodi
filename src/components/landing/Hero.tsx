@@ -2,12 +2,16 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { fadeUp, easeOut } from "@/lib/motion";
+import { fadeUp } from "@/lib/motion";
 
 export function Hero() {
   return (
     <section className="relative min-h-[90vh] sm:min-h-screen flex flex-col justify-center items-center pt-24 sm:pt-32 pb-14 sm:pb-24 px-6 overflow-hidden">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-s-accent/[0.03] blur-[140px] pointer-events-none z-0" />
+      {/* Animated glow */}
+      <div className="hero-glow absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[600px] pointer-events-none z-0"
+        style={{ background: "radial-gradient(ellipse at center, rgba(0,255,163,0.06) 0%, rgba(0,224,255,0.02) 40%, transparent 70%)" }}
+      />
+
       <div className="max-w-5xl mx-auto text-center relative z-10">
         <motion.div
           {...fadeUp()}
@@ -22,7 +26,7 @@ export function Hero() {
 
         <motion.h1
           {...fadeUp(0.1)}
-          className="text-[2.4rem] sm:text-5xl md:text-[4.5rem] lg:text-[5.5rem] font-extrabold leading-[0.95] mb-6 sm:mb-8 tracking-tighter font-heading"
+          className="text-[2.4rem] sm:text-5xl md:text-[4.5rem] lg:text-[5.5rem] font-extrabold leading-[0.92] mb-6 sm:mb-8 tracking-tighter font-heading"
         >
           <span className="tg-white">Menos desorden.</span>
           <br />
@@ -39,13 +43,13 @@ export function Hero() {
         <motion.div {...fadeUp(0.3)} className="flex flex-col sm:flex-row gap-3 sm:gap-5 justify-center items-center">
           <Link
             href="/diagnostico"
-            className="w-full sm:w-auto bg-s-accent text-black px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-[0_15px_40px_rgba(0,255,163,0.2)]"
+            className="btn-primary w-full sm:w-auto bg-s-accent text-black px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight flex items-center justify-center gap-3"
           >
             Hacer diagnóstico guiado
           </Link>
           <a
             href="#soluciones"
-            className="w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 hover:bg-white/5 transition-all uppercase tracking-tight text-center"
+            className="btn-secondary w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 uppercase tracking-tight text-center"
           >
             Ver cómo funciona
           </a>

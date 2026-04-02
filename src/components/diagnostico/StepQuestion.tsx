@@ -51,10 +51,10 @@ export function StepQuestion({ question, selectedId, onSelect, onBack, stepIndex
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: i * 0.05 }}
             onClick={() => onSelect(option.id)}
-            className={`w-full text-left px-5 sm:px-6 py-4 sm:py-[18px] rounded-xl border transition-all duration-200 group ${
+            className={`w-full text-left px-5 sm:px-6 py-4 sm:py-[18px] rounded-xl border transition-all duration-200 group cursor-pointer ${
               selectedId === option.id
-                ? "border-s-accent/30 bg-s-accent/[0.06] text-white"
-                : "border-white/[0.06] bg-white/[0.02] text-s-sub hover:border-white/15 hover:bg-white/[0.04] hover:text-white"
+                ? "border-s-accent/30 bg-s-accent/[0.06] text-white shadow-[0_0_20px_rgba(0,255,163,0.06)]"
+                : "border-white/[0.06] bg-white/[0.02] text-s-sub hover:border-white/15 hover:bg-white/[0.04] hover:text-white hover:translate-x-1"
             }`}
           >
             <div className="flex items-center justify-between">

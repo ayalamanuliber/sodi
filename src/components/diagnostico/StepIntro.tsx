@@ -52,7 +52,7 @@ export function StepIntro({ onStart }: Props) {
 
       <button
         onClick={onStart}
-        className="w-full sm:w-auto bg-s-accent text-black px-8 sm:px-14 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] sm:text-[15px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all shadow-[0_15px_40px_rgba(0,255,163,0.2)]"
+        className="btn-primary w-full sm:w-auto bg-s-accent text-black px-8 sm:px-14 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] sm:text-[15px] font-black uppercase tracking-tight"
       >
         Empezar diagnóstico
       </button>
