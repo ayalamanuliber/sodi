@@ -124,11 +124,11 @@ h1, h2, h3, h4, .font-heading {
 /* ── Buttons ── */
 .btn-primary {
   transition: all .25s cubic-bezier(0.25, 1, 0.5, 1);
-  box-shadow: 0 4px 20px rgba(0,255,163,0.15);
+  box-shadow: 0 4px 24px rgba(0,255,163,0.18), 0 0 0 1px rgba(0,255,163,0.08);
 }
 .btn-primary:hover {
   transform: translateY(-1px) scale(1.02);
-  box-shadow: 0 8px 30px rgba(0,255,163,0.25);
+  box-shadow: 0 8px 36px rgba(0,255,163,0.3), 0 0 0 1px rgba(0,255,163,0.15);
 }
 .btn-secondary {
   transition: all .25s cubic-bezier(0.25, 1, 0.5, 1);
@@ -185,6 +185,10 @@ h1, h2, h3, h4, .font-heading {
 .hero-glow {
   animation: hero-glow 8s ease-in-out infinite;
 }
+
+/* ── Scrollbar hide (utility) ── */
+.scrollbar-none::-webkit-scrollbar { display: none }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none }
 
 /* ── Selection ── */
 ::selection {

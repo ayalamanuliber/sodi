@@ -8,15 +8,19 @@ const sectors = ["Inmobiliarias", "Estudios profesionales", "Salud y atención",
 export function CaseStudy() {
   return (
     <section id="casoreal" className="py-14 sm:py-24 px-6 relative overflow-hidden bg-black border-y border-white/5">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(255,107,0,0.05),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(255,107,0,0.07),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_80%,rgba(255,107,0,0.03),transparent_40%)]" />
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 sm:gap-16 items-center relative z-10">
         <motion.div {...fadeUp()}>
           <div className="flex items-center gap-4 mb-5">
             <div className="inline-flex items-center gap-3 text-s-orange text-[10px] font-black tracking-[0.4em] uppercase">
               <span className="w-6 h-[2px] bg-s-orange" /> Caso real
             </div>
-            <span className="px-3 py-1 border border-white/10 rounded-md text-[10px] font-heading font-bold text-white/40 tracking-[0.15em] uppercase">
+            <span className="px-3 py-1 border border-s-orange/25 rounded-md text-[10px] font-heading font-bold text-s-orange/70 tracking-[0.15em] uppercase bg-s-orange/[0.06]">
               CAEDE
+            </span>
+            <span className="px-2 py-0.5 text-[8px] font-bold text-s-accent uppercase tracking-[0.15em] bg-s-accent/[0.08] border border-s-accent/15 rounded">
+              Proyecto activo
             </span>
           </div>
           <h2 className="text-[1.5rem] sm:text-3xl md:text-4xl font-extrabold mb-4 sm:mb-6 tracking-tighter leading-tight text-white font-heading">
@@ -47,7 +51,7 @@ export function CaseStudy() {
           </a>
         </motion.div>
 
-        <motion.div {...fadeUp(0.2)} className="rounded-xl border border-white/5 bg-[#060608] p-5 sm:p-7">
+        <motion.div {...fadeUp(0.2)} className="rounded-xl border border-s-orange/10 bg-[#060608] p-5 sm:p-7 shadow-[0_8px_50px_rgba(255,107,0,0.06)]">
           <div className="flex items-center justify-between mb-5 pb-3 border-b border-white/5">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-s-orange animate-pulse" />

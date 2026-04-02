@@ -1,5 +1,6 @@
 import { Nav } from "@/components/landing/Nav";
 import { Hero } from "@/components/landing/Hero";
+import { ProofStrip } from "@/components/landing/ProofStrip";
 import { Qualification } from "@/components/landing/Qualification";
 import { Solutions } from "@/components/landing/Solutions";
 import { Process } from "@/components/landing/Process";
@@ -16,6 +17,7 @@ export default function Home() {
       <Ambient />
       <Nav />
       <Hero />
+      <ProofStrip />
       <Qualification />
       <Solutions />
       <Process />
