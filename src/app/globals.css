@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-s-bg: #040406;
+  --color-s-surface: #08080C;
+  --color-s-card: #0C0C12;
+  --color-s-muted: #121218;
+  --color-s-accent: #00FFA3;
+  --color-s-accent-dim: rgba(0,255,163,0.06);
+  --color-s-orange: #FF6B00;
+  --color-s-wa: #25D366;
+  --color-s-text: #F4F4F6;
+  --color-s-sub: #848494;
+  --color-s-dim: #3A3A45;
+  --font-heading: 'Sora', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+:root { color-scheme: dark }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent }
+
+body {
+  background: var(--color-s-bg);
+  color: var(--color-s-text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.015em;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: -0.04em;
+}
+
+/* ── Brand mark ── */
+.sodi-mark {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+.sodi-mark::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 70%;
+  height: 2px;
+  background: linear-gradient(90deg, #00FFA3, transparent);
+  border-radius: 1px;
+}
+
+/* ── Glass ── */
+.glass {
+  background: rgba(8,8,12,0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+/* ── Noise ── */
+.noise {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 99;
+  opacity: .012;
+  background: url('data:image/svg+xml;utf8,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="n"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23n)"/%3E%3C/svg%3E');
+}
+
+/* ── Card system ── */
+.sodi-card {
+  background: linear-gradient(180deg, rgba(16,16,24,0.4) 0%, rgba(8,8,12,0.9) 100%);
+  border: 1px solid rgba(255,255,255,0.03);
+  border-radius: 20px;
+  position: relative;
+  transition: all .4s ease;
+}
+.sodi-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent, rgba(255,255,255,0.01));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+@media (hover: hover) {
+  .sodi-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0,255,163,0.15);
+  }
+}
+
+/* ── Text gradients ── */
+.tg-white {
+  background: linear-gradient(180deg, #FFFFFF 20%, #A1A1AA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tg-accent {
+  background: linear-gradient(90deg, #00FFA3, #00E0FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px }
+::-webkit-scrollbar-track { background: #040406 }
+::-webkit-scrollbar-thumb { background: #1A1A20; border-radius: 10px }
+
+/* ── WA float ── */
+.wa-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(37,211,102,.15);
+  transition: transform .3s, box-shadow .3s;
+}
+.wa-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 3px 14px rgba(37,211,102,.25);
+}
+.wa-btn::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(37,211,102,.12);
+  animation: wr 3s ease-out infinite;
+}
+@keyframes wr {
+  0% { transform: scale(1); opacity: 1 }
+  100% { transform: scale(1.5); opacity: 0 }
+}
+
+/* ── Selection ── */
+::selection {
+  background: var(--color-s-accent);
+  color: black;
+}
