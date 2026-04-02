@@ -36,11 +36,11 @@
 
         .rv{opacity:0;transform:translateY(12px);transition:all .8s cubic-bezier(.16,1,.3,1)}
         .rv.v{opacity:1;transform:translateY(0)}
-        .d1{transition-delay:100ms}.d2{transition-delay:200ms}.d3{transition-delay:300ms}.d4{transition-delay:400ms}
+        .d1{transition-delay:100ms}.d2{transition-delay:200ms}.d3{transition-delay:300ms}
 
         .sodi-card{background:linear-gradient(180deg,rgba(16,16,24,0.4) 0%,rgba(8,8,12,0.9) 100%);border:1px solid rgba(255,255,255,0.03);border-radius:20px;position:relative;transition:all .4s ease}
         .sodi-card::before{content:'';position:absolute;inset:0;border-radius:20px;padding:1px;background:linear-gradient(180deg,rgba(255,255,255,0.06),transparent,rgba(255,255,255,0.01));-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
-        @media(hover:hover){.sodi-card:hover{transform:translateY(-3px);border-color:rgba(0,255,163,0.15);background:linear-gradient(180deg,rgba(20,20,30,0.6) 0%,rgba(8,8,12,1) 100%)}}
+        @media(hover:hover){.sodi-card:hover{transform:translateY(-3px);border-color:rgba(0,255,163,0.15)}}
 
         .tg-white{background:linear-gradient(180deg,#FFFFFF 20%,#A1A1AA 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
         .tg-accent{background:linear-gradient(90deg,#00FFA3,#00E0FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
@@ -51,15 +51,6 @@
         .wa-btn:hover{transform:scale(1.08);box-shadow:0 3px 14px rgba(37,211,102,.25)}
         .wa-btn::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1.5px solid rgba(37,211,102,.12);animation:wr 3s ease-out infinite}
         @keyframes wr{0%{transform:scale(1);opacity:1}100%{transform:scale(1.5);opacity:0}}
-
-        /* Flow diagram */
-        .flow-node{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:12px 16px;text-align:center;font-size:12px;font-weight:600;color:#F4F4F6;white-space:nowrap}
-        .flow-arrow{color:rgba(0,255,163,0.4);font-size:18px;display:flex;align-items:center}
-
-        @media(max-width:639px){
-            .sodi-card{border-radius:20px}
-            .flow-node{padding:10px 12px;font-size:11px}
-        }
     </style>
 </head>
 <body class="selection:bg-s-accent selection:text-black">
@@ -72,9 +63,9 @@
 <div class="fixed top-[-12%] left-[-6%] w-[50vw] h-[50vw] max-w-[600px] max-h-[600px] rounded-full blur-[140px] pointer-events-none z-[-1] opacity-70" style="background:radial-gradient(circle,rgba(0,255,163,.06) 0%,transparent 70%)"></div>
 <div class="fixed bottom-[-12%] right-[-6%] w-[40vw] h-[40vw] max-w-[480px] max-h-[480px] rounded-full blur-[120px] pointer-events-none z-[-1] opacity-50" style="background:radial-gradient(circle,rgba(60,90,255,.04) 0%,transparent 70%)"></div>
 
-<!-- ═══════ 0. NAV ═══════ -->
-<nav class="fixed top-0 w-full z-50 px-4 sm:px-6 py-4 sm:py-5">
-    <div class="max-w-6xl mx-auto flex justify-between items-center glass rounded-xl px-4 sm:px-6 py-3 border-white/5 shadow-2xl">
+<!-- ═══════ NAV ═══════ -->
+<nav class="fixed top-0 w-full z-50 px-4 sm:px-6 py-3 sm:py-5">
+    <div class="max-w-6xl mx-auto flex justify-between items-center glass rounded-xl px-4 sm:px-6 py-2.5 sm:py-3 border-white/5 shadow-2xl">
         <a href="#" class="flex items-baseline gap-3">
             <span class="sodi-mark">SODI</span>
             <span class="hidden sm:inline-block h-3 w-px bg-white/10 self-center"></span>
@@ -82,436 +73,277 @@
         </a>
         <div class="hidden md:flex items-center gap-8 text-[11px] font-bold text-s-sub uppercase tracking-wider">
             <a href="#soluciones" class="hover:text-white transition-colors">Soluciones</a>
-            <a href="#metodo" class="hover:text-white transition-colors">Cómo trabajamos</a>
+            <a href="#metodo" class="hover:text-white transition-colors">Proceso</a>
             <a href="#casoreal" class="hover:text-white transition-colors">Caso real</a>
-            <a href="#aplicacion" class="hover:text-white transition-colors">Aplicación</a>
         </div>
-        <a href="#diagnostico" class="bg-white text-black px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg text-[11px] sm:text-[12px] font-black uppercase tracking-tight hover:bg-s-accent transition-all shadow-lg">Solicitar diagnóstico</a>
+        <a href="#diagnostico" class="bg-white text-black px-4 sm:px-5 py-2 rounded-lg text-[11px] font-black uppercase tracking-tight hover:bg-s-accent transition-all">Diagnóstico</a>
     </div>
 </nav>
 
 <!-- ═══════ 1. HERO ═══════ -->
-<section class="relative min-h-screen flex flex-col justify-center items-center pt-28 sm:pt-32 pb-20 sm:pb-24 px-6 overflow-hidden">
+<section class="relative min-h-[90vh] sm:min-h-screen flex flex-col justify-center items-center pt-24 sm:pt-32 pb-14 sm:pb-24 px-6 overflow-hidden">
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-s-accent/[0.03] blur-[140px] pointer-events-none z-0"></div>
     <div class="max-w-5xl mx-auto text-center relative z-10">
-        <div class="rv inline-flex items-center gap-3 px-4 sm:px-5 py-2 rounded-lg bg-white/[0.03] border border-white/10 text-[9px] sm:text-[10px] font-bold text-s-accent uppercase tracking-[0.25em] sm:tracking-[0.35em] mb-10 sm:mb-12">
-            <span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-s-accent opacity-50"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-s-accent"></span></span>
-            Webs, sistemas y automatización para empresas reales
+        <div class="rv inline-flex items-center gap-2.5 px-4 py-1.5 rounded-lg bg-white/[0.03] border border-white/10 text-[9px] sm:text-[10px] font-bold text-s-accent uppercase tracking-[0.2em] sm:tracking-[0.35em] mb-8 sm:mb-12">
+            <span class="relative flex h-1.5 w-1.5 sm:h-2 sm:w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-s-accent opacity-50"></span><span class="relative inline-flex rounded-full h-1.5 w-1.5 sm:h-2 sm:w-2 bg-s-accent"></span></span>
+            Webs, sistemas y automatización
         </div>
 
-        <h1 class="rv d1 text-[2.5rem] sm:text-5xl md:text-[4.5rem] lg:text-[5.5rem] font-extrabold leading-[1] mb-8 sm:mb-10 tracking-tighter">
-            <span class="tg-white">Menos desorden operativo.</span><br>
-            <span class="tg-accent">Más ventas, seguimiento y control.</span>
+        <h1 class="rv d1 text-[2.4rem] sm:text-5xl md:text-[4.5rem] lg:text-[5.5rem] font-extrabold leading-[0.95] mb-6 sm:mb-8 tracking-tighter">
+            <span class="tg-white">Menos desorden.</span><br>
+            <span class="tg-accent">Más ventas y control.</span>
         </h1>
 
-        <p class="rv d2 text-[16px] sm:text-lg md:text-xl text-s-sub max-w-3xl mx-auto leading-relaxed mb-10 sm:mb-14">
-            Implementamos <strong class="text-white font-semibold">webs, automatizaciones, bots de WhatsApp y sistemas internos</strong> para empresas que ya venden, pero están perdiendo tiempo, oportunidades y visibilidad por procesos rotos.
+        <p class="rv d2 text-[15px] sm:text-lg md:text-xl text-s-sub max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-12">
+            Webs, automatizaciones y sistemas para empresas que ya venden, pero necesitan más orden para crecer.
         </p>
 
-        <div class="rv d3 flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center items-center">
-            <a href="#diagnostico" class="w-full sm:w-auto bg-s-accent text-black px-8 sm:px-12 py-[18px] sm:py-5 rounded-2xl sm:rounded-xl text-[15px] sm:text-[14px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-[0_15px_40px_rgba(0,255,163,0.2)]">
+        <div class="rv d3 flex flex-col sm:flex-row gap-3 sm:gap-5 justify-center items-center">
+            <a href="#diagnostico" class="w-full sm:w-auto bg-s-accent text-black px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] sm:text-[14px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-[0_15px_40px_rgba(0,255,163,0.2)]">
                 Solicitar diagnóstico operativo
             </a>
-            <a href="#soluciones" class="w-full sm:w-auto px-8 sm:px-12 py-[18px] sm:py-5 rounded-2xl sm:rounded-xl text-[15px] sm:text-[14px] font-semibold text-white border border-white/10 hover:bg-white/5 transition-all uppercase tracking-tight text-center">
+            <a href="#soluciones" class="w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 hover:bg-white/5 transition-all uppercase tracking-tight text-center">
                 Ver cómo funciona
             </a>
         </div>
     </div>
 </section>
 
-<!-- ═══════ 2. ESTO ES PARA VOS SI… ═══════ -->
-<section class="py-20 sm:py-28 px-6 border-t border-white/5">
+<!-- ═══════ 2. ESTO ES PARA VOS SI… (4 cards max) ═══════ -->
+<section class="py-14 sm:py-24 px-6 border-t border-white/5">
     <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-12 sm:mb-16 rv">
-            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-4">Diagnóstico rápido</p>
-            <h2 class="text-[1.7rem] sm:text-3xl md:text-4xl font-extrabold tracking-tighter mb-4">Esto es para vos si…</h2>
-            <p class="text-s-sub text-[15px] sm:text-base max-w-2xl mx-auto">Tu empresa ya se mueve, pero el desorden operativo, la mala respuesta o la falta de seguimiento te están frenando.</p>
+        <div class="mb-8 sm:mb-14 rv">
+            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-3">Diagnóstico rápido</p>
+            <h2 class="text-[1.5rem] sm:text-3xl md:text-4xl font-extrabold tracking-tighter">Esto es para vos si…</h2>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-            <div class="rv d1 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl flex items-start gap-4">
-                <svg class="w-5 h-5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                <p class="text-[14px] sm:text-[15px] text-s-sub"><strong class="text-white font-semibold">Tenés consultas o leads</strong> pero no seguimiento claro</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+            <div class="rv p-4 sm:p-5 bg-white/[0.02] border border-white/5 rounded-xl flex items-start gap-3">
+                <svg class="w-4 h-4 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                <p class="text-[13px] sm:text-[14px] text-s-sub"><strong class="text-white font-semibold">Tenés leads</strong> pero no seguimiento claro</p>
             </div>
-            <div class="rv d1 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl flex items-start gap-4">
-                <svg class="w-5 h-5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                <p class="text-[14px] sm:text-[15px] text-s-sub"><strong class="text-white font-semibold">Usás WhatsApp</strong> como centro de operación</p>
+            <div class="rv d1 p-4 sm:p-5 bg-white/[0.02] border border-white/5 rounded-xl flex items-start gap-3">
+                <svg class="w-4 h-4 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                <p class="text-[13px] sm:text-[14px] text-s-sub"><strong class="text-white font-semibold">Usás WhatsApp</strong> como centro de operación</p>
             </div>
-            <div class="rv d2 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl flex items-start gap-4">
-                <svg class="w-5 h-5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                <p class="text-[14px] sm:text-[15px] text-s-sub"><strong class="text-white font-semibold">Dependés de personas</strong> para responder o vender</p>
+            <div class="rv d1 p-4 sm:p-5 bg-white/[0.02] border border-white/5 rounded-xl flex items-start gap-3">
+                <svg class="w-4 h-4 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                <p class="text-[13px] sm:text-[14px] text-s-sub"><strong class="text-white font-semibold">Info repartida</strong> entre chats, Excel y herramientas sueltas</p>
             </div>
-            <div class="rv d2 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl flex items-start gap-4">
-                <svg class="w-5 h-5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                <p class="text-[14px] sm:text-[15px] text-s-sub"><strong class="text-white font-semibold">Información repartida</strong> entre chats, Excel y herramientas sueltas</p>
-            </div>
-            <div class="rv d3 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl flex items-start gap-4">
-                <svg class="w-5 h-5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                <p class="text-[14px] sm:text-[15px] text-s-sub"><strong class="text-white font-semibold">Tu web no acompaña</strong> realmente la operación del negocio</p>
-            </div>
-            <div class="rv d3 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl flex items-start gap-4">
-                <svg class="w-5 h-5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                <p class="text-[14px] sm:text-[15px] text-s-sub"><strong class="text-white font-semibold">Podrías vender más,</strong> pero hoy todo depende del caos</p>
+            <div class="rv d2 p-4 sm:p-5 bg-white/[0.02] border border-white/5 rounded-xl flex items-start gap-3">
+                <svg class="w-4 h-4 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                <p class="text-[13px] sm:text-[14px] text-s-sub"><strong class="text-white font-semibold">Dependés de personas</strong> para responder o vender</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ═══════ 3. SOLUCIONES (integrated system) ═══════ -->
-<section id="soluciones" class="py-20 sm:py-28 px-6">
+<!-- ═══════ 3. SOLUCIONES ═══════ -->
+<section id="soluciones" class="py-14 sm:py-24 px-6">
     <div class="max-w-6xl mx-auto">
-        <div class="mb-14 sm:mb-20 rv">
-            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-4">Sistema integrado</p>
-            <h2 class="text-[1.7rem] sm:text-3xl md:text-[2.75rem] font-extrabold tracking-tighter mb-4 leading-tight max-w-2xl">Cómo ordenamos y hacemos crecer tu operación</h2>
-            <p class="text-s-sub text-[15px] sm:text-base max-w-2xl">No vendemos piezas sueltas. Diseñamos infraestructura digital para captar mejor, responder más rápido y operar con más control.</p>
+        <div class="mb-8 sm:mb-16 rv">
+            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-3">Sistema integrado</p>
+            <h2 class="text-[1.4rem] sm:text-3xl md:text-[2.75rem] font-extrabold tracking-tighter leading-tight max-w-xl">Cómo ordenamos y hacemos crecer tu operación</h2>
         </div>
 
-        <!-- Flow diagram -->
-        <div class="rv d1 mb-14 sm:mb-20 overflow-x-auto pb-2">
-            <div class="flex items-center gap-2 sm:gap-3 min-w-max mx-auto justify-center">
-                <div class="flow-node">Web / Campaña</div>
-                <div class="flow-arrow"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg></div>
-                <div class="flow-node border-s-accent/20">WhatsApp / Formulario</div>
-                <div class="flow-arrow"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg></div>
-                <div class="flow-node border-blue-500/20">Sistema / CRM</div>
-                <div class="flow-arrow"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg></div>
-                <div class="flow-node">Seguimiento</div>
-                <div class="flow-arrow"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg></div>
-                <div class="flow-node border-s-accent/30 text-s-accent">Venta / Gestión</div>
+        <!-- Flow: simple text on mobile, visual on desktop -->
+        <div class="rv d1 mb-8 sm:mb-16 hidden sm:block overflow-x-auto pb-2">
+            <div class="flex items-center gap-3 min-w-max mx-auto justify-center text-[12px] font-semibold text-s-sub">
+                <span class="px-4 py-2.5 bg-white/[0.03] border border-white/6 rounded-lg">Web / Campaña</span>
+                <svg class="w-4 h-4 text-s-accent/40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg>
+                <span class="px-4 py-2.5 bg-white/[0.03] border border-s-accent/15 rounded-lg">WhatsApp</span>
+                <svg class="w-4 h-4 text-s-accent/40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg>
+                <span class="px-4 py-2.5 bg-white/[0.03] border border-blue-500/15 rounded-lg">Sistema / CRM</span>
+                <svg class="w-4 h-4 text-s-accent/40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg>
+                <span class="px-4 py-2.5 bg-white/[0.03] border border-white/6 rounded-lg">Seguimiento</span>
+                <svg class="w-4 h-4 text-s-accent/40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14m-4-4l4 4-4 4"/></svg>
+                <span class="px-4 py-2.5 bg-white/[0.03] border border-s-accent/25 rounded-lg text-s-accent">Venta</span>
             </div>
         </div>
+        <p class="rv d1 sm:hidden text-[12px] text-s-dim mb-6 tracking-wide">Captación → Respuesta → Sistema → Seguimiento → Venta</p>
 
-        <!-- 3 cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
-            <div class="sodi-card p-7 sm:p-9 flex flex-col rv d1">
-                <div class="w-8 h-8 bg-s-accent/10 rounded-lg flex items-center justify-center text-s-accent mb-7 border border-s-accent/15 opacity-60">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586"/></svg>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+            <div class="sodi-card p-6 sm:p-8 flex flex-col rv d1">
+                <div class="w-7 h-7 bg-s-accent/10 rounded-lg flex items-center justify-center text-s-accent mb-5 border border-s-accent/15 opacity-60">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586"/></svg>
                 </div>
-                <h3 class="text-lg sm:text-xl font-bold mb-3 tracking-tight">Captación y respuesta</h3>
-                <p class="text-s-sub text-[14px] mb-8 leading-relaxed">Bots de WhatsApp, automatizaciones, formularios y flujos para responder más rápido, filtrar mejor y no perder oportunidades.</p>
-                <ul class="space-y-3 mt-auto border-t border-white/5 pt-6">
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> Respuesta automática</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> Derivación de consultas</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> Turnos / agenda / contacto</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> Calificación de leads</li>
+                <h3 class="text-[16px] sm:text-lg font-bold mb-2 tracking-tight">Captación y respuesta</h3>
+                <p class="text-s-sub text-[13px] mb-6 leading-relaxed">Automatizaciones y flujos para responder más rápido y no perder oportunidades.</p>
+                <ul class="space-y-2.5 mt-auto border-t border-white/5 pt-5">
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> WhatsApp automático</li>
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> Formularios y agenda</li>
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-s-accent"></span> Calificación de leads</li>
                 </ul>
             </div>
 
-            <div class="sodi-card p-7 sm:p-9 flex flex-col rv d2">
-                <div class="w-8 h-8 bg-blue-500/10 rounded-lg flex items-center justify-center text-blue-400 mb-7 border border-blue-500/15 opacity-60">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+            <div class="sodi-card p-6 sm:p-8 flex flex-col rv d2">
+                <div class="w-7 h-7 bg-blue-500/10 rounded-lg flex items-center justify-center text-blue-400 mb-5 border border-blue-500/15 opacity-60">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2"/></svg>
                 </div>
-                <h3 class="text-lg sm:text-xl font-bold mb-3 tracking-tight text-blue-400">Operación y gestión</h3>
-                <p class="text-s-sub text-[14px] mb-8 leading-relaxed">Sistemas internos, paneles, seguimiento y procesos para que el negocio deje de depender de chats, memoria o Excel.</p>
-                <ul class="space-y-3 mt-auto border-t border-white/5 pt-6">
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Paneles operativos</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Control de clientes / tareas / stock</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Seguimiento interno</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Información centralizada</li>
+                <h3 class="text-[16px] sm:text-lg font-bold mb-2 tracking-tight text-blue-400">Operación y gestión</h3>
+                <p class="text-s-sub text-[13px] mb-6 leading-relaxed">Paneles y procesos para dejar de depender de chats, memoria o Excel.</p>
+                <ul class="space-y-2.5 mt-auto border-t border-white/5 pt-5">
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Paneles operativos</li>
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Control de clientes / stock</li>
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-blue-400"></span> Info centralizada</li>
                 </ul>
             </div>
 
-            <div class="sodi-card p-7 sm:p-9 flex flex-col rv d3">
-                <div class="w-8 h-8 bg-white/5 rounded-lg flex items-center justify-center text-white mb-7 border border-white/10 opacity-60">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 15l-2 5L9 9l11 4-5 2z"/></svg>
+            <div class="sodi-card p-6 sm:p-8 flex flex-col rv d3">
+                <div class="w-7 h-7 bg-white/5 rounded-lg flex items-center justify-center text-white mb-5 border border-white/10 opacity-60">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 15l-2 5L9 9l11 4-5 2z"/></svg>
                 </div>
-                <h3 class="text-lg sm:text-xl font-bold mb-3 tracking-tight">Web y distribución digital</h3>
-                <p class="text-s-sub text-[14px] mb-8 leading-relaxed">Sitios pensados para convertir, comunicar bien y conectar con la operación real de tu empresa. No una web decorativa: una web que mueve negocio.</p>
-                <ul class="space-y-3 mt-auto border-t border-white/5 pt-6">
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Webs de conversión</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Conexión con WhatsApp / sistemas</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Posicionamiento más claro</li>
-                    <li class="flex items-center gap-3 text-[12px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Experiencia mobile-first</li>
+                <h3 class="text-[16px] sm:text-lg font-bold mb-2 tracking-tight">Web y distribución</h3>
+                <p class="text-s-sub text-[13px] mb-6 leading-relaxed">Sitios que convierten y se conectan con tu operación real.</p>
+                <ul class="space-y-2.5 mt-auto border-t border-white/5 pt-5">
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Webs de conversión</li>
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Conexión con WA / CRM</li>
+                    <li class="flex items-center gap-2.5 text-[11px] text-white/50"><span class="w-1 h-1 rounded-full bg-white/60"></span> Mobile-first</li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ═══════ 4. CÓMO TRABAJAMOS ═══════ -->
-<section id="metodo" class="py-20 sm:py-28 px-6 bg-[#06060A]/50 border-y border-white/5">
+<!-- ═══════ 4. CÓMO TRABAJAMOS (compact 2x2) ═══════ -->
+<section id="metodo" class="py-14 sm:py-24 px-6 bg-[#06060A]/50 border-y border-white/5">
     <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-14 sm:mb-20 rv">
-            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-4">Proceso</p>
-            <h2 class="text-[1.7rem] sm:text-3xl md:text-4xl font-extrabold tracking-tighter mb-4">Cómo trabajamos</h2>
-            <p class="text-s-sub text-[15px] sm:text-base max-w-2xl mx-auto">Cada proyecto arranca con un diagnóstico claro y termina con un sistema que acompaña cómo vende y opera tu empresa.</p>
+        <div class="mb-8 sm:mb-14 rv">
+            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-3">Proceso</p>
+            <h2 class="text-[1.4rem] sm:text-3xl md:text-4xl font-extrabold tracking-tighter">Cómo trabajamos</h2>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div class="rv p-6 sm:p-7 bg-white/[0.02] border border-white/5 rounded-2xl">
-                <div class="w-10 h-10 bg-s-accent/10 border border-s-accent/15 rounded-xl flex items-center justify-center text-s-accent text-sm font-heading font-bold mb-5">1</div>
-                <h4 class="font-bold text-[15px] mb-2">Diagnóstico</h4>
-                <p class="text-s-sub text-[13px] leading-relaxed">Identificamos dónde hoy estás perdiendo tiempo, control o ventas.</p>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
+            <div class="rv p-4 sm:p-6 bg-white/[0.02] border border-white/5 rounded-xl">
+                <div class="w-8 h-8 bg-s-accent/10 border border-s-accent/15 rounded-lg flex items-center justify-center text-s-accent text-xs font-heading font-bold mb-3 sm:mb-4">1</div>
+                <h4 class="font-bold text-[13px] sm:text-[15px] mb-1">Diagnóstico</h4>
+                <p class="text-s-sub text-[11px] sm:text-[13px] leading-relaxed">Dónde perdés tiempo, control o ventas.</p>
             </div>
-            <div class="rv d1 p-6 sm:p-7 bg-white/[0.02] border border-white/5 rounded-2xl">
-                <div class="w-10 h-10 bg-white/[0.04] border border-white/5 rounded-xl flex items-center justify-center text-white text-sm font-heading font-bold mb-5">2</div>
-                <h4 class="font-bold text-[15px] mb-2">Diseño del sistema</h4>
-                <p class="text-s-sub text-[13px] leading-relaxed">Definimos qué conviene automatizar, centralizar o reconstruir primero.</p>
+            <div class="rv d1 p-4 sm:p-6 bg-white/[0.02] border border-white/5 rounded-xl">
+                <div class="w-8 h-8 bg-white/[0.04] border border-white/5 rounded-lg flex items-center justify-center text-white text-xs font-heading font-bold mb-3 sm:mb-4">2</div>
+                <h4 class="font-bold text-[13px] sm:text-[15px] mb-1">Diseño</h4>
+                <p class="text-s-sub text-[11px] sm:text-[13px] leading-relaxed">Qué automatizar o centralizar primero.</p>
             </div>
-            <div class="rv d2 p-6 sm:p-7 bg-white/[0.02] border border-white/5 rounded-2xl">
-                <div class="w-10 h-10 bg-white/[0.04] border border-white/5 rounded-xl flex items-center justify-center text-white text-sm font-heading font-bold mb-5">3</div>
-                <h4 class="font-bold text-[15px] mb-2">Implementación</h4>
-                <p class="text-s-sub text-[13px] leading-relaxed">Desarrollamos la web, los flujos, las automatizaciones o el sistema según el caso.</p>
+            <div class="rv d2 p-4 sm:p-6 bg-white/[0.02] border border-white/5 rounded-xl">
+                <div class="w-8 h-8 bg-white/[0.04] border border-white/5 rounded-lg flex items-center justify-center text-white text-xs font-heading font-bold mb-3 sm:mb-4">3</div>
+                <h4 class="font-bold text-[13px] sm:text-[15px] mb-1">Implementación</h4>
+                <p class="text-s-sub text-[11px] sm:text-[13px] leading-relaxed">Web, flujos o sistema según el caso.</p>
             </div>
-            <div class="rv d3 p-6 sm:p-7 bg-white/[0.02] border border-white/5 rounded-2xl">
-                <div class="w-10 h-10 bg-white/[0.04] border border-white/5 rounded-xl flex items-center justify-center text-white text-sm font-heading font-bold mb-5">4</div>
-                <h4 class="font-bold text-[15px] mb-2">Optimización</h4>
-                <p class="text-s-sub text-[13px] leading-relaxed">Ajustamos el funcionamiento real para mejorar respuesta, seguimiento y operación.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ═══════ 5. PAIN (before/after) ═══════ -->
-<section class="py-20 sm:py-28 px-6 overflow-hidden">
-    <div class="max-w-5xl mx-auto">
-        <div class="mb-14 sm:mb-20 rv max-w-3xl">
-            <p class="text-red-500/80 font-bold text-[10px] uppercase tracking-[0.4em] mb-4">El problema real</p>
-            <h2 class="text-[1.6rem] sm:text-3xl md:text-[2.5rem] font-extrabold tracking-tighter mb-5 leading-tight">Si tu negocio depende de personas para responder, seguir o controlar, el problema no es el equipo. <span class="text-white/40">Es el sistema.</span></h2>
-            <p class="text-s-sub text-[15px] sm:text-base leading-relaxed">Cuando la información vive en chats, Excel o en la cabeza de alguien, cada demora cuesta ventas, tiempo y control. Diseñamos sistemas para que la operación siga funcionando incluso cuando el negocio crece, se mueve o cambia.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 rv d1">
-            <!-- Sin sistema -->
-            <div class="p-6 sm:p-8 bg-red-500/[0.03] border border-red-500/10 rounded-2xl">
-                <div class="flex items-center gap-3 mb-6">
-                    <div class="w-2 h-2 rounded-full bg-red-500/60"></div>
-                    <span class="text-[11px] font-bold text-red-400/80 uppercase tracking-[0.2em]">Sin sistema</span>
-                </div>
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-3 text-[14px] text-red-400/60">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
-                        <span>Leads sin responder a tiempo</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-[14px] text-red-400/60">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
-                        <span>Seguimiento inconsistente</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-[14px] text-red-400/60">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
-                        <span>Información repartida</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-[14px] text-red-400/60">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
-                        <span>Dependencia de personas clave</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Con sistema -->
-            <div class="p-6 sm:p-8 bg-s-accent/[0.03] border border-s-accent/10 rounded-2xl">
-                <div class="flex items-center gap-3 mb-6">
-                    <div class="w-2 h-2 rounded-full bg-s-accent"></div>
-                    <span class="text-[11px] font-bold text-s-accent/80 uppercase tracking-[0.2em]">Con sistema SODI</span>
-                </div>
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-3 text-[14px] text-s-accent/70">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        <span>Respuesta automática y ordenada</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-[14px] text-s-accent/70">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        <span>Seguimiento visible</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-[14px] text-s-accent/70">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        <span>Datos centralizados</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-[14px] text-s-accent/70">
-                        <svg class="w-4 h-4 mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        <span>Más control operativo</span>
-                    </li>
-                </ul>
+            <div class="rv d3 p-4 sm:p-6 bg-white/[0.02] border border-white/5 rounded-xl">
+                <div class="w-8 h-8 bg-white/[0.04] border border-white/5 rounded-lg flex items-center justify-center text-white text-xs font-heading font-bold mb-3 sm:mb-4">4</div>
+                <h4 class="font-bold text-[13px] sm:text-[15px] mb-1">Optimización</h4>
+                <p class="text-s-sub text-[11px] sm:text-[13px] leading-relaxed">Ajustes reales sobre lo que funciona.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ═══════ 6. CASO REAL: CAEDE ═══════ -->
-<section id="casoreal" class="py-20 sm:py-28 px-6 relative overflow-hidden bg-black border-y border-white/5">
+<!-- ═══════ 5. CAEDE PROOF (compressed) ═══════ -->
+<section id="casoreal" class="py-14 sm:py-24 px-6 relative overflow-hidden bg-black border-y border-white/5">
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(255,107,0,0.05),transparent_50%)]"></div>
-    <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-14 sm:gap-20 items-center relative z-10">
+    <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 sm:gap-16 items-center relative z-10">
         <div class="rv">
-            <div class="inline-flex items-center gap-3 text-s-orange text-[10px] font-black mb-8 tracking-[0.4em] uppercase">
-                <span class="w-8 h-[2px] bg-s-orange"></span> Caso real en operación
+            <div class="inline-flex items-center gap-3 text-s-orange text-[10px] font-black mb-5 tracking-[0.4em] uppercase">
+                <span class="w-6 h-[2px] bg-s-orange"></span> Caso real
             </div>
-            <h2 class="text-[1.8rem] sm:text-4xl md:text-5xl font-extrabold mb-6 sm:mb-8 tracking-tighter leading-tight text-white">CAEDE: de presencia digital a infraestructura comercial.</h2>
-            <p class="text-s-sub text-[15px] sm:text-base mb-8 sm:mb-10 leading-relaxed max-w-lg">
-                Desarrollamos y gestionamos la presencia digital de CAEDE como una base para conectar empresas reales con soluciones de sistema, operación, web y distribución. No fue solo una web. Fue la construcción de un canal.
+            <h2 class="text-[1.5rem] sm:text-3xl md:text-4xl font-extrabold mb-4 sm:mb-6 tracking-tighter leading-tight text-white">CAEDE: de web a canal comercial.</h2>
+            <p class="text-s-sub text-[14px] sm:text-[15px] mb-6 sm:mb-8 leading-relaxed max-w-lg">
+                Desarrollamos la presencia digital de CAEDE como base para conectar empresas con soluciones de sistema y operación. No fue solo una web. Fue un canal.
             </p>
 
-            <!-- Proof blocks -->
-            <div class="space-y-4 mb-10 sm:mb-12">
-                <div class="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/5 rounded-xl">
-                    <div class="w-2 h-2 rounded-full bg-s-orange mt-1.5 shrink-0"></div>
-                    <div>
-                        <p class="text-[13px] font-bold text-white mb-0.5">Web institucional y presencia digital</p>
-                        <p class="text-[12px] text-s-dim">Canal propio de comunicación y posicionamiento</p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/5 rounded-xl">
-                    <div class="w-2 h-2 rounded-full bg-s-orange mt-1.5 shrink-0"></div>
-                    <div>
-                        <p class="text-[13px] font-bold text-white mb-0.5">Canal de entrada hacia empresas del sector</p>
-                        <p class="text-[12px] text-s-dim">Captación orgánica y distribución activa</p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/5 rounded-xl">
-                    <div class="w-2 h-2 rounded-full bg-s-orange mt-1.5 shrink-0"></div>
-                    <div>
-                        <p class="text-[13px] font-bold text-white mb-0.5">Base para venta de sistemas y soluciones operativas</p>
-                        <p class="text-[12px] text-s-dim">Infraestructura que genera negocio, no solo presencia</p>
-                    </div>
-                </div>
+            <div class="space-y-3 mb-6 sm:mb-8">
+                <div class="flex items-center gap-3 text-[12px] sm:text-[13px]"><span class="w-1.5 h-1.5 rounded-full bg-s-orange shrink-0"></span> <span class="text-white/70">Web institucional y presencia digital</span></div>
+                <div class="flex items-center gap-3 text-[12px] sm:text-[13px]"><span class="w-1.5 h-1.5 rounded-full bg-s-orange shrink-0"></span> <span class="text-white/70">Canal de entrada hacia empresas del sector</span></div>
+                <div class="flex items-center gap-3 text-[12px] sm:text-[13px]"><span class="w-1.5 h-1.5 rounded-full bg-s-orange shrink-0"></span> <span class="text-white/70">Base para venta de sistemas operativos</span></div>
             </div>
 
-            <p class="text-[10px] text-s-dim uppercase tracking-[0.2em] font-bold mb-6">Proyecto activo gestionado por SODI</p>
-
-            <a href="#diagnostico" class="inline-flex items-center gap-3 bg-s-orange text-black px-7 sm:px-10 py-4 sm:py-5 rounded-xl font-black text-[13px] uppercase tracking-wide hover:brightness-110 transition-all w-full sm:w-auto justify-center">
+            <a href="#diagnostico" class="inline-flex items-center gap-3 bg-s-orange text-black px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl font-black text-[12px] sm:text-[13px] uppercase tracking-wide hover:brightness-110 transition-all w-full sm:w-auto justify-center">
                 Solicitar diagnóstico para tu empresa
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
         </div>
 
-        <!-- Dashboard module -->
-        <div class="rv d2 rounded-2xl border border-white/5 bg-[#060608] p-5 sm:p-8 shadow-2xl">
-            <div class="flex items-center justify-between mb-6 sm:mb-8 pb-4 border-b border-white/5">
-                <div class="flex items-center gap-3">
+        <!-- Dashboard (simplified) -->
+        <div class="rv d2 rounded-xl border border-white/5 bg-[#060608] p-5 sm:p-7">
+            <div class="flex items-center justify-between mb-5 pb-3 border-b border-white/5">
+                <div class="flex items-center gap-2">
                     <div class="w-2 h-2 rounded-full bg-s-orange animate-pulse"></div>
-                    <span class="text-[10px] font-black text-white uppercase tracking-[0.2em]">Panel CAEDE</span>
+                    <span class="text-[10px] font-bold text-white uppercase tracking-[0.15em]">Panel CAEDE</span>
                 </div>
-                <span class="text-[9px] font-mono text-s-dim uppercase">En operación</span>
+                <span class="text-[9px] font-mono text-s-dim">En operación</span>
             </div>
-
-            <!-- Service alert -->
-            <div class="p-4 sm:p-5 bg-white/[0.02] border-l-2 border-s-orange rounded-lg mb-4">
-                <div class="flex justify-between items-start mb-3 gap-2">
-                    <span class="text-[11px] font-bold text-white">Excavadora CAT-930</span>
-                    <span class="text-[9px] font-bold text-s-orange px-2 py-0.5 bg-s-orange/10 border border-s-orange/20 rounded whitespace-nowrap">Service pendiente</span>
-                </div>
-                <div class="flex justify-between items-end">
-                    <span class="text-xl font-bold font-heading tracking-tight">502 <span class="text-[10px] text-s-dim">hs</span></span>
-                    <span class="text-[10px] text-s-dim">Op: J. Domínguez</span>
-                </div>
+            <div class="p-3.5 bg-white/[0.02] border-l-2 border-s-orange rounded-lg mb-3">
+                <div class="flex justify-between items-center mb-2"><span class="text-[11px] font-bold text-white">Excavadora CAT-930</span><span class="text-[8px] font-bold text-s-orange px-1.5 py-0.5 bg-s-orange/10 rounded">Service</span></div>
+                <div class="flex justify-between"><span class="text-lg font-bold font-heading">502 <span class="text-[9px] text-s-dim">hs</span></span><span class="text-[9px] text-s-dim">J. Domínguez</span></div>
             </div>
-
-            <!-- Active unit -->
-            <div class="p-4 sm:p-5 bg-white/[0.02] border-l-2 border-s-accent rounded-lg mb-4">
-                <div class="flex justify-between items-start mb-3 gap-2">
-                    <span class="text-[11px] font-bold text-white">Mixer 04 — En ruta</span>
-                    <span class="text-[9px] font-bold text-s-accent px-2 py-0.5 bg-s-accent/10 border border-s-accent/20 rounded">Operativo</span>
-                </div>
-                <div class="flex justify-between items-end">
-                    <span class="text-[13px] font-bold text-white/70">Obra San Telmo</span>
-                    <span class="text-[10px] text-s-dim">ETA: 14:35</span>
-                </div>
+            <div class="p-3.5 bg-white/[0.02] border-l-2 border-s-accent rounded-lg">
+                <div class="flex justify-between items-center mb-2"><span class="text-[11px] font-bold text-white">Mixer 04</span><span class="text-[8px] font-bold text-s-accent px-1.5 py-0.5 bg-s-accent/10 rounded">Operativo</span></div>
+                <div class="flex justify-between"><span class="text-[12px] font-bold text-white/70">Obra San Telmo</span><span class="text-[9px] text-s-dim">ETA: 14:35</span></div>
             </div>
-
-            <!-- Summary row -->
-            <div class="grid grid-cols-3 gap-3 mt-6 pt-5 border-t border-white/5">
-                <div class="text-center">
-                    <div class="text-lg font-bold font-heading text-white">18</div>
-                    <div class="text-[9px] text-s-dim uppercase tracking-wider">Equipos</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-lg font-bold font-heading text-s-accent">3</div>
-                    <div class="text-[9px] text-s-dim uppercase tracking-wider">Obras</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-lg font-bold font-heading text-s-orange">1</div>
-                    <div class="text-[9px] text-s-dim uppercase tracking-wider">Alerta</div>
-                </div>
+            <div class="grid grid-cols-3 gap-2 mt-4 pt-4 border-t border-white/5 text-center">
+                <div><div class="text-base font-bold font-heading">18</div><div class="text-[8px] text-s-dim uppercase">Equipos</div></div>
+                <div><div class="text-base font-bold font-heading text-s-accent">3</div><div class="text-[8px] text-s-dim uppercase">Obras</div></div>
+                <div><div class="text-base font-bold font-heading text-s-orange">1</div><div class="text-[8px] text-s-dim uppercase">Alerta</div></div>
             </div>
+        </div>
+    </div>
+    <!-- Inline sectors -->
+    <div class="max-w-6xl mx-auto mt-10 sm:mt-14 pt-8 sm:pt-10 border-t border-white/5 rv">
+        <p class="text-[10px] text-s-dim uppercase tracking-[0.25em] font-bold mb-4">También aplicamos en</p>
+        <div class="flex flex-wrap gap-2 sm:gap-3 text-[11px] sm:text-[12px] text-s-sub font-medium">
+            <span class="px-3 py-1.5 bg-white/[0.02] border border-white/5 rounded-lg">Inmobiliarias</span>
+            <span class="px-3 py-1.5 bg-white/[0.02] border border-white/5 rounded-lg">Estudios profesionales</span>
+            <span class="px-3 py-1.5 bg-white/[0.02] border border-white/5 rounded-lg">Salud y atención</span>
+            <span class="px-3 py-1.5 bg-white/[0.02] border border-white/5 rounded-lg">Construcción e industria</span>
+            <span class="px-3 py-1.5 bg-white/[0.02] border border-white/5 rounded-lg">y otros rubros</span>
         </div>
     </div>
 </section>
 
-<!-- ═══════ 7. CASOS DE APLICACIÓN ═══════ -->
-<section id="aplicacion" class="py-20 sm:py-24 px-6">
-    <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-12 sm:mb-16 rv">
-            <p class="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-4">Casos de aplicación</p>
-            <h2 class="text-[1.5rem] sm:text-3xl md:text-[2.5rem] font-extrabold tracking-tighter mb-4 leading-tight">Aplicamos estas soluciones en distintos rubros.</h2>
-            <p class="text-s-sub text-[15px] sm:text-base max-w-2xl mx-auto">No porque trabajemos solo ahí, sino porque ahí el desorden cuesta caro.</p>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-            <div class="rv p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl hover:bg-white/[0.04] transition-all">
-                <div class="text-s-accent text-[11px] font-bold uppercase tracking-widest mb-3">Inmobiliarias</div>
-                <p class="text-s-sub text-[13px] leading-relaxed">Captación, seguimiento y respuesta más ordenada para consultas por propiedades, visitas y cierres.</p>
-            </div>
-            <div class="rv d1 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl hover:bg-white/[0.04] transition-all">
-                <div class="text-s-accent text-[11px] font-bold uppercase tracking-widest mb-3">Estudios y servicios profesionales</div>
-                <p class="text-s-sub text-[13px] leading-relaxed">Consultas filtradas, agenda ordenada y mejor seguimiento comercial u operativo.</p>
-            </div>
-            <div class="rv d2 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl hover:bg-white/[0.04] transition-all">
-                <div class="text-s-accent text-[11px] font-bold uppercase tracking-widest mb-3">Salud y atención</div>
-                <p class="text-s-sub text-[13px] leading-relaxed">Turnos, respuestas frecuentes y organización de contactos o derivaciones.</p>
-            </div>
-            <div class="rv d3 p-5 sm:p-6 bg-white/[0.02] border border-white/5 rounded-2xl hover:bg-white/[0.04] transition-all">
-                <div class="text-s-accent text-[11px] font-bold uppercase tracking-widest mb-3">Construcción e industria</div>
-                <p class="text-s-sub text-[13px] leading-relaxed">Control operativo, reportes desde campo y mejor conexión entre ejecución y administración.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ═══════ 8. PROOF STRIP ═══════ -->
-<section class="py-12 sm:py-16 px-6 border-y border-white/5 bg-[#06060A]/50">
-    <div class="max-w-5xl mx-auto text-center rv">
-        <p class="text-[10px] sm:text-[11px] font-bold text-s-dim uppercase tracking-[0.3em] mb-6 sm:mb-8">Ya estamos construyendo sistemas y canales digitales en operación real</p>
-        <div class="flex flex-wrap justify-center gap-3 sm:gap-4">
-            <span class="px-4 py-2 bg-white/[0.02] border border-white/5 rounded-lg text-[12px] text-s-sub font-medium">Cámaras empresariales</span>
-            <span class="px-4 py-2 bg-white/[0.02] border border-white/5 rounded-lg text-[12px] text-s-sub font-medium">Empresas operativas</span>
-            <span class="px-4 py-2 bg-white/[0.02] border border-white/5 rounded-lg text-[12px] text-s-sub font-medium">Servicios profesionales</span>
-            <span class="px-4 py-2 bg-white/[0.02] border border-white/5 rounded-lg text-[12px] text-s-sub font-medium">Negocios con alta carga de consultas</span>
-        </div>
-    </div>
-</section>
-
-<!-- ═══════ 9. FINAL CTA ═══════ -->
-<section id="diagnostico" class="py-24 sm:py-36 px-6">
+<!-- ═══════ 6. FINAL CTA ═══════ -->
+<section id="diagnostico" class="py-16 sm:py-28 px-6">
     <div class="max-w-4xl mx-auto">
-        <div class="sodi-card p-8 sm:p-14 md:p-20 text-center relative overflow-hidden bg-gradient-to-b from-[#0C0C12] to-black">
+        <div class="sodi-card p-7 sm:p-14 md:p-20 text-center relative overflow-hidden bg-gradient-to-b from-[#0C0C12] to-black">
             <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,255,163,0.04),transparent_70%)]"></div>
-            <h2 class="text-[1.6rem] sm:text-3xl md:text-5xl font-extrabold mb-5 sm:mb-8 tracking-tighter relative z-10 text-white leading-tight">Te mostramos dónde estás perdiendo ventas, tiempo o control operativo.</h2>
-            <p class="text-s-sub text-[15px] sm:text-lg mb-10 sm:mb-12 max-w-2xl mx-auto relative z-10 leading-relaxed">
-                En una sesión breve relevamos cómo está funcionando hoy tu captación, respuesta y operación, y te decimos qué conviene automatizar primero.
+            <h2 class="text-[1.4rem] sm:text-3xl md:text-5xl font-extrabold mb-4 sm:mb-6 tracking-tighter relative z-10 text-white leading-tight">Te mostramos dónde estás perdiendo ventas, tiempo o control.</h2>
+            <p class="text-s-sub text-[14px] sm:text-lg mb-8 sm:mb-10 max-w-2xl mx-auto relative z-10 leading-relaxed">
+                Sesión breve. Relevamos captación, respuesta y operación. Te decimos qué automatizar primero.
             </p>
 
-            <div class="relative z-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="https://wa.me/5491100000000?text=Hola%20SODI,%20quiero%20un%20diagnóstico%20operativo." class="w-full sm:w-auto bg-s-accent text-black px-8 sm:px-12 py-[18px] sm:py-5 rounded-2xl sm:rounded-xl text-[15px] sm:text-[14px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-[0_15px_40px_rgba(0,255,163,0.2)]">
+            <div class="relative z-10 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
+                <a href="https://wa.me/5491100000000?text=Hola%20SODI,%20quiero%20un%20diagnóstico%20operativo." class="w-full sm:w-auto bg-s-accent text-black px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-[0_15px_40px_rgba(0,255,163,0.2)]">
                     Solicitar diagnóstico operativo
                 </a>
-                <a href="https://wa.me/5491100000000" class="w-full sm:w-auto px-8 sm:px-12 py-[18px] sm:py-5 rounded-2xl sm:rounded-xl text-[15px] sm:text-[14px] font-semibold text-white border border-white/10 hover:bg-white/5 transition-all flex items-center justify-center gap-3 uppercase tracking-tight">
+                <a href="https://wa.me/5491100000000" class="w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 hover:bg-white/5 transition-all flex items-center justify-center gap-2 uppercase tracking-tight">
                     <svg class="w-4 h-4 text-s-wa" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 1.892.527 3.66 1.438 5.163L2 22l4.97-1.392A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
-                    Hablar por WhatsApp
+                    WhatsApp
                 </a>
             </div>
 
-            <p class="mt-8 sm:mt-10 text-s-dim text-[11px] sm:text-[12px] relative z-10">Ideal para empresas que ya están vendiendo, pero necesitan más orden para crecer.</p>
+            <p class="mt-6 sm:mt-8 text-s-dim text-[11px] relative z-10">Para empresas que ya venden pero necesitan más orden para crecer.</p>
         </div>
     </div>
 </section>
 
-<!-- ═══════ 10. FOOTER ═══════ -->
-<footer class="py-16 sm:py-20 px-6 border-t border-white/5">
-    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12 sm:gap-16">
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="py-12 sm:py-16 px-6 border-t border-white/5">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10 sm:gap-16">
         <div class="max-w-sm">
-            <div class="mb-5"><span class="sodi-mark">SODI</span></div>
-            <p class="text-s-sub text-[14px] leading-relaxed mb-4">Webs, automatización y sistemas para empresas que necesitan más control y mejor distribución.</p>
-            <p class="text-s-dim text-[12px]">Proyectos en Argentina y otros mercados.</p>
+            <div class="mb-4"><span class="sodi-mark">SODI</span></div>
+            <p class="text-s-sub text-[13px] leading-relaxed mb-2">Webs, automatización y sistemas para empresas que necesitan más control y mejor distribución.</p>
+            <p class="text-s-dim text-[11px]">Argentina y otros mercados.</p>
         </div>
-        <div class="grid grid-cols-2 gap-12 sm:gap-16">
+        <div class="grid grid-cols-2 gap-10 sm:gap-16">
             <div>
-                <h5 class="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-5">Soluciones</h5>
-                <ul class="space-y-3 text-s-dim text-[13px]">
-                    <li><a href="#soluciones" class="hover:text-white transition-colors">Captación y respuesta</a></li>
-                    <li><a href="#soluciones" class="hover:text-white transition-colors">Operación y gestión</a></li>
-                    <li><a href="#soluciones" class="hover:text-white transition-colors">Web y distribución</a></li>
+                <h5 class="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-4">Soluciones</h5>
+                <ul class="space-y-2.5 text-s-dim text-[12px]">
+                    <li><a href="#soluciones" class="hover:text-white transition-colors">Captación</a></li>
+                    <li><a href="#soluciones" class="hover:text-white transition-colors">Operación</a></li>
+                    <li><a href="#soluciones" class="hover:text-white transition-colors">Web</a></li>
                     <li><a href="#casoreal" class="hover:text-white transition-colors">Caso real</a></li>
                 </ul>
             </div>
             <div>
-                <h5 class="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-5">Contacto</h5>
-                <ul class="space-y-3 text-s-dim text-[13px]">
+                <h5 class="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-4">Contacto</h5>
+                <ul class="space-y-2.5 text-s-dim text-[12px]">
                     <li><a href="https://wa.me/5491100000000" class="hover:text-white transition-colors">WhatsApp</a></li>
                     <li><a href="mailto:hola@sodi.ar" class="hover:text-white transition-colors">hola@sodi.ar</a></li>
                     <li>Buenos Aires, AR</li>
@@ -519,9 +351,9 @@
             </div>
         </div>
     </div>
-    <div class="max-w-6xl mx-auto mt-14 sm:mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-[11px] text-s-dim gap-4">
-        <span>&copy; 2026 SODI &middot; Menos caos. Más sistema.</span>
-        <div class="flex gap-6">
+    <div class="max-w-6xl mx-auto mt-10 sm:mt-14 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between text-[11px] text-s-dim gap-3">
+        <span>&copy; 2026 SODI</span>
+        <div class="flex gap-5">
             <a href="#" class="hover:text-white transition-colors">Privacidad</a>
             <a href="#" class="hover:text-white transition-colors">Términos</a>
         </div>
@@ -531,10 +363,8 @@
 <script>
 document.addEventListener('DOMContentLoaded',()=>{
     const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) { entry.target.classList.add('v'); }
-        });
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('v'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
     document.querySelectorAll('.rv').forEach(el => observer.observe(el));
 });
 </script>
