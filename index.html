@@ -30,7 +30,7 @@
         /* === SODI WORDMARK === */
         .sodi-mark{font-family:'Sora',sans-serif;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;font-size:1.35rem;color:#fff;position:relative}
         /* The signature: thin green underline offset — 65% width, left-aligned */
-        .sodi-mark::after{content:'';position:absolute;bottom:-4px;left:0;width:65%;height:2px;background:#00FFA3;border-radius:1px}
+        .sodi-mark::after{content:'';position:absolute;bottom:-4px;left:0;width:70%;height:2px;background:linear-gradient(90deg,#00FFA3,transparent);border-radius:1px}
         .sodi-mark-sm{font-family:'Sora',sans-serif;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;font-size:1rem;color:#fff}
         .sodi-mark-lg{font-family:'Sora',sans-serif;font-weight:800;letter-spacing:0.20em;text-transform:uppercase}
 
@@ -62,9 +62,9 @@
         @media(hover:hover){.sodi-card.ind:hover{border-color:rgba(255,107,0,.2)}.sodi-card.ind:hover::before{background:linear-gradient(90deg,transparent,rgba(255,107,0,.4),transparent)}}
 
         /* WA Float */
-        .wa-btn{position:fixed;bottom:20px;right:20px;z-index:90;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(37,211,102,.25);transition:transform .3s,box-shadow .3s}
-        .wa-btn:hover{transform:scale(1.1);box-shadow:0 4px 18px rgba(37,211,102,.35)}
-        .wa-btn::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1.5px solid rgba(37,211,102,.2);animation:wr 2.5s ease-out infinite}
+        .wa-btn{position:fixed;bottom:20px;right:20px;z-index:90;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(37,211,102,.15);transition:transform .3s,box-shadow .3s}
+        .wa-btn:hover{transform:scale(1.08);box-shadow:0 3px 14px rgba(37,211,102,.25)}
+        .wa-btn::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1.5px solid rgba(37,211,102,.12);animation:wr 3s ease-out infinite}
         @keyframes wr{0%{transform:scale(1);opacity:1}100%{transform:scale(1.5);opacity:0}}
 
         /* Marquee */
