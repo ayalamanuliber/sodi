@@ -54,6 +54,9 @@ export function Hero() {
             Ver cómo funciona
           </a>
         </motion.div>
+        <motion.p {...fadeUp(0.35)} className="mt-5 sm:mt-6 text-[11px] sm:text-[12px] text-s-dim">
+          Sin adivinar precios ni perder tiempo en llamadas
+        </motion.p>
       </div>
     </section>
   );
