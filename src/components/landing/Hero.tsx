@@ -55,7 +55,7 @@ export function Hero() {
           </a>
         </motion.div>
         <motion.p {...fadeUp(0.35)} className="mt-5 sm:mt-6 text-[11px] sm:text-[12px] text-s-dim">
-          Precios fijos desde $400.000 · Miembros CAEDE -25%
+          Diagnóstico gratuito · Precio fijo al instante
         </motion.p>
       </div>
     </section>

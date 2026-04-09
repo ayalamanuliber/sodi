@@ -17,7 +17,7 @@ const items = [
   },
   {
     label: "Webs",
-    sub: "Desde $400.000",
+    sub: "Landing + conversión",
     highlight: false,
     icon: (
       <svg className="w-4 h-4 text-s-accent/60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ const items = [
   },
   {
     label: "Redes",
-    sub: "Desde $300.000",
+    sub: "Setup + estrategia",
     highlight: false,
     icon: (
       <svg className="w-4 h-4 text-purple-400/60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
