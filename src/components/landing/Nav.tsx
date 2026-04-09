@@ -12,7 +12,7 @@ export function Nav() {
           </span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-[11px] font-bold text-s-sub uppercase tracking-wider">
-          <a href="#soluciones" className="hover:text-white transition-colors">Soluciones</a>
+          <a href="#servicios" className="hover:text-white transition-colors">Servicios</a>
           <a href="#metodo" className="hover:text-white transition-colors">Proceso</a>
           <a href="#casoreal" className="hover:text-white transition-colors">Caso real</a>
         </div>

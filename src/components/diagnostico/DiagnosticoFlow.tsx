@@ -6,10 +6,8 @@ import Link from "next/link";
 import {
   questions,
   getResult,
-  buildWhatsAppMessage,
-  buildWhatsAppURL,
   type Answers,
-  type ProductOutput,
+  type PackResult,
 } from "@/lib/diagnostico";
 import { StepQuestion } from "./StepQuestion";
 import { StepIntro } from "./StepIntro";
@@ -21,8 +19,8 @@ export function DiagnosticoFlow() {
   const [phase, setPhase] = useState<Phase>("intro");
   const [stepIndex, setStepIndex] = useState(0);
   const [answers, setAnswers] = useState<Answers>({});
-  const [result, setResult] = useState<ProductOutput | null>(null);
-  const [direction, setDirection] = useState(1); // 1 = forward, -1 = back
+  const [result, setResult] = useState<PackResult | null>(null);
+  const [direction, setDirection] = useState(1);
 
   const totalSteps = questions.length;
   const progress = phase === "intro" ? 0 : phase === "result" ? 100 : ((stepIndex + 1) / totalSteps) * 100;
@@ -70,8 +68,6 @@ export function DiagnosticoFlow() {
     setPhase("intro");
     setStepIndex(0);
   }, []);
-
-  const showPrice = answers.inversion === "si";
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -139,7 +135,6 @@ export function DiagnosticoFlow() {
                 <StepResult
                   result={result}
                   answers={answers}
-                  showPrice={showPrice}
                   onRestart={handleRestart}
                   onBack={handleBack}
                 />

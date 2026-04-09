@@ -1,18 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import {
   type Answers,
-  type ProductOutput,
+  type PackResult,
+  formatPrice,
   buildWhatsAppMessage,
   buildWhatsAppURL,
 } from "@/lib/diagnostico";
 
 interface Props {
-  result: ProductOutput;
+  result: PackResult;
   answers: Answers;
-  showPrice: boolean;
   onRestart: () => void;
   onBack: () => void;
 }
@@ -23,9 +22,10 @@ const fade = (delay = 0) => ({
   transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const, delay },
 });
 
-export function StepResult({ result, answers, showPrice, onRestart, onBack }: Props) {
+export function StepResult({ result, answers, onRestart, onBack }: Props) {
   const message = buildWhatsAppMessage(answers, result);
   const waURL = buildWhatsAppURL(message);
+  const isCaede = answers.caede === "si";
 
   return (
     <div>
@@ -45,69 +45,96 @@ export function StepResult({ result, answers, showPrice, onRestart, onBack }: Pr
         <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
         </svg>
-        Solución sugerida
+        Plan sugerido
       </motion.div>
 
-      {/* Title */}
-      <motion.h2 {...fade(0.05)} className="text-[1.5rem] sm:text-3xl md:text-[2.5rem] font-extrabold tracking-tighter mb-3 sm:mb-4 font-heading text-white leading-tight">
+      {/* Title + Tier */}
+      <motion.h2 {...fade(0.05)} className="text-[1.5rem] sm:text-3xl md:text-[2.5rem] font-extrabold tracking-tighter mb-1 sm:mb-2 font-heading text-white leading-tight">
         {result.title}
       </motion.h2>
+      <motion.p {...fade(0.07)} className="text-s-accent text-[13px] font-bold uppercase tracking-wider mb-4 sm:mb-5">
+        Plan {result.tier.name}
+      </motion.p>
 
       {/* Description */}
       <motion.p {...fade(0.1)} className="text-s-sub text-[14px] sm:text-[15px] leading-relaxed mb-6 sm:mb-8 max-w-xl">
         {result.description}
       </motion.p>
 
-      {/* Ideal for */}
-      <motion.div {...fade(0.15)} className="p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl mb-4 sm:mb-5">
-        <p className="text-[10px] text-s-accent font-bold uppercase tracking-[0.3em] mb-2">Ideal para vos si</p>
-        <p className="text-[13px] sm:text-[14px] text-white/80 leading-relaxed">{result.ideal}</p>
+      {/* Price */}
+      <motion.div {...fade(0.15)} className="p-5 sm:p-6 bg-s-accent/[0.04] border border-s-accent/15 rounded-xl mb-4 sm:mb-5">
+        <p className="text-[10px] text-s-accent font-bold uppercase tracking-[0.3em] mb-2">Precio fijo</p>
+        <p className="text-[2rem] sm:text-[2.5rem] font-extrabold font-heading text-white tracking-tighter leading-none">
+          ${formatPrice(result.tier.price)}
+        </p>
+        {isCaede && (
+          <p className="text-[12px] text-s-accent font-semibold mt-2">
+            <span className="line-through text-s-dim font-normal mr-2">
+              ${formatPrice(result.tier.caede === result.tier.price ? result.tier.price : Math.round(result.tier.price / 0.75))}
+            </span>
+            Descuento CAEDE -25% aplicado
+          </p>
+        )}
+        {result.packSavings && (
+          <p className="text-[11px] text-s-accent/80 mt-1">
+            Ahorrás ${formatPrice(result.packSavings)} vs comprar por separado
+          </p>
+        )}
+      </motion.div>
+
+      {/* Timeline */}
+      <motion.div {...fade(0.18)} className="p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl mb-4 sm:mb-5">
+        <p className="text-[10px] text-s-sub font-bold uppercase tracking-[0.3em] mb-2">Plazo estimado</p>
+        <p className="text-[18px] sm:text-[22px] font-extrabold font-heading text-white tracking-tight">{result.timeline}</p>
       </motion.div>
 
       {/* Features */}
       <motion.div {...fade(0.2)} className="p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl mb-4 sm:mb-5">
         <p className="text-[10px] text-s-accent font-bold uppercase tracking-[0.3em] mb-3">Incluye</p>
         <ul className="space-y-2">
-          {result.features.map((f, i) => (
-            <li key={i} className="flex items-center gap-2.5 text-[13px] text-white/70">
-              <span className="w-1.5 h-1.5 rounded-full bg-s-accent shrink-0" />
+          {result.tier.features.map((f, i) => (
+            <li key={i} className="flex items-start gap-2.5 text-[13px] text-white/70 leading-snug">
+              <svg className="w-3.5 h-3.5 text-s-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+                <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
               {f}
             </li>
           ))}
         </ul>
       </motion.div>
 
-      {/* Price + Timeline */}
-      <motion.div {...fade(0.25)} className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
-        {showPrice && (
-          <div className="p-4 sm:p-5 bg-s-accent/[0.04] border border-s-accent/15 rounded-xl">
-            <p className="text-[10px] text-s-accent font-bold uppercase tracking-[0.3em] mb-2">Rango estimado</p>
-            <p className="text-[18px] sm:text-[22px] font-extrabold font-heading text-white tracking-tight">{result.priceRange}</p>
-            <p className="text-[11px] text-s-dim mt-1">{result.priceRangeARS}</p>
-          </div>
-        )}
-        <div className={`p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl ${showPrice ? "" : "sm:col-span-2"}`}>
-          <p className="text-[10px] text-s-sub font-bold uppercase tracking-[0.3em] mb-2">Plazo estimado</p>
-          <p className="text-[18px] sm:text-[22px] font-extrabold font-heading text-white tracking-tight">{result.timeline}</p>
-        </div>
+      {/* Ideal for */}
+      <motion.div {...fade(0.23)} className="p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl mb-4 sm:mb-5">
+        <p className="text-[10px] text-s-accent font-bold uppercase tracking-[0.3em] mb-2">Ideal para vos si</p>
+        <p className="text-[13px] sm:text-[14px] text-white/80 leading-relaxed">{result.ideal}</p>
       </motion.div>
 
       {/* Next step */}
-      <motion.div {...fade(0.3)} className="p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl mb-6 sm:mb-8">
+      <motion.div {...fade(0.26)} className="p-4 sm:p-5 bg-white/[0.02] border border-white/[0.06] rounded-xl mb-6 sm:mb-8">
         <p className="text-[10px] text-s-sub font-bold uppercase tracking-[0.3em] mb-2">Siguiente paso</p>
         <p className="text-[13px] sm:text-[14px] text-white/80 leading-relaxed">{result.nextStep}</p>
       </motion.div>
 
-      {/* Disclaimer */}
-      {showPrice && (
-        <motion.p {...fade(0.32)} className="text-[11px] text-s-dim mb-6 sm:mb-8 leading-relaxed">
-          Esto no es una cotización final. Es una referencia para orientarte mejor. El alcance y presupuesto exacto se definen
-          en el diagnóstico.
-        </motion.p>
+      {/* CAEDE interested */}
+      {answers.caede === "quiero" && (
+        <motion.div {...fade(0.28)} className="p-4 sm:p-5 bg-s-accent/[0.04] border border-s-accent/15 rounded-xl mb-6 sm:mb-8">
+          <p className="text-[13px] text-white/80 leading-relaxed">
+            Como miembro de <span className="text-s-accent font-semibold">CAEDE</span> tendrías 25% de descuento:{" "}
+            <span className="text-white font-bold">${formatPrice(result.tier.caede)}</span>.{" "}
+            <a
+              href="https://caede.com.ar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-s-accent underline underline-offset-2 hover:text-white transition-colors"
+            >
+              Conocé CAEDE
+            </a>
+          </p>
+        </motion.div>
       )}
 
       {/* CTAs */}
-      <motion.div {...fade(0.35)} className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+      <motion.div {...fade(0.3)} className="flex flex-col sm:flex-row gap-3 sm:gap-4">
         <a
           href={waURL}
           target="_blank"
@@ -128,7 +155,7 @@ export function StepResult({ result, answers, showPrice, onRestart, onBack }: Pr
       </motion.div>
 
       {/* Contact */}
-      <motion.p {...fade(0.4)} className="mt-5 sm:mt-7 text-s-dim text-[11px] text-center sm:text-left">
+      <motion.p {...fade(0.35)} className="mt-5 sm:mt-7 text-s-dim text-[11px] text-center sm:text-left">
         <a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a> · hola@sodi.ar
       </motion.p>
     </div>

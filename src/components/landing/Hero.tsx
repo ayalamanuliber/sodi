@@ -34,10 +34,10 @@ export function Hero() {
         </motion.h1>
 
         <motion.p {...fadeUp(0.2)} className="text-[15px] sm:text-lg md:text-xl text-s-sub max-w-2xl mx-auto leading-relaxed mb-4 sm:mb-6">
-          Webs, automatizaciones y sistemas para empresas que ya venden, pero necesitan más orden para crecer.
+          Webs, redes, automatizaciones y sistemas para empresas que ya venden, pero necesitan más orden para crecer.
         </motion.p>
         <motion.p {...fadeUp(0.2)} className="text-[13px] sm:text-[15px] text-s-dim max-w-xl mx-auto leading-relaxed mb-8 sm:mb-12">
-          Si estás buscando una web, más clientes o simplemente ordenar tu negocio digital, estás en el lugar correcto.
+          Precios fijos, planes claros y todo incluido. Sin sorpresas.
         </motion.p>
 
         <motion.div {...fadeUp(0.3)} className="flex flex-col sm:flex-row gap-3 sm:gap-5 justify-center items-center">
@@ -48,14 +48,14 @@ export function Hero() {
             Hacer diagnóstico guiado
           </Link>
           <a
-            href="#soluciones"
+            href="#servicios"
             className="btn-secondary w-full sm:w-auto px-7 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-semibold text-white border border-white/10 uppercase tracking-tight text-center"
           >
-            Ver cómo funciona
+            Ver servicios y precios
           </a>
         </motion.div>
         <motion.p {...fadeUp(0.35)} className="mt-5 sm:mt-6 text-[11px] sm:text-[12px] text-s-dim">
-          Sin adivinar precios ni perder tiempo en llamadas
+          Precios fijos desde $400.000 · Miembros CAEDE -25%
         </motion.p>
       </div>
     </section>

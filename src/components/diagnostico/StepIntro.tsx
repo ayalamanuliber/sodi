@@ -26,7 +26,7 @@ export function StepIntro({ onStart }: Props) {
       </h1>
 
       <p className="text-s-sub text-[14px] sm:text-[16px] max-w-md mx-auto leading-relaxed mb-3">
-        Respondé 6 preguntas y te sugerimos una solución con rango estimado para tu proyecto.
+        Respondé 6 preguntas y te sugerimos un plan con precio fijo para tu proyecto.
       </p>
 
       <div className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 text-[11px] sm:text-[12px] text-s-dim mb-8 sm:mb-10">
@@ -46,7 +46,7 @@ export function StepIntro({ onStart }: Props) {
           <svg className="w-3 h-3 text-s-accent" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
           </svg>
-          Rango orientativo
+          Precio fijo al instante
         </span>
       </div>
 

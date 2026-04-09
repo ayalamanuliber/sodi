@@ -17,7 +17,7 @@ const items = [
   },
   {
     label: "Webs",
-    sub: "Landing + conversión",
+    sub: "Desde $400.000",
     highlight: false,
     icon: (
       <svg className="w-4 h-4 text-s-accent/60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -26,8 +26,18 @@ const items = [
     ),
   },
   {
+    label: "Redes",
+    sub: "Desde $300.000",
+    highlight: false,
+    icon: (
+      <svg className="w-4 h-4 text-purple-400/60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
     label: "WhatsApp",
-    sub: "Respuestas automáticas",
+    sub: "Automatización",
     highlight: false,
     icon: (
       <svg className="w-4 h-4 text-s-wa/60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -71,7 +81,7 @@ export function ProofStrip() {
 
         <motion.div
           {...fadeUp(0.1)}
-          className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3"
+          className="grid grid-cols-2 sm:grid-cols-5 gap-2.5 sm:gap-3"
         >
           {items.map((item, i) => (
             <motion.div
