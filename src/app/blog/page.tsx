@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/blog-data";
 import { silos } from "@/lib/blog-types";
 import { BlogIndex } from "@/components/blog/BlogIndex";
+import { Footer } from "@/components/landing/Footer";
 
 export const metadata: Metadata = {
   title: "Blog — SODI | Guías, precios y estrategia digital para empresas",
@@ -58,10 +59,7 @@ export default function BlogPage() {
         </div>
       </main>
 
-      <footer className="py-8 px-6 border-t border-white/5 text-center">
-        <Link href="/" className="sodi-mark text-[0.9rem]">SODI</Link>
-        <p className="text-[11px] text-s-dim mt-2">Webs, sistemas y automatización para empresas argentinas</p>
-      </footer>
+      <Footer />
     </>
   );
 }
