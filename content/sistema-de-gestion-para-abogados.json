@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-abogados",
+  "title": "Sistema de Gestión para Estudios Jurídicos en Argentina",
+  "metaTitle": "Sistema de Gestión para Abogados Argentina 2026",
+  "metaDescription": "Organizá expedientes, plazos, clientes y facturación de tu estudio jurídico con un sistema de gestión. Opciones SaaS y costos en Argentina 2026.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "abogados", "estudios jurídicos", "gestión de expedientes"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-abogados", "cuanto-cuesta-pagina-web-para-abogados", "que-es-un-crm-y-para-que-sirve"],
+  "content": {
+    "intro": "<p>Un estudio jurídico en Argentina maneja una cantidad de información que crece exponencialmente: expedientes judiciales con sus plazos, documentación de clientes, escritos, resoluciones, honorarios por cobrar, y consultas que llegan de todas partes. <strong>Cuando todo eso vive en carpetas físicas, Excel y la cabeza del abogado titular, el riesgo de perder un plazo — y con él, un caso — es real.</strong></p><p>Un <strong>sistema de gestión para abogados</strong> centraliza expedientes, controla plazos procesales, organiza la documentación y te permite facturar y cobrar sin perder el rastro. En esta guía te contamos qué necesitás según el tamaño de tu estudio.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas que enfrentan los estudios jurídicos sin sistema",
+        "body": "<p>La práctica jurídica tiene riesgos operativos que otros rubros no tienen:</p><ul><li><strong>Plazos procesales perdidos:</strong> Un vencimiento que se pasa puede significar la pérdida de un recurso, una caducidad de instancia, o directamente la pérdida del caso. No hay margen de error.</li><li><strong>Expedientes desorganizados:</strong> Carpetas físicas que ocupan oficinas enteras, documentos que no se encuentran, y escritos que se duplican porque nadie sabe cuál es la última versión.</li><li><strong>Seguimiento de casos opaco:</strong> El cliente llama preguntando \"¿cómo va mi caso?\" y el abogado tiene que buscar en carpetas, en el juzgado online, y reconstruir el estado de memoria.</li><li><strong>Honorarios sin cobrar:</strong> Regulaciones judiciales, pactos de cuota litis, honorarios profesionales por cobrar... todo en un Excel que nadie actualiza.</li><li><strong>Tiempo no facturado:</strong> Reuniones, llamadas, redacción de escritos... si no registrás el tiempo dedicado a cada cliente, no sabés cuánto vale tu trabajo.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades esenciales de un sistema para abogados",
+        "body": "<p>Un sistema de gestión jurídica necesita:</p><ul><li><strong>Gestión de expedientes:</strong> Carátula, juzgado, tipo de proceso, partes, estado procesal, historial de movimientos.</li><li><strong>Control de plazos y vencimientos:</strong> Alertas automáticas de plazos procesales, audiencias, vencimientos de escritos. Este es el corazón del sistema.</li><li><strong>Gestión documental:</strong> Repositorio organizado por expediente y por cliente. Escritos, resoluciones, notificaciones, contratos. Todo digitalizado y buscable.</li><li><strong>Seguimiento de clientes:</strong> Ficha con datos del cliente, casos asociados, comunicaciones, documentación personal. Un <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM básico</a> integrado.</li><li><strong>Timetracking:</strong> Registro de horas dedicadas a cada caso y cada cliente. Esencial para facturar por hora o para saber la rentabilidad real.</li><li><strong>Facturación y honorarios:</strong> Control de honorarios pactados, regulaciones judiciales, cuota litis, facturación por hora o por servicio.</li><li><strong>Consulta de expedientes online:</strong> Integración con el sistema de consulta del Poder Judicial para importar movimientos automáticamente.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para estudios jurídicos",
+        "body": "<p>El mercado de legal tech en Argentina está creciendo:</p><p><strong>SaaS especializados:</strong> Legalify, TimeBilling, Legalcloud, JurisManager. Son plataformas pensadas para abogados con gestión de expedientes, plazos y facturación. Ideales para estudios de 1-10 abogados.</p><p><strong>Sistemas de gestión documental:</strong> Netdocuments, iManage. Más enfocados en la gestión de documentos que en el seguimiento de expedientes. Para estudios que manejan volúmenes grandes de documentación.</p><p><strong>Sistema a medida:</strong> Para estudios grandes con prácticas diversas (penal, civil, laboral, societario) que necesitan flujos específicos por tipo de caso, integración con bases de datos jurídicas, y reportes de productividad avanzados.</p><p>Para estudios chicos y medianos, <strong>un SaaS de gestión jurídica es la opción más práctica</strong>. Arrancás rápido, el costo es accesible, y los plazos quedan controlados desde el día 1. Combinalo con una buena <a href=\"/blog/pagina-web-para-abogados\">página web para tu estudio</a>.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para abogados en 2026",
+        "body": "<p>Los rangos de inversión:</p><ul><li><strong>SaaS básico (1-2 abogados):</strong> $10.000 - $30.000 ARS/mes (expedientes, plazos, documentos)</li><li><strong>SaaS profesional (3-10 abogados):</strong> $30.000 - $80.000 ARS/mes (timetracking, facturación, reportes, múltiples usuarios)</li><li><strong>Sistema para estudio grande:</strong> $80.000 - $200.000 ARS/mes (gestión documental avanzada, integración con juzgados, business intelligence)</li><li><strong>Sistema a medida:</strong> $3.000.000 - $10.000.000 ARS de desarrollo</li></ul><p>El retorno más obvio es la <strong>eliminación del riesgo de perder un plazo</strong>. Un solo caso perdido por caducidad puede costar más que décadas del sistema. Además, el timetracking permite cobrar lo que realmente vale tu trabajo.</p>"
+      },
+      {
+        "heading": "Implementación en un estudio jurídico",
+        "body": "<p>La implementación en un estudio jurídico tiene sus particularidades:</p><ul><li><strong>Cargá los expedientes activos:</strong> No cargues los cerrados. Concentrate en los que tienen actividad. Carátula, juzgado, próximos plazos.</li><li><strong>Configurá las alertas:</strong> Definí con cuántos días de anticipación querés que el sistema te avise de cada tipo de plazo. Esto es lo primero que tiene que funcionar.</li><li><strong>Digitalizá la documentación clave:</strong> Escritos presentados, resoluciones recibidas, contratos con clientes. No hace falta digitalizar todo el archivo histórico.</li><li><strong>Capacitá a los abogados y secretarios:</strong> Los abogados tienen que adoptar el sistema como herramienta de trabajo diaria, no como carga adicional.</li><li><strong>Mirá los reportes:</strong> Después de 1-2 meses, revisá las métricas: ¿se cumplieron todos los plazos? ¿Cuánto tiempo se dedica a cada caso? ¿Los honorarios se cobran mejor?</li></ul><p>En 3-6 semanas un estudio puede estar operando con el nuevo sistema. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> para evaluar qué solución se adapta mejor.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema me avisa de los plazos procesales?",
+        "answer": "Sí. Es la funcionalidad más crítica. Configurás cada plazo con su fecha y el sistema envía alertas con la anticipación que definas (3, 5, 7 días antes)."
+      },
+      {
+        "question": "¿Se integra con el sistema del Poder Judicial?",
+        "answer": "Algunos SaaS permiten consultar movimientos de expedientes judiciales y notificaciones electrónicas directamente desde el sistema, según la jurisdicción."
+      },
+      {
+        "question": "¿Puedo registrar las horas que dedico a cada caso?",
+        "answer": "Sí. El timetracking permite registrar el tiempo dedicado a cada caso, ya sea manualmente o con un temporizador. Esencial para facturar por hora."
+      },
+      {
+        "question": "¿El sistema gestiona la facturación del estudio?",
+        "answer": "Sí. Podés registrar honorarios pactados, generar facturas, controlar cobros y llevar el seguimiento de regulaciones judiciales y cuota litis."
+      },
+      {
+        "question": "¿Mis clientes pueden acceder a ver el estado de su caso?",
+        "answer": "Algunos sistemas ofrecen un portal del cliente donde puede ver el estado del expediente, documentos compartidos y próximos pasos. Reduce las llamadas de consulta."
+      }
+    ],
+    "ctaText": "¿Tu estudio jurídico necesita más control sobre plazos y expedientes? Agendá un diagnóstico gratuito y encontrá el sistema ideal."
+  }
+}

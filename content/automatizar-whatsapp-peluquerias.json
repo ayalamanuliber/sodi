@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-peluquerias",
+  "title": "Cómo automatizar WhatsApp para peluquerías y salones de belleza: turnos, confirmaciones y fidelización",
+  "metaTitle": "Automatizar WhatsApp para Peluquerías | SODI",
+  "metaDescription": "Automatizá turnos, confirmaciones y seguimiento de tu peluquería por WhatsApp. Menos ausencias, más clientes recurrentes.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["peluquerías", "salones de belleza", "WhatsApp Business", "turnos", "estética"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-peluquerias", "sistema-de-turnos-para-peluquerias", "redes-sociales-para-peluquerias-estetica"],
+  "content": {
+    "intro": "<p>En una peluquería argentina, <strong>el 90% de los turnos se sacan por WhatsApp</strong>. Pero la mayoría de los salones manejan esos mensajes de la peor manera: la dueña o recepcionista responde entre cliente y cliente, se olvida de confirmar, anota en un cuaderno y el viernes a la tarde tiene un caos de doble turnos y huecos.</p><p>Automatizar WhatsApp en tu peluquería significa que los turnos se agendan solos, los recordatorios salen automáticos y vos te enfocás en lo que sabés hacer: atender clientes. Te mostramos cómo hacerlo sin gastar una fortuna.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una peluquería",
+        "body": "<p>Los mensajes más frecuentes en una peluquería son siempre los mismos:</p><ul><li><strong>Solicitud de turno:</strong> \"¿Tenés turno para mañana?\" → el bot muestra horarios disponibles y deja que la clienta elija.</li><li><strong>Confirmación de turno:</strong> mensaje automático con fecha, hora, servicio y profesional. \"Tu turno para corte + color es el jueves 15 a las 14 hs con [nombre].\"</li><li><strong>Recordatorio 24 hs antes:</strong> \"Mañana tenés turno a las 14 hs. Respondé SI para confirmar o CAMBIAR para reprogramar.\"</li><li><strong>Precios y servicios:</strong> \"¿Cuánto sale un balayage?\" → respuesta instantánea con precios actualizados.</li><li><strong>Fidelización:</strong> \"¡Hace 6 semanas que no venís! ¿Querés sacar turno? Este mes tenemos 10% off en tratamientos.\"</li></ul><p>Estos mensajes son el <strong>80% del volumen</strong> de WhatsApp de una peluquería. Automatizarlos te ahorra 2-3 horas por día de trabajo administrativo.</p>"
+      },
+      {
+        "heading": "Flujo de bot para turnos de peluquería",
+        "body": "<p>El flujo tiene que ser <strong>simple y rápido</strong>. Tu clienta quiere sacar turno en 30 segundos, no navegar un menú complicado:</p><ol><li>\"¡Hola! ¿Querés sacar turno? Elegí el servicio:\" → Corte / Color / Brushing / Tratamiento / Otro</li><li>\"¿Con quién preferís?\" → Lista de profesionales (si tenés varios)</li><li>Bot muestra días y horarios disponibles del profesional elegido</li><li>Clienta elige → bot confirma: \"Listo, tu turno quedó agendado. Te recordamos mañana.\"</li><li>Si no hay disponibilidad: \"No tenemos horario para ese día. ¿Querés que te avisemos si se libera algo?\" → lista de espera automática</li></ol><p>La <strong>lista de espera automática</strong> es oro para peluquerías. Cuando alguien cancela, el bot avisa a la primera persona en la lista: \"¡Se liberó un turno para mañana a las 10 hs! ¿Lo querés?\" Así llenás los huecos que dejan las cancelaciones.</p><p>Integrá este flujo con un <a href=\"/blog/sistema-de-turnos-para-peluquerias\">sistema de turnos online</a> y tenés el proceso completo automatizado.</p>"
+      },
+      {
+        "heading": "Reducir ausencias y cancelaciones tardías",
+        "body": "<p>Las ausencias son el problema número uno de las peluquerías. Un turno de color de 2 horas que no se presenta es <strong>plata perdida y un hueco imposible de llenar</strong> a último momento.</p><p>La secuencia de recordatorios que mejor funciona:</p><ul><li><strong>48 hs antes:</strong> recordatorio informativo con datos del turno</li><li><strong>24 hs antes:</strong> pedido de confirmación: \"Respondé SI para confirmar\"</li><li><strong>Si no confirma:</strong> mensaje 4 hs antes: \"No recibimos tu confirmación. ¿Venís?\"</li><li><strong>Política de cancelación:</strong> \"Si necesitás cancelar, avisanos con 24 hs de anticipación\"</li></ul><p>Con este sistema, las ausencias bajan del <strong>25-30% al 8-12%</strong>. En una peluquería que hace 15 turnos por día, eso significa recuperar 3-4 turnos diarios que antes se perdían.</p><p>Algunos salones implementan <strong>seña online</strong> para turnos largos (color, alisado). El bot envía un link de pago de una seña de $3.000-$5.000 al confirmar el turno. Esto reduce las ausencias casi a cero en servicios premium.</p>"
+      },
+      {
+        "heading": "Herramientas y costos",
+        "body": "<p>Opciones para peluquerías de todos los tamaños:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, catálogo de servicios con precios, mensaje de ausencia. Para salones de 1-2 profesionales.</li><li><strong>AgendaPro (desde USD 15/mes):</strong> sistema de turnos con recordatorios por WhatsApp incluidos. Muy popular en peluquerías argentinas.</li><li><strong>Bots con Botmaker o Cliengo (desde USD 25/mes):</strong> flujos personalizados, integración con agenda. Para salones medianos.</li><li><strong>Desarrollo custom (desde USD 200 setup):</strong> para cadenas o salones con muchos profesionales que necesitan integrar todo.</li></ul><p>El cálculo es simple: si cada turno perdido vale en promedio $8.000 y recuperás 3 turnos por día con recordatorios automáticos, son <strong>$720.000 extra por mes</strong>. El sistema se paga en el primer día.</p><p>La inversión más inteligente es <strong>AgendaPro o similar + WhatsApp Business</strong>: pagás menos de USD 20/mes y tenés turnos online, recordatorios y agenda digital.</p>"
+      },
+      {
+        "heading": "Fidelización y remarketing por WhatsApp",
+        "body": "<p>WhatsApp no es solo para sacar turnos. Es tu mejor herramienta de <strong>fidelización</strong>:</p><ul><li><strong>Mensaje post-servicio:</strong> 24 hs después: \"¿Cómo quedó tu color? ¿Te gustó?\" Genera cercanía y detecta problemas a tiempo.</li><li><strong>Recordatorio de retoque:</strong> 4-6 semanas después: \"¡Ya pasaron 6 semanas desde tu último corte! ¿Querés sacar turno?\"</li><li><strong>Promos segmentadas:</strong> a clientas que hacen color: promo de tratamiento de hidratación. A las que solo cortan: promo de color con descuento para primera vez.</li><li><strong>Cumpleaños:</strong> mensaje automático con descuento especial: \"¡Feliz cumple! Te regalamos 15% off en cualquier servicio este mes.\"</li></ul><p>Estas acciones son las que convierten a una clienta ocasional en una clienta fiel. Y con automatización, <strong>no requieren trabajo manual</strong>: se configuran una vez y funcionan solas.</p><p>¿Querés saber cómo mejorar el WhatsApp de tu peluquería? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo automatizar WhatsApp si soy peluquera independiente y trabajo sola?",
+        "answer": "Sí. WhatsApp Business gratuito te da respuestas rápidas y mensaje de ausencia. Combinándolo con AgendaPro (desde USD 15/mes), tenés turnos online con recordatorios automáticos sin necesitar un bot complejo."
+      },
+      {
+        "question": "¿Las clientas aceptan interactuar con un bot?",
+        "answer": "Sí, siempre que sea simple y rápido. Las clientas de peluquería quieren sacar turno en 30 segundos, no tener una conversación. Un bot que les muestra horarios y confirma en 3 mensajes es incluso más cómodo que esperar a que alguien les conteste."
+      },
+      {
+        "question": "¿Cómo manejo los turnos de varios profesionales con un solo WhatsApp?",
+        "answer": "Necesitás un sistema de turnos que gestione la agenda de cada profesional por separado. El bot pregunta con quién quiere el turno y muestra solo la disponibilidad de ese profesional. Herramientas como AgendaPro manejan esto nativamente."
+      }
+    ],
+    "ctaText": "¿Tu peluquería pierde turnos por no confirmar a tiempo? Pedí un diagnóstico gratuito y te mostramos cómo automatizar todo en una semana."
+  }
+}

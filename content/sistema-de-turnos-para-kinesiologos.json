@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-kinesiologos",
+  "title": "Sistema de turnos para kinesiólogos: organizá sesiones y tratamientos sin caos",
+  "metaTitle": "Sistema de Turnos para Kinesiólogos Argentina | SODI",
+  "metaDescription": "Sistemas de turnos para kinesiólogos. Opciones SaaS, gratuitas y a medida. Costos, integración con obra social y WhatsApp.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "kinesiólogos", "agenda kinesiología", "rehabilitación", "fisioterapia"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-kinesiologos", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>Un kinesiólogo maneja <strong>tratamientos de múltiples sesiones, pacientes de obra social y horarios apretados</strong>. Gestionar todo eso por teléfono y libreta genera superposiciones, pacientes que no se presentan y horas de camilla vacías. Un sistema de turnos online ordena todo: el paciente agenda solo, recibe recordatorio y vos te enfocás en atender.</p><p>En esta guía te mostramos las opciones disponibles para kinesiólogos en Argentina, costos y cómo elegir. Si necesitás web, mirá nuestra guía de <a href=\"/blog/pagina-web-para-kinesiologos\">página web para kinesiólogos</a>.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un kinesiólogo necesita turnos online",
+        "body": "<p>La kinesiología tiene un flujo de turnos con complejidades específicas:</p><ul><li><strong>Tratamientos de muchas sesiones:</strong> una rehabilitación de rodilla puede ser 20-30 sesiones. Agendar todo eso manualmente es un dolor de cabeza. El sistema programa la secuencia completa automáticamente.</li><li><strong>Sesiones consecutivas:</strong> atendés pacientes cada 30-45 minutos, uno tras otro. Un retraso o ausencia desordena toda la jornada. Los recordatorios <strong>reducen ausencias entre un 40% y 60%</strong>.</li><li><strong>Obra social y particulares:</strong> necesitás diferenciar turnos de obra social (con autorización previa) de particulares (pago directo). El sistema puede manejar ambos flujos.</li><li><strong>Múltiples camillas/boxes:</strong> si tenés varios espacios de atención, el sistema evita que dos pacientes queden en el mismo box al mismo tiempo.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para kinesiólogos",
+        "body": "<p>Plataformas que funcionan para kinesiología:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> agenda por profesional, gestión de recursos (camillas/boxes), recordatorios por WhatsApp, ficha de paciente con historial de sesiones. Permite configurar series de turnos (ej: 10 sesiones de lunes, miércoles y viernes a las 9:00).</li><li><strong>Cloxsy (USD 10-30/mes):</strong> simple y funcional. Agenda online, link de reserva, recordatorios. Para kinesiólogos individuales que no necesitan gestión de series.</li><li><strong>Cal.com (gratis el plan básico):</strong> open source, configurable. Tipos de sesión con duración, disponibilidad horaria, sincronización con Google Calendar. No gestiona series de sesiones nativamente.</li></ul><p><strong>Para kinesiólogos con tratamientos largos, AgendaPro es la mejor opción</strong> por la gestión de series de sesiones. Para consultorios simples, Cal.com gratis alcanza.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo conviene",
+        "body": "<p>El desarrollo a medida tiene sentido en estos casos:</p><ul><li><strong>Centro de rehabilitación con múltiples kinesiólogos:</strong> cada profesional con su especialidad (traumatología, deportiva, neurológica), equipamiento específico y flujo de autorización de obra social.</li><li><strong>Integración con obra social:</strong> si necesitás que el sistema verifique la autorización antes de confirmar el turno y genere la facturación automática a la obra social.</li><li><strong>Seguimiento de evolución:</strong> si querés un sistema donde registres la evolución del paciente sesión a sesión con escalas de dolor, rango de movimiento y ejercicios indicados.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS. Para un kinesiólogo individual, no tiene sentido. Más detalles en <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta un sistema de turnos</a>.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp y gestión de series",
+        "body": "<p>Para kinesiólogos, las integraciones clave son:</p><ul><li><strong>Recordatorios por WhatsApp:</strong> fundamentales cuando el paciente viene 3 veces por semana. \"Te recordamos tu sesión de mañana a las 8:30. ¿Confirmás?\"</li><li><strong>Agendamiento de series:</strong> el paciente agenda la primera sesión y el sistema programa automáticamente las siguientes (ej: martes y jueves durante 5 semanas).</li><li><strong>Control de asistencia:</strong> registro automático de qué sesiones asistió y cuáles faltó, útil para la facturación a obra social.</li><li><strong>Ejercicios por WhatsApp:</strong> después de la sesión, enviar automáticamente la rutina de ejercicios que el paciente tiene que hacer en casa.</li></ul><p>La gestión de series es lo que <strong>diferencia un sistema para kinesiología</strong> de uno genérico. Es la funcionalidad más importante.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto",
+        "body": "<p>La decisión depende de tu situación:</p><ul><li><strong>Kinesiólogo individual, pocos pacientes:</strong> Cal.com gratis. Agenda básica, sin costo, profesional.</li><li><strong>Kinesiólogo con agenda llena (20+ pacientes/día):</strong> AgendaPro. Los recordatorios y la gestión de series te ahorran horas de administración.</li><li><strong>Centro de rehabilitación (3+ kinesiólogos):</strong> AgendaPro o desarrollo a medida según necesidades de obra social y equipamiento.</li></ul><p>Lo más importante: <strong>que gestione series de sesiones</strong>. Si tenés que agendar 20 turnos uno por uno para cada paciente de rehabilitación, el sistema no te está ahorrando tiempo.</p><p>¿Necesitás ayuda para decidir? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te recomendamos la mejor opción. También podés leer nuestra guía de <a href=\"/blog/como-crear-sistema-de-turnos-online\">cómo crear un sistema de turnos online</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para kinesiólogo?",
+        "answer": "Cal.com es gratis en su plan básico. AgendaPro cuesta entre USD 15 y USD 45/mes. Desarrollo a medida: $800.000 a $2.000.000 ARS."
+      },
+      {
+        "question": "¿Puedo agendar series de sesiones automáticamente?",
+        "answer": "Sí, AgendaPro permite programar series (ej: 10 sesiones en martes y jueves). Cal.com y Cloxsy requieren agendar cada sesión individualmente."
+      },
+      {
+        "question": "¿Funciona con pacientes de obra social?",
+        "answer": "Los SaaS permiten diferenciar entre particulares y obra social. La integración directa con la verificación de autorización de obra social requiere desarrollo a medida."
+      }
+    ],
+    "ctaText": "¿Querés organizar la agenda de tu consultorio de kinesiología? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir."
+  }
+}

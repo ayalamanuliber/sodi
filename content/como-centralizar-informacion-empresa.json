@@ -1,0 +1,61 @@
+{
+  "slug": "como-centralizar-informacion-empresa",
+  "title": "Cómo centralizar la información de tu empresa: de chats y planillas dispersas a una fuente de verdad",
+  "metaTitle": "Cómo centralizar la información de tu empresa",
+  "metaDescription": "Pasá de tener info en WhatsApp, Drive, Excel y tu cabeza a un solo lugar. Herramientas y enfoques según el tamaño de tu empresa.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["centralizar información", "gestión del conocimiento", "productividad", "operaciones pyme"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["como-ordenar-operacion-interna-pyme", "que-es-un-panel-operativo", "excel-vs-sistema-de-gestion"],
+  "content": {
+    "intro": "<p>El precio de un producto está en un Excel. Las condiciones de un cliente están en un chat de WhatsApp de hace 6 meses. El proceso para armar un presupuesto está en tu cabeza. Y el acceso al panel del hosting está en un email que alguien le reenvió a alguien. <strong>Si esto te suena familiar, tu empresa tiene un problema de información descentralizada</strong>.</p><p>Cuando la información está dispersa, todo funciona más lento: se repiten preguntas, se cometen errores, se pierden datos, y la empresa depende de la memoria de una o dos personas. En esta guía te mostramos cómo centralizar toda tu información operativa en un solo lugar, con herramientas prácticas según tu tamaño.</p>",
+    "sections": [
+      {
+        "heading": "El costo real de tener la información dispersa",
+        "body": "<p>Parece un problema menor, pero <strong>la información descentralizada tiene costos concretos</strong>:</p><ul><li><strong>Tiempo perdido buscando:</strong> el empleado promedio gasta 1.8 horas por día buscando información (McKinsey). En un equipo de 5, son 9 horas diarias perdidas. A $3.000/hora, eso son $594.000/mes en productividad tirada.</li><li><strong>Errores por datos desactualizados:</strong> si un vendedor usa una lista de precios vieja, puede cotizar $50.000 menos de lo que debería. Un error así al mes te cuesta más que cualquier herramienta.</li><li><strong>Dependencia de personas clave:</strong> si solo María sabe cómo se hace el proceso X y María se enferma, el proceso X no se hace. Si María se va, el conocimiento se va con ella.</li><li><strong>Decisiones lentas:</strong> cada vez que necesitás un dato para tomar una decisión, tenés que llamar a alguien, buscar un email o revisar 3 planillas. Eso ralentiza todo.</li></ul><p>Centralizar la información no es un proyecto de IT: es un <strong>proyecto de productividad</strong> que impacta directamente en tu facturación.</p>"
+      },
+      {
+        "heading": "Qué información tenés que centralizar primero",
+        "body": "<p>No intentes centralizar todo de golpe. Priorizá por impacto:</p><ul><li><strong>Prioridad 1 - Información comercial:</strong> lista de precios actualizada, catálogo de productos/servicios, condiciones comerciales (descuentos, formas de pago), templates de presupuestos.</li><li><strong>Prioridad 2 - Información de clientes:</strong> datos de contacto, historial de interacciones, acuerdos especiales, estado de cuentas. Esto va en un CRM. Leé nuestra guía sobre <a href=\"/blog/como-implementar-crm-en-mi-empresa\">cómo implementar un CRM</a>.</li><li><strong>Prioridad 3 - Procesos operativos:</strong> cómo se atiende a un cliente nuevo, cómo se prepara un envío, cómo se hace un cierre de caja. Documentalos en un wiki interno.</li><li><strong>Prioridad 4 - Accesos y credenciales:</strong> hosting, dominio, redes sociales, banco, AFIP. Todo en un gestor de contraseñas (1Password, Bitwarden), nunca en un Excel.</li><li><strong>Prioridad 5 - Documentos legales y administrativos:</strong> contratos, habilitaciones, pólizas, registro de marca. En una carpeta compartida estructurada.</li></ul><p>Empezá por la Prioridad 1 esta semana. Es la información que más se consulta y donde más impactan los errores. Las demás las vas sumando una por semana.</p>"
+      },
+      {
+        "heading": "Herramientas para centralizar según tu tamaño",
+        "body": "<p>La herramienta correcta depende de cuánta gente somos y qué tan compleja es la operación:</p><p><strong>1-5 personas (micro empresa):</strong></p><ul><li><strong>Google Drive + Sheets:</strong> $0/mes. Creá una estructura de carpetas clara (Comercial / Operaciones / Clientes / Administración). Un Google Sheet maestro con la info más consultada (precios, contactos, procesos).</li><li><strong>Notion:</strong> plan gratis o Team desde USD 8/usuario/mes. Base de datos, wiki, tareas, todo en uno. Curva de aprendizaje, pero una vez armado es muy potente.</li></ul><p><strong>5-20 personas (empresa chica):</strong></p><ul><li><strong>Notion o ClickUp:</strong> para wiki interno + gestión de tareas. Desde USD 7-10/usuario/mes.</li><li><strong>CRM (HubSpot Free o Pipedrive):</strong> para centralizar toda la info de clientes.</li><li><strong>Google Workspace:</strong> USD 7/usuario/mes. Drive compartido con permisos, email profesional, Calendar compartido.</li></ul><p><strong>20+ personas (empresa mediana):</strong></p><ul><li><strong>ERP (Odoo, Colppy):</strong> sistema de gestión integral que centraliza todo: ventas, stock, facturación, clientes.</li><li><strong>Confluence o Notion Enterprise:</strong> para documentación de procesos a escala.</li><li><strong>Desarrollo a medida:</strong> panel operativo custom que muestre exactamente lo que cada rol necesita ver. Leé sobre <a href=\"/blog/que-es-un-panel-operativo\">qué es un panel operativo</a>.</li></ul>"
+      },
+      {
+        "heading": "Cómo armar un wiki interno para tu empresa",
+        "body": "<p>Un <strong>wiki interno</strong> es un lugar donde están documentados todos los procesos y la información clave de tu empresa. Cuando alguien nuevo se suma, lee el wiki en vez de preguntarle a todos. Cuando alguien tiene una duda, busca en el wiki en vez de mandar un WhatsApp.</p><p>Qué incluir en tu wiki:</p><ul><li><strong>Procesos paso a paso:</strong> cómo se atiende una consulta, cómo se prepara un envío, cómo se hace un presupuesto. Con capturas de pantalla si es digital, con fotos si es físico.</li><li><strong>Información de referencia:</strong> lista de proveedores, precios actualizados, horarios, zonas de cobertura, políticas de garantía y devolución.</li><li><strong>FAQ interna:</strong> las preguntas que tu equipo te hace todo el tiempo. \"¿Qué hago si el cliente quiere pagar en cuotas?\" \"¿Cuál es el descuento máximo que puedo dar?\"</li><li><strong>Directorio:</strong> quién es quién, qué hace cada uno, cómo contactarlo.</li></ul><p>Herramienta recomendada: <strong>Notion</strong> (gratis para empezar). Creá una página principal con links a cada sección. Cada proceso es una sub-página con el paso a paso.</p><p>Regla clave: <strong>un wiki solo sirve si se mantiene actualizado</strong>. Asigná un responsable que revise y actualice mensualmente. Si nadie lo mantiene, en 6 meses es información vieja y nadie lo consulta.</p>"
+      },
+      {
+        "heading": "La regla de oro: una fuente de verdad por tipo de información",
+        "body": "<p>El principio fundamental de la centralización es: <strong>cada tipo de información tiene UNA sola fuente de verdad</strong>. Si alguien pregunta el precio de algo, hay un solo lugar donde buscarlo. Si alguien quiere saber el estado de un pedido, hay un solo lugar donde mirarlo.</p><p>Ejemplo de distribución:</p><ul><li><strong>Precios:</strong> Google Sheet compartido (o el módulo de precios de tu ERP)</li><li><strong>Clientes:</strong> CRM</li><li><strong>Stock:</strong> Sistema de inventario</li><li><strong>Procesos:</strong> Wiki en Notion</li><li><strong>Tareas:</strong> Trello o ClickUp</li><li><strong>Archivos:</strong> Google Drive con estructura de carpetas</li><li><strong>Contraseñas:</strong> 1Password o Bitwarden</li></ul><p>Comunicá claramente a tu equipo: \"los precios se consultan en este Sheet, los clientes se buscan en HubSpot, los procesos están en Notion\". Si alguien te manda un WhatsApp preguntando algo que está en el wiki, respondé con el link al wiki, no con la respuesta. Eso educa al equipo a usar el sistema.</p><p>Si necesitás ayuda para definir tu arquitectura de información y elegir las herramientas correctas, <a href=\"/diagnostico\">hacé nuestro diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta centralizar la información de mi empresa?",
+        "answer": "Con herramientas gratuitas (Google Drive, Notion Free, HubSpot Free) podés centralizar las bases sin inversión monetaria. Para equipos más grandes, herramientas como Notion Team o ClickUp cuestan USD 7-10/usuario/mes. Un ERP arranca en $15.000-$25.000/mes."
+      },
+      {
+        "question": "¿Notion o Google Drive para centralizar información?",
+        "answer": "Google Drive para archivos (documentos, planillas, PDFs). Notion para información estructurada (procesos, wikis, bases de datos, tareas). Lo ideal es usar ambos: Drive para almacenamiento de archivos y Notion para organización del conocimiento."
+      },
+      {
+        "question": "¿Cómo logro que mi equipo deje de usar WhatsApp para compartir información?",
+        "answer": "Cambiá el hábito gradualmente. Cada vez que alguien comparta algo importante por WhatsApp, pedile que lo suba al sistema centralizado y compartí el link. Establecé la regla: 'si no está en el sistema, no existe'. En 30 días el hábito cambia."
+      },
+      {
+        "question": "¿Qué hago con toda la información histórica que tengo en chats y emails?",
+        "answer": "No intentes migrar todo el historial: es un pozo sin fondo. Empezá desde hoy: toda información nueva va al sistema centralizado. La información histórica crítica (contratos, acuerdos, datos de clientes) migralá gradualmente, priorizando lo que usás más seguido."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva centralizar la información?",
+        "answer": "La estructura base (elegir herramientas, crear carpetas, documentar procesos principales) se arma en 1-2 semanas. La migración de datos y la adopción del equipo toma 1-2 meses. El mantenimiento y la mejora continua son permanentes."
+      }
+    ],
+    "ctaText": "¿Tu información está dispersa y te frena? Hacé nuestro diagnóstico gratuito y te ayudamos a armar un plan de centralización."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-app-de-turnos",
+  "title": "Cuanto cuesta una app de turnos online en Argentina: SaaS vs desarrollo a medida",
+  "metaTitle": "Cuanto cuesta app de turnos online Argentina 2026",
+  "metaDescription": "Una app de turnos cuesta desde $10 USD/mes en SaaS hasta $2.000.000 ARS en desarrollo a medida. Comparamos opciones por rubro y presupuesto.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["app de turnos", "sistema de turnos online", "turnos online argentina", "agenda digital"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["sistema-de-turnos-para-consultorios-medicos", "sistema-de-turnos-para-peluquerias", "que-es-un-crm-y-para-que-sirve", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>Una <strong>app de turnos online en Argentina</strong> tiene dos caminos: usar un SaaS (software como servicio) que cuesta entre $10 y $45 USD/mes, o desarrollar un sistema a medida que va de $800.000 a $2.000.000 ARS. La decision correcta depende de tu rubro, la cantidad de profesionales que atienden, y si necesitas funcionalidades especificas que los SaaS no cubren.</p><p>Para el 80% de las PyMEs argentinas, un SaaS resuelve el problema sin drama. Desarrollo a medida solo vale la pena cuando tu operacion tiene reglas de negocio que ningun software estandar puede manejar. Te desglosamos cada opcion con precios reales y casos de uso concretos.</p>",
+    "sections": [
+      {
+        "heading": "Cuanto cuestan las plataformas SaaS de turnos en Argentina",
+        "body": "<p>Las principales <strong>plataformas SaaS de turnos</strong> disponibles en Argentina tienen estos precios actualizados a 2026:</p><ul><li><strong>AgendaPro</strong>: $15-$45 USD/mes dependiendo del plan. El plan basico ($15 USD) incluye agenda ilimitada, recordatorios por email y un profesional. El plan completo ($45 USD) agrega multiples profesionales, recordatorios por WhatsApp, pagos online y reportes.</li><li><strong>Calendly</strong>: plan gratuito limitado, plan standard $10 USD/mes por usuario. Funciona bien para consultores y profesionales individuales pero no tiene las funcionalidades especificas para salud o belleza.</li><li><strong>Cal.com</strong>: <strong>gratis</strong> en su version open source. Plan hosted desde $12 USD/mes. Es la opcion mas flexible si tenes alguien tecnico que lo configure. Ideal para negocios que quieren personalizacion sin pagar desarrollo completo.</li><li><strong>Cloxsy</strong>: $10-$30 USD/mes. Pensado para el mercado latinoamericano, tiene integracion nativa con WhatsApp y Mercado Pago. Buena opcion para peluquerias, consultorios y centros de estetica.</li></ul><p>En todos los casos, suma el costo de integracion inicial: configurar el sistema, cargar profesionales, horarios y servicios lleva entre 2 y 5 horas de trabajo. Si lo haces vos, es gratis. Si contratas a alguien, calcula $50.000-$100.000 ARS por setup.</p>"
+      },
+      {
+        "heading": "Cuanto cuesta desarrollar una app de turnos a medida",
+        "body": "<p>Un <strong>desarrollo a medida de sistema de turnos</strong> cuesta entre $800.000 y $2.000.000 ARS en Argentina, dependiendo de la complejidad. Este rango cubre desde un sistema basico de agenda con panel web hasta una app completa con notificaciones push, pagos integrados y multiples sedes.</p><p>Un sistema basico a medida ($800.000-$1.200.000 ARS) incluye: panel de administracion para gestionar turnos y profesionales, pagina de reserva para el cliente, confirmacion y recordatorio automatico por email, y calendario visual con disponibilidad en tiempo real.</p><p>Un sistema completo ($1.500.000-$2.000.000+ ARS) agrega: <strong>app mobile nativa</strong> (iOS/Android) o PWA, notificaciones push, integracion con <strong>Mercado Pago</strong> para cobro de señas o pagos completos, sala de espera virtual, historia clinica o ficha del cliente, y reportes de ocupacion y facturacion.</p><p>El plazo de desarrollo va de 6 a 12 semanas para el sistema basico y de 3 a 5 meses para el completo. Sumale mantenimiento mensual de $30.000-$80.000 ARS para hosting, actualizaciones y soporte tecnico.</p>"
+      },
+      {
+        "heading": "SaaS o a medida segun tu rubro",
+        "body": "<p>La decision entre <strong>SaaS y desarrollo a medida</strong> no es de presupuesto, es de necesidad. Aca te damos la respuesta directa por rubro:</p><p><strong>Peluquerias y centros de estetica</strong>: SaaS. AgendaPro o Cloxsy resuelven todo lo que necesitas. La agenda es estandar, los servicios tienen duracion fija, y la integracion con WhatsApp para recordatorios ya viene incluida. No tiene sentido gastar $1.500.000 en un desarrollo a medida. Lee mas en <a href=\"/blog/sistema-de-turnos-para-peluquerias\">nuestra guia de turnos para peluquerias</a>.</p><p><strong>Consultorios medicos</strong>: depende. Un consultorio con 1-3 profesionales puede usar SaaS sin problema. Pero si manejas obra social, necesitas integracion con sistemas de facturacion especificos o tenes multiples especialidades con reglas de turnos distintas (un odontologo no agenda igual que un dermatologo), el a medida empieza a justificarse. Mas detalles en <a href=\"/blog/sistema-de-turnos-para-consultorios-medicos\">nuestra guia para consultorios</a>.</p><p><strong>Estudios juridicos y contables</strong>: SaaS. Calendly o Cal.com sobran. La agenda de un abogado es simple: turnos de 30 o 60 minutos, sin reglas complicadas.</p><p><strong>Gimnasios y centros deportivos</strong>: a medida o SaaS especializado. La logica de clases grupales con cupos maximos, planes mensuales, y control de asistencia es especifica. Los SaaS genericos no la manejan bien.</p>"
+      },
+      {
+        "heading": "Costos ocultos de los sistemas de turnos",
+        "body": "<p>Sea SaaS o a medida, hay <strong>costos que no aparecen en el presupuesto inicial</strong> y que tenes que conocer antes de decidir:</p><p><strong>En SaaS</strong>: la mayoria cobra en dolares. Con la volatilidad del tipo de cambio argentino, un plan de $30 USD/mes puede significar montos muy distintos mes a mes en pesos. Ademas, las funcionalidades premium (WhatsApp automatico, multiples sedes, reportes avanzados) suelen estar en los planes mas caros. Empieza con el plan basico y subi solo cuando realmente necesites esas funciones.</p><p><strong>En desarrollo a medida</strong>: el costo de desarrollo es solo el comienzo. Sumale: hosting ($10.000-$30.000 ARS/mes), actualizaciones y parches de seguridad ($20.000-$50.000 ARS/mes), y cualquier cambio o funcionalidad nueva que necesites mas adelante. Un \"cambio chico\" en un sistema a medida raramente baja de $50.000 ARS.</p><p>El costo mas importante que nadie menciona es el <strong>costo de oportunidad</strong>. Mientras esperas 3 meses a que te desarrollen el sistema a medida, podrias haber empezado a usar un SaaS desde el dia 1 y captar turnos online inmediatamente. El tiempo que perdes sin sistema de turnos es plata que no entra.</p>"
+      },
+      {
+        "heading": "Como migrar de agenda manual a sistema de turnos digital",
+        "body": "<p>El cambio de <strong>agenda de papel o WhatsApp a sistema digital</strong> no tiene que ser traumatico. Segui estos pasos en orden:</p><p><strong>Semana 1</strong>: Elegí la plataforma SaaS que mejor se adapte a tu rubro. Creá la cuenta y configurá tus servicios, horarios y profesionales. Esto lleva 2-3 horas maximo.</p><p><strong>Semana 2</strong>: Activá el sistema en paralelo con tu agenda actual. Cargá los turnos existentes y empezá a ofrecer la opcion de reserva online a clientes nuevos. No elimines la agenda vieja todavia.</p><p><strong>Semana 3-4</strong>: Configurá los recordatorios automaticos (email y/o WhatsApp). Empezá a derivar a todos los clientes al sistema online. Pone el link de reserva en tu bio de Instagram, en tu web y en tu firma de WhatsApp.</p><p><strong>Mes 2 en adelante</strong>: Si el SaaS funciona, genial. Si identificaste limitaciones reales (no suposiciones), recien ahi evaluá si necesitas algo a medida. No antes.</p><p>El error mas comun es arrancar directamente con desarrollo a medida \"porque quiero algo perfecto\". Perfecto no existe. Lo que existe es empezar, aprender que funciona, y despues optimizar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Puedo cobrar los turnos online con Mercado Pago?",
+        "answer": "Si. AgendaPro y Cloxsy tienen integracion nativa con Mercado Pago. Cal.com y Calendly se integran con Stripe pero no directamente con Mercado Pago (necesitas un intermediario como Zapier). En desarrollo a medida, integrar Mercado Pago cuesta entre $100.000 y $200.000 ARS adicionales. La comision de Mercado Pago es 4.49% + IVA por transaccion."
+      },
+      {
+        "question": "Que pasa si un cliente no se presenta al turno?",
+        "answer": "Los mejores sistemas tienen politica de no-show configurable: podes cobrar una seña al reservar (tipicamente 30-50% del servicio) que no se devuelve si el cliente no avisa con anticipacion. AgendaPro y Cloxsy permiten esto. Ademas, los recordatorios automaticos 24 horas antes reducen las ausencias entre un 40% y 60%."
+      },
+      {
+        "question": "Necesito una app mobile para dar turnos?",
+        "answer": "No necesariamente. Una pagina web responsive (que se vea bien en celular) funciona igual de bien para que el cliente reserve. La app mobile nativa solo vale la pena si tenes mas de 500 clientes activos que reservan frecuentemente (ej: gimnasio, peluqueria grande). Para consultorios y estudios profesionales, la web responsive sobra."
+      },
+      {
+        "question": "Cal.com es realmente gratis?",
+        "answer": "La version self-hosted (que vos instalas en tu propio servidor) es gratis y open source. Pero necesitas un servidor ($5-$15 USD/mes en DigitalOcean) y conocimientos tecnicos para instalarlo y mantenerlo. La version hosted por Cal.com (ellos se encargan de todo) arranca en $12 USD/mes por usuario."
+      },
+      {
+        "question": "Cuanto reduce la ausencia un sistema de recordatorios automaticos?",
+        "answer": "Los datos de AgendaPro muestran que los recordatorios automaticos por WhatsApp reducen las ausencias entre un 40% y 60%. El recordatorio ideal es doble: uno 24 horas antes y otro 2 horas antes del turno. Solo con esto, un consultorio que pierde 5 turnos por semana pasa a perder 2. En un mes, la diferencia se paga sola."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás SaaS o desarrollo a medida? Pedí tu diagnóstico gratuito y te recomendamos la mejor opción para tu negocio."
+  }
+}

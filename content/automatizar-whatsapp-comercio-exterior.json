@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-comercio-exterior",
+  "title": "Cómo automatizar WhatsApp para empresas de comercio exterior: cotizaciones, tracking y documentación",
+  "metaTitle": "Automatizar WhatsApp Comercio Exterior | SODI",
+  "metaDescription": "Automatizá cotizaciones, seguimiento de embarques y documentación de tu empresa de comex por WhatsApp. Más eficiencia operativa.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["comercio exterior", "comex", "WhatsApp Business", "importación", "exportación"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "cuanto-cuesta-software-a-medida-argentina", "cuanto-cuesta-sistema-de-gestion-pymes"],
+  "content": {
+    "intro": "<p>En comercio exterior, la comunicación es <strong>tan importante como la logística</strong>. Clientes que preguntan por el estado de su embarque, cotizaciones que necesitan datos de 5 fuentes distintas, documentación que se pierde entre emails y chats. Si tu equipo de comex maneja todo por WhatsApp de forma manual, <strong>estás perdiendo tiempo, clientes y operaciones</strong>.</p><p>Automatizar WhatsApp en una empresa de comercio exterior significa que las cotizaciones se generen con datos recopilados automáticamente, que el cliente conozca el estado de su embarque sin llamar, y que la documentación necesaria se envíe con un flujo claro. Te mostramos cómo.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en comercio exterior",
+        "body": "<p>Las consultas más frecuentes en una empresa de comex:</p><ul><li><strong>Cotización de flete/despacho:</strong> \"¿Cuánto sale importar [producto] de [origen]?\" → bot recopila datos (tipo de mercadería, peso, volumen, Incoterm, origen, destino) y genera estimación o deriva.</li><li><strong>Tracking de embarque:</strong> \"¿Dónde está mi contenedor?\" → bot consulta por número de BL o booking y responde con estado actual.</li><li><strong>Documentación requerida:</strong> \"¿Qué papeles necesito para importar [producto]?\" → checklist automático según tipo de mercadería y régimen.</li><li><strong>Estado de despacho:</strong> \"¿Ya salió el despacho de aduana?\" → estado actualizado del trámite aduanero.</li><li><strong>Regulaciones:</strong> \"¿Necesito SIRA/SEDI para importar [producto]?\" → info actualizada de requisitos.</li></ul><p>En comex, la velocidad de respuesta puede significar <strong>perder o ganar una operación</strong>. El importador que recibe cotización en 1 hora cierra antes que el que espera 2 días.</p>"
+      },
+      {
+        "heading": "Flujo de bot para cotización de operaciones",
+        "body": "<p>La cotización en comex es compleja, pero el bot puede <strong>recopilar toda la información necesaria</strong> antes de involucrar a un humano:</p><ol><li>\"¡Hola! ¿Qué operación necesitás?\" → Importación / Exportación / Consulta de embarque en curso / Otra consulta</li><li>Si importación: \"¿Qué tipo de mercadería?\" → categoría general + posición arancelaria si la conoce</li><li>\"¿De qué país/puerto de origen?\" → bot registra</li><li>\"¿Peso estimado? ¿Volumen? ¿Tipo de contenedor (FCL/LCL)?\"</li><li>\"¿Qué Incoterm manejás? FOB / CIF / EXW / Otro\"</li><li>\"Perfecto. Con estos datos preparamos una cotización. Te la enviamos en [plazo]. ¿Tu email para el detalle?\"</li></ol><p>El resultado: tu equipo comercial recibe un <strong>formulario completo</strong> con todos los datos para cotizar, en vez de un \"hola, quiero importar cosas de China\". La cotización se genera en la mitad del tiempo.</p><p>Para operaciones estándar (fletes marítimos en rutas frecuentes), incluso podés tener <strong>cotizaciones automáticas</strong> basadas en tarifas precargadas.</p>"
+      },
+      {
+        "heading": "Tracking de embarques por WhatsApp",
+        "body": "<p>El seguimiento de embarques es el <strong>servicio más valioso</strong> para el importador/exportador:</p><ul><li><strong>Consulta bajo demanda:</strong> cliente envía número de BL o booking → bot responde con estado, ubicación del buque y ETA.</li><li><strong>Alertas proactivas:</strong> aviso automático en cada hito: embarque confirmado → en tránsito → llegada a puerto → en aduana → liberado → en destino.</li><li><strong>Alertas de demora:</strong> si el buque se atrasa, aviso automático con nuevo ETA estimado.</li><li><strong>Documentación por etapa:</strong> cuando el embarque llega a puerto, envío automático del checklist de documentos para el despacho.</li></ul><p>Los importadores valoran enormemente la <strong>proactividad</strong>. Un despachante que avisa antes de que pregunten genera confianza y fidelidad. Las notificaciones automáticas se conectan con tu sistema de gestión o con plataformas de tracking marítimo (MarineTraffic, SeaRates).</p>"
+      },
+      {
+        "heading": "Herramientas y costos para comex",
+        "body": "<p>Las opciones para empresas de comercio exterior:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas con info de servicios, etiquetas por operación. Para despachantes independientes.</li><li><strong>Bots SaaS (Botmaker, Wati desde USD 40/mes):</strong> flujos de cotización, tracking manual. Para PyMEs de comex.</li><li><strong>Integración con software de comex + API (desde USD 400 setup):</strong> cotización automática desde sistema, tracking conectado con navieras. Para operadores medianos y grandes.</li><li><strong>Desarrollo custom (desde USD 600 setup):</strong> integración completa con MALVINA/MARIA, multicotización de fletes, alertas de regulación.</li></ul><p>En comex, una sola operación puede valer <strong>USD 5.000 a USD 50.000+ en comisiones</strong>. Si la automatización te ayuda a captar o retener una operación más por mes, el ROI es inmediato.</p><p>La ventaja competitiva real está en la <strong>experiencia del cliente</strong>: el importador que recibe tracking proactivo, documentación organizada y respuestas rápidas no cambia de despachante.</p>"
+      },
+      {
+        "heading": "Documentación y compliance automatizado",
+        "body": "<p>La documentación es el <strong>dolor de cabeza principal</strong> en comex. Un bot bien armado simplifica enormemente el proceso:</p><ul><li><strong>Checklist por tipo de operación:</strong> cuando se inicia una operación, el bot envía la lista de documentos necesarios según mercadería, país y régimen.</li><li><strong>Solicitud de documentos:</strong> \"Necesitamos que nos envíes: factura comercial, packing list, certificado de origen. Podés mandarnos todo por acá o por email a [dirección].\"</li><li><strong>Seguimiento de documentos:</strong> el bot trackea qué documentos se recibieron y cuáles faltan: \"Nos falta el certificado de origen. ¿Cuándo lo podés enviar?\"</li><li><strong>Alertas de vencimiento:</strong> certificados, permisos y habilitaciones que están por vencer.</li><li><strong>Cambios regulatorios:</strong> aviso masivo cuando cambia una regulación que afecta a tus clientes.</li></ul><p>Un sistema de documentación automatizado reduce los <strong>errores de despacho en un 60%</strong>. Menos observaciones de aduana, menos demoras, menos costos de almacenaje.</p><p>¿Querés optimizar la comunicación de tu empresa de comex? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede cotizar fletes internacionales automáticamente?",
+        "answer": "Para rutas frecuentes con tarifas precargadas (ej: Shanghai-Buenos Aires en contenedor de 20'), sí. Para rutas especiales o cargas fuera de lo estándar, el bot recopila los datos y los pasa al equipo comercial para cotización personalizada."
+      },
+      {
+        "question": "¿Cómo conecto el tracking de navieras con WhatsApp?",
+        "answer": "A través de APIs de plataformas como SeaRates, MarineTraffic o Searoutes, conectadas con la API de WhatsApp Business. Cuando el estado del embarque cambia, se dispara automáticamente un mensaje al cliente. Requiere desarrollo custom o herramientas de integración como Make/Zapier."
+      },
+      {
+        "question": "¿Es seguro enviar documentación de comercio exterior por WhatsApp?",
+        "answer": "Para documentos operativos (facturas comerciales, packing lists, certificados) es razonablemente seguro gracias al cifrado de WhatsApp. Para documentos originales con valor legal, usá email con firma digital o plataformas seguras de documentos."
+      }
+    ],
+    "ctaText": "¿Tu empresa de comex pierde tiempo en consultas repetitivas? Pedí un diagnóstico gratuito y te mostramos cómo automatizar la comunicación con tus clientes."
+  }
+}

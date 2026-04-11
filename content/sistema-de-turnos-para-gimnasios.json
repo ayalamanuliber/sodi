@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-gimnasios",
+  "title": "Sistema de turnos para gimnasios: gestioná clases, reservas y cupos eficientemente",
+  "metaTitle": "Sistema de Turnos para Gimnasios Argentina | SODI",
+  "metaDescription": "Sistemas de turnos y reservas para gimnasios. SaaS, gratuitos y a medida. Costos, gestión de clases grupales y cómo elegir.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "gimnasios", "reservas clases", "gestión gimnasio", "clases grupales"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-gimnasios", "presencia-digital-ideal-gimnasio", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>Un gimnasio sin sistema de reservas es <strong>un caos organizado</strong>. Clases llenas con gente que no se anotó, clases vacías porque nadie sabía el horario, y la recepción atendiendo WhatsApp todo el día para confirmar cupos. Un sistema de turnos y reservas online cambia todo: el alumno reserva solo, el cupo se controla automáticamente y vos tenés datos reales de asistencia.</p><p>En esta guía te mostramos las opciones para gimnasios en Argentina, cuánto cuestan y cómo elegir. Si también necesitás <a href=\"/blog/pagina-web-para-gimnasios\">página web</a>, eso complementa tu sistema de reservas.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un gimnasio necesita sistema de reservas",
+        "body": "<p>Los gimnasios tienen un flujo de reservas distinto al de otros rubros:</p><ul><li><strong>Clases grupales con cupo:</strong> spinning, funcional, yoga, pilates. Cada clase tiene un cupo máximo. Sin sistema, tenés 25 personas en una clase para 15 o 5 personas en una clase para 20. Con sistema, <strong>el cupo se controla automáticamente</strong>.</li><li><strong>Turnos para musculación:</strong> post-pandemia, muchos gimnasios implementaron turnos para controlar la cantidad de gente en la sala. El sistema gestiona franjas horarias.</li><li><strong>Clases con distintos profesores:</strong> spinning con Juan, funcional con Marta, yoga con Ana. Cada profesor tiene su horario y su capacidad. El sistema muestra todo en una grilla clara.</li><li><strong>Cancelaciones de último momento:</strong> la gente reserva y no va. Con lista de espera automática, cuando alguien cancela, el siguiente en la lista recibe notificación y ocupa el lugar.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para gimnasios",
+        "body": "<p>Plataformas pensadas para el mundo fitness:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> agenda de clases grupales con cupo, grilla horaria visual, reserva por app, recordatorios, ficha de alumno. Maneja membresías y control de acceso en los planes superiores.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple. Agenda de clases con cupo, link de reserva compartible, recordatorios. Ideal para gimnasios chicos que solo necesitan gestionar reservas.</li><li><strong>Cal.com (gratis el plan básico):</strong> se puede configurar para clases grupales con cupo, pero no es su uso principal. Funcional para empezar sin costo, pero limitado para gimnasios con muchas clases.</li></ul><p><strong>Para gimnasios, AgendaPro es la opción más completa</strong> porque maneja clases grupales, cupos, membresías y en sus planes superiores hasta control de acceso al gimnasio.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo conviene",
+        "body": "<p>Un sistema a medida para gimnasio tiene sentido cuando:</p><ul><li><strong>Cadena de gimnasios:</strong> múltiples sedes con alumnos que pueden ir a cualquiera, membresía centralizada, reportes por sucursal.</li><li><strong>App propia con marca:</strong> si querés una app con tu logo donde el alumno vea clases, reserve, pague la cuota y vea su progreso.</li><li><strong>Integración con control de acceso:</strong> molinete o torniquete que se desbloquea con QR o huella, vinculado al pago de la membresía.</li><li><strong>E-commerce de productos:</strong> venta de suplementos, indumentaria o servicios adicionales (nutricionista, entrenamiento personal) integrado al sistema.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS para un sistema básico. Con app nativa y control de acceso, puede superar los $3.000.000 ARS. Más detalles en <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta un sistema de turnos</a>.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp y redes",
+        "body": "<p>Tus alumnos viven en WhatsApp e Instagram. Tu sistema de reservas tiene que estar en esos canales:</p><ul><li><strong>Link de reserva en bio de Instagram:</strong> \"Reservá tu clase acá\" directo al sistema de turnos. Sin intermediarios.</li><li><strong>Recordatorio por WhatsApp:</strong> \"Hola Martín, te recordamos tu clase de funcional mañana a las 8:00. ¿Confirmás?\" Reduce las reservas que no se presentan.</li><li><strong>Notificación de cupo liberado:</strong> \"Se liberó un lugar en spinning de las 19:00. ¿Lo querés?\" Para la lista de espera.</li><li><strong>Aviso de pago:</strong> \"Tu membresía vence en 3 días. Renová para seguir reservando clases.\" Reduce la morosidad.</li></ul><p>La combinación de <strong>reservas + recordatorios + lista de espera</strong> maximiza la ocupación de cada clase. Cada lugar vacío es plata que perdiste.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto",
+        "body": "<p>Para gimnasios:</p><ul><li><strong>Gimnasio chico (1 sala, pocas clases):</strong> Cloxsy o Cal.com. Gestión de cupos básica sin complejidad.</li><li><strong>Gimnasio mediano (2+ salas, 10+ clases semanales):</strong> AgendaPro. Grilla de clases, cupos, membresías y recordatorios profesionales.</li><li><strong>Cadena o gimnasio grande:</strong> desarrollo a medida con app propia, control de acceso y multi-sede.</li></ul><p>Lo más importante: <strong>que gestione cupos de clases grupales y tenga lista de espera</strong>. Sin eso, seguís manejando todo a mano y la clase de las 19:00 sigue teniendo 30 personas para 20 lugares.</p><p>¿Necesitás ayuda? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te recomendamos la solución que mejor se adapta a tu gimnasio. Complementá con tu <a href=\"/blog/presencia-digital-ideal-gimnasio\">presencia digital completa</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de reservas para gimnasio?",
+        "answer": "SaaS: entre USD 10 y USD 45/mes. Cal.com tiene plan gratuito. Desarrollo a medida: desde $800.000 ARS. Con app propia y control de acceso, $2-3M ARS."
+      },
+      {
+        "question": "¿Puedo controlar el cupo de clases grupales?",
+        "answer": "Sí. Tanto AgendaPro como Cloxsy permiten configurar cupo máximo por clase. Cuando se llena, el alumno queda en lista de espera automáticamente."
+      },
+      {
+        "question": "¿El sistema maneja membresías y cobros?",
+        "answer": "AgendaPro maneja membresías en sus planes superiores. Cal.com y Cloxsy se enfocan solo en reservas. Para cobro automatizado completo, se necesita desarrollo a medida o integración con MercadoPago."
+      }
+    ],
+    "ctaText": "¿Querés organizar las reservas de tu gimnasio? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir el mejor sistema."
+  }
+}

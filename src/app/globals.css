@@ -195,3 +195,33 @@ h1, h2, h3, h4, .font-heading {
   background: var(--color-s-accent);
   color: black;
 }
+
+/* ── Blog prose ── */
+.blog-prose p { margin-bottom: 1rem }
+.blog-prose strong { color: var(--color-s-text); font-weight: 600 }
+.blog-prose a {
+  color: var(--color-s-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color .2s;
+}
+.blog-prose a:hover { color: #fff }
+.blog-prose ul, .blog-prose ol { padding-left: 1.25rem; margin-bottom: 1rem }
+.blog-prose li { margin-bottom: 0.4rem }
+.blog-prose ul li { list-style-type: disc }
+.blog-prose ol li { list-style-type: decimal }
+.blog-prose blockquote {
+  border-left: 3px solid var(--color-s-accent);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  background: rgba(0,255,163,0.03);
+  border-radius: 0 8px 8px 0;
+  color: var(--color-s-sub);
+  font-size: 14px;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

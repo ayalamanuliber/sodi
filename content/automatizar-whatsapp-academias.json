@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-academias",
+  "title": "Cómo automatizar WhatsApp para academias e institutos: inscripciones, consultas y comunicación con alumnos",
+  "metaTitle": "Automatizar WhatsApp para Academias | SODI",
+  "metaDescription": "Automatizá inscripciones, consultas y comunicación de tu academia por WhatsApp. Menos carga administrativa, más alumnos.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["academias", "institutos", "WhatsApp Business", "inscripciones", "educación"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["redes-sociales-para-institutos-educativos", "sistema-de-turnos-para-academias", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Si tenés una academia, instituto o centro de formación en Argentina, <strong>WhatsApp es tu canal de inscripción número uno</strong>. La mayoría de los potenciales alumnos no llenan formularios web ni llaman por teléfono: escriben por WhatsApp. \"¿Qué cursos tienen?\", \"¿Cuánto sale?\", \"¿Cuándo arranca?\". Y si no respondés rápido, se inscribieron en la competencia.</p><p>Automatizar WhatsApp te permite atender cada consulta al instante, guiar al alumno hasta la inscripción y mantener la comunicación activa durante todo el curso. Sin necesidad de tener a alguien pegado al celular todo el día.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una academia",
+        "body": "<p>El 80% de las consultas que recibe una academia son las mismas. Estos mensajes se automatizan perfectamente:</p><ul><li><strong>Información de cursos:</strong> cuando alguien pregunta por un curso, el bot envía la ficha completa: duración, modalidad, horarios, precio, requisitos.</li><li><strong>Proceso de inscripción:</strong> \"¿Querés inscribirte? Te paso los pasos y el link de pago.\"</li><li><strong>Aranceles y medios de pago:</strong> respuesta automática con cuotas, descuentos por pago anticipado, transferencia y tarjeta.</li><li><strong>Fechas de inicio:</strong> \"Nuestro próximo curso de [X] arranca el [fecha]. ¿Querés reservar tu lugar?\"</li><li><strong>Comunicación con alumnos activos:</strong> recordatorio de clases, cambios de horario, material de estudio, avisos de exámenes.</li></ul><p>Automatizar estas consultas te ahorra <strong>fácilmente 3-4 horas diarias</strong> de trabajo administrativo. Tu equipo se enfoca en dar clases y mejorar contenidos, no en responder lo mismo 50 veces por día.</p>"
+      },
+      {
+        "heading": "Flujo de bot para inscripciones",
+        "body": "<p>El flujo de inscripción por WhatsApp es el más importante. Tiene que ser <strong>rápido, claro y terminar en una acción</strong>:</p><ol><li>Saludo: \"¡Hola! Bienvenido/a a [Academia]. ¿Qué te interesa? Cursos / Talleres / Consulta general\"</li><li>Selección de área: idiomas, tecnología, arte, oficios, etc.</li><li>Bot muestra los cursos de esa área con info resumida</li><li>El interesado elige uno → bot envía ficha completa con precio y horarios</li><li>\"¿Querés inscribirte? Te paso el formulario de inscripción.\" → link directo</li><li>Follow-up automático si no completó: \"¿Pudiste inscribirte? ¿Tenés alguna duda?\"</li></ol><p>El <strong>follow-up es clave</strong>. Muchos interesados consultan pero no se inscriben en el momento. Un mensaje de seguimiento a las 24 hs recupera entre el 10% y el 20% de esas consultas. Sin automatización, esos leads se pierden.</p><p>Combiná este flujo con un <a href=\"/blog/sistema-de-turnos-para-academias\">sistema de turnos para clases de prueba</a> y convertís más consultas en alumnos.</p>"
+      },
+      {
+        "heading": "Comunicación masiva con alumnos activos",
+        "body": "<p>WhatsApp no es solo para captar alumnos, también para <strong>retenerlos</strong>. Usá el bot para mantener comunicación activa:</p><ul><li><strong>Recordatorio de clases:</strong> \"Mañana tenés clase de [materia] a las [hora] en [aula/link de Zoom].\"</li><li><strong>Material de estudio:</strong> envío automático de PDFs, videos o links después de cada clase.</li><li><strong>Avisos de cambios:</strong> si se suspende una clase o cambia el horario, aviso masivo instantáneo.</li><li><strong>Encuestas de satisfacción:</strong> \"¿Cómo fue la clase de hoy? 1-5\" para detectar problemas a tiempo.</li><li><strong>Cobro de cuotas:</strong> recordatorio automático de vencimiento con link de pago.</li></ul><p>Estas comunicaciones se hacen con la API de WhatsApp Business usando <strong>listas de difusión segmentadas</strong> por curso. No es spam: es información relevante que el alumno pidió recibir al inscribirse.</p><p>Los institutos que mantienen comunicación activa por WhatsApp tienen <strong>tasas de deserción hasta un 30% menores</strong> que los que solo usan email o cartelera.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para academias",
+        "body": "<p>Las opciones según el tamaño de tu academia:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, listas de difusión (máximo 256 contactos por lista), catálogo con cursos. Funcional para academias chicas.</li><li><strong>Bots SaaS (Cliengo, Botmaker):</strong> desde USD 25/mes. Flujos de inscripción automatizados, derivación a humanos.</li><li><strong>Plataformas de comunicación educativa (Acadeum, ClassApp):</strong> desde USD 50/mes. Diseñadas para educación, con módulos de avisos, material y cobro.</li><li><strong>Desarrollo custom con API:</strong> desde USD 200 de setup. Integración con tu sistema de gestión de alumnos.</li></ul><p>El ROI es directo: si automatizando WhatsApp lográs <strong>5 inscripciones más por mes</strong> que antes se perdían por falta de respuesta, con una cuota promedio de $30.000, son $150.000 extra mensuales. El bot se paga en la primera semana.</p><p>¿Querés saber qué solución le conviene a tu academia? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      },
+      {
+        "heading": "Errores comunes en academias con WhatsApp",
+        "body": "<p>Estos errores le cuestan alumnos a las academias todos los días:</p><ul><li><strong>Responder tarde:</strong> un interesado que pregunta a las 20 hs y recibe respuesta al día siguiente probablemente ya se inscribió en otro lado.</li><li><strong>Mezclar comunicación de alumnos con consultas de nuevos:</strong> si usás el mismo chat para todo, se pierde información. Separá canales o usá etiquetas.</li><li><strong>No hacer seguimiento de consultas:</strong> alguien pregunta por un curso, le respondés, no vuelve a escribir y nunca más lo contactás. Ese lead tenía potencial.</li><li><strong>Enviar información desactualizada:</strong> precios del año pasado, cursos que ya no se dictan, horarios que cambiaron.</li><li><strong>No segmentar los mensajes masivos:</strong> mandarle avisos del curso de inglés a los alumnos de programación genera ruido y desconfianza.</li></ul><p>Cada uno de estos errores tiene solución con automatización bien implementada. La tecnología existe y es accesible; solo hay que configurarla correctamente.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo enviar material de estudio por WhatsApp de forma masiva?",
+        "answer": "Sí, usando la API de WhatsApp Business con listas segmentadas. Podés enviar PDFs, links y videos a todos los alumnos de un curso específico. Con WhatsApp Business básico, las listas de difusión tienen un límite de 256 contactos."
+      },
+      {
+        "question": "¿Cómo evito que los mensajes de la academia parezcan spam?",
+        "answer": "Obteniendo consentimiento explícito al momento de la inscripción, segmentando por curso/grupo, enviando solo información relevante y dando siempre la opción de dejar de recibir mensajes. La clave es que cada mensaje aporte valor al alumno."
+      },
+      {
+        "question": "¿El bot puede responder consultas sobre contenidos de los cursos?",
+        "answer": "Puede responder información general: temario, duración, requisitos, modalidad. Para consultas específicas sobre contenido académico, el bot debe derivar al docente o coordinador. No intentes que el bot reemplace la función pedagógica."
+      }
+    ],
+    "ctaText": "¿Tu academia pierde inscripciones por no responder a tiempo? Pedí un diagnóstico gratuito y automatizamos tu WhatsApp esta semana."
+  }
+}

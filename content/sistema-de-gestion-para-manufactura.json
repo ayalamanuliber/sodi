@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-manufactura",
+  "title": "Sistema de Gestión para Empresas Manufactureras en Argentina",
+  "metaTitle": "Sistema de Gestión para Manufactura Argentina",
+  "metaDescription": "Controlá producción, materias primas, costos y calidad de tu fábrica con un sistema de gestión. Comparamos MRP, ERP y soluciones a medida en Argentina.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "manufactura", "producción", "ERP industrial"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["sistema-de-gestion-para-distribuidoras", "cuanto-cuesta-sistema-de-gestion-pymes", "software-a-medida-vs-estandar"],
+  "content": {
+    "intro": "<p>Si tenés una fábrica o taller productivo en Argentina, sabés que la gestión de la producción es un animal completamente distinto al comercio o los servicios. <strong>Materias primas con precios volátiles, órdenes de producción con múltiples etapas, control de calidad, stock de producto terminado, y costos que tenés que calcular con precisión para no vender a pérdida.</strong></p><p>Un <strong>sistema de gestión para manufactura</strong> — ya sea un MRP, un ERP industrial o un desarrollo a medida — te da visibilidad sobre todo el proceso productivo. En esta guía te explicamos qué necesitás según el tipo y escala de tu producción.</p>",
+    "sections": [
+      {
+        "heading": "El caos productivo: qué pasa cuando una fábrica opera sin sistema",
+        "body": "<p>Las PyMEs manufactureras argentinas enfrentan desafíos únicos:</p><ul><li><strong>Planificación de producción \"a ojo\":</strong> Se produce en base a la intuición del dueño, no en base a demanda real. Resultado: stock de cosas que no se venden y faltante de lo que piden.</li><li><strong>Costeo impreciso:</strong> ¿Cuánto cuesta realmente producir tu producto? Entre materia prima, mano de obra, energía, desperdicio y gastos fijos, muchos fabricantes no lo saben con exactitud.</li><li><strong>Stock de materia prima descontrolado:</strong> Comprás de más o de menos. Te quedás sin un insumo crítico a mitad de una producción.</li><li><strong>Trazabilidad cero:</strong> Si un cliente reclama un lote defectuoso, no podés rastrear qué materia prima se usó, quién la produjo ni cuándo.</li><li><strong>Desperdicio invisible:</strong> Sin medición, no sabés cuánto material se pierde en cada producción ni dónde están los cuellos de botella.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades clave de un sistema de gestión manufacturero",
+        "body": "<p>Dependiendo de tu escala, necesitás algunas o todas estas funcionalidades:</p><ul><li><strong>Recetas / Listas de materiales (BOM):</strong> Definición de qué materias primas y en qué cantidad se necesitan para cada producto terminado.</li><li><strong>Órdenes de producción:</strong> Planificación de qué producir, cuánto, para cuándo. Con etapas (preparación, producción, control de calidad, empaque).</li><li><strong>MRP (Material Requirements Planning):</strong> El sistema calcula automáticamente qué materia prima necesitás comprar en base a las órdenes de producción planificadas y el stock disponible.</li><li><strong>Control de stock triple:</strong> Materia prima, producto en proceso y producto terminado. Cada uno con su lógica y sus alertas.</li><li><strong>Costeo de producción:</strong> Cálculo automático del costo de cada lote producido, incluyendo materia prima, mano de obra directa, energía y gastos asignados.</li><li><strong>Control de calidad:</strong> Registro de controles, lotes aprobados/rechazados, trazabilidad de materias primas por lote de producto terminado.</li><li><strong>Reportes de producción:</strong> Eficiencia, desperdicio, costo real vs. presupuestado, productividad por línea.</li></ul>"
+      },
+      {
+        "heading": "MRP, ERP o sistema a medida: qué necesita tu fábrica",
+        "body": "<p>Las opciones para manufactura son más diversas que en otros rubros:</p><p><strong>MRP / ERP enlatado:</strong> Odoo Manufacturing, ERPNext, Tango Gestión con módulo de producción. Son soluciones probadas que cubren el ciclo productivo estándar. Ideales para fábricas con procesos relativamente estandarizados.</p><p><strong>ERP industrial:</strong> SAP Business One, Infor, Epicor. Para fábricas medianas-grandes con operaciones complejas, múltiples plantas y necesidades de trazabilidad avanzada. Costos significativamente más altos.</p><p><strong>Sistema a medida:</strong> Si tu proceso productivo es único (fabricación bajo pedido, producción continua con fórmulas, o combinación de manufactura + servicio), un <a href=\"/blog/software-a-medida-vs-estandar\">desarrollo a medida</a> puede ser la opción más eficiente.</p><p>La clave está en la complejidad de tu proceso. <strong>Si podés describir tu producción como \"compro X, proceso, sale Y\", un ERP estándar probablemente alcance.</strong> Si tu proceso tiene variantes, excepciones y reglas específicas, evaluá algo a medida.</p>"
+      },
+      {
+        "heading": "Costos de implementación para manufactura en 2026",
+        "body": "<p>La manufactura es uno de los rubros donde más varía la inversión:</p><ul><li><strong>ERP open source (Odoo, ERPNext):</strong> $50.000 - $150.000 ARS/mes de hosting + $1.000.000 - $3.000.000 ARS de implementación/configuración</li><li><strong>ERP comercial (Tango, similar):</strong> $80.000 - $250.000 ARS/mes de licencia + $2.000.000 - $5.000.000 ARS de implementación</li><li><strong>ERP industrial (SAP B1, Infor):</strong> $200.000 - $800.000 ARS/mes + $5.000.000 - $20.000.000 ARS de implementación</li><li><strong>Sistema a medida:</strong> $5.000.000 - $20.000.000 ARS de desarrollo según complejidad</li></ul><p>El retorno en manufactura viene por dos lados: <strong>reducción de desperdicio</strong> (típicamente 5-15% de ahorro en materia prima) y <strong>mejor costeo</strong> (dejás de vender productos por debajo de su costo real). Ambos impactan directo en la rentabilidad.</p>"
+      },
+      {
+        "heading": "Implementación en una fábrica: el camino crítico",
+        "body": "<p>Implementar un sistema en manufactura es más complejo que en comercio o servicios:</p><ul><li><strong>Relevamiento de procesos:</strong> Antes de tocar un sistema, documentá cómo se produce hoy. Flujo de materiales, etapas, controles, tiempos. Esto es la base de todo.</li><li><strong>Carga de datos maestros:</strong> Productos, materias primas, recetas/BOM, centros de trabajo, proveedores. Es la etapa más laboriosa.</li><li><strong>Piloto con un producto:</strong> Elegí tu producto más simple y hacé todo el ciclo en el sistema: planificación, compra de materia prima, orden de producción, control de calidad, ingreso a stock.</li><li><strong>Ajuste y extensión:</strong> Ajustá lo que no funcionó en el piloto, y sumá más productos progresivamente.</li><li><strong>Capacitación continua:</strong> En manufactura, los operarios de planta también usan el sistema (para registrar producciones, consumos, controles). La capacitación es clave.</li></ul><p>Una implementación de ERP manufacturero lleva entre 3 y 9 meses. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> para evaluar tu caso.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema calcula automáticamente qué materia prima necesito comprar?",
+        "answer": "Sí, si tiene módulo MRP. En base a las órdenes de producción planificadas y el stock disponible, calcula las necesidades de compra y genera sugerencias de órdenes de compra."
+      },
+      {
+        "question": "¿Puedo calcular el costo real de cada lote de producción?",
+        "answer": "Sí. El sistema registra la materia prima consumida, la mano de obra directa y los gastos asignados para calcular el costo real de cada lote producido."
+      },
+      {
+        "question": "¿Sirve para fabricación bajo pedido?",
+        "answer": "Sí. Los sistemas de manufactura manejan tanto producción para stock como fabricación bajo pedido (make-to-order), con órdenes de producción vinculadas a pedidos de clientes."
+      },
+      {
+        "question": "¿Puedo rastrear un lote de producto terminado hasta la materia prima?",
+        "answer": "Sí, si el sistema tiene trazabilidad. Podés saber qué lote de materia prima se usó en cada producción, fundamental para reclamos de calidad y cumplimiento normativo."
+      },
+      {
+        "question": "¿Cuánto tarda la implementación en una fábrica?",
+        "answer": "Depende de la complejidad, pero típicamente entre 3 y 9 meses. Incluye relevamiento, configuración, carga de datos, piloto, ajustes y capacitación del personal."
+      }
+    ],
+    "ctaText": "¿Tu fábrica necesita más control y menos desperdicio? Agendá un diagnóstico gratuito y te recomendamos el sistema ideal para tu proceso productivo."
+  }
+}

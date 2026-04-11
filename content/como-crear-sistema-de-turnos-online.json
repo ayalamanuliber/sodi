@@ -1,0 +1,61 @@
+{
+  "slug": "como-crear-sistema-de-turnos-online",
+  "title": "Cómo crear un sistema de turnos online: SaaS vs custom, herramientas y setup paso a paso",
+  "metaTitle": "Cómo crear un sistema de turnos online 2026",
+  "metaDescription": "Armá tu sistema de turnos online: AgendaPro, Cal.com o desarrollo a medida. Comparativa, costos y cómo integrarlo con WhatsApp.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["turnos online", "agenda online", "agendapro", "sistema de reservas"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-app-de-turnos", "sistema-de-turnos-vs-whatsapp", "sistema-de-turnos-para-consultorios-medicos"],
+  "content": {
+    "intro": "<p>Si tu negocio funciona con turnos y los gestionás por <strong>WhatsApp, llamadas telefónicas o una agenda de papel</strong>, estás perdiendo tiempo y clientes. Un sistema de turnos online permite que tus pacientes, clientes o alumnos se agenden solos, 24/7, sin necesidad de que alguien conteste el teléfono.</p><p>En esta guía te mostramos las opciones disponibles en Argentina (SaaS y custom), cuánto cuesta cada una, cómo configurarlas paso a paso y cómo integrar todo con WhatsApp para que la experiencia sea fluida.</p>",
+    "sections": [
+      {
+        "heading": "¿Sistema de turnos SaaS o desarrollo a medida?",
+        "body": "<p>La primera decisión es si usás una <strong>plataforma ya hecha (SaaS)</strong> o mandás a desarrollar un sistema propio. La respuesta depende de tu complejidad:</p><p><strong>SaaS te conviene si:</strong></p><ul><li>Tenés un negocio estándar (consultorio, peluquería, estudio, gym)</li><li>Tus reglas de turnos son simples (duración fija, profesionales intercambiables)</li><li>Presupuesto mensual de $5.000-$50.000/mes</li><li>Necesitás algo funcionando en 1-3 días</li></ul><p><strong>Desarrollo a medida te conviene si:</strong></p><ul><li>Tus reglas de turnos son complejas (múltiples recursos, turnos solapados, requisitos especiales)</li><li>Necesitás integración profunda con tu sistema de gestión actual</li><li>Tenés más de 20 profesionales o múltiples sucursales</li><li>El costo mensual del SaaS supera los $80.000/mes</li></ul><p>Para el <strong>90% de las PyMEs argentinas</strong>, un SaaS es la opción correcta. Un desarrollo a medida solo se justifica cuando las reglas de negocio son demasiado específicas para un sistema genérico. Leé nuestra guía de <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta una app de turnos</a> para detalles de inversión.</p>"
+      },
+      {
+        "heading": "Comparativa de plataformas de turnos online",
+        "body": "<p>Las opciones más usadas en Argentina:</p><ul><li><strong>AgendaPro:</strong> desde USD 19/mes por profesional. Muy popular en salud y belleza. Incluye agenda online, recordatorios por WhatsApp/SMS, historial de pacientes, y cobros online. Interfaz intuitiva, soporte en español. <strong>La opción más completa para consultorios y centros de salud.</strong></li><li><strong>Calendly:</strong> plan gratis (1 tipo de evento) o desde USD 10/mes. Ideal para reuniones y consultas uno a uno. Se integra con Google Calendar, Zoom y Meet. Buena opción para consultores, coaches y profesionales independientes.</li><li><strong>Cal.com:</strong> plan gratis (auto-hosted) o desde USD 12/mes (cloud). Open source, muy personalizable. Se integra con casi todo. Ideal si querés algo simple y flexible sin depender de una empresa específica.</li><li><strong>SimplyBook.me:</strong> plan gratis (50 reservas/mes) o desde USD 9.90/mes. Muy completo: múltiples servicios, profesionales, clases grupales, pagos online. Buena opción para gimnasios, estudios de yoga y academias.</li><li><strong>Cloxsy:</strong> plataforma argentina. Desde $8.000/mes. Sistema de turnos + recordatorios por WhatsApp + ficha de cliente. Soporte local y precios en pesos. Ideal si preferís una solución 100% argentina.</li></ul><p>Para elegir, priorizá: <strong>integración con WhatsApp</strong> (fundamental en Argentina), recordatorios automáticos (reducen ausentismo un 30-50%), y facilidad de uso tanto para vos como para tu cliente.</p>"
+      },
+      {
+        "heading": "Setup paso a paso: tu sistema de turnos en 1 día",
+        "body": "<p>Usando AgendaPro como ejemplo (el proceso es similar en todas las plataformas):</p><ul><li><strong>Hora 1 - Cuenta y perfil:</strong> Registrate, completá el perfil de tu negocio (nombre, dirección, teléfono, logo). Configurá tu zona horaria y moneda.</li><li><strong>Hora 2 - Servicios y profesionales:</strong> Cargá cada servicio que ofrecés con nombre, duración, precio y descripción. Si tenés múltiples profesionales, cargá cada uno con su especialidad y horarios.</li><li><strong>Hora 3 - Horarios y reglas:</strong> Configurá los horarios de atención de cada profesional. Definí: tiempo mínimo de anticipación para reservar, tiempo de cancelación, y si permitís turnos el mismo día.</li><li><strong>Hora 4 - Recordatorios:</strong> Activá recordatorios automáticos: 24 horas antes por WhatsApp/SMS + 1 hora antes. Esto reduce el ausentismo entre un 30% y un 50%.</li><li><strong>Hora 5 - Pagos (opcional):</strong> Si querés cobrar seña o el turno completo al reservar, conectá Mercado Pago. Reduce cancelaciones de último momento.</li><li><strong>Hora 6 - Publicación:</strong> Generá tu link de reservas y compartilo en tu web (embed o link), bio de Instagram, WhatsApp Business y Google Business Profile.</li></ul><p>En 6 horas tenés un sistema de turnos funcionando. Tus clientes se agendan solos, reciben recordatorios automáticos, y vos dejás de perder tiempo coordinando por WhatsApp.</p>"
+      },
+      {
+        "heading": "Cómo integrar tu sistema de turnos con WhatsApp",
+        "body": "<p>En Argentina, WhatsApp es el canal principal de comunicación. Tu sistema de turnos tiene que estar integrado de alguna forma con WhatsApp. Opciones:</p><ul><li><strong>Link de reserva en WhatsApp Business:</strong> la forma más simple. Configurá una respuesta rápida (/turno) que envíe el link de tu página de reservas. Cuando alguien pide turno por WhatsApp, mandás el link en 2 segundos.</li><li><strong>Bot de WhatsApp con link de turnos:</strong> herramientas como Wasapi o Cliengo pueden tener un flujo de bot que detecta \"quiero un turno\" y responde automáticamente con el link de tu sistema. 100% automático.</li><li><strong>Recordatorios por WhatsApp API:</strong> AgendaPro, Cloxsy y otras plataformas envían recordatorios automáticos por WhatsApp Business API. El paciente recibe un mensaje tipo: \"Recordatorio: tenés turno mañana a las 15:00 con Dr. García. ¿Confirmás? Responde SÍ o NO\".</li><li><strong>Confirmación y cancelación por WhatsApp:</strong> algunas plataformas permiten que el paciente confirme o cancele respondiendo directamente al mensaje de WhatsApp. Esto simplifica enormemente la gestión.</li></ul><p>La integración completa (reserva + recordatorio + confirmación por WhatsApp) reduce las <strong>llamadas entrantes un 60-80%</strong> y el ausentismo un 30-50%. Es la mejora operativa con mayor impacto para negocios basados en turnos.</p>"
+      },
+      {
+        "heading": "Métricas clave de tu sistema de turnos",
+        "body": "<p>Una vez implementado, medí estos indicadores:</p><ul><li><strong>Tasa de ausentismo:</strong> porcentaje de turnos que no se presentan. Con recordatorios, deberías estar por debajo del 10%. Sin recordatorios, es normal un 20-30%. Si cobrás seña al reservar, baja al 3-5%.</li><li><strong>Tasa de ocupación:</strong> porcentaje de slots disponibles que se llenan. Si tu ocupación es menor al 70%, tenés un problema de demanda o de visibilidad de tu agenda online.</li><li><strong>Reservas online vs telefónicas:</strong> tu objetivo es que al menos el 70% de las reservas se hagan online sin intervención humana. Si después de 3 meses sigue siendo 50/50, tu sistema no es lo suficientemente fácil de usar o no lo estás promocionando bien.</li><li><strong>Cancelaciones de último momento:</strong> si son más del 15%, implementá una política de cancelación (ej: cancelar con menos de 24 horas pierde la seña) y comunicala claramente.</li></ul><p>Revisá estas métricas mensualmente. Un buen sistema de turnos no solo ahorra tiempo: te da datos para optimizar tu operación, identificar horarios de alta/baja demanda y ajustar tu oferta.</p><p>Si necesitás evaluar qué sistema de turnos es el ideal para tu tipo de negocio, <a href=\"/diagnostico\">hacé nuestro diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos online?",
+        "answer": "Desde $0 (Cal.com self-hosted, Calendly gratis) hasta USD 19-50/mes por profesional (AgendaPro, SimplyBook). Opciones argentinas como Cloxsy arrancan en $8.000/mes. Un desarrollo a medida cuesta desde $500.000 ARS. Para la mayoría de los negocios, un SaaS de $10.000-$30.000/mes alcanza."
+      },
+      {
+        "question": "¿Puedo cobrar el turno al momento de reservar?",
+        "answer": "Sí. La mayoría de las plataformas se integran con Mercado Pago para cobrar seña o el turno completo al reservar. Esto reduce cancelaciones de último momento drásticamente (del 20-30% al 3-5%)."
+      },
+      {
+        "question": "¿Los pacientes se van a adaptar a reservar online?",
+        "answer": "Sí. En Argentina, el 70%+ de los adultos usa apps bancarias y compra online. Reservar un turno clickeando un link es más fácil que llamar por teléfono. Siempre dejá la opción de turno telefónico para quienes la prefieran, pero la mayoría migra naturalmente."
+      },
+      {
+        "question": "¿Se integra con mi sistema de gestión actual?",
+        "answer": "Depende del sistema. AgendaPro tiene API. Cal.com se integra con Zapier/Make para conectar con casi cualquier sistema. Si usás un software de gestión específico de tu rubro (ej: un HIS para salud), verificá compatibilidad antes de elegir."
+      },
+      {
+        "question": "¿Sistema de turnos SaaS o WhatsApp para gestionar turnos?",
+        "answer": "WhatsApp funciona para menos de 20 turnos diarios con un solo profesional. Arriba de eso, la gestión manual por WhatsApp consume demasiado tiempo y genera errores (turnos superpuestos, olvidos). Un sistema de turnos online se paga solo a partir de 10 turnos diarios."
+      }
+    ],
+    "ctaText": "¿Querés implementar un sistema de turnos online en tu negocio? Hacé nuestro diagnóstico gratuito y te recomendamos la mejor opción."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "wordpress-vs-desarrollo-a-medida",
+  "title": "WordPress vs desarrollo a medida: cuándo conviene cada uno para tu web en Argentina",
+  "metaTitle": "WordPress vs desarrollo a medida Argentina 2026",
+  "metaDescription": "WordPress para blogs y sitios simples desde $200.000. Desarrollo a medida para sistemas y conversión desde $800.000. Velocidad, seguridad y costos reales.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["wordpress", "desarrollo web", "desarrollo a medida", "diseño web", "CMS"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "wix-vs-desarrollo-profesional", "que-es-desarrollo-web-a-medida"],
+  "content": {
+    "intro": "<p><strong>WordPress</strong> alimenta el 43% de las webs del mundo y es la opción correcta para blogs, sitios institucionales y portafolios. Pero si necesitás un sitio que convierta visitantes en clientes con velocidad de carga sub-segundo, lógica de negocio personalizada o integración con sistemas internos, el <strong>desarrollo a medida</strong> te da resultados que WordPress nunca va a igualar.</p><p>El debate no es \"cuál es mejor\" — es cuándo conviene cada uno. Y la respuesta depende de qué tan importante es tu web para generar ingresos.</p>",
+    "sections": [
+      {
+        "heading": "WordPress: costos, ventajas y problemas reales",
+        "body": "<p><strong>Costos de un sitio WordPress en Argentina 2026:</strong></p><ul><li>Web básica con template: $150.000-$350.000 ARS</li><li>Web institucional con diseño semi-custom: $350.000-$600.000 ARS</li><li>Web compleja con plugins premium: $600.000-$1.000.000 ARS</li><li>Hosting: $5.000-$25.000/mes</li><li>Mantenimiento (updates, backups, seguridad): $15.000-$40.000/mes</li></ul><p><strong>Ventajas reales:</strong> ecosistema masivo de plugins (60.000+), miles de templates, fácil de editar para no-técnicos, comunidad enorme para resolver problemas, SEO nativo con Yoast/RankMath.</p><p><strong>Problemas reales:</strong></p><ul><li><strong>Velocidad:</strong> un WordPress promedio con Elementor + 15 plugins carga en 3-5 segundos. Google penaliza sitios que cargan en más de 2.5 segundos. Un sitio a medida con Next.js carga en 0.5-1 segundo.</li><li><strong>Seguridad:</strong> WordPress es el CMS más atacado del mundo (¡justamente por ser el más usado!). Si no actualizás plugins religiosamente, tu sitio es vulnerable.</li><li><strong>Dependencia de plugins:</strong> un plugin se descontinúa o tiene conflicto con otro y tu sitio se rompe. Pasa todo el tiempo.</li></ul>"
+      },
+      {
+        "heading": "Desarrollo a medida: qué es, cuánto sale y para quién",
+        "body": "<p>Desarrollo a medida significa construir tu web con código propio, usando tecnologías modernas como <strong>React, Next.js, Astro, Vue</strong> o similar. No dependés de templates ni plugins — cada componente está hecho para tu caso específico.</p><p><strong>Costos en Argentina 2026:</strong></p><ul><li>Landing page / sitio institucional: $500.000-$1.200.000 ARS</li><li>Sitio con sistema de conversión avanzado: $1.000.000-$2.500.000 ARS</li><li>Aplicación web compleja: $2.500.000-$6.000.000 ARS</li><li>Mantenimiento: $30.000-$100.000/mes</li></ul><p><strong>Ventajas:</strong></p><ul><li><strong>Velocidad:</strong> sitios que cargan en menos de 1 segundo, score 95-100 en Google PageSpeed</li><li><strong>Seguridad:</strong> superficie de ataque mínima (no hay plugins de terceros), código auditado</li><li><strong>Flexibilidad total:</strong> cualquier funcionalidad, cualquier diseño, cualquier integración</li><li><strong>Escalabilidad:</strong> soporta desde 100 a 1.000.000 de visitas sin cambiar de plataforma</li></ul><p>La desventaja principal: <strong>necesitás un equipo técnico</strong> para mantenerlo. No podés \"instalar un plugin\" para agregar una funcionalidad — hay que desarrollarla. Para un blog personal, eso es overkill. Para un sitio que genera ingresos, es una inversión.</p>"
+      },
+      {
+        "heading": "Comparación punto a punto: WordPress vs a medida",
+        "body": "<p>Hablemos de lo que importa para un negocio:</p><ul><li><strong>Velocidad de carga:</strong> WordPress 2-5 seg vs a medida 0.3-1 seg. Google premia velocidad con mejor ranking y los usuarios abandonan si carga lento (53% abandona si tarda más de 3 segundos en mobile).</li><li><strong>Costo inicial:</strong> WordPress $150.000-$600.000 vs a medida $500.000-$2.500.000. WordPress gana en precio de entrada.</li><li><strong>Costo de mantenimiento:</strong> WordPress $15.000-$40.000/mes + licencias plugins vs a medida $30.000-$100.000/mes. A largo plazo, se acercan.</li><li><strong>SEO técnico:</strong> WordPress bueno con plugins, pero limitado en Core Web Vitals. A medida permite optimización total.</li><li><strong>Facilidad de edición:</strong> WordPress cualquier persona edita. A medida necesita un CMS headless o acceso al código.</li><li><strong>Tiempo de desarrollo:</strong> WordPress 2-6 semanas vs a medida 6-16 semanas.</li></ul><p>Si <strong>tu web es una herramienta de ventas</strong>, cada décima de segundo de carga importa. Un sitio que carga en 1 segundo convierte un 30% más que uno que carga en 3 segundos. Hacé la cuenta con tu volumen de tráfico y vas a ver que la inversión en desarrollo a medida se paga sola.</p>"
+      },
+      {
+        "heading": "Cuándo WordPress es la respuesta correcta",
+        "body": "<p>WordPress es la mejor opción cuando:</p><ul><li><strong>Necesitás un blog</strong> con publicaciones frecuentes que cualquiera del equipo pueda editar</li><li><strong>Tu presupuesto es limitado</strong> (menos de $500.000) y necesitás un sitio profesional rápido</li><li><strong>Tu web es informativa</strong> — muestra servicios, portfolio, contacto, pero no tiene lógica de negocio</li><li><strong>Querés autonomía total</strong> para editar contenido sin depender de un desarrollador</li><li><strong>Tu negocio no depende de la web</strong> — tus clientes llegan por otros canales</li></ul><p>Un <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">WordPress bien hecho</a> con un template premium (Astra, GeneratePress) y plugins optimizados puede cargar en 1.5-2 segundos y darte una web profesional excelente. El problema es que el 80% de los WordPress están mal hechos: sobrecargados de plugins, con templates pesados y sin optimización.</p><p>Si elegís WordPress, asegurate de que tu desarrollador use un <strong>template liviano</strong>, los plugins mínimos necesarios, y optimice velocidad con caché (WP Rocket) y CDN (Cloudflare). Eso marca la diferencia entre un WordPress decente y uno desastroso.</p>"
+      },
+      {
+        "heading": "Cuándo el desarrollo a medida vale la inversión",
+        "body": "<p>El desarrollo a medida se justifica cuando:</p><ul><li><strong>Tu web es tu canal principal de ventas</strong> — genera leads, consultas o ventas directas</li><li><strong>Necesitás velocidad extrema</strong> para competir en SEO y reducir abandono</li><li><strong>Tenés funcionalidades únicas</strong> — calculadoras, configuradores, paneles de cliente, integraciones con APIs</li><li><strong>La seguridad es crítica</strong> — manejás datos sensibles, pagos o información de clientes</li><li><strong>Escalás rápido</strong> — tu tráfico crece y WordPress empieza a quedar lento sin importar cuánto optimices</li></ul><p>Para servicios profesionales (<a href=\"/blog/pagina-web-para-abogados\">abogados</a>, <a href=\"/blog/pagina-web-para-contadores\">contadores</a>, <a href=\"/blog/pagina-web-para-consultorios-medicos\">consultorios médicos</a>), una web a medida con sistema de conversión integrado genera entre <strong>3x y 5x más consultas</strong> que un WordPress genérico. La inversión adicional se recupera en 4-8 meses con el volumen de clientes nuevos.</p><p>¿No sabés cuál necesitás? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te decimos con datos cuál es la mejor inversión para tu caso.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿WordPress es bueno para un sitio profesional?",
+        "answer": "Sí, si está bien hecho. Un WordPress con template liviano, plugins mínimos y optimización de velocidad puede ser un sitio profesional excelente. El problema es que el 80% está mal hecho: sobrecargado, lento e inseguro. Exigí que tu desarrollador optimice velocidad y seguridad."
+      },
+      {
+        "question": "¿Cuánto cuesta un sitio web a medida en Argentina?",
+        "answer": "Un sitio institucional a medida cuesta $500.000-$1.200.000 ARS. Un sitio con sistema de conversión avanzado, $1.000.000-$2.500.000. El mantenimiento mensual va de $30.000 a $100.000. La inversión se justifica cuando tu web genera ingresos directos."
+      },
+      {
+        "question": "¿WordPress es seguro?",
+        "answer": "WordPress es seguro si se mantiene actualizado. Pero es el CMS más atacado del mundo por su popularidad. Necesitás actualizaciones mensuales de WordPress + plugins, firewall (Wordfence), backups automáticos y hosting con medidas de seguridad. Si no lo mantenés, es vulnerable."
+      },
+      {
+        "question": "¿Un sitio a medida es más rápido que WordPress?",
+        "answer": "Sí. Un sitio con Next.js o Astro carga en 0.3-1 segundo (score 95-100 en PageSpeed). Un WordPress promedio carga en 2-5 segundos. La velocidad impacta directo en SEO y en tasa de conversión: cada segundo adicional de carga reduce las conversiones un 7%."
+      },
+      {
+        "question": "¿Puedo migrar de WordPress a desarrollo a medida?",
+        "answer": "Sí, pero requiere planificación. Se migra el contenido (posts, páginas), se hacen redirecciones 301 para mantener el SEO, y se reconstruye la funcionalidad. El proceso tarda 8-16 semanas. Lo importante es no perder el posicionamiento en Google durante la migración."
+      }
+    ],
+    "ctaText": "¿WordPress o desarrollo a medida? Pedí tu diagnóstico gratuito y te recomendamos la opción que mejor se adapta a tu negocio."
+  }
+}

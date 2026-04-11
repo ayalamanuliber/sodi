@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-veterinarias",
+  "title": "Sistema de Gestión para Veterinarias en Argentina",
+  "metaTitle": "Sistema de Gestión para Veterinarias Argentina",
+  "metaDescription": "Gestioná pacientes, turnos, stock de medicamentos y facturación de tu veterinaria con un sistema integral. Opciones SaaS y costos en Argentina 2026.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "veterinarias", "salud animal", "gestión de turnos"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["sistema-de-gestion-para-consultorios", "cuanto-cuesta-app-de-turnos", "que-es-un-crm-y-para-que-sirve"],
+  "content": {
+    "intro": "<p>Las veterinarias argentinas combinan atención clínica, cirugía, internación, pet shop y a veces peluquería canina — todo en un mismo local. Gestionar semejante variedad de servicios con un cuaderno de turnos y un Excel de stock es <strong>una receta para el estrés y la pérdida de plata</strong>.</p><p>Un <strong>sistema de gestión para veterinarias</strong> organiza fichas clínicas de pacientes, turnos, stock de medicamentos y alimentos, facturación y comunicación con los dueños. En esta guía te contamos qué necesitás y cuánto cuesta.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas operativos de una veterinaria sin sistema",
+        "body": "<p>Las veterinarias tienen una complejidad particular: el paciente es el animal, pero el cliente es el dueño. Y hay que gestionar ambos:</p><ul><li><strong>Historias clínicas perdidas:</strong> ¿Qué vacuna le diste al labrador de la señora Gómez? Si no está registrado, improvisás.</li><li><strong>Turnos caóticos:</strong> Urgencias que llegan sin aviso, consultas programadas que se solapan, cirugías que retrasan todo el día.</li><li><strong>Stock de medicamentos sin control:</strong> Vacunas que vencen, antiparasitarios que se agotan, alimentos premium que no repusiste. Perdés ventas y generás mala experiencia.</li><li><strong>Pet shop desconectado:</strong> Si también vendés alimentos, accesorios y medicamentos de venta libre, eso requiere su propio control de stock y punto de venta.</li><li><strong>Recordatorios manuales:</strong> La secretaria llama uno por uno para recordar vacunaciones anuales, desparasitaciones y controles. Un trabajo infinito.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades que necesita un sistema veterinario",
+        "body": "<p>Un sistema completo para veterinarias incluye:</p><ul><li><strong>Ficha clínica por paciente:</strong> Datos del animal (especie, raza, edad, peso, esterilización), historial de consultas, vacunaciones, cirugías, tratamientos, estudios. Vinculado al dueño.</li><li><strong>Agenda de turnos:</strong> Por profesional y tipo de atención (consulta, cirugía, peluquería). Turnos online para que el dueño reserve desde el celular.</li><li><strong>Recordatorios automáticos:</strong> Vacunaciones anuales, desparasitaciones, controles post-quirúrgicos. Se envían por WhatsApp automáticamente.</li><li><strong>Stock y punto de venta:</strong> Control de medicamentos, alimentos, accesorios. Vencimientos, stock mínimo, punto de venta integrado para el pet shop.</li><li><strong>Facturación:</strong> Emisión de comprobantes para consultas, cirugías y ventas de productos. Integración con AFIP.</li><li><strong>Internación:</strong> Registro de pacientes internados, evolución diaria, medicación administrada, costos.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para veterinarias",
+        "body": "<p>El rubro veterinario tiene opciones SaaS específicas:</p><p><strong>SaaS especializados:</strong> VetPraxis, Qvet, FichaVet. Son plataformas pensadas exclusivamente para veterinarias, con historia clínica, turnos y recordatorios. Precios accesibles para clínicas de 1-3 profesionales.</p><p><strong>Sistema a medida:</strong> Tiene sentido para cadenas de veterinarias, centros veterinarios grandes con especialidades (traumatología, cardiología, oncología), o clínicas que combinan atención clínica con pensionado, guardería y peluquería en una misma gestión.</p><p>Para la mayoría de las veterinarias, <strong>un SaaS es la opción más práctica</strong>. Implementación rápida, costo bajo, y funcionalidades del rubro ya resueltas. Si también necesitás un <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM para fidelizar clientes</a>, muchos de estos sistemas ya lo incluyen.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para veterinarias en 2026",
+        "body": "<p>Los rangos de precio:</p><ul><li><strong>SaaS básico (1 profesional):</strong> $8.000 - $20.000 ARS/mes (ficha clínica, turnos, recordatorios)</li><li><strong>SaaS profesional (2-5 profesionales):</strong> $20.000 - $60.000 ARS/mes (stock, facturación, internación, pet shop, reportes)</li><li><strong>Sistema para centro veterinario:</strong> $60.000 - $150.000 ARS/mes (múltiples profesionales, especialidades, laboratorio)</li><li><strong>Sistema a medida:</strong> $2.000.000 - $6.000.000 ARS de desarrollo</li></ul><p>El retorno más claro viene de los <strong>recordatorios automáticos de vacunación y desparasitación</strong>. Si recuperás 10 consultas por mes que antes se perdían porque el dueño se olvidaba, a $15.000 cada consulta, son $150.000/mes de ingreso extra. El sistema se paga muchas veces.</p>"
+      },
+      {
+        "heading": "Implementación rápida para tu veterinaria",
+        "body": "<p>La implementación en una veterinaria es rápida y sencilla:</p><ul><li><strong>Configurá servicios y precios:</strong> Consulta, vacunación, cirugía, peluquería, pensionado. Cada uno con su precio y duración estimada.</li><li><strong>Cargá los pacientes activos:</strong> Arrancá con los que vienen regularmente. Los demás se cargan cuando aparecen.</li><li><strong>Activá los recordatorios:</strong> Configurá las vacunas anuales y desparasitaciones para que se envíen automáticamente.</li><li><strong>Cargá el stock inicial:</strong> Si tenés pet shop, hacé un inventario rápido de medicamentos, alimentos y accesorios.</li><li><strong>Empezá a usar:</strong> Cada consulta que hagas, registrala en el sistema. En 2-3 semanas es parte de la rutina.</li></ul><p>En 1-2 semanas tu veterinaria puede estar operando con el sistema nuevo. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> si necesitás orientación.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema lleva la historia clínica de cada animal?",
+        "answer": "Sí. Cada paciente tiene su ficha con datos, historial de consultas, vacunaciones, cirugías, tratamientos y estudios. Todo accesible en segundos."
+      },
+      {
+        "question": "¿Puedo enviar recordatorios de vacunación automáticos?",
+        "answer": "Sí. El sistema detecta qué animales tienen vacunas o desparasitaciones próximas y envía recordatorios por WhatsApp al dueño automáticamente."
+      },
+      {
+        "question": "¿El sistema controla el stock de medicamentos?",
+        "answer": "Sí. Registra entradas, salidas (por venta o por uso en consulta), vencimientos y stock mínimo. Te avisa cuando tenés que reponer."
+      },
+      {
+        "question": "¿Sirve para el pet shop también?",
+        "answer": "Sí. Los sistemas más completos incluyen punto de venta para el pet shop con control de stock, código de barras y facturación, todo integrado con la parte clínica."
+      },
+      {
+        "question": "¿Los dueños pueden sacar turno online?",
+        "answer": "Sí. El sistema ofrece un link de turnos que compartís en redes o web. El dueño elige tipo de consulta, profesional y horario sin llamar."
+      }
+    ],
+    "ctaText": "¿Tu veterinaria necesita más orden y menos estrés? Agendá un diagnóstico gratuito y encontrá el sistema ideal para tu clínica."
+  }
+}

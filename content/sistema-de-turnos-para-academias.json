@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-academias",
+  "title": "Sistema de turnos para academias e institutos: inscripciones, clases de prueba y asistencia",
+  "metaTitle": "Sistema de Turnos para Academias Argentina | SODI",
+  "metaDescription": "Elegí el mejor sistema de turnos para tu academia. Inscripciones, clases de prueba, control de asistencia y comunicación con alumnos.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["academias", "turnos online", "inscripciones", "educación", "clases"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["automatizar-whatsapp-academias", "redes-sociales-para-institutos-educativos", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>Las academias e institutos tienen un desafío que otros rubros no tienen: <strong>no solo necesitan gestionar turnos, sino inscripciones, clases de prueba, asistencia y comunicación con alumnos</strong>. Una planilla de Excel y un grupo de WhatsApp no escalan cuando tenés 10 cursos, 5 profesores y 200 alumnos.</p><p>Un sistema de turnos adaptado a educación resuelve la gestión administrativa y te permite enfocarte en lo que importa: enseñar. Te mostramos las opciones para academias en Argentina.</p>",
+    "sections": [
+      {
+        "heading": "Por qué una academia necesita un sistema de turnos",
+        "body": "<p>Las necesidades específicas de academias e institutos:</p><ul><li><strong>Inscripciones online:</strong> el interesado se inscribe desde tu web o redes sin necesidad de ir presencialmente. Especialmente importante para cursos online.</li><li><strong>Clases de prueba:</strong> ofrecer una clase gratuita y agendarla online es la forma más efectiva de convertir interesados en alumnos.</li><li><strong>Control de asistencia:</strong> saber quién viene y quién falta. Detectar alumnos en riesgo de abandono antes de que desaparezcan.</li><li><strong>Cupo por clase:</strong> cada curso tiene una capacidad máxima. El sistema cierra inscripciones cuando se llena y habilita lista de espera.</li><li><strong>Comunicación:</strong> avisos de cambio de horario, material de estudio, exámenes. Centralizar la comunicación por un canal profesional.</li></ul>"
+      },
+      {
+        "heading": "Opciones de sistemas para academias",
+        "body": "<p>Las opciones según el tipo de academia:</p><ul><li><strong>AgendaPro (desde USD 15/mes):</strong> funcional para academias con clases individuales o pequeños grupos. Agenda por profesor, tipos de clase, recordatorios WhatsApp.</li><li><strong>Cloxsy (desde USD 20/mes):</strong> gestión de cupo por clase, multi-profesor, reportes de asistencia. Bueno para academias medianas.</li><li><strong>ClassApp / Acadeum (desde USD 30/mes):</strong> plataformas diseñadas para educación. Inscripción, asistencia, comunicación con alumnos, cobro de cuotas. Más completas para el rubro.</li><li><strong>Cal.com (gratis/desde USD 12/mes):</strong> para academias chicas. Agendar clases de prueba y consultas. Sin gestión de alumnos activos.</li><li><strong>Desarrollo custom (desde USD 500):</strong> sistema completo con portal de alumno, inscripción, pagos, material online, reportes.</li></ul><p>Para academias que necesitan <strong>solo agendar clases de prueba</strong>: Cal.com o AgendaPro. Para gestión completa (inscripción + asistencia + cobro): <strong>ClassApp o desarrollo custom</strong>.</p>"
+      },
+      {
+        "heading": "Clases de prueba: tu herramienta de conversión",
+        "body": "<p>La clase de prueba gratuita es la <strong>forma más efectiva de convertir interesados en alumnos</strong>. Un sistema de turnos la gestiona así:</p><ul><li><strong>Link de agenda en bio y web:</strong> \"¿Querés probar una clase gratis? Agendá acá\" → el interesado elige curso, día y horario disponible.</li><li><strong>Confirmación automática:</strong> \"Tu clase de prueba de [curso] está confirmada para el [fecha] a las [hora]. Te esperamos en [dirección/link].\"</li><li><strong>Recordatorio:</strong> 24 hs antes: \"Mañana tenés tu clase de prueba. ¡Te esperamos!\"</li><li><strong>Follow-up post-clase:</strong> 24 hs después: \"¿Qué te pareció la clase? ¿Querés inscribirte? Te paso las opciones.\"</li></ul><p>Las academias que implementan <a href=\"/blog/automatizar-whatsapp-academias\">WhatsApp automatizado</a> con este flujo convierten entre el <strong>30% y 50% de las clases de prueba en inscripciones</strong>. Sin el follow-up, ese número baja al 10-15%.</p>"
+      },
+      {
+        "heading": "Gestión de cuotas y asistencia",
+        "body": "<p>Además de turnos, una academia necesita gestionar cobros y asistencia:</p><ul><li><strong>Cobro de cuotas:</strong> recordatorio automático de vencimiento + link de pago (MercadoPago). \"Tu cuota de [mes] vence el [fecha]. Pagá acá: [link].\"</li><li><strong>Control de asistencia digital:</strong> el alumno hace check-in al llegar (QR, app o lista digital). Sabés quién vino y quién no.</li><li><strong>Alerta de abandono:</strong> si un alumno falta 2 clases seguidas, aviso automático: \"Te extrañamos en clase. ¿Está todo bien?\" Detectar abandono temprano.</li><li><strong>Reportes:</strong> asistencia por curso, por alumno, tasa de deserción, recaudación mensual. Datos para tomar decisiones.</li></ul><p>Los institutos que hacen <strong>seguimiento activo de asistencia</strong> tienen tasas de deserción 20-30% menores que los que no lo hacen. El sistema automatiza ese seguimiento.</p>"
+      },
+      {
+        "heading": "Costos e implementación",
+        "body": "<p>Los costos para academias:</p><ul><li><strong>Cal.com:</strong> gratis-USD 12/mes. Solo para agendamiento de clases de prueba.</li><li><strong>AgendaPro:</strong> USD 15-30/mes. Agenda + recordatorios.</li><li><strong>Cloxsy:</strong> USD 20-40/mes. Gestión más completa.</li><li><strong>ClassApp/Acadeum:</strong> USD 30-80/mes. Plataforma educativa completa.</li><li><strong>Desarrollo custom:</strong> USD 500-2.000 setup + USD 30-80/mes.</li></ul><p><strong>ROI:</strong> si cada alumno paga $25.000/mes y el sistema te ayuda a inscribir 5 más por mes (vía clases de prueba automatizadas) y retener 10 que se iban a ir (vía seguimiento de asistencia), son <strong>$375.000/mes de impacto directo</strong>.</p><p>La implementación para academias requiere: cargar cursos, horarios, profesores y alumnos activos. En 1-2 semanas está funcionando.</p><p>¿Necesitás ayuda? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo gestionar inscripciones online con estos sistemas?",
+        "answer": "Cal.com y AgendaPro permiten agendar clases de prueba pero no son sistemas de inscripción completos. Para inscripción online con formulario, documentación y pago, necesitás ClassApp, Acadeum o desarrollo custom."
+      },
+      {
+        "question": "¿Cómo hago seguimiento de alumnos que dejan de venir?",
+        "answer": "Con sistemas que tengan control de asistencia (ClassApp, desarrollo custom), podés configurar alertas cuando un alumno falta 2+ clases seguidas. El sistema envía un mensaje automático por WhatsApp para saber si está todo bien."
+      },
+      {
+        "question": "¿Puedo cobrar cuotas automáticamente?",
+        "answer": "Sí. ClassApp y algunos desarrollos custom permiten débito automático. Con AgendaPro o Cloxsy podés enviar el link de pago de MercadoPago como recordatorio, aunque no es débito automático."
+      }
+    ],
+    "ctaText": "¿Querés organizar tu academia y llenar tus cursos? Pedí un diagnóstico gratuito y te recomendamos el mejor sistema."
+  }
+}

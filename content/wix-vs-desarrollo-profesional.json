@@ -1,0 +1,61 @@
+{
+  "slug": "wix-vs-desarrollo-profesional",
+  "title": "Wix vs desarrollo profesional: por qué Wix no alcanza para un negocio serio",
+  "metaTitle": "Wix vs desarrollo profesional Argentina 2026",
+  "metaDescription": "Wix sirve para proyectos personales desde $10 USD/mes. Para negocios que necesitan velocidad, SEO y conversión, el desarrollo profesional gana en todo.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["wix", "desarrollo web", "diseño web", "página web", "website builder"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["wordpress-vs-desarrollo-a-medida", "cuanto-cuesta-pagina-web-argentina", "como-elegir-agencia-web-argentina"],
+  "content": {
+    "intro": "<p><strong>Wix</strong> es perfecto para un proyecto personal, un portfolio de artista o un sitio de prueba que necesitás en 2 horas. Para un negocio que necesita generar clientes, posicionar en Google y crecer, Wix se queda corto en todo lo que importa: <strong>velocidad, SEO, flexibilidad y propiedad del sitio</strong>.</p><p>Sí, es fácil. Sí, se ve lindo. Pero \"fácil y lindo\" no convierte visitantes en clientes. Y cuando tu negocio depende de la web, necesitás más que drag and drop.</p>",
+    "sections": [
+      {
+        "heading": "Wix: qué incluye, cuánto cuesta y para qué sirve",
+        "body": "<p><strong>Planes Wix en 2026:</strong></p><ul><li><strong>Light:</strong> $10 USD/mes (~$12.000 ARS) — sitio básico, sin e-commerce, branding Wix</li><li><strong>Core:</strong> $18 USD/mes (~$22.000 ARS) — dominio propio, sin branding, 50 GB almacenamiento</li><li><strong>Business:</strong> $27 USD/mes (~$33.000 ARS) — e-commerce básico, pagos online</li><li><strong>Business Elite:</strong> $100 USD/mes (~$120.000 ARS) — funcionalidades avanzadas, soporte prioritario</li></ul><p><strong>Lo bueno de Wix:</strong> en 2-3 horas tenés un sitio online con diseño decente, sin saber nada de código. Las plantillas son atractivas, el editor es intuitivo y tenés hosting incluido.</p><p><strong>Para quién funciona bien:</strong></p><ul><li>Portfolio personal (fotógrafo, artista, diseñador independiente)</li><li>Proyecto hobby o blog personal</li><li>Landing page temporal para un evento</li><li>Prueba de concepto antes de invertir en desarrollo</li></ul><p>Si tu objetivo es tener algo online rápido y barato para probar una idea, Wix cumple. El problema empieza cuando querés que ese sitio <strong>trabaje para tu negocio</strong>.</p>"
+      },
+      {
+        "heading": "Las limitaciones de Wix que afectan a tu negocio",
+        "body": "<p><strong>Velocidad de carga:</strong> los sitios Wix cargan en promedio entre 3 y 6 segundos. Google considera \"lento\" todo lo que supere 2.5 segundos. Un sitio lento pierde posiciones en Google y pierde visitantes (53% abandona si tarda más de 3 segundos). No podés optimizar la velocidad en Wix porque no tenés acceso al código del servidor.</p><p><strong>SEO limitado:</strong> Wix mejoró mucho su SEO en los últimos años, pero sigue teniendo limitaciones técnicas. No tenés control total sobre los meta tags, la estructura de URLs es menos flexible, el sitemap se genera automáticamente sin opción de personalización, y los Core Web Vitals de Wix son consistentemente peores que los de un sitio a medida.</p><p><strong>No sos dueño del sitio:</strong> tu web existe dentro de la plataforma Wix. Si querés migrar, <strong>no podés exportar tu sitio</strong>. Tenés que reconstruirlo desde cero en otra plataforma. Tu contenido, diseño, estructura — todo queda en Wix. Es la trampa más grande de los website builders.</p><p><strong>Código bloated:</strong> Wix genera un código HTML/CSS/JavaScript pesado y redundante. Cada elemento de drag and drop agrega capas de código innecesario que ralentiza el sitio y empeora el SEO técnico.</p><p><strong>Limitaciones funcionales:</strong> necesitás algo que Wix no soporta nativamente (integración con API, lógica de negocio, formularios complejos, sistema de turnos) y no tenés cómo resolverlo sin salir de la plataforma.</p>"
+      },
+      {
+        "heading": "Desarrollo profesional: qué te da que Wix no puede",
+        "body": "<p>Un sitio desarrollado profesionalmente (<a href=\"/blog/wordpress-vs-desarrollo-a-medida\">ya sea con WordPress o a medida</a>) te da:</p><ul><li><strong>Velocidad sub-segundo:</strong> un sitio con Next.js o Astro carga en 0.3-1 segundo. Score 95-100 en Google PageSpeed. Eso significa mejor SEO y más conversiones.</li><li><strong>SEO completo:</strong> control total sobre meta tags, structured data (Schema.org), sitemap, robots.txt, canonical URLs, hreflang y cualquier optimización técnica que necesites.</li><li><strong>Propiedad total:</strong> el código es tuyo, el hosting es tuyo, el dominio es tuyo. Si querés cambiar de proveedor, te llevás todo.</li><li><strong>Funcionalidad sin límites:</strong> cualquier integración, cualquier lógica, cualquier diseño. Si se puede programar, se puede hacer.</li><li><strong>Diseño 100% custom:</strong> no estás limitado a templates. Cada pixel responde a tu marca y a tus objetivos de conversión.</li></ul><p><strong>Costos de desarrollo profesional en Argentina:</strong></p><ul><li>Landing page: $200.000-$500.000 ARS</li><li>Web institucional: $400.000-$900.000 ARS</li><li>Web con sistema de conversión: $800.000-$1.500.000 ARS</li></ul><p>Sí, es más caro que Wix. Pero la pregunta es: ¿cuánto te cuesta tener un sitio lento que no convierte? Si tu web recibe 1.000 visitas/mes y convierte al 1% (Wix promedio) en vez de al 5% (sitio optimizado), estás perdiendo 40 consultas por mes. A $50.000 por venta promedio, son <strong>$2.000.000/mes que perdés</strong> por usar Wix.</p>"
+      },
+      {
+        "heading": "Comparación directa de costos a 3 años",
+        "body": "<p>Hagamos la cuenta real a 36 meses:</p><p><strong>Wix Business ($27 USD/mes):</strong></p><ul><li>36 meses × $33.000/mes = $1.188.000 ARS</li><li>Dominio: incluido</li><li>Total 3 años: ~$1.188.000 ARS</li></ul><p><strong>Desarrollo profesional (web institucional):</strong></p><ul><li>Inversión inicial: $500.000 ARS</li><li>Hosting: 36 meses × $15.000/mes = $540.000 ARS</li><li>Mantenimiento: 36 meses × $20.000/mes = $720.000 ARS</li><li>Total 3 años: ~$1.760.000 ARS</li></ul><p>La diferencia en costo a 3 años es de ~$570.000 ARS. Eso es <strong>$16.000/mes de diferencia</strong>. A cambio de eso, tenés un sitio 5 veces más rápido, mejor SEO, diseño personalizado, funcionalidad sin límites y propiedad total.</p><p>Si tu negocio genera aunque sea <strong>1 cliente adicional por mes</strong> gracias a un sitio mejor (muy conservador), esa diferencia se paga sola el primer mes. No es cuestión de costo — es cuestión de <strong>retorno de inversión</strong>.</p>"
+      },
+      {
+        "heading": "Cuándo quedarte con Wix y cuándo migrar",
+        "body": "<p><strong>Quedate con Wix si:</strong></p><ul><li>Tu web es un portfolio personal que no genera ingresos</li><li>Es un proyecto hobby o blog sin pretensión comercial</li><li>Necesitás algo temporal mientras desarrollás tu sitio real</li><li>Tu presupuesto total es menor a $200.000 y no tenés forma de invertir más</li></ul><p><strong>Migrá a desarrollo profesional si:</strong></p><ul><li>Tu web tiene que generar clientes o ventas</li><li>Competís en Google contra otros negocios de tu rubro</li><li>Necesitás integraciones con otros sistemas (CRM, WhatsApp, calendarios)</li><li>Tu marca necesita una identidad visual única, no un template</li><li>Estás pagando Wix Business o Elite y no ves resultados</li></ul><p>La migración de Wix a un sitio profesional implica <strong>reconstruir desde cero</strong> (Wix no permite exportar). Es una inversión, pero si tu negocio depende de la web, es la inversión más importante que podés hacer.</p><p>¿Querés saber si vale la pena migrar? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y analizamos tu sitio actual con datos: velocidad, SEO, conversión y qué estás perdiendo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Wix sirve para un negocio?",
+        "answer": "Para presencia básica sí, pero para generar clientes no es ideal. Wix es lento (3-6 seg de carga), tiene SEO limitado, no te deja exportar tu sitio y limita funcionalidades. Si tu web tiene que vender, un desarrollo profesional da mejor resultado."
+      },
+      {
+        "question": "¿Cuánto cuesta Wix en Argentina?",
+        "answer": "Desde $10 USD/mes ($12.000 ARS) el plan Light hasta $100 USD/mes ($120.000 ARS) el Business Elite. El plan más usado para negocios es Business a $27 USD/mes ($33.000 ARS). Incluye dominio, hosting y e-commerce básico."
+      },
+      {
+        "question": "¿Se puede migrar de Wix a otra plataforma?",
+        "answer": "No directamente. Wix no permite exportar tu sitio. Hay que reconstruirlo desde cero en la nueva plataforma. Podés exportar contenido de blog como texto, pero el diseño, estructura y funcionalidades hay que rehacerlas. Es la limitación más grande de Wix."
+      },
+      {
+        "question": "¿Wix es bueno para SEO?",
+        "answer": "Mejoró mucho, pero sigue por debajo de WordPress y desarrollo a medida. Los principales problemas: velocidad de carga lenta (afecta Core Web Vitals), código bloated, URLs menos flexibles y control limitado sobre optimización técnica."
+      },
+      {
+        "question": "¿Cuánto cuesta un desarrollo profesional vs Wix?",
+        "answer": "Wix Business cuesta ~$1.188.000 ARS en 3 años. Un desarrollo profesional cuesta ~$1.760.000 ARS en 3 años. La diferencia es $16.000/mes, pero el sitio profesional es 5x más rápido, convierte mejor y es 100% tuyo."
+      }
+    ],
+    "ctaText": "¿Tenés un sitio en Wix que no genera clientes? Pedí tu diagnóstico gratuito y te mostramos qué estás perdiendo y cómo solucionarlo."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "como-gestionar-stock-sin-excel",
+  "title": "Cómo gestionar stock sin Excel: herramientas, integración y cuándo conviene un sistema a medida",
+  "metaTitle": "Cómo gestionar stock sin Excel para PyMEs",
+  "metaDescription": "Herramientas de gestión de inventario para PyMEs: SaaS vs custom, integración con ventas y cuándo migrar de Excel. Precios reales en Argentina.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["gestión de stock", "inventario", "control de stock", "sistema de gestión"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["como-dejar-de-depender-de-excel", "sistema-de-gestion-para-ferreterias", "sistema-de-gestion-para-distribuidoras"],
+  "content": {
+    "intro": "<p>Si controlás tu stock con Excel, sabés el dolor: <strong>cantidades que no coinciden, productos que se venden sin registrar, planillas que nadie actualiza a tiempo</strong> y la sorpresa de descubrir que no tenés algo que creías tener. Para comercios, ferreterías, distribuidoras y cualquier negocio que maneja inventario físico, el control de stock es crítico.</p><p>En esta guía te mostramos cuándo Excel deja de servir, qué herramientas de gestión de inventario existen en Argentina con precios reales, y cuándo tiene sentido invertir en un desarrollo a medida.</p>",
+    "sections": [
+      {
+        "heading": "Cuándo Excel deja de servir para gestionar stock",
+        "body": "<p>Excel funciona para stock simple: menos de 100 productos, un solo punto de venta, sin movimientos complejos. Pero se rompe cuando:</p><ul><li><strong>Tenés más de 200 SKUs:</strong> buscar, filtrar y actualizar se vuelve lento y propenso a errores.</li><li><strong>Vendés por múltiples canales:</strong> local + web + Mercado Libre. Cada canal necesita stock actualizado en tiempo real. Con Excel es imposible.</li><li><strong>Múltiples personas gestionan stock:</strong> dos personas editando la misma planilla = datos inconsistentes.</li><li><strong>Necesitás trazabilidad:</strong> saber quién movió qué, cuándo, y por qué. Excel no registra historial de cambios de forma confiable.</li><li><strong>Hacés inventario y nunca cuadra:</strong> la diferencia entre stock teórico (lo que dice la planilla) y stock real (lo que hay en el depósito) crece cada mes.</li></ul><p>Si te identificás con 2 o más de estas situaciones, necesitás un sistema de inventario. No es un lujo: es la diferencia entre saber lo que tenés y adivinar.</p>"
+      },
+      {
+        "heading": "Herramientas de gestión de inventario para PyMEs argentinas",
+        "body": "<p>Opciones con precios reales del mercado argentino:</p><ul><li><strong>Colppy:</strong> desde $15.000/mes (incluye facturación + stock + cuentas corrientes). Muy usado en Argentina, integración con AFIP, reportes de stock, movimientos trazables. <strong>La opción más popular para comercios.</strong></li><li><strong>Odoo Inventario:</strong> Community Edition gratis (requiere setup técnico). Enterprise desde USD 24/usuario/mes. Potente, modular, se integra con ventas, compras y contabilidad. Ideal para empresas que necesitan un ERP completo.</li><li><strong>Bind ERP:</strong> desde USD 99/mes. Sistema de gestión con control de inventario avanzado, multi-almacén, y lotes. Para empresas medianas.</li><li><strong>StockBase / Inventarios.com:</strong> opciones especializadas en inventario. Desde $8.000/mes. Más simples que un ERP, enfocadas en el control de stock puro.</li><li><strong>Tiendanube + Integración:</strong> si vendés online con Tiendanube, el propio panel maneja stock básico. Para sincronizar con stock de local, usá integraciones como las de Colppy.</li></ul><p>Para elegir, priorizá: <strong>integración con tu facturador</strong> (necesitás que la venta descuente stock automáticamente), alertas de stock bajo, y la posibilidad de hacer inventarios con el celular (código de barras o QR).</p>"
+      },
+      {
+        "heading": "Cuándo un sistema a medida supera al SaaS",
+        "body": "<p>Un sistema de inventario a medida se justifica cuando las reglas de tu negocio son demasiado específicas para un sistema genérico:</p><ul><li><strong>Productos con atributos complejos:</strong> ferreterías con miles de variantes (tamaño, material, rosca), distribuidoras con lotes y vencimientos, empresas con productos compuestos.</li><li><strong>Flujos de trabajo específicos:</strong> si tu proceso de compra, almacenamiento y despacho tiene particularidades que ningún SaaS maneja bien.</li><li><strong>Integración profunda con otros sistemas:</strong> si necesitás conectar inventario con un ERP propio, con e-commerce custom, o con sistemas de producción.</li><li><strong>Múltiples depósitos o sucursales:</strong> con transferencias entre depósitos, stock en tránsito y consolidación.</li></ul><p>Inversión en desarrollo a medida: desde <strong>$800.000 ARS</strong> para un sistema básico hasta $3.000.000+ para uno completo con app móvil, lector de código de barras y dashboard. Plazo: 2-4 meses.</p><p>Regla práctica: si el SaaS te cuesta más de <strong>$80.000/mes</strong> o no cubre más del 70% de tus necesidades, evaluá el desarrollo a medida. Si cubre el 90%, adaptá tu proceso al SaaS en vez de gastar en custom.</p><p>Leé nuestra guía para casos específicos: <a href=\"/blog/sistema-de-gestion-para-ferreterias\">sistemas para ferreterías</a> y <a href=\"/blog/sistema-de-gestion-para-distribuidoras\">sistemas para distribuidoras</a>.</p>"
+      },
+      {
+        "heading": "Cómo integrar la gestión de stock con tus canales de venta",
+        "body": "<p>El stock tiene que estar <strong>sincronizado con tus puntos de venta</strong>. Si vendés en el local y en Mercado Libre, el stock tiene que ser uno solo. Si vendés algo en ML y no lo descontás del local, vas a vender algo que no tenés.</p><p>Formas de integrar:</p><ul><li><strong>Integración nativa:</strong> sistemas como Colppy se integran con Tiendanube y Mercado Libre. Cada venta descuenta stock automáticamente en todos los canales. Es la opción más limpia.</li><li><strong>Integraciones vía API/Zapier:</strong> si tu sistema no tiene integración nativa, herramientas como Zapier o Make pueden conectar tu sistema de stock con tus canales. Desde USD 20/mes por flujo.</li><li><strong>Sincronización manual programada:</strong> si no podés automatizar, al menos actualizá stock en todos los canales 2 veces por día (mañana y tarde). Es propenso a errores pero mejor que no sincronizar.</li></ul><p>La integración más crítica es <strong>venta → descuento de stock</strong>. Si eso no está automatizado, todo lo demás se vuelve poco confiable. Cuando evalúes cualquier sistema de inventario, lo primero que preguntá es: ¿se integra con mis canales de venta?</p><p>Para negocios con e-commerce, la sincronización en tiempo real es obligatoria. Una venta de algo sin stock genera cancelación, devolución, mala reseña y pérdida de posicionamiento en Mercado Libre.</p>"
+      },
+      {
+        "heading": "Implementación: de Excel al sistema en 3 semanas",
+        "body": "<p>Plan de migración para tu gestión de stock:</p><ul><li><strong>Semana 1 - Auditoría y limpieza:</strong> Hacé un inventario físico real. Sí, contá todo. Compará con tu Excel. Corregí las diferencias. Unificá nomenclatura de productos (no tengas \"Tornillo 6mm\" y \"TORN. 6 MM\" como dos productos distintos).</li><li><strong>Semana 2 - Setup del sistema:</strong> Creá tu cuenta en el sistema elegido. Cargá las categorías de productos, definí ubicaciones de almacenamiento, y hacé una importación masiva desde tu Excel limpio. Verificá con una muestra aleatoria de 50 productos.</li><li><strong>Semana 3 - Puesta en marcha:</strong> Empezá a registrar todos los movimientos en el sistema nuevo. Primer semana en paralelo con Excel. Si todo cuadra, cortá Excel. Capacitá al equipo en: cómo registrar ingresos, egresos, ajustes y devoluciones.</li></ul><p>Regla fundamental: <strong>a partir del día de corte, TODO movimiento se registra en el sistema</strong>. Si alguien saca algo del depósito sin registrarlo, el stock se descuadra y perdés la confiabilidad que tanto costó construir.</p><p>Si tu operación es compleja o tenés muchos productos, considerá contratar ayuda para la implementación. Un consultor o la agencia del sistema pueden acelerar el proceso y evitar errores costosos. <a href=\"/diagnostico\">Hacé nuestro diagnóstico gratuito</a> para evaluar tu situación.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de gestión de stock?",
+        "answer": "Desde $8.000/mes (herramientas básicas de inventario) hasta $25.000-$50.000/mes (ERPs con stock, facturación y CRM). Colppy es la opción más popular en Argentina desde $15.000/mes. Un desarrollo a medida cuesta desde $800.000 ARS."
+      },
+      {
+        "question": "¿Puedo gestionar stock desde el celular?",
+        "answer": "Sí, la mayoría de los sistemas modernos tienen app mobile. Colppy, Odoo y Bind permiten consultar stock, registrar movimientos y hacer inventario con lector de código de barras desde el celular."
+      },
+      {
+        "question": "¿Cómo sincronizo stock entre local y tienda online?",
+        "answer": "Con integraciones nativas (Colppy + Tiendanube, por ejemplo) o vía Zapier/Make. Cada venta online descuenta stock automáticamente. Es fundamental para evitar vender productos sin existencia."
+      },
+      {
+        "question": "¿Cuántos productos necesito para justificar un sistema de stock?",
+        "answer": "A partir de 100-200 productos o más de 50 movimientos diarios (ventas + ingresos), un sistema se paga solo en reducción de errores y tiempo ahorrado. Con menos de 50 productos y pocas transacciones, Google Sheets puede alcanzar."
+      },
+      {
+        "question": "¿Código de barras o control manual?",
+        "answer": "Código de barras si tenés más de 200 productos o alto volumen de movimientos. Un lector USB cuesta $15.000-$30.000 ARS y reduce errores de carga drásticamente. Con menos de 200 productos, la carga manual es viable si hay disciplina."
+      }
+    ],
+    "ctaText": "¿Necesitás un sistema de stock para tu negocio? Hacé nuestro diagnóstico gratuito y te recomendamos la opción ideal para tu rubro."
+  }
+}

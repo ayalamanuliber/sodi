@@ -15,6 +15,7 @@ export function Nav() {
           <a href="#servicios" className="hover:text-white transition-colors">Servicios</a>
           <a href="#metodo" className="hover:text-white transition-colors">Proceso</a>
           <a href="#casoreal" className="hover:text-white transition-colors">Caso real</a>
+          <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
         </div>
         <Link
           href="/diagnostico"

@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-inmobiliarias",
+  "title": "Cómo automatizar WhatsApp para inmobiliarias en Argentina: mensajes, bots y seguimiento de consultas",
+  "metaTitle": "Automatizar WhatsApp para Inmobiliarias | SODI",
+  "metaDescription": "Automatizá la atención de tu inmobiliaria por WhatsApp. Respondé consultas de propiedades, agendá visitas y hacé seguimiento sin perder leads.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["inmobiliarias", "WhatsApp Business", "automatización", "bots", "real estate"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["pagina-web-para-inmobiliarias", "redes-sociales-para-inmobiliarias", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Si tenés una inmobiliaria en Argentina, sabés que <strong>WhatsApp es donde pasan el 80% de las consultas</strong>. \"¿Está disponible?\", \"¿Cuánto sale?\", \"¿Puedo ir a verlo mañana?\". Todo llega al mismo chat y muchas veces se pierde entre mensajes personales y grupos. Automatizar WhatsApp no significa dejar de atender: significa que cada consulta reciba respuesta inmediata y que ningún lead se te escape.</p><p>En este artículo te mostramos qué mensajes podés automatizar, cómo armar flujos de bot específicos para inmobiliarias y qué herramientas usar sin gastar una fortuna.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una inmobiliaria",
+        "body": "<p>No todo se puede ni se debe automatizar. Pero hay mensajes que se repiten cientos de veces por mes y que un bot resuelve mejor que vos:</p><ul><li><strong>Mensaje de bienvenida:</strong> \"Hola, gracias por contactar [Inmobiliaria]. ¿Estás buscando comprar, alquilar o tasar una propiedad?\"</li><li><strong>Respuestas a consultas de propiedades:</strong> cuando alguien pregunta por un aviso, el bot puede enviar automáticamente la ficha con fotos, precio, ubicación y link a la web.</li><li><strong>Agendamiento de visitas:</strong> \"¿Querés coordinar una visita? Elegí día y horario\" con opciones predefinidas.</li><li><strong>Seguimiento post-visita:</strong> mensaje automático 24 hs después: \"¿Qué te pareció la propiedad? ¿Tenés alguna duda?\"</li><li><strong>Estado de trámites:</strong> para propietarios que están vendiendo/alquilando, un bot que informe avances.</li></ul><p>Estos mensajes representan fácilmente el <strong>60% del volumen de chat</strong> de una inmobiliaria promedio. Automatizarlos te libera para enfocarte en cerrar operaciones.</p>"
+      },
+      {
+        "heading": "Flujos de bot ideales para inmobiliarias",
+        "body": "<p>Un buen bot inmobiliario no es un menú robótico. Es un <strong>asistente que guía al prospecto</strong> hasta la acción que querés: una visita, una llamada o una tasación.</p><p>El flujo principal debería ser:</p><ol><li>Saludo + pregunta de intención (comprar / alquilar / tasar / consulta general)</li><li>Si busca comprar o alquilar: filtros rápidos (zona, tipo de propiedad, presupuesto)</li><li>Envío de 2-3 propiedades que matchean con links a la <a href=\"/blog/pagina-web-para-inmobiliarias\">web de tu inmobiliaria</a></li><li>Pregunta de cierre: \"¿Querés agendar una visita a alguna?\"</li><li>Si pide tasación: solicitar dirección, metros, antigüedad y asignar a un agente humano</li></ol><p>Lo clave es que el bot <strong>califique al lead antes de pasarlo a un humano</strong>. Sabés qué busca, en qué zona, con qué presupuesto. Tu equipo recibe leads filtrados, no ruido.</p><p>Para propiedades premium o consultas complejas, el bot debe derivar rápido a un agente. La automatización no reemplaza la relación personal que cierra una operación inmobiliaria.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para automatizar WhatsApp inmobiliario",
+        "body": "<p>Hay varias opciones según el tamaño de tu inmobiliaria:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, mensajes de ausencia, catálogo de propiedades. Limitado pero útil para arrancar.</li><li><strong>Cliengo / Botmaker (desde USD 30/mes):</strong> bots con flujos visuales, integración con CRM inmobiliario. Populares en Argentina.</li><li><strong>Waboxapp / Wati (desde USD 40/mes):</strong> API oficial de WhatsApp Business, mensajes masivos, seguimiento automatizado.</li><li><strong>Desarrollo custom con la API de WhatsApp Business (desde USD 200 setup):</strong> máxima flexibilidad, conectás directo con tu sistema de gestión de propiedades.</li></ul><p>El ROI es claro: si un agente pierde 2 horas por día respondiendo las mismas preguntas, eso son <strong>40 horas mensuales</strong>. Con un bot de USD 40/mes, recuperás ese tiempo para mostrar propiedades y cerrar operaciones.</p><p>Además, los leads que reciben respuesta en menos de 5 minutos tienen <strong>4 veces más probabilidad de avanzar</strong> que los que esperan horas. El bot responde al instante, 24/7.</p>"
+      },
+      {
+        "heading": "Cómo integrar WhatsApp con tu CRM y portal inmobiliario",
+        "body": "<p>La automatización de WhatsApp tiene que estar <strong>conectada con tus otras herramientas</strong>, no funcionar como isla:</p><ul><li><strong>CRM inmobiliario (Tokko, deinmobiliarios, Properati Pro):</strong> cada lead que entra por WhatsApp se registra automáticamente con sus datos y preferencias.</li><li><strong>Portal web:</strong> cuando publicás una propiedad nueva, el bot puede notificar a los contactos que matchean con ese perfil.</li><li><strong>Google Calendar:</strong> las visitas agendadas por bot se sincronizan al calendario del agente asignado.</li><li><strong>Planilla de seguimiento:</strong> si usás Google Sheets como CRM básico, herramientas como Make o Zapier conectan WhatsApp con tu planilla sin código.</li></ul><p>La integración más valiosa es la de <strong>WhatsApp + CRM + web</strong>. El cliente ve la propiedad en tu <a href=\"/blog/pagina-web-para-inmobiliarias\">página web</a>, hace clic en el botón de WhatsApp, el bot lo atiende, califica y registra todo en tu CRM. Cero intervención humana hasta que el lead está listo para una visita.</p>"
+      },
+      {
+        "heading": "Errores comunes y cómo evitarlos",
+        "body": "<p>La automatización mal implementada puede espantar clientes en vez de captarlos. Evitá estos errores:</p><ul><li><strong>Bot que no deja hablar con un humano:</strong> siempre tiene que haber una opción clara de \"Quiero hablar con un agente\". Nada frustra más que quedar atrapado en un menú infinito.</li><li><strong>Respuestas genéricas para consultas específicas:</strong> si alguien pregunta por un departamento puntual y el bot responde con información general, perdés credibilidad.</li><li><strong>No hacer seguimiento:</strong> el 70% de los leads inmobiliarios necesitan entre 3 y 7 contactos antes de decidir. Si no tenés secuencias de follow-up automatizadas, estás dejando plata sobre la mesa.</li><li><strong>Usar WhatsApp personal en vez de Business:</strong> perdés las herramientas de automatización, el catálogo y la imagen profesional.</li><li><strong>No medir resultados:</strong> ¿cuántos leads entran? ¿cuántos agendan visita? ¿cuántos se pierden? Sin datos, no podés mejorar.</li></ul><p>Si querés un diagnóstico gratuito de cómo está funcionando tu WhatsApp, <a href=\"/diagnostico\">pedí tu análisis acá</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Es legal enviar mensajes masivos por WhatsApp a clientes inmobiliarios?",
+        "answer": "Sí, siempre que uses la API oficial de WhatsApp Business y los contactos hayan dado su consentimiento (opt-in). No podés comprar bases de datos y spammear. Lo que sí podés hacer es enviar novedades a personas que ya te contactaron y aceptaron recibir información."
+      },
+      {
+        "question": "¿Puedo automatizar WhatsApp sin la API oficial?",
+        "answer": "Podés usar las funciones nativas de WhatsApp Business (respuestas rápidas, mensajes de ausencia) sin API. Para bots más complejos necesitás la API o herramientas que la usen. Usar métodos no oficiales viola los términos de WhatsApp y te pueden banear el número."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva implementar un bot para mi inmobiliaria?",
+        "answer": "Con herramientas como Cliengo o Wati, podés tener un bot básico funcionando en 2-3 días. Un flujo completo con integración a CRM y calendario lleva entre 1 y 2 semanas. Un desarrollo custom, de 3 a 4 semanas."
+      }
+    ],
+    "ctaText": "¿Querés automatizar el WhatsApp de tu inmobiliaria? Pedí un diagnóstico gratuito y te mostramos qué flujos podés implementar esta semana."
+  }
+}

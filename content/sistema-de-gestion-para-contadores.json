@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-contadores",
+  "title": "Sistema de Gestión para Estudios Contables en Argentina",
+  "metaTitle": "Sistema de Gestión para Contadores Argentina",
+  "metaDescription": "Organizá clientes, vencimientos, facturación y documentos de tu estudio contable con un sistema de gestión. Opciones SaaS y costos en Argentina 2026.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "contadores", "estudios contables", "gestión de clientes"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-contadores", "que-es-un-crm-y-para-que-sirve", "cuanto-cuesta-crm-para-pymes"],
+  "content": {
+    "intro": "<p>Un estudio contable en Argentina maneja decenas — a veces cientos — de clientes, cada uno con sus vencimientos impositivos, sus documentos, sus consultas y su nivel de complejidad. <strong>Cuando todo eso se gestiona con Excel, carpetas de Google Drive y mensajes de WhatsApp, el caos es inevitable.</strong> Se pasan vencimientos, se pierden documentos, y el contador termina trabajando de bombero en vez de asesor.</p><p>Un <strong>sistema de gestión para estudios contables</strong> centraliza la información de cada cliente, automatiza alertas de vencimiento, organiza la documentación y te da visibilidad sobre la rentabilidad de tu estudio.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas crónicos de un estudio contable sin sistema",
+        "body": "<p>Los estudios contables sufren problemas que se agravan con cada cliente que suman:</p><ul><li><strong>Vencimientos que se pasan:</strong> IIBB, IVA, Ganancias, monotributo, cargas sociales... cada cliente tiene sus propios vencimientos y un solo olvido genera multas y reclamos.</li><li><strong>Documentación dispersa:</strong> El cliente manda facturas por WhatsApp, el contador las guarda en una carpeta, la secretaria busca un CUIT en otro Excel... la información está en 5 lugares distintos.</li><li><strong>Consultas sin registro:</strong> El cliente llama con una duda fiscal, el contador responde de memoria y no queda registro. Si cambia el profesional asignado, se pierde todo el contexto.</li><li><strong>Facturación del estudio:</strong> ¿Cuánto le cobrás a cada cliente? ¿Cuándo fue la última vez que ajustaste los honorarios? ¿Quién te debe meses? Sin sistema, eso se gestiona \"de memoria\".</li><li><strong>Rentabilidad opaca:</strong> No sabés cuánto tiempo le dedicás a cada cliente ni si lo que le cobrás cubre ese tiempo. Los clientes \"difíciles\" pueden estar dándote pérdida.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades esenciales para un estudio contable",
+        "body": "<p>Un sistema para contadores tiene que cubrir:</p><ul><li><strong>Gestión de clientes:</strong> Ficha con datos fiscales (CUIT, régimen, actividad), contacto, profesional asignado, servicios contratados, observaciones.</li><li><strong>Calendario de vencimientos:</strong> Vista mensual con todos los vencimientos de todos los clientes. Alertas automáticas con días de anticipación configurable.</li><li><strong>Gestión documental:</strong> Repositorio organizado por cliente y período. El cliente puede subir documentos directamente (portal del cliente).</li><li><strong>Seguimiento de tareas:</strong> Cada obligación fiscal es una tarea asignable, con estado (pendiente, en proceso, presentada), responsable y deadline.</li><li><strong>Facturación del estudio:</strong> Honorarios por cliente, generación de facturas, control de cobros, ajustes periódicos.</li><li><strong>Portal del cliente:</strong> Un espacio donde el cliente ve sus obligaciones, sube documentación, baja comprobantes y hace consultas. Menos WhatsApp, más orden.</li><li><strong>Reportes:</strong> Horas por cliente, rentabilidad, vencimientos cumplidos vs. incumplidos, morosidad de honorarios.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para contadores",
+        "body": "<p>El mercado tiene opciones específicas:</p><p><strong>SaaS especializados:</strong> Colppy Contadores, Xubio, BúhoContable, GestiónContable. Son plataformas pensadas para estudios, con calendario fiscal, gestión de clientes y tareas. Muchos se integran con AFIP para importar datos automáticamente.</p><p><strong>CRM + gestión de proyectos:</strong> Algunos estudios usan un <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM</a> como Pipedrive o Monday combinado con herramientas de gestión. Funciona, pero requiere configuración manual.</p><p><strong>Sistema a medida:</strong> Para estudios grandes (50+ clientes, múltiples profesionales) que quieren un portal del cliente personalizado, integración directa con AFIP/ARBA, y flujos de trabajo específicos. Un <a href=\"/blog/software-a-medida-vs-estandar\">desarrollo propio</a> puede diferenciarte competitivamente.</p><p>Para estudios chicos y medianos, un SaaS especializado es la mejor opción. Arrancás rápido y el costo es bajo. Complementalo con una buena <a href=\"/blog/pagina-web-para-contadores\">página web profesional</a>.</p>"
+      },
+      {
+        "heading": "Costos en 2026",
+        "body": "<p>Los rangos de inversión para estudios contables:</p><ul><li><strong>SaaS básico:</strong> $10.000 - $30.000 ARS/mes (hasta 50 clientes, calendario fiscal, tareas)</li><li><strong>SaaS profesional:</strong> $30.000 - $80.000 ARS/mes (clientes ilimitados, portal del cliente, integración AFIP, reportes)</li><li><strong>Sistema a medida:</strong> $2.000.000 - $7.000.000 ARS de desarrollo</li></ul><p>El retorno se mide en <strong>multas evitadas</strong> (una sola multa por vencimiento pasado puede costar más que el sistema anual), <strong>mejor cobranza de honorarios</strong>, y <strong>capacidad de atender más clientes</strong> sin sumar personal. Revisá también <a href=\"/blog/cuanto-cuesta-crm-para-pymes\">cuánto cuesta un CRM para PyMEs</a>.</p>"
+      },
+      {
+        "heading": "Implementación en un estudio contable",
+        "body": "<p>La migración en un estudio contable se hace mejor entre meses de baja carga (enero-febrero o julio):</p><ul><li><strong>Cargá los clientes:</strong> CUIT, régimen, servicios contratados, profesional asignado. Importá desde tu Excel actual.</li><li><strong>Configurá el calendario fiscal:</strong> Vencimientos recurrentes por régimen (monotributo, RI, sociedades). El sistema calcula las fechas automáticamente.</li><li><strong>Organizá la documentación:</strong> Creá la estructura de carpetas por cliente y período. Migrá lo más reciente.</li><li><strong>Activá el portal del cliente:</strong> Invitá a tus clientes más organizados primero. Que empiecen a subir documentación por el portal en vez de por WhatsApp.</li><li><strong>Medí la diferencia:</strong> Después de 2-3 meses, compará: ¿se pasó algún vencimiento? ¿Cuánto tiempo ahorra la secretaría? ¿Los clientes están más satisfechos?</li></ul><p>En 3-4 semanas el estudio puede estar operando con el nuevo sistema. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> para planificar tu migración.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema me avisa de los vencimientos de cada cliente?",
+        "answer": "Sí. Configurás los vencimientos por tipo de contribuyente y el sistema envía alertas automáticas con días de anticipación. Nunca más se te pasa una presentación."
+      },
+      {
+        "question": "¿Los clientes pueden subir documentación al sistema?",
+        "answer": "Sí, si el sistema tiene portal del cliente. El cliente sube facturas, recibos y documentación directamente, sin necesidad de mandar por WhatsApp o email."
+      },
+      {
+        "question": "¿Se integra con AFIP?",
+        "answer": "Los SaaS más completos importan datos de AFIP (facturación electrónica, Mis Comprobantes) y facilitan la carga de declaraciones juradas."
+      },
+      {
+        "question": "¿Puedo facturar mis honorarios desde el sistema?",
+        "answer": "Sí. El sistema genera facturas de honorarios, controla los cobros y te muestra quién te debe y hace cuánto."
+      },
+      {
+        "question": "¿Cuántos clientes puedo gestionar con un SaaS?",
+        "answer": "Los planes profesionales generalmente no tienen límite de clientes. Un estudio con 200+ clientes puede operar perfectamente con un SaaS bien implementado."
+      }
+    ],
+    "ctaText": "¿Tu estudio contable necesita más orden y menos multas? Agendá un diagnóstico gratuito y encontrá el sistema ideal."
+  }
+}

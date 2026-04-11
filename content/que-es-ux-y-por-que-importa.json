@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-ux-y-por-que-importa",
+  "title": "Qué es UX (experiencia de usuario) y por qué te hace perder clientes",
+  "metaTitle": "Qué es UX y por qué importa | Guía simple PyMEs",
+  "metaDescription": "UX es qué tan fácil de usar es tu sitio web o app. Si la experiencia es mala, perdés clientes. Te explicamos qué es y cómo mejorarla sin ser técnico.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["ux", "experiencia de usuario", "diseño web", "conversión"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": ["que-es-desarrollo-web-a-medida", "como-mejorar-presencia-digital", "cuanto-cuesta-pagina-web-argentina"],
+  "content": {
+    "intro": "<p><strong>UX</strong> (User Experience o Experiencia de Usuario) es qué tan fácil, cómodo y agradable es usar tu sitio web, tu app o cualquier punto de contacto digital de tu empresa. Si un cliente entra a tu web y no encuentra el botón de WhatsApp, si el menú es confuso, si tarda 10 segundos en cargar, o si en el celular se ve todo roto — eso es mala UX. Y mala UX = clientes perdidos.</p><p>No necesitás ser diseñador para entender esto. Pensá en la última vez que entraste a un sitio web y te fuiste frustrado porque no encontrabas lo que buscabas. Eso le pasa a tus clientes si tu sitio no está pensado para ellos. La buena noticia: muchos problemas de UX se arreglan con cambios simples.</p>",
+    "sections": [
+      {
+        "heading": "Qué problemas de UX te hacen perder clientes",
+        "body": "<p>Los problemas más comunes que vemos en sitios de PyMEs argentinas:</p><ul><li><strong>Tu sitio tarda más de 3 segundos en cargar</strong>: el 40% de los visitantes se va si tarda más de 3 segundos. Si usás imágenes pesadas, videos que se reproducen solos o un hosting lento, estás perdiendo casi la mitad de tu tráfico.</li><li><strong>No se ve bien en celular</strong>: el 70% de tus visitantes entran desde el teléfono. Si tu sitio no es responsive (no se adapta a la pantalla del celular), esas personas ven todo chiquito, los botones no funcionan y se van.</li><li><strong>No se encuentra el botón de contacto</strong>: si el visitante tiene que scrollear, buscar en el menú y hacer 3 clics para encontrar cómo contactarte, no lo va a hacer. El botón de WhatsApp o contacto tiene que estar visible SIEMPRE.</li><li><strong>Textos interminables sin estructura</strong>: bloques de texto largo sin títulos, sin negrita, sin listas. Nadie lee eso. La gente escanea: necesita encontrar rápido lo que busca.</li><li><strong>Formularios largos</strong>: si para pedir un presupuesto necesitan completar 10 campos, la mayoría abandona en el campo 3.</li></ul><p>Cada uno de estos problemas es dinero que estás dejando en la mesa. La gente no te dice \"tu sitio es difícil de usar\" — simplemente se va en silencio a la competencia.</p>"
+      },
+      {
+        "heading": "UX no es solo diseño bonito",
+        "body": "<p>Un error común: pensar que UX es que el sitio \"se vea lindo\". No. Un sitio puede ser visualmente espectacular y tener pésima UX (hermoso pero imposible de usar). Y un sitio simple puede tener excelente UX (feo pero todo funciona perfecto).</p><p><strong>UX es que las cosas funcionen para el usuario</strong>:</p><ul><li>¿Puede encontrar lo que busca en menos de 10 segundos?</li><li>¿Sabe qué tiene que hacer para contactarte?</li><li>¿Puede completar la acción que quiere (comprar, consultar, agendar) sin frustrarse?</li><li>¿Funciona todo bien en celular?</li></ul><p>El diseño visual (cómo se ve) se llama <strong>UI</strong> (User Interface). La experiencia de uso (cómo funciona) es la <strong>UX</strong>. Idealmente tu sitio tiene ambas: se ve profesional Y es fácil de usar. Pero si tenés que elegir una, priorizá la usabilidad.</p><p>Un ejemplo claro: Mercado Libre no es el sitio más lindo del mundo. Pero funciona. Encontrás lo que buscás, comprás en 3 clics, y el proceso es intuitivo. Eso es buena UX.</p>"
+      },
+      {
+        "heading": "Mejoras de UX que podés hacer hoy sin gastar plata",
+        "body": "<p>No necesitás rediseñar tu sitio entero. Estos cambios tienen alto impacto y cuestan cero:</p><p><strong>1. Botón de WhatsApp flotante</strong>: un botón verde de WhatsApp que esté siempre visible en la esquina de la pantalla, en todas las páginas. El 78% de los argentinos prefiere contactar por WhatsApp. Si no lo ven, no contactan.</p><p><strong>2. Reducí los campos del formulario</strong>: dejá solo nombre, teléfono/mail y una línea de \"¿qué necesitás?\". Todo lo demás lo preguntás cuando te contacten. Menos campos = más formularios completados.</p><p><strong>3. Comprimí las imágenes</strong>: usá herramientas gratuitas como TinyPNG para reducir el peso de las imágenes sin perder calidad visible. Un sitio con imágenes comprimidas carga el doble de rápido.</p><p><strong>4. Revisá tu sitio en celular</strong>: abrí tu sitio desde tu teléfono y navegá como lo haría un cliente. ¿Se lee todo? ¿Los botones son suficientemente grandes para tocar con el dedo? ¿Se ve bien la información más importante? Si algo no funciona, corregilo como prioridad.</p><p><strong>5. Poné la información importante arriba</strong>: qué hacés, para quién y cómo contactarte. Todo eso tiene que verse sin scrollear (\"above the fold\"). Si el visitante tiene que bajar para enterarse de qué hacés, ya lo perdiste.</p>"
+      },
+      {
+        "heading": "Cómo la UX afecta tu posicionamiento en Google",
+        "body": "<p>Google mide la experiencia de usuario de tu sitio y la usa como factor de ranking. Si tu sitio ofrece mala experiencia, Google lo baja en los resultados. Los factores que mide:</p><p><strong>Core Web Vitals</strong>: tres métricas que miden velocidad de carga, estabilidad visual y tiempo de respuesta. Podés ver las tuyas gratis en <strong>PageSpeed Insights</strong> (pagespeed.web.dev). Te da un puntaje y te dice qué mejorar.</p><p><strong>Mobile-friendliness</strong>: Google indexa primero la versión móvil de tu sitio. Si tu versión móvil es mala, tu <a href=\"/blog/que-es-seo-y-por-que-importa\">posicionamiento en Google</a> sufre sin importar qué tan bien se vea en computadora.</p><p><strong>Tasa de rebote</strong>: si la gente entra a tu sitio y se va inmediatamente (\"rebota\"), Google interpreta que tu contenido no es relevante o útil. Un sitio con mala UX tiene tasas de rebote altísimas.</p><p>Mejorar la UX no solo te hace ganar más clientes directamente: también mejora tu posición en Google, lo que te trae más visitas, lo que te trae más clientes. Es un círculo virtuoso.</p>"
+      },
+      {
+        "heading": "Cuándo contratar un profesional de UX",
+        "body": "<p>Las mejoras básicas las podés hacer vos o tu desarrollador web. Pero hay momentos donde un <strong>profesional de UX</strong> vale la inversión:</p><ul><li><strong>Estás diseñando un sitio nuevo</strong>: mejor pensarlo bien antes que corregirlo después. Un profesional de UX te arma la estructura y los flujos antes de que se empiece a diseñar o programar.</li><li><strong>Tu sitio recibe tráfico pero no genera consultas</strong>: si tenés visitas pero nadie te contacta, probablemente hay un problema de UX. Un análisis profesional te dice exactamente qué está fallando.</li><li><strong>Vas a hacer un <a href=\"/blog/que-es-desarrollo-web-a-medida\">desarrollo a medida</a></strong>: un sistema o app sin UX profesional es plata tirada. Los usuarios no lo van a usar si es difícil o confuso.</li></ul><p>Un análisis de UX profesional cuesta entre <strong>$200.000 y $600.000 ARS</strong> y te da un informe con problemas detectados y soluciones concretas. El rediseño UX completo de un sitio va de $500.000 a $2.000.000 ARS dependiendo de la complejidad.</p><p>Si tu presupuesto no llega a eso, arrancá con las mejoras gratuitas de la sección anterior. Solo con esos 5 cambios vas a ver mejoras en tus métricas de conversión.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué significa UX?",
+        "answer": "UX significa User Experience (Experiencia de Usuario). Es qué tan fácil, cómodo y agradable es usar tu sitio web, app o cualquier punto de contacto digital. Buena UX = el usuario encuentra lo que busca sin frustrarse. Mala UX = se va a la competencia."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre UX y UI?",
+        "answer": "UX (User Experience) es cómo funciona tu sitio: si es fácil de usar, si el usuario logra hacer lo que quiere. UI (User Interface) es cómo se ve: colores, tipografía, diseño visual. UX es la experiencia, UI es la estética. Idealmente tenés ambas."
+      },
+      {
+        "question": "¿Cómo sé si mi sitio web tiene mala UX?",
+        "answer": "Señales claras: alto porcentaje de visitantes que se van rápido (tasa de rebote alta), pocos formularios completados, quejas de clientes sobre que no encuentran información, y diferencia grande entre visitas y consultas. Probá tu sitio en celular y fijate si todo funciona bien."
+      },
+      {
+        "question": "¿Cuánto cuesta mejorar la UX de mi sitio web?",
+        "answer": "Mejoras básicas como botón de WhatsApp, formularios más cortos y comprimir imágenes son gratis. Un análisis profesional de UX cuesta entre $200.000 y $600.000 ARS. Un rediseño UX completo va de $500.000 a $2.000.000 ARS."
+      },
+      {
+        "question": "¿La UX afecta al SEO?",
+        "answer": "Sí, directamente. Google mide velocidad de carga, experiencia móvil y estabilidad visual (Core Web Vitals). Un sitio con mala UX se posiciona peor en Google. Mejorar la UX mejora tu SEO, lo que te trae más visitas y más clientes."
+      }
+    ],
+    "ctaText": "¿Querés saber si tu sitio web está perdiendo clientes por mala experiencia? Hacé el diagnóstico gratuito de SODI y te mostramos qué mejorar."
+  }
+}

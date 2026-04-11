@@ -1,0 +1,61 @@
+{
+  "slug": "software-a-medida-vs-estandar",
+  "title": "Software a medida vs estándar: cuándo conviene cada uno y cuánto cuesta en Argentina",
+  "metaTitle": "Software a medida vs estándar en Argentina 2026",
+  "metaDescription": "Menos de 5 usuarios → SaaS estándar. Procesos complejos → desarrollo a medida. Comparamos costos, tiempos y cuándo conviene cada opción para PyMEs.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["software a medida", "SaaS", "sistema de gestión", "desarrollo de software", "PyMEs"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-software-a-medida-argentina", "cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-sistema-de-gestion"],
+  "content": {
+    "intro": "<p>La respuesta rápida: si tenés <strong>menos de 5 usuarios</strong> y tu proceso es estándar (facturación, stock, CRM), usá un SaaS. Si tu negocio tiene procesos complejos que ningún software genérico resuelve bien, invertí en <strong>desarrollo a medida</strong>. Suena simple, pero el 70% de las PyMEs argentinas elige mal y termina pagando dos veces.</p><p>Un SaaS como Colppy, Xubio o Odoo te arranca funcionando en días por $15.000-$80.000 ARS/mes. Un desarrollo a medida arranca en $1.500.000 y tarda 3-6 meses. La diferencia de inversión es enorme, pero también lo es el resultado cuando elegís bien.</p>",
+    "sections": [
+      {
+        "heading": "Software estándar (SaaS): qué es, cuándo conviene y cuánto sale",
+        "body": "<p>Un <strong>SaaS</strong> (Software as a Service) es un sistema que ya está hecho y vos lo alquilás mensualmente. Ejemplos en Argentina: Colppy y Xubio para contabilidad ($10.000-$30.000/mes), Tiendanube para e-commerce ($15.000-$80.000/mes), HubSpot para CRM (gratis-$50 USD/mes), Odoo para gestión integral ($20.000-$60.000/mes).</p><p><strong>Ventajas concretas:</strong></p><ul><li>Empezás a usarlo en días, no meses</li><li>No necesitás equipo técnico propio</li><li>Actualizaciones y seguridad incluidas</li><li>Costo mensual predecible y escalable</li></ul><p><strong>El problema:</strong> un SaaS está diseñado para el caso promedio. Si tu negocio tiene un proceso que no encaja (flujo de aprobaciones específico, integración con un sistema legacy, lógica de precios compleja), vas a terminar usando Excel al costado del SaaS. Y eso es peor que no tener sistema.</p><p>Conviene SaaS cuando: tenés menos de 5 usuarios, tu proceso es estándar, y tu prioridad es arrancar rápido sin invertir fuerte.</p>"
+      },
+      {
+        "heading": "Software a medida: cuándo vale la pena y qué esperar",
+        "body": "<p>El <strong>desarrollo a medida</strong> es construir un sistema desde cero (o sobre un framework) que se adapta exactamente a cómo opera tu negocio. Costos en Argentina 2026: entre <strong>$1.500.000 y $8.000.000 ARS</strong> dependiendo de la complejidad, más un mantenimiento mensual de $80.000-$300.000.</p><p>Suena caro, pero hacé esta cuenta: si un SaaS te cuesta $60.000/mes y le sumás $40.000 de herramientas complementarias (porque no cubre todo), pagás $1.200.000/año. En 2-3 años superaste la inversión del software a medida, y encima tenés un sistema que no es tuyo.</p><p><strong>Conviene desarrollo a medida cuando:</strong></p><ul><li>Tenés más de 10 usuarios y procesos complejos</li><li>Ningún SaaS cubre más del 70% de tus necesidades</li><li>Tu proceso de negocio es tu ventaja competitiva</li><li>Necesitás integraciones específicas con otros sistemas</li><li>Manejás datos sensibles que no querés en servidores de terceros</li></ul><p>Un buen <a href=\"/blog/cuanto-cuesta-software-a-medida-argentina\">desarrollo a medida</a> tarda entre 3 y 6 meses para un MVP funcional. Si alguien te promete un sistema completo en 4 semanas, desconfiá.</p>"
+      },
+      {
+        "heading": "Comparación directa de costos: SaaS vs a medida",
+        "body": "<p>Pongamos números reales para una PyME argentina con 10 empleados:</p><p><strong>Opción SaaS (stack completo):</strong></p><ul><li>Gestión/ERP: Odoo Community + hosting: $40.000/mes</li><li>CRM: HubSpot Starter: $25 USD/mes (~$30.000 ARS)</li><li>Facturación: Xubio: $20.000/mes</li><li>WhatsApp Business API: $15.000/mes</li><li>Total mensual: ~$105.000 ARS</li><li>Total anual: ~$1.260.000 ARS</li></ul><p><strong>Opción a medida (sistema integrado):</strong></p><ul><li>Desarrollo inicial: $3.500.000-$5.000.000 ARS</li><li>Mantenimiento mensual: $120.000-$200.000 ARS</li><li>Total primer año: $4.940.000-$7.400.000 ARS</li><li>Total segundo año en adelante: $1.440.000-$2.400.000 ARS</li></ul><p>A partir del <strong>tercer o cuarto año</strong>, el sistema a medida empieza a ser más barato. Pero la decisión no debería ser solo económica: si el SaaS resuelve tu problema, usá el SaaS. Si no lo resuelve y estás poniendo parches con Excel, ya estás perdiendo plata.</p>"
+      },
+      {
+        "heading": "Los errores más comunes al elegir (y cómo evitarlos)",
+        "body": "<p><strong>Error 1: Desarrollar a medida algo que un SaaS ya resuelve.</strong> El ego empresarial de \"quiero MI sistema\" le cuesta millones a las PyMEs. Si Colppy te resuelve la contabilidad, no gastes $3M en un módulo contable propio. Usá Colppy y listo.</p><p><strong>Error 2: Forzar un SaaS para algo que no fue diseñado.</strong> Si tu equipo pasa horas adaptando workarounds, exportando a Excel y haciendo reportes manuales porque el SaaS no cubre tu flujo, ya perdiste. Ese tiempo tiene costo.</p><p><strong>Error 3: No considerar el costo total de propiedad.</strong> El SaaS parece barato al principio, pero sumá: licencia mensual × usuarios × años + integraciones + capacitación + soporte premium cuando lo necesitás. Lo \"barato\" suma rápido.</p><p><strong>Error 4: Empezar el desarrollo sin especificación clara.</strong> El 60% de los proyectos de software a medida fracasan por mala definición de alcance. Antes de escribir una línea de código necesitás un <strong>documento funcional</strong> que detalle exactamente qué va a hacer el sistema. Si tu proveedor no te lo pide, corré.</p><p>La regla de oro: <strong>empezá con SaaS, crecé hacia a medida</strong>. Usá herramientas estándar hasta que el dolor de las limitaciones justifique la inversión.</p>"
+      },
+      {
+        "heading": "El camino intermedio: SaaS + personalización",
+        "body": "<p>Hay una tercera opción que muchas PyMEs ignoran: usar un <strong>SaaS personalizable</strong> como base y desarrollar solo los módulos que necesitás. Odoo, por ejemplo, tiene módulos open source que podés personalizar. ERPNext es otra opción gratuita y adaptable.</p><p>Con esta estrategia, no arrancás de cero. Tenés un sistema funcionando desde el día uno y vas agregando funcionalidad a medida según tus necesidades reales (no las que imaginás hoy).</p><p>El costo de este camino intermedio: <strong>$800.000-$2.000.000 ARS</strong> de setup + personalización inicial, y $50.000-$150.000/mes de mantenimiento y desarrollo incremental. Es entre un 40% y un 60% más barato que un desarrollo 100% a medida.</p><p>Para la mayoría de las PyMEs argentinas con 5-20 empleados, esta es <strong>la mejor opción</strong>. Tenés sistema propio, base probada y costo razonable. ¿Querés saber cuál es la mejor ruta para tu negocio? Hacé un <a href=\"/diagnostico\">diagnóstico gratuito</a> y te armamos un plan concreto.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo conviene software a medida vs un SaaS estándar?",
+        "answer": "Si tenés menos de 5 usuarios y procesos estándar, usá SaaS. Si tenés más de 10 usuarios, procesos complejos que ningún software genérico cubre bien, o tu proceso es tu ventaja competitiva, invertí en desarrollo a medida."
+      },
+      {
+        "question": "¿Cuánto cuesta un software a medida en Argentina?",
+        "answer": "Entre $1.500.000 y $8.000.000 ARS en 2026, más mantenimiento mensual de $80.000-$300.000. Un MVP funcional tarda 3-6 meses. A partir del tercer año, suele ser más económico que pagar SaaS con múltiples licencias."
+      },
+      {
+        "question": "¿Qué SaaS son los más usados por PyMEs en Argentina?",
+        "answer": "Para contabilidad: Colppy y Xubio. Para e-commerce: Tiendanube. Para CRM: HubSpot Free y Zoho. Para gestión integral: Odoo. Para facturación electrónica: Xubio y FacturaDirecta. Costos mensuales van de $10.000 a $80.000 ARS por herramienta."
+      },
+      {
+        "question": "¿Puedo empezar con SaaS y después migrar a software a medida?",
+        "answer": "Sí, y de hecho es la estrategia recomendada. Empezá con SaaS para validar tus procesos, identificá las limitaciones reales (no las que imaginás) y después invertí en desarrollo a medida solo donde el SaaS no llega. Asegurate de que el SaaS permita exportar tus datos."
+      },
+      {
+        "question": "¿Qué pasa si el proveedor de software a medida desaparece?",
+        "answer": "Exigí siempre que el código fuente sea tuyo y esté documentado. Pedí acceso al repositorio (GitHub/GitLab), a la base de datos y a los servidores. Si el contrato no dice que el código es de tu propiedad, no firmés. Otro equipo debería poder continuar el proyecto."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás un SaaS o un desarrollo a medida? Pedí tu diagnóstico gratuito y te damos una recomendación honesta basada en tu operación real."
+  }
+}

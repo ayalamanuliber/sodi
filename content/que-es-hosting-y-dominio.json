@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-hosting-y-dominio",
+  "title": "Qué es hosting y dominio: guía simple para dueños de empresa",
+  "metaTitle": "Qué es hosting y dominio | Guía simple 2026",
+  "metaDescription": "El hosting es donde vive tu sitio web y el dominio es su dirección. Te explicamos tipos, costos en Argentina y cómo elegir sin complicarte.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["hosting", "dominio", "página web", "infraestructura web"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "5 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "que-es-una-landing-page", "que-es-desarrollo-web-a-medida"],
+  "content": {
+    "intro": "<p>Si tenés un sitio web o estás pensando en hacer uno, vas a escuchar dos palabras inevitables: <strong>hosting</strong> y <strong>dominio</strong>. Suenan técnicas pero el concepto es simple. El <strong>dominio</strong> es la dirección de tu sitio web (por ejemplo, tuempresa.com.ar). El <strong>hosting</strong> es el lugar donde tu sitio web vive — el servidor (una computadora remota) que guarda todos los archivos de tu página y los muestra cuando alguien la visita.</p><p>Pensalo como un local comercial: el <strong>dominio es la dirección</strong> (Av. Corrientes 1234) y el <strong>hosting es el espacio que alquilás</strong> donde funciona tu negocio. Necesitás ambos para que tu sitio web exista y la gente pueda encontrarlo.</p>",
+    "sections": [
+      {
+        "heading": "Qué es un dominio y cómo elegir el tuyo",
+        "body": "<p>El <strong>dominio</strong> es el nombre que la gente escribe en el navegador para llegar a tu sitio: tuempresa.com, tuempresa.com.ar, tuempresa.ar. Es tu dirección en internet.</p><p>Tipos de dominio más usados en Argentina:</p><ul><li><strong>.com.ar</strong>: el más popular en Argentina. Transmite presencia local. Cuesta entre $5.000 y $15.000 ARS/año dependiendo del registrador.</li><li><strong>.com</strong>: internacional. Si tu negocio puede tener clientes fuera de Argentina, conviene tener este también. Cuesta $10-15 USD/año.</li><li><strong>.ar</strong>: más corto y moderno. Mismo precio que .com.ar.</li></ul><p><strong>Cómo elegir un buen dominio:</strong></p><ul><li>Que sea <strong>fácil de recordar y escribir</strong>. Si tenés que deletrearlo cada vez que lo decís, es demasiado complejo.</li><li>Que incluya el <strong>nombre de tu empresa o tu rubro</strong>. \"estudiojuridicoperez.com.ar\" es claro. \"ejp-soluciones.com.ar\" no dice nada.</li><li>Evitá guiones, números y abreviaciones raras. Cuanto más simple, mejor.</li><li>Registralo a tu nombre o al de tu empresa, no al de tu diseñador web. El dominio es tuyo y tenés que poder acceder siempre.</li></ul>"
+      },
+      {
+        "heading": "Qué es el hosting y qué tipos existen",
+        "body": "<p>El <strong>hosting</strong> es el servicio que guarda los archivos de tu sitio web (textos, imágenes, código) y los sirve cuando alguien visita tu página. Sin hosting, tu sitio no existe: es como tener una dirección pero no un local.</p><p>Tipos de hosting:</p><p><strong>Hosting compartido</strong>: tu sitio comparte un servidor con otros cientos de sitios. Es el más económico ($3.000-$15.000 ARS/mes o $5-15 USD/mes). Suficiente para el 90% de las PyMEs. Ejemplo: DonWeb, Hostinger, SiteGround.</p><p><strong>VPS (Servidor Virtual Privado)</strong>: una porción dedicada de un servidor. Más potente y estable que el compartido. $10-50 USD/mes. Para sitios con mucho tráfico o que necesitan más control.</p><p><strong>Hosting cloud</strong>: servidores en la nube que escalan según tu tráfico (Vercel, AWS, DigitalOcean). Desde $0 hasta lo que necesites. Ideal para <a href=\"/blog/que-es-desarrollo-web-a-medida\">sitios a medida</a> con tráfico variable.</p><p><strong>Hosting incluido en plataformas</strong>: si usás Wix, Squarespace o Tiendanube, el hosting viene incluido en el plan. No necesitás contratarlo por separado.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta hosting y dominio en Argentina (precios 2026)",
+        "body": "<p>Un resumen de costos anuales:</p><p><strong>Dominio .com.ar</strong>: $5.000-$15.000 ARS/año<br><strong>Dominio .com</strong>: $10-15 USD/año ($10.000-$18.000 ARS/año aprox.)</p><p><strong>Hosting compartido argentino</strong> (DonWeb, Banahosting AR): $3.000-$10.000 ARS/mes ($36.000-$120.000 ARS/año)</p><p><strong>Hosting compartido internacional</strong> (Hostinger, SiteGround): $3-10 USD/mes ($36-$120 USD/año)</p><p><strong>VPS</strong>: $10-50 USD/mes ($120-$600 USD/año)</p><p><strong>Total mínimo anual</strong> (dominio .com.ar + hosting compartido): $40.000-$80.000 ARS/año. Es menos de lo que cuesta una cena para dos en un restaurante de Buenos Aires — no hay excusa para no tener sitio web propio.</p><p>Si alguien te cobra el dominio y el hosting como parte de su servicio, asegurate de que <strong>estén a tu nombre</strong>. Si el día de mañana cambiás de proveedor, tenés que poder llevarte tu dominio y tus archivos. Si están a nombre de tu diseñador y se pelea con vos, perdés todo.</p>"
+      },
+      {
+        "heading": "Cómo elegir hosting para tu sitio web",
+        "body": "<p>No necesitás el hosting más caro ni el más potente. Lo que necesitás:</p><ul><li><strong>Que sea confiable (uptime alto)</strong>: que tu sitio esté online el 99.9% del tiempo. Los hostings serios garantizan esto. Si tu sitio se cae seguido, perdés visitas y Google te baja el ranking.</li><li><strong>Que cargue rápido</strong>: la velocidad del hosting afecta directamente cuánto tarda en cargar tu sitio. Si tarda más de 3 segundos, perdés visitantes. Hostings con servidores cerca de tu audiencia (Argentina/Latinoamérica) cargan más rápido.</li><li><strong>Que incluya SSL (certificado de seguridad)</strong>: el candadito verde en el navegador. Sin SSL, Google marca tu sitio como \"no seguro\" y los clientes desconfían. La mayoría de los hostings lo incluyen gratis.</li><li><strong>Que tenga soporte técnico</strong>: cuando algo falla (y en algún momento va a fallar), necesitás poder hablar con alguien que te ayude. Soporte en español y por chat es ideal para PyMEs.</li></ul><p>Para un sitio institucional de PyME, un <strong>hosting compartido de $5-10 USD/mes</strong> es más que suficiente. No pagues de más por recursos que no vas a usar.</p>"
+      },
+      {
+        "heading": "Lo que todo dueño de empresa necesita saber sobre dominio y hosting",
+        "body": "<p>Reglas que te van a ahorrar problemas:</p><ul><li><strong>Registrá el dominio vos mismo</strong>. Usá NIC Argentina (nic.ar) para .com.ar o Namecheap/Google Domains para .com. Tarda 5 minutos. No dejes que lo haga tu diseñador web a su nombre.</li><li><strong>Guardá las credenciales en un lugar seguro</strong>. El usuario y contraseña de tu hosting y tu panel de dominio son tan importantes como las llaves de tu local. Si los perdés y tu proveedor desaparece, perdés acceso a tu sitio.</li><li><strong>Renovales a tiempo</strong>. El dominio y el hosting vencen y hay que renovarlos. Si se te vence el dominio, otro lo puede comprar y quedarte sin tu dirección web. Activá la renovación automática.</li><li><strong>Hacé backups regulares</strong>. Tu hosting debería hacer backups automáticos, pero verificalo. Si tu sitio se rompe o lo hackean, necesitás poder restaurar una versión anterior.</li></ul><p>Estas son cosas básicas pero una cantidad enorme de PyMEs argentinas las ignoran y después sufren las consecuencias: sitios caídos, dominios perdidos, dependencia total de un proveedor.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo tener un dominio sin hosting?",
+        "answer": "Sí, podés registrar un dominio sin contratar hosting. Pero sin hosting no tenés dónde poner tu sitio web, así que el dominio queda 'vacío'. Muchos compran el dominio antes de tener el sitio para reservar el nombre."
+      },
+      {
+        "question": "¿El hosting viene incluido si uso Wix o Tiendanube?",
+        "answer": "Sí. Plataformas como Wix, Squarespace y Tiendanube incluyen hosting en sus planes. No necesitás contratarlo por separado. Sí necesitás comprar y conectar tu dominio propio para tener una dirección profesional."
+      },
+      {
+        "question": "¿Conviene hosting argentino o internacional?",
+        "answer": "Si tu audiencia es argentina, un hosting con servidores en Argentina o Latinoamérica puede cargar más rápido. Pero hostings internacionales como Hostinger o SiteGround tienen CDN global que compensa la distancia. Para la mayoría de PyMEs, cualquiera de los dos funciona bien."
+      },
+      {
+        "question": "¿Qué pasa si mi sitio web se cae?",
+        "answer": "Si tenés un buen hosting, se cae muy poco (menos del 0.1% del tiempo). Si se cae, el soporte técnico del hosting lo resuelve. Si se cae seguido, tenés un hosting malo y conviene migrar. Los visitantes que encuentren tu sitio caído probablemente no vuelvan."
+      },
+      {
+        "question": "¿Cuánto sale tener un sitio web propio en total?",
+        "answer": "El mínimo anual: dominio ($5.000-$15.000 ARS) + hosting ($36.000-$120.000 ARS) = $40.000-$135.000 ARS/año. Eso sin contar el diseño o desarrollo del sitio en sí. Es una inversión muy accesible para cualquier empresa."
+      }
+    ],
+    "ctaText": "¿Querés tu propio sitio web y no sabés por dónde empezar? Hacé el diagnóstico gratuito de SODI y te armamos el plan completo."
+  }
+}

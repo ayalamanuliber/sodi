@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-centros-de-estetica",
+  "title": "Sistema de turnos para centros de estética: organizá servicios y fidelizá clientas",
+  "metaTitle": "Sistema de Turnos para Centros de Estética | SODI",
+  "metaDescription": "Sistemas de turnos para centros de estética en Argentina. Opciones SaaS, desarrollo a medida, costos y cómo elegir el ideal.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "centros de estética", "agenda estética", "reservas online", "belleza"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-centros-de-estetica", "presencia-digital-ideal-peluqueria-estetica", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>Un centro de estética maneja <strong>servicios de distintas duraciones, múltiples profesionales y equipamiento que se comparte</strong>. Gestionar todo eso por WhatsApp o en una libreta es una receta para el caos: turnos superpuestos, cabinas vacías, clientas que no se presentan y profesionales esperando sin pacientes.</p><p>Un sistema de turnos online resuelve todo eso. En esta guía te mostramos las opciones disponibles, los costos y cómo elegir el mejor para tu centro. Si además necesitás mejorar tu <a href=\"/blog/pagina-web-para-centros-de-estetica\">página web</a>, eso complementa tu sistema de reservas.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un centro de estética necesita turnos online",
+        "body": "<p>La estética tiene complejidades de agendamiento que otros rubros no tienen:</p><ul><li><strong>Servicios con duraciones muy distintas:</strong> una depilación láser dura 20 minutos, un tratamiento corporal 90 minutos, una limpieza facial 60 minutos. El sistema bloquea automáticamente el tiempo correcto.</li><li><strong>Recursos compartidos:</strong> las cabinas, los equipos de láser o las camillas se comparten entre profesionales. El sistema evita que dos profesionales agenden la misma cabina al mismo tiempo.</li><li><strong>Paquetes y sesiones:</strong> muchos tratamientos se venden en paquetes (6 sesiones de depilación, 10 de masajes). El sistema lleva el control de cuántas sesiones usó cada clienta.</li><li><strong>Ausencias costosas:</strong> una clienta que no viene a su sesión de dermapen te costó los insumos, la cabina vacía y el profesional sin paciente. Los recordatorios por WhatsApp <strong>reducen las faltas entre un 40% y 60%</strong>.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para centros de estética",
+        "body": "<p>Las plataformas SaaS permiten empezar rápido sin desarrollo:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> la opción más completa para estética. Agenda por profesional y por recurso (cabina/equipo), catálogo de servicios, paquetes de sesiones, historial de clienta, recordatorios por WhatsApp. Muy usado en Argentina.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple pero funcional. Agenda online, link de reserva, recordatorios. Ideal para centros chicos que no necesitan gestión de paquetes.</li><li><strong>Cal.com (gratis el plan básico):</strong> open source, permite configurar servicios con duración y múltiples calendarios. No tiene gestión de paquetes ni historial de tratamientos, pero es gratis.</li></ul><p><strong>Para centros de estética, AgendaPro es la recomendación</strong> por la gestión de paquetes de sesiones y la asignación de recursos (cabinas/equipos), que son funcionalidades críticas del rubro.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo tiene sentido",
+        "body": "<p>Un sistema a medida para estética conviene cuando:</p><ul><li><strong>Tenés varias sedes:</strong> agenda centralizada con reportes por sucursal, movimiento de clientas entre locales, stock de insumos por sede.</li><li><strong>Necesitás antes/después digital:</strong> un sistema que registre fotos del progreso del tratamiento vinculadas a la ficha de la clienta.</li><li><strong>Integración con facturación y stock:</strong> si usás insumos costosos (ácido hialurónico, toxina botulínica), querés que el sistema descuente stock automáticamente al confirmar el turno.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS. Para un centro con 2-4 cabinas y un equipo chico, el SaaS es suficiente. Más detalles en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos</a>.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp e Instagram",
+        "body": "<p>Tus clientas descubren tu centro por Instagram y se comunican por WhatsApp. Tu sistema de turnos tiene que estar en esos canales:</p><ul><li><strong>Link de reserva en bio de Instagram:</strong> la clienta ve un resultado de tratamiento → toca el link → agenda su sesión. El flujo tiene que ser inmediato.</li><li><strong>Recordatorio por WhatsApp:</strong> \"Hola Carla, te recordamos tu sesión de depilación láser mañana a las 10:00. ¿Confirmás o reprogramamos?\"</li><li><strong>Confirmación con un toque:</strong> respuesta rápida de \"Confirmo\" o \"Cancelo\" que actualiza la agenda automáticamente.</li><li><strong>Venta de paquetes por WhatsApp:</strong> enviá el link de reserva del paquete directamente por WhatsApp para que la clienta compre y agende en un solo paso.</li></ul><p>La integración WhatsApp + Instagram + turnos es el <strong>triángulo que cierra ventas</strong> en estética.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema ideal",
+        "body": "<p>La decisión depende de tu operación:</p><ul><li><strong>Centro chico (1-2 profesionales, 1-2 cabinas):</strong> Cloxsy o Cal.com. Simple, económico, funcional.</li><li><strong>Centro mediano (3-5 profesionales, 3+ cabinas):</strong> AgendaPro. Necesitás gestión de recursos, paquetes y recordatorios profesionales.</li><li><strong>Cadena o centro grande (múltiples sedes):</strong> desarrollo a medida. La inversión se justifica por la escala.</li></ul><p>Lo más importante: <strong>que tenga recordatorios por WhatsApp</strong>. Es la funcionalidad que más impacto tiene en reducir ausencias y mantener la agenda llena.</p><p>Si no sabés cuál te conviene, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong> y te recomendamos la opción ideal para tu centro.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para centro de estética?",
+        "answer": "SaaS: entre USD 10 y USD 45/mes. Cal.com tiene plan gratuito. Desarrollo a medida: entre $800.000 y $2.000.000 ARS según funcionalidades."
+      },
+      {
+        "question": "¿Puedo gestionar paquetes de sesiones con un sistema SaaS?",
+        "answer": "Sí, AgendaPro permite crear paquetes de sesiones y llevar el control de cuántas usó cada clienta. Cloxsy y Cal.com no tienen esta funcionalidad nativamente."
+      },
+      {
+        "question": "¿Cómo manejo las cabinas y equipos compartidos?",
+        "answer": "AgendaPro permite asignar recursos (cabinas, equipos) a los servicios, evitando que dos profesionales usen el mismo recurso al mismo tiempo."
+      }
+    ],
+    "ctaText": "¿Querés organizar la agenda de tu centro de estética? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir el sistema ideal."
+  }
+}

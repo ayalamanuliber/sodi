@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-restaurantes",
+  "title": "Cómo automatizar WhatsApp para restaurantes: pedidos, reservas y atención sin perder clientes",
+  "metaTitle": "Automatizar WhatsApp para Restaurantes | SODI",
+  "metaDescription": "Automatizá pedidos, reservas y consultas de tu restaurante por WhatsApp. Menos caos, más ventas directas sin comisión de apps.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["restaurantes", "WhatsApp Business", "pedidos online", "reservas", "gastronomía"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["pagina-web-para-restaurantes", "redes-sociales-para-restaurantes", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>En la gastronomía argentina, WhatsApp ya es un canal de ventas. Pero la mayoría de los restaurantes lo usan de la peor manera posible: <strong>un solo celular, un solo número, una persona que intenta responder entre el ruido de la cocina y el salón</strong>. Resultado: mensajes sin responder, pedidos que se pierden, clientes que se van a la competencia o directamente piden por Rappi (y vos pagás 30% de comisión).</p><p>Automatizar WhatsApp significa que cada cliente reciba respuesta al instante, que los pedidos lleguen organizados y que las reservas se confirmen solas. En esta guía te mostramos cómo hacerlo paso a paso.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en un restaurante",
+        "body": "<p>Tu restaurante recibe los mismos mensajes todos los días. Estos son los que un bot maneja perfecto:</p><ul><li><strong>Menú y precios:</strong> el bot envía un PDF o link al <a href=\"/blog/pagina-web-para-restaurantes\">menú digital de tu web</a> apenas alguien pregunta.</li><li><strong>Reservas:</strong> \"¿Para cuántas personas? ¿Qué día y horario preferís?\" El bot confirma y registra.</li><li><strong>Pedidos para delivery o takeaway:</strong> flujo donde el cliente elige platos del menú, confirma dirección y forma de pago.</li><li><strong>Horarios y ubicación:</strong> respuesta inmediata con mapa y horarios actualizados.</li><li><strong>Eventos y promos:</strong> cuando alguien pregunta por eventos, el bot envía la info del próximo.</li></ul><p>Automatizar estos mensajes tiene un impacto doble: <strong>respondés más rápido y liberás a tu equipo</strong> para que se ocupe del salón y la cocina, no del celular.</p>"
+      },
+      {
+        "heading": "Flujo de bot para pedidos directos (sin comisión)",
+        "body": "<p>El flujo más rentable que podés armar es el de <strong>pedidos directos por WhatsApp</strong>, sin pasar por apps de delivery:</p><ol><li>Cliente escribe → bot saluda y pregunta: \"¿Querés hacer un pedido, reservar mesa o consultar el menú?\"</li><li>Si elige pedir: bot muestra categorías (pizzas, pastas, carnes, bebidas) con precios</li><li>Cliente elige → bot confirma pedido y pregunta dirección</li><li>Bot calcula si está en zona de delivery y muestra el total</li><li>Cliente confirma → bot envía resumen al equipo de cocina por un grupo interno</li><li>Bot informa tiempo estimado: \"Tu pedido llega en aproximadamente 40 minutos\"</li></ol><p>Este flujo te ahorra la comisión de PedidosYa o Rappi (25-35% por pedido). Si hacés 10 pedidos diarios de $8.000 promedio, la comisión que te ahorrás es de <strong>$60.000 a $84.000 por día</strong>. El bot se paga en el primer pedido.</p><p>La clave es que el flujo sea <strong>rápido y sin fricciones</strong>. Si el cliente tarda más de 2 minutos en pedir, se va a una app.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para gastronomía",
+        "body": "<p>Las opciones dependen de tu volumen de pedidos:</p><ul><li><strong>WhatsApp Business (gratis):</strong> catálogo de productos (tu menú), respuestas rápidas, mensaje de ausencia. Limitado pero funcional para restaurantes chicos.</li><li><strong>Bots de bajo costo (Botmaker, ChatCompose):</strong> desde USD 25/mes. Flujos de pedido, integración con planillas. Buenos para restaurantes medianos.</li><li><strong>Plataformas de pedidos por WhatsApp (PideDirecto, Peel):</strong> desde USD 30/mes + comisión baja (5-10%). Sistema completo de delivery con menú digital y pagos.</li><li><strong>Desarrollo custom con API:</strong> desde USD 250 de setup. Ideal si tenés un sistema de caja y querés que los pedidos entren directo.</li></ul><p>Compará el costo mensual de cualquiera de estas opciones con lo que pagás de comisión a las apps. Un restaurante que hace 300 pedidos por app al mes paga entre <strong>USD 500 y USD 1.500 en comisiones</strong>. Migrar aunque sea la mitad a WhatsApp directo es un ahorro enorme.</p>"
+      },
+      {
+        "heading": "Reservas automatizadas: cómo funciona",
+        "body": "<p>Las reservas por WhatsApp son el segundo flujo más valioso. Así debería funcionar:</p><ul><li><strong>Cliente escribe \"quiero reservar\"</strong> → bot pregunta fecha, horario, cantidad de personas</li><li><strong>Bot verifica disponibilidad</strong> (conectado a tu sistema o planilla de reservas)</li><li><strong>Confirma con datos:</strong> \"Listo, tu reserva para 4 personas el viernes 18 a las 21 hs está confirmada. Te esperamos en [dirección].\"</li><li><strong>Recordatorio automático:</strong> mensaje el mismo día a las 16 hs: \"Te recordamos tu reserva de esta noche a las 21 hs.\"</li></ul><p>Las <strong>no-shows</strong> (reservas que no se presentan) son un problema serio para restaurantes. Con recordatorios automáticos, se reducen entre un 30% y un 50%. Cada mesa vacía en una noche de viernes es plata que perdés.</p><p>Si combinás esto con una <a href=\"/blog/pagina-web-para-restaurantes\">web con sistema de reservas</a>, tenés dos canales cubiertos sin esfuerzo manual.</p>"
+      },
+      {
+        "heading": "Errores que arruinan tu WhatsApp gastronómico",
+        "body": "<p>Automatizar mal es peor que no automatizar. Evitá estos errores:</p><ul><li><strong>Menú desactualizado en el bot:</strong> si un cliente pide algo que ya no tenés o el precio cambió, generás una mala experiencia. Actualizá el menú del bot cada vez que cambiás la carta.</li><li><strong>No tener opción de hablar con un humano:</strong> hay pedidos especiales, alergias, consultas que solo un humano puede resolver.</li><li><strong>Usar el WhatsApp personal del dueño:</strong> mezclar pedidos con vida personal es receta para el desastre. Usá WhatsApp Business con un número del local.</li><li><strong>No responder fuera de horario:</strong> si el bot no avisa que el local está cerrado y cuándo abre, el cliente queda en el limbo.</li><li><strong>Spammear promos todos los días:</strong> un mensaje promocional por semana está bien. Uno por día, te bloquean.</li></ul><p>¿Querés saber si tu WhatsApp está bien configurado? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te decimos qué mejorar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto me ahorro en comisiones al recibir pedidos por WhatsApp?",
+        "answer": "Las apps de delivery cobran entre 25% y 35% por pedido. Si tu ticket promedio es de $8.000 y hacés 10 pedidos diarios por app, pagás entre $20.000 y $28.000 por día en comisiones. Migrar esos pedidos a WhatsApp directo te ahorra entre $600.000 y $840.000 al mes."
+      },
+      {
+        "question": "¿El bot puede tomar pedidos complejos con personalizaciones?",
+        "answer": "Para pedidos estándar del menú, sí. Para personalizaciones complejas (alérgenos, modificaciones especiales), lo ideal es que el bot tome el pedido base y derive a un humano para confirmar los detalles. El flujo mixto bot + humano funciona muy bien."
+      },
+      {
+        "question": "¿Necesito un número de teléfono nuevo para el bot?",
+        "answer": "Podés usar tu número actual si lo migrás a WhatsApp Business o a la API. Lo ideal es tener un número fijo del local registrado en WhatsApp Business. Así el equipo puede acceder desde varios dispositivos y no dependés de un solo celular."
+      }
+    ],
+    "ctaText": "¿Querés dejar de regalar comisiones a las apps de delivery? Pedí un diagnóstico gratuito y armamos tu sistema de pedidos por WhatsApp."
+  }
+}

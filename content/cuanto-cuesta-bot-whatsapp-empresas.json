@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-bot-whatsapp-empresas",
+  "title": "Cuánto cuesta un bot de WhatsApp para empresas en Argentina: plataformas, desarrollo custom y precios 2026",
+  "metaTitle": "Cuánto cuesta un bot de WhatsApp para empresas 2026",
+  "metaDescription": "Un bot de WhatsApp cuesta desde $30 USD/mes con plataformas como Wasapi hasta $2.500.000 ARS en desarrollo custom. Comparamos las opciones reales.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["bot whatsapp", "automatización", "whatsapp business", "chatbot empresas"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["automatizar-whatsapp-inmobiliarias", "whatsapp-manual-vs-bot-automatico", "que-es-un-bot-de-whatsapp", "como-automatizar-atencion-al-cliente"],
+  "content": {
+    "intro": "<p>Un <strong>bot de WhatsApp para empresas</strong> en Argentina cuesta entre $30 USD/mes con plataformas prearmadas hasta $2.500.000 ARS o más en desarrollo custom. La diferencia no es solo de precio: un bot de plataforma te resuelve respuestas automáticas en 48 horas, mientras que uno custom se integra con tu CRM, tu sistema de turnos y tu base de datos.</p><p>El 78% de los consumidores argentinos prefiere contactar empresas por WhatsApp. Si todavía contestás cada mensaje a mano, estás perdiendo consultas fuera de horario y quemando horas de tu equipo en preguntas repetitivas. Acá te mostramos las opciones reales con precios actualizados a 2026.</p>",
+    "sections": [
+      {
+        "heading": "Cuánto cuestan las plataformas de bots de WhatsApp en Argentina",
+        "body": "<p>Las <strong>plataformas SaaS</strong> son la forma más rápida y económica de tener un bot funcionando. No necesitás programar nada: configurás flujos de conversación con un editor visual y en 1-3 días estás operativo.</p><p><strong>Wasapi</strong> arranca en $30 USD/mes para 1 agente y 1.000 conversaciones. Es argentina, tiene buena integración con Mercado Libre y soporte local. Para PyMEs que reciben hasta 50 consultas diarias, alcanza.</p><p><strong>Cliengo</strong> cuesta entre $59 y $199 USD/mes. Incluye chatbot para web y WhatsApp, CRM básico integrado y métricas. Es la opción más completa para empresas que quieren unificar web + WhatsApp en un solo sistema.</p><p><strong>Whaticket</strong> arranca en $49 USD/mes con múltiples agentes y conexión a WhatsApp, Instagram y Facebook. Buena opción si tenés un equipo de ventas que necesita gestionar conversaciones desde un solo panel.</p><p><strong>WATI</strong> (basado en la API oficial de WhatsApp Business) cuesta desde $49 USD/mes. Es más técnico pero tiene la ventaja de usar la API oficial de Meta, lo que te da verificación de empresa y templates de mensajes aprobados.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un bot de WhatsApp custom en Argentina",
+        "body": "<p>Un <strong>bot custom</strong> arranca en $800.000 ARS para un flujo básico (bienvenida, menú de opciones, derivación a agente, respuestas automáticas a preguntas frecuentes). Incluye la integración con la API de WhatsApp Business, hosting y configuración inicial.</p><p>Un bot de <strong>complejidad media</strong> cuesta entre $1.200.000 y $2.500.000 ARS. Acá hablamos de: integración con tu CRM o sistema de gestión, respuestas dinámicas basadas en tu base de datos (precios, disponibilidad, estado de pedido), sistema de turnos, y panel de métricas propio.</p><p>Los bots <strong>enterprise con inteligencia artificial</strong> superan los $4.500.000 ARS. Usan modelos de lenguaje (GPT, Claude) para entender preguntas complejas, mantener contexto de conversación y resolver consultas sin intervención humana. Son para empresas con más de 200 consultas diarias donde el costo del equipo de atención justifica la inversión.</p><p>El desarrollo custom tarda entre 4 y 12 semanas dependiendo de la complejidad. Además del costo inicial, presupuestá un <strong>mantenimiento mensual</strong> de $50.000-$150.000 ARS para actualizaciones, monitoreo y ajustes de flujo.</p>"
+      },
+      {
+        "heading": "Bot de plataforma vs bot custom: cuál conviene para tu empresa",
+        "body": "<p>Elegí una <strong>plataforma</strong> si: recibís menos de 100 consultas diarias, tus preguntas frecuentes son predecibles (precio, horario, ubicación, turnos), no necesitás integración con sistemas internos, y querés estar operativo en menos de una semana. Costo total del primer año: $360-$2.400 USD.</p><p>Elegí <strong>desarrollo custom</strong> si: necesitás integrar WhatsApp con tu sistema de gestión o CRM, querés respuestas dinámicas basadas en datos en tiempo real (stock, disponibilidad, estado de cuenta), o tenés procesos de negocio específicos que ninguna plataforma resuelve. Costo total del primer año: $800.000-$4.000.000 ARS.</p><p>La mayoría de las PyMEs argentinas debería <strong>arrancar con una plataforma</strong> y migrar a custom solo cuando la plataforma se queda corta. Es un error común invertir $2M en un bot custom cuando Wasapi a $30 USD/mes te resolvía el 80% del problema.</p><p>En SODI evaluamos tu volumen de consultas y tus procesos antes de recomendarte una solución. No tiene sentido vender desarrollo custom si una <a href=\"/blog/whatsapp-manual-vs-bot-automatico\">plataforma estándar</a> te alcanza.</p>"
+      },
+      {
+        "heading": "Cuánto ahorra un bot de WhatsApp a una PyME argentina",
+        "body": "<p>Una PyME que recibe 50 consultas diarias por WhatsApp dedica entre 3 y 5 horas de una persona a contestar mensajes. A un costo laboral de $600.000/mes, eso equivale a $225.000-$375.000 ARS mensuales solo en atención por WhatsApp.</p><p>Un <strong>bot bien configurado</strong> resuelve automáticamente el 60-70% de las consultas repetitivas (precio, horario, ubicación, disponibilidad). Eso libera 2-3.5 horas diarias de tu equipo y captura consultas fuera de horario que antes se perdían.</p><p>El <strong>ROI típico</strong> de un bot de plataforma ($30-60 USD/mes) es de 3-6 meses. Para un bot custom de $1.500.000, el ROI es de 6-12 meses si tu volumen de consultas es alto. Si recibís menos de 20 consultas diarias, el bot custom no se justifica financieramente.</p><p>El ahorro más grande no es en horas: es en <strong>leads que no perdés</strong>. Si cerrás a las 19hs y el 40% de tus consultas llegan entre las 20hs y las 23hs, un bot que responde y califica esos leads las 24 horas puede duplicar tu flujo de consultas efectivas.</p>"
+      },
+      {
+        "heading": "Qué necesitás para implementar un bot de WhatsApp Business",
+        "body": "<p>Primero necesitás una <strong>cuenta de WhatsApp Business</strong> verificada. La versión gratuita (app WhatsApp Business) alcanza para plataformas como Wasapi y Whaticket. Para la API oficial de Meta, necesitás un número dedicado, una Business Manager verificada y aprobación de Meta (tarda 1-3 semanas).</p><p>Segundo, necesitás tener claros tus <strong>flujos de conversación</strong>. Antes de tocar tecnología, escribí en papel: qué pregunta la gente, en qué orden, y qué respuesta esperan. El 90% de los bots que fallan es porque los flujos están mal diseñados, no porque la tecnología falle.</p><p>Tercero, definí qué pasa cuando el bot <strong>no puede resolver</strong>. La derivación a un humano tiene que ser fluida y rápida. Un bot que dice \"no entiendo\" 3 veces seguidas y no te conecta con una persona genera más frustración que no tener bot.</p><p>Por último, necesitás alguien que <strong>monitoree y ajuste</strong> el bot durante los primeros 30 días. Las conversaciones reales siempre sorprenden: la gente pregunta cosas que no anticipaste, usa palabras diferentes a las que programaste, o sigue caminos que no diseñaste. Presupuestá al menos 10 horas de ajuste post-lanzamiento.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un bot de WhatsApp para una PyME en Argentina?",
+        "answer": "Desde $30 USD/mes con plataformas como Wasapi o WATI, hasta $800.000-$2.500.000 ARS por un bot custom integrado con tu CRM o sistema de gestión. Para la mayoría de PyMEs, una plataforma de $30-60 USD/mes resuelve el 80% de las necesidades."
+      },
+      {
+        "question": "¿Qué plataforma de bot de WhatsApp es mejor para Argentina?",
+        "answer": "Wasapi ($30 USD/mes) es la mejor opción para PyMEs argentinas por precio, soporte local e integración con Mercado Libre. Cliengo ($59 USD/mes) es mejor si necesitás chatbot en web + WhatsApp. WATI ($49 USD/mes) es la opción más robusta con API oficial de Meta."
+      },
+      {
+        "question": "¿Un bot de WhatsApp reemplaza a mi equipo de ventas?",
+        "answer": "No. Un bot bien configurado resuelve el 60-70% de las consultas repetitivas y califica leads, pero las ventas complejas requieren intervención humana. El bot libera a tu equipo para que se enfoque en cerrar ventas en vez de repetir precios y horarios."
+      },
+      {
+        "question": "¿Cuánto tarda en implementarse un bot de WhatsApp?",
+        "answer": "Con plataforma SaaS: 1-3 días para un flujo básico, 1-2 semanas con flujos complejos. Desarrollo custom: 4-8 semanas para un bot básico-medio, 8-12 semanas con integraciones complejas (CRM, ERP, API de terceros)."
+      },
+      {
+        "question": "¿Necesito la API oficial de WhatsApp Business o alcanza con la app?",
+        "answer": "Si recibís menos de 50 consultas diarias y usás una plataforma como Wasapi, la app Business alcanza. Si necesitás enviar mensajes masivos, templates aprobados, múltiples agentes simultáneos o integraciones custom, necesitás la API oficial ($50-100 USD/mes más el costo de conversaciones)."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás un bot simple o uno custom? Hacé el diagnóstico gratuito de SODI y te recomendamos la solución exacta para tu volumen de consultas."
+  }
+}

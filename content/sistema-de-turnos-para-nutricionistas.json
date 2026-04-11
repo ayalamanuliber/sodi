@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-nutricionistas",
+  "title": "Sistema de turnos para nutricionistas: organizá consultas presenciales y online",
+  "metaTitle": "Sistema de Turnos para Nutricionistas Argentina | SODI",
+  "metaDescription": "Sistemas de turnos para nutricionistas. Opciones SaaS, gratuitas y a medida. Costos, videollamadas y cómo elegir el ideal.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "nutricionistas", "agenda nutrición", "reservas online", "consultas online"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-nutricionistas", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>La nutrición es uno de los rubros donde <strong>la atención online explotó</strong>. Hoy muchos nutricionistas atienden mitad presencial, mitad por videollamada. Eso duplica la complejidad de la agenda: dos modalidades, dos flujos, dos tipos de preparación. Si seguís manejando todo por WhatsApp, estás perdiendo tiempo y pacientes.</p><p>En esta guía te mostramos las opciones de sistemas de turnos para nutricionistas en Argentina, cuánto cuestan y cómo elegir. Si necesitás web, mirá nuestra guía de <a href=\"/blog/pagina-web-para-nutricionistas\">página web para nutricionistas</a>.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un nutricionista necesita turnos online",
+        "body": "<p>El flujo de consultas nutricionales tiene necesidades específicas:</p><ul><li><strong>Modalidad mixta:</strong> consultas presenciales para mediciones (bioimpedancia, pliegues) y virtuales para seguimiento. El sistema tiene que diferenciar ambas y enviar el link de videollamada solo para las virtuales.</li><li><strong>Seguimiento periódico:</strong> la nutrición requiere consultas cada 2-4 semanas. El sistema puede agendar automáticamente la próxima consulta de seguimiento al terminar la actual.</li><li><strong>Primera consulta más larga:</strong> la primera consulta dura 45-60 minutos (anamnesis completa), las de seguimiento 20-30 minutos. El sistema configura duraciones distintas según el tipo.</li><li><strong>Ausencias:</strong> pacientes que faltan al seguimiento pierden motivación y abandonan el tratamiento. Los recordatorios por WhatsApp <strong>mantienen la adherencia al plan</strong>.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para nutricionistas",
+        "body": "<p>Plataformas que funcionan para nutrición:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> ideal para nutricionistas individuales. Configurás tipos de consulta (primera vez, seguimiento, online, presencial), sincronizás con Google Calendar y el link de Google Meet se envía automáticamente. Gratis y profesional.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> agenda, recordatorios por WhatsApp, ficha de paciente donde podés registrar peso, mediciones y notas de cada consulta. Más completo para llevar historial.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> simple y funcional. Agenda online con link compartible y recordatorios. Para empezar rápido sin complejidad.</li></ul><p><strong>Para nutricionistas individuales, Cal.com gratis es la mejor opción</strong>. Si querés llevar historial de paciente dentro del mismo sistema, AgendaPro vale la inversión.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo tiene sentido",
+        "body": "<p>Para la mayoría de los nutricionistas, el SaaS alcanza. El desarrollo a medida conviene cuando:</p><ul><li><strong>Clínica nutricional con varios profesionales:</strong> nutricionistas con distintas especialidades (deportiva, pediátrica, clínica), cada uno con su agenda y sus tipos de consulta.</li><li><strong>Planes alimentarios integrados:</strong> un sistema donde la agenda esté conectada con la creación de planes nutricionales, listas de compras y recetas personalizadas.</li><li><strong>Seguimiento con app del paciente:</strong> que el paciente registre comidas, peso y fotos desde una app conectada a tu sistema.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS. Para un nutricionista individual, no tiene sentido. Consultá nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos</a> y también <a href=\"/blog/como-crear-sistema-de-turnos-online\">cómo crear un sistema de turnos online</a>.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp y videollamadas",
+        "body": "<p>Para nutricionistas, las integraciones clave son:</p><ul><li><strong>Link de videollamada automático:</strong> al confirmar una consulta online, el sistema envía el link de Zoom o Meet automáticamente. Cal.com lo hace nativamente con Google Meet.</li><li><strong>Recordatorios por WhatsApp:</strong> \"Te recordamos tu consulta de seguimiento mañana a las 11:00. ¿Confirmás?\" Mantiene la adherencia al tratamiento nutricional.</li><li><strong>Envío de plan alimentario:</strong> después de la consulta, enviá el plan actualizado por WhatsApp o email automáticamente.</li><li><strong>Recordatorio de seguimiento:</strong> si el paciente no agendó su próximo seguimiento en 4 semanas, enviar un mensaje: \"Hace un mes de tu última consulta. ¿Agendamos el seguimiento?\"</li></ul><p>Estas automatizaciones <strong>mejoran la retención de pacientes</strong>. El mayor problema en nutrición no es captar pacientes — es que no abandonen el tratamiento.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto",
+        "body": "<p>Para nutricionistas:</p><ul><li><strong>Recién empezando o pocos pacientes:</strong> Cal.com gratis. Profesional, con videollamada integrada, sin costo.</li><li><strong>Agenda llena (15+ pacientes/semana):</strong> AgendaPro. Los recordatorios por WhatsApp y la ficha de paciente te ahorran tiempo de administración.</li><li><strong>Clínica nutricional (3+ profesionales):</strong> AgendaPro o desarrollo a medida según complejidad.</li></ul><p>Lo más importante para nutrición: <strong>que integre videollamada y recordatorios</strong>. La mitad de tus consultas probablemente son online, y los pacientes que no reciben recordatorio abandonan más rápido.</p><p>Si necesitás orientación, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong> y te recomendamos la mejor opción.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para nutricionista?",
+        "answer": "Cal.com es gratis en su plan básico. Cloxsy: USD 10-30/mes. AgendaPro: USD 15-45/mes. Desarrollo a medida: $800.000 a $2.000.000 ARS."
+      },
+      {
+        "question": "¿Puedo diferenciar consultas presenciales de online?",
+        "answer": "Sí. Tanto Cal.com como AgendaPro permiten crear tipos de consulta distintos, con duraciones y configuraciones diferentes. Las online envían el link de videollamada automáticamente."
+      },
+      {
+        "question": "¿El sistema ayuda a que los pacientes no abandonen el tratamiento?",
+        "answer": "Sí, indirectamente. Los recordatorios de seguimiento y la facilidad de reagendar reducen el abandono. El paciente recibe un mensaje, toca un link y agenda en segundos."
+      }
+    ],
+    "ctaText": "¿Querés organizar tu agenda de consultas nutricionales? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir."
+  }
+}

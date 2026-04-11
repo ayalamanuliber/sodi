@@ -17,10 +17,11 @@ export function Footer() {
           <div>
             <h5 className="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-4">Soluciones</h5>
             <ul className="space-y-2.5 text-s-dim text-[12px]">
-              <li><a href="#soluciones" className="hover:text-white transition-colors">Consultas</a></li>
-              <li><a href="#soluciones" className="hover:text-white transition-colors">Operación</a></li>
-              <li><a href="#soluciones" className="hover:text-white transition-colors">Web</a></li>
+              <li><a href="#servicios" className="hover:text-white transition-colors">Servicios</a></li>
+              <li><a href="#metodo" className="hover:text-white transition-colors">Proceso</a></li>
               <li><a href="#casoreal" className="hover:text-white transition-colors">Caso real</a></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/diagnostico" className="hover:text-white transition-colors">Diagnóstico</Link></li>
             </ul>
           </div>
           <div>

@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-automatizacion-para-empresas",
+  "title": "Qué es automatización para empresas: guía simple para dueños de PyMEs argentinas",
+  "metaTitle": "Qué es automatización para empresas | Guía simple",
+  "metaDescription": "Automatización es hacer que tareas repetitivas se ejecuten solas: respuestas automáticas, facturas, recordatorios. Te explicamos cómo funciona sin tecnicismos.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["automatización", "productividad", "pymes", "procesos"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": ["como-automatizar-procesos-repetitivos", "como-automatizar-atencion-al-cliente", "que-es-un-bot-de-whatsapp"],
+  "content": {
+    "intro": "<p><strong>Automatización para empresas</strong> es simplemente hacer que las tareas repetitivas de tu negocio se ejecuten solas, sin que alguien las haga a mano cada vez. No hablamos de robots ni de fábricas: hablamos de que cuando un cliente te escribe por WhatsApp a las 2 de la mañana, reciba una respuesta automática. De que tus facturas se generen solas. De que tu equipo reciba un recordatorio antes de cada vencimiento.</p><p>Si sentís que vos o tu equipo pasan horas haciendo siempre lo mismo — copiar datos de un lugar a otro, mandar los mismos mensajes, armar las mismas planillas — eso es exactamente lo que se puede automatizar. Y no necesitás ser una empresa grande ni gastar millones para empezar.</p>",
+    "sections": [
+      {
+        "heading": "Qué se puede automatizar en una PyME argentina",
+        "body": "<p>La clave es identificar las tareas que se repiten todos los días, todas las semanas o todos los meses. Estas son las más comunes:</p><ul><li><strong>Respuestas automáticas en WhatsApp</strong>: cuando alguien consulta, recibe al instante un mensaje con precios, horarios o un menú de opciones. Sin que nadie toque el teléfono. Podés profundizar en <a href=\"/blog/que-es-un-bot-de-whatsapp\">qué es un bot de WhatsApp</a>.</li><li><strong>Facturación automática</strong>: que la factura se genere sola cuando se cierra una venta o se confirma un servicio.</li><li><strong>Recordatorios de vencimientos</strong>: que el sistema avise al cliente que tiene un pago pendiente, sin que vos tengas que acordarte.</li><li><strong>Carga de datos</strong>: que la información de un formulario web pase automáticamente a tu planilla o CRM, sin copiar y pegar.</li><li><strong>Envío de presupuestos</strong>: que al completar unos campos, el presupuesto se arme solo con tu formato, tu logo y se envíe por mail.</li></ul><p>Cada una de estas tareas tarda 5-15 minutos cuando la hacés a mano. Si las hacés 10 veces por día, son 2-3 horas diarias. Automatizarlas cuesta una fracción de lo que vale ese tiempo.</p>"
+      },
+      {
+        "heading": "Cómo funciona la automatización (sin tecnicismos)",
+        "body": "<p>Pensalo así: una automatización es una <strong>regla de \"cuando pasa X, hacé Y\"</strong>. Cuando llega un mail de un cliente nuevo → creá una ficha en el CRM. Cuando se confirma un turno → mandá un recordatorio 24hs antes. Cuando se emite una factura → avisale al cliente por WhatsApp.</p><p>Estas reglas se configuran en herramientas como <strong>Zapier</strong>, <strong>Make</strong> (ex Integromat) o <strong>n8n</strong>. Funcionan como un puente: conectan dos sistemas que normalmente no se hablan. Tu formulario web con tu CRM. Tu sistema de turnos con WhatsApp. Tu Excel con tu sistema de facturación.</p><p>No necesitás programar nada para las automatizaciones básicas. Las herramientas tienen interfaces visuales donde arrastrás bloques y los conectás. Si la automatización es más compleja (lógica condicional, múltiples pasos, conexión con sistemas propios), ahí sí puede requerir desarrollo.</p><p>El costo de estas herramientas va de <strong>$0 a $50 USD/mes</strong> para PyMEs. Zapier tiene plan gratuito con 100 tareas/mes. Make arranca en $9 USD/mes. Para la mayoría de los negocios chicos, alcanza de sobra.</p>"
+      },
+      {
+        "heading": "Ejemplos reales de automatización por rubro",
+        "body": "<p><strong>Restaurante</strong>: un cliente reserva por la web → recibe confirmación por WhatsApp → 2 horas antes recibe recordatorio → después de la visita recibe encuesta de satisfacción. Todo automático.</p><p><strong>Estudio contable</strong>: se acerca un vencimiento de AFIP → el sistema avisa al cliente 7 días antes por mail → si no responde en 3 días, manda un WhatsApp → si tampoco responde, crea una alerta para el contador responsable.</p><p><strong>Inmobiliaria</strong>: llega una consulta por el formulario de la web → se crea un contacto en el CRM → se asigna al agente de zona → el agente recibe una notificación con los datos del interesado y la propiedad que consultó.</p><p><strong>Clínica o consultorio</strong>: el paciente saca turno online → recibe confirmación por mail y WhatsApp → 24hs antes recibe recordatorio → si cancela, el turno se libera automáticamente y se notifica al próximo en lista de espera.</p><p>En todos los casos, <strong>la automatización no reemplaza personas</strong>. Libera a tu equipo de tareas repetitivas para que se enfoquen en lo que realmente requiere criterio humano: vender, atender, resolver problemas.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta automatizar tu empresa",
+        "body": "<p>Los costos dependen de la complejidad:</p><p><strong>Automatizaciones básicas (DIY)</strong>: $0-30 USD/mes. Configurás vos mismo con Zapier o Make. Ideal para conectar formulario web → CRM, o WhatsApp Business → planilla de consultas. Requiere 2-4 horas de configuración inicial.</p><p><strong>Automatizaciones intermedias</strong>: $200.000-$600.000 ARS en setup + $20-50 USD/mes de herramientas. Un profesional te diseña y configura los flujos. Incluye 3-5 automatizaciones conectadas entre sí. Típico para PyMEs que quieren automatizar todo el flujo de consulta → presupuesto → seguimiento → cierre.</p><p><strong>Automatizaciones avanzadas (custom)</strong>: $800.000-$2.500.000 ARS. Desarrollo a medida con integración a sistemas internos, lógica compleja y panel de control propio. Para empresas con procesos muy específicos o volúmenes altos.</p><p>El <strong>retorno de inversión</strong> suele verse en 1-3 meses. Si automatizar te ahorra 2 horas diarias de un empleado, eso son ~$200.000 ARS/mes en tiempo recuperado. Una automatización de $400.000 ARS de setup se paga sola en 2 meses.</p>"
+      },
+      {
+        "heading": "Por dónde empezar a automatizar tu negocio",
+        "body": "<p>No intentes automatizar todo de golpe. El camino que funciona:</p><ul><li><strong>Paso 1</strong>: Anotá durante una semana todas las tareas que repetís. Cada vez que copies un dato, mandes el mismo mensaje o hagas algo mecánico, anotalo.</li><li><strong>Paso 2</strong>: Elegí la tarea más repetitiva y más simple. Generalmente es la respuesta automática en WhatsApp o la carga de datos de formulario a planilla.</li><li><strong>Paso 3</strong>: Configurala con una herramienta gratuita (Zapier Free o Make Free). Si no te animás, pedile a alguien que te ayude con esa primera.</li><li><strong>Paso 4</strong>: Cuando veas que funciona y te ahorra tiempo, sumá la segunda automatización. Después la tercera.</li></ul><p>En 30-60 días podés tener 3-5 automatizaciones funcionando que te liberan horas semanales. Eso sin gastar más de $30 USD/mes.</p><p>Si querés un plan completo de qué automatizar y en qué orden, en SODI hacemos un diagnóstico de tu operación y te diseñamos el roadmap de automatización. No tiene sentido automatizar algo que primero necesita ordenarse.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Automatizar es lo mismo que usar inteligencia artificial?",
+        "answer": "No. La automatización ejecuta reglas predefinidas ('cuando pasa X, hacé Y'). La inteligencia artificial toma decisiones basadas en datos. Podés automatizar sin IA, y muchas automatizaciones efectivas son reglas simples sin nada de inteligencia artificial."
+      },
+      {
+        "question": "¿Necesito saber programar para automatizar mi empresa?",
+        "answer": "No para las automatizaciones básicas. Herramientas como Zapier y Make tienen interfaces visuales donde conectás servicios sin código. Para automatizaciones complejas con lógica avanzada o integración con sistemas propios, ahí sí puede requerir desarrollo."
+      },
+      {
+        "question": "¿La automatización reemplaza empleados?",
+        "answer": "No reemplaza personas, reemplaza tareas repetitivas. Tu equipo sigue siendo necesario para vender, atender problemas complejos y tomar decisiones. La automatización les libera tiempo de las tareas mecánicas para que se enfoquen en lo que genera valor."
+      },
+      {
+        "question": "¿Cuánto se tarda en automatizar un proceso?",
+        "answer": "Una automatización simple (respuesta automática, carga de formulario a planilla) se configura en 1-2 horas. Un flujo completo de ventas (consulta → presupuesto → seguimiento → cierre) tarda 1-2 semanas con un profesional. Proyectos custom complejos: 4-8 semanas."
+      },
+      {
+        "question": "¿Qué es lo primero que debería automatizar en mi empresa?",
+        "answer": "Las respuestas a consultas frecuentes por WhatsApp y la carga de datos de formularios web. Son las tareas más repetitivas, más fáciles de automatizar y con retorno inmediato. Después sumás recordatorios, facturación y seguimientos."
+      }
+    ],
+    "ctaText": "¿Querés saber qué procesos de tu empresa se pueden automatizar y cuánto tiempo te ahorrás? Hacé el diagnóstico gratuito de SODI."
+  }
+}

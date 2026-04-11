@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-odontologos",
+  "title": "Sistema de turnos para odontólogos: organizá tu agenda y reducí ausencias",
+  "metaTitle": "Sistema de Turnos para Odontólogos Argentina | SODI",
+  "metaDescription": "Sistemas de turnos para odontólogos y clínicas dentales. SaaS, gratuitos y a medida. Costos, WhatsApp y cómo elegir.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "odontólogos", "agenda dental", "clínica dental", "reservas online"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-odontologos", "redes-sociales-para-odontologos", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>En odontología, los turnos son <strong>el corazón del negocio</strong>. Cada sillón vacío es plata perdida, y cada paciente que no puede agendar es un paciente que se fue a otro dentista. Si todavía manejás turnos por teléfono y libreta, estás perdiendo eficiencia y pacientes todos los días.</p><p>En esta guía te mostramos las opciones de sistemas de turnos para odontólogos en Argentina, cuánto cuestan y cómo elegir el que mejor se adapta a tu clínica. Si además necesitás <a href=\"/blog/pagina-web-para-odontologos\">página web</a>, eso complementa todo el sistema.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un odontólogo necesita turnos online",
+        "body": "<p>La odontología tiene un flujo de turnos particular que un sistema online maneja perfectamente:</p><ul><li><strong>Tratamientos multi-sesión:</strong> un tratamiento de conducto son 2-3 sesiones, una ortodoncia es un turno mensual durante años, un implante requiere varias etapas. El sistema agenda la secuencia completa de una vez.</li><li><strong>Sillones como recurso:</strong> si tenés varios dentistas compartiendo sillones, el sistema evita conflictos de agenda y optimiza el uso de cada sillón.</li><li><strong>Ausencias costosas:</strong> un turno de 45 minutos que no se presenta es casi una hora de sillón vacío. Los recordatorios por WhatsApp <strong>reducen las ausencias entre un 40% y 60%</strong>.</li><li><strong>Urgencias vs. programados:</strong> necesitás dejar huecos para urgencias sin que eso desordene la agenda programada. Un buen sistema te permite configurar franjas de urgencia.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para clínicas dentales",
+        "body": "<p>Plataformas listas para usar sin desarrollo:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> agenda por profesional, por sillón, catálogo de tratamientos con duración estimada, recordatorios por WhatsApp, ficha odontológica básica, historial de tratamientos. Muy usado en clínicas dentales de Argentina.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple. Agenda online, link de reserva, recordatorios. Ideal para consultorios individuales que no necesitan ficha clínica integrada.</li><li><strong>Cal.com (gratis el plan básico):</strong> configurable, open source. Permite crear tipos de turno (control, limpieza, evaluación inicial, urgencia) con duraciones distintas. No tiene ficha odontológica pero es gratis y funcional.</li></ul><p>Para clínicas con <strong>2+ sillones y varios profesionales</strong>, AgendaPro es la opción más completa. Para un odontólogo individual, Cal.com gratis es un excelente punto de partida.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo vale la pena",
+        "body": "<p>Un sistema a medida para odontología tiene sentido cuando:</p><ul><li><strong>Clínica con varias especialidades:</strong> ortodoncia, implantología, endodoncia, estética dental. Cada especialidad tiene su flujo de turnos, equipamiento y profesionales.</li><li><strong>Múltiples sedes:</strong> agenda centralizada, pacientes que se atienden en distintas sucursales, reportes por sede.</li><li><strong>Integración con odontograma digital:</strong> si querés que la ficha del paciente tenga odontograma interactivo vinculado al historial de tratamientos.</li><li><strong>Presupuestos y facturación:</strong> que el sistema genere el presupuesto del tratamiento al agendar y facture automáticamente al completar cada sesión.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS. Para un consultorio individual, invertir en SaaS es más inteligente. Más información en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos</a>.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp: el factor decisivo",
+        "body": "<p>En odontología, la integración con WhatsApp es <strong>crítica</strong> por dos razones:</p><ul><li><strong>Recordatorios que reducen ausencias:</strong> \"Hola Juan, te recordamos tu turno de mañana a las 10:00 con la Dra. López para tu control de ortodoncia. ¿Confirmás?\"</li><li><strong>Seguimiento post-tratamiento:</strong> mensaje automático al día siguiente de una extracción: \"¿Cómo estás hoy? Recordá no enjuagarte las primeras 24 horas.\" Diferencia tu atención.</li><li><strong>Agenda de próximos turnos:</strong> al terminar una sesión, enviar por WhatsApp la fecha del próximo turno con opción de agregar al calendario.</li><li><strong>Lista de espera inteligente:</strong> si alguien cancela un turno de urgencia, notificar automáticamente a pacientes en espera.</li></ul><p>Los consultorios que implementan <strong>recordatorios por WhatsApp reportan hasta un 50% menos de ausencias</strong>. Es la funcionalidad con mayor retorno de inversión.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema ideal para tu clínica",
+        "body": "<p>La decisión depende de tu operación:</p><ul><li><strong>Consultorio individual (1 sillón):</strong> Cal.com gratis o Cloxsy. Simple, económico, funcional.</li><li><strong>Clínica (2-4 sillones, 2-5 profesionales):</strong> AgendaPro. Gestión de recursos, ficha de paciente y recordatorios profesionales.</li><li><strong>Centro odontológico o cadena:</strong> desarrollo a medida. La inversión se justifica por escala y necesidades específicas.</li></ul><p>Consejo: <strong>priorizá la función de recordatorios por WhatsApp</strong>. Si el sistema que elegís no la tiene, vas a tener que resolverlo por otro lado y la integración se complica.</p><p>Si no sabés qué opción te conviene, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong> y te recomendamos el sistema ideal para tu clínica.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para odontólogo?",
+        "answer": "SaaS: entre USD 10 y USD 45/mes. Cal.com tiene plan gratuito. Desarrollo a medida: entre $800.000 y $2.000.000 ARS según funcionalidades."
+      },
+      {
+        "question": "¿Puedo gestionar turnos de urgencia con estos sistemas?",
+        "answer": "Sí. Podés configurar franjas horarias exclusivas para urgencias o dejar huecos en la agenda regular para atender casos no programados."
+      },
+      {
+        "question": "¿El sistema puede agendar tratamientos de varias sesiones?",
+        "answer": "Sí. AgendaPro y desarrollos a medida permiten agendar la secuencia completa de un tratamiento (por ejemplo, 3 sesiones de endodoncia) de una sola vez."
+      }
+    ],
+    "ctaText": "¿Querés organizar la agenda de tu clínica dental? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te recomendamos la mejor solución."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "cuanto-cuesta-software-a-medida-argentina",
+  "title": "Cuánto cuesta el software a medida en Argentina en 2026: tarifas por hora, proyectos y comparación con SaaS",
+  "metaTitle": "Cuánto cuesta software a medida en Argentina 2026",
+  "metaDescription": "Desarrollar software a medida en Argentina cuesta $20-60 USD/hora. Un proyecto simple sale $1.500.000 ARS, uno complejo supera los $4.000.000 ARS.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["software a medida", "desarrollo software", "programador argentina", "software custom"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["software-a-medida-vs-estandar", "que-es-desarrollo-web-a-medida", "contratar-programador-vs-agencia", "como-ordenar-operacion-interna-pyme"],
+  "content": {
+    "intro": "<p>El <strong>software a medida en Argentina</strong> cuesta entre $20 y $60 USD por hora de desarrollo en 2026. Un proyecto simple (app interna, panel de administración) sale alrededor de $1.500.000 ARS, uno de complejidad media ronda los $2.500.000 ARS, y un sistema complejo puede superar los $4.000.000 ARS. Es una inversión seria que solo tiene sentido si ninguna solución estándar resuelve tu problema.</p><p>Argentina tiene una de las mejores relaciones calidad-precio en desarrollo de software de Latinoamérica. Los desarrolladores argentinos cobran 40-60% menos que los estadounidenses con calidad comparable. Acá te explicamos cuánto sale realmente un proyecto según su complejidad y cuándo conviene construir vs comprar.</p>",
+    "sections": [
+      {
+        "heading": "Cuánto cobra un programador en Argentina por hora en 2026",
+        "body": "<p>Un <strong>desarrollador junior</strong> (menos de 2 años de experiencia) cobra entre $20 y $30 USD/hora. Maneja tecnologías básicas (HTML, CSS, JavaScript, PHP, WordPress) y puede construir sitios web, paneles simples y automatizaciones básicas. No es la opción para proyectos complejos.</p><p>Un <strong>desarrollador semi-senior</strong> (2-5 años) cobra entre $30 y $45 USD/hora. Trabaja con frameworks modernos (React, Next.js, Node.js, Python/Django, Flutter) y puede diseñar arquitecturas básicas, trabajar con APIs y bases de datos, y entregar aplicaciones funcionales.</p><p>Un <strong>desarrollador senior</strong> (5+ años) cobra entre $45 y $60 USD/hora. Diseña arquitectura de sistemas, toma decisiones técnicas estratégicas, maneja DevOps, seguridad y escalabilidad. Es el que necesitás para proyectos críticos donde un error de arquitectura te cuesta meses de retrabajo.</p><p>Estas tarifas son para <strong>freelancers o estudios chicos</strong>. Las software factories grandes (Globant, Mercado Libre level) cobran $80-120 USD/hora, pero apuntan a clientes corporativos con presupuestos de $50.000+ USD.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un proyecto de software según su complejidad",
+        "body": "<p><strong>Proyecto simple ($1.000.000 - $1.800.000 ARS):</strong> panel de administración interno, app CRUD (crear, leer, actualizar, eliminar datos), landing page con lógica de negocio, integración entre 2 sistemas vía API, bot o automatización específica. Plazo: 4-8 semanas. Ejemplo: un panel para que tu equipo cargue y consulte datos de clientes sin usar Excel.</p><p><strong>Proyecto medio ($2.000.000 - $3.500.000 ARS):</strong> aplicación web completa con autenticación, roles de usuario, dashboard de métricas, integraciones múltiples (pasarelas de pago, APIs de terceros, email), app mobile básica. Plazo: 8-16 semanas. Ejemplo: un sistema de turnos online con panel de gestión, notificaciones automáticas y pagos integrados.</p><p><strong>Proyecto complejo ($4.000.000 - $8.000.000+ ARS):</strong> plataforma con múltiples tipos de usuario, procesamiento de datos en tiempo real, inteligencia artificial o machine learning, marketplace, sistema de logística. Plazo: 16-32 semanas. Ejemplo: una plataforma que conecta proveedores con compradores, gestiona pagos, logística y calificaciones.</p><p>Estos rangos incluyen diseño UX/UI, desarrollo, testing y deployment. No incluyen mantenimiento post-lanzamiento ni hosting en producción.</p>"
+      },
+      {
+        "heading": "Software a medida vs comprar un SaaS: cuándo conviene cada uno",
+        "body": "<p>Comprá un <strong>SaaS</strong> si tu problema es genérico: facturación (Xubio), CRM (HubSpot), e-commerce (Tiendanube), gestión de proyectos (Monday), email marketing (Mailchimp). Miles de empresas tienen el mismo problema y alguien ya lo resolvió mejor de lo que vos podrías.</p><p>Desarrollá <strong>a medida</strong> si: estás pagando más de $500 USD/mes en SaaS combinados que no se integran bien entre sí, tu proceso de negocio es tu ventaja competitiva y no querés adaptarlo a un software genérico, o simplemente no existe un SaaS que resuelva tu problema específico.</p><p>El cálculo es simple: si un SaaS te cuesta $100 USD/mes y un desarrollo custom equivalente cuesta $2.500.000 ARS ($2.000 USD aprox.), el <strong>punto de equilibrio</strong> es de 20 meses. Pero el custom requiere mantenimiento ($100-300 USD/mes), así que en realidad el equilibrio está más lejos. Solo conviene si el SaaS no cubre lo que necesitás.</p><p>La opción que pocos consideran: <strong>SaaS + automatización</strong>. En vez de desarrollar un sistema custom entero, comprás SaaS estándar y desarrollás las integraciones y automatizaciones que los conectan. Costo: $500.000-$1.500.000 ARS por las integraciones, más los SaaS mensuales. Es lo que recomendamos en SODI para el 70% de los casos.</p>"
+      },
+      {
+        "heading": "Contratar un freelancer vs una software factory vs una agencia",
+        "body": "<p>Un <strong>freelancer</strong> es ideal para proyectos de hasta $2.000.000 ARS. Costo más bajo, trato directo, flexibilidad. Riesgo: si desaparece, te quedás con código que nadie entiende. Mitigá pidiendo código documentado, acceso al repositorio desde el día uno, y pagos parciales por entregables.</p><p>Una <strong>software factory chica</strong> (5-15 personas) es el sweet spot para proyectos de $2.000.000-$6.000.000 ARS. Tenés un equipo dedicado (PM, diseñador, 2-3 devs, QA), procesos definidos, y continuidad del proyecto aunque un desarrollador se vaya. Cobran 30-50% más que un freelancer pero te dan previsibilidad.</p><p>Una <strong>software factory grande</strong> (+50 personas) conviene solo para proyectos de $8.000.000+ ARS o cuando necesitás certificaciones (ISO, seguridad) o un SLA formal. El overhead administrativo encarece todo un 40-60% respecto a una factory chica.</p><p>En todos los casos, exigí: <strong>repositorio de código a tu nombre</strong> (GitHub/GitLab), documentación técnica, testing automatizado, y un plan de transferencia de conocimiento si la relación termina. Tu código es tu activo: no dejes que viva solo en la laptop de alguien.</p>"
+      },
+      {
+        "heading": "Errores que encarecen un proyecto de software a medida",
+        "body": "<p>El error número uno: <strong>no definir el alcance antes de empezar</strong>. \"Quiero una app como Mercado Libre pero más simple\" no es un alcance. Necesitás un documento de requerimientos con funcionalidades específicas, mockups de cada pantalla y flujos de usuario detallados. Sin esto, el proyecto va a costar 2-3 veces más por cambios sobre la marcha.</p><p>El segundo error: <strong>agregar funcionalidades durante el desarrollo</strong>. Cada \"se me ocurrió que estaría bueno tener...\" suma semanas y cientos de miles de pesos. Definí un MVP (producto mínimo viable) y lanzá con eso. Las funcionalidades adicionales van en versiones futuras.</p><p>El tercer error: <strong>elegir por precio</strong>. Un desarrollador de $20 USD/hora que tarda 400 horas te sale más caro que uno de $45 USD/hora que tarda 150 horas. La experiencia se paga en velocidad y en decisiones de arquitectura que evitan retrabajo.</p><p>El cuarto error: <strong>no presupuestar mantenimiento</strong>. Todo software necesita actualizaciones de seguridad, corrección de bugs, y ajustes. Presupuestá un 15-20% del costo de desarrollo como <a href=\"/blog/como-ordenar-operacion-interna-pyme\">mantenimiento anual</a>. Si desarrollaste por $3.000.000, el mantenimiento es $450.000-$600.000/año. Es inevitable.</p>"
+      },
+      {
+        "heading": "Cuánto tarda un proyecto de software a medida",
+        "body": "<p>Los timelines reales (no los que te prometen en la propuesta) son: proyecto simple 6-10 semanas, proyecto medio 12-20 semanas, proyecto complejo 24-40 semanas. Multiplicá el plazo que te den por <strong>1.3-1.5x</strong> para tener una estimación realista.</p><p>Las causas más comunes de demora son del lado del <strong>cliente</strong>, no del desarrollador: feedback tardío (\"no lo pude revisar esta semana\"), cambios de requerimientos, contenido que no llega, y aprobaciones que se atrasan. Asigná un responsable interno que tenga autoridad para aprobar y dedicá al menos 3-5 horas semanales al seguimiento.</p><p>El <strong>MVP</strong> (producto mínimo viable) debería estar listo en el 60% del plazo total. Si a las 12 semanas de un proyecto de 20 no tenés nada usable, hay un problema de gestión que va a empeorar.</p><p>Una buena práctica es usar <strong>sprints de 2 semanas</strong> con entregables visibles. Cada 2 semanas deberías ver algo nuevo funcionando. Si pasan 4 semanas sin nada visible, pedí explicaciones. El silencio en un proyecto de software es mala señal.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta desarrollar software a medida en Argentina?",
+        "answer": "Un proyecto simple cuesta $1.000.000-$1.800.000 ARS, uno de complejidad media $2.000.000-$3.500.000 ARS, y uno complejo $4.000.000-$8.000.000+ ARS. La tarifa por hora de los desarrolladores argentinos va de $20 a $60 USD según su experiencia."
+      },
+      {
+        "question": "¿Cuánto tarda un proyecto de software a medida?",
+        "answer": "Un proyecto simple tarda 6-10 semanas, uno medio 12-20 semanas, y uno complejo 24-40 semanas. Sumá un 30-50% adicional al plazo que te prometan para tener una estimación realista. Las demoras más comunes son por feedback lento del cliente, no del desarrollador."
+      },
+      {
+        "question": "¿Conviene contratar un freelancer o una software factory?",
+        "answer": "Freelancer para proyectos de hasta $2.000.000 ARS: más económico pero más riesgo. Software factory chica (5-15 personas) para proyectos de $2M-$6M: mejor relación calidad-precio con equipo dedicado. Factory grande solo para proyectos de $8M+ o que requieran certificaciones."
+      },
+      {
+        "question": "¿Es mejor desarrollar software propio o usar un SaaS?",
+        "answer": "Usá SaaS si tu problema es genérico (facturación, CRM, e-commerce). Desarrollá a medida solo si: no existe SaaS que resuelva tu problema, tu proceso es tu ventaja competitiva, o estás pagando más de $500 USD/mes en SaaS que no se integran bien. Para el 70% de las PyMEs, SaaS + integraciones custom es la mejor opción."
+      },
+      {
+        "question": "¿Cuánto cuesta mantener software a medida después de lanzar?",
+        "answer": "El mantenimiento anual cuesta entre el 15% y 20% del costo de desarrollo. Un software de $3.000.000 ARS necesita $450.000-$600.000/año en actualizaciones de seguridad, corrección de bugs y ajustes. El hosting en la nube cuesta $20-200 USD/mes adicionales según la escala."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás software custom o te alcanza con un SaaS? Hacé el diagnóstico gratuito de SODI y te decimos qué opción tiene más sentido para tu operación."
+  }
+}

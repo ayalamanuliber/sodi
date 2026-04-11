@@ -1,0 +1,61 @@
+{
+  "slug": "como-dejar-de-depender-de-excel",
+  "title": "Cómo dejar de depender de Excel: señales, alternativas y plan de migración para PyMEs",
+  "metaTitle": "Cómo dejar de depender de Excel en tu PyME",
+  "metaDescription": "Señales de que Excel ya no alcanza, qué sistema elegir y cómo migrar sin perder datos. Guía práctica con costos reales para PyMEs argentinas.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["excel", "sistema de gestión", "erp pyme", "gestión empresarial"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["excel-vs-sistema-de-gestion", "cuanto-cuesta-sistema-de-gestion-pymes", "como-ordenar-operacion-interna-pyme"],
+  "content": {
+    "intro": "<p>Excel es una herramienta increíble... hasta que deja de serlo. <strong>El 75% de las PyMEs argentinas usa Excel como sistema de gestión</strong>, pero a medida que el negocio crece, las planillas se vuelven inmanejables: fórmulas que se rompen, datos duplicados, archivos que nadie sabe cuál es el actualizado, y un dueño que es el único que entiende cómo funciona \"la planilla\".</p><p>En esta guía te ayudamos a diagnosticar si ya es momento de migrar, qué alternativas existen (con precios reales) y cómo hacer la transición sin perder datos ni la cordura.</p>",
+    "sections": [
+      {
+        "heading": "7 señales de que Excel ya no alcanza para tu negocio",
+        "body": "<p>Si te identificás con 3 o más de estas señales, es momento de considerar una migración:</p><ul><li><strong>Tenés más de 5 planillas interconectadas</strong> que dependen unas de otras con VLOOKUPs y referencias cruzadas. Si se rompe una fórmula, se rompe todo.</li><li><strong>Más de 2 personas necesitan editar el mismo archivo.</strong> Google Sheets ayuda con la colaboración, pero no resuelve el problema de fondo: no es un sistema de gestión.</li><li><strong>Los datos no coinciden:</strong> el stock de una planilla dice una cosa, la de ventas otra, y la realidad es distinta a las dos.</li><li><strong>Perdiste datos</strong> porque alguien borró algo sin querer, guardó encima de otro archivo, o la planilla se corrompió.</li><li><strong>Pasás más de 2 horas semanales</strong> armando reportes manualmente desde tus planillas.</li><li><strong>No podés acceder a tu información</strong> desde el celular o fuera de la oficina de forma confiable.</li><li><strong>Solo vos entendés las planillas.</strong> Si te tomás vacaciones o te enfermás, nadie puede operar.</li></ul><p>Excel es genial para análisis puntuales y proyectos chicos. Para gestión diaria de un negocio en crecimiento, es un cuello de botella.</p>"
+      },
+      {
+        "heading": "Alternativas a Excel según qué necesitás gestionar",
+        "body": "<p>No existe un \"reemplazo de Excel\" universal. Depende de qué estás usando Excel para hacer:</p><ul><li><strong>Gestión de clientes → CRM:</strong> HubSpot Free (gratis, hasta 1.000 contactos), Pipedrive (desde USD 14/mes), Zoho CRM (desde USD 14/mes). Pasás de una planilla de clientes a un sistema que te recuerda seguimientos, registra interacciones y mide conversión.</li><li><strong>Stock e inventario → Sistema de inventario:</strong> Colppy ($15.000/mes), Odoo Inventario (gratis con setup), o apps especializadas como StockBase. Control de stock en tiempo real, alertas de stock bajo, movimientos trazables.</li><li><strong>Facturación → Facturador electrónico:</strong> Colppy, Xubio ($12.000/mes), Facturante. Emisión automática de facturas AFIP, cuentas corrientes, reportes fiscales.</li><li><strong>Gestión de proyectos/tareas → Project management:</strong> Trello (gratis), Asana (gratis hasta 15 usuarios), Monday.com (desde USD 9/usuario/mes). Tableros visuales, asignación de tareas, deadlines.</li><li><strong>Gestión integral (ERP) → Sistema completo:</strong> Odoo Community (gratis + setup), Colppy ($25.000/mes plan completo), o desarrollo a medida (desde $800.000).</li></ul><p>La clave: <strong>no intentes reemplazar todo de golpe</strong>. Elegí el área que más dolor te genera (probablemente stock o clientes) y migrá esa primero. El resto viene después.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto para tu PyME",
+        "body": "<p>Antes de elegir, respondé estas preguntas:</p><ul><li><strong>¿Cuántas personas van a usar el sistema?</strong> Si son 1-3, un SaaS simple alcanza. Si son 10+, necesitás algo escalable.</li><li><strong>¿Qué presupuesto mensual podés sostener?</strong> Hay opciones desde $0 (HubSpot Free, Odoo Community) hasta $50.000+/mes. Lo barato sale caro si no hace lo que necesitás, y lo caro no se justifica si sos un equipo de 3.</li><li><strong>¿Necesitás integración con AFIP?</strong> Si facturás, necesitás un sistema que emita facturas electrónicas. Esto descarta herramientas internacionales que no están adaptadas al mercado argentino.</li><li><strong>¿Qué tan complejo es tu negocio?</strong> Una consultora con 50 clientes tiene necesidades distintas a una ferretería con 3.000 productos.</li></ul><p>Recomendación por perfil:</p><ul><li><strong>Negocio de servicios chico (1-5 personas):</strong> HubSpot Free + Xubio = $12.000/mes total</li><li><strong>Comercio con stock (1-10 personas):</strong> Colppy plan completo = $25.000/mes</li><li><strong>Empresa mediana (10+ personas):</strong> Odoo o desarrollo a medida. Inversión: $800.000+ en setup.</li></ul><p>Leé nuestra comparativa detallada de <a href=\"/blog/excel-vs-sistema-de-gestion\">Excel vs sistema de gestión</a> para más detalles por rubro.</p>"
+      },
+      {
+        "heading": "Plan de migración: de Excel a un sistema sin perder datos",
+        "body": "<p>La migración es el momento que más miedo da, pero si la hacés bien, es un proceso ordenado de 2-4 semanas:</p><ul><li><strong>Semana 1 - Limpieza de datos:</strong> antes de migrar, limpiar. Eliminá duplicados, corregí errores, unificá formatos. Un dato sucio en Excel es un dato sucio en cualquier sistema. Esta es la parte más tediosa pero más importante.</li><li><strong>Semana 2 - Setup del sistema nuevo:</strong> creá tu cuenta, configurá las categorías/campos que necesitás, y hacé una importación de prueba con una muestra chica de datos. Verificá que todo se importó correctamente.</li><li><strong>Semana 3 - Migración completa + pruebas:</strong> importá todos los datos. Corré el sistema nuevo en paralelo con Excel durante una semana. Compará resultados. Ajustá lo que no coincida.</li><li><strong>Semana 4 - Capacitación y switch:</strong> capacitá a tu equipo en el nuevo sistema. Definí una fecha de corte: a partir del día X, todo se carga en el sistema nuevo. Excel queda como archivo histórico, no como herramienta activa.</li></ul><p>Tip: <strong>no borres tus planillas de Excel</strong> durante los primeros 3 meses post-migración. Son tu backup por si algo sale mal. Pero no las actualices más: si la gente sigue usando Excel \"por las dudas\", la migración nunca se completa.</p>"
+      },
+      {
+        "heading": "Errores comunes en la migración desde Excel",
+        "body": "<p>Los errores que más vemos en PyMEs que migran:</p><ul><li><strong>Elegir el sistema más completo en vez del más adecuado:</strong> un ERP enterprise para una empresa de 5 personas es un cañón para matar moscas. Pagás funcionalidades que nunca usás y la complejidad frena la adopción.</li><li><strong>No capacitar al equipo:</strong> el dueño entiende el sistema nuevo, pero no le explica al equipo. Resultado: el equipo sigue usando Excel \"porque ya sabe cómo funciona\".</li><li><strong>Migrar datos sucios:</strong> si tu Excel tiene 500 contactos de los cuales 200 están duplicados y 100 desactualizados, importar todo eso al sistema nuevo es ensuciar una herramienta limpia.</li><li><strong>Querer personalizar todo desde el día 1:</strong> usá el sistema con la configuración estándar durante 1-2 meses. Después, cuando entiendas cómo funciona, personalizá. Personalizar sin entender genera más problemas que soluciones.</li><li><strong>No asignar un responsable:</strong> alguien tiene que ser el dueño del sistema, el que lo mantiene actualizado y capacita al resto. Si nadie es responsable, en 3 meses están de vuelta en Excel.</li></ul><p>La migración no es un proyecto de IT: es un proyecto de <strong>cambio de hábitos</strong>. La tecnología es lo más fácil; lo difícil es que la gente cambie su forma de trabajar.</p><p>Si necesitás orientación para elegir el sistema correcto para tu negocio, <a href=\"/diagnostico\">hacé nuestro diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo es momento de dejar Excel?",
+        "answer": "Cuando tenés más de 5 planillas interconectadas, más de 2 personas editando datos, errores frecuentes por fórmulas rotas, o pasás más de 2 horas semanales armando reportes. Si solo vos entendés las planillas, es urgente migrar."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de gestión para PyMEs?",
+        "answer": "Hay opciones desde $0 (HubSpot Free, Odoo Community, Trello) hasta $25.000-$50.000/mes (Colppy, Pipedrive, Monday). El rango más común para PyMEs argentinas es $12.000-$30.000/mes incluyendo facturación, CRM o gestión de stock."
+      },
+      {
+        "question": "¿Puedo migrar de Excel sin perder datos?",
+        "answer": "Sí, la mayoría de los sistemas permiten importar datos desde Excel/CSV. La clave es limpiar los datos antes de importar (eliminar duplicados, corregir errores, unificar formatos). Siempre hacé una prueba con una muestra chica antes de migrar todo."
+      },
+      {
+        "question": "¿Google Sheets es mejor que Excel para gestionar mi negocio?",
+        "answer": "Google Sheets mejora la colaboración (múltiples personas editando en tiempo real, acceso desde cualquier dispositivo) pero sigue siendo una planilla. Si tu problema es que necesitás un sistema de gestión, Google Sheets no lo resuelve."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva migrar de Excel a un sistema?",
+        "answer": "La migración típica tarda 2-4 semanas: 1 semana de limpieza de datos, 1 semana de setup, 1 semana de pruebas en paralelo, y 1 semana de capacitación. Para empresas más grandes o con datos complejos, puede llevar 1-2 meses."
+      }
+    ],
+    "ctaText": "¿No sabés qué sistema te conviene para reemplazar Excel? Hacé nuestro diagnóstico gratuito y te recomendamos la opción ideal para tu negocio."
+  }
+}

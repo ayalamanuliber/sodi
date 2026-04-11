@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-agro",
+  "title": "Sistema de Gestión para el Agro en Argentina",
+  "metaTitle": "Sistema de Gestión para el Agro Argentina 2026",
+  "metaDescription": "Gestioná lotes, campañas, insumos, maquinaria y costos de tu campo con un sistema de gestión agropecuario. Comparamos opciones SaaS y a medida.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "agro", "campo", "gestión agropecuaria"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "software-a-medida-vs-estandar", "cuanto-cuesta-software-a-medida-argentina"],
+  "content": {
+    "intro": "<p>El campo argentino produce a nivel mundial, pero muchos productores y empresas agropecuarias todavía gestionan sus campañas con anotaciones en cuadernos, Excel compartidos por WhatsApp y la memoria del ingeniero agrónomo. <strong>Cuando manejás 500, 1.000 o 5.000 hectáreas con múltiples cultivos, esa forma de trabajar no escala.</strong></p><p>Un <strong>sistema de gestión para el agro</strong> centraliza la información de lotes, campañas, aplicaciones de insumos, maquinaria, personal y costos. En esta guía te contamos qué necesitás según tu escala y tipo de producción.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas de gestión más comunes en el agro argentino",
+        "body": "<p>El agro tiene una complejidad particular: operaciones distribuidas geográficamente, estacionalidad marcada y dependencia del clima. Los dolores más frecuentes:</p><ul><li><strong>Costos de campaña imprecisos:</strong> ¿Cuánto te costó realmente producir esa soja? Entre semillas, agroquímicos, labores, cosecha, flete y comercialización, muchos productores no tienen el número real.</li><li><strong>Trazabilidad de aplicaciones:</strong> ¿Qué herbicida se aplicó en qué lote, cuándo y en qué dosis? Si no lo registrás, no podés analizar resultados ni cumplir normativas.</li><li><strong>Maquinaria sin control:</strong> Horas de uso, service, reparaciones, costos de mantenimiento. Si no medís, no sabés si conviene tener máquina propia o contratar.</li><li><strong>Información dispersa:</strong> El ingeniero tiene los datos de siembra, el encargado tiene los de labores, el contador tiene los costos, y nadie tiene el panorama completo.</li><li><strong>Decisiones sin datos:</strong> ¿Qué lote rindió mejor? ¿Qué variedad funcionó? ¿Qué insumo dio mejor resultado? Sin datos históricos organizados, cada campaña arrancás de cero.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades de un sistema de gestión agropecuario",
+        "body": "<p>Un sistema para agro debe cubrir:</p><ul><li><strong>Gestión de campos y lotes:</strong> Mapa de lotes con superficie, tipo de suelo, historial de cultivos, análisis de suelo.</li><li><strong>Planificación de campaña:</strong> Plan de siembra por lote, estimación de insumos necesarios, presupuesto de campaña.</li><li><strong>Registro de labores:</strong> Siembra, aplicaciones (fitosanitarios, fertilizantes), labores mecánicas, cosecha. Con fecha, dosis, producto, ejecutor.</li><li><strong>Gestión de insumos:</strong> Stock de semillas, agroquímicos, fertilizantes. Compras, consumos, saldos.</li><li><strong>Maquinaria y equipos:</strong> Horas de uso, mantenimiento programado, costos de reparación, rendimiento (hectáreas/hora).</li><li><strong>Costeo por lote/campaña:</strong> Todos los costos asignados al lote: insumos, labores, cosecha, flete, impuestos. Comparación entre campañas.</li><li><strong>Comercialización:</strong> Contratos de venta, entregas a acopio, liquidaciones, seguimiento de precios.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para el agro",
+        "body": "<p>El agro argentino tiene un ecosistema de software maduro:</p><p><strong>SaaS especializados:</strong> Auravant, Agrobit, Campo365, GeoAgro. Son plataformas pensadas 100% para el campo, con mapeo de lotes, registro de labores y costeo. Muchos incluyen imágenes satelitales y prescripción variable.</p><p><strong>ERP agro:</strong> Soluciones más completas que integran la gestión productiva con contabilidad, RRHH y comercialización. Para empresas agropecuarias grandes con múltiples establecimientos.</p><p><strong>Sistema a medida:</strong> Para empresas con modelos operativos específicos (integración agrícola-ganadera, producción orgánica con trazabilidad especial, pool de siembra con múltiples inversores). Un <a href=\"/blog/software-a-medida-vs-estandar\">desarrollo propio</a> te permite modelar tu operación exacta.</p><p>Para un productor con 500-2.000 hectáreas, un SaaS agro es generalmente la mejor opción. Para empresas más grandes o con modelos complejos, vale la pena evaluar algo a medida.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para agro en 2026",
+        "body": "<p>Los rangos de precio:</p><ul><li><strong>SaaS básico:</strong> $20.000 - $60.000 ARS/mes (registro de labores, costeo básico, hasta 2.000 ha)</li><li><strong>SaaS profesional:</strong> $60.000 - $200.000 ARS/mes (imágenes satelitales, prescripción variable, múltiples establecimientos)</li><li><strong>ERP agro:</strong> $150.000 - $500.000 ARS/mes (gestión integral: producción, contabilidad, RRHH, comercialización)</li><li><strong>Sistema a medida:</strong> $4.000.000 - $12.000.000 ARS de desarrollo</li></ul><p>El retorno en agro es claro: <strong>mejor costeo de campaña</strong> (sabés exactamente cuánto gastaste y cuánto ganaste por lote), <strong>mejor uso de insumos</strong> (no aplicás de más ni de menos) y <strong>mejores decisiones de rotación</strong> basadas en datos históricos.</p>"
+      },
+      {
+        "heading": "Implementación en una empresa agropecuaria",
+        "body": "<p>La implementación en agro tiene la particularidad del ciclo de campaña:</p><ul><li><strong>Arrancá antes de la campaña:</strong> El mejor momento para implementar es entre campañas. Cargá los datos históricos y arrancá la nueva campaña ya con el sistema.</li><li><strong>Cargá la estructura de campos:</strong> Establecimientos, lotes, superficies, tipos de suelo. Si tenés mapas en GIS, muchos sistemas los importan.</li><li><strong>Definí el plan de campaña:</strong> Qué se siembra en cada lote, qué insumos se van a usar, cuál es el presupuesto estimado.</li><li><strong>Involucrar al equipo de campo:</strong> Encargados, ingenieros agrónomos, contratistas. Todos tienen que registrar la información de su área.</li><li><strong>Revisión al cierre de campaña:</strong> Comparar presupuesto vs. real, analizar rendimientos por lote, identificar oportunidades de mejora.</li></ul><p>El ciclo completo de implementación coincide con el ciclo productivo: 6-12 meses para ver el sistema funcionando a pleno. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> para evaluar qué sistema se adapta a tu campo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema incluye imágenes satelitales de los lotes?",
+        "answer": "Los SaaS agro más completos (Auravant, GeoAgro) incluyen imágenes satelitales NDVI para monitorear el estado de los cultivos, detectar problemas y generar prescripciones variables."
+      },
+      {
+        "question": "¿Puedo calcular el costo real de producción por lote?",
+        "answer": "Sí. El sistema acumula todos los costos (insumos, labores, cosecha, flete, impuestos) y los asigna por lote, dándote el costo real por hectárea y por tonelada producida."
+      },
+      {
+        "question": "¿Sirve para ganadería también?",
+        "answer": "Algunos sistemas integran módulos ganaderos (stock de hacienda, rodeos, sanidad, pesadas). Otros son exclusivamente agrícolas. Verificá según tu modelo productivo."
+      },
+      {
+        "question": "¿El equipo de campo puede registrar labores desde el celular?",
+        "answer": "Sí. La mayoría de los SaaS agro tienen app móvil para registrar labores, aplicaciones y novedades directamente desde el campo, incluso sin señal (se sincroniza después)."
+      },
+      {
+        "question": "¿Puedo gestionar contratos de venta y entregas a acopio?",
+        "answer": "Los sistemas más completos incluyen módulo de comercialización: contratos forward, entregas, liquidaciones y seguimiento de precios de mercado."
+      }
+    ],
+    "ctaText": "¿Querés tomar mejores decisiones en tu campo? Agendá un diagnóstico gratuito y encontrá el sistema ideal para tu operación agropecuaria."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-institutos-educativos",
+  "title": "Sistema de Gestión para Institutos Educativos en Argentina",
+  "metaTitle": "Sistema de Gestión para Institutos Educativos",
+  "metaDescription": "Organizá alumnos, cuotas, cursada y comunicación de tu instituto con un sistema de gestión educativo. Opciones SaaS y a medida en Argentina 2026.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "institutos educativos", "educación", "gestión académica"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-crm-y-para-que-sirve", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>Institutos de idiomas, academias de formación profesional, centros de capacitación, escuelas de oficios — todos comparten un desafío: <strong>gestionar alumnos, cuotas, asistencia, cursada y comunicación con herramientas que no fueron pensadas para educación</strong>. Excel para las cuotas, WhatsApp para los avisos, un cuaderno para la asistencia, y una carpeta de Google Drive para los materiales.</p><p>Un <strong>sistema de gestión para institutos educativos</strong> integra todo en un solo lugar: inscripción, cobranza, cursada, comunicación y reportes. Te contamos qué necesitás y cuánto cuesta.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas operativos de un instituto sin sistema",
+        "body": "<p>La gestión manual en educación genera fricciones constantes:</p><ul><li><strong>Inscripciones caóticas:</strong> Formularios en papel o Google Forms que después hay que pasar a mano a un Excel. Datos incompletos, duplicados, errores.</li><li><strong>Cobranza de cuotas sin control:</strong> ¿Quién pagó? ¿Quién debe? ¿Quién tiene beca? Sin un sistema, la secretaría pasa horas cruzando datos.</li><li><strong>Asistencia manual:</strong> El docente pasa lista en papel. Si querés saber cuántas faltas tiene un alumno en el año, tenés que contar a mano.</li><li><strong>Comunicación dispersa:</strong> Avisos por WhatsApp que no llegan a todos, mails que nadie lee, y padres que se quejan porque no se enteraron.</li><li><strong>Sin métricas:</strong> ¿Cuál es tu tasa de deserción? ¿Qué curso tiene más demanda? ¿Cuánto facturás por alumno? Sin datos, no podés mejorar.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades esenciales para un sistema educativo",
+        "body": "<p>Un sistema para institutos educativos necesita:</p><ul><li><strong>Gestión de alumnos:</strong> Ficha completa con datos personales, curso inscripto, historial de pagos, asistencia, notas y documentación.</li><li><strong>Inscripción online:</strong> Formulario web donde el alumno se inscribe, elige curso, turno y forma de pago. Los datos entran directo al sistema.</li><li><strong>Cobro de cuotas:</strong> Generación automática de cuotas, débito automático, Mercado Pago, transferencia. Alertas de mora, recargos por atraso.</li><li><strong>Gestión académica:</strong> Cursos, materias, docentes, horarios, aulas. Registro de asistencia (digital, desde el celular del docente). Carga de notas y calificaciones.</li><li><strong>Comunicación centralizada:</strong> Envío de avisos por email, WhatsApp o notificación push. Segmentados por curso, por turno o individuales.</li><li><strong>Campus virtual:</strong> Algunos sistemas incluyen un espacio para compartir material de estudio, actividades y foros.</li><li><strong>Reportes:</strong> Matriculados por período, tasa de retención, morosidad, ingresos por curso, ocupación de aulas.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para institutos",
+        "body": "<p>El mercado de software educativo en Argentina:</p><p><strong>SaaS especializados:</strong> Acadeu, Sysacad, EduGest, o plataformas como Educativa. Son soluciones pensadas para institutos con funcionalidades académicas y administrativas integradas. Precios razonables para la mayoría de los institutos.</p><p><strong>Sistemas escolares:</strong> Si sos un colegio formal (primario/secundario), hay soluciones específicas que cumplen con los requisitos ministeriales: boletines, legajos, POF.</p><p><strong>Sistema a medida:</strong> Para instituciones grandes con modelos educativos particulares (educación corporativa, franquicias educativas, institutos con múltiples sedes y oferta diversa). Un <a href=\"/blog/software-a-medida-vs-estandar\">desarrollo propio</a> te permite modelar tu operación exacta.</p><p>Para un instituto de idiomas, academia o centro de capacitación típico, <strong>un SaaS educativo es la mejor relación costo-beneficio</strong>.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para institutos en 2026",
+        "body": "<p>Los rangos actuales:</p><ul><li><strong>SaaS básico:</strong> $15.000 - $40.000 ARS/mes (hasta 200 alumnos, cuotas, asistencia)</li><li><strong>SaaS profesional:</strong> $40.000 - $100.000 ARS/mes (alumnos ilimitados, campus virtual, reportes, comunicación automatizada)</li><li><strong>Sistema para instituciones grandes:</strong> $100.000 - $300.000 ARS/mes (múltiples sedes, gestión docente, integración contable)</li><li><strong>Sistema a medida:</strong> $3.000.000 - $10.000.000 ARS de desarrollo</li></ul><p>El retorno más directo viene de la <strong>reducción de morosidad</strong>: con débito automático y alertas de cobro, la mora baja del 30% al 10-15%. Eso puede representar millones de pesos al año para un instituto mediano. Conocé más sobre <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">costos de sistemas de gestión</a>.</p>"
+      },
+      {
+        "heading": "Implementación: cómo migrar sin perder el año",
+        "body": "<p>El mejor momento para implementar es <strong>entre ciclos lectivos</strong>, pero se puede hacer en cualquier momento:</p><ul><li><strong>Cargá la estructura:</strong> Cursos, materias, horarios, docentes, aulas. Esta configuración se hace una vez.</li><li><strong>Migrá los alumnos activos:</strong> Si tenés un Excel con los datos, la mayoría de los sistemas permiten importarlo. Si no, cargá manualmente (con ayuda de la secretaría).</li><li><strong>Configurá la cobranza:</strong> Planes de pago, valores de cuota, becas, descuentos. Activá los medios de pago electrónicos.</li><li><strong>Capacitá al equipo:</strong> Secretaría (inscripciones, cobros), docentes (asistencia, notas), dirección (reportes).</li><li><strong>Comunicá a los alumnos:</strong> Avisá que el instituto tiene nuevo sistema, cómo inscribirse, cómo pagar, cómo acceder al campus virtual.</li></ul><p>En 3-4 semanas el instituto puede estar operando con el nuevo sistema. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> para planificar tu migración.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Los alumnos pueden inscribirse online?",
+        "answer": "Sí. El sistema genera un formulario de inscripción online donde el alumno completa sus datos, elige curso y turno, y puede pagar la matrícula directamente."
+      },
+      {
+        "question": "¿El sistema cobra cuotas automáticamente?",
+        "answer": "Sí. Podés configurar débito automático con tarjeta o CBU, o generar links de pago de Mercado Pago. El sistema registra los pagos y actualiza el estado de cada alumno."
+      },
+      {
+        "question": "¿Los docentes pueden tomar asistencia desde el celular?",
+        "answer": "Sí. La mayoría de los sistemas tienen app o web responsive donde el docente marca presentes y ausentes en 1 minuto desde su teléfono."
+      },
+      {
+        "question": "¿Puedo enviar avisos segmentados por curso?",
+        "answer": "Sí. Podés enviar comunicaciones a todos los alumnos, solo a un curso, solo a morosos, solo a los que tienen muchas faltas, etc."
+      },
+      {
+        "question": "¿El sistema genera certificados de cursada?",
+        "answer": "Los sistemas más completos permiten generar certificados de inscripción, cursada regular y aprobación con los datos del alumno pre-cargados."
+      }
+    ],
+    "ctaText": "¿Tu instituto necesita más organización y menos papeles? Agendá un diagnóstico gratuito y encontrá el sistema ideal para tu institución."
+  }
+}

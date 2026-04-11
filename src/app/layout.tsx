@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "SODI — Webs, Sistemas y Automatización para Empresas",
   description:
     "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
-  metadataBase: new URL("https://sodi-eight.vercel.app"),
+  metadataBase: new URL("https://sodi.com.ar"),
   openGraph: {
     title: "SODI — Webs, Sistemas y Automatización para Empresas",
     description:
@@ -41,6 +41,81 @@ export const viewport: Viewport = {
   themeColor: "#040406",
 };
 
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sodi.com.ar/#organization",
+      name: "SODI",
+      url: "https://sodi.com.ar",
+      logo: "https://sodi.com.ar/icon-512.png",
+      description:
+        "Implementamos webs, automatizaciones, bots de WhatsApp, redes sociales y sistemas internos para empresas argentinas.",
+      areaServed: {
+        "@type": "Country",
+        name: "Argentina",
+      },
+      sameAs: ["https://www.instagram.com/sodi.ar"],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+54-11-5721-0923",
+        contactType: "sales",
+        availableLanguage: "Spanish",
+      },
+      knowsAbout: [
+        "Desarrollo web",
+        "Automatización empresarial",
+        "WhatsApp Business",
+        "Sistemas de gestión",
+        "Redes sociales para empresas",
+        "CRM para PyMEs",
+        "Transformación digital",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sodi.com.ar/#website",
+      url: "https://sodi.com.ar",
+      name: "SODI — Webs, Sistemas y Automatización para Empresas",
+      publisher: { "@id": "https://sodi.com.ar/#organization" },
+      inLanguage: "es-AR",
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://sodi.com.ar/#homepage",
+      url: "https://sodi.com.ar",
+      name: "SODI — Webs, Sistemas y Automatización para Empresas",
+      description:
+        "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
+      isPartOf: { "@id": "https://sodi.com.ar/#website" },
+      about: { "@id": "https://sodi.com.ar/#organization" },
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://sodi.com.ar/#service",
+      name: "SODI",
+      url: "https://sodi.com.ar",
+      telephone: "+54-11-5721-0923",
+      email: "hola@sodi.ar",
+      areaServed: {
+        "@type": "Country",
+        name: "Argentina",
+      },
+      priceRange: "$$",
+      serviceType: [
+        "Diseño y desarrollo web",
+        "Automatización de WhatsApp",
+        "Sistemas de gestión internos",
+        "Gestión de redes sociales",
+        "CRM a medida",
+        "Consultoría digital",
+      ],
+      provider: { "@id": "https://sodi.com.ar/#organization" },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -48,6 +123,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${sora.variable} ${inter.variable} scroll-smooth`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
+      </head>
       <body>
         <div className="noise" />
         {children}

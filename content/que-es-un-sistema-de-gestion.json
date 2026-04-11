@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-un-sistema-de-gestion",
+  "title": "Qué es un sistema de gestión: guía simple para PyMEs argentinas",
+  "metaTitle": "Qué es un sistema de gestión para empresas | Guía 2026",
+  "metaDescription": "Un sistema de gestión reemplaza planillas, chats y memoria. Centraliza facturación, stock, clientes y operaciones en un solo lugar. Guía sin tecnicismos.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["sistema de gestión", "erp", "operaciones", "pymes"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "excel-vs-sistema-de-gestion", "como-ordenar-operacion-interna-pyme"],
+  "content": {
+    "intro": "<p>Un <strong>sistema de gestión</strong> es un programa que centraliza las operaciones de tu empresa en un solo lugar: facturación, stock, clientes, compras, cuentas por cobrar, reportes. En vez de manejar todo con Excel, WhatsApp y la memoria de cada empleado, tenés un sistema donde todo queda registrado, ordenado y accesible.</p><p>También se lo conoce como <strong>ERP</strong> (Enterprise Resource Planning), aunque ese nombre suena a multinacional, la realidad es que una panadería, un taller mecánico o un estudio de abogados pueden — y deberían — usar uno cuando crecen. Si sentís que tu empresa funciona pero no tenés control real de lo que pasa, probablemente necesitás un sistema de gestión.</p>",
+    "sections": [
+      {
+        "heading": "Qué reemplaza un sistema de gestión en tu empresa",
+        "body": "<p>La mayoría de las PyMEs argentinas arrancan manejando todo con herramientas sueltas:</p><ul><li><strong>Excel</strong> para llevar números, stock, precios, clientes</li><li><strong>WhatsApp</strong> para coordinar con el equipo y con proveedores</li><li><strong>La memoria</strong> del dueño o encargado para saber qué falta, quién debe, qué se vendió</li><li><strong>Cuadernos o papeles</strong> para anotar pedidos, gastos, observaciones</li></ul><p>Un sistema de gestión reemplaza todo eso con <strong>una sola herramienta</strong> donde cada operación queda registrada automáticamente. Facturás desde el sistema, el stock se actualiza solo, las cuentas por cobrar se calculan en tiempo real, y cualquier persona autorizada puede ver la información sin preguntarle a nadie.</p><p>La diferencia clave: con herramientas sueltas, la información está fragmentada y depende de personas. Con un sistema de gestión, la información está centralizada y no se pierde.</p>"
+      },
+      {
+        "heading": "Cómo funciona un sistema de gestión en el día a día",
+        "body": "<p>Imaginá un <strong>negocio de distribución de alimentos</strong>. Sin sistema: el vendedor anota el pedido en WhatsApp, alguien lo pasa a una planilla, otro lo prepara en el depósito, otro factura. Si alguien se equivoca en un paso, el error se arrastra.</p><p>Con sistema de gestión: el vendedor carga el pedido desde el celular → el depósito lo ve en pantalla y lo prepara → la factura se genera automática → el stock se descuenta solo → la cuenta corriente del cliente se actualiza → al final del día, el dueño ve cuánto vendió, cuánto cobró y cuánto queda en stock. Todo sin llamadas, sin WhatsApp, sin errores de tipeo.</p><p>Un buen sistema de gestión incluye módulos para: <strong>facturación electrónica</strong> (AFIP), <strong>gestión de stock</strong>, <strong>cuentas corrientes</strong> (clientes y proveedores), <strong>compras</strong>, <strong>presupuestos</strong>, <strong>reportes y estadísticas</strong>, y a veces <strong>gestión de producción</strong> o <strong>logística</strong>.</p><p>No necesitás usar todos los módulos desde el día uno. Arrancás con facturación y stock, y vas sumando a medida que le agarrás la mano.</p>"
+      },
+      {
+        "heading": "Ejemplos por rubro: qué sistema necesita cada tipo de empresa",
+        "body": "<p><strong>Comercio (local o distribuidor)</strong>: necesitás facturación AFIP, control de stock con alertas de reposición, cuentas corrientes, y lista de precios con actualización masiva. Sistemas populares: <strong>Colppy</strong>, <strong>Xubio</strong>, <strong>Tango Gestión</strong>.</p><p><strong>Gastronomía</strong>: necesitás gestión de mesas/comandas, control de insumos, caja diaria, y reportes de ventas por producto. Sistemas: <strong>Restolution</strong>, <strong>iRestaurant</strong>, o soluciones custom con tablet.</p><p><strong>Servicios profesionales</strong> (contadores, abogados, consultoras): necesitás gestión de clientes, horas trabajadas, facturación, vencimientos, y documentación por cliente. Muchas veces un <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM</a> alcanza, pero si facturás mucho, necesitás un sistema de gestión integrado.</p><p><strong>Producción o manufactura</strong>: necesitás control de materia prima, órdenes de producción, costos por producto, y trazabilidad. Sistemas como <strong>Tango</strong> o desarrollos a medida son los más usados.</p><p>La clave es elegir un sistema que se adapte a tu rubro, no adaptar tu negocio al sistema.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un sistema de gestión para una PyME",
+        "body": "<p>Los costos varían mucho según la opción:</p><p><strong>Sistemas cloud (SaaS) argentinos</strong>: Colppy arranca en $15.000 ARS/mes, Xubio desde $12.000 ARS/mes. Incluyen facturación AFIP, stock básico, reportes. Son la opción más accesible para arrancar.</p><p><strong>Sistemas de escritorio tradicionales</strong>: Tango Gestión, Bejerman. Licencia única de $500.000-$2.000.000 ARS más mantenimiento anual. Son robustos pero requieren instalación local y soporte técnico.</p><p><strong>Sistemas a medida</strong>: desde $1.500.000 ARS en adelante. Se diseñan específicamente para tu operación. Tienen sentido cuando tu negocio tiene procesos muy particulares que ningún sistema estándar resuelve bien.</p><p>Sumá el costo de <strong>implementación y capacitación</strong>: migrar datos, configurar el sistema, entrenar al equipo. Esto puede costar entre $200.000 y $800.000 ARS adicionales, y es donde muchas empresas fallan por querer ahorrarse. Un sistema mal implementado es peor que no tener sistema.</p><p>Para una comparación más detallada de costos, visitá <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión para PyMEs</a>.</p>"
+      },
+      {
+        "heading": "Cuándo es el momento de dejar Excel y pasar a un sistema",
+        "body": "<p>Excel funciona hasta cierto punto. Pero hay un momento en que se vuelve un problema:</p><ul><li><strong>Tenés más de un archivo Excel crítico</strong> y se contradicen entre sí (uno dice que vendiste $3M, otro dice $2.8M).</li><li><strong>Más de una persona edita los mismos datos</strong> y no sabés quién cambió qué ni cuándo.</li><li><strong>Perdiste información</strong> porque alguien borró una fila, no guardó, o el archivo se corrompió.</li><li><strong>Tardás más de 30 minutos por día</strong> haciendo tareas manuales que un sistema haría en segundos (facturar, actualizar stock, calcular deudas).</li><li><strong>No podés responder preguntas básicas rápido</strong>: ¿cuánto vendí esta semana? ¿quién me debe? ¿cuánto stock tengo de X producto?</li></ul><p>Si te identificás con dos o más de estos puntos, ya pasaste el punto donde Excel te conviene. Cada mes que postergás, acumulás más desorden y más riesgo de perder información o plata.</p><p>No necesitás un sistema perfecto. Necesitás un sistema que funcione. En SODI evaluamos tu operación y te recomendamos la opción que mejor se adapta a tu rubro, tu tamaño y tu presupuesto.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la diferencia entre un sistema de gestión y un CRM?",
+        "answer": "El sistema de gestión administra la operación interna: facturación, stock, compras, cuentas corrientes. El CRM gestiona la relación comercial con clientes: seguimientos, presupuestos, pipeline de ventas. Son complementarios: uno ordena la operación, el otro ordena las ventas."
+      },
+      {
+        "question": "¿Necesito un sistema de gestión si soy un negocio chico?",
+        "answer": "Si facturás, manejás stock o tenés cuentas corrientes con clientes, sí. Sistemas como Colppy o Xubio arrancan en $12.000-$15.000 ARS/mes y se configuran en días. Si solo vendés servicios y tenés pocos clientes, un CRM puede alcanzar por ahora."
+      },
+      {
+        "question": "¿Puedo seguir usando Excel junto con un sistema de gestión?",
+        "answer": "Sí, al principio es normal. Pero el objetivo es que el sistema reemplace los Excel operativos (stock, facturación, cuentas corrientes). Si seguís haciendo todo en Excel y además lo cargás en el sistema, estás duplicando trabajo en vez de ahorrarlo."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva implementar un sistema de gestión?",
+        "answer": "Un sistema cloud básico (Colppy, Xubio) se configura en 1-2 semanas. Un sistema completo con migración de datos y capacitación tarda 4-8 semanas. Un desarrollo a medida puede llevar 2-4 meses. Lo más importante es dedicar tiempo a la carga de datos inicial."
+      },
+      {
+        "question": "¿Qué pasa con mis datos si dejo de usar el sistema?",
+        "answer": "Con sistemas cloud (SaaS) podés exportar tus datos en cualquier momento, generalmente en formato Excel o CSV. Con sistemas de escritorio, los datos están en tu computadora. Siempre verificá antes de contratar que el sistema te permita exportar toda tu información."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás un sistema de gestión, un CRM o ambos? Hacé el diagnóstico gratuito de SODI y te recomendamos la solución justa para tu negocio."
+  }
+}

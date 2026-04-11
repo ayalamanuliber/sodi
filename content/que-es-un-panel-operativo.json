@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-un-panel-operativo",
+  "title": "Qué es un panel operativo (dashboard) y para qué le sirve a tu empresa",
+  "metaTitle": "Qué es un panel operativo o dashboard | Guía PyMEs",
+  "metaDescription": "Un panel operativo muestra en una pantalla los números clave de tu empresa: ventas, cobranzas, stock, tareas. Te explicamos para qué sirve y cómo funciona.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["panel operativo", "dashboard", "datos", "gestión empresarial"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-interno-empresa", "como-centralizar-informacion-empresa", "que-es-un-sistema-de-gestion"],
+  "content": {
+    "intro": "<p>Un <strong>panel operativo</strong> (o dashboard) es una pantalla que te muestra los números más importantes de tu empresa en tiempo real. Ventas del día, cobranzas pendientes, stock de productos, tareas atrasadas, consultas sin responder — todo en un solo lugar, sin tener que preguntar a nadie.</p><p>Es la diferencia entre manejar tu empresa preguntando \"¿cómo estamos?\" por WhatsApp a cada encargado, y abrir una pantalla que te dice todo lo que necesitás saber en 30 segundos. Si hoy no sabés cuánto vendiste esta semana sin llamar a alguien, un panel operativo resuelve exactamente ese problema.</p>",
+    "sections": [
+      {
+        "heading": "Qué muestra un panel operativo (con ejemplos reales)",
+        "body": "<p>Lo que muestra depende de tu negocio, pero los indicadores más comunes son:</p><ul><li><strong>Ventas</strong>: cuánto vendiste hoy, esta semana, este mes. Comparado con el mes anterior. Desglosado por vendedor, producto o sucursal.</li><li><strong>Cobranzas</strong>: cuánto te deben, quién te debe, hace cuánto. Alertas de deudas vencidas.</li><li><strong>Stock</strong>: qué productos están por debajo del mínimo, qué hay que reponer, cuánto tenés en depósito.</li><li><strong>Tareas y proyectos</strong>: qué está pendiente, qué está atrasado, quién es responsable de cada cosa.</li><li><strong>Consultas y leads</strong>: cuántas consultas entraron, por qué canal, cuántas se respondieron, cuántas se convirtieron en ventas.</li></ul><p>Un panel <strong>no es un informe</strong> que armás a fin de mes. Es una pantalla viva que se actualiza sola con los datos de tu operación. La idea es que lo abras a la mañana y en un vistazo sepas exactamente cómo está tu empresa.</p>"
+      },
+      {
+        "heading": "Cómo reemplaza el 'cómo estamos' por WhatsApp",
+        "body": "<p>Escena típica en una PyME argentina: el dueño le escribe al encargado \"¿cómo estamos de stock?\" → el encargado revisa a ojo → contesta \"bien, creo\" → resulta que faltaban 3 productos críticos. O: \"¿cuánto vendimos esta semana?\" → el vendedor suma a mano → da un número que no coincide con la facturación → nadie sabe el número real.</p><p>Con un panel operativo: el dueño abre la pantalla → ve que el stock de 3 productos está en rojo (por debajo del mínimo) → ve que las ventas de la semana son $2.3M, 15% más que la semana pasada → ve que hay $800K en cobranzas vencidas. <strong>Todo sin hablar con nadie, en 30 segundos.</strong></p><p>El panel no reemplaza la comunicación con tu equipo: reemplaza la comunicación innecesaria. Tu equipo deja de perder tiempo contestando preguntas que un sistema puede responder, y vos dejás de depender de la memoria o buena voluntad de cada persona para saber cómo va tu empresa.</p><p>Esto es especialmente valioso si tenés <strong>más de una sucursal o equipo remoto</strong>: no necesitás estar físicamente en cada lugar para saber qué pasa.</p>"
+      },
+      {
+        "heading": "Tipos de paneles operativos y cuánto cuestan",
+        "body": "<p>Hay varios caminos para tener un panel:</p><p><strong>Paneles dentro de herramientas existentes</strong>: si usás un <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a> como Colppy, Xubio o Tango, ya incluyen dashboards básicos de ventas, cobranzas y stock. No necesitás pagar nada extra. El problema es que suelen ser limitados y no combinan datos de diferentes fuentes.</p><p><strong>Paneles con Google Sheets + Looker Studio (gratis)</strong>: si tenés tus datos en planillas de Google, podés armar un dashboard gratuito con Looker Studio (ex Google Data Studio). Es limitado pero suficiente para arrancar. Requiere que alguien configure los gráficos y mantenga los datos actualizados.</p><p><strong>Paneles profesionales (Power BI, Metabase)</strong>: herramientas de Business Intelligence que se conectan a tus bases de datos y generan dashboards potentes. Power BI arranca en $10 USD/mes por usuario. Metabase es gratuito y open-source. Necesitás alguien que los configure.</p><p><strong>Panel operativo a medida</strong>: un sistema desarrollado específicamente para tu empresa que toma datos de todas tus fuentes (gestión, CRM, planillas, WhatsApp) y los muestra en una pantalla unificada. Costo: $1.000.000-$4.000.000 ARS. Tiene sentido cuando tu operación es compleja y ninguna solución estándar te alcanza.</p>"
+      },
+      {
+        "heading": "Qué datos debería ver el dueño de una PyME todos los días",
+        "body": "<p>No necesitás 50 gráficos. Los datos esenciales para cualquier PyME son:</p><p><strong>Los 5 números que todo dueño debería ver cada mañana:</strong></p><ul><li><strong>Facturación del día/semana</strong>: cuánto vendiste. Punto. Si no sabés esto, estás navegando a ciegas.</li><li><strong>Cuentas por cobrar vencidas</strong>: cuánta plata te deben y hace cuánto. La plata que no cobrás es plata que no tenés.</li><li><strong>Stock crítico</strong>: qué productos o insumos están por debajo del mínimo y necesitás reponer urgente.</li><li><strong>Consultas/leads sin responder</strong>: cuántas oportunidades de venta están esperando respuesta. Cada hora sin contestar es un cliente que se va a la competencia.</li><li><strong>Tareas atrasadas</strong>: qué compromisos con clientes o internos están fuera de plazo.</li></ul><p>Con estos 5 datos, en 2 minutos sabés exactamente qué priorizar hoy. No necesitás más para empezar. A medida que tu empresa crece, sumás indicadores: rentabilidad por producto, costo de adquisición de clientes, tasa de conversión, satisfacción de clientes.</p>"
+      },
+      {
+        "heading": "Cómo empezar a tener un panel operativo sin gastar mucho",
+        "body": "<p>El camino práctico:</p><ul><li><strong>Paso 1</strong>: Definí los 5 números que necesitás ver todos los días (usá la lista de arriba como base).</li><li><strong>Paso 2</strong>: Identificá dónde están esos datos hoy. ¿En tu sistema de gestión? ¿En Excel? ¿En la cabeza de alguien? Si están en la cabeza de alguien, primero necesitás registrarlos en algún lado.</li><li><strong>Paso 3</strong>: Armá una planilla de Google con esos datos y actualizala todos los días (5 minutos). Solo con esto ya tenés más visibilidad que el 90% de las PyMEs argentinas.</li><li><strong>Paso 4</strong>: Cuando la planilla se quede chica o te canses de cargarla a mano, evaluá conectar tu sistema de gestión o CRM con un dashboard automático.</li></ul><p>El error más grande es querer armar un panel perfecto antes de tener datos. <strong>Primero registrá, después automatizá</strong>. Un panel que se alimenta de datos malos o incompletos te da una falsa sensación de control.</p><p>Si querés un panel a medida conectado a tus sistemas, en SODI evaluamos tu operación y te armamos una solución que muestre exactamente lo que necesitás ver.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué diferencia hay entre un panel operativo y un sistema de gestión?",
+        "answer": "El sistema de gestión es donde cargás y procesás los datos (facturación, stock, compras). El panel operativo es donde VES esos datos resumidos y visualizados. El panel se alimenta del sistema de gestión, pero son cosas distintas: uno es la fábrica, el otro es el tablero del auto."
+      },
+      {
+        "question": "¿Puedo tener un panel operativo sin tener un sistema de gestión?",
+        "answer": "Sí, podés armar uno con planillas de Google y Looker Studio. Pero si los datos los cargás a mano, el panel se desactualiza rápido. Lo ideal es que el panel se alimente automáticamente de un sistema de gestión o CRM."
+      },
+      {
+        "question": "¿Cuánto cuesta un panel operativo para una PyME?",
+        "answer": "Desde $0 con Google Sheets + Looker Studio, hasta $1.000.000-$4.000.000 ARS por un panel a medida. Herramientas intermedias como Power BI ($10 USD/mes) o Metabase (gratuito) son buenas opciones si tenés datos estructurados."
+      },
+      {
+        "question": "¿Quién se encarga de mantener actualizado el panel?",
+        "answer": "Si el panel está conectado a tu sistema de gestión o CRM, se actualiza solo. Si depende de datos manuales, alguien de tu equipo tiene que cargar los datos diariamente. Lo ideal es automatizar la mayor cantidad de datos posible."
+      },
+      {
+        "question": "¿Necesito saber de tecnología para usar un panel operativo?",
+        "answer": "No. Un panel bien diseñado se entiende a simple vista: números, gráficos, colores (verde = bien, rojo = atención). La parte técnica es la configuración, que la hace un profesional. Vos solo necesitás abrirlo y leerlo."
+      }
+    ],
+    "ctaText": "¿Querés un panel que te muestre cómo está tu empresa en 30 segundos? Hacé el diagnóstico gratuito de SODI y diseñamos el dashboard que necesitás."
+  }
+}

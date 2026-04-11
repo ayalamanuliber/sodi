@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-veterinarias",
+  "title": "Cómo automatizar WhatsApp para veterinarias: turnos, vacunas y recordatorios para mascotas",
+  "metaTitle": "Automatizar WhatsApp para Veterinarias | SODI",
+  "metaDescription": "Automatizá turnos, recordatorios de vacunas y atención de tu veterinaria por WhatsApp. Más pacientes, menos llamadas.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["veterinarias", "WhatsApp Business", "turnos", "vacunas", "mascotas"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["redes-sociales-para-veterinarias", "sistema-de-turnos-para-veterinarias", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Si tenés una veterinaria en Argentina, tu WhatsApp es probablemente el canal más importante del negocio. <strong>El dueño de una mascota que necesita atención no busca en Google: escribe por WhatsApp</strong>. \"Mi perro vomitó, ¿puedo llevarlo?\", \"¿Cuándo le toca la vacuna?\", \"¿Tienen turno para hoy?\". Y si no respondés rápido, llama a la veterinaria de la otra cuadra.</p><p>Automatizar WhatsApp en tu veterinaria te permite atender cada consulta al instante, recordar vacunas y desparasitaciones automáticamente, y agendar turnos sin que nadie tenga que dejar de atender pacientes para contestar el celular.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una veterinaria",
+        "body": "<p>Los mensajes más frecuentes en una veterinaria se repiten todos los días:</p><ul><li><strong>Sacar turno:</strong> \"¿Tienen turno para hoy/mañana?\" → bot muestra horarios disponibles por profesional.</li><li><strong>Recordatorio de vacunas:</strong> mensaje automático cuando se acerca la fecha de la próxima vacuna: \"¡Hola! A [nombre de mascota] le toca la vacuna [tipo] este mes. ¿Querés sacar turno?\"</li><li><strong>Desparasitación:</strong> recordatorio cada 3-6 meses según el esquema del paciente.</li><li><strong>Horarios y guardia:</strong> \"¿Están abiertos?\" → respuesta instantánea con horarios y número de guardia para urgencias.</li><li><strong>Precios de servicios:</strong> \"¿Cuánto sale castrar un gato?\" → lista de precios actualizada.</li><li><strong>Resultados de estudios:</strong> aviso cuando los resultados de análisis están listos.</li></ul><p>Estos mensajes son el <strong>80% del volumen</strong> de WhatsApp de una veterinaria. El bot los resuelve y tu equipo se enfoca en atender animales, no teléfonos.</p>"
+      },
+      {
+        "heading": "Recordatorios de vacunas y desparasitaciones: tu mejor herramienta",
+        "body": "<p>Los recordatorios de vacunas son el <strong>uso más valioso de WhatsApp para veterinarias</strong>. Los dueños de mascotas quieren cumplir con el calendario pero se olvidan. Si vos les recordás, vienen:</p><ul><li><strong>Vacuna anual:</strong> recordatorio 2 semanas antes: \"Se acerca la fecha de la vacuna anual de [mascota]. ¿Querés sacar turno?\"</li><li><strong>Desparasitación:</strong> cada 3 meses: \"Es momento de la desparasitación de [mascota]. Podés pasar por el consultorio o te la enviamos.\"</li><li><strong>Antiparasitarios externos:</strong> según la época del año: \"Arranca la temporada de pulgas y garrapatas. ¿Necesitás pipeta o comprimido para [mascota]?\"</li><li><strong>Control de peso/dental:</strong> recordatorios periódicos para controles preventivos.</li></ul><p>Una veterinaria que implementa recordatorios automáticos genera <strong>entre 15 y 30 turnos extra por mes</strong> solo con este sistema. Son turnos que no requerían publicidad ni captación: eran pacientes tuyos que simplemente se olvidaban.</p><p>Para que funcione, necesitás una base de datos con la mascota, su esquema y las fechas. Un <a href=\"/blog/sistema-de-turnos-para-veterinarias\">sistema de turnos para veterinarias</a> puede manejar esto automáticamente.</p>"
+      },
+      {
+        "heading": "Flujo de bot para urgencias vs consultas programadas",
+        "body": "<p>En veterinaria hay que diferenciar claramente entre <strong>urgencias y consultas programadas</strong>. El bot debe hacer esa distinción desde el inicio:</p><ol><li>\"¡Hola! ¿Es una urgencia o querés sacar turno/consultar?\"</li><li><strong>Si es urgencia:</strong> \"Nuestro número de guardia es [teléfono]. Llamá directamente para atención inmediata. Si estamos en horario de atención, vení directo sin turno.\"</li><li><strong>Si no es urgencia:</strong> menú normal de turnos, vacunas, precios, horarios</li><li>Para turnos: selección de mascota (si ya es paciente) → tipo de consulta → día y horario</li><li>Confirmación con datos y recordatorio previo</li></ol><p>Es <strong>fundamental</strong> que las urgencias no queden atrapadas en un flujo de bot. Un animal en emergencia necesita atención inmediata, no un menú de opciones. El bot debe derivar a llamada telefónica o indicar que venga directo.</p><p>Para pacientes registrados, el bot puede reconocer al dueño por el número de teléfono y mostrar las mascotas asociadas: \"¿El turno es para Luna o para Rocky?\" Eso agiliza mucho el proceso.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para veterinarias",
+        "body": "<p>Opciones según el tamaño de tu veterinaria:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, catálogo de servicios, mensaje fuera de horario con número de guardia. Para clínicas de 1-2 veterinarios.</li><li><strong>Software veterinario con WhatsApp (VetSoft, FichaPet desde USD 20/mes):</strong> algunos sistemas de gestión veterinaria incluyen recordatorios por WhatsApp.</li><li><strong>Bots SaaS (Botmaker, Cliengo desde USD 25/mes):</strong> flujos personalizados de turnos y recordatorios.</li><li><strong>Desarrollo custom (desde USD 200 setup):</strong> integración con tu sistema de historias clínicas y calendario de vacunas.</li></ul><p>El ROI es directo: 20 turnos extra por mes a un promedio de $10.000 por consulta son <strong>$200.000 mensuales</strong> de facturación adicional. Solo con recordatorios de vacunas, sin publicidad.</p><p>La combinación ideal es <strong>sistema veterinario con recordatorios + WhatsApp Business</strong>: la base de datos de pacientes genera los recordatorios y WhatsApp los envía.</p>"
+      },
+      {
+        "heading": "Petshop integrado: ventas por WhatsApp",
+        "body": "<p>Si tu veterinaria tiene petshop, WhatsApp automatizado es un <strong>canal de ventas adicional</strong>:</p><ul><li><strong>Reposición de alimento:</strong> \"Según nuestros registros, [mascota] consume [marca/cantidad]. ¿Necesitás que te preparemos una bolsa?\" → pedido en 1 mensaje.</li><li><strong>Productos estacionales:</strong> aviso cuando arranca temporada de garrapatas, frío, calor con productos relevantes.</li><li><strong>Ofertas y combos:</strong> promos segmentadas según tipo de mascota (no le mandés promo de gatos al dueño de un perro).</li><li><strong>Delivery de alimento:</strong> para clientes frecuentes, pedido recurrente automatizado.</li></ul><p>El alimento balanceado es un producto de <strong>recompra mensual</strong>. Si automatizás el recordatorio de reposición, te asegurás esa venta todos los meses sin esfuerzo.</p><p>¿Querés optimizar el WhatsApp de tu veterinaria? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te mostramos qué automatizar primero.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede dar indicaciones médicas para mascotas?",
+        "answer": "No. El bot debe limitarse a cuestiones administrativas: turnos, recordatorios, precios, horarios. Ante cualquier consulta médica (síntomas, tratamientos), debe derivar al veterinario. Dar indicaciones médicas por bot es irresponsable y riesgoso."
+      },
+      {
+        "question": "¿Cómo cargo las mascotas y sus calendarios de vacunas?",
+        "answer": "Lo ideal es usar un software veterinario (VetSoft, FichaPet) que maneje historias clínicas con calendario de vacunas. Este sistema se conecta con WhatsApp para enviar recordatorios automáticos. Si no tenés software, podés usar una planilla con fechas y un bot que la consulte."
+      },
+      {
+        "question": "¿Puedo enviar fotos de mascotas internadas a los dueños por bot?",
+        "answer": "Podés configurar un flujo donde el veterinario sube una foto y el bot la envía al dueño con un mensaje: 'Así está [mascota] hoy. Evoluciona bien.' Pero esto es semi-automatizado: el veterinario decide qué enviar. El bot solo se encarga de la entrega."
+      }
+    ],
+    "ctaText": "¿Tu veterinaria pierde pacientes porque se olvidan de las vacunas? Pedí un diagnóstico gratuito y automatizamos tus recordatorios esta semana."
+  }
+}

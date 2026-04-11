@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-consultorios-medicos",
+  "title": "Sistema de turnos para consultorios médicos: opciones, costos y cómo implementarlo",
+  "metaTitle": "Sistema de Turnos para Consultorios Médicos | SODI",
+  "metaDescription": "Comparativa de sistemas de turnos para consultorios médicos en Argentina. SaaS, desarrollo a medida, costos y cómo elegir el mejor.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "consultorios médicos", "agenda médica", "software médico", "turnos automáticos"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["pagina-web-para-consultorios-medicos", "presencia-digital-ideal-consultorio", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>Si tu consultorio médico todavía gestiona turnos por teléfono, estás perdiendo pacientes. La persona que llama y no le atienden <strong>no vuelve a llamar — busca otro médico</strong>. Un sistema de turnos online permite que tus pacientes agenden las 24 horas, reduce ausencias con recordatorios automáticos y libera a tu recepcionista de atender llamados todo el día.</p><p>En esta guía te mostramos las <strong>opciones disponibles en Argentina</strong>, cuánto cuestan y cómo elegir la mejor para tu consultorio. Si además necesitás una <a href=\"/blog/pagina-web-para-consultorios-medicos\">página web profesional</a>, eso complementa tu sistema de turnos.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un consultorio médico necesita turnos online",
+        "body": "<p>El flujo de turnos en un consultorio tiene problemas específicos que un sistema online resuelve:</p><ul><li><strong>Ausencias (no-shows):</strong> entre el 15% y 30% de los turnos no se presentan. Los recordatorios automáticos por WhatsApp o SMS reducen esa cifra a menos del 10%.</li><li><strong>Cuellos de botella telefónicos:</strong> los pacientes llaman en horario de atención, justo cuando el consultorio está ocupado. Con turnos online, agendan a cualquier hora.</li><li><strong>Doble agenda:</strong> turnos anotados en papel que se superponen, horarios que no cuadran. Un sistema digital <strong>elimina la doble agenda</strong> automáticamente.</li><li><strong>Múltiples profesionales:</strong> si tu consultorio tiene varios médicos, cada uno necesita su agenda coordinada sin conflictos de horarios ni consultorios.</li></ul><p>Un sistema de turnos no es un lujo — es una <strong>necesidad operativa</strong> que impacta directamente en tus ingresos.</p>"
+      },
+      {
+        "heading": "Opciones SaaS: soluciones listas para usar",
+        "body": "<p>Las plataformas SaaS te dan un sistema funcionando en minutos, sin desarrollo:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> muy popular en Argentina para salud. Agenda online, recordatorios por WhatsApp, ficha de paciente, historial clínico básico. Integra con tu web.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple y económico. Agenda, recordatorios, link de reserva. Ideal si necesitás algo funcional sin complejidad.</li><li><strong>Cal.com (gratis el plan básico):</strong> open source, muy flexible. No tiene funcionalidades específicas de salud pero permite configurar disponibilidad, tipos de consulta y sincronizar con Google Calendar.</li></ul><p><strong>Ventajas del SaaS:</strong> empezás hoy, sin inversión grande, con soporte incluido. <strong>Desventaja:</strong> pagás mensualmente y dependés de la plataforma. Si necesitás funcionalidades muy específicas (integración con obra social, historia clínica completa), puede quedarte corto.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo conviene",
+        "body": "<p>Un sistema de turnos <strong>a medida</strong> tiene sentido cuando el SaaS no cubre tus necesidades:</p><ul><li><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS dependiendo de la complejidad (integración con obra social, historia clínica, múltiples sedes, facturación).</li><li><strong>Cuándo conviene:</strong> consultorios con más de 5 profesionales, centros médicos con múltiples especialidades, necesidad de integración con sistemas de obra social o facturación electrónica.</li><li><strong>Cuándo NO conviene:</strong> consultorio individual o de 2-3 médicos — el SaaS es más que suficiente y mucho más económico.</li></ul><p>Si estás evaluando el costo, te recomendamos leer nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía completa de costos de sistemas de turnos</a> para tener números claros antes de decidir.</p><p>El desarrollo a medida te da <strong>control total</strong> sobre la experiencia del paciente y la integración con tus procesos internos.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp: el canal clave",
+        "body": "<p>En Argentina, <strong>WhatsApp es el canal principal</strong> de comunicación con pacientes. Tu sistema de turnos tiene que integrarse con WhatsApp de alguna forma:</p><ul><li><strong>Recordatorios automáticos:</strong> mensaje 24 horas antes del turno con fecha, hora, profesional y opción de confirmar o cancelar.</li><li><strong>Confirmación de turno:</strong> el paciente responde \"Confirmo\" o \"Cancelo\" directamente desde WhatsApp.</li><li><strong>Link de agendamiento:</strong> un link que compartas por WhatsApp y que lleve directo al sistema de turnos.</li><li><strong>Notificación de cancelación:</strong> si alguien cancela, notificar al siguiente en lista de espera automáticamente.</li></ul><p>AgendaPro ya incluye integración con WhatsApp. Si usás Cal.com o un desarrollo a medida, necesitás configurar la API de WhatsApp Business por separado.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto para tu consultorio",
+        "body": "<p>La decisión depende de tres factores:</p><ul><li><strong>Tamaño del consultorio:</strong> 1-3 profesionales → SaaS (AgendaPro o Cloxsy). 5+ profesionales o centro médico → evaluar desarrollo a medida.</li><li><strong>Presupuesto:</strong> si podés invertir USD 15-45/mes sin problema, el SaaS es la opción más rápida. Si necesitás algo muy específico y tenés presupuesto para invertir $1-2M ARS, el desarrollo a medida te da más control.</li><li><strong>Integraciones:</strong> ¿necesitás conectar con obra social, historia clínica digital, facturación? Si sí, el a medida tiene ventaja. Si no, el SaaS alcanza.</li></ul><p>Nuestra recomendación: <strong>empezá con SaaS</strong>. Si en 6 meses te quedás corto, migrá a un sistema a medida con datos concretos de qué necesitás. No sobreinviertas antes de validar.</p><p>Si necesitás ayuda para elegir, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong> y te recomendamos la opción que mejor se adapta a tu consultorio.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para consultorio médico?",
+        "answer": "SaaS: entre USD 10 y USD 45/mes según la plataforma y el plan. Desarrollo a medida: entre $800.000 y $2.000.000 ARS. Cal.com tiene un plan gratuito básico."
+      },
+      {
+        "question": "¿Los recordatorios por WhatsApp reducen las ausencias?",
+        "answer": "Sí, significativamente. Los consultorios que implementan recordatorios automáticos reportan una reducción de ausencias del 15-30% al 5-10%."
+      },
+      {
+        "question": "¿Puedo integrar el sistema de turnos con mi página web?",
+        "answer": "Sí. Tanto AgendaPro como Cloxsy y Cal.com permiten embeber el sistema de turnos en tu página web para que el paciente agende sin salir de tu sitio."
+      }
+    ],
+    "ctaText": "¿Necesitás un sistema de turnos para tu consultorio? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te recomendamos la mejor opción."
+  }
+}

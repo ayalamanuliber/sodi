@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-contadores",
+  "title": "Cómo automatizar WhatsApp para contadores: consultas, vencimientos y gestión de clientes",
+  "metaTitle": "Automatizar WhatsApp para Contadores | SODI",
+  "metaDescription": "Automatizá consultas, recordatorios de vencimientos y gestión de clientes de tu estudio contable por WhatsApp.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["contadores", "estudios contables", "WhatsApp Business", "vencimientos", "AFIP"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-contadores", "redes-sociales-para-abogados", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Si sos contador en Argentina, tu WhatsApp es un infierno entre junio y julio. Pero el caos no es solo por Ganancias: <strong>todo el año tus clientes te escriben para preguntarte lo mismo</strong>. \"¿Cuándo vence el monotributo?\", \"¿Me podés hacer una factura?\", \"¿Cuánto tengo que pagar de IVA?\". Y vos, que tenés 50 clientes, intentás responder entre liquidaciones y presentaciones.</p><p>Automatizar WhatsApp para tu estudio contable significa que tus clientes reciban información al instante, que los vencimientos se recuerden solos y que tu celular deje de sonar cada 3 minutos. Sin perder el trato personalizado que te diferencia.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en un estudio contable",
+        "body": "<p>Estos mensajes se repiten semana tras semana y un bot los resuelve perfectamente:</p><ul><li><strong>Vencimientos impositivos:</strong> recordatorio automático antes de cada vencimiento de AFIP según la categoría del cliente (monotributo, RI, etc.).</li><li><strong>Documentación necesaria:</strong> \"Para la liquidación de este mes, enviame: facturas de compra, recibos de sueldo, extracto bancario\" → checklist automático.</li><li><strong>Estado de trámites:</strong> \"¿Ya presentaste mi declaración?\" → bot responde con el estado actual.</li><li><strong>Consultas frecuentes:</strong> \"¿Cuánto es el monotributo categoría B?\" → respuesta instantánea con tabla actualizada.</li><li><strong>Cobro de honorarios:</strong> recordatorio mensual con detalle de servicios y link de pago.</li></ul><p>Solo con los recordatorios de vencimientos y documentación, <strong>reducís un 60% las consultas repetitivas</strong>. Tu equipo se enfoca en el trabajo técnico, no en responder lo que Google o AFIP ya dicen.</p>"
+      },
+      {
+        "heading": "Flujo de bot para captación de nuevos clientes",
+        "body": "<p>Un contador también necesita captar clientes. El flujo de WhatsApp para consultas nuevas:</p><ol><li>\"Hola, gracias por contactar [Estudio]. ¿Qué servicio necesitás?\" → Monotributo / Sociedades / Sueldos / Impuestos / Consulta general</li><li>Bot pregunta situación actual: \"¿Ya tenés contador? ¿Sos monotributista o responsable inscripto?\"</li><li>Según la respuesta, envía info de servicios y honorarios estimados</li><li>\"¿Querés agendar una reunión para conocernos?\" → agenda online</li><li>Post-reunión: \"¿Cómo te fue? ¿Querés arrancar?\" con info de onboarding</li></ol><p>Lo importante es que el bot <strong>transmita profesionalismo y confianza</strong>. En contabilidad, la confianza lo es todo. Un bot que responde al instante con información clara genera mejor impresión que un número que no contesta.</p><p>Complementá con una <a href=\"/blog/pagina-web-para-contadores\">web profesional para tu estudio</a> donde el cliente pueda ver tus servicios antes de escribirte.</p>"
+      },
+      {
+        "heading": "Recordatorios de vencimientos automatizados",
+        "body": "<p>Este es el <strong>uso más valioso de WhatsApp para contadores</strong>. En Argentina hay vencimientos impositivos casi todos los días y tus clientes dependen de que les avises:</p><ul><li><strong>Monotributo:</strong> recordatorio 3 días antes del vencimiento según terminación de CUIT</li><li><strong>IVA:</strong> aviso semanal con la fecha del vencimiento del período</li><li><strong>Ganancias/Bienes Personales:</strong> secuencia de avisos desde 30 días antes con checklist de documentación</li><li><strong>Cargas sociales:</strong> recordatorio mensual para empleadores</li><li><strong>Ingresos Brutos:</strong> aviso según jurisdicción y régimen</li></ul><p>Cada cliente recibe <strong>solo los vencimientos que le corresponden</strong>, segmentado por categoría impositiva. No es un mensaje genérico: es información personalizada que demuestra atención.</p><p>Los estudios que implementan recordatorios automáticos reciben <strong>un 70% menos de llamadas</strong> de \"¿cuándo vence?\" y sus clientes presentan menos declaraciones tardías (y pagan menos intereses).</p>"
+      },
+      {
+        "heading": "Herramientas y costos para estudios contables",
+        "body": "<p>Las opciones según el tamaño de tu estudio:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas con info de servicios, listas de difusión para avisos. Para contadores con menos de 30 clientes.</li><li><strong>Bots SaaS (Botmaker, Cliengo desde USD 25/mes):</strong> flujos de captación y derivación. Para estudios en crecimiento.</li><li><strong>Plataformas contables con WhatsApp (Colppy, Xubio + integración):</strong> algunas permiten enviar avisos por WhatsApp desde el sistema. Consultá con tu proveedor.</li><li><strong>Desarrollo custom con API (desde USD 250 setup):</strong> integración con tu sistema contable para recordatorios automáticos segmentados.</li></ul><p>El ROI para contadores es doble: <strong>ahorrás tiempo</strong> (fácilmente 2-3 horas diarias de consultas repetitivas) <strong>y retenés clientes</strong>. Un cliente que recibe recordatorios proactivos se siente bien atendido y no busca otro contador.</p><p>Con una cartera promedio de 50 clientes a $15.000/mes de honorario, perder 5 clientes al año por falta de atención son $900.000 que no facturás. El bot cuesta USD 25/mes.</p>"
+      },
+      {
+        "heading": "Límites éticos y de seguridad en WhatsApp contable",
+        "body": "<p>Al manejar información financiera sensible, hay que tener cuidado:</p><ul><li><strong>No enviar liquidaciones completas por WhatsApp:</strong> usá WhatsApp para avisar que la liquidación está lista y enviala por email o portal seguro.</li><li><strong>No compartir datos fiscales sin verificar identidad:</strong> el bot debe pedir nombre + CUIT antes de dar cualquier información específica del cliente.</li><li><strong>Secreto profesional:</strong> no revelar información de un cliente a terceros, ni siquiera por error de chat.</li><li><strong>Respaldo de conversaciones:</strong> asegurate de tener backup de los chats con clientes para respaldo profesional.</li><li><strong>Consentimiento:</strong> incluí en el contrato de servicios la autorización para comunicarse por WhatsApp.</li></ul><p>Un bot bien configurado es más <strong>seguro y consistente</strong> que una persona apurada enviando info por chat sin verificar. La automatización, bien hecha, reduce errores humanos.</p><p>¿Querés saber cómo mejorar la comunicación de tu estudio? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo automatizar el envío de liquidaciones por WhatsApp?",
+        "answer": "Podés automatizar el aviso de que la liquidación está lista y enviar un link seguro para descargarla. No es recomendable enviar PDFs con información fiscal completa directamente por WhatsApp. Usá un portal de clientes o email para eso."
+      },
+      {
+        "question": "¿Cómo segmento los recordatorios por tipo de cliente?",
+        "answer": "Con la API de WhatsApp Business, cada cliente se etiqueta según su categoría impositiva (monotributo, RI, sociedad) y recibe solo los vencimientos que le corresponden. Con herramientas SaaS como Botmaker esto se configura sin programar."
+      },
+      {
+        "question": "¿Los clientes grandes aceptan comunicarse por WhatsApp?",
+        "answer": "Sí, siempre que sea profesional. Para clientes corporativos, WhatsApp funciona como canal complementario (avisos rápidos, recordatorios), mientras que las comunicaciones formales van por email o reuniones. La clave es no forzar: ofrecer el canal y que el cliente elija."
+      }
+    ],
+    "ctaText": "¿Tu estudio contable se inunda de consultas repetitivas? Pedí un diagnóstico gratuito y te mostramos cómo automatizar la comunicación con tus clientes."
+  }
+}

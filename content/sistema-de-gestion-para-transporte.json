@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-transporte",
+  "title": "Sistema de Gestión para Empresas de Transporte en Argentina",
+  "metaTitle": "Sistema de Gestión para Transporte Argentina",
+  "metaDescription": "Gestioná flota, viajes, choferes y facturación de tu empresa de transporte con un sistema integral. SaaS vs a medida, costos y funcionalidades.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "transporte", "logística", "gestión de flota"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["sistema-de-gestion-para-distribuidoras", "cuanto-cuesta-sistema-de-gestion-pymes", "software-a-medida-vs-estandar"],
+  "content": {
+    "intro": "<p>Una empresa de transporte de cargas o pasajeros en Argentina enfrenta un nivel de complejidad operativa enorme: <strong>flota de vehículos con mantenimiento, choferes con documentación, rutas que optimizar, combustible que controlar, y una montaña de regulaciones que cumplir</strong>. Todo eso, muchas veces gestionado con planillas de Excel, grupos de WhatsApp y llamadas telefónicas.</p><p>Un <strong>sistema de gestión para empresas de transporte</strong> centraliza toda la operación: desde la asignación de viajes hasta la liquidación de haberes de los choferes. En esta guía te contamos qué necesitás, cuánto cuesta y cómo implementarlo.</p>",
+    "sections": [
+      {
+        "heading": "Los dolores operativos de una empresa de transporte sin sistema",
+        "body": "<p>El transporte tiene variables que otras industrias no manejan:</p><ul><li><strong>Mantenimiento de flota reactivo:</strong> Los camiones se rompen en ruta porque nadie controlaba los intervalos de service. Un camión parado es plata perdida.</li><li><strong>Asignación de viajes ineficiente:</strong> Se asignan viajes por teléfono, sin considerar qué unidad está más cerca, cuál tiene menos horas de trabajo o cuál va vacía en una dirección.</li><li><strong>Documentación vencida:</strong> VTV, seguros, licencias de choferes, habilitaciones — todo vence en distintos momentos y si se te pasa uno, te paran en un control.</li><li><strong>Combustible sin control:</strong> ¿Cuánto consume cada unidad por kilómetro? ¿Hay desvíos sospechosos? Sin datos, no sabés.</li><li><strong>Facturación compleja:</strong> Carta de porte, remitos, facturas al despachante, liquidaciones de flete... todo manual y propenso a errores.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades clave de un sistema de gestión para transporte",
+        "body": "<p>El sistema ideal para una empresa de transporte cubre:</p><ul><li><strong>Gestión de flota:</strong> Ficha de cada vehículo con datos técnicos, historial de mantenimiento, vencimientos de documentación, seguimiento GPS en tiempo real.</li><li><strong>Programación de viajes:</strong> Asignación de unidad y chofer, hoja de ruta, carga, destino, tiempos estimados. Vista de tablero con todos los viajes activos.</li><li><strong>Control de mantenimiento:</strong> Service programado por kilómetros o tiempo, alertas automáticas, registro de reparaciones, costos por unidad.</li><li><strong>Gestión de choferes:</strong> Legajos, licencias, ART, horas de conducción (para cumplir con la normativa), liquidación de haberes y viáticos.</li><li><strong>Control de combustible:</strong> Carga de combustible por unidad, consumo por kilómetro, detección de desvíos, integración con tarjetas de combustible (YPF Ruta, Shell Fleet).</li><li><strong>Facturación y documentación:</strong> Carta de porte electrónica, remitos, facturación por viaje o por período, integración con AFIP.</li><li><strong>Reportes:</strong> Costo por kilómetro, rentabilidad por viaje, por cliente, por ruta. Utilización de flota.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para transporte",
+        "body": "<p>El mercado de software para transporte en Argentina:</p><p><strong>SaaS especializados:</strong> Logitruck, SimpliRoute, Fliit. Ofrecen módulos de flota, viajes y facturación. Funcionan bien para flotas de hasta 20-30 unidades con operación estándar.</p><p><strong>TMS (Transport Management System):</strong> Soluciones más completas como SAP TM o Oracle TMS. Para empresas grandes con operación multi-modal (camión + tren + barco). Costos significativamente más altos.</p><p><strong>Sistema a medida:</strong> Ideal para empresas con operaciones particulares: mudanzas, transporte de productos peligrosos, distribución urbana de última milla, o combinaciones únicas de servicios.</p><p>La decisión depende de la complejidad de tu operación. Si hacés transporte de cargas generales con 5-20 camiones, un <a href=\"/blog/software-a-medida-vs-estandar\">SaaS probablemente alcance</a>. Si tu modelo es más complejo, evaluá un desarrollo propio.</p>"
+      },
+      {
+        "heading": "Costos de implementación en 2026",
+        "body": "<p>Los rangos para empresas de transporte:</p><ul><li><strong>SaaS básico:</strong> $40.000 - $100.000 ARS/mes (hasta 10 unidades, tracking, mantenimiento básico)</li><li><strong>SaaS profesional:</strong> $100.000 - $300.000 ARS/mes (flota ilimitada, facturación, reportes avanzados, app para choferes)</li><li><strong>GPS y hardware:</strong> $30.000 - $80.000 ARS por unidad (dispositivo GPS) + $5.000 - $15.000 ARS/mes por unidad (servicio de tracking)</li><li><strong>Sistema a medida:</strong> $6.000.000 - $20.000.000 ARS de desarrollo</li></ul><p>El ROI en transporte es directo: <strong>mejor control de combustible</strong> (ahorro del 5-15%), <strong>menos mantenimiento correctivo</strong> (ahorro del 20-30% vs. reparaciones de emergencia), y <strong>mejor utilización de flota</strong> (menos viajes vacíos).</p>"
+      },
+      {
+        "heading": "Implementación paso a paso",
+        "body": "<p>Implementar un sistema en una empresa de transporte requiere:</p><ul><li><strong>Inventario de flota:</strong> Cargá cada unidad con sus datos técnicos, documentación vigente, kilometraje actual e historial de mantenimiento conocido.</li><li><strong>Configuración de alertas:</strong> Vencimientos de VTV, seguros, licencias de choferes, services programados. Esto solo ya justifica el sistema.</li><li><strong>Instalación de GPS:</strong> Si no tenés, es el momento. El tracking es la base de cualquier sistema de gestión de transporte.</li><li><strong>Capacitación de despachantes:</strong> Los que asignan viajes y cargan documentación son los usuarios principales. Tienen que adoptar el sistema como herramienta diaria.</li><li><strong>Migración gradual:</strong> Arrancá con la gestión de flota y mantenimiento. Una vez estabilizado, sumá la gestión de viajes y facturación.</li></ul><p>Una implementación típica lleva entre 4 y 8 semanas. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> para evaluar tu operación.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema incluye seguimiento GPS de los camiones?",
+        "answer": "Depende del sistema. Algunos incluyen GPS propio, otros se integran con tu proveedor de tracking actual. Lo importante es que la información de ubicación alimente la gestión de viajes."
+      },
+      {
+        "question": "¿Puedo controlar el consumo de combustible por unidad?",
+        "answer": "Sí. El sistema registra cargas de combustible, calcula consumo por kilómetro y detecta desvíos. Si se integra con tarjetas de combustible, la carga es automática."
+      },
+      {
+        "question": "¿El sistema genera la carta de porte electrónica?",
+        "answer": "Los sistemas más completos generan la carta de porte electrónica exigida por AFIP/ARBA para el transporte de cargas, cumpliendo con la normativa vigente."
+      },
+      {
+        "question": "¿Puedo gestionar los vencimientos de documentación de la flota?",
+        "answer": "Sí. El sistema carga todos los vencimientos (VTV, seguro, habilitación, matafuegos) y envía alertas con anticipación para que nunca se te pase uno."
+      },
+      {
+        "question": "¿Sirve para transporte de pasajeros también?",
+        "answer": "Depende del sistema. Algunos están pensados para cargas, otros para pasajeros (combis, charters, turismo). Asegurate de elegir uno que se adapte a tu tipo de transporte."
+      }
+    ],
+    "ctaText": "¿Tu flota necesita más control y menos improvisación? Agendá un diagnóstico gratuito y te ayudamos a elegir el sistema correcto."
+  }
+}

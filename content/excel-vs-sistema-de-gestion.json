@@ -1,0 +1,61 @@
+{
+  "slug": "excel-vs-sistema-de-gestion",
+  "title": "Excel vs sistema de gestión: cuándo tu planilla ya no alcanza y necesitás un sistema real",
+  "metaTitle": "Excel vs sistema de gestión para PyMEs Argentina",
+  "metaDescription": "Excel funciona para 1 persona. Con 2+ usuarios o datos críticos, necesitás un sistema. Costos desde $15.000/mes, migración paso a paso y señales de alerta.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["excel", "sistema de gestión", "ERP", "PyMEs", "gestión empresarial"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["como-dejar-de-depender-de-excel", "cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-sistema-de-gestion"],
+  "content": {
+    "intro": "<p>Si sos una sola persona manejando tu negocio, <strong>Excel funciona</strong>. Es gratis (o casi), flexible y ya lo sabés usar. Pero en el momento que sumás una segunda persona, que tu planilla tiene más de 500 filas o que un error te costó plata, Excel dejó de ser una solución y pasó a ser un <strong>riesgo</strong>.</p><p>El 72% de las PyMEs argentinas todavía gestiona operaciones críticas en Excel o Google Sheets. Y la mayoría no migra a un sistema porque \"funciona\" — hasta que deja de funcionar. Borrar una fila por error, tener dos versiones del archivo, no encontrar un dato: los problemas que Excel genera a escala cuestan más que cualquier sistema de gestión.</p>",
+    "sections": [
+      {
+        "heading": "Cuándo Excel está bien y cuándo es un problema",
+        "body": "<p><strong>Excel está perfecto para:</strong></p><ul><li>Cálculos rápidos y análisis puntuales (presupuestos, simulaciones)</li><li>Listas y registros personales que solo usás vos</li><li>Prototipos de procesos antes de sistematizar</li><li>Reportes ad-hoc que no se repiten</li></ul><p><strong>Excel es un problema cuando:</strong></p><ul><li><strong>Más de 1 persona edita el mismo archivo:</strong> conflictos de versión, datos pisados, fórmulas rotas. Google Sheets mejora esto pero no lo resuelve del todo.</li><li><strong>Datos críticos sin backup ni historial:</strong> si alguien borra una fila o modifica un precio, no sabés quién fue ni cuándo pasó.</li><li><strong>Procesos que dependen de la planilla:</strong> facturación, stock, seguimiento de clientes, cobranzas. Si la planilla se corrompe, tu operación se para.</li><li><strong>Más de 1.000 filas:</strong> Excel se vuelve lento, buscar datos es un calvario, y las fórmulas complejas se rompen.</li><li><strong>Necesitás reportes automáticos:</strong> en Excel cada reporte es manual. En un sistema, apretás un botón.</li></ul><p>Si te identificaste con dos o más puntos de la segunda lista, necesitás migrar. No mañana — <strong>ahora</strong>.</p>"
+      },
+      {
+        "heading": "Sistemas de gestión para PyMEs: opciones y costos en Argentina",
+        "body": "<p>Los <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistemas de gestión más usados por PyMEs en Argentina</a> en 2026:</p><ul><li><strong>Odoo Community (gratis) + hosting:</strong> $20.000-$40.000/mes. Open source, modular (CRM, inventario, facturación, RRHH). Requiere configuración técnica.</li><li><strong>Xubio:</strong> $15.000-$40.000/mes. Contabilidad + facturación electrónica AFIP. Simple, ideal para monotributistas y PyMEs chicas.</li><li><strong>Colppy:</strong> $12.000-$35.000/mes. Contabilidad en la nube, integra con AFIP. Muy usado por contadores.</li><li><strong>Zoho One:</strong> desde $45 USD/usuario/mes (~$55.000 ARS). Suite completa: CRM, proyectos, RRHH, inventario, finanzas. Potente pero con curva de aprendizaje.</li><li><strong>ERP a medida:</strong> desde $2.000.000 de desarrollo + $80.000-$200.000/mes de mantenimiento. Solo si ningún SaaS cubre tus procesos.</li></ul><p>Para una PyME con 5-10 empleados, la inversión típica en un <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a> es de <strong>$20.000-$80.000/mes</strong>. Eso es lo que cuesta un almuerzo de equipo por semana. El costo de NO tener sistema (errores, tiempo perdido, ventas no registradas) es infinitamente mayor.</p>"
+      },
+      {
+        "heading": "El costo oculto de seguir con Excel",
+        "body": "<p>Las empresas no miden cuánto les cuesta Excel porque pareciera gratuito. Pero hagamos la cuenta:</p><p><strong>Tiempo perdido:</strong> un empleado que busca datos en planillas, arma reportes manuales y verifica información inconsistente pierde entre <strong>5 y 10 horas semanales</strong>. A $3.000/hora de costo laboral, son $60.000-$120.000/mes en trabajo improductivo. Por empleado.</p><p><strong>Errores costosos:</strong> un estudio de la Universidad de Hawaii encontró que el 88% de las planillas de Excel tienen al menos un error. En una PyME argentina, un error en una fórmula de precios, stock o cobranza puede costar <strong>$100.000-$500.000 en una sola operación</strong>.</p><p><strong>Decisiones sin datos:</strong> sin un sistema que consolide información automáticamente, tomás decisiones por intuición. ¿Cuál es tu producto más rentable? ¿Qué cliente compra más? ¿Cuánto facturaste el trimestre pasado? Si tardás más de 30 segundos en responder, estás operando a ciegas.</p><p><strong>Dependencia de personas:</strong> si la persona que armó la planilla se va, ¿quién entiende las fórmulas? ¿Quién sabe dónde está cada dato? Excel crea dependencias personales que un sistema elimina.</p>"
+      },
+      {
+        "heading": "Cómo migrar de Excel a un sistema sin que sea un caos",
+        "body": "<p>El miedo a la migración es la razón #1 por la que las PyMEs se quedan en Excel. Pero si lo hacés bien, el proceso es gradual y manejable:</p><p><strong>Paso 1 — Auditoría de planillas (1 semana):</strong> listá todas las planillas que usás, qué datos tienen, quién las usa y para qué. Identificá cuáles son críticas (facturación, stock, clientes) y cuáles son secundarias (listas varias, notas).</p><p><strong>Paso 2 — Elegí el sistema (1-2 semanas):</strong> basándote en tu auditoría, elegí un sistema que cubra al menos el 80% de tus necesidades. Probá demos gratuitas. No elijas el más completo — elegí el que tu equipo realmente va a usar.</p><p><strong>Paso 3 — Migración paralela (2-4 semanas):</strong> cargá los datos históricos al sistema y operá en paralelo (Excel + sistema) durante 2-4 semanas. Esto te da confianza de que no se pierde nada.</p><p><strong>Paso 4 — Corte (1 día):</strong> cuando estés seguro de que el sistema funciona, dejá de usar Excel. No \"gradualmente\" — cortá en seco. Si dejás la puerta abierta, la gente vuelve a Excel por costumbre.</p><p>El proceso completo tarda <strong>4-8 semanas</strong>. El proveedor del sistema debería acompañarte en la migración. Si no ofrece soporte de implementación, buscá otro.</p>"
+      },
+      {
+        "heading": "Señales de alerta: tu negocio necesita un sistema YA",
+        "body": "<p>Si alguna de estas cosas te pasó en el último mes, es hora de migrar:</p><ul><li>Se <strong>duplicó o perdió un dato</strong> porque dos personas editaban la misma planilla</li><li>Un cliente reclamó algo y no pudiste verificar el historial rápidamente</li><li>Necesitaste un reporte y tardaste <strong>más de 1 hora</strong> en armarlo</li><li>Descubriste un <strong>error en una fórmula</strong> que afectó datos de meses anteriores</li><li>Tu contador te pidió información y le mandaste 5 archivos diferentes</li><li>Un empleado se fue y nadie entiende sus planillas</li><li>Tenés más de <strong>3 planillas de Excel abiertas</strong> al mismo tiempo para trabajar</li></ul><p>Cada una de estas situaciones tiene un costo: en tiempo, en dinero o en clientes perdidos. Un <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistema de gestión</a> desde $20.000/mes elimina todos estos problemas.</p><p>No hace falta un sistema caro ni complejo. Hace falta <strong>uno que uses</strong>. ¿No sabés cuál elegir? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te recomendamos la opción justa para tu operación.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo debería dejar de usar Excel para mi negocio?",
+        "answer": "Cuando más de una persona edita los datos, cuando tenés más de 500-1.000 filas de información crítica, o cuando un error en la planilla te costó plata o tiempo. Si operás solo y tu planilla es simple, Excel sigue siendo válido."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de gestión para PyMEs en Argentina?",
+        "answer": "Desde $12.000/mes (Colppy, Xubio) hasta $80.000/mes (Zoho One, Odoo Enterprise). Para una PyME con 5-10 empleados, la inversión típica es $20.000-$60.000/mes. Es menos que el costo de un almuerzo de equipo semanal y elimina horas de trabajo manual."
+      },
+      {
+        "question": "¿Puedo migrar mis datos de Excel a un sistema de gestión?",
+        "answer": "Sí. La mayoría de los sistemas permiten importar datos desde Excel/CSV. El proceso tarda 2-4 semanas incluyendo limpieza de datos, importación y verificación. Operá en paralelo durante ese período para asegurar que no se pierda información."
+      },
+      {
+        "question": "¿Google Sheets es mejor que Excel para gestionar un negocio?",
+        "answer": "Google Sheets mejora la colaboración (varias personas editan al mismo tiempo) pero tiene las mismas limitaciones fundamentales: sin roles/permisos, sin historial de cambios robusto, sin automatización de procesos, sin reportes inteligentes. Es un parche, no una solución."
+      },
+      {
+        "question": "¿Qué sistema de gestión recomiendan para una PyME chica?",
+        "answer": "Para contabilidad y facturación: Xubio o Colppy. Para gestión integral (ventas, stock, clientes): Odoo Community. Para CRM: HubSpot Free o Zoho CRM. La mejor opción depende de tu proceso: no hay un sistema universal. Lo importante es que lo uses."
+      }
+    ],
+    "ctaText": "¿Seguís dependiendo de Excel para manejar tu negocio? Pedí tu diagnóstico gratuito y te mostramos qué sistema te conviene y cómo migrar sin caos."
+  }
+}

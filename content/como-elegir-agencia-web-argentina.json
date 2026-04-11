@@ -1,0 +1,65 @@
+{
+  "slug": "como-elegir-agencia-web-argentina",
+  "title": "Cómo elegir una agencia web en Argentina: señales de alerta, preguntas clave y qué esperar",
+  "metaTitle": "Cómo elegir una agencia web en Argentina 2026",
+  "metaDescription": "Guía para elegir agencia web: red flags, preguntas que hacer, cómo evaluar portfolios y qué tiene que incluir un presupuesto profesional.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["agencia web", "desarrollo web", "contratar agencia", "diseño web argentina"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["agencia-web-vs-freelancer", "cuanto-cuesta-pagina-web-argentina", "contratar-programador-vs-agencia"],
+  "content": {
+    "intro": "<p>Elegir una <strong>agencia web en Argentina</strong> puede ser la mejor inversión de tu negocio o la peor pesadilla. El mercado está lleno de agencias que prometen \"tu web en 7 días\" y entregan un template de WordPress con tu logo pegado encima. También hay profesionales excelentes, pero si no sabés qué preguntar, no vas a distinguirlos.</p><p>En esta guía te damos las herramientas para evaluar agencias web como un profesional: las red flags que te tienen que hacer salir corriendo, las preguntas que revelan si saben lo que hacen, y qué tiene que incluir un presupuesto serio.</p>",
+    "sections": [
+      {
+        "heading": "Red flags: señales de alerta al evaluar una agencia web",
+        "body": "<p>Si detectás alguna de estas señales, pensalo dos veces:</p><ul><li><strong>\"Tu web lista en 48 horas\":</strong> una web profesional tarda mínimo 3-4 semanas. Si prometen 48 horas, te van a dar un template con tu logo. Eso no es desarrollo web, es personalización de plantilla.</li><li><strong>No te preguntan sobre tu negocio:</strong> si la primera reunión es sobre colores y diseño en vez de tu cliente ideal, objetivos y competencia, no entienden de estrategia digital. Una web sin estrategia es un folleto caro.</li><li><strong>Presupuesto sin desglose:</strong> \"Desarrollo web: $500.000\" no es un presupuesto. Si no detalla qué incluye (cantidad de páginas, funcionalidades, revisiones, soporte), vas a tener sorpresas.</li><li><strong>No muestran portfolio con links activos:</strong> screenshots no sirven. Necesitás entrar a las webs que hicieron, probar la velocidad, ver si son responsive. Si los sitios de su portfolio ya no existen, eso te dice todo.</li><li><strong>El dominio y hosting quedan a su nombre:</strong> tu dominio tiene que estar a TU nombre. Si la agencia registra el dominio a su nombre, te tienen de rehén.</li></ul><p>Regla general: si algo parece demasiado barato o demasiado rápido, probablemente lo sea.</p>"
+      },
+      {
+        "heading": "Preguntas que tenés que hacerle a cualquier agencia",
+        "body": "<p>Antes de firmar, hacé estas 10 preguntas y evaluá las respuestas:</p><ul><li><strong>¿En qué tecnología trabajan?</strong> Respuesta esperada: WordPress, Next.js, Webflow, o similar con justificación. Red flag: \"no importa la tecnología\".</li><li><strong>¿Qué incluye el presupuesto línea por línea?</strong> Tiene que detallar: cantidad de páginas, diseño (template vs custom), funcionalidades, revisiones, plazo, soporte post-lanzamiento.</li><li><strong>¿Cuántas rondas de revisión incluyen?</strong> Respuesta razonable: 2-3 rondas. Si dicen \"ilimitadas\", no es realista y probablemente cobren extras después.</li><li><strong>¿Qué pasa después de la entrega?</strong> Preguntá por soporte, mantenimiento, y costo de cambios futuros. Una buena agencia ofrece 30 días de soporte gratuito y después un plan de mantenimiento mensual.</li><li><strong>¿Me dan acceso al código y hosting?</strong> La respuesta tiene que ser SÍ rotundo. Si la web es tuya, el código es tuyo.</li></ul><p>También preguntá por <strong>tiempos reales</strong> de proyectos similares que hayan hecho. Si te dicen \"4 semanas\" pero su último proyecto tardó 4 meses, hay un problema de gestión.</p><p>Una agencia seria no se incomoda con estas preguntas. Al contrario, las agradece porque demuestra que sos un cliente profesional.</p>"
+      },
+      {
+        "heading": "Cómo evaluar el portfolio de una agencia web",
+        "body": "<p>No alcanza con que te gusten los diseños. Evaluá esto en cada sitio del portfolio:</p><ul><li><strong>Velocidad de carga:</strong> entrá a <a href=\"https://pagespeed.web.dev/\">Google PageSpeed Insights</a> y testeá. Si sus propios proyectos cargan lento (score menor a 50), tu web también va a ser lenta.</li><li><strong>Responsive real:</strong> abrí el sitio en tu celular. No solo que se vea bien: que los botones funcionen, que el menú cierre, que el formulario sea usable. El 75% del tráfico web en Argentina es mobile.</li><li><strong>Funcionalidad:</strong> ¿los formularios funcionan? ¿El WhatsApp abre correctamente? ¿Los links están rotos? Si su portfolio tiene links rotos, imaginate lo que te van a entregar a vos.</li><li><strong>SEO básico:</strong> buscá el nombre del negocio en Google. Si la web que hicieron no rankea ni por el nombre propio del negocio, no saben de SEO.</li></ul><p>Pedí también <strong>referencias de clientes anteriores</strong>. Llamá a 2-3 y preguntá: ¿cumplieron con los plazos? ¿Hubo costos extra? ¿El soporte post-entrega fue bueno?</p><p>Si querés comparar entre agencia y freelancer, leé nuestra guía de <a href=\"/blog/agencia-web-vs-freelancer\">agencia web vs freelancer</a>.</p>"
+      },
+      {
+        "heading": "Qué tiene que incluir un presupuesto profesional",
+        "body": "<p>Un presupuesto serio de una agencia web tiene que incluir, como mínimo:</p><ul><li><strong>Alcance del proyecto:</strong> cantidad de páginas, secciones, funcionalidades. Todo lo que está incluido Y lo que no está incluido.</li><li><strong>Diseño:</strong> si es template personalizado o diseño 100% custom. Cuántas opciones de diseño te presentan. Cuántas revisiones incluyen.</li><li><strong>Tecnología:</strong> plataforma (WordPress, Next.js, etc.), hosting recomendado, plugins o integraciones.</li><li><strong>Contenido:</strong> ¿lo escriben ellos o lo proporcionás vos? Si lo escriben, ¿cuántas páginas de copy incluye?</li><li><strong>SEO:</strong> ¿incluyen optimización on-page? ¿Qué tan detallada? Al menos tienen que incluir: meta titles, meta descriptions, estructura de URLs, alt-text en imágenes.</li><li><strong>Timeline:</strong> fecha de inicio, milestones, fecha de entrega. Con buffer para revisiones.</li><li><strong>Soporte post-lanzamiento:</strong> qué incluye, por cuánto tiempo, y cuánto cuesta después.</li><li><strong>Propiedad:</strong> que quede claro que el dominio, hosting, código y contenido son tuyos.</li></ul><p>Si el presupuesto no tiene estos items, pedí que los agreguen antes de firmar. Un presupuesto vago genera conflictos después. Para entender los rangos de precio normales, leé nuestra guía de <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">cuánto cuesta una página web en Argentina</a>.</p>"
+      },
+      {
+        "heading": "Rangos de precio y qué esperar en cada uno",
+        "body": "<p>Para que tengas referencia de mercado:</p><ul><li><strong>$150.000 - $300.000 ARS:</strong> freelancer o agencia muy chica. Template de WordPress personalizado, 3-5 páginas, diseño básico responsive. No esperés estrategia, SEO avanzado ni soporte extendido. Plazo: 2-3 semanas.</li><li><strong>$300.000 - $700.000 ARS:</strong> agencia o estudio digital. Diseño semi-custom, 5-10 páginas, blog, SEO on-page, formularios avanzados, integración con WhatsApp y redes. Plazo: 4-8 semanas.</li><li><strong>$700.000 - $1.500.000 ARS:</strong> agencia con equipo completo. Diseño custom, estrategia de conversión, landing pages por servicio, CRM, automatización, métricas. Plazo: 8-12 semanas.</li><li><strong>$1.500.000+ ARS:</strong> desarrollo a medida con funcionalidades complejas (e-commerce, sistema de turnos, panel administrativo, integraciones con ERP). Plazo: 12-20 semanas.</li></ul><p>La clave no es elegir lo más barato ni lo más caro, sino <strong>elegir lo que tu negocio necesita hoy</strong> con margen para crecer. Una web de $300.000 bien hecha le gana a una de $1.500.000 mal planificada.</p>"
+      },
+      {
+        "heading": "El proceso ideal de trabajo con una agencia web",
+        "body": "<p>Así se ve un proyecto web bien gestionado:</p><ul><li><strong>Kickoff (Semana 1):</strong> reunión de descubrimiento donde la agencia entiende tu negocio, tu cliente ideal, tus objetivos y tu competencia. Te piden contenido (textos, fotos, accesos).</li><li><strong>Wireframes (Semana 2-3):</strong> te muestran la estructura de cada página sin diseño visual. Es el momento de ajustar la arquitectura de información.</li><li><strong>Diseño visual (Semana 3-5):</strong> aplican la identidad visual sobre los wireframes aprobados. Generalmente te presentan 2 opciones de diseño para la home.</li><li><strong>Desarrollo (Semana 5-8):</strong> programan la web sobre el diseño aprobado. Te dan acceso a una versión de prueba para que vayas revisando.</li><li><strong>Testing y ajustes (Semana 8-9):</strong> probás todo: formularios, velocidad, responsive, links. La agencia corrige.</li><li><strong>Lanzamiento (Semana 9-10):</strong> se pone en producción, se configuran redirects, se verifica Google Analytics y Search Console.</li></ul><p>Si la agencia que estás evaluando no tiene un proceso similar a este, probablemente improvise. Y la improvisación en desarrollo web siempre sale cara.</p><p>¿No estás seguro de qué tipo de web necesitás? <a href=\"/diagnostico\">Hacé nuestro diagnóstico gratuito</a> y te ayudamos a definir el alcance antes de que hables con cualquier agencia.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo sé si una agencia web es confiable?",
+        "answer": "Verificá portfolio con links activos, pedí referencias de clientes anteriores, evaluá la velocidad de sus webs en PageSpeed, y confirmá que el presupuesto tiene desglose detallado. Si no pueden mostrarte trabajos anteriores funcionales, es una red flag."
+      },
+      {
+        "question": "¿Cuánto cobra una agencia web en Argentina?",
+        "answer": "Desde $300.000 ARS por una web institucional básica hasta $1.500.000+ por un proyecto con estrategia de conversión y desarrollo a medida. Un freelancer cobra desde $150.000. Los precios varían según complejidad, tecnología y alcance del proyecto."
+      },
+      {
+        "question": "¿Agencia web o freelancer?",
+        "answer": "Agencia para proyectos de más de $300.000, con deadline firme o que necesiten equipo multidisciplinario. Freelancer para proyectos simples, presupuesto ajustado y si podés ser flexible con los tiempos. La opción intermedia (estudio de 2-5 personas) suele ser la mejor para PyMEs."
+      },
+      {
+        "question": "¿Qué pasa si la agencia desaparece después de entregar mi web?",
+        "answer": "Si tenés acceso al código, hosting y dominio, podés contratar a otro profesional para mantener tu web. Por eso es clave que todo quede a tu nombre. Si la agencia registró todo a su nombre, estás en problemas. Exigí la transferencia antes de pagar el último saldo."
+      },
+      {
+        "question": "¿Cuánto se paga por adelantado a una agencia web?",
+        "answer": "El estándar en Argentina es 50% al inicio y 50% contra entrega. Algunas agencias dividen en 3: 40% inicio, 30% diseño aprobado, 30% entrega. Nunca pagues el 100% por adelantado. Si la agencia lo exige, buscá otra."
+      }
+    ],
+    "ctaText": "¿Necesitás ayuda para evaluar opciones y definir qué tipo de web necesita tu negocio? Hacé nuestro diagnóstico gratuito."
+  }
+}

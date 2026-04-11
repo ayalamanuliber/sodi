@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-una-landing-page",
+  "title": "Qué es una landing page y cuándo la necesitás para tu negocio",
+  "metaTitle": "Qué es una landing page | Guía simple para PyMEs",
+  "metaDescription": "Una landing page es una página web diseñada para que el visitante haga una acción: consultar, comprar o dejar sus datos. Te explicamos cuándo conviene tener una.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["landing page", "página web", "conversión", "marketing digital"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "5 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "como-mejorar-presencia-digital", "que-es-un-embudo-de-ventas"],
+  "content": {
+    "intro": "<p>Una <strong>landing page</strong> (página de aterrizaje) es una página web con un solo objetivo: que el visitante haga algo concreto. Puede ser dejar sus datos, pedir un presupuesto, agendar un turno o comprar un producto. A diferencia de un sitio web completo, la landing page no tiene menú, no tiene 20 secciones ni distrae con información que no viene al caso.</p><p>Pensalo así: si tu sitio web completo es como un local con vidriera, góndolas y caja, una landing page es como un vendedor que te para en la puerta y te dice exactamente lo que necesitás escuchar para entrar. Es directa, enfocada y efectiva.</p>",
+    "sections": [
+      {
+        "heading": "Cómo funciona una landing page en la práctica",
+        "body": "<p>Una landing page tiene una estructura muy simple:</p><ul><li><strong>Un título claro</strong> que dice exactamente qué ofrecés o resolvés.</li><li><strong>Una propuesta de valor</strong>: por qué deberían elegirte a vos y no a otro.</li><li><strong>Prueba social</strong>: testimonios, logos de clientes, números que demuestren resultados.</li><li><strong>Un formulario o botón de acción</strong>: el paso concreto que querés que el visitante dé.</li></ul><p>La clave es que <strong>no hay escapatoria</strong>. No hay menú que lleve a otras páginas, no hay links que distraigan. El visitante tiene dos opciones: completar la acción o irse. Eso suena agresivo, pero funciona: las landing pages bien hechas convierten entre el 5% y el 20% de los visitantes, mientras que un sitio web común convierte entre el 1% y el 3%.</p><p>La landing page generalmente se usa junto con publicidad (Google Ads, Meta Ads, WhatsApp). Ponés un anuncio → la persona hace clic → llega a la landing page → deja sus datos o te contacta. Es parte de un <a href=\"/blog/que-es-un-embudo-de-ventas\">embudo de ventas</a> diseñado para convertir visitantes en clientes.</p>"
+      },
+      {
+        "heading": "Cuándo necesitás una landing page vs un sitio web completo",
+        "body": "<p>Necesitás una <strong>landing page</strong> cuando:</p><ul><li>Vas a correr una <strong>campaña de publicidad</strong> y necesitás que el tráfico caiga en una página específica, no en tu sitio general.</li><li>Querés <strong>probar un servicio o producto nuevo</strong> rápido y barato antes de armar un sitio completo.</li><li>Tenés un <strong>evento, promoción o lanzamiento</strong> puntual con fecha de inicio y fin.</li><li>Querés <strong>captar datos de potenciales clientes</strong> (emails, teléfonos) para después contactarlos.</li></ul><p>Necesitás un <strong>sitio web completo</strong> cuando:</p><ul><li>Querés que Google te encuentre para múltiples búsquedas (<a href=\"/blog/que-es-seo-y-por-que-importa\">SEO</a>).</li><li>Necesitás mostrar un catálogo de productos o servicios amplio.</li><li>Querés transmitir confianza y profesionalismo con información detallada sobre tu empresa.</li><li>Necesitás funcionalidades como e-commerce, turnos online, área de clientes.</li></ul><p>Lo ideal para muchas PyMEs es tener ambos: un sitio web para presencia y SEO, y landing pages específicas para campañas puntuales.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta una landing page en Argentina",
+        "body": "<p>Los precios varían según quién la haga y con qué tecnología:</p><p><strong>Landing page con herramientas DIY</strong> (Carrd, Wix, WordPress + Elementor): $0-20 USD/mes. La hacés vos con plantillas. Sirve para probar rápido, pero el resultado suele verse genérico y tiene limitaciones de personalización.</p><p><strong>Landing page diseñada por un profesional</strong>: $150.000-$500.000 ARS. Un diseñador o estudio te la arma con tu identidad visual, textos persuasivos y optimizada para conversión. Tarda 1-2 semanas. Es la opción con mejor relación costo-resultado para la mayoría de las PyMEs.</p><p><strong>Landing page con desarrollo custom</strong>: $400.000-$1.200.000 ARS. Incluye integraciones con CRM, formularios inteligentes, A/B testing, analytics avanzado. Para empresas que invierten fuerte en publicidad y necesitan maximizar cada clic.</p><p>Sumá el costo de <strong>hosting y dominio</strong> si no tenés uno: entre $10.000 y $50.000 ARS/año dependiendo del proveedor. Podés ver más detalles en <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">cuánto cuesta una página web en Argentina</a>.</p>"
+      },
+      {
+        "heading": "Qué hace que una landing page convierta bien",
+        "body": "<p>No alcanza con tener una landing page: tiene que estar bien hecha. Los elementos clave:</p><p><strong>Título que enganche en 3 segundos</strong>: el visitante decide en segundos si se queda o se va. El título tiene que decir exactamente qué resolvés. \"Diseñamos tu sitio web en 7 días\" funciona mejor que \"Soluciones digitales integrales\".</p><p><strong>Un solo llamado a la acción</strong>: no pongas 3 botones diferentes. Un formulario, un botón de WhatsApp, o una acción clara. Si le das muchas opciones, no elige ninguna.</p><p><strong>Prueba social real</strong>: testimonios con nombre y empresa, no \"Cliente satisfecho\". Números concretos: \"287 empresas ya usan nuestro sistema\" es más creíble que \"miles de clientes\".</p><p><strong>Velocidad de carga</strong>: si tarda más de 3 segundos en cargar, perdés el 40% de los visitantes. Nada de videos pesados ni imágenes sin comprimir.</p><p><strong>Diseño mobile-first</strong>: el 70% del tráfico en Argentina viene del celular. Si tu landing se ve mal en el teléfono, estás tirando el 70% de la inversión en publicidad.</p>"
+      },
+      {
+        "heading": "Errores comunes al hacer landing pages",
+        "body": "<p>Los errores que vemos en PyMEs argentinas todo el tiempo:</p><ul><li><strong>Poner demasiada información</strong>: la landing no es tu sitio web completo. Si ponés tu historia, tu equipo, tus 15 servicios y tu blog, dejó de ser una landing page. Enfocate en UN mensaje y UNA acción.</li><li><strong>No medir resultados</strong>: si no sabés cuántas personas entraron y cuántas te contactaron, no podés mejorar nada. Mínimo poné Google Analytics y un pixel de seguimiento.</li><li><strong>Mandar tráfico pago a tu página de inicio</strong>: tu página de inicio tiene menú, links, noticias, secciones. Todo eso distrae. El tráfico pago tiene que ir a una landing dedicada, no a tu home.</li><li><strong>Formularios largos</strong>: pedí solo lo que necesitás. Nombre, teléfono y qué necesita. Si pedís 8 campos, nadie completa el formulario.</li></ul><p>Una buena landing page no es cara ni difícil de hacer. Pero sí requiere pensar qué querés que pase cuando alguien la visite. Sin esa claridad, ningún diseño te salva.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la diferencia entre una landing page y una página web?",
+        "answer": "Una página web es un sitio completo con varias secciones y páginas (inicio, servicios, contacto, etc.). Una landing page es una sola página con un único objetivo: que el visitante haga una acción concreta como dejar sus datos o contactarte."
+      },
+      {
+        "question": "¿Puedo hacer una landing page gratis?",
+        "answer": "Sí, herramientas como Carrd (plan gratuito) o Google Sites te permiten crear landing pages sin costo. El resultado es básico, pero sirve para probar una idea rápido. Para resultados profesionales, conviene invertir en diseño."
+      },
+      {
+        "question": "¿Cuánto tarda en hacerse una landing page?",
+        "answer": "Una landing page con herramienta DIY la tenés en 1-2 días. Una profesional tarda 1-2 semanas (diseño, textos, configuración). Una landing custom con integraciones puede llevar 2-4 semanas."
+      },
+      {
+        "question": "¿Necesito una landing page si ya tengo un sitio web?",
+        "answer": "Sí, si vas a hacer publicidad paga. El tráfico de anuncios convierte mucho mejor en una landing page dedicada que en tu sitio web general, porque la landing está enfocada en una sola acción sin distracciones."
+      },
+      {
+        "question": "¿Qué porcentaje de conversión es bueno para una landing page?",
+        "answer": "Entre el 5% y el 10% es bueno, entre el 10% y el 20% es excelente. Depende del rubro y del tráfico. Si tu landing convierte menos del 3%, hay algo que mejorar en el diseño, el mensaje o la oferta."
+      }
+    ],
+    "ctaText": "¿Necesitás una landing page que realmente convierta visitantes en clientes? Hacé el diagnóstico gratuito de SODI y te diseñamos la estrategia de conversión."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "como-automatizar-procesos-repetitivos",
+  "title": "Cómo automatizar procesos repetitivos en tu empresa: herramientas, ROI y plan de implementación",
+  "metaTitle": "Cómo automatizar procesos repetitivos en PyMEs",
+  "metaDescription": "Identificá tareas repetitivas, elegí herramientas (Zapier, Make, custom) y calculá el ROI. Guía práctica de automatización para PyMEs argentinas.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["automatización", "zapier", "make", "productividad", "procesos"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["como-ordenar-operacion-interna-pyme", "que-es-automatizacion-para-empresas", "como-escalar-operacion-sin-contratar"],
+  "content": {
+    "intro": "<p>Si en tu empresa alguien copia datos de un email a una planilla, manda el mismo WhatsApp 30 veces por día, o arma presupuestos desde cero copiando y pegando, estás <strong>pagando un sueldo por trabajo de robot</strong>. La automatización no es solo para empresas grandes: hoy existen herramientas que cualquier PyME puede usar para eliminar horas de trabajo manual sin contratar un programador.</p><p>En esta guía te mostramos cómo identificar qué automatizar, qué herramientas usar según la complejidad, cómo calcular el ROI de cada automatización y un plan de implementación paso a paso.</p>",
+    "sections": [
+      {
+        "heading": "Identificá las tareas que estás haciendo de más",
+        "body": "<p>Antes de automatizar, necesitás saber <strong>qué automatizar</strong>. No todo vale la pena. Seguí esta regla:</p><p>Una tarea es candidata a automatización si cumple 3 de estas 4 condiciones:</p><ul><li><strong>Es repetitiva:</strong> se hace más de 3 veces por semana de la misma manera.</li><li><strong>Es predecible:</strong> siempre sigue los mismos pasos, sin juicio humano complejo.</li><li><strong>Conecta sistemas:</strong> tomás datos de un lugar y los ponés en otro (email → Excel, formulario → CRM, pedido → factura).</li><li><strong>Consume tiempo significativo:</strong> lleva más de 15 minutos cada vez o se acumula en más de 2 horas semanales.</li></ul><p>Las automatizaciones más comunes en PyMEs argentinas:</p><ul><li>Copiar datos de formularios web al CRM o Google Sheet</li><li>Enviar emails de confirmación/seguimiento después de una acción</li><li>Generar presupuestos o facturas desde una plantilla</li><li>Enviar recordatorios de pago automáticos</li><li>Sincronizar stock entre canales de venta</li><li>Notificar al equipo cuando llega un lead nuevo</li><li>Armar reportes semanales automáticamente</li></ul><p>Hacé una lista de todo lo que hacés manualmente durante una semana. Vas a encontrar al menos 5-10 tareas automatizables.</p>"
+      },
+      {
+        "heading": "Herramientas de automatización: cuál usar según la complejidad",
+        "body": "<p>Las herramientas se dividen en 3 niveles:</p><p><strong>Nivel 1 - Automatización nativa (gratis):</strong></p><ul><li>Respuestas automáticas de Gmail, reglas de email</li><li>Auto-respuestas de WhatsApp Business</li><li>Plantillas de Google Docs que se autocompletan</li><li>Google Forms → Google Sheets automático</li><li>Notificaciones automáticas de Google Calendar</li></ul><p><strong>Nivel 2 - Conectores no-code (USD 20-100/mes):</strong></p><ul><li><strong>Zapier:</strong> el más popular. Conecta 6.000+ apps. Plan gratis: 5 \"zaps\" con 100 tareas/mes. Plan Starter: USD 19.99/mes (750 tareas). Ideal para: formulario → CRM, email → Slack, nuevo pedido → notificación.</li><li><strong>Make (ex Integromat):</strong> más potente y más barato que Zapier. Plan gratis: 1.000 operaciones/mes. Pro: USD 9/mes (10.000 operaciones). Mejor para flujos complejos con múltiples pasos y condicionales.</li><li><strong>n8n:</strong> open source, self-hosted (gratis) o cloud (USD 20/mes). Para los más técnicos. Sin límite de ejecuciones si lo hosteás vos.</li></ul><p><strong>Nivel 3 - Desarrollo custom:</strong></p><ul><li>Scripts propios (Python, JavaScript)</li><li>APIs directas entre sistemas</li><li>Desarrollo de módulos a medida</li><li>Costo: desde $200.000 ARS por automatización. Se justifica cuando el volumen es alto o las herramientas no-code no alcanzan.</li></ul>"
+      },
+      {
+        "heading": "Calculá el ROI antes de automatizar",
+        "body": "<p>No automatices todo: automatizá lo que da ROI. La fórmula es simple:</p><p><strong>Ahorro mensual = (horas ahorradas × costo/hora) + (errores evitados × costo por error)</strong></p><p>Ejemplo concreto:</p><ul><li><strong>Tarea:</strong> copiar datos de formulario web a Google Sheet y enviar email de confirmación.</li><li><strong>Frecuencia:</strong> 20 veces por semana (80/mes)</li><li><strong>Tiempo manual:</strong> 5 minutos cada vez = 400 minutos/mes (6.7 horas)</li><li><strong>Costo hora empleado:</strong> $3.000</li><li><strong>Ahorro en tiempo:</strong> $20.100/mes</li><li><strong>Errores evitados:</strong> 2 datos mal cargados/mes × $5.000 de costo de corrección = $10.000/mes</li><li><strong>Ahorro total:</strong> $30.100/mes</li><li><strong>Costo de Zapier:</strong> USD 19.99/mes (~$20.000 ARS)</li><li><strong>ROI mensual:</strong> $10.100 positivo + tiempo liberado para tareas que generan valor</li></ul><p>Regla rápida: si la automatización <strong>ahorra más de 2 horas semanales</strong>, se paga sola con cualquier herramienta del Nivel 2.</p><p>Priorizá las automatizaciones por ROI: empezá por la que más tiempo o plata te ahorra, no por la más fácil de implementar.</p>"
+      },
+      {
+        "heading": "5 automatizaciones que toda PyME debería tener",
+        "body": "<p>Si no sabés por dónde empezar, estas 5 automatizaciones cubren las necesidades más universales:</p><ul><li><strong>1. Lead capture → CRM:</strong> formulario de tu web o de redes → se crea automáticamente un contacto en tu CRM con todos los datos. Herramienta: Zapier/Make. Setup: 30 min.</li><li><strong>2. Recordatorio de seguimiento:</strong> cuando un lead lleva más de 48 horas sin respuesta → se genera una notificación al vendedor (email, Slack o WhatsApp). Herramienta: CRM nativo o Zapier. Setup: 20 min.</li><li><strong>3. Factura automática:</strong> cuando se confirma un pago → se emite factura electrónica automáticamente. Herramienta: Colppy/Xubio con integración a tu tienda. Setup: 1 hora.</li><li><strong>4. Reporte semanal automático:</strong> cada lunes a las 9 AM, recibís un email con: leads nuevos, ventas cerradas, consultas pendientes. Herramienta: Make + Google Sheets. Setup: 2 horas.</li><li><strong>5. Bienvenida a cliente nuevo:</strong> cuando un cliente compra por primera vez → se le envía automáticamente un email de bienvenida con info útil, garantía, y contacto de soporte. Herramienta: Zapier o Mailchimp. Setup: 30 min.</li></ul><p>Implementar estas 5 automatizaciones toma un fin de semana y te ahorra <strong>10-20 horas mensuales</strong> de trabajo manual. Leé nuestra guía sobre <a href=\"/blog/como-ordenar-operacion-interna-pyme\">cómo ordenar tu operación interna</a> para el contexto completo.</p>"
+      },
+      {
+        "heading": "Plan de implementación: de manual a automatizado en 30 días",
+        "body": "<p>Plan concreto para automatizar tu operación sin desbordar:</p><ul><li><strong>Semana 1:</strong> Auditoría. Listá todas las tareas repetitivas. Calculá el tiempo y frecuencia de cada una. Priorizá por ROI.</li><li><strong>Semana 2:</strong> Primera automatización. Elegí la de mayor ROI. Creá tu cuenta en Zapier o Make. Implementá, probá y ajustá. No toques nada más.</li><li><strong>Semana 3:</strong> Segunda y tercera automatización. Con la experiencia de la primera, las siguientes van más rápido. Empezá a documentar cada automatización (qué hace, dónde está configurada, qué pasa si falla).</li><li><strong>Semana 4:</strong> Cuarta y quinta automatización + revisión. Revisá las que implementaste: ¿están funcionando correctamente? ¿Hay errores? ¿Hay que ajustar algo? Documentá todo.</li></ul><p>Después del primer mes, adoptá el hábito: <strong>cada vez que hagas algo manualmente y pienses \"esto debería ser automático\", anotálo</strong>. Una vez por mes, evaluá si esa nueva automatización vale la pena e implementala.</p><p>Error común: automatizar un proceso malo. <strong>Antes de automatizar, asegurate de que el proceso sea eficiente</strong>. Automatizar ineficiencia te da ineficiencia más rápida.</p><p>Si necesitás ayuda para identificar qué automatizar en tu negocio, <a href=\"/diagnostico\">hacé nuestro diagnóstico gratuito</a>.</p>"
+      },
+      {
+        "heading": "Cuándo la automatización no-code no alcanza",
+        "body": "<p>Zapier y Make tienen límites. Necesitás desarrollo custom cuando:</p><ul><li><strong>El volumen es muy alto:</strong> más de 10.000 operaciones/mes. El costo de Zapier/Make se vuelve prohibitivo y un script custom es más económico.</li><li><strong>La lógica es compleja:</strong> decisiones con múltiples variables, cálculos especiales, transformaciones de datos que las herramientas no-code no manejan.</li><li><strong>Necesitás tiempo real:</strong> Zapier tiene un delay de hasta 15 minutos en planes básicos. Si necesitás que la automatización se ejecute al instante, un webhook custom es mejor.</li><li><strong>Integraciones con sistemas legacy:</strong> si tu ERP o sistema de gestión no tiene API ni integración con Zapier, necesitás desarrollo para conectarlo.</li></ul><p>Costo de desarrollo custom: desde <strong>$200.000 ARS por automatización simple</strong> hasta $1.000.000+ para integraciones complejas entre múltiples sistemas. Leé nuestra guía sobre <a href=\"/blog/como-escalar-operacion-sin-contratar\">cómo escalar sin contratar</a> para entender cuándo la automatización reemplaza headcount.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta automatizar procesos en una PyME?",
+        "answer": "Automatización nativa (respuestas automáticas, templates) es gratis. Zapier/Make cuestan desde USD 0-20/mes para automatizaciones básicas. Desarrollo custom arranca en $200.000 ARS por automatización. La mayoría de las PyMEs resuelven sus necesidades con USD 20-50/mes en herramientas no-code."
+      },
+      {
+        "question": "¿Necesito saber programar para automatizar?",
+        "answer": "No. Herramientas como Zapier y Make son 100% no-code (se configuran con interfaz visual, sin escribir código). Son diseñadas para usuarios sin perfil técnico. Solo necesitás programación si querés automatizaciones muy complejas o de alto volumen."
+      },
+      {
+        "question": "¿Qué es mejor, Zapier o Make?",
+        "answer": "Zapier es más fácil de usar y tiene más integraciones (6.000+ apps). Make es más potente para flujos complejos y más barato a escala. Para PyMEs que arrancan, Zapier. Para automatizaciones multi-paso con lógica condicional, Make."
+      },
+      {
+        "question": "¿Cuánto tiempo se ahorra con automatización?",
+        "answer": "Depende de las tareas, pero las PyMEs que implementan 5-10 automatizaciones básicas ahorran entre 15 y 40 horas mensuales de trabajo manual. Eso equivale a 2-5 días laborales por mes que se liberan para tareas que generan valor."
+      },
+      {
+        "question": "¿Puede fallar una automatización?",
+        "answer": "Sí. Las automatizaciones pueden fallar por cambios en las APIs, datos inesperados o errores de configuración. Zapier y Make tienen alertas de error por email. Revisá tus automatizaciones semanalmente el primer mes y después quincenalmente. Tené un plan B manual para cada automatización crítica."
+      }
+    ],
+    "ctaText": "¿Querés saber qué procesos de tu negocio se pueden automatizar? Hacé nuestro diagnóstico gratuito y te armamos un plan."
+  }
+}

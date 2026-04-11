@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-consultorios",
+  "title": "Cómo automatizar WhatsApp para consultorios médicos: turnos, recordatorios y atención 24/7",
+  "metaTitle": "Automatizar WhatsApp para Consultorios | SODI",
+  "metaDescription": "Automatizá turnos, recordatorios y consultas de tu consultorio médico por WhatsApp. Menos llamadas, menos ausencias, más pacientes.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["consultorios médicos", "WhatsApp Business", "turnos online", "automatización", "salud"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["pagina-web-para-consultorios-medicos", "sistema-de-turnos-para-consultorios-medicos", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>En un consultorio médico argentino, el teléfono suena todo el día. La secretaria atiende, agenda, reprograma, recuerda turnos y responde las mismas preguntas una y otra vez. Mientras tanto, <strong>los pacientes que escriben por WhatsApp esperan horas</strong> para recibir un \"dale, te anoto\". Automatizar WhatsApp no significa reemplazar a tu equipo: significa que cada paciente reciba respuesta al instante y que tu consultorio funcione incluso fuera del horario de atención.</p><p>En esta guía te mostramos qué mensajes automatizar, cómo armar un bot que agende turnos y qué herramientas usar según el tamaño de tu consultorio.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes podés automatizar en un consultorio",
+        "body": "<p>El 70% de los mensajes que recibe un consultorio son repetitivos. Estos son los que un bot resuelve perfectamente:</p><ul><li><strong>Agendar turnos:</strong> \"¿Querés sacar turno? Elegí la especialidad y te muestro los horarios disponibles.\"</li><li><strong>Recordatorio de turno:</strong> mensaje automático 24 hs antes: \"Recordá que mañana tenés turno a las 10:00 con el Dr. [Nombre]. Respondé SI para confirmar o NO para reprogramar.\"</li><li><strong>Cancelación y reprogramación:</strong> el paciente cancela por chat y el sistema libera el horario automáticamente.</li><li><strong>Información de preparación:</strong> \"Para tu estudio de laboratorio, recordá venir con 8 horas de ayuno.\"</li><li><strong>Horarios, ubicación y obras sociales:</strong> respuesta instantánea a las 3 preguntas más frecuentes.</li></ul><p>Solo con los recordatorios automáticos, los consultorios reducen las <strong>ausencias entre un 30% y un 50%</strong>. Cada turno perdido es plata que no entra y un paciente que otro podría haber ocupado.</p>"
+      },
+      {
+        "heading": "Flujo de bot ideal para consultorios médicos",
+        "body": "<p>Un bot médico tiene que ser <strong>claro, rápido y empático</strong>. No puede sonar como un robot de telefonía. El flujo recomendado:</p><ol><li>Saludo personalizado: \"Hola [nombre], bienvenido/a al Consultorio [X]. ¿En qué te puedo ayudar?\"</li><li>Menú principal: Sacar turno / Cancelar turno / Consultar horarios / Hablar con recepción</li><li>Si elige sacar turno: selección de profesional o especialidad → días disponibles → horarios → confirmación</li><li>Confirmación con datos: \"Tu turno quedó agendado: [fecha], [hora], [profesional]. Te vamos a recordar el día anterior.\"</li><li>Derivación a humano si la consulta es médica o compleja</li></ol><p>Es fundamental que el bot <strong>nunca dé consejos médicos</strong>. Ante cualquier consulta de salud, debe responder: \"Para consultas médicas, te recomendamos hablar directamente con nuestro equipo\" y derivar a un humano.</p><p>La integración con un <a href=\"/blog/sistema-de-turnos-para-consultorios-medicos\">sistema de turnos online</a> hace que el bot no solo responda, sino que realmente agende en tu calendario.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para consultorios",
+        "body": "<p>Las opciones van desde lo gratuito hasta soluciones completas:</p><ul><li><strong>WhatsApp Business gratis:</strong> respuestas rápidas predefinidas, mensaje de ausencia, etiquetas para organizar pacientes. Ideal para consultorios chicos con menos de 50 turnos/semana.</li><li><strong>Bots con plataformas SaaS (Cliengo, AutoBot, ChatCompose):</strong> desde USD 25/mes. Flujos visuales, sin código. Buenos para consultorios medianos.</li><li><strong>Integración con sistema de turnos (AgendaPro, TuMedico.com):</strong> algunos ya incluyen notificaciones por WhatsApp. Desde USD 30-50/mes.</li><li><strong>Desarrollo custom con API de WhatsApp:</strong> desde USD 300 de setup + USD 20-50/mes de mantenimiento. Para clínicas con múltiples profesionales y alto volumen.</li></ul><p>El cálculo es simple: si tu secretaria gasta 3 horas diarias en tareas que el bot puede hacer, eso son <strong>60 horas mensuales</strong>. ¿Cuánto vale ese tiempo? Probablemente mucho más que USD 30-50 de un bot.</p><p>Además, el consultorio que responde en 2 minutos a las 22 hs gana el paciente que el otro consultorio atiende recién al día siguiente.</p>"
+      },
+      {
+        "heading": "Reducir ausencias con recordatorios automáticos",
+        "body": "<p>Las ausencias son el dolor de cabeza número uno de cualquier consultorio. Un paciente que no viene es un turno vacío que ya no podés llenar. Los recordatorios por WhatsApp son <strong>la herramienta más efectiva para reducirlas</strong>.</p><p>Un sistema de recordatorios bien armado incluye:</p><ul><li><strong>Recordatorio 48 hs antes:</strong> informativo, con datos del turno y opción de cancelar</li><li><strong>Confirmación 24 hs antes:</strong> \"Respondé SI para confirmar tu turno de mañana a las [hora]\"</li><li><strong>Si no confirma:</strong> un segundo mensaje o llamada automática 4 horas antes</li><li><strong>Si cancela:</strong> ofrecerle reprogramar automáticamente y liberar el turno para la lista de espera</strong></li></ul><p>Los consultorios que implementan este sistema reportan tasas de ausencia menores al <strong>10%</strong>, cuando el promedio sin recordatorios ronda el 25-35%. Eso puede significar recuperar entre 5 y 15 turnos por semana.</p><p>Combinado con una <a href=\"/blog/pagina-web-para-consultorios-medicos\">página web profesional</a> donde los pacientes también puedan sacar turnos, tenés un ecosistema digital completo.</p>"
+      },
+      {
+        "heading": "Privacidad y regulaciones: qué tener en cuenta",
+        "body": "<p>Trabajar con datos de salud implica <strong>responsabilidades legales</strong> que no podés ignorar:</p><ul><li><strong>Ley de Protección de Datos Personales (25.326):</strong> los datos de pacientes son sensibles. Necesitás consentimiento explícito para enviarles mensajes y almacenar su información.</li><li><strong>Confidencialidad médica:</strong> el bot nunca debe mencionar diagnósticos, tratamientos o resultados por chat. Esa información va por canales seguros.</li><li><strong>Historial de conversaciones:</strong> si usás un proveedor de bot, asegurate de que los datos se almacenen en servidores seguros y que puedas eliminarlos si el paciente lo pide.</li><li><strong>Consentimiento de contacto:</strong> incluí un opt-in claro cuando el paciente saca turno: \"¿Querés recibir recordatorios por WhatsApp?\"</li></ul><p>Estas precauciones no son opcionales. Además de ser ley, generan <strong>confianza profesional</strong>. Un consultorio que maneja bien los datos se diferencia.</p><p>¿Querés saber cómo está tu WhatsApp hoy y qué podrías mejorar? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede atender consultas médicas de los pacientes?",
+        "answer": "No. El bot debe limitarse a tareas administrativas: turnos, recordatorios, información general del consultorio. Ante cualquier consulta médica, debe derivar automáticamente a un profesional humano. Dar información médica por bot genera riesgos legales y de salud."
+      },
+      {
+        "question": "¿Cuánto se reducen las ausencias con recordatorios automáticos?",
+        "answer": "Los consultorios que implementan recordatorios por WhatsApp reducen las ausencias entre un 30% y un 50%. Con un sistema de doble confirmación (48 hs y 24 hs antes), las tasas de ausencia bajan al 10% o menos."
+      },
+      {
+        "question": "¿Puedo usar el WhatsApp personal del consultorio para automatizar?",
+        "answer": "No es recomendable. Necesitás WhatsApp Business como mínimo, y para bots con flujos complejos necesitás la API de WhatsApp Business. Usar un número personal no te da las herramientas de automatización y mezcla la comunicación profesional con la personal."
+      }
+    ],
+    "ctaText": "¿Tu consultorio pierde pacientes por no responder a tiempo? Pedí un diagnóstico gratuito y te mostramos cómo automatizar tu WhatsApp en una semana."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-consultorios",
+  "title": "Sistema de Gestión para Consultorios Médicos en Argentina",
+  "metaTitle": "Sistema de Gestión para Consultorios Argentina",
+  "metaDescription": "Organizá turnos, historias clínicas, facturación y obras sociales de tu consultorio con un sistema de gestión. Opciones y costos en Argentina 2026.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "consultorios", "salud", "historia clínica digital"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-consultorios-medicos", "cuanto-cuesta-app-de-turnos", "que-es-un-crm-y-para-que-sirve"],
+  "content": {
+    "intro": "<p>Si tenés un consultorio médico, odontológico o de cualquier especialidad en Argentina, tu día probablemente incluye estas escenas: una secretaria que atiende el teléfono sin parar para dar turnos, historias clínicas en carpetas de cartón que ocupan un armario entero, y facturación a obras sociales que es un dolor de cabeza constante. <strong>Todo eso se resuelve con un sistema de gestión.</strong></p><p>Un <strong>sistema de gestión para consultorios</strong> integra agenda de turnos, historia clínica electrónica, facturación a obras sociales y prepagas, y comunicación con pacientes. En esta guía te explicamos qué necesitás y cuánto cuesta.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas operativos de un consultorio sin sistema",
+        "body": "<p>Los consultorios médicos tienen desafíos de gestión muy específicos:</p><ul><li><strong>Turnos que desbordan:</strong> La secretaria pasa el 70% del tiempo atendiendo el teléfono para dar, cambiar y cancelar turnos. No puede hacer otra cosa.</li><li><strong>Historias clínicas en papel:</strong> Ocupan espacio, se pierden, son ilegibles y no cumplen con la normativa actual de digitalización.</li><li><strong>Facturación a obras sociales engorrosa:</strong> Cada obra social y prepaga tiene sus propios formularios, códigos y plazos. Los errores de carga generan rechazos y demoras en el cobro.</li><li><strong>Pacientes que no vienen:</strong> El ausentismo a turnos puede llegar al 20-30%. Sin recordatorios automáticos, se pierden horas productivas del profesional.</li><li><strong>Cero seguimiento:</strong> Un paciente que vino hace 6 meses por un control y no volvió... ¿se cayó del radar o decidió no volver? Sin datos, no sabés.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades esenciales de un sistema para consultorios",
+        "body": "<p>Un sistema completo para consultorios incluye:</p><ul><li><strong>Agenda de turnos online:</strong> El paciente saca turno desde la web o WhatsApp, elige especialidad, profesional y horario. Confirmación automática y recordatorio 24hs antes. Si querés ir más allá, podés implementar una <a href=\"/blog/cuanto-cuesta-app-de-turnos\">app de turnos dedicada</a>.</li><li><strong>Historia clínica electrónica (HCE):</strong> Registro digital de consultas, diagnósticos, tratamientos, estudios, recetas. Cumplimiento con la Ley de Historia Clínica Digital.</li><li><strong>Recetas electrónicas:</strong> Generación de recetas digitales válidas para obras sociales, con firma electrónica del profesional.</li><li><strong>Facturación a obras sociales y prepagas:</strong> Carga de prestaciones con códigos (PMO, nomenclador), generación de lotes, presentación y seguimiento de cobros.</li><li><strong>Gestión de pacientes:</strong> Ficha con datos personales, obra social, historial de turnos, alergias, medicación crónica.</li><li><strong>Reportes:</strong> Pacientes atendidos, ingresos por obra social, tasa de ausentismo, tiempos de espera.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para consultorios",
+        "body": "<p>El sector salud tiene opciones SaaS muy maduras:</p><p><strong>SaaS especializados:</strong> MediFé Gestión, TurnOnline, Medilink, Dr. Cloud. Plataformas pensadas para consultorios con todas las funcionalidades del rubro. Precios accesibles, implementación en días.</p><p><strong>Sistemas para clínicas/centros médicos:</strong> Si tenés múltiples consultorios, varias especialidades y necesitás gestión centralizada, hay soluciones más robustas como Hiscom o EG Salud.</p><p><strong>Sistema a medida:</strong> Solo tiene sentido para centros médicos grandes con flujos operativos muy particulares, integración con equipos médicos, o necesidades de interoperabilidad con otros sistemas de salud.</p><p>Para la gran mayoría de los consultorios individuales o de 2-5 profesionales, <strong>un SaaS especializado es la mejor opción</strong>. Es rápido de implementar, económico y ya resuelve los problemas típicos del rubro. Complementalo con una buena <a href=\"/blog/pagina-web-para-consultorios-medicos\">página web para tu consultorio</a>.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para consultorios en 2026",
+        "body": "<p>Los rangos de inversión:</p><ul><li><strong>SaaS básico (1 profesional):</strong> $8.000 - $25.000 ARS/mes (turnos, HCE básica, agenda)</li><li><strong>SaaS profesional (1-5 profesionales):</strong> $25.000 - $80.000 ARS/mes (HCE completa, facturación a OS, reportes, receta electrónica)</li><li><strong>Sistema para centro médico:</strong> $80.000 - $250.000 ARS/mes (múltiples especialidades, caja, farmacia interna)</li><li><strong>Sistema a medida:</strong> $3.000.000 - $10.000.000 ARS de desarrollo</li></ul><p>El retorno más inmediato viene de la <strong>reducción de ausentismo</strong> (los recordatorios automáticos lo bajan del 25% al 8-10%) y de la <strong>mejora en facturación a obras sociales</strong> (menos rechazos = cobrás más rápido).</p>"
+      },
+      {
+        "heading": "Implementación: cómo migrar sin perder historias clínicas",
+        "body": "<p>La mayor preocupación de los profesionales de salud es la migración de historias clínicas:</p><ul><li><strong>No digitalices todo el archivo:</strong> Las historias clínicas antiguas en papel se pueden mantener en archivo. Digitalizar solo las de pacientes activos (los que vinieron en los últimos 12 meses).</li><li><strong>Carga progresiva:</strong> Cada vez que un paciente viene, cargá su historia en el sistema. En 3-6 meses tenés el 80% digitalizado sin esfuerzo extra.</li><li><strong>Turnos online gradual:</strong> Empezá ofreciendo turnos online como opción, sin eliminar el teléfono. Cuando el 60-70% de los turnos se saquen online, podés reducir las horas de secretaría telefónica.</li><li><strong>Capacitación del profesional:</strong> El médico tiene que registrar la consulta en el sistema. Al principio tarda un poco más, pero en 2 semanas se naturaliza.</li><li><strong>Facturación:</strong> Arrancá facturando las obras sociales principales en el sistema. Sumá las demás progresivamente.</li></ul><p>En 4-8 semanas el consultorio opera 100% con el nuevo sistema. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> si querés evaluar opciones.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿La historia clínica electrónica cumple con la ley?",
+        "answer": "Sí. Los sistemas homologados cumplen con la Ley 26.529 de Derechos del Paciente y la normativa de Historia Clínica Electrónica. Incluyen firma digital, auditoría de accesos y backup."
+      },
+      {
+        "question": "¿Los pacientes pueden sacar turno online?",
+        "answer": "Sí. La mayoría de los sistemas ofrecen un link de turnos que podés poner en tu web, redes sociales o enviar por WhatsApp. El paciente elige día, horario y profesional."
+      },
+      {
+        "question": "¿El sistema factura a todas las obras sociales?",
+        "answer": "Los sistemas más completos incluyen los nomencladores de las principales obras sociales y prepagas. Verificá que incluya las que más atendés antes de contratar."
+      },
+      {
+        "question": "¿Puedo emitir recetas electrónicas?",
+        "answer": "Sí. Los sistemas actualizados permiten generar recetas electrónicas con firma digital, válidas para obras sociales y farmacias."
+      },
+      {
+        "question": "¿El sistema envía recordatorios de turno automáticos?",
+        "answer": "Sí. Se envían por WhatsApp, SMS o email 24-48 horas antes del turno. Esto reduce el ausentismo significativamente, del 25% a menos del 10%."
+      }
+    ],
+    "ctaText": "¿Tu consultorio necesita más organización y menos papeles? Agendá un diagnóstico gratuito y encontrá el sistema ideal."
+  }
+}

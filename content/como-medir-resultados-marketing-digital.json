@@ -1,0 +1,65 @@
+{
+  "slug": "como-medir-resultados-marketing-digital",
+  "title": "Cómo medir resultados de marketing digital: métricas, herramientas y qué mirar en cada canal",
+  "metaTitle": "Cómo medir resultados de marketing digital PyME",
+  "metaDescription": "GA4, Meta Insights, WhatsApp stats y conversion tracking. Qué métricas importan para cada canal y cómo medir el ROI real de tu marketing.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["marketing digital", "métricas", "google analytics", "roi marketing"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["que-es-marketing-digital-para-pymes", "como-conseguir-clientes-por-internet", "marketing-digital-vs-tradicional"],
+  "content": {
+    "intro": "<p>\"Estoy invirtiendo en marketing digital pero no sé si está funcionando.\" Esta es la frase que más escuchamos de PyMEs argentinas. Gastan en Instagram Ads, Google Ads, community manager y SEO, pero no pueden responder <strong>cuántos clientes les trajo cada canal ni cuánto les costó cada uno</strong>.</p><p>La buena noticia: medir resultados de marketing digital es más fácil y barato que medir marketing tradicional. En esta guía te mostramos qué métricas mirar en cada canal, qué herramientas usar (la mayoría gratuitas) y cómo armar un reporte mensual que te diga exactamente dónde poner la plata.</p>",
+    "sections": [
+      {
+        "heading": "Las 4 métricas que toda PyME tiene que medir",
+        "body": "<p>Olvidate de dashboards con 50 métricas. Para una PyME, estas 4 te dicen todo lo que necesitás saber:</p><ul><li><strong>Tráfico:</strong> cuánta gente visita tu web. Sin tráfico, no hay ventas. Medilo con Google Analytics 4 (gratis). Si tu tráfico es menor a 500 visitas/mes, tu prioridad es generar tráfico, no optimizar conversiones.</li><li><strong>Leads (consultas):</strong> cuántas personas te contactan por mes (WhatsApp, formulario, email, teléfono). Esta es la métrica puente entre tráfico y ventas.</li><li><strong>Tasa de conversión:</strong> qué porcentaje de tus leads se convierte en cliente. Si recibís 100 consultas y cerrás 5, tu tasa es 5%. Para la mayoría de los rubros, 5-15% es saludable.</li><li><strong>Costo de adquisición de cliente (CAC):</strong> cuánto gastás en marketing para conseguir un cliente. Si invertiste $200.000 en marketing y conseguiste 10 clientes, tu CAC es $20.000. Si tu ticket promedio es $100.000, tu ROI es excelente. Si tu ticket es $25.000, estás en problemas.</li></ul><p>Con estas 4 métricas podés tomar el 80% de las decisiones de marketing. Todas las demás son derivadas o complementarias.</p>"
+      },
+      {
+        "heading": "Google Analytics 4: cómo configurarlo y qué mirar",
+        "body": "<p><strong>Google Analytics 4 (GA4)</strong> es la herramienta gratuita más importante para medir tu marketing digital. Si no la tenés instalada, hacelo hoy.</p><p>Setup básico (30 minutos):</p><ul><li>Creá una cuenta en analytics.google.com</li><li>Creá una propiedad para tu sitio web</li><li>Instalá el código de seguimiento en tu web (tu desarrollador lo hace en 5 minutos, o usá Google Tag Manager)</li><li>Verificá que esté recibiendo datos (en 24 horas deberías ver las primeras visitas)</li></ul><p>Qué mirar en GA4 (reportes semanales):</p><ul><li><strong>Informes → Adquisición:</strong> de dónde viene tu tráfico. Orgánico (Google), Directo, Social, Paid. Si pagás Google Ads y el 90% de tu tráfico es directo, algo anda mal.</li><li><strong>Informes → Engagement → Páginas:</strong> qué páginas visitan más. Si tu página de servicios tiene 10 visitas/mes y tu home tiene 500, la gente no está llegando donde importa.</li><li><strong>Informes → Conversiones:</strong> configurá eventos para formularios enviados, clics en WhatsApp, llamadas. Esto te dice cuántos leads genera tu web.</li></ul><p>El error más común: instalar GA4 y <strong>nunca mirarlo</strong>. Agendá 15 minutos cada lunes para revisar estas 3 secciones. Es la inversión de tiempo con mayor retorno que podés hacer en marketing.</p>"
+      },
+      {
+        "heading": "Métricas por canal: qué mirar en cada plataforma",
+        "body": "<p>Cada canal tiene sus métricas relevantes:</p><p><strong>Google Ads:</strong></p><ul><li>CPC (costo por clic): cuánto pagás por cada visita. En Argentina: $150-$800 ARS según rubro.</li><li>CTR (tasa de clics): qué % de gente que ve tu anuncio hace clic. Menos de 3% = tu anuncio no atrae.</li><li>Conversiones: cuántos de esos clics se convirtieron en leads. Necesitás tener conversiones configuradas en GA4.</li><li>Costo por conversión: lo más importante. Si tu costo por lead supera el 30% de tu ticket, ajustá.</li></ul><p><strong>Meta Ads (Instagram/Facebook):</strong></p><ul><li>Alcance y frecuencia: cuántas personas vieron tu anuncio y cuántas veces.</li><li>CTR (link click): cuántos hicieron clic hacia tu web. Menos del 1% = creatividad pobre o audiencia mal segmentada.</li><li>Costo por resultado: depende del objetivo (mensaje, lead, conversión). Compará mes a mes.</li></ul><p><strong>Redes sociales (orgánico):</strong></p><ul><li>Alcance: cuántas personas únicas ven tu contenido.</li><li>Engagement rate: (likes + comentarios + guardados + compartidos) / alcance. Menos del 2% = contenido que no conecta.</li><li>Clics al link bio / mensajes: la métrica que más se acerca a la venta.</li></ul><p><strong>WhatsApp Business:</strong></p><ul><li>Mensajes recibidos: volumen de consultas.</li><li>Tasa de respuesta: % respondido en menos de 24 horas (WhatsApp lo muestra).</li><li>Mensajes enviados vs leídos: tu tasa de apertura.</li></ul>"
+      },
+      {
+        "heading": "Cómo trackear conversiones de WhatsApp",
+        "body": "<p>En Argentina, la mayoría de las conversiones pasan por <strong>WhatsApp</strong>. El problema: WhatsApp no es fácil de trackear como un formulario web. Soluciones:</p><ul><li><strong>Links de WhatsApp con UTM:</strong> usá links distintos para cada canal. Ejemplo: wa.me/5491112345678?text=Consulta_Instagram vs wa.me/5491112345678?text=Consulta_Google. Así sabés de dónde viene cada consulta.</li><li><strong>Botón de WhatsApp con evento de GA4:</strong> configurá un evento de Google Analytics que se dispare cuando alguien hace clic en el botón de WhatsApp de tu web. Tu desarrollador lo hace en 30 minutos con Google Tag Manager.</li><li><strong>Preguntá siempre \"¿cómo nos encontraste?\":</strong> la forma más simple. Agregá esta pregunta a tu flujo de ventas. No es perfecta pero te da datos útiles.</li><li><strong>CRM con origen de lead:</strong> si usás un CRM como HubSpot, registrá de qué canal viene cada contacto. Después podés filtrar y ver: 10 de Google, 5 de Instagram, 3 de referidos.</li></ul><p>Lo ideal es combinar al menos 2 de estos métodos. Los links con texto diferenciado + el registro en CRM te dan una visión bastante precisa de qué canal genera resultados reales.</p>"
+      },
+      {
+        "heading": "Cómo armar tu reporte mensual de marketing",
+        "body": "<p>Cada mes, dedicá 1 hora a armar un reporte simple. No necesitás una herramienta cara: un <strong>Google Sheet</strong> alcanza.</p><p>Estructura del reporte:</p><ul><li><strong>Tráfico web:</strong> visitas totales, por canal (orgánico, directo, social, paid), comparativa con mes anterior.</li><li><strong>Leads generados:</strong> total de consultas, desglosado por canal (WhatsApp, formulario, email, teléfono).</li><li><strong>Inversión por canal:</strong> cuánto gastaste en Google Ads, Meta Ads, CM, herramientas.</li><li><strong>CAC por canal:</strong> inversión en el canal / clientes que trajo. El número más importante del reporte.</li><li><strong>Ventas atribuidas:</strong> cuánto facturaste gracias a cada canal.</li><li><strong>ROI por canal:</strong> (ventas - inversión) / inversión. Si tu ROI es negativo en un canal después de 3 meses, cortalo o cambiá la estrategia.</li></ul><p>Regla de decisión simple:</p><ul><li><strong>ROI positivo y creciendo:</strong> metele más presupuesto.</li><li><strong>ROI positivo pero estancado:</strong> optimizá (mejor copy, mejor segmentación, mejor landing).</li><li><strong>ROI negativo después de 3 meses:</strong> cortá o cambiá radicalmente.</li></ul><p>Si no sabés cómo interpretar tus métricas o qué decisiones tomar, <a href=\"/diagnostico\">hacé nuestro diagnóstico gratuito</a> y te ayudamos a leer los datos.</p>"
+      },
+      {
+        "heading": "Errores comunes al medir marketing digital",
+        "body": "<p>Los errores que vemos todo el tiempo en PyMEs argentinas:</p><ul><li><strong>Medir vanidad:</strong> \"tenemos 5.000 seguidores\" no significa nada si no se traduce en consultas. Enfocate en leads y ventas, no en likes.</li><li><strong>No esperar suficiente:</strong> Google Ads necesita 2-4 semanas de datos para optimizarse. SEO necesita 3-6 meses. Si cortás un canal después de 1 semana, nunca vas a saber si funcionaba.</li><li><strong>Comparar canales con tiempos distintos:</strong> no compares el ROI de Google Ads (resultados inmediatos) con SEO (resultados a 6 meses). Son inversiones con horizontes diferentes.</li><li><strong>No tener conversiones configuradas:</strong> GA4 sin eventos de conversión es como un auto sin velocímetro. Configurá al menos: envío de formulario, clic en WhatsApp, y clic en teléfono.</li><li><strong>Atribuir todo al último clic:</strong> un cliente puede verte en Instagram, buscar tu nombre en Google, entrar a tu web, y contactarte por WhatsApp. ¿Quién se lleva el crédito? La respuesta es: todos los canales participaron. No le atribuyas todo al último.</li></ul><p>Lo más importante: <strong>cualquier medición imperfecta es mejor que no medir</strong>. Empezá con lo básico (GA4 + un Sheet de seguimiento) y refiná con el tiempo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué herramientas necesito para medir marketing digital?",
+        "answer": "Lo esencial y gratuito: Google Analytics 4 (tráfico web), Google Search Console (SEO), Meta Business Suite (redes), y un Google Sheet para consolidar. Con estas 4 herramientas gratuitas cubrís el 90% de la medición."
+      },
+      {
+        "question": "¿Cuánto tiempo dedicar a medir resultados?",
+        "answer": "15 minutos semanales para revisar métricas clave (tráfico, leads). 1 hora mensual para armar el reporte completo y tomar decisiones. No necesitás más que eso. La parálisis por análisis es tan mala como no medir."
+      },
+      {
+        "question": "¿Cómo sé si mi marketing digital está funcionando?",
+        "answer": "Si tu costo de adquisición de cliente (CAC) es menor al 30% de tu ticket promedio y estás generando más leads mes a mes, tu marketing funciona. Si tu CAC supera el 50% del ticket o tus leads bajan, necesitás ajustar."
+      },
+      {
+        "question": "¿Google Analytics es difícil de usar?",
+        "answer": "GA4 tiene una curva de aprendizaje, pero para PyMEs solo necesitás mirar 3 reportes: Adquisición (de dónde viene el tráfico), Engagement (qué páginas visitan) y Conversiones (quién contactó). Con un tutorial de YouTube de 30 minutos arrancás."
+      },
+      {
+        "question": "¿Cuánto tengo que invertir en marketing digital para ver resultados?",
+        "answer": "Depende del rubro y canal. Google Ads: mínimo $8.000-$15.000/día para generar datos. Meta Ads: mínimo $5.000-$10.000/día. SEO: inversión en tiempo o $15.000-$40.000/mes en contenido. El rango total típico para una PyME es $100.000-$500.000/mes."
+      }
+    ],
+    "ctaText": "¿No sabés si tu marketing digital está funcionando? Hacé nuestro diagnóstico gratuito y te ayudamos a medir lo que importa."
+  }
+}

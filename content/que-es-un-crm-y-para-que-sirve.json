@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-un-crm-y-para-que-sirve",
+  "title": "Qué es un CRM y para qué sirve: guía simple para PyMEs argentinas",
+  "metaTitle": "Qué es un CRM y para qué sirve | Guía PyMEs 2026",
+  "metaDescription": "Un CRM es un sistema para organizar clientes, ventas y seguimientos en un solo lugar. Te explicamos cómo funciona y cuándo tu empresa necesita uno.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["crm", "gestión de clientes", "ventas", "pymes"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-crm-para-pymes", "como-implementar-crm-en-mi-empresa", "crm-gratuito-vs-pago"],
+  "content": {
+    "intro": "<p>Un <strong>CRM</strong> (Customer Relationship Management) es un sistema que te permite guardar toda la información de tus clientes, tus ventas y tus seguimientos en un solo lugar. En vez de tener datos en la cabeza, en una libreta, en Excel y en WhatsApp, un CRM centraliza todo para que no se te escape ningún cliente.</p><p>Si alguna vez perdiste una venta porque te olvidaste de hacer el seguimiento, o si no sabés cuántos presupuestos mandaste este mes ni cuántos se cerraron, un CRM resuelve exactamente eso. No es un sistema complicado: es simplemente una herramienta que ordena tu relación con tus clientes para que vendas más sin trabajar más.</p>",
+    "sections": [
+      {
+        "heading": "Qué hace un CRM en la práctica",
+        "body": "<p>Un CRM guarda una <strong>ficha por cada cliente o contacto</strong>. Ahí ves todo: nombre, teléfono, correo, qué te consultó, cuándo lo contactaste por última vez, si le mandaste un presupuesto, si compró o no, y cualquier nota que quieras agregar.</p><p>Pero no es solo una agenda glorificada. Un CRM te avisa cuándo tenés que hacer un seguimiento, te muestra en qué etapa está cada venta (\"consultó\", \"presupuesto enviado\", \"cerrado\"), y te da números concretos: cuántas consultas recibiste, cuántas se convirtieron en ventas, cuánta plata facturaste.</p><p>Por ejemplo, si tenés un estudio contable y 200 clientes, un CRM te muestra quiénes tienen vencimientos este mes, a quiénes les falta documentación, y quiénes no renovaron el servicio. Sin CRM, esos datos están en la cabeza de alguien — y cuando esa persona se va de vacaciones, el caos es total.</p><p>Los CRM más conocidos son <strong>HubSpot</strong> (tiene versión gratuita), <strong>Zoho CRM</strong> (económico y completo), <strong>Salesforce</strong> (para empresas grandes) y soluciones custom hechas a medida para tu negocio específico.</p>"
+      },
+      {
+        "heading": "Señales de que tu empresa necesita un CRM",
+        "body": "<p>No toda empresa necesita un CRM el primer día. Pero hay señales claras de que ya lo necesitás:</p><ul><li><strong>Perdés seguimientos</strong>: te piden un presupuesto y te acordás 10 días después de que nunca contestaste.</li><li><strong>No sabés cuántas ventas cerraste este mes</strong>: la información está dispersa entre WhatsApp, mail y la cabeza de cada vendedor.</li><li><strong>Tenés más de 50 clientes activos</strong>: con menos, una planilla puede alcanzar. Con más, se vuelve inmanejable.</li><li><strong>Hay más de una persona vendiendo o atendiendo clientes</strong>: sin CRM, cada uno tiene su propia información y nadie ve el panorama completo.</li><li><strong>Querés crecer pero no podés controlar lo que ya tenés</strong>: escalar sin sistema es multiplicar el desorden.</li></ul><p>Si te identificás con dos o más de estos puntos, un CRM te va a cambiar la operación. No es un lujo: es la diferencia entre vender de memoria y vender con sistema.</p>"
+      },
+      {
+        "heading": "Tipos de CRM y cuál conviene para cada negocio",
+        "body": "<p>Hay tres caminos principales para tener un CRM:</p><p><strong>CRM gratuito o económico (HubSpot Free, Zoho)</strong>: ideales si estás arrancando, tenés un equipo chico (1-5 personas) y necesitás algo simple para ordenar contactos y seguimientos. HubSpot Free te deja gestionar hasta 1.000 contactos sin pagar nada. Zoho arranca en $14 USD/mes por usuario.</p><p><strong>CRM de plataforma (Salesforce, Pipedrive, Monday)</strong>: para empresas más establecidas que necesitan automatizaciones, reportes avanzados y conexión con otros sistemas. Cuestan entre $30 y $100 USD/mes por usuario. Son potentes pero requieren configuración y capacitación.</p><p><strong>CRM a medida</strong>: cuando tu negocio tiene procesos muy específicos que ninguna plataforma resuelve bien. Por ejemplo, una <a href=\"/blog/pagina-web-para-inmobiliarias\">inmobiliaria</a> que necesita cruzar propiedades con búsquedas de clientes, o un estudio jurídico que necesita vincular clientes con expedientes. El costo inicial es mayor, pero se adapta 100% a tu operación.</p><p>Para la mayoría de PyMEs argentinas, <strong>arrancar con HubSpot Free o Zoho</strong> es la mejor decisión. Te ordena sin gastar, y cuando le encontrás el límite, migrás a algo más potente con datos limpios.</p>"
+      },
+      {
+        "heading": "Qué errores evitar al elegir un CRM",
+        "body": "<p>El error más común es <strong>comprar un CRM caro y complejo sin tener claro qué necesitás</strong>. Empresas que pagan $100 USD/mes por usuario en Salesforce cuando HubSpot Free les alcanzaba de sobra. Primero definí qué información necesitás rastrear y qué proceso querés ordenar.</p><p>Otro error frecuente: <strong>elegir un CRM y no cargarlo</strong>. Un CRM vacío no sirve para nada. Si tu equipo sigue anotando todo en WhatsApp y no carga los datos en el sistema, es plata tirada. La adopción es más importante que la herramienta.</p><p>También evitá <strong>CRMs que no se integren con WhatsApp</strong>. En Argentina, el 80% de la comunicación comercial pasa por WhatsApp. Si tu CRM no se conecta con WhatsApp (o al menos no te deja registrar esas conversaciones fácil), vas a tener la información partida en dos.</p><p>Por último, no confundas un CRM con un <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a>. El CRM gestiona la relación con el cliente (ventas, seguimientos, comunicación). El sistema de gestión maneja la operación interna (stock, facturación, producción). Son complementarios, no lo mismo.</p>"
+      },
+      {
+        "heading": "Cómo arrancar con un CRM sin complicarte",
+        "body": "<p>El camino más simple para empezar:</p><ul><li><strong>Paso 1</strong>: Abrí una cuenta gratuita en HubSpot o Zoho. Tardás 10 minutos.</li><li><strong>Paso 2</strong>: Cargá tus 20 clientes más importantes con nombre, teléfono, mail y última interacción.</li><li><strong>Paso 3</strong>: Definí 3-4 etapas de venta simples (\"Consulta nueva\", \"Presupuesto enviado\", \"Seguimiento\", \"Cerrado\").</li><li><strong>Paso 4</strong>: Cada vez que hablés con un cliente, registralo en el CRM. Aunque cueste los primeros días, en una semana se vuelve automático.</li></ul><p>En 30 días vas a tener datos reales de tu negocio: cuántas consultas recibís, cuántas se cierran, cuánto tarda cada venta. Con esos datos podés tomar decisiones — no adivinanzas.</p><p>Si después de probar sentís que necesitás algo más adaptado a tu negocio, en SODI podemos evaluar tu operación y recomendarte la solución justa. No tiene sentido pagar de más ni quedarse corto.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué significa CRM en español?",
+        "answer": "CRM significa 'Gestión de Relaciones con el Cliente'. Es un sistema para organizar toda la información de tus clientes, ventas y seguimientos en un solo lugar, en vez de tenerla dispersa en WhatsApp, Excel y la memoria."
+      },
+      {
+        "question": "¿Un CRM sirve para un negocio chico?",
+        "answer": "Sí, siempre que tengas más de 30-50 clientes o contactos activos. Con menos, una planilla puede alcanzar. Con más, un CRM gratuito como HubSpot te ahorra horas y evita que pierdas ventas por falta de seguimiento."
+      },
+      {
+        "question": "¿Cuánto cuesta un CRM para una PyME en Argentina?",
+        "answer": "Desde $0 (HubSpot Free, Zoho Free) hasta $30-100 USD/mes por usuario en plataformas pagas. Un CRM a medida arranca en $500.000-$1.500.000 ARS. La mayoría de las PyMEs arrancan bien con la versión gratuita."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre un CRM y un sistema de gestión?",
+        "answer": "El CRM gestiona la relación con el cliente (ventas, seguimientos, comunicación). El sistema de gestión administra la operación interna (facturación, stock, producción). Son complementarios: el CRM te ayuda a vender, el sistema de gestión a operar."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva implementar un CRM?",
+        "answer": "Con una plataforma gratuita podés estar funcionando en 1-2 días. Una implementación más completa con datos migrados, integraciones y capacitación tarda 2-4 semanas. Un CRM custom a medida puede llevar 4-8 semanas."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás un CRM, un sistema de gestión o ambos? Hacé el diagnóstico gratuito de SODI y te armamos una recomendación a medida."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-seguros",
+  "title": "Cómo automatizar WhatsApp para productores de seguros: cotizaciones, renovaciones y siniestros",
+  "metaTitle": "Automatizar WhatsApp para Seguros | SODI",
+  "metaDescription": "Automatizá cotizaciones, renovaciones y gestión de siniestros por WhatsApp. Más pólizas, menos trabajo administrativo.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["seguros", "productores de seguros", "WhatsApp Business", "cotizaciones", "renovaciones"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "cuanto-cuesta-crm-para-pymes", "cuanto-cuesta-pagina-web-argentina"],
+  "content": {
+    "intro": "<p>Si sos productor de seguros en Argentina, tu negocio depende de <strong>dos cosas: vender pólizas nuevas y renovar las existentes</strong>. Y ambas pasan por WhatsApp. El potencial cliente que pide cotización, el asegurado que pregunta qué cubre su póliza, la renovación que vence el viernes y nadie avisó. Todo llega al mismo chat que usás para hablar con tu familia.</p><p>Automatizar WhatsApp significa que cada cotización se atienda al instante, que las renovaciones se avisen solas, y que los siniestros se gestionen con un flujo claro. Más pólizas, menos caos administrativo.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar como productor de seguros",
+        "body": "<p>Los mensajes más frecuentes en la producción de seguros:</p><ul><li><strong>Cotización:</strong> \"¿Cuánto sale un seguro de auto para un [modelo/año]?\" → bot recopila datos del vehículo/bien y genera cotización o la pasa al productor.</li><li><strong>Renovación:</strong> recordatorio automático 30 y 15 días antes del vencimiento: \"Tu póliza de [tipo] vence el [fecha]. ¿Querés renovar en las mismas condiciones?\"</li><li><strong>Cobertura:</strong> \"¿Mi seguro cubre [situación]?\" → respuesta con resumen de coberturas del plan contratado.</li><li><strong>Siniestro:</strong> \"Tuve un choque, ¿qué hago?\" → bot guía paso a paso: denuncia, fotos, documentación.</li><li><strong>Pago de cuota:</strong> recordatorio de vencimiento con link de pago o datos bancarios.</li></ul><p>Solo con las renovaciones automatizadas, un productor con 200 pólizas evita <strong>perder entre 10 y 20 renovaciones por año</strong> que se caían por falta de aviso. Eso puede representar cientos de miles de pesos en comisiones perdidas.</p>"
+      },
+      {
+        "heading": "Flujo de bot para cotizar seguros",
+        "body": "<p>La cotización por WhatsApp tiene que ser <strong>rápida y profesional</strong>. El flujo ideal:</p><ol><li>\"¡Hola! ¿Qué tipo de seguro necesitás?\" → Auto / Hogar / Vida / ART / Comercio / Otro</li><li>Según el tipo, preguntas específicas: Auto → marca, modelo, año, uso, zona. Hogar → tipo, m2, zona, valor contenido.</li><li>\"¿Tenés seguro actualmente? ¿Con qué compañía?\"</li><li>Bot genera cotización estimada con 2-3 opciones de compañías</li><li>\"¿Querés avanzar con alguna? Te explico coberturas y formas de pago.\" → derivación a humano</li><li>Follow-up a las 48 hs si no respondió: \"¿Pudiste revisar las cotizaciones? ¿Tenés alguna duda?\"</li></ol><p>Para seguros de auto (el más cotizado), muchos productores tienen acceso a <strong>multicotizadores</strong>. El bot puede recopilar los datos y lanzar la cotización en el sistema, enviando los resultados por WhatsApp en minutos.</p><p>La velocidad importa: el potencial cliente que pide cotización a 3 productores <strong>cierra con el que responde primero y mejor</strong>.</p>"
+      },
+      {
+        "heading": "Renovaciones automáticas: tu ingreso recurrente",
+        "body": "<p>Las renovaciones son el <strong>ingreso más importante</strong> de un productor de seguros. Perder una renovación por no avisar a tiempo es imperdonable. Secuencia de renovación automatizada:</p><ul><li><strong>60 días antes:</strong> revisión interna del productor. ¿Hay que ajustar suma asegurada? ¿Cambiar cobertura?</li><li><strong>30 días antes:</strong> mensaje al cliente: \"Tu póliza de [tipo] vence el [fecha]. Te preparamos la renovación con las mejores condiciones.\"</li><li><strong>15 días antes:</strong> \"Te enviamos la propuesta de renovación. [Adjunto]. ¿La revisamos juntos?\"</li><li><strong>7 días antes:</strong> si no respondió: \"Tu póliza vence en 7 días. Es importante renovarla para no quedar sin cobertura. ¿Hablamos?\"</li><li><strong>Día del vencimiento:</strong> \"Tu póliza vence hoy. Si no renovás, quedás sin cobertura desde mañana. ¿Necesitás ayuda?\"</li></ul><p>Los productores que implementan esta secuencia tienen tasas de renovación del <strong>85-90%</strong>, contra un promedio del 70-75% sin automatización. En una cartera de 200 pólizas, eso significa <strong>20-30 pólizas más renovadas por año</strong>.</p>"
+      },
+      {
+        "heading": "Gestión de siniestros por WhatsApp",
+        "body": "<p>Cuando un asegurado tiene un siniestro, <strong>está estresado y necesita guía clara</strong>. Un bot bien armado lo contiene y recopila todo lo necesario:</p><ol><li>\"Lamentamos lo sucedido. ¿Qué tipo de siniestro es?\" → Accidente auto / Robo / Daño hogar / Otro</li><li>Bot guía paso a paso: \"Antes que nada, ¿estás bien? ¿Necesitás asistencia de emergencia?\"</li><li>Checklist de acciones: hacer la denuncia policial, tomar fotos, no mover el vehículo (si aplica)</li><li>Recopilación de datos: fotos del daño, datos de terceros, croquis del accidente</li><li>\"Recibimos toda la información. Tu reclamo está siendo procesado. Un asesor te contacta en las próximas 24 hs.\"</li></ol><p>El bot <strong>no reemplaza al productor en el siniestro</strong>, pero sí recopila la información necesaria y contiene al cliente mientras el productor evalúa el caso. Eso es especialmente valioso a las 2 de la mañana cuando el asegurado tiene un choque y el productor está durmiendo.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para productores de seguros",
+        "body": "<p>Opciones según el tamaño de la cartera:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas con coberturas, etiquetas por tipo de póliza. Para productores con menos de 100 pólizas.</li><li><strong>CRM de seguros + WhatsApp (SICS, SeguPro desde USD 30/mes):</strong> algunos CRM de seguros argentinos ya incluyen alertas de renovación por WhatsApp.</li><li><strong>Bots SaaS (Botmaker, Cliengo desde USD 25/mes):</strong> flujos de cotización y captación. Para productores en crecimiento.</li><li><strong>Desarrollo custom (desde USD 300 setup):</strong> integración con multicotizador y sistema de gestión de cartera.</li></ul><p>El ROI en seguros es claro: si cada póliza renovada te genera $5.000-$15.000 de comisión anual, salvar 20 renovaciones con recordatorios automáticos te da <strong>$100.000-$300.000 extra al año</strong>. El bot cuesta menos que una póliza.</p><p>¿Querés optimizar tu producción? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te mostramos qué automatizar primero.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede emitir pólizas directamente?",
+        "answer": "No. El bot recopila datos para cotizar y facilita la gestión, pero la emisión de pólizas sigue siendo responsabilidad del productor a través de los sistemas de las aseguradoras. Lo que sí puede es enviar la propuesta al cliente para su aceptación."
+      },
+      {
+        "question": "¿Cómo manejo múltiples compañías aseguradoras con un solo bot?",
+        "answer": "El bot recopila los datos del riesgo y vos (o tu multicotizador) generás las opciones de varias compañías. El bot envía un comparativo con las mejores opciones. No necesitás un bot por compañía."
+      },
+      {
+        "question": "¿Es seguro enviar datos de pólizas por WhatsApp?",
+        "answer": "WhatsApp tiene cifrado de extremo a extremo, lo que lo hace razonablemente seguro para datos de pólizas. Para información muy sensible (datos de tarjeta, información médica de vida), usá canales más formales. Siempre pedí consentimiento del asegurado."
+      }
+    ],
+    "ctaText": "¿Perdés renovaciones por no avisar a tiempo? Pedí un diagnóstico gratuito y te armamos un sistema automático de renovaciones por WhatsApp."
+  }
+}

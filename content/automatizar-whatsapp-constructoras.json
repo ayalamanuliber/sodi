@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-constructoras",
+  "title": "Cómo automatizar WhatsApp para constructoras y desarrolladoras: consultas de obra, presupuestos y seguimiento",
+  "metaTitle": "Automatizar WhatsApp para Constructoras | SODI",
+  "metaDescription": "Automatizá consultas, presupuestos y avances de obra en tu constructora por WhatsApp. Más leads calificados, menos ruido.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["constructoras", "desarrolladoras", "WhatsApp Business", "presupuestos", "construcción"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-constructoras", "redes-sociales-para-constructoras", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>En el rubro de la construcción, <strong>cada consulta que no respondés puede ser una obra que perdiste</strong>. El problema es que las constructoras reciben consultas de todo tipo: desde alguien que quiere cotizar una reforma de cocina hasta un inversor interesado en un emprendimiento. Filtrar, responder y hacer seguimiento de todo eso manualmente es imposible si tenés obras en ejecución.</p><p>Automatizar WhatsApp te permite responder al instante, calificar cada lead y que tu equipo comercial solo reciba las consultas que valen la pena. Te mostramos cómo implementarlo.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una constructora",
+        "body": "<p>Las consultas más frecuentes en constructoras y desarrolladoras:</p><ul><li><strong>Info de emprendimientos:</strong> \"¿Cuánto sale un 2 ambientes en [proyecto]?\" → bot envía ficha con planos, precios, formas de pago y link a la <a href=\"/blog/pagina-web-para-constructoras\">web del desarrollo</a>.</li><li><strong>Solicitud de presupuesto:</strong> \"Necesito presupuesto para [tipo de obra]\" → bot pide datos básicos (tipo, metros, ubicación, plazo) y deriva al área comercial.</li><li><strong>Estado de obra:</strong> para compradores o inversores: \"¿Cómo va la obra?\" → bot envía el último reporte con fotos y porcentaje de avance.</li><li><strong>Documentación y requisitos:</strong> \"¿Qué necesito para reservar una unidad?\" → respuesta automática con checklist de documentos.</li><li><strong>Visitas a obra o showroom:</strong> agendar recorridos con día y horario.</li></ul><p>Automatizar estas consultas te ahorra horas de trabajo comercial y asegura que <strong>ningún lead se pierda</strong> por demora en la respuesta.</p>"
+      },
+      {
+        "heading": "Flujo de bot para calificar leads de construcción",
+        "body": "<p>No todas las consultas son iguales. Un bot bien armado <strong>filtra y califica</strong> antes de pasar el lead a un humano:</p><ol><li>\"Hola, gracias por contactar [Constructora]. ¿Qué te interesa?\" → Emprendimientos / Construcción a medida / Reformas / Inversión</li><li>Si elige emprendimientos → \"¿Qué tipo de unidad buscás?\" → Monoambiente / 2 amb / 3 amb / Local comercial</li><li>Bot envía ficha del proyecto con info relevante</li><li>\"¿Querés agendar una visita al showroom o hablar con un asesor?\" → agenda o deriva</li><li>Si elige construcción a medida → bot pide: tipo de obra, metros estimados, zona, presupuesto aproximado, plazo deseado</li><li>Con esos datos, el comercial recibe un lead precalificado con toda la info necesaria</li></ol><p>Un lead que llega con datos ya recopilados <strong>convierte el doble</strong> que uno que llega como un simple \"hola, quiero info\". Tu equipo comercial trabaja con leads listos, no con ruido.</p>"
+      },
+      {
+        "heading": "Seguimiento de obra por WhatsApp",
+        "body": "<p>Para constructoras que venden unidades en pozo o hacen obras a medida, <strong>el seguimiento de obra es un diferencial enorme</strong>:</p><ul><li><strong>Reporte mensual automático:</strong> fotos de avance + porcentaje completado + próximos hitos. Se envía el primer lunes de cada mes a todos los compradores.</li><li><strong>Hitos importantes:</strong> \"¡Tu unidad ya tiene losa! Te compartimos fotos del avance.\" → genera confianza y entusiasmo.</li><li><strong>Documentación:</strong> envío automático de boletos, actas, certificados de avance cuando están listos.</li><li><strong>Cuotas y pagos:</strong> recordatorio de vencimiento de cuotas de fideicomiso con link de pago.</li></ul><p>Los compradores en pozo tienen <strong>ansiedad natural</strong> por el avance de su inversión. Un sistema que los mantiene informados proactivamente reduce las consultas reactivas en un 70% y genera satisfacción.</p><p>Esto se traduce en <strong>más referidos</strong>: un comprador bien informado recomienda tu constructora.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para constructoras",
+        "body": "<p>Las opciones según el tipo de constructora:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, catálogo de proyectos. Para constructoras chicas con 1-2 proyectos activos.</li><li><strong>CRM + WhatsApp (Tokko, Salesforce, HubSpot desde USD 30/mes):</strong> gestión de leads con integración de WhatsApp. Ideal para desarrolladoras con equipo comercial.</li><li><strong>Bots SaaS (Botmaker, Cliengo desde USD 30/mes):</strong> flujos de calificación de leads y envío de fichas automáticas.</li><li><strong>Desarrollo custom con API (desde USD 400 setup):</strong> integración con sistema de gestión de obra, reportes automáticos, panel de seguimiento para compradores.</li></ul><p>En construcción, un solo lead bien atendido puede representar una venta de <strong>USD 50.000 a USD 200.000+</strong>. Si el bot te ayuda a captar y convertir un lead más por mes que antes se perdía, el ROI es astronómico.</p>"
+      },
+      {
+        "heading": "Errores comunes y cómo evitarlos",
+        "body": "<p>El rubro de la construcción tiene particularidades que hay que considerar:</p><ul><li><strong>Enviar información desactualizada:</strong> precios, disponibilidad y estados de obra cambian constantemente. Actualizá el bot cada vez que hay cambios.</li><li><strong>No calificar leads:</strong> si el bot pasa todas las consultas sin filtrar, tu equipo comercial se ahoga en ruido y descuida los leads con potencial real.</li><li><strong>Prometer plazos por bot:</strong> nunca des fechas de entrega por WhatsApp automatizado. Eso lo habla un humano con contexto de la obra.</li><li><strong>No hacer seguimiento post-consulta:</strong> en construcción, los ciclos de venta son largos (3-12 meses). Necesitás secuencias de nurturing: contenido de valor cada 2-3 semanas para mantener al lead caliente.</li><li><strong>Usar un solo canal para todo:</strong> separá la comunicación comercial (leads nuevos) de la de postventa (compradores actuales).</li></ul><p>¿Querés mejorar la atención comercial de tu constructora? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te mostramos qué automatizar primero.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede enviar planos y renders de los proyectos?",
+        "answer": "Sí. El bot puede enviar imágenes, PDFs con planos, renders y videos de recorrido virtual. Lo ideal es tener una ficha por proyecto con todo incluido y que el bot la envíe cuando el interesado selecciona ese emprendimiento."
+      },
+      {
+        "question": "¿Cómo manejo consultas de diferentes proyectos con un solo WhatsApp?",
+        "answer": "El bot segmenta desde el inicio preguntando por qué proyecto consulta. Internamente, cada conversación se etiqueta y el lead se asigna al comercial del proyecto correspondiente. Herramientas como Cliengo o CRMs inmobiliarios manejan esto nativamente."
+      },
+      {
+        "question": "¿Conviene automatizar también la comunicación con proveedores y subcontratistas?",
+        "answer": "Para proveedores y subcontratistas es mejor usar grupos de WhatsApp organizados por obra, no bots. La automatización de WhatsApp tiene más impacto en el área comercial y la relación con compradores."
+      }
+    ],
+    "ctaText": "¿Tu constructora pierde leads por no responder a tiempo? Pedí un diagnóstico gratuito y te armamos un flujo de captación por WhatsApp."
+  }
+}

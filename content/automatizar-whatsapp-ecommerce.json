@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-ecommerce",
+  "title": "Cómo automatizar WhatsApp para ecommerce: consultas, seguimiento de pedidos y recupero de carritos",
+  "metaTitle": "Automatizar WhatsApp para Ecommerce | SODI",
+  "metaDescription": "Automatizá la atención de tu tienda online por WhatsApp. Respondé consultas, recuperá carritos abandonados y avisá el estado de envíos.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["ecommerce", "WhatsApp Business", "carritos abandonados", "tienda online", "automatización"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "cuanto-cuesta-bot-whatsapp-empresas", "como-vender-por-internet-argentina"],
+  "content": {
+    "intro": "<p>Si tenés una tienda online en Argentina, <strong>WhatsApp es tu vendedor número uno</strong>. El 70% de los compradores argentinos prefieren consultar por WhatsApp antes de comprar, incluso si la tienda tiene toda la info. \"¿Tenés stock?\", \"¿Cuánto sale el envío a Tucumán?\", \"¿Llega para el viernes?\". Estas preguntas se repiten cientos de veces por semana.</p><p>Automatizar WhatsApp para tu ecommerce significa responder al instante, recuperar ventas perdidas y mantener al cliente informado desde que compra hasta que recibe. Todo sin contratar más gente.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en un ecommerce",
+        "body": "<p>Estos son los mensajes que más volumen generan y que un bot resuelve perfecto:</p><ul><li><strong>Stock y disponibilidad:</strong> \"¿Tenés la remera en talle M?\" → el bot consulta tu inventario y responde al instante.</li><li><strong>Precios y medios de pago:</strong> \"¿Cuánto sale? ¿Aceptan tarjeta?\" → respuesta automática con precio actualizado y opciones de pago.</li><li><strong>Costos y tiempos de envío:</strong> \"¿Cuánto sale el envío a [ciudad]?\" → el bot calcula según la zona.</li><li><strong>Estado del pedido:</strong> \"¿Ya salió mi pedido?\" → el bot consulta el tracking y responde con el estado actual.</li><li><strong>Recupero de carritos abandonados:</strong> mensaje automático a las 2 hs de abandonar el carrito: \"Dejaste productos en tu carrito. ¿Necesitás ayuda para completar la compra?\"</li></ul><p>El recupero de carritos es <strong>el flujo más rentable</strong>: se estima que entre el 15% y el 25% de los carritos abandonados se recuperan con un mensaje de WhatsApp a tiempo.</p>"
+      },
+      {
+        "heading": "Flujo de bot para atención pre-venta",
+        "body": "<p>La mayoría de las consultas pre-venta siguen el mismo patrón. Este flujo las resuelve:</p><ol><li>Cliente escribe → bot saluda: \"¡Hola! ¿Estás buscando algo en particular o tenés una consulta sobre un pedido?\"</li><li>Si busca un producto → bot pide categoría o palabra clave y muestra opciones con foto, precio y link a la tienda</li><li>Si pregunta por envío → bot pide código postal y calcula costo y tiempo estimado</li><li>Si quiere comprar → bot envía link directo al checkout con el producto preseleccionado</li><li>Si tiene un problema → derivación a humano con contexto: \"Te paso con un asesor. Ya le compartí tu consulta.\"</li></ol><p>La clave es que el bot <strong>reduzca la fricción entre la consulta y la compra</strong>. Cada paso extra que el cliente tiene que dar es una oportunidad de perderlo. Si el bot puede mandarlo directo al checkout con el producto ya cargado, la conversión se dispara.</p><p>Para que esto funcione bien, tu <a href=\"/blog/cuanto-cuesta-tienda-online-argentina\">tienda online</a> tiene que estar integrada con el bot.</p>"
+      },
+      {
+        "heading": "Recupero de carritos abandonados por WhatsApp",
+        "body": "<p>El <strong>70% de los carritos de compra se abandonan</strong> en Argentina. Las razones principales: costos de envío sorpresa, dudas sobre el producto, distracción. WhatsApp es el canal más efectivo para recuperarlos porque tiene una tasa de apertura del 95% (vs 20% del email).</p><p>Un flujo de recupero efectivo:</p><ul><li><strong>2 horas después:</strong> \"Hola [nombre], vimos que dejaste [producto] en tu carrito. ¿Tenés alguna duda que podamos resolver?\"</li><li><strong>24 horas después (si no respondió):</strong> \"Tu [producto] todavía te está esperando. Si completás la compra hoy, te damos envío gratis.\"</li><li><strong>48 horas después (último intento):</strong> \"Último aviso: tu carrito se vacía en 24 hs. ¿Lo completamos?\"</li></ul><p>El incentivo (envío gratis, descuento, regalo) en el segundo mensaje es clave. No lo pongas en el primero: muchas veces el cliente solo necesitaba un empujón, no un descuento.</p><p>Plataformas como <strong>TiendaNube, Shopify y WooCommerce</strong> tienen integraciones con WhatsApp que permiten disparar estos mensajes automáticamente cuando se detecta un carrito abandonado.</p>"
+      },
+      {
+        "heading": "Notificaciones de envío y postventa",
+        "body": "<p>La experiencia no termina con la compra. Los mensajes de postventa son <strong>clave para fidelizar y generar recompra</strong>:</p><ul><li><strong>Confirmación de compra:</strong> \"¡Gracias por tu compra! Tu pedido #[número] está confirmado. Te avisamos cuando salga.\"</li><li><strong>Pedido despachado:</strong> \"Tu pedido ya salió. Seguilo acá: [link de tracking]. Llega estimativamente el [fecha].\"</li><li><strong>Entregado:</strong> \"Tu pedido fue entregado. ¿Está todo bien? Si tenés algún problema, respondé este mensaje.\"</li><li><strong>Review post-compra (7 días después):</strong> \"¿Qué te pareció [producto]? Tu opinión nos ayuda a mejorar. Dejá tu reseña acá: [link].\"</li></ul><p>Estas notificaciones reducen las consultas de \"¿dónde está mi pedido?\" en un <strong>60-70%</strong>, liberando a tu equipo de atención. Además, el mensaje post-entrega es una oportunidad de oro para pedir reseñas y generar contenido social.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para ecommerce",
+        "body": "<p>Las herramientas más usadas en Argentina para automatizar WhatsApp en ecommerce:</p><ul><li><strong>WhatsApp Business (gratis):</strong> catálogo de productos, respuestas rápidas. Limitado para ecommerce con volumen.</li><li><strong>Integración nativa TiendaNube + WhatsApp:</strong> notificaciones de pedido automáticas. Incluido en planes pagos de TiendaNube.</li><li><strong>Cliengo / Botmaker (desde USD 30/mes):</strong> bots conversacionales, recupero de carritos, integración con ecommerce.</li><li><strong>Wati / Respond.io (desde USD 50/mes):</strong> plataforma completa con API de WhatsApp, campañas masivas, analytics.</li><li><strong>Desarrollo custom (desde USD 300 setup):</strong> integración directa con tu tienda, inventario y logística.</li></ul><p>El ROI de la automatización en ecommerce es el más fácil de calcular: si recuperás 5 carritos por día de $15.000 promedio, son <strong>$2.250.000 extra por mes</strong>. El bot se paga en el primer día.</p><p>¿No sabés por dónde empezar? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te armamos un plan de automatización para tu tienda.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo conectar WhatsApp con TiendaNube o Shopify?",
+        "answer": "Sí. TiendaNube tiene integración nativa con WhatsApp para notificaciones de pedido. Shopify se conecta a través de apps como Wati, Respond.io o desarrollos custom. Ambas permiten disparar mensajes automáticos de confirmación, envío y recupero de carritos."
+      },
+      {
+        "question": "¿Cuántos carritos se pueden recuperar con WhatsApp?",
+        "answer": "En promedio, entre el 15% y el 25% de los carritos abandonados se recuperan con una secuencia de WhatsApp bien armada. La clave es el timing (enviar dentro de las primeras 2 horas) y ofrecer un incentivo en el segundo mensaje."
+      },
+      {
+        "question": "¿Es mejor automatizar WhatsApp o contratar más personal de atención?",
+        "answer": "No es una cosa o la otra. La automatización resuelve las consultas repetitivas (80% del volumen) y tu equipo humano se enfoca en las consultas complejas que realmente necesitan atención personalizada. El resultado: mejor servicio con menos recursos."
+      }
+    ],
+    "ctaText": "¿Tu tienda online pierde ventas por no responder a tiempo? Pedí un diagnóstico gratuito y te mostramos cómo recuperar carritos y automatizar tu atención."
+  }
+}

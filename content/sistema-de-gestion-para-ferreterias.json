@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-ferreterias",
+  "title": "Sistema de Gestión para Ferreterías en Argentina",
+  "metaTitle": "Sistema de Gestión para Ferreterías Argentina",
+  "metaDescription": "Controlá stock, precios y ventas de tu ferretería con un sistema de gestión. Comparamos opciones SaaS y a medida para ferreterías argentinas en 2026.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "ferreterías", "control de stock", "punto de venta"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["sistema-de-gestion-para-comercio-minorista", "cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-crm-y-para-que-sirve"],
+  "content": {
+    "intro": "<p>Una ferretería típica en Argentina maneja entre 3.000 y 15.000 artículos diferentes. Tornillos de 50 medidas, pinturas de 200 colores, herramientas eléctricas, material eléctrico, plomería, construcción... <strong>Intentar controlar todo eso con un cuaderno, un Excel o la memoria del ferretero es una receta para el desastre.</strong></p><p>Un <strong>sistema de gestión para ferreterías</strong> te da control real sobre el stock, los precios, las ventas y las compras. En esta guía te explicamos qué necesitás, cuánto cuesta y cómo elegir el sistema correcto para tu ferretería.</p>",
+    "sections": [
+      {
+        "heading": "El problema del stock en ferreterías: miles de artículos, cero control",
+        "body": "<p>La ferretería es uno de los rubros con mayor complejidad de stock en el comercio minorista. Los problemas más comunes:</p><ul><li><strong>No sabés qué tenés:</strong> Un cliente pide un caño de 3/4 galvanizado y tenés que ir al fondo a fijarte. Eso multiplica por la cantidad de consultas diarias es tiempo perdido.</li><li><strong>Quiebres de stock:</strong> Te quedaste sin algo que se vende todos los días porque nadie controló el mínimo. Perdés la venta y capaz el cliente.</li><li><strong>Precios desactualizados:</strong> Los proveedores actualizan listas cada semana. Si no remarcás a tiempo, vendés a pérdida sin darte cuenta.</li><li><strong>Compras a ciegas:</strong> Comprás \"por intuición\" en vez de por datos. Terminás con stock que no se mueve y faltante de lo que más sale.</li><li><strong>Facturación lenta:</strong> Buscar precios, sumar a mano, hacer el ticket... cada venta tarda el doble de lo necesario.</li></ul>"
+      },
+      {
+        "heading": "Qué tiene que hacer un sistema de gestión para ferreterías",
+        "body": "<p>Las funcionalidades esenciales para una ferretería:</p><ul><li><strong>Catálogo de productos masivo:</strong> Soporte para miles de SKUs con variantes (medida, color, marca), código de barras, código interno y múltiples unidades de venta (unidad, metro, kg, caja).</li><li><strong>Control de stock:</strong> Entradas por compra, salidas por venta, ajustes de inventario, stock mínimo con alertas, ubicación en depósito/estantería.</li><li><strong>Actualización de precios:</strong> Importación de listas de proveedores en Excel, actualización masiva por porcentaje o por proveedor, múltiples listas (mostrador, constructor, reventa).</li><li><strong>Punto de venta rápido:</strong> Búsqueda por código, nombre o código de barras. Venta rápida con lectora. Descuentos, presupuestos, facturación electrónica AFIP.</li><li><strong>Cuenta corriente de clientes:</strong> Para constructores y profesionales que compran a cuenta. Control de saldo, límite de crédito, estados de cuenta.</li><li><strong>Compras inteligentes:</strong> Sugerencia de compra basada en ventas históricas, stock actual y tiempo de reposición del proveedor.</li></ul>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para ferreterías",
+        "body": "<p>En el rubro ferretero, la elección depende mucho del tamaño:</p><p><strong>SaaS y software enlatado:</strong> Soluciones como Dragonfish Ferretería, Restô (módulo comercial), o sistemas de punto de venta genéricos adaptados. Funcionan bien para ferreterías chicas y medianas. El costo es accesible y la implementación es rápida.</p><p><strong>ERP completo:</strong> Tango Gestión o Odoo con módulo de retail. Para ferreterías grandes o cadenas que necesitan contabilidad integrada, múltiples sucursales y reportes avanzados.</p><p><strong>Sistema a medida:</strong> Si tu ferretería tiene un modelo particular (corralón + ferretería, venta mayorista + minorista, integración con e-commerce propio), un desarrollo a medida te da la flexibilidad de hacer exactamente lo que necesitás.</p><p>Para la mayoría de las ferreterías, <strong>un buen software de punto de venta con control de stock robusto es suficiente</strong>. No necesitás un sistema aeroespacial — necesitás uno que maneje bien miles de artículos y sea rápido en el mostrador.</p>"
+      },
+      {
+        "heading": "Costos de un sistema de gestión para ferreterías en 2026",
+        "body": "<p>Los rangos de inversión:</p><ul><li><strong>Software de POS + stock básico:</strong> $15.000 - $40.000 ARS/mes</li><li><strong>SaaS profesional:</strong> $40.000 - $100.000 ARS/mes (múltiples cajas, reportes, cuenta corriente, compras)</li><li><strong>ERP completo:</strong> $80.000 - $200.000 ARS/mes (contabilidad, múltiples sucursales, e-commerce)</li><li><strong>Hardware:</strong> $200.000 - $600.000 ARS (computadora, lectora de código de barras, impresora de tickets, controlador fiscal)</li><li><strong>Sistema a medida:</strong> $3.000.000 - $8.000.000 ARS de desarrollo</li></ul><p>El gasto más grande no es el sistema en sí, sino <strong>la carga inicial del catálogo</strong>. Si tenés 10.000 artículos sin código de barras, cargarlos lleva tiempo. Algunos proveedores ofrecen sus catálogos digitalizados, lo que ayuda mucho. Revisá también <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">los costos generales de sistemas de gestión</a>.</p>"
+      },
+      {
+        "heading": "Implementación en una ferretería: el desafío del catálogo",
+        "body": "<p>La implementación en ferreterías tiene un cuello de botella claro: <strong>la carga del catálogo de productos</strong>. Así se maneja:</p><ul><li><strong>Priorizá lo que más se vende:</strong> No cargues los 10.000 artículos el día 1. Cargá los 500-1.000 productos que representan el 80% de tus ventas.</li><li><strong>Usá catálogos de proveedores:</strong> Muchos proveedores (Stanley, Acindar, Alba) tienen catálogos digitales que se pueden importar.</li><li><strong>Etiquetá con código de barras:</strong> Si el producto no trae código, generá uno interno. La lectora te va a ahorrar horas en el mostrador.</li><li><strong>Carga progresiva:</strong> Los artículos que no cargaste al inicio, cargalos cuando se venden. En 2-3 meses vas a tener el 95% del catálogo en el sistema.</li><li><strong>Inventario de control:</strong> Después de 3 meses, hacé un inventario físico y ajustá diferencias. A partir de ahí, el sistema se mantiene solo si cargás bien las entradas y salidas.</li></ul><p>¿No sabés por dónde arrancar? <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y te ayudamos a planificar la implementación.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo cargo 10.000 productos en el sistema?",
+        "answer": "No los cargués todos de golpe. Importá catálogos de proveedores, cargá los más vendidos primero, y sumá el resto progresivamente. En 2-3 meses tenés el catálogo completo."
+      },
+      {
+        "question": "¿El sistema maneja productos que se venden por metro o por kilo?",
+        "answer": "Sí. Los sistemas para ferreterías manejan múltiples unidades de venta: unidad, metro lineal, metro cuadrado, kilogramo, litro, caja, docena, etc."
+      },
+      {
+        "question": "¿Puedo tener precios diferentes para distintos tipos de clientes?",
+        "answer": "Sí. Podés configurar listas de precios por tipo de cliente (público, constructor, revendedor) y asignar la lista correspondiente a cada uno."
+      },
+      {
+        "question": "¿Cómo actualizo precios cuando el proveedor manda lista nueva?",
+        "answer": "Los mejores sistemas permiten importar la lista del proveedor en Excel y actualizar masivamente. En minutos tenés todos los precios al día."
+      },
+      {
+        "question": "¿Puedo dar cuenta corriente a clientes profesionales?",
+        "answer": "Sí. El sistema lleva el saldo de cada cliente, registra cada compra a cuenta, y te permite definir límites de crédito y generar estados de cuenta."
+      }
+    ],
+    "ctaText": "¿Tu ferretería necesita orden y control de stock? Agendá un diagnóstico gratuito y te recomendamos el sistema ideal."
+  }
+}

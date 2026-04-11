@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-peluquerias",
+  "title": "Sistema de turnos para peluquerías: organizá tu agenda y reducí ausencias",
+  "metaTitle": "Sistema de Turnos para Peluquerías Argentina | SODI",
+  "metaDescription": "Comparativa de sistemas de turnos para peluquerías. AgendaPro, Cloxsy, Cal.com, desarrollo a medida. Costos y cómo elegir.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "peluquerías", "agenda peluquería", "reservas online", "belleza"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-peluquerias", "presencia-digital-ideal-peluqueria-estetica", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>En una peluquería, el tiempo es dinero — <strong>literalmente</strong>. Cada sillón vacío por un turno que no se presentó es plata que perdiste. Y cada cliente que no puede agendar porque nadie le atiende el teléfono es un cliente que se fue a la competencia.</p><p>Un sistema de turnos online resuelve los dos problemas: permite que tus clientes <strong>reserven 24/7</strong> y reduce ausencias con recordatorios automáticos. En esta guía te mostramos las opciones, los costos y cómo elegir el mejor sistema para tu peluquería.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu peluquería necesita turnos online",
+        "body": "<p>El flujo de turnos en peluquería tiene particularidades que un sistema online maneja perfectamente:</p><ul><li><strong>Servicios con duración variable:</strong> un corte dura 30 minutos, un color 2 horas, una progresiva 3 horas. El sistema bloquea el tiempo exacto según el servicio elegido — sin superposiciones.</li><li><strong>Múltiples estilistas:</strong> cada profesional tiene su propia agenda, sus horarios y sus especialidades. El cliente elige estilista y horario en un solo paso.</li><li><strong>Ausencias costosas:</strong> si una clienta no viene al turno de color, perdiste 2 horas de sillón. Los recordatorios por WhatsApp 24 horas antes <strong>reducen las faltas entre un 40% y 60%</strong>.</li><li><strong>Reservas impulsivas:</strong> muchas clientas deciden sacarse turno a las 11 de la noche viendo Instagram. Si no tienen forma de reservar online, al otro día ya se olvidaron.</li></ul><p>Si además querés mejorar tu <a href=\"/blog/presencia-digital-ideal-peluqueria-estetica\">presencia digital completa</a>, el sistema de turnos es una pieza central.</p>"
+      },
+      {
+        "heading": "Opciones SaaS para peluquerías",
+        "body": "<p>Las plataformas SaaS son la opción más rápida para empezar:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> muy usado en peluquerías y estética en Latam. Agenda por profesional, catálogo de servicios con duración y precio, recordatorios por WhatsApp, historial de clienta. Incluye app para el cliente.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple y económico. Agenda online, link de reserva compartible por redes, recordatorios básicos. Ideal para peluquerías chicas.</li><li><strong>Cal.com (gratis el plan básico):</strong> open source y flexible. Permite configurar tipos de servicio con duración, múltiples calendarios por estilista. No tiene funciones específicas de belleza pero es gratis y funcional.</li></ul><p><strong>Para peluquerías, AgendaPro es la opción más completa</strong> porque ya viene pensado para el rubro: servicios con duración, múltiples profesionales, ficha de clienta e historial de tratamientos.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo vale la pena",
+        "body": "<p>Un sistema a medida para peluquería tiene sentido en estos casos:</p><ul><li><strong>Cadenas con varias sucursales:</strong> agenda centralizada, reportes por sede, movimiento de clientas entre locales.</li><li><strong>Integración con punto de venta:</strong> si vendés productos (shampoo, tratamientos), querés que el sistema de turnos se conecte con tu stock y facturación.</li><li><strong>Programa de fidelización propio:</strong> puntos, descuentos por frecuencia, promociones automáticas.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS dependiendo de las funcionalidades. Para una peluquería individual o con 2-3 estilistas, el SaaS es más que suficiente.</p><p>Más detalles de costos en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de precios de sistemas de turnos</a>.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp y redes sociales",
+        "body": "<p>Tus clientas están en WhatsApp e Instagram. Tu sistema de turnos tiene que estar donde ellas están:</p><ul><li><strong>Botón de reserva en Instagram:</strong> link en bio directo al sistema de turnos. La clienta ve un corte que le gustó → toca el link → agenda. Sin fricción.</li><li><strong>Link compartible por WhatsApp:</strong> \"Acá podés sacar turno\" con un link que abre directamente la agenda online.</li><li><strong>Recordatorios por WhatsApp:</strong> mensaje automático 24 horas antes: \"Hola María, te recordamos tu turno de mañana a las 15:00 con Luciana. ¿Confirmás?\"</li><li><strong>Lista de espera:</strong> si alguien cancela, notificar automáticamente a la siguiente en la lista. Sillón vacío = plata perdida.</li></ul><p>La integración con WhatsApp es <strong>el factor que más impacta en la reducción de ausencias</strong>. No elijas un sistema que no la tenga.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto",
+        "body": "<p>Tres preguntas para decidir:</p><ul><li><strong>¿Cuántos estilistas tenés?</strong> 1-3 → Cloxsy o Cal.com. 4+ → AgendaPro. Cadena → desarrollo a medida.</li><li><strong>¿Necesitás historial de clienta?</strong> Si querés registrar tratamientos anteriores, fórmulas de color y preferencias, AgendaPro lo tiene. Cal.com no.</li><li><strong>¿Vendés productos?</strong> Si necesitás integrar punto de venta con agenda, evaluá un desarrollo a medida o AgendaPro con su módulo de ventas.</li></ul><p>Nuestra recomendación: <strong>empezá con AgendaPro si tenés más de 2 estilistas</strong>. Para una peluquería unipersonal, Cal.com gratis es suficiente para arrancar.</p><p>Si no sabés por dónde empezar, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong> y te ayudamos a elegir.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para peluquería?",
+        "answer": "SaaS: entre USD 10 y USD 45/mes. Cal.com tiene plan gratuito. Desarrollo a medida: entre $800.000 y $2.000.000 ARS según complejidad."
+      },
+      {
+        "question": "¿Los recordatorios por WhatsApp reducen las faltas?",
+        "answer": "Sí, entre un 40% y 60%. Es el factor más importante para reducir sillones vacíos."
+      },
+      {
+        "question": "¿Puedo mostrar los precios de los servicios en el sistema?",
+        "answer": "Sí, tanto AgendaPro como Cloxsy permiten armar un catálogo de servicios con precio, duración y descripción que el cliente ve al agendar."
+      }
+    ],
+    "ctaText": "¿Querés organizar la agenda de tu peluquería con un sistema profesional? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te recomendamos la mejor opción."
+  }
+}

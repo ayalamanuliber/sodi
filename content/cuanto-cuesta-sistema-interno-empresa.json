@@ -1,0 +1,65 @@
+{
+  "slug": "cuanto-cuesta-sistema-interno-empresa",
+  "title": "Cuanto cuesta un sistema interno para empresa en Argentina: paneles, dashboards y multi-modulo",
+  "metaTitle": "Cuanto cuesta sistema interno empresa Argentina 2026",
+  "metaDescription": "Un sistema interno para empresa en Argentina cuesta entre $1.000.000 y $6.000.000+ ARS. Desglose por tipo de sistema con precios reales 2026.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["sistema interno empresa", "software a medida", "panel operativo", "sistema de gestion pymes"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-panel-operativo", "como-centralizar-informacion-empresa", "software-a-medida-vs-estandar"],
+  "content": {
+    "intro": "<p>Un <strong>sistema interno para empresa en Argentina</strong> cuesta entre $1.000.000 y $6.000.000+ ARS en 2026. Un panel simple para un proceso especifico arranca en $1.000.000-$1.500.000 ARS. Un dashboard con roles de usuario y reportes va de $2.000.000 a $3.500.000 ARS. Y un sistema multi-modulo que integre varias areas del negocio supera los $3.500.000 ARS y puede llegar a $6.000.000+.</p><p>Estos son numeros de desarrollo a medida, que es lo que necesitas cuando ningun SaaS del mercado resuelve tu operacion. Antes de pedir presupuesto, tenes que saber exactamente que tipo de sistema necesitas. Te explicamos las diferencias y cuando vale la pena la inversion.</p>",
+    "sections": [
+      {
+        "heading": "Cuanto cuesta un panel operativo simple",
+        "body": "<p>Un <strong>panel operativo simple</strong> cuesta entre $1.000.000 y $1.500.000 ARS. Es un sistema web interno que digitaliza un proceso especifico de tu empresa que hoy manejas con Excel, WhatsApp o papel.</p><p>Ejemplos concretos de paneles simples: un sistema de seguimiento de pedidos donde cargas el pedido y ves en que estado esta (recibido, en produccion, enviado, entregado). Un tablero de tareas del equipo donde asignas trabajo y cada empleado marca cuando termina. Un registro de clientes con historial de interacciones.</p><p>Lo que incluye a este precio: interfaz web responsive (funciona en celular y computadora), login con usuario y contraseña, ABM (alta, baja, modificacion) de los registros principales, filtros y busqueda, y exportacion a Excel/CSV. No incluye integraciones con otros sistemas ni logica de negocio compleja.</p><p>Plazo de desarrollo: 4-8 semanas. Si tu proveedor te dice que un panel simple tarda mas de 2 meses, esta sobrecomplicando el proyecto o no tiene equipo suficiente.</p><p>Este tipo de sistema reemplaza la planilla de Excel que ya te quedo chica. Si tenes una planilla con mas de 500 filas que comparten 3 o mas personas, necesitas un panel. La planilla se va a romper tarde o temprano.</p>"
+      },
+      {
+        "heading": "Cuanto cuesta un dashboard con roles y reportes",
+        "body": "<p>Un <strong>dashboard con sistema de roles y reportes</strong> cuesta entre $2.000.000 y $3.500.000 ARS. Aca la complejidad sube porque el sistema necesita controlar quien ve que informacion y generar datos procesados automaticamente.</p><p>La diferencia con el panel simple es el <strong>sistema de roles</strong>: un administrador ve todo, un gerente ve su area, un operario ve solo sus tareas. Cada rol tiene permisos distintos (ver, editar, aprobar, eliminar). Esto requiere una arquitectura de seguridad mas sofisticada.</p><p>Los <strong>reportes automaticos</strong> son el otro diferenciador. No es solo ver datos: es que el sistema procese esos datos y te muestre indicadores de gestion. Ejemplos: tasa de cumplimiento de entregas, tiempo promedio de resolucion, facturacion por periodo, productividad por empleado. Graficos, tablas comparativas y exportacion a PDF.</p><p>Funcionalidades tipicas a este nivel: dashboard visual con graficos en tiempo real, sistema de notificaciones internas (alertas cuando algo requiere atencion), historial de cambios (quien modifico que y cuando), filtros avanzados por fecha, area, responsable, estado, y acceso desde celular optimizado.</p><p>Plazo de desarrollo: 8-14 semanas. Es un proyecto que requiere al menos un desarrollador fullstack senior y un diseñador UX. Si te presupuestan menos de $2.000.000 ARS por esto, probablemente van a recortar en calidad o en funcionalidades.</p>"
+      },
+      {
+        "heading": "Cuanto cuesta un sistema multi-modulo a medida",
+        "body": "<p>Un <strong>sistema multi-modulo</strong> cuesta entre $3.500.000 y $6.000.000+ ARS. Es un sistema que integra varias areas del negocio en una sola plataforma: ventas, operaciones, RRHH, finanzas, logistica.</p><p>A este nivel, el sistema reemplaza o integra multiples herramientas que hoy usas por separado. En vez de tener un Excel para ventas, otro para stock, un Google Calendar para produccion y WhatsApp para comunicacion interna, todo vive en un solo lugar.</p><p>Modulos tipicos y su costo aproximado como componente del sistema total:</p><ul><li><strong>Ventas y clientes (CRM)</strong>: $800.000-$1.200.000 ARS. Pipeline de ventas, ficha de cliente, historial de interacciones, presupuestos.</li><li><strong>Operaciones/produccion</strong>: $700.000-$1.000.000 ARS. Ordenes de trabajo, seguimiento de estados, asignacion de recursos.</li><li><strong>Stock e inventario</strong>: $500.000-$800.000 ARS. Control de existencias, alertas de stock minimo, movimientos de entrada/salida.</li><li><strong>Facturacion</strong>: $600.000-$1.000.000 ARS. Integracion con AFIP para factura electronica, cuentas corrientes, cobranzas.</li><li><strong>RRHH basico</strong>: $400.000-$700.000 ARS. Legajos digitales, control de asistencia, licencias.</li></ul><p>No todos los negocios necesitan todos los modulos. Arranca por los 2-3 que mas dolor te generan y agrega el resto despues. Un desarrollo por etapas reduce el riesgo y el desembolso inicial.</p>"
+      },
+      {
+        "heading": "Cuando usar un SaaS y cuando desarrollar a medida",
+        "body": "<p>Esta es la pregunta mas importante y la que mas plata te puede ahorrar. La regla es simple: <strong>si un SaaS resuelve el 80% de tu necesidad, usalo</strong>. Si necesitas el otro 20% para operar, ahi si desarrolla a medida.</p><p>Los <strong>SaaS mas usados</strong> en Argentina para gestion interna:</p><ul><li><strong>Odoo</strong>: ERP completo, version community gratis. Los modulos premium cuestan $20-$50 USD/mes cada uno. Potente pero tiene curva de aprendizaje alta.</li><li><strong>Colppy</strong>: contabilidad y facturacion desde $15.000 ARS/mes. Muy bueno para la parte contable, limitado para operaciones.</li><li><strong>HubSpot CRM</strong>: gratis para hasta 5 usuarios. El mejor CRM gratuito del mercado. Para equipos de ventas de PyMEs es suficiente.</li><li><strong>Monday.com / Notion</strong>: gestion de proyectos y operaciones desde $8-$16 USD/usuario/mes. Flexibles pero no reemplazan un sistema a medida para procesos complejos.</li></ul><p>Desarrollar a medida tiene sentido cuando: tu proceso de negocio es unico y ningun SaaS lo cubre, necesitas integrar sistemas que no se hablan entre si, manejas datos sensibles que no podes subir a la nube de un tercero, o el costo anual del SaaS supera el costo de desarrollo propio (esto pasa cuando tenes muchos usuarios).</p><p>Si tenes 5 empleados y tu operacion es estandar, un SaaS te resuelve. Si tenes 30+ empleados con procesos especificos de tu industria, el a medida empieza a justificarse. Lee mas en <a href=\"/blog/software-a-medida-vs-estandar\">nuestra comparativa completa</a>.</p>"
+      },
+      {
+        "heading": "Costos de mantenimiento de un sistema interno",
+        "body": "<p>El desarrollo es el gasto inicial. El <strong>mantenimiento es el gasto permanente</strong> y es donde muchos empresarios se llevan sorpresas. Presupuesta estos costos mensuales:</p><p><strong>Hosting e infraestructura</strong>: $20.000-$80.000 ARS/mes dependiendo de la cantidad de usuarios y datos. Un sistema para 10 usuarios puede correr en un servidor de $20.000 ARS/mes. Uno para 100 usuarios con datos pesados necesita infraestructura de $50.000-$80.000 ARS/mes.</p><p><strong>Soporte tecnico y actualizaciones</strong>: $50.000-$150.000 ARS/mes. Incluye correccion de bugs, actualizaciones de seguridad, y cambios menores. Sin esto, tu sistema se vuelve vulnerable y obsoleto en meses.</p><p><strong>Cambios y nuevas funcionalidades</strong>: variable, pero calcula al menos $100.000-$300.000 ARS/mes si tu negocio cambia frecuentemente. Cada feature nueva requiere diseño, desarrollo, testing y deploy.</p><p>En total, el <strong>costo anual de mantenimiento</strong> representa entre el 15% y 25% del costo de desarrollo inicial. Un sistema de $3.000.000 ARS te va a costar entre $450.000 y $750.000 ARS/año en mantenimiento. Si tu proveedor no te dio estos numeros antes de empezar, te esta ocultando informacion.</p>"
+      },
+      {
+        "heading": "Como contratar bien un desarrollo a medida",
+        "body": "<p>El 40% de los proyectos de software a medida en Argentina fracasan o salen mucho mas caros de lo presupuestado. Para no ser parte de esa estadistica, segui estas reglas:</p><p><strong>Pedi un MVP primero</strong>: no contrates el sistema completo de entrada. Pedi un <strong>producto minimo viable</strong> con las 2-3 funcionalidades mas criticas. Esto deberia costar el 30-40% del presupuesto total y entregarse en 6-8 semanas. Si el MVP funciona, seguis. Si no, perdiste poco.</p><p><strong>Contrato por etapas</strong>: nunca pagues todo por adelantado. La estructura sana es: 30% al firmar, 30% al entregar el MVP, 20% al entregar la version completa, 20% despues de 30 dias de uso sin bugs criticos. Si el proveedor no acepta esto, es una señal de alarma.</p><p><strong>Pedi acceso al codigo</strong>: el codigo fuente tiene que ser tuyo. Si el proveedor se niega a entregarlo, estas atado a el para siempre. Exigi que el codigo se suba a un repositorio al que tengas acceso desde el dia 1.</p><p><strong>Documentacion</strong>: pedi documentacion tecnica y manual de usuario. Sin esto, si cambias de proveedor en el futuro, el nuevo equipo va a tardar meses en entender que hizo el anterior.</p><p>Por ultimo: <strong>pedile referencias</strong>. Llama a 2-3 clientes anteriores del proveedor y preguntales si entrego a tiempo, si el sistema funciona bien, y si los costos finales coincidieron con el presupuesto inicial. Esto te ahorra dolores de cabeza que valen mucho mas que los 10 minutos que tardas en hacer las llamadas.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Cuanto tiempo dura el desarrollo de un sistema interno a medida?",
+        "answer": "Un panel simple tarda 4-8 semanas. Un dashboard con roles y reportes tarda 8-14 semanas. Un sistema multi-modulo tarda 4-8 meses dependiendo de la cantidad de modulos. Recomendamos desarrollo por etapas: arranca con un MVP de 6-8 semanas y agrega modulos despues."
+      },
+      {
+        "question": "Puedo usar Excel en vez de un sistema a medida?",
+        "answer": "Si tenes menos de 300 registros, menos de 3 personas usando la planilla, y no necesitas permisos por rol, Excel funciona. Cuando superas esos limites, la planilla se vuelve lenta, propensa a errores y dificil de mantener. El costo de los errores en una planilla compartida por 10 personas supera rapidamente el costo de un sistema basico."
+      },
+      {
+        "question": "Que tecnologias se usan para sistemas internos en Argentina?",
+        "answer": "Las mas comunes en el mercado argentino: React o Next.js para el frontend, Node.js o Python (Django/FastAPI) para el backend, y PostgreSQL o MySQL para la base de datos. Tambien se usa mucho Laravel (PHP) por la cantidad de desarrolladores disponibles en Argentina. La eleccion de tecnologia importa menos que la calidad del equipo que la usa."
+      },
+      {
+        "question": "Puedo empezar con un SaaS y migrar a un sistema propio despues?",
+        "answer": "Si, y es la estrategia mas inteligente. Usa un SaaS (Odoo, Monday, HubSpot) para validar tu proceso durante 6-12 meses. Cuando identifiques las limitaciones reales (no las imaginarias), migra solo las partes que el SaaS no cubre. La mayoria de las PyMEs descubren que el SaaS les alcanza y nunca necesitan el desarrollo a medida."
+      },
+      {
+        "question": "Que pasa si la empresa de desarrollo cierra o desaparece?",
+        "answer": "Si tenes acceso al codigo fuente y documentacion tecnica, otro equipo puede tomar el proyecto. Si no tenes nada de eso, estas en un problema serio. Por eso insistimos: exigi acceso al repositorio de codigo y documentacion desde el dia 1. Tambien asegurate de que el hosting este a tu nombre, no al del proveedor."
+      }
+    ],
+    "ctaText": "¿Necesitás un sistema interno para tu empresa? Pedí tu diagnóstico gratuito y te decimos si te conviene SaaS o desarrollo a medida."
+  }
+}

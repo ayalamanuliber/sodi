@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-restaurantes",
+  "title": "Sistema de Gestión para Restaurantes en Argentina",
+  "metaTitle": "Sistema de Gestión para Restaurantes Argentina",
+  "metaDescription": "Organizá tu restaurante con un sistema de gestión: comandas, stock, costos y reservas en un solo lugar. Comparamos opciones SaaS y a medida en Argentina.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "restaurantes", "gastronomía", "punto de venta"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-restaurantes", "cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-crm-y-para-que-sirve"],
+  "content": {
+    "intro": "<p>En la gastronomía argentina, los márgenes son ajustados y el ritmo es brutal. Si tu restaurante todavía toma pedidos en papel, controla el stock \"a ojo\" y calcula los costos de cada plato en una planilla de Excel que nadie actualiza, <strong>estás dejando plata sobre la mesa</strong> — literalmente.</p><p>Un <strong>sistema de gestión para restaurantes</strong> integra comandas, inventario, costos de recetas, reservas, facturación y reportes en un solo lugar. En esta guía te contamos qué necesitás según el tipo y tamaño de tu local, cuánto cuesta y cómo implementarlo sin frenar la operación.</p>",
+    "sections": [
+      {
+        "heading": "El caos operativo en restaurantes: un problema que se come tus márgenes",
+        "body": "<p>La gastronomía tiene una particularidad: todo pasa en tiempo real. No podés decirle a un cliente \"esperá que busco el pedido en el Excel\". Los problemas más comunes sin un sistema son:</p><ul><li><strong>Comandas perdidas o mal tomadas:</strong> El mozo anota en papel, la cocina no entiende la letra, el plato sale mal.</li><li><strong>Stock descontrolado:</strong> No sabés cuánta mercadería tenés hasta que se acaba. Comprás de más o de menos.</li><li><strong>Costos de platos desconocidos:</strong> ¿Cuánto te cuesta realmente ese milanesón con papas? Si no lo sabés al centavo, no podés poner precios rentables.</li><li><strong>Reservas caóticas:</strong> Un cuaderno en la barra, llamadas que se pierden, mesas que se asignan dos veces.</li><li><strong>Facturación manual:</strong> Cierres de caja que no cierran, tickets que se pierden, problemas con AFIP.</li></ul><p>Un restaurante que factura $5.000.000/mes puede estar perdiendo entre el 5% y el 15% por ineficiencias operativas. Eso es entre $250.000 y $750.000 por mes que se van en desperdicios, errores y tiempo perdido.</p>"
+      },
+      {
+        "heading": "Qué funcionalidades necesita un sistema de gestión gastronómico",
+        "body": "<p>El sistema ideal para un restaurante cubre estas áreas:</p><ul><li><strong>Punto de venta (POS):</strong> Toma de pedidos por mesa, envío directo a cocina/barra, split de cuentas, propinas, múltiples medios de pago.</li><li><strong>Gestión de comandas:</strong> Pantalla en cocina con pedidos en tiempo real, tiempos de preparación, estados (en preparación, listo, entregado).</li><li><strong>Control de stock e insumos:</strong> Carga de mercadería, descuento automático por venta, alertas de stock mínimo, control de vencimientos.</li><li><strong>Costeo de recetas:</strong> Carga de recetas con ingredientes y cantidades, cálculo automático del costo por plato, actualización cuando cambian los precios de insumos.</li><li><strong>Reservas:</strong> Sistema online integrado con la web, confirmación automática, gestión de mesas y turnos.</li><li><strong>Facturación electrónica:</strong> Integración con AFIP para emisión de facturas y controlador fiscal.</li><li><strong>Reportes:</strong> Ventas por turno, platos más vendidos, margen por plato, productividad por mozo.</li></ul><p>Si además tenés delivery, necesitás integración con PedidosYa, Rappi y un módulo de pedidos online propio.</p>"
+      },
+      {
+        "heading": "SaaS vs sistema a medida para gastronomía",
+        "body": "<p>El mercado argentino tiene opciones maduras para gastronomía:</p><p><strong>SaaS especializados:</strong> iRestaurant, Restolution, Biyux, RestBar. Son soluciones probadas con miles de locales. Pagás por mes, incluyen soporte y actualizaciones. Funcionan bien para el 80% de los restaurantes.</p><p><strong>Sistema a medida:</strong> Tiene sentido si manejás una cadena con múltiples locales, tenés procesos de producción central, o necesitás integraciones específicas (delivery propio, programa de fidelidad, integración con tu <a href=\"/blog/pagina-web-para-restaurantes\">página web de restaurante</a>).</p><p>Para un restaurante individual o con 2-3 locales, un SaaS es casi siempre la mejor opción. El sistema ya resolvió los problemas típicos del rubro y la implementación es rápida. Si tenés 5+ locales o un modelo operativo complejo (dark kitchen + salón + catering), ahí sí evaluá algo a medida.</p>"
+      },
+      {
+        "heading": "Costos de un sistema de gestión gastronómico en 2026",
+        "body": "<p>Los rangos actuales en Argentina:</p><ul><li><strong>SaaS básico (1 local):</strong> $20.000 - $50.000 ARS/mes (POS, comandas, facturación básica)</li><li><strong>SaaS profesional (1-3 locales):</strong> $50.000 - $150.000 ARS/mes (stock, costeo, reservas, reportes avanzados)</li><li><strong>Hardware:</strong> $200.000 - $800.000 ARS por local (tablets, impresoras de comandas, controlador fiscal)</li><li><strong>Sistema a medida:</strong> $3.000.000 - $10.000.000 ARS de desarrollo + $30.000 - $80.000 ARS/mes de mantenimiento</li></ul><p>El hardware es un costo que muchos olvidan. Necesitás al menos una tablet por sector de servicio, impresora térmica en cocina y barra, y un controlador fiscal homologado.</p><p>Revisá también <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión para PyMEs</a> para comparar con opciones más genéricas.</p>"
+      },
+      {
+        "heading": "Cómo implementar el sistema sin frenar tu restaurante",
+        "body": "<p>La implementación en gastronomía tiene un desafío único: <strong>no podés cerrar el local mientras instalás el sistema</strong>. Así se hace bien:</p><ul><li><strong>Configuración previa:</strong> Cargá la carta completa, recetas, precios y configuración de mesas antes de arrancar. Esto se hace fuera del horario de servicio.</li><li><strong>Día de prueba:</strong> Elegí un lunes o martes (día flojo) para el primer servicio con el sistema. Tené el plan B (papel) listo por si algo falla.</li><li><strong>Capacitación por roles:</strong> Los mozos necesitan aprender la toma de pedidos, la cocina necesita la pantalla de comandas, y el cajero la facturación. No entrenes a todos juntos.</li><li><strong>Primer semana en paralelo:</strong> Mantené el registro manual como respaldo. Después de una semana sin problemas, cortá el papel.</li><li><strong>Ajustes post-implementación:</strong> La primera semana vas a descubrir que faltan platos en la carta, que algún mozo no entiende el split de cuenta, o que la impresora de cocina se desconecta. Es normal. Ajustá sobre la marcha.</li></ul><p>Un restaurante típico está operando 100% con el nuevo sistema en 2-3 semanas.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema funciona si se corta internet?",
+        "answer": "Los mejores sistemas gastronómicos tienen modo offline: seguís tomando pedidos y facturando, y cuando vuelve la conexión se sincroniza todo automáticamente."
+      },
+      {
+        "question": "¿Puedo integrar el sistema con apps de delivery?",
+        "answer": "Sí. La mayoría de los SaaS gastronómicos se integran con PedidosYa y Rappi. Los pedidos entran directo al sistema como una comanda más, sin carga manual."
+      },
+      {
+        "question": "¿Cómo manejo los precios con inflación?",
+        "answer": "Un buen sistema te permite actualizar precios de insumos y recalcular automáticamente el costo de cada plato. Así sabés exactamente cuándo tenés que tocar la carta."
+      },
+      {
+        "question": "¿Necesito comprar hardware especial?",
+        "answer": "Mínimo necesitás una tablet o computadora para el POS, una impresora térmica para cocina y un controlador fiscal. Algunos sistemas funcionan con el celular del mozo como toma de comandas."
+      },
+      {
+        "question": "¿El sistema emite factura electrónica para AFIP?",
+        "answer": "Sí, los sistemas homologados se integran con AFIP para emitir facturas A, B y C electrónicas, ya sea por software o a través de un controlador fiscal."
+      }
+    ],
+    "ctaText": "¿Tu restaurante necesita más control y menos caos? Agendá un diagnóstico gratuito y te recomendamos el sistema ideal para tu operación."
+  }
+}

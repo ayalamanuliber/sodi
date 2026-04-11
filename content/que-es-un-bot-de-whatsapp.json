@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-un-bot-de-whatsapp",
+  "title": "Qué es un bot de WhatsApp y cómo puede ayudar a tu empresa",
+  "metaTitle": "Qué es un bot de WhatsApp para empresas | Guía 2026",
+  "metaDescription": "Un bot de WhatsApp responde consultas, califica clientes y agenda turnos automáticamente. Te explicamos qué puede hacer, qué no y si te conviene.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["bot whatsapp", "automatización", "atención al cliente", "chatbot"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "whatsapp-manual-vs-bot-automatico", "como-automatizar-atencion-al-cliente"],
+  "content": {
+    "intro": "<p>Un <strong>bot de WhatsApp</strong> es un programa que responde automáticamente los mensajes que recibís en WhatsApp Business. Cuando un cliente te escribe preguntando precios, horarios o disponibilidad, el bot le contesta al instante — sin que nadie del equipo tenga que tocar el teléfono.</p><p>No es ciencia ficción: es una herramienta que ya usan miles de PyMEs en Argentina para responder fuera de horario, filtrar consultas repetitivas y liberar al equipo de contestar lo mismo 50 veces por día. Si perdés clientes porque no llegás a responder a tiempo, un bot puede ser la solución más rápida y económica.</p>",
+    "sections": [
+      {
+        "heading": "Qué puede hacer un bot de WhatsApp (y qué no)",
+        "body": "<p>Un bot bien configurado puede:</p><ul><li><strong>Responder preguntas frecuentes</strong>: precios, horarios, ubicación, medios de pago, disponibilidad. Todo lo que te preguntan 20 veces por día.</li><li><strong>Calificar leads</strong>: preguntarle al cliente qué necesita, en qué zona está, cuál es su presupuesto, y pasarle esa información filtrada a tu equipo de ventas.</li><li><strong>Agendar turnos o citas</strong>: mostrar horarios disponibles y confirmar la reserva sin intervención humana.</li><li><strong>Enviar catálogos o listas de precios</strong>: el cliente elige una categoría y recibe la información relevante.</li><li><strong>Derivar a un humano</strong>: cuando la consulta es compleja, el bot la transfiere a una persona con todo el contexto de la conversación.</li></ul><p>Lo que un bot <strong>no puede hacer bien</strong> (todavía): manejar quejas complejas, negociar precios, resolver problemas que requieren empatía, o entender mensajes de audio. Para eso seguís necesitando personas.</p>"
+      },
+      {
+        "heading": "Cómo funciona un bot de WhatsApp por dentro",
+        "body": "<p>El bot funciona con <strong>flujos de conversación</strong> predefinidos. Es como un árbol de decisiones:</p><p>Cliente escribe \"Hola\" → Bot responde: \"¡Hola! ¿En qué te puedo ayudar? 1) Precios 2) Turnos 3) Hablar con alguien\" → Cliente escribe \"1\" → Bot envía lista de precios → Bot pregunta: \"¿Querés que te contacte un asesor?\" → Si dice sí, deriva a un humano con los datos.</p><p>Hay dos tipos principales de bots:</p><p><strong>Bots basados en reglas</strong>: siguen flujos fijos que vos definís. El cliente elige opciones y el bot responde en base a esas opciones. Son predecibles, económicos y fáciles de configurar. Ideales para el 80% de las PyMEs.</p><p><strong>Bots con inteligencia artificial</strong>: entienden texto libre (el cliente escribe lo que quiere en sus palabras) y responden de forma más natural. Son más potentes pero más caros y requieren entrenamiento. Tienen sentido para empresas con alto volumen de consultas variadas.</p><p>Ambos se conectan a WhatsApp Business a través de la <strong>API oficial de Meta</strong> o mediante plataformas intermedias que simplifican la conexión. No necesitás programar para usar un bot de plataforma.</p>"
+      },
+      {
+        "heading": "Ejemplos reales de bots de WhatsApp por rubro",
+        "body": "<p><strong>Consultorio médico</strong>: el paciente escribe → el bot le pregunta si quiere sacar turno, cancelar o consultar → si quiere turno, muestra días y horarios disponibles → confirma el turno → 24hs antes manda recordatorio automático. Resultado: 60% menos de llamadas telefónicas, turnos las 24hs.</p><p><strong>Inmobiliaria</strong>: el interesado consulta por una propiedad → el bot le pide zona, presupuesto y tipo de operación → le muestra propiedades que coinciden → si quiere visitar, agenda la visita y avisa al agente. Resultado: los agentes reciben leads ya filtrados en vez de consultas genéricas.</p><p><strong>Restaurant</strong>: el cliente escribe → el bot muestra el menú del día, acepta pedidos de delivery, o reserva mesa → confirma con horario estimado. Resultado: el mozo no pierde tiempo contestando WhatsApp durante el servicio.</p><p><strong>Estudio jurídico</strong>: la persona consulta → el bot le pregunta qué tipo de problema legal tiene → le da información general y le pide datos de contacto → el abogado recibe un resumen con el tipo de caso y datos del prospecto. Resultado: el abogado solo habla con gente que ya está pre-calificada.</p>"
+      },
+      {
+        "heading": "Bot de WhatsApp: plataforma vs desarrollo custom",
+        "body": "<p>Tenés dos caminos para tener un bot:</p><p><strong>Plataformas (Wasapi, Cliengo, Whaticket, WATI)</strong>: arrancás en $30-60 USD/mes. Configurás los flujos con un editor visual, sin programar. Estás operativo en 1-3 días. Limitación: los flujos son los que la plataforma permite. Si necesitás algo muy específico, puede quedarte corto.</p><p><strong>Desarrollo custom</strong>: desde $800.000 ARS. Un desarrollador te arma el bot exactamente como lo necesitás, con integración a tu <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM</a>, tu <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a> o cualquier otra herramienta. Tarda 4-8 semanas. Tiene sentido cuando necesitás que el bot haga cosas que las plataformas no permiten.</p><p>La recomendación para la mayoría de PyMEs: <strong>arrancá con una plataforma</strong>. Si después de 3-6 meses sentís que te queda chica, migrás a custom con datos reales de qué preguntan tus clientes y cómo interactúan. Para más detalle sobre costos, visitá <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">cuánto cuesta un bot de WhatsApp</a>.</p>"
+      },
+      {
+        "heading": "Cómo saber si tu empresa necesita un bot de WhatsApp",
+        "body": "<p>Un bot te conviene si:</p><ul><li><strong>Recibís más de 20 consultas diarias por WhatsApp</strong> y tu equipo no llega a responder todas a tiempo.</li><li><strong>Las consultas son repetitivas</strong>: precio, horario, ubicación, disponibilidad. Si el 60% de los mensajes se responden con la misma información, un bot te ahorra horas.</li><li><strong>Perdés consultas fuera de horario</strong>: si cerrás a las 19hs pero el 40% de los mensajes llegan entre las 20hs y las 23hs, un bot los captura y los califica.</li><li><strong>Tenés un equipo chico</strong> y cada minuto que pasan contestando WhatsApp es un minuto que no dedican a vender o producir.</li></ul><p>Un bot <strong>no te conviene</strong> si recibís menos de 10 consultas por día (no justifica la inversión), si tus consultas son muy variadas y complejas (el bot no va a poder resolverlas), o si tu diferenciación es el trato personalizado y el cliente espera hablar con una persona desde el primer mensaje.</p><p>¿No estás seguro? Lo mejor es evaluar tu volumen real de consultas y qué porcentaje son repetitivas. Con esos datos, la decisión se toma sola.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Un bot de WhatsApp es lo mismo que las respuestas rápidas de WhatsApp Business?",
+        "answer": "No. Las respuestas rápidas son atajos para que vos escribas más rápido, pero seguís contestando a mano. Un bot responde automáticamente sin que nadie toque el teléfono, sigue flujos de conversación y funciona las 24 horas."
+      },
+      {
+        "question": "¿El bot puede responder audios de WhatsApp?",
+        "answer": "Los bots estándar no procesan audios. Algunos bots con IA avanzada pueden transcribir audios y responder, pero es una funcionalidad premium que aumenta el costo. La mayoría de los bots trabajan solo con texto, imágenes y botones."
+      },
+      {
+        "question": "¿Mis clientes se van a dar cuenta de que hablan con un bot?",
+        "answer": "Sí, y está bien. Lo importante es que el bot sea transparente ('Soy el asistente virtual de X'), útil y rápido para derivar a un humano cuando hace falta. Los clientes prefieren una respuesta inmediata del bot a esperar horas por una respuesta humana."
+      },
+      {
+        "question": "¿Puedo usar un bot con mi número de WhatsApp actual?",
+        "answer": "Depende de la plataforma. Algunas funcionan con tu número actual de WhatsApp Business. Para la API oficial de Meta, necesitás un número dedicado (no puede ser el mismo que usás en la app del teléfono). Consultá con la plataforma antes de contratar."
+      },
+      {
+        "question": "¿Cuánto tarda en implementarse un bot de WhatsApp?",
+        "answer": "Con plataforma (Wasapi, Cliengo): 1-3 días para un flujo básico, 1-2 semanas para flujos completos. Desarrollo custom: 4-8 semanas. Lo que más tarda no es la tecnología sino diseñar bien los flujos de conversación."
+      }
+    ],
+    "ctaText": "¿Querés saber si un bot de WhatsApp le sirve a tu empresa? Hacé el diagnóstico gratuito de SODI y te recomendamos la solución justa."
+  }
+}

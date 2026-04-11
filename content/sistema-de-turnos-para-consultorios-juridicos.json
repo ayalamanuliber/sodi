@@ -1,0 +1,53 @@
+{
+  "slug": "sistema-de-turnos-para-consultorios-juridicos",
+  "title": "Sistema de turnos para consultorios jurídicos: organizá consultas y captá más clientes",
+  "metaTitle": "Sistema de Turnos para Consultorios Jurídicos | SODI",
+  "metaDescription": "Elegí el mejor sistema de turnos para tu estudio jurídico. Agenda de consultas, integración WhatsApp y videollamada para abogados.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["consultorios jurídicos", "abogados", "turnos online", "agenda legal", "consultas"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-abogados", "automatizar-whatsapp-abogados", "cuanto-cuesta-app-de-turnos"],
+  "content": {
+    "intro": "<p>La mayoría de los estudios jurídicos argentinos manejan sus consultas con un sistema del siglo pasado: <strong>la secretaria atiende el teléfono, anota en una agenda de papel y llama para confirmar</strong>. Mientras tanto, el potencial cliente que escribió un domingo a las 20 hs por WhatsApp pidiendo turno no recibió respuesta y ya llamó a otro abogado el lunes a primera hora.</p><p>Un sistema de turnos online permite que tus potenciales clientes agenden consultas las 24 hs, que reciban recordatorios automáticos y que vos gestiones tu agenda desde el celular. Te mostramos las opciones para estudios jurídicos.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un estudio jurídico necesita turnos online",
+        "body": "<p>Las razones específicas para abogados:</p><ul><li><strong>Captación fuera de horario:</strong> el 40% de las consultas legales se originan fuera del horario de oficina (noches, fines de semana). Si no pueden agendar, perdés ese lead.</li><li><strong>Primera impresión profesional:</strong> un link de agenda profesional transmite organización y seriedad. Un \"mandame un WhatsApp y te confirmo\" transmite informalidad.</li><li><strong>Tipos de consulta diferenciados:</strong> primera consulta (30-45 min), seguimiento de caso (15-20 min), consulta urgente, consulta online. Cada tipo con su duración y precio.</li><li><strong>Reducción de ausencias:</strong> las consultas jurídicas tienen un índice de ausencia del 20-25%. Con recordatorios automáticos baja al 8-10%.</li><li><strong>Consultas online:</strong> muchos abogados atienden por videollamada. El sistema envía el link de Zoom/Meet automáticamente.</li></ul>"
+      },
+      {
+        "heading": "Opciones de sistemas para estudios jurídicos",
+        "body": "<p>Las mejores opciones para abogados en Argentina:</p><ul><li><strong>Cal.com (gratis/desde USD 12/mes):</strong> ideal para abogados individuales o estudios chicos. Tipos de consulta personalizables, integración con Zoom/Meet, embedding en tu web. Elegante y profesional.</li><li><strong>Calendly (gratis/desde USD 8/mes):</strong> muy popular entre profesionales liberales. Fácil de usar, se integra con Google Calendar y videollamada. Cobro con Stripe.</li><li><strong>AgendaPro (desde USD 15/mes):</strong> más robusto. Recordatorios WhatsApp, ficha de cliente, múltiples profesionales. Para estudios medianos.</li><li><strong>Cloxsy (desde USD 20/mes):</strong> multi-profesional, reportes, gestión de clientes. Para estudios con 5+ abogados.</li><li><strong>Desarrollo custom (desde USD 300):</strong> integración con CRM jurídico, gestión de casos y facturación.</li></ul><p>Para un abogado independiente: <strong>Cal.com o Calendly</strong> (profesionales, económicos, con videollamada). Para estudios con equipo: <strong>AgendaPro o Cloxsy</strong>.</p>"
+      },
+      {
+        "heading": "Funciones clave para el rubro legal",
+        "body": "<p>Lo que un sistema de turnos jurídico necesita:</p><ul><li><strong>Tipos de consulta:</strong> primera consulta, seguimiento, consulta breve, consulta urgente, mediación. Cada uno con duración, precio y disponibilidad propios.</li><li><strong>Cobro anticipado:</strong> cobrar la primera consulta al agendar reduce drásticamente las ausencias. Especialmente útil para primeras consultas pagas.</li><li><strong>Formulario previo:</strong> antes de la consulta, enviar un formulario breve: nombre, problema legal resumido, documentación relevante. El abogado llega preparado.</li><li><strong>Integración con videollamada:</strong> para consultas online, link de Zoom/Meet generado y enviado automáticamente.</li><li><strong>Confidencialidad:</strong> que la lista de clientes y sus datos estén en servidores seguros con acceso restringido.</li><li><strong>Disponibilidad por área:</strong> si tenés abogados de familia, penal y laboral, el cliente elige el área y ve la disponibilidad del profesional correspondiente.</li></ul>"
+      },
+      {
+        "heading": "Integración con web, WhatsApp y redes",
+        "body": "<p>Tu sistema de turnos tiene que estar donde los potenciales clientes te buscan:</p><ul><li><strong>Web del estudio:</strong> botón de \"Agendar consulta\" en tu <a href=\"/blog/pagina-web-para-abogados\">página web profesional</a>. El cliente lee sobre tus servicios y agenda sin salir del sitio.</li><li><strong>WhatsApp:</strong> link de agenda en tu perfil de WhatsApp Business. Cuando alguien te escribe, el <a href=\"/blog/automatizar-whatsapp-abogados\">bot le ofrece agendar</a> directamente.</li><li><strong>Instagram/LinkedIn:</strong> link de agenda en bio. Cuando publicás contenido de valor sobre derechos y alguien quiere consultar, el paso es inmediato.</li><li><strong>Google Business Profile:</strong> botón de \"Reservar\" en tu ficha de Google.</li></ul><p>El flujo que más convierte: persona busca \"abogado laboralista\" en Google → entra a tu web → lee sobre el servicio → agenda primera consulta online → paga → recibe recordatorio → asiste. <strong>Cero intervención manual.</strong></p>"
+      },
+      {
+        "heading": "Costos y ROI para estudios jurídicos",
+        "body": "<p>La inversión y el retorno:</p><ul><li><strong>Cal.com:</strong> gratis (plan básico) a USD 12/mes.</li><li><strong>Calendly:</strong> gratis a USD 12/mes.</li><li><strong>AgendaPro:</strong> USD 15-30/mes.</li><li><strong>Cloxsy:</strong> USD 20-40/mes.</li><li><strong>Desarrollo custom:</strong> USD 300-1.000 setup + USD 15-30/mes.</li></ul><p><strong>ROI:</strong> si tu primera consulta vale $15.000-$30.000 y el sistema te permite captar 3 consultas más por mes que antes se perdían (por no responder fuera de horario), son <strong>$45.000-$90.000/mes</strong> de facturación directa. Sin contar los casos que después contratás.</p><p>Un solo caso laboral o de familia puede valer <strong>cientos de miles de pesos en honorarios</strong>. Si el sistema te ayuda a captar ese caso que antes se perdía, la inversión se recupera infinitamente.</p><p>¿Querés implementar un sistema de turnos en tu estudio? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Es seguro usar un sistema de turnos para datos de clientes de un estudio jurídico?",
+        "answer": "Sí. Cal.com, Calendly y AgendaPro almacenan datos en servidores seguros con cifrado. Los datos de clientes están protegidos. Es más seguro que anotar en un cuaderno que cualquiera puede leer. Asegurate de cumplir con la Ley de Protección de Datos Personales."
+      },
+      {
+        "question": "¿Puedo cobrar la primera consulta al momento de agendar?",
+        "answer": "Sí. Calendly integra con Stripe, AgendaPro con MercadoPago. El cliente paga al agendar y eso reduce drásticamente las ausencias. Si no se presenta, ya cobraste. Si cancela con anticipación, podés reembolsar."
+      },
+      {
+        "question": "¿Funciona para consultas por videollamada?",
+        "answer": "Sí. Cal.com y Calendly se integran nativamente con Zoom y Google Meet. Al agendar una consulta online, el sistema genera un link único y lo envía al cliente automáticamente. Para consultas presenciales, envía la dirección del estudio."
+      }
+    ],
+    "ctaText": "¿Querés captar más clientes y organizar tu agenda jurídica? Pedí un diagnóstico gratuito y te recomendamos el mejor sistema para tu estudio."
+  }
+}

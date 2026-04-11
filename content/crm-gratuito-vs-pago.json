@@ -1,0 +1,61 @@
+{
+  "slug": "crm-gratuito-vs-pago",
+  "title": "CRM gratuito vs pago: cuándo conviene cada uno y cuánto cuesta en Argentina",
+  "metaTitle": "CRM gratuito vs pago para PyMEs Argentina 2026",
+  "metaDescription": "HubSpot y Zoho Free sirven para arrancar, pero tienen límites duros. Cuándo conviene pagar, precios reales en Argentina y qué CRM elegir según tu negocio.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["CRM", "CRM gratuito", "HubSpot", "Zoho", "gestión de clientes"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-crm-para-pymes", "que-es-un-crm-y-para-que-sirve", "como-implementar-crm-en-mi-empresa"],
+  "content": {
+    "intro": "<p>Los <strong>CRMs gratuitos</strong> como HubSpot Free y Zoho Free son excelentes para arrancar. Te organizan los contactos, te dan un pipeline visual y te sacan de la agenda/Excel. Pero tienen <strong>límites duros</strong> que vas a tocar más rápido de lo que pensás: automatización limitada, reportes básicos, pocas integraciones y restricciones de usuarios.</p><p>La pregunta no es si eventualmente vas a necesitar pagar — es cuándo. Y conviene saber de antemano cuánto cuesta para no quedarte varado cuando el plan gratuito ya no alcance.</p>",
+    "sections": [
+      {
+        "heading": "CRMs gratuitos disponibles en Argentina: qué ofrecen realmente",
+        "body": "<p>Los tres CRMs gratuitos más usados por PyMEs argentinas:</p><p><strong>HubSpot Free CRM:</strong></p><ul><li>Contactos ilimitados (pero solo 5 listas activas y 1.000 listas estáticas)</li><li>Pipeline de ventas (solo 1 pipeline)</li><li>Hasta 5 documentos compartidos</li><li>Email tracking limitado (200 notificaciones/mes)</li><li>Sin automatización de workflows</li><li>Branding de HubSpot en formularios y emails</li></ul><p><strong>Zoho CRM Free:</strong></p><ul><li>Hasta 3 usuarios</li><li>500 registros por módulo (contactos, deals, cuentas)</li><li>Informes básicos (sin dashboard personalizable)</li><li>Sin workflows automáticos</li><li>Sin integración con WhatsApp</li></ul><p><strong>Bitrix24 Free:</strong></p><ul><li>Usuarios ilimitados</li><li>5 GB de almacenamiento</li><li>CRM + tareas + comunicación interna</li><li>Interfaz compleja y curva de aprendizaje alta</li><li>Funciones avanzadas muy limitadas</li></ul><p>Los tres cumplen para un equipo chico (1-3 personas) que necesita dejar de gestionar clientes en Excel o la cabeza. Pero todos tienen la misma estrategia: <strong>te enganchan gratis y después cobrás por todo lo que realmente necesitás</strong>.</p>"
+      },
+      {
+        "heading": "Los límites que te van a frenar (y cuándo pasa)",
+        "body": "<p>Estos son los muros que vas a chocar, ordenados por cuándo suelen aparecer:</p><p><strong>Mes 1-3:</strong> \"¿Por qué no puedo enviar emails masivos?\" — los planes gratuitos no incluyen email marketing real. HubSpot Free te deja mandar emails pero con su branding y límite de 2.000/mes.</p><p><strong>Mes 3-6:</strong> \"Quiero que cuando un contacto llene el formulario, automáticamente se asigne a un vendedor y se mande un email de bienvenida.\" — eso es <strong>automatización de workflows</strong>, y no existe en planes gratuitos.</p><p><strong>Mes 6-12:</strong> \"Necesito un reporte de cuánto vendimos por vendedor, por producto y por mes.\" — <strong>reportes avanzados y dashboards</strong> son feature de pago en todos los CRMs.</p><p><strong>Mes 12+:</strong> \"Mi equipo creció a 5 personas y necesitamos roles/permisos diferentes.\" — Zoho Free solo permite 3 usuarios. HubSpot Free no tiene permisos granulares.</p><p>Identificá en cuál de estas etapas estás. Si ya sentís las limitaciones, es hora de evaluar planes pagos. Si todavía no llegaste, aprovechá el plan gratuito y <strong>no pagues antes de necesitarlo</strong>.</p>"
+      },
+      {
+        "heading": "CRMs pagos: precios reales en Argentina 2026",
+        "body": "<p>Los planes pagos de los CRMs más usados:</p><p><strong>HubSpot Starter:</strong> desde $20 USD/mes (~$24.000 ARS) por 2 usuarios. Incluye: quitar branding, 1.000 contactos de marketing, automatización simple, reportes mejorados. <strong>HubSpot Professional:</strong> desde $890 USD/mes (~$1.070.000 ARS) — salto de precio brutal. Incluye: workflows avanzados, A/B testing, reportes custom. Solo para empresas con presupuesto.</p><p><strong>Zoho CRM Standard:</strong> $14 USD/usuario/mes (~$17.000 ARS). Incluye: workflows, reportes, scoring de leads, múltiples pipelines. <strong>Zoho Professional:</strong> $23 USD/usuario/mes (~$28.000 ARS). Agrega: integración email, signals, macros.</p><p><strong>Pipedrive Essential:</strong> $14.90 USD/usuario/mes (~$18.000 ARS). CRM visual, simple, enfocado en ventas. Muy buena UX. <strong>Advanced:</strong> $27.90 USD/usuario/mes (~$34.000 ARS). Agrega automatización de emails y workflows.</p><p>Para un equipo de 5 personas, los costos mensuales reales son:</p><ul><li><strong>Zoho Standard:</strong> ~$85.000 ARS/mes</li><li><strong>Pipedrive Essential:</strong> ~$90.000 ARS/mes</li><li><strong>HubSpot Starter:</strong> ~$60.000 ARS/mes (solo 2 usuarios incluidos, $24.000 por usuario adicional)</li></ul>"
+      },
+      {
+        "heading": "Cuál CRM elegir según tu tipo de negocio",
+        "body": "<p><strong>Si vendés servicios profesionales</strong> (consultoría, abogados, contadores, agencias): <strong>Pipedrive o HubSpot</strong>. Pipeline visual claro, seguimiento de deals, integración con email. Pipedrive es más simple y enfocado; HubSpot tiene más funcionalidades de marketing.</p><p><strong>Si vendés productos (e-commerce o físico)</strong>: <strong>Zoho CRM o HubSpot</strong>. Zoho integra bien con su suite (inventario, facturación) y HubSpot conecta con Tiendanube y Shopify.</p><p><strong>Si tenés equipo de ventas (5+ vendedores)</strong>: <strong>Zoho CRM Professional o Pipedrive Advanced</strong>. Necesitás asignación automática de leads, reportes por vendedor y permisos por rol.</p><p><strong>Si estás arrancando y no querés gastar</strong>: <strong>HubSpot Free</strong>. Contactos ilimitados, pipeline visual, app mobile. Usalo hasta que las limitaciones te frenen.</p><p>El consejo más importante: <strong>elegí el CRM que tu equipo realmente va a usar</strong>. El mejor CRM del mundo no sirve si tus vendedores no cargan los datos. Simplicidad > funcionalidades. Zoho tiene 500 features que nadie usa; Pipedrive tiene 50 que todos usan.</p>"
+      },
+      {
+        "heading": "Cómo pasar de CRM gratuito a pago sin perder datos",
+        "body": "<p>La buena noticia: si estás en HubSpot Free, Zoho Free o Bitrix24 Free, <strong>la migración al plan pago es instantánea</strong>. Tus datos, contactos, deals y notas quedan exactamente donde están. Solo desbloqueas funcionalidades nuevas.</p><p>Si en cambio querés <strong>cambiar de CRM</strong> (por ejemplo, de HubSpot a Pipedrive), el proceso requiere:</p><ul><li><strong>Exportar datos:</strong> todos los CRMs permiten exportar contactos, empresas y deals a CSV</li><li><strong>Limpiar datos:</strong> eliminar duplicados, corregir formatos, completar campos faltantes</li><li><strong>Importar al nuevo CRM:</strong> mapear campos (nombre, email, teléfono, etapa del deal) y subir</li><li><strong>Capacitar al equipo:</strong> 2-4 horas de capacitación sobre el nuevo sistema</li></ul><p>El proceso tarda <strong>1-2 semanas</strong> para una PyME con menos de 5.000 contactos. Lo crítico es la <strong>limpieza de datos</strong> — no migres basura al sistema nuevo.</p><p>Si tenés dudas sobre cuál CRM conviene o cómo implementarlo, <a href=\"/diagnostico\">pedí un diagnóstico gratuito</a>. Te ayudamos a elegir e implementar el CRM correcto para tu negocio.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es el mejor CRM gratuito para PyMEs en Argentina?",
+        "answer": "HubSpot Free es el más completo: contactos ilimitados, pipeline visual y app mobile. Zoho Free es buena alternativa si necesitás suite integrada (inventario, facturación). Para arrancar sin gastar, HubSpot Free es la recomendación."
+      },
+      {
+        "question": "¿Cuándo conviene pasar de un CRM gratuito a uno pago?",
+        "answer": "Cuando necesitás automatización de workflows, reportes avanzados, más de 3 usuarios (en Zoho), integración con WhatsApp, o cuando el branding del CRM gratuito en tus formularios se ve poco profesional. Generalmente entre los 3 y 12 meses de uso."
+      },
+      {
+        "question": "¿Cuánto cuesta un CRM pago en Argentina?",
+        "answer": "Zoho CRM Standard: ~$17.000 ARS/usuario/mes. Pipedrive Essential: ~$18.000/usuario/mes. HubSpot Starter: ~$24.000/mes por 2 usuarios. Para un equipo de 5, presupuestá $60.000-$90.000 ARS/mes."
+      },
+      {
+        "question": "¿HubSpot o Zoho para una PyME argentina?",
+        "answer": "HubSpot si tu prioridad es marketing + ventas y tenés presupuesto (el salto a Professional es caro). Zoho si necesitás suite completa (CRM + inventario + facturación) a precio accesible. Zoho tiene mejor relación calidad-precio; HubSpot tiene mejor UX."
+      },
+      {
+        "question": "¿Puedo usar un CRM con WhatsApp?",
+        "answer": "Sí. HubSpot y Zoho integran con WhatsApp Business API a través de plataformas como Cliengo, Zenvia o integraciones nativas. La integración no es gratuita: necesitás la API de WhatsApp Business + el conector. Presupuestá $20.000-$50.000 ARS/mes adicionales."
+      }
+    ],
+    "ctaText": "¿No sabés qué CRM te conviene? Pedí tu diagnóstico gratuito y te recomendamos la opción justa para tu negocio y presupuesto."
+  }
+}

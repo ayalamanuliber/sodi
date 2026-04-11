@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-desarrollo-web-a-medida",
+  "title": "Qué es desarrollo web a medida y cuándo vale la pena",
+  "metaTitle": "Qué es desarrollo web a medida | Guía PyMEs 2026",
+  "metaDescription": "Desarrollo web a medida es crear un sitio o sistema diseñado específicamente para tu empresa. Te explicamos cuándo conviene y cuándo no vs plantillas.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["desarrollo web", "página web", "software a medida", "tecnología"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": ["wordpress-vs-desarrollo-a-medida", "wix-vs-desarrollo-profesional", "cuanto-cuesta-pagina-web-argentina"],
+  "content": {
+    "intro": "<p><strong>Desarrollo web a medida</strong> significa crear un sitio web, una aplicación o un sistema diseñado específicamente para tu empresa, desde cero. No usás una plantilla genérica ni un constructor como Wix o WordPress: un equipo de desarrolladores programa exactamente lo que tu negocio necesita, con las funcionalidades, el diseño y las integraciones que vos definís.</p><p>Es como la diferencia entre comprar un traje en un shopping y mandarte a hacer uno a medida. El del shopping cumple, pero el a medida te queda perfecto. La pregunta no es cuál es mejor sino <strong>cuándo vale la pena la inversión</strong> — y para muchas PyMEs, la respuesta es \"todavía no\".</p>",
+    "sections": [
+      {
+        "heading": "Qué incluye un proyecto de desarrollo web a medida",
+        "body": "<p>Un proyecto de desarrollo a medida tiene varias etapas:</p><ul><li><strong>Relevamiento</strong>: entender qué necesita tu empresa, quiénes son tus usuarios, qué problemas querés resolver. Esta etapa define todo lo que viene después.</li><li><strong>Diseño UX/UI</strong>: diseñar cómo se ve y cómo se usa el sitio o sistema. Se crean bocetos, prototipos y se validan antes de programar. Así no pagás desarrollo de algo que después no funciona.</li><li><strong>Desarrollo (programación)</strong>: el equipo escribe el código que hace funcionar todo. Front-end (lo que ve el usuario) y back-end (la lógica, la base de datos, las integraciones).</li><li><strong>Testing</strong>: probar todo antes de lanzar. Buscar errores, verificar que funcione en celular, tablet y computadora, que cargue rápido.</li><li><strong>Lanzamiento y soporte</strong>: poner el sitio en producción y acompañar los primeros meses con ajustes y correcciones.</li></ul><p>Todo el proceso lleva entre <strong>6 y 16 semanas</strong> dependiendo de la complejidad. Un sitio institucional simple puede estar listo en 6 semanas. Un sistema con panel de administración, usuarios, integraciones y lógica de negocio puede llevar 3-4 meses.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida vs plantillas y constructores web",
+        "body": "<p>Los <strong>constructores web</strong> (Wix, Squarespace, Tiendanube) y las <strong>plantillas de WordPress</strong> son la opción más rápida y económica. Te dan un sitio funcional en días por $10-50 USD/mes. Para muchas PyMEs, es suficiente.</p><p>¿Cuándo se quedan cortos?</p><ul><li>Cuando necesitás <strong>funcionalidades que la plataforma no ofrece</strong>: un sistema de turnos con lógica particular, un calculador de presupuestos online, un panel para que tus clientes sigan el estado de su pedido.</li><li>Cuando el <strong>rendimiento importa</strong>: las plantillas cargan más lento y tienen código innecesario. Si dependés mucho del <a href=\"/blog/que-es-seo-y-por-que-importa\">SEO</a>, un sitio custom bien hecho posiciona mejor.</li><li>Cuando necesitás <strong>integraciones complejas</strong>: conectar con tu sistema de gestión, tu CRM, pasarelas de pago argentinas, o APIs de terceros.</li><li>Cuando tu marca necesita un <strong>diseño único</strong>: las plantillas se parecen entre sí. Si tu diferenciación pasa por la experiencia digital, necesitás algo propio.</li></ul><p>Para la mayoría de las PyMEs argentinas, la recomendación es: <strong>arrancá con WordPress o un constructor, y migrá a custom cuando el negocio lo justifique</strong>. No gastes $3M en un sitio antes de validar que el canal digital funciona para tu rubro.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta el desarrollo web a medida en Argentina",
+        "body": "<p>Los costos en 2026:</p><p><strong>Sitio web institucional a medida</strong> (5-8 páginas, diseño propio, responsive, formulario de contacto): $800.000-$2.000.000 ARS. Tarda 4-8 semanas.</p><p><strong>Sitio web con funcionalidades</strong> (e-commerce, sistema de turnos, panel admin, blog, integraciones): $2.000.000-$5.000.000 ARS. Tarda 8-12 semanas.</p><p><strong>Aplicación web / sistema a medida</strong> (panel operativo, gestión de usuarios, lógica de negocio, dashboards): $4.000.000-$15.000.000 ARS. Tarda 12-20 semanas.</p><p>A esto sumale: <strong>hosting</strong> ($10.000-$80.000 ARS/año), <strong>dominio</strong> ($5.000-$15.000 ARS/año), y <strong>mantenimiento</strong> ($50.000-$200.000 ARS/mes para actualizaciones, backups y correcciones). El mantenimiento es fundamental: un sitio sin mantenimiento se vuelve vulnerable e inestable.</p><p>Para una comparación detallada, visitá <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">cuánto cuesta una página web en Argentina</a>.</p>"
+      },
+      {
+        "heading": "Cómo elegir un equipo de desarrollo web",
+        "body": "<p>Elegir bien al equipo es tan importante como elegir bien la tecnología:</p><ul><li><strong>Pedí portfolio con proyectos similares al tuyo</strong>: un desarrollador que hizo 20 e-commerce no necesariamente sabe hacer un sistema de gestión. Buscá experiencia en tu tipo de proyecto.</li><li><strong>Preguntá qué tecnologías usan</strong>: no necesitás entender de programación, pero deberías saber si usan tecnologías modernas y mantenibles. Si te dicen \"lo hacemos en Flash\" o \"usamos un framework propio que nadie más conoce\", salí corriendo.</li><li><strong>Definí el alcance por escrito</strong>: antes de arrancar, tené un documento que diga exactamente qué se va a hacer, qué funcionalidades incluye, qué queda afuera, plazos y costos. Sin esto, los proyectos se descontrolan.</li><li><strong>Preguntá por el soporte post-lanzamiento</strong>: qué pasa después de que el sitio está online. Quién corrige errores, quién hace actualizaciones, cuánto cuesta. Muchas empresas desaparecen después de entregar.</li></ul><p>Desconfiá de precios demasiado bajos: un \"sitio a medida\" por $200.000 ARS probablemente sea una plantilla con tu logo. Y desconfiá de precios demasiado altos sin justificación clara.</p>"
+      },
+      {
+        "heading": "Cuándo sí y cuándo no conviene desarrollo a medida",
+        "body": "<p><strong>Sí conviene</strong> cuando:</p><ul><li>Tu negocio tiene procesos digitales específicos que ninguna plataforma resuelve.</li><li>Dependés del canal digital para generar ingresos y necesitás máximo rendimiento.</li><li>Tenés presupuesto para el desarrollo Y para el mantenimiento mensual.</li><li>Ya probaste con plantillas/constructores y te quedaron cortos.</li></ul><p><strong>No conviene (todavía)</strong> cuando:</p><ul><li>Necesitás un sitio institucional básico: WordPress con una buena plantilla te resuelve por una fracción del costo.</li><li>Estás validando si el canal digital funciona para tu rubro: no inviertas $3M antes de saber si tus clientes realmente te buscan online.</li><li>No tenés presupuesto para mantener el sitio después de lanzar: un sitio a medida sin mantenimiento se desactualiza y se rompe.</li></ul><p>La decisión no es \"a medida vs plantilla\" sino \"¿en qué etapa está mi negocio?\" Si estás arrancando, usá herramientas económicas. Si ya validaste que el digital funciona y necesitás más, ahí invertí en desarrollo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sitio web a medida en Argentina?",
+        "answer": "Un sitio institucional a medida cuesta entre $800.000 y $2.000.000 ARS. Con funcionalidades (e-commerce, turnos, panel admin): $2.000.000-$5.000.000 ARS. Sistemas complejos: $4.000.000-$15.000.000 ARS. Sumá $50.000-$200.000 ARS/mes de mantenimiento."
+      },
+      {
+        "question": "¿Cuánto tarda un proyecto de desarrollo web?",
+        "answer": "Un sitio institucional a medida tarda 4-8 semanas. Un sitio con funcionalidades tarda 8-12 semanas. Un sistema complejo puede llevar 3-5 meses. Los tiempos dependen mucho de qué tan definido esté el alcance antes de empezar."
+      },
+      {
+        "question": "¿Es mejor WordPress o desarrollo a medida?",
+        "answer": "Depende de tu necesidad. WordPress es más rápido, más barato y suficiente para el 70% de las PyMEs. Desarrollo a medida conviene cuando necesitás funcionalidades que WordPress no ofrece, máximo rendimiento SEO, o integraciones complejas con tus sistemas."
+      },
+      {
+        "question": "¿Qué pasa si el desarrollador desaparece después de entregar?",
+        "answer": "Es un riesgo real. Antes de contratar, asegurate de que el código quede en tu poder, que uses tecnologías estándar (no frameworks propietarios), y que tengas acceso a hosting, dominio y repositorio de código. Así, otro equipo puede continuar si hace falta."
+      },
+      {
+        "question": "¿Puedo arrancar con una plantilla y después migrar a desarrollo a medida?",
+        "answer": "Sí, y es la estrategia recomendada para la mayoría de PyMEs. Arrancás con WordPress o un constructor, validás que el digital funciona para tu negocio, y cuando necesitás más, migrás a custom con datos reales sobre qué funciona y qué no."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás desarrollo a medida o te alcanza con una solución estándar? Hacé el diagnóstico gratuito de SODI y te recomendamos el camino más eficiente."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-transporte",
+  "title": "Cómo automatizar WhatsApp para empresas de transporte y logística: cotizaciones, tracking y reclamos",
+  "metaTitle": "Automatizar WhatsApp para Transporte | SODI",
+  "metaDescription": "Automatizá cotizaciones, seguimiento de envíos y reclamos de tu empresa de transporte por WhatsApp. Más eficiencia, menos llamados.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["transporte", "logística", "WhatsApp Business", "tracking", "envíos"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "cuanto-cuesta-sistema-de-gestion-pymes", "cuanto-cuesta-software-a-medida-argentina"],
+  "content": {
+    "intro": "<p>En transporte y logística, la comunicación es <strong>el cuello de botella más grande</strong>. Clientes que llaman para preguntar dónde está su envío, pedidos de cotización que se pierden en el chat, reclamos que nadie registra. Mientras tu equipo está en la ruta o en el depósito, <strong>los mensajes de WhatsApp se acumulan sin respuesta</strong>.</p><p>Automatizar WhatsApp para tu empresa de transporte significa que cada cotización se responda al instante, que el cliente sepa dónde está su envío sin llamar, y que los reclamos se registren y escalen automáticamente. Te mostramos cómo implementarlo.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en transporte",
+        "body": "<p>Las consultas más frecuentes en empresas de transporte y logística:</p><ul><li><strong>Cotización de envío:</strong> \"¿Cuánto sale mandar [tipo de carga] de [origen] a [destino]?\" → bot pide datos (peso, dimensiones, origen, destino, urgencia) y calcula o deriva.</li><li><strong>Tracking de envío:</strong> \"¿Dónde está mi paquete?\" → bot pide número de guía y responde con estado actual y ubicación.</li><li><strong>Horarios de retiro y entrega:</strong> \"¿Cuándo pasan a buscar?\" → confirmación de franja horaria.</li><li><strong>Documentación requerida:</strong> \"¿Qué necesito para despachar?\" → checklist según tipo de envío.</li><li><strong>Reclamos:</strong> \"Mi envío llegó dañado\" → bot registra el reclamo con fotos y datos, y lo escala al área correspondiente.</li></ul><p>Solo con el tracking automatizado, <strong>reducís un 50% las llamadas</strong> al centro de atención. Los clientes consultan solos y tu equipo trabaja en operaciones.</p>"
+      },
+      {
+        "heading": "Flujo de bot para cotizaciones instantáneas",
+        "body": "<p>La cotización rápida es lo que <strong>más ventas genera</strong> en transporte. El flujo ideal:</p><ol><li>\"¡Hola! ¿Necesitás cotizar un envío o hacer seguimiento de uno existente?\"</li><li>Si cotiza: \"¿Qué tipo de envío?\" → Paquetería / Carga general / Mudanza / Express / Frío</li><li>Bot pide: origen, destino, peso estimado, dimensiones, cantidad de bultos</li><li>Si es un envío estándar: cotización automática basada en tabla de precios</li><li>Si es carga especial: \"Tu envío requiere una cotización personalizada. Te contacta un ejecutivo en menos de 1 hora.\"</li><li>\"¿Querés confirmar el envío? Te paso los datos para coordinar el retiro.\"</li></ol><p>Para envíos estándar (paquetería con peso y ruta definidos), la cotización puede ser <strong>100% automática</strong>. El bot consulta tu tabla de tarifas y responde en segundos. Para cargas especiales, recopila los datos y los pasa al área comercial con toda la info necesaria.</p><p>La empresa que cotiza primero <strong>gana el 60% de los envíos</strong>. Un bot que cotiza en 30 segundos le gana a un humano que tarda 2 horas.</p>"
+      },
+      {
+        "heading": "Tracking en tiempo real por WhatsApp",
+        "body": "<p>El seguimiento de envíos es el <strong>servicio más demandado</strong> por los clientes de transporte:</p><ul><li><strong>Consulta bajo demanda:</strong> el cliente escribe el número de guía y recibe estado actual + ubicación + fecha estimada de entrega.</li><li><strong>Notificaciones proactivas:</strong> aviso automático en cada cambio de estado: retirado → en tránsito → en distribución → entregado.</li><li><strong>Alerta de entrega:</strong> \"Tu envío llega hoy entre las [hora] y [hora]. ¿Hay alguien para recibir?\"</li><li><strong>Confirmación de entrega:</strong> \"Tu envío fue entregado a [nombre]. ¿Está todo bien?\"</li></ul><p>Las notificaciones proactivas son clave: el cliente <strong>no necesita preguntar</strong> porque vos le avisás antes. Esto elimina la gran mayoría de las llamadas de seguimiento y genera una experiencia premium.</p><p>Para implementar esto, necesitás conectar la API de WhatsApp con tu <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistema de gestión</a> o TMS (Transport Management System).</p>"
+      },
+      {
+        "heading": "Herramientas y costos para transporte",
+        "body": "<p>Las opciones para empresas de transporte:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas con tarifas base, mensaje de ausencia. Para transportistas autónomos.</li><li><strong>Bots SaaS (Botmaker, Wati desde USD 30/mes):</strong> flujos de cotización, tracking manual (cargar estados). Para PyMEs de transporte.</li><li><strong>Integración con TMS + API WhatsApp (desde USD 300 setup):</strong> cotización automática desde tabla de tarifas, tracking en tiempo real. Para empresas medianas.</li><li><strong>Desarrollo custom (desde USD 500 setup):</strong> integración completa con sistema de despacho, facturación y logística.</li></ul><p>El ahorro principal es en <strong>personal de atención</strong>. Una empresa de transporte mediana recibe 50-100 llamadas diarias de tracking. Un bot que resuelve el 70% de esas consultas equivale a 1-2 personas menos en el call center.</p><p>Además, la cotización instantánea te da una <strong>ventaja competitiva directa</strong>: el cliente que recibe precio en 30 segundos cierra con vos.</p>"
+      },
+      {
+        "heading": "Gestión de reclamos por WhatsApp",
+        "body": "<p>Los reclamos en transporte son inevitables. Lo que marca la diferencia es <strong>cómo los gestionás</strong>:</p><ul><li><strong>Registro automático:</strong> bot pide número de guía, tipo de problema (demora / daño / faltante / error), fotos si corresponde.</li><li><strong>Número de reclamo:</strong> asignación inmediata: \"Tu reclamo #[número] fue registrado. Te respondemos en 24 hs hábiles.\"</li><li><strong>Escalamiento interno:</strong> el reclamo llega al área correcta con toda la info, sin pasar por 3 personas antes.</li><li><strong>Seguimiento:</strong> el cliente puede consultar el estado de su reclamo por WhatsApp con el número asignado.</li><li><strong>Resolución:</strong> aviso cuando el reclamo se resuelve, con detalle de la solución.</li></ul><p>Un sistema de reclamos por WhatsApp es más <strong>eficiente y trazable</strong> que una llamada telefónica. Todo queda registrado, el cliente tiene su número de caso, y el seguimiento es automático.</p><p>¿Querés mejorar la atención de tu empresa de transporte? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo automatizar cotizaciones si mis tarifas cambian seguido?",
+        "answer": "Sí. El bot consulta una tabla de tarifas que podés actualizar cuando necesites (planilla de cálculo o base de datos). Cuando cambiás los precios en la tabla, el bot cotiza con los valores nuevos automáticamente."
+      },
+      {
+        "question": "¿El bot puede manejar envíos internacionales o solo nacionales?",
+        "answer": "Puede manejar ambos, pero los envíos internacionales suelen requerir cotización personalizada por la complejidad (aduana, seguros, documentación). El bot recopila la info y la pasa al equipo comercial. Para envíos nacionales estándar, la cotización puede ser 100% automática."
+      },
+      {
+        "question": "¿Cómo integro WhatsApp con mi sistema de tracking?",
+        "answer": "A través de la API de WhatsApp Business conectada a tu TMS o sistema de gestión. Cuando el estado de un envío cambia en tu sistema, se dispara automáticamente un mensaje al cliente. Herramientas como Wati o desarrollos custom manejan esta integración."
+      }
+    ],
+    "ctaText": "¿Tu empresa de transporte pierde clientes por demoras en cotizar? Pedí un diagnóstico gratuito y te armamos un sistema de respuesta instantánea."
+  }
+}

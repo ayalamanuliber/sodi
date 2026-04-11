@@ -1,0 +1,61 @@
+{
+  "slug": "tiendanube-vs-pagina-propia",
+  "title": "Tiendanube vs página propia: cuál conviene para tu e-commerce en Argentina",
+  "metaTitle": "Tiendanube vs tienda propia en Argentina 2026",
+  "metaDescription": "Tiendanube para arrancar rápido desde $15.000/mes, tienda propia para marca y control total desde $800.000. Cuándo conviene cada una y cuándo migrar.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["tiendanube", "e-commerce", "tienda online", "vender por internet", "comercio electrónico"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "mercado-libre-vs-tienda-propia", "como-crear-tienda-online-argentina"],
+  "content": {
+    "intro": "<p><strong>Tiendanube</strong> es la mejor opción para arrancar a vender online en Argentina rápido y con poco presupuesto. Desde $15.000 ARS/mes tenés tienda funcionando en días. Pero si tu marca necesita diferenciarse, querés control total de la experiencia de compra o ya facturás más de $5.000.000/mes, una <strong>tienda propia</strong> te da el margen y la flexibilidad que Tiendanube no puede.</p><p>No es una cuestión de cuál es mejor en absoluto. Es una cuestión de <strong>en qué etapa estás</strong>. Y la mayoría de los negocios que arrancan con Tiendanube eventualmente necesitan migrar.</p>",
+    "sections": [
+      {
+        "heading": "Tiendanube: costos reales, ventajas y limitaciones en 2026",
+        "body": "<p><strong>Planes de Tiendanube en Argentina (2026):</strong></p><ul><li><strong>Esencial:</strong> $15.000/mes — hasta 50 productos, dominio propio, checkout básico</li><li><strong>Impulso:</strong> $35.000/mes — productos ilimitados, descuentos por cantidad, más medios de pago</li><li><strong>Escala:</strong> $80.000/mes — todo lo anterior + funcionalidades avanzadas, menos comisión por venta</li></ul><p>A eso sumale la <strong>comisión por venta</strong>: entre 1% y 2% según el plan (sobre el monto de cada transacción, encima de la comisión de Mercado Pago). En un mes de $2.000.000 en ventas, pagás entre $20.000 y $40.000 de comisión extra.</p><p><strong>Lo bueno:</strong> en 48 horas tenés tienda online, con integración nativa de Mercado Pago, calculadora de envíos (Andreani, Correo Argentino, OCA), diseño mobile-first y un ecosistema de apps. Para arrancar, no hay nada más rápido en Argentina.</p><p><strong>Lo malo:</strong> las plantillas se parecen entre sí (tu tienda se ve igual a miles), el checkout no es 100% personalizable, el SEO tiene limitaciones técnicas, y a medida que crecés, las comisiones se comen tu margen.</p>"
+      },
+      {
+        "heading": "Tienda propia: inversión, ventajas y para quién",
+        "body": "<p>Una <strong>tienda online propia</strong> se puede hacer con WooCommerce (WordPress), Shopify headless, o desarrollo 100% custom. Costos en Argentina:</p><ul><li><strong>WooCommerce:</strong> $500.000-$1.200.000 ARS de desarrollo + $20.000-$50.000/mes de hosting y mantenimiento</li><li><strong>Desarrollo custom (React/Next.js + API):</strong> $1.500.000-$4.000.000 ARS + $80.000-$200.000/mes de mantenimiento</li></ul><p><strong>La ventaja principal:</strong> control total. Diseño 100% a tu marca, checkout optimizado para tu producto, SEO sin limitaciones, cero comisiones de plataforma (seguís pagando la comisión del medio de pago, pero no la de Tiendanube encima).</p><p>Para un negocio que factura $5.000.000/mes en Tiendanube con plan Escala, la comisión de plataforma es $50.000-$100.000/mes. En un año, $600.000-$1.200.000 en comisiones que con tienda propia no pagarías. A ese volumen, la migración se paga sola.</p><p><strong>La desventaja:</strong> necesitás equipo técnico o una agencia de soporte permanente. Actualizaciones de seguridad, server, integraciones con medios de pago — todo es tu responsabilidad.</p>"
+      },
+      {
+        "heading": "Comparación directa: Tiendanube vs tienda propia",
+        "body": "<p>Punto por punto:</p><ul><li><strong>Tiempo de implementación:</strong> Tiendanube 2-5 días vs tienda propia 4-12 semanas</li><li><strong>Costo inicial:</strong> Tiendanube $0 (solo plan mensual) vs tienda propia $500.000-$4.000.000</li><li><strong>Costo mensual:</strong> Tiendanube $15.000-$80.000 + comisiones vs tienda propia $20.000-$200.000 sin comisiones de plataforma</li><li><strong>Diseño:</strong> Tiendanube limitado a plantillas vs tienda propia 100% custom</li><li><strong>SEO:</strong> Tiendanube básico (URLs limitadas, estructura fija) vs tienda propia control total</li><li><strong>Escalabilidad:</strong> Tiendanube limitada por la plataforma vs tienda propia sin límites</li><li><strong>Integraciones:</strong> Tiendanube ecosistema de apps vs tienda propia integración con cualquier API</li><li><strong>Medios de pago:</strong> Tiendanube Mercado Pago + algunos más vs tienda propia cualquier gateway</li></ul><p>La conclusión es clara: <strong>Tiendanube gana en velocidad y simplicidad, tienda propia gana en todo lo demás</strong>. La pregunta es si tu negocio ya necesita ese \"todo lo demás\" o si todavía estás en etapa de validar.</p>"
+      },
+      {
+        "heading": "Cuándo migrar de Tiendanube a tienda propia",
+        "body": "<p>Las señales de que necesitás migrar:</p><ul><li>Facturás más de <strong>$3.000.000-$5.000.000/mes</strong> y las comisiones te duelen</li><li>Tu marca necesita una experiencia de compra diferenciada que las plantillas no permiten</li><li>Necesitás funcionalidades que Tiendanube no soporta (suscripciones, configuradores de producto, lógica de precios compleja)</li><li>Tu SEO está estancado y necesitás control técnico avanzado</li><li>Querés integrar con un ERP, CRM o sistema interno que Tiendanube no conecta bien</li></ul><p><strong>El proceso de migración</strong> tarda 6-12 semanas si se hace bien. Incluye: diseño y desarrollo de la nueva tienda, migración de productos y clientes, configuración de medios de pago y envíos, redirecciones 301 para no perder posicionamiento SEO, y un período de prueba antes de apagar Tiendanube.</p><p>El error más grave: migrar sin hacer las redirecciones 301. Si cambiás las URLs sin redirigir, perdés todo el posicionamiento de Google de un día para el otro. Es irreversible.</p><p>Si todavía no llegás a esos números, <strong>quedate en Tiendanube y usá la diferencia de inversión en marketing</strong>. Una tienda propia hermosa sin tráfico es un gasto, no una inversión.</p>"
+      },
+      {
+        "heading": "La estrategia inteligente: Tiendanube + Mercado Libre + web de marca",
+        "body": "<p>La combinación que mejor funciona para e-commerce en Argentina:</p><ul><li><strong>Tiendanube</strong> como canal de venta directa (margen alto, base de clientes propia)</li><li><strong><a href=\"/blog/mercado-libre-vs-tienda-propia\">Mercado Libre</a></strong> como canal de descubrimiento (volumen alto, margen bajo)</li><li><strong>Web de marca</strong> con blog para SEO y contenido (tráfico orgánico gratuito a largo plazo)</li></ul><p>Cada canal tiene un rol diferente. Mercado Libre te da volumen y visibilidad. Tiendanube te da margen y datos del cliente. La web de marca te da posicionamiento orgánico y autoridad.</p><p>El flujo ideal: un cliente te descubre en Mercado Libre, compra ahí la primera vez, y después lo llevás a tu Tiendanube con descuentos exclusivos para recompra. Mientras tanto, tu blog posiciona en Google para búsquedas relacionadas y genera tráfico nuevo sin pagar publicidad.</p><p>¿Querés armar esta estrategia para tu negocio? <a href=\"/diagnostico\">Pedí un diagnóstico</a> y te armamos el plan completo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta Tiendanube en Argentina en 2026?",
+        "answer": "Los planes van de $15.000 a $80.000 ARS/mes, más una comisión por venta del 1-2% sobre cada transacción. Sumando Mercado Pago (3-4% de comisión), por cada venta de $100.000 pagás entre $4.000 y $6.000 en comisiones totales."
+      },
+      {
+        "question": "¿Cuánto cuesta hacer una tienda online propia?",
+        "answer": "Con WooCommerce: $500.000-$1.200.000 ARS de desarrollo. Desarrollo custom: $1.500.000-$4.000.000. Mantenimiento mensual: $20.000-$200.000 según complejidad. No pagás comisiones de plataforma (solo las del medio de pago)."
+      },
+      {
+        "question": "¿Cuándo conviene migrar de Tiendanube a tienda propia?",
+        "answer": "Cuando facturás más de $3-5 millones/mes, necesitás funcionalidades que Tiendanube no soporta, o tu marca requiere una experiencia de compra diferenciada. Si todavía no llegás a esos números, quedate en Tiendanube e invertí la diferencia en marketing."
+      },
+      {
+        "question": "¿Puedo usar Tiendanube y Mercado Libre al mismo tiempo?",
+        "answer": "Sí, y es la estrategia recomendada. Tiendanube te da margen y datos del cliente, Mercado Libre te da volumen y visibilidad. Tiendanube tiene integración nativa con Mercado Libre para sincronizar stock y pedidos."
+      },
+      {
+        "question": "¿Tiendanube sirve para cualquier tipo de producto?",
+        "answer": "Para productos físicos simples, sí. Para productos con configuraciones complejas, suscripciones, servicios, o catálogos de más de 10.000 SKUs, Tiendanube se queda corta. En esos casos necesitás una solución más robusta como WooCommerce o desarrollo custom."
+      }
+    ],
+    "ctaText": "¿Tiendanube, tienda propia o las dos? Pedí tu diagnóstico gratuito y te ayudamos a elegir la mejor estrategia para tu negocio."
+  }
+}

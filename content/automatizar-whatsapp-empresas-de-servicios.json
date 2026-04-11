@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-empresas-de-servicios",
+  "title": "Cómo automatizar WhatsApp para empresas de servicios: presupuestos, agendamiento y seguimiento",
+  "metaTitle": "Automatizar WhatsApp Empresas de Servicios | SODI",
+  "metaDescription": "Automatizá presupuestos, agendamiento y seguimiento de tu empresa de servicios por WhatsApp. Más clientes, menos trabajo administrativo.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["empresas de servicios", "WhatsApp Business", "presupuestos", "agendamiento", "automatización"],
+  "datePublished": "2026-04-11",
+  "dateModified": "2026-04-11",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "cuanto-cuesta-pagina-web-argentina", "cuanto-cuesta-crm-para-pymes"],
+  "content": {
+    "intro": "<p>Plomeros, electricistas, fumigadoras, empresas de limpieza, mantenimiento, cerrajeros, técnicos de computación... Si tu negocio es vender servicios, <strong>WhatsApp es tu oficina de ventas</strong>. El cliente te escribe, pregunta cuánto sale, pide presupuesto, agenda, y si no le respondés en 10 minutos, ya llamó a otro.</p><p>Automatizar WhatsApp en una empresa de servicios significa que cada consulta reciba respuesta al instante, que los presupuestos se generen con datos recopilados por el bot, y que el seguimiento post-servicio funcione solo. Todo para que vos te enfoques en hacer el trabajo, no en contestar el celular.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una empresa de servicios",
+        "body": "<p>El volumen de consultas en servicios es alto y repetitivo. Estos mensajes se automatizan perfecto:</p><ul><li><strong>Servicios disponibles:</strong> \"¿Qué servicios ofrecen?\" → bot envía lista completa con descripción y precios base.</li><li><strong>Solicitud de presupuesto:</strong> bot recopila datos (tipo de servicio, zona, urgencia, fotos del problema) y genera un presupuesto estimado o lo pasa al técnico con toda la info.</li><li><strong>Agendamiento:</strong> \"¿Cuándo pueden venir?\" → bot muestra disponibilidad de la semana y agenda.</li><li><strong>Confirmación y recordatorio:</strong> \"Tu servicio de [tipo] está agendado para [fecha] entre las [hora] y [hora]. Te confirmamos antes de ir.\"</li><li><strong>Zona de cobertura:</strong> \"¿Llegan a [barrio/ciudad]?\" → respuesta automática según zona.</li></ul><p>La velocidad de respuesta es <strong>el diferencial más grande</strong> en servicios. El cliente que necesita un plomero urgente contrata al primero que le contesta. Con un bot, sos siempre el primero.</p>"
+      },
+      {
+        "heading": "Flujo de bot para presupuestos rápidos",
+        "body": "<p>El presupuesto es el momento clave en servicios. Un bot que recopila la info correcta <strong>ahorra idas y vueltas</strong>:</p><ol><li>\"¡Hola! ¿Qué servicio necesitás?\" → Plomería / Electricidad / Limpieza / Mantenimiento / Otro</li><li>Bot hace preguntas específicas según el servicio (ej: plomería → \"¿Qué problema tenés? Pérdida / Destape / Instalación nueva\")</li><li>\"¿Podés mandarnos una foto del problema?\" → el cliente envía imagen</li><li>\"¿En qué zona estás?\" → verifica cobertura</li><li>\"¿Es urgente o podemos programarlo?\" → ajusta prioridad</li><li>Bot envía presupuesto estimado: \"Para un destape de cañería en [zona], el presupuesto es de $[monto] aproximadamente. ¿Querés agendar?\"</li></ol><p>Si el servicio requiere evaluación presencial, el bot agenda la visita: \"Necesitamos ver el trabajo en persona. ¿Qué día y horario te viene bien para que pase nuestro técnico?\"</p><p>El resultado: tu técnico llega al trabajo <strong>sabiendo qué se va a encontrar</strong>, con herramientas y materiales apropiados. Menos sorpresas, más eficiencia.</p>"
+      },
+      {
+        "heading": "Agendamiento y logística automatizada",
+        "body": "<p>Para empresas de servicios con múltiples técnicos y zonas, la logística es el desafío principal:</p><ul><li><strong>Agenda por zona:</strong> el bot asigna el técnico más cercano a la dirección del cliente.</li><li><strong>Ventanas horarias:</strong> en vez de dar horarios exactos, ofrecer franjas: \"Mañana (8-12 hs)\" o \"Tarde (14-18 hs)\".</li><li><strong>Confirmación previa:</strong> 2 hs antes del servicio: \"Nuestro técnico [nombre] está en camino. Llega en aproximadamente 30 minutos.\"</li><li><strong>Reprogramación:</strong> si el técnico se atrasa: \"Tu servicio se reprogramó para las [nueva hora]. Disculpá las molestias.\"</li><li><strong>Aviso de finalización:</strong> \"El servicio fue completado. ¿Está todo bien? Podés calificarnos acá: [link].\"</li></ul><p>Este nivel de comunicación genera una <strong>experiencia premium</strong> que diferencia tu empresa del competidor que dice \"caigo entre 8 y 17\" y no avisa nada. Los clientes vuelven a contratar y recomiendan.</p>"
+      },
+      {
+        "heading": "Herramientas y costos",
+        "body": "<p>Opciones para empresas de servicios:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, catálogo de servicios, mensaje de ausencia. Para emprendedores unipersonales.</li><li><strong>Bots SaaS (Botmaker, Cliengo desde USD 25/mes):</strong> flujos de presupuesto, agendamiento, derivación.</li><li><strong>CRM + WhatsApp (HubSpot, Clientify desde USD 30/mes):</strong> gestión de leads y clientes con comunicación integrada. Mirá nuestro artículo sobre <a href=\"/blog/cuanto-cuesta-crm-para-pymes\">cuánto cuesta un CRM para PyMEs</a>.</li><li><strong>Desarrollo custom (desde USD 200 setup):</strong> integración con sistema de agenda de técnicos y facturación.</li></ul><p>El cálculo es simple: si un técnico gasta 1 hora por día respondiendo WhatsApp en vez de haciendo trabajos, eso es <strong>una hora facturable perdida</strong>. A $10.000 la hora de servicio, son $220.000 mensuales. El bot cuesta una fracción de eso.</p><p>Además, responder primero te da la ventaja: en servicios urgentes, <strong>el primer presupuesto gana el 70% de las veces</strong>.</p>"
+      },
+      {
+        "heading": "Postventa y fidelización",
+        "body": "<p>En servicios, la postventa genera <strong>recompra y referidos</strong>, que son tu mejor publicidad:</p><ul><li><strong>Encuesta post-servicio:</strong> \"¿Cómo fue tu experiencia? Calificá del 1 al 5.\" Si es 4-5, pedí reseña en Google. Si es menor, contactá para resolver.</li><li><strong>Garantía:</strong> \"Tu servicio tiene garantía de 30 días. Si tenés algún problema, respondé este mensaje.\"</li><li><strong>Mantenimiento preventivo:</strong> 6 meses después: \"¿Cómo está el trabajo que hicimos? ¿Necesitás mantenimiento o algún otro servicio?\"</li><li><strong>Referidos:</strong> \"¿Conocés a alguien que necesite nuestros servicios? Si nos recomendás, tenés 10% de descuento en tu próximo servicio.\"</li></ul><p>Los servicios viven de la <strong>recomendación boca a boca</strong>. Un cliente satisfecho que recibe un follow-up profesional te recomienda 3 veces más que uno que nunca más escuchó de vos.</p><p>¿Querés mejorar tu atención por WhatsApp? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede dar presupuestos exactos?",
+        "answer": "Puede dar presupuestos estimados para servicios estandarizados (ej: limpieza de oficina por m2, destape de cañería básico). Para trabajos que requieren evaluación presencial, el bot agenda una visita técnica y el presupuesto se da en persona."
+      },
+      {
+        "question": "¿Cómo manejo múltiples técnicos con un solo WhatsApp?",
+        "answer": "Con la API de WhatsApp Business, cada consulta se asigna internamente al técnico correspondiente según zona, especialidad o disponibilidad. El cliente siempre escribe al mismo número pero el sistema distribuye las consultas."
+      },
+      {
+        "question": "¿Funciona para servicios de urgencia (cerrajería, plomería 24hs)?",
+        "answer": "Sí, especialmente. En servicios de urgencia, la velocidad de respuesta es todo. Un bot que responde al instante con un 'Estamos en camino, ¿cuál es tu dirección?' gana al competidor que tarda 15 minutos en contestar."
+      }
+    ],
+    "ctaText": "¿Tu empresa de servicios pierde clientes por no responder a tiempo? Pedí un diagnóstico gratuito y te armamos un sistema de presupuestos automáticos."
+  }
+}
