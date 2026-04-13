@@ -21,15 +21,15 @@ export function Hero() {
 
       {/* Title */}
       <h1 className="reveal reveal-delay-1 font-heading text-[2.5rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-[7rem] font-extrabold tracking-tighter max-w-5xl mx-auto md:leading-[1.02] mb-6 md:mb-8 relative z-10">
-        <span className="tg-white block pb-1 md:pb-2">Menos desorden.</span>
-        <span className="tg-accent">Más ventas y control.</span>
+        <span className="tg-white block pb-1 md:pb-2">Tu negocio digital,</span>
+        <span className="tg-accent">resuelto.</span>
       </h1>
 
       {/* Subtitle */}
       <p className="reveal reveal-delay-2 text-base md:text-xl text-s-sub max-w-3xl mx-auto mb-10 md:mb-14 leading-relaxed font-light">
-        Webs, redes, automatizaciones y sistemas para empresas que ya venden, pero necesitan más orden para crecer.{" "}
+        Webs, redes sociales, automatizaciones, bots de WhatsApp y sistemas internos.{" "}
         <strong className="text-white font-normal border-b border-s-accent/40 pb-0.5">
-          Precios fijos, planes claros y todo incluido.
+          Todo lo digital que tu empresa necesita, con precio fijo y entrega rápida.
         </strong>
       </p>
 

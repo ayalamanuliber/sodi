@@ -36,6 +36,9 @@ export function Nav() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             <span className="sodi-mark text-xl md:text-2xl">SODI</span>
+            <span className="hidden lg:block text-[10px] text-s-dim tracking-[0.12em] uppercase font-heading font-medium ml-3 border-l border-white/10 pl-3">
+              soluciones digitales
+            </span>
           </Link>
 
           {/* Desktop pill nav */}
