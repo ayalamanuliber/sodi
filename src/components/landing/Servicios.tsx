@@ -1,99 +1,49 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { fadeUp } from "@/lib/motion";
+import { BentoCard } from "./BentoCard";
+import { allServices, formatPrice, type ServiceLine } from "@/lib/diagnostico";
 
-const services = [
+const tabs: { slug: string; short: string }[] = [
+  { slug: "presencia-online", short: "Web" },
+  { slug: "redes-sociales", short: "Redes" },
+  { slug: "pack-digital", short: "Pack Digital" },
+  { slug: "automatizacion", short: "Automatización" },
+  { slug: "sistemas-internos", short: "Sistemas" },
+  { slug: "solucion-integral", short: "Integral" },
+];
+
+const serviceCards = [
   {
-    title: "Presencia Online",
-    desc: "Sitio web profesional con dominio, hosting, email y todo incluido. Listo para recibir clientes.",
-    items: ["Sitio web / landing page", "Dominio + hosting + SSL", "Email profesional", "SEO y Google Business"],
-    color: "s-accent",
-    border: "border-s-accent/15",
-    bg: "bg-s-accent/[0.03]",
-    dot: "bg-s-accent",
-    iconBg: "bg-s-accent/10 border-s-accent/15 text-s-accent",
+    title: "Webs y Presencia Digital",
+    desc: "Sitios web profesionales con dominio, hosting, email y todo incluido. Diseñados para convertir visitantes en clientes.",
+    items: ["Landing pages de conversión", "Sitios institucionales", "E-commerce y tiendas"],
     icon: (
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+      <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
         <path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },
   {
-    title: "Redes Sociales",
-    desc: "Setup completo: perfiles, contenido, templates y estrategia para arrancar con todo.",
-    items: ["Perfiles optimizados", "Contenido diseñado y redactado", "Templates editables", "Estrategia y calendario"],
-    color: "purple-400",
-    border: "border-purple-400/15",
-    bg: "bg-purple-400/[0.03]",
-    dot: "bg-purple-400",
-    iconBg: "bg-purple-400/10 border-purple-400/15 text-purple-400",
+    title: "Automatización y WhatsApp",
+    desc: "Bots de WhatsApp, formularios inteligentes y flujos automáticos para que no pierdas más consultas por tardar en responder.",
+    items: ["Bots IA para WhatsApp 24/7", "Calificación automática de leads", "Conexión con CRM y agenda"],
     icon: (
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-        <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    ),
-  },
-  {
-    title: "Pack Digital",
-    desc: "Web + redes en un solo paquete con descuento. Todo integrado y coherente.",
-    items: ["Web completa + redes armadas", "Identidad visual unificada", "Ahorro vs comprar separado", "Entrega coordinada"],
-    color: "s-accent",
-    border: "border-s-accent/20",
-    bg: "bg-s-accent/[0.04]",
-    dot: "bg-s-accent",
-    iconBg: "bg-s-accent/10 border-s-accent/20 text-s-accent",
-    featured: true,
-    icon: (
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-        <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    ),
-  },
-  {
-    title: "Automatización",
-    desc: "Flujos automáticos para responder consultas, calificar leads y no perder oportunidades.",
-    items: ["WhatsApp automático", "Formularios inteligentes", "Calificación de consultas", "Multi-canal"],
-    color: "s-wa",
-    border: "border-s-wa/15",
-    bg: "bg-s-wa/[0.03]",
-    dot: "bg-s-wa",
-    iconBg: "bg-s-wa/10 border-s-wa/15 text-s-wa",
-    icon: (
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+      <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
         <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
+    featured: true,
   },
   {
-    title: "Sistemas Internos",
-    desc: "Paneles y procesos para dejar de depender de chats, memoria o Excel.",
-    items: ["Panel operativo a medida", "Control de clientes / stock", "Roles y permisos", "Reportes y métricas"],
-    color: "blue-400",
-    border: "border-blue-400/15",
-    bg: "bg-blue-400/[0.03]",
-    dot: "bg-blue-400",
-    iconBg: "bg-blue-400/10 border-blue-400/15 text-blue-400",
+    title: "Sistemas Internos y CRM",
+    desc: "Paneles, dashboards y herramientas internas para dejar de depender de chats, memoria o Excel. Todo centralizado.",
+    items: ["Dashboards a medida", "Integraciones API (Make/Zapier)", "Automatización de procesos"],
     icon: (
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+      <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
         <rect x="3" y="3" width="18" height="18" rx="2" />
         <path d="M3 9h18M9 21V9" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    ),
-  },
-  {
-    title: "Solución Integral",
-    desc: "Todo junto: web, redes, automatización y sistema interno, implementado por etapas.",
-    items: ["Web + redes + automatización", "Sistema interno", "Implementación por etapas", "Soporte continuo"],
-    color: "s-orange",
-    border: "border-s-orange/15",
-    bg: "bg-s-orange/[0.03]",
-    dot: "bg-s-orange",
-    iconBg: "bg-s-orange/10 border-s-orange/15 text-s-orange",
-    icon: (
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-        <path d="M13 10V3L4 14h7v7l9-11h-7z" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },
@@ -101,73 +51,91 @@ const services = [
 
 export function Servicios() {
   return (
-    <section id="servicios" className="py-14 sm:py-24 px-4 sm:px-6 bg-[#050508]">
-      <div className="max-w-6xl mx-auto">
-        <motion.div {...fadeUp()} className="mb-8 sm:mb-14">
-          <p className="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-3">
-            Servicios
-          </p>
-          <h2 className="text-[1.4rem] sm:text-3xl md:text-[2.75rem] font-extrabold tracking-tighter leading-tight max-w-2xl font-heading">
-            Todo lo que necesitás para crecer, en un solo lugar
+    <section id="servicios" className="py-20 lg:py-32 relative">
+      <div className="max-w-7xl mx-auto px-5 md:px-6 relative z-10">
+        {/* Header */}
+        <div className="text-center mb-16 md:mb-24 reveal">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[4rem] font-bold mb-6 md:mb-8 tg-white tracking-tight">
+            Todo lo que necesitás <span className="tg-accent">en un solo lugar</span>
           </h2>
-          <p className="text-s-dim text-[13px] sm:text-[14px] mt-3 max-w-lg leading-relaxed">
-            Cada servicio tiene 3 planes con precio fijo. Hacé el diagnóstico y te sugerimos el ideal para vos.
+          <p className="text-base md:text-xl text-s-sub max-w-2xl mx-auto font-light leading-relaxed">
+            No vendemos herramientas aisladas. Construimos la infraestructura digital que tu empresa necesita para funcionar con orden.
           </p>
-        </motion.div>
+        </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-          {services.map((s, i) => (
-            <motion.div
+        {/* 3 Service cards */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-12 md:mb-16">
+          {serviceCards.map((card, i) => (
+            <BentoCard
               key={i}
-              {...fadeUp(i * 0.06)}
-              className={`relative p-5 sm:p-7 rounded-2xl border transition-all duration-300 hover:translate-y-[-2px] ${s.bg} ${s.border} ${
-                s.featured ? "sm:ring-1 sm:ring-s-accent/10" : ""
+              className={`p-8 sm:p-10 lg:p-12 group flex flex-col h-full reveal reveal-delay-${i + 1} ${
+                card.featured
+                  ? "lg:-translate-y-6 border-s-accent/40 shadow-[0_10px_40px_rgba(0,255,163,0.1)] md:shadow-[0_20px_80px_rgba(0,255,163,0.15)]"
+                  : ""
               }`}
             >
-              {s.featured && (
-                <span className="absolute -top-2.5 right-4 px-2.5 py-0.5 bg-s-accent text-black text-[9px] font-black uppercase tracking-wider rounded-full">
-                  Más elegido
-                </span>
+              {card.featured && (
+                <>
+                  <div className="absolute inset-0 bg-gradient-to-b from-s-accent/5 to-transparent pointer-events-none" />
+                  <div className="absolute top-0 right-6 md:right-10 bg-s-accent text-black text-[8px] md:text-[10px] font-black px-3 md:px-4 py-1.5 md:py-2 rounded-b-lg z-10 tracking-[0.2em] uppercase shadow-[0_0_20px_rgba(0,255,163,0.5)]">
+                    Alta Demanda
+                  </div>
+                </>
               )}
 
-              <div className={`w-8 h-8 rounded-lg flex items-center justify-center mb-4 border ${s.iconBg}`}>
-                {s.icon}
+              <div
+                className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-6 md:mb-8 transition-all duration-500 group-hover:-translate-y-2 ${
+                  card.featured
+                    ? "bg-s-accent/10 border border-s-accent/40 text-s-accent group-hover:bg-s-accent/20 group-hover:shadow-[0_0_40px_rgba(0,255,163,0.4)]"
+                    : "bg-white/5 border border-white/10 text-gray-400 group-hover:bg-s-accent/10 group-hover:border-s-accent/30 group-hover:text-s-accent group-hover:shadow-[0_10px_30px_rgba(0,255,163,0.2)]"
+                }`}
+              >
+                {card.icon}
               </div>
 
-              <h3 className="text-[15px] sm:text-[17px] font-bold tracking-tight text-white mb-2">
-                {s.title}
+              <h3 className="font-heading text-xl md:text-2xl font-bold mb-3 md:mb-4 text-white">
+                {card.title}
               </h3>
-              <p className="text-s-sub text-[12px] sm:text-[13px] leading-relaxed mb-5">
-                {s.desc}
+              <p className="text-s-sub mb-8 md:mb-10 text-sm md:text-base leading-relaxed flex-grow relative z-10">
+                {card.desc}
               </p>
 
-              <ul className="space-y-2 border-t border-white/5 pt-4">
-                {s.items.map((item, j) => (
-                  <li key={j} className="flex items-center gap-2.5 text-[11px] sm:text-[12px] text-white/50">
-                    <span className={`w-1 h-1 rounded-full ${s.dot} shrink-0`} />
+              <div className={`space-y-3 md:space-y-4 pt-6 md:pt-8 border-t ${card.featured ? "border-s-accent/20" : "border-white/10"} relative z-10`}>
+                {card.items.map((item, j) => (
+                  <div
+                    key={j}
+                    className="flex items-center gap-3 text-xs md:text-sm text-white font-medium group-hover:translate-x-1 transition-transform"
+                    style={{ transitionDelay: `${j * 75}ms` }}
+                  >
+                    <svg className="w-4 h-4 text-s-accent shrink-0" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                      <path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                     {item}
-                  </li>
+                  </div>
                 ))}
-              </ul>
-            </motion.div>
+              </div>
+            </BentoCard>
           ))}
         </div>
 
         {/* CTA */}
-        <motion.div {...fadeUp(0.3)} className="mt-8 sm:mt-12 text-center">
+        <div className="reveal text-center">
+          <p className="text-sm text-s-sub mb-5">
+            Cada servicio tiene 3 planes con precio fijo. Hacé el diagnóstico y te sugerimos el ideal para vos.
+          </p>
           <Link
             href="/diagnostico"
-            className="btn-primary inline-flex items-center gap-3 bg-s-accent text-black px-8 sm:px-12 py-4 sm:py-5 rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight"
+            className="btn-primary inline-flex items-center gap-3 px-8 sm:px-12 py-4 sm:py-5 text-sm md:text-base group"
           >
             Descubrir mi plan y precio
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+            <svg className="w-5 h-5 group-hover:translate-x-1.5 transition-transform" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
               <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Link>
           <p className="mt-4 text-[11px] text-s-dim">
-            Planes desde $300.000 · Miembros CAEDE -25%
+            Miembros CAEDE obtienen 25% de descuento en todos los servicios
           </p>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

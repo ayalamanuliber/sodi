@@ -2,44 +2,50 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="py-12 sm:py-16 px-6 border-t border-white/5">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10 sm:gap-16">
-        <div className="max-w-sm">
-          <div className="mb-4">
-            <span className="sodi-mark">SODI</span>
+    <footer className="border-t border-white/10 bg-black py-16 md:py-20 relative z-10">
+      <div className="max-w-7xl mx-auto px-5 md:px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 md:gap-16 mb-16 md:mb-20">
+          <div className="sm:col-span-2">
+            <div className="mb-6 md:mb-8">
+              <span className="sodi-mark text-2xl md:text-3xl">SODI</span>
+            </div>
+            <p className="text-s-sub text-sm md:text-base max-w-sm leading-relaxed font-light">
+              Webs, automatización y sistemas para empresas argentinas que necesitan más orden para crecer.
+            </p>
           </div>
-          <p className="text-s-sub text-[13px] leading-relaxed mb-2">
-            Webs, automatización y sistemas para empresas que necesitan más control y mejor distribución.
-          </p>
-          <p className="text-s-dim text-[11px]">Argentina y otros mercados.</p>
-        </div>
-        <div className="grid grid-cols-2 gap-10 sm:gap-16">
+
           <div>
-            <h5 className="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-4">Soluciones</h5>
-            <ul className="space-y-2.5 text-s-dim text-[12px]">
-              <li><a href="#servicios" className="hover:text-white transition-colors">Servicios</a></li>
-              <li><a href="#metodo" className="hover:text-white transition-colors">Proceso</a></li>
-              <li><a href="#casoreal" className="hover:text-white transition-colors">Caso real</a></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link href="/diagnostico" className="hover:text-white transition-colors">Diagnóstico</Link></li>
+            <h4 className="text-white font-bold mb-6 md:mb-8 tracking-[0.15em] uppercase text-xs">Servicios</h4>
+            <ul className="space-y-3 md:space-y-4 text-sm md:text-base text-gray-500 font-medium">
+              <li><a href="#servicios" className="hover:text-s-accent transition-colors">Webs y presencia</a></li>
+              <li><a href="#servicios" className="hover:text-s-accent transition-colors">Automatización</a></li>
+              <li><a href="#servicios" className="hover:text-s-accent transition-colors">Sistemas internos</a></li>
+              <li><Link href="/blog" className="hover:text-s-accent transition-colors">Blog</Link></li>
+              <li><Link href="/diagnostico" className="hover:text-s-accent transition-colors">Diagnóstico</Link></li>
             </ul>
           </div>
+
           <div>
-            <h5 className="text-white font-bold text-[11px] uppercase tracking-[0.15em] mb-4">Contacto</h5>
-            <ul className="space-y-2.5 text-s-dim text-[12px]">
-              <li><a href="https://wa.me/5491157210923" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp</a></li>
+            <h4 className="text-white font-bold mb-6 md:mb-8 tracking-[0.15em] uppercase text-xs">Contacto</h4>
+            <ul className="space-y-3 md:space-y-4 text-sm md:text-base text-gray-500 font-medium">
+              <li>
+                <a href="https://wa.me/5491157210923" target="_blank" rel="noopener noreferrer" className="hover:text-s-accent transition-colors">
+                  WhatsApp
+                </a>
+              </li>
               <li><a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a></li>
               <li><a href="mailto:hola@sodi.ar" className="hover:text-white transition-colors">hola@sodi.ar</a></li>
               <li>Buenos Aires, AR</li>
             </ul>
           </div>
         </div>
-      </div>
-      <div className="max-w-6xl mx-auto mt-10 sm:mt-14 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between text-[11px] text-s-dim gap-3">
-        <span>&copy; 2026 SODI</span>
-        <div className="flex gap-5">
-          <a href="#" className="hover:text-white transition-colors">Privacidad</a>
-          <a href="#" className="hover:text-white transition-colors">Términos</a>
+
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 md:pt-10 border-t border-white/10 text-xs md:text-sm text-gray-600 font-medium text-center md:text-left">
+          <span>&copy; {new Date().getFullYear()} SODI</span>
+          <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+            <a href="#" className="hover:text-white transition-colors">Privacidad</a>
+            <a href="#" className="hover:text-white transition-colors">Términos</a>
+          </div>
         </div>
       </div>
     </footer>
