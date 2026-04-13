@@ -156,7 +156,7 @@ export function StepResult({ result, answers, onRestart, onBack }: Props) {
 
       {/* Contact */}
       <motion.p {...fade(0.35)} className="mt-5 sm:mt-7 text-s-dim text-[11px] text-center sm:text-left">
-        <a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a> · hola@sodi.ar
+        <a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a> · hola@sodi.com.ar
       </motion.p>
     </div>
   );

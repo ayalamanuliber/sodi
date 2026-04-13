@@ -40,7 +40,7 @@ export function FinalCTA() {
         </div>
 
         <p className="mt-6 md:mt-8 text-s-dim text-[11px] md:text-sm">
-          <a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a> · hola@sodi.ar
+          <a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a> · hola@sodi.com.ar
         </p>
       </div>
     </section>

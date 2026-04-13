@@ -133,7 +133,7 @@ export function Servicios() {
             </svg>
           </Link>
           <p className="mt-4 text-[11px] text-s-dim">
-            Miembros CAEDE obtienen 25% de descuento en todos los servicios
+            Miembros CAEDE obtienen 20% de descuento en todos los servicios
           </p>
         </div>
       </div>

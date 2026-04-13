@@ -62,7 +62,8 @@ export function CaseStudy() {
                 {[
                   "Web institucional profesional (top 1% velocidad)",
                   "Rediseño de logo e identidad visual",
-                  "Bot de WhatsApp para consultas",
+                  "Chatbot en la página web",
+                  "Bot de WhatsApp (en progreso)",
                   "Gestión de redes sociales",
                   "SEO y posicionamiento",
                   "Sistema de gestión de equipos",

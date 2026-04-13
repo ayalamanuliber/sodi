@@ -45,14 +45,12 @@ export function Process() {
         </h2>
 
         <div className="relative max-w-6xl mx-auto">
-          {/* Animated connector — desktop */}
-          <div className="hidden md:block absolute top-[60px] left-[15%] w-[70%] h-[2px] bg-white/5 z-0">
-            <div className="absolute top-0 left-0 h-full w-1/3 bg-gradient-to-r from-transparent via-s-accent to-transparent animate-[marquee-scroll_2.5s_ease-in-out_infinite] shadow-[0_0_15px_#00FFA3]" />
-          </div>
+          {/* Static connector — desktop */}
+          <div className="hidden md:block absolute top-[60px] left-[15%] w-[70%] h-[2px] bg-gradient-to-r from-white/5 via-s-accent/30 to-white/5 z-0" />
 
           <div className="grid md:grid-cols-3 gap-12 relative z-10">
             {steps.map((item, i) => (
-              <div key={i} className={`reveal reveal-delay-${i + 1} relative flex flex-col items-center text-center group`}>
+              <div key={i} className={`reveal relative flex flex-col items-center text-center group`} style={{ transitionDelay: `${(i + 1) * 150}ms` }}>
                 <div
                   className={`w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-[24px] md:rounded-[32px] bg-[#050508] flex items-center justify-center mb-8 md:mb-10 relative z-10 transition-all duration-500 shadow-2xl ${
                     item.active

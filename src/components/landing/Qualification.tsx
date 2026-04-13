@@ -17,19 +17,20 @@ export function Qualification() {
             </div>
 
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 md:mb-8 tg-white leading-[1.1] tracking-tight">
-              Esto es para vos si <span className="text-s-sub">ya vendés pero el desorden te frena.</span>
+              Si querés crecer, <span className="text-s-sub">esto es para vos.</span>
             </h2>
 
             <p className="text-s-sub text-base md:text-lg mb-8 md:mb-12 leading-relaxed font-light max-w-lg">
-              No hacemos "páginas web bonitas" para salir del paso. Construimos la infraestructura digital que tu negocio necesita para crecer sin depender de vos.
+              Ya sea que necesites tu primera página web, alguien que maneje tus redes, un sistema para ordenar tu operación o automatizar lo que te consume tiempo — SODI lo resuelve.
             </p>
 
             <div className="space-y-4 md:space-y-5">
               {[
-                "Tenés consultas pero no seguimiento claro",
-                "Usás WhatsApp como centro de operación",
-                "Tu info está repartida entre chats, Excel y herramientas sueltas",
-                "Si te vas 15 días, todo se frena",
+                "Querés una web profesional que represente tu negocio",
+                "Necesitás redes sociales activas pero no tenés tiempo",
+                "Querés automatizar respuestas y dejar de perder consultas",
+                "Necesitás un sistema para ordenar tu operación",
+                "Querés delegar lo digital para enfocarte en lo que importa",
               ].map((item, i) => (
                 <div
                   key={i}
@@ -48,7 +49,7 @@ export function Qualification() {
             </div>
           </div>
 
-          {/* Right — Red/Green card */}
+          {/* Right */}
           <div className="relative reveal reveal-delay-2 mt-8 lg:mt-0">
             <BentoCard className="p-6 sm:p-8 md:p-12 border-t-4 border-t-white/10">
               <div className="flex flex-col gap-10 md:gap-12">
@@ -71,11 +72,11 @@ export function Qualification() {
                       </li>
                       <li className="flex items-start gap-2 md:gap-3">
                         <span className="text-red-500 mt-0.5 font-black text-lg leading-none">×</span>
-                        Tu negocio es solo una idea y todavía no tenés clientes.
+                        No estás dispuesto a invertir para crecer.
                       </li>
                       <li className="flex items-start gap-2 md:gap-3">
                         <span className="text-red-500 mt-0.5 font-black text-lg leading-none">×</span>
-                        No estás dispuesto a invertir en tecnología para crecer.
+                        Querés resultados sin comprometerte con el proceso.
                       </li>
                     </ul>
                   </div>
@@ -96,15 +97,15 @@ export function Qualification() {
                     <ul className="space-y-3 md:space-y-4 text-sm md:text-base text-s-sub font-medium">
                       <li className="flex items-start gap-2 md:gap-3">
                         <span className="text-s-accent mt-0.5 font-black text-lg leading-none">✓</span>
-                        Tenés margen para crecer pero tu operatividad te limita.
+                        Querés crecer y sabés que lo digital es clave.
                       </li>
                       <li className="flex items-start gap-2 md:gap-3">
                         <span className="text-s-accent mt-0.5 font-black text-lg leading-none">✓</span>
-                        Entendés que un sistema es una inversión, no un gasto.
+                        Entendés que invertir en tecnología te ahorra tiempo y plata.
                       </li>
                       <li className="flex items-start gap-2 md:gap-3">
                         <span className="text-s-accent mt-0.5 font-black text-lg leading-none">✓</span>
-                        Querés dejar de depender 100% de vos para que el negocio funcione.
+                        Querés delegar lo digital a un equipo que lo resuelva rápido y bien.
                       </li>
                     </ul>
                   </div>

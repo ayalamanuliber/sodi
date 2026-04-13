@@ -34,7 +34,7 @@ export function Footer() {
                 </a>
               </li>
               <li><a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a></li>
-              <li><a href="mailto:hola@sodi.ar" className="hover:text-white transition-colors">hola@sodi.ar</a></li>
+              <li><a href="mailto:hola@sodi.com.ar" className="hover:text-white transition-colors">hola@sodi.com.ar</a></li>
               <li>Buenos Aires, AR</li>
             </ul>
           </div>

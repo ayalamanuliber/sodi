@@ -99,7 +99,7 @@ const siteSchema = {
       name: "SODI",
       url: "https://sodi.com.ar",
       telephone: "+54-11-5721-0923",
-      email: "hola@sodi.ar",
+      email: "hola@sodi.com.ar",
       areaServed: {
         "@type": "Country",
         name: "Argentina",
