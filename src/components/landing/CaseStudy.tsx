@@ -50,11 +50,11 @@ export function CaseStudy() {
               </div>
 
               <h3 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-white leading-[1.2] tracking-tight">
-                De cero presencia digital a infraestructura completa en 3 semanas.
+                La Cámara Argentina de Excavadores y Demoledores confió en SODI para su presencia digital.
               </h3>
 
               <p className="text-s-sub mb-6 md:mb-8 text-sm md:text-base leading-relaxed font-light">
-                CAEDE tenía una web abandonada, sin redes activas y sin sistema operativo. Implementamos todo: web institucional con velocidad top 1%, redes sociales, bot de WhatsApp, logo renovado y SEO optimizado. Hoy gestionamos su infraestructura digital completa.
+                CAEDE es la cámara que nuclea a las principales empresas de excavación, demolición y construcción del país. Necesitaban una presencia digital a la altura de su posición en la industria. En 3 semanas implementamos todo: web institucional premium con velocidad top 1%, rediseño de marca, bot de WhatsApp, redes sociales, SEO y sistema de gestión de equipos.
               </p>
 
               {/* What we did */}
@@ -82,7 +82,7 @@ export function CaseStudy() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z" />
                 </svg>
                 <p className="text-[14px] md:text-[15px] text-white/90 leading-relaxed mb-4 italic">
-                  "SODI transformó nuestra presencia digital por completo. En tres semanas pasamos de no tener nada a tener una infraestructura profesional que nos posiciona como referentes del sector."
+                  "SODI transformó nuestra presencia digital por completo. En tres semanas pasamos de no tener nada a tener una infraestructura profesional a la altura de lo que CAEDE representa para la industria de la construcción en Argentina."
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-s-orange/30 to-s-orange/10 border border-s-orange/30 flex items-center justify-center text-[13px] font-bold text-s-orange">
