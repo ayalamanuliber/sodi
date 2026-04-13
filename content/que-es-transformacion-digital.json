@@ -2,14 +2,23 @@
   "slug": "que-es-transformacion-digital",
   "title": "Qué es transformación digital y qué significa para tu PyME",
   "metaTitle": "Qué es transformación digital | Guía PyMEs Argentina",
-  "metaDescription": "Transformación digital no es solo tener redes sociales. Es cambiar cómo opera tu empresa usando tecnología. Te explicamos las etapas, costos y por dónde empezar.",
+  "metaDescription": "Transformación digital es cambiar cómo opera tu empresa usando tecnología. Etapas, costos y por dónde empezar en Argentina.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
-  "tags": ["transformación digital", "digitalización", "tecnología", "pymes"],
+  "tags": [
+    "transformación digital",
+    "digitalización",
+    "tecnología",
+    "pymes"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "7 min lectura",
-  "relatedSlugs": ["como-digitalizar-mi-empresa", "como-automatizar-procesos-repetitivos", "como-escalar-operacion-sin-contratar"],
+  "relatedSlugs": [
+    "como-digitalizar-mi-empresa",
+    "como-automatizar-procesos-repetitivos",
+    "como-escalar-operacion-sin-contratar"
+  ],
   "content": {
     "intro": "<p><strong>Transformación digital</strong> no es abrir una cuenta de Instagram. No es tener un sitio web. No es usar WhatsApp para vender. Esas son herramientas digitales, pero la transformación digital es algo más profundo: es <strong>cambiar la forma en que tu empresa opera</strong> usando tecnología para ser más eficiente, más rentable y más competitiva.</p><p>Para una PyME argentina, transformación digital significa pasar de manejar todo \"de cabeza\" — con Excel, WhatsApp y la memoria del dueño — a tener sistemas que registren, automaticen y te den información para tomar mejores decisiones. No es un proyecto de un mes: es un camino que se recorre por etapas, y cada etapa te da un beneficio concreto.</p>",
     "sections": [

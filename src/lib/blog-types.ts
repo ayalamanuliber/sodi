@@ -185,11 +185,6 @@ export function buildArticleSchema(article: ArticleMeta, url: string) {
           },
         ],
       },
-      {
-        "@type": "FAQPage",
-        "@id": `${url}#faqpage`,
-        mainEntity: article.tags.length > 0 ? [] : [],
-      },
     ],
   };
 }

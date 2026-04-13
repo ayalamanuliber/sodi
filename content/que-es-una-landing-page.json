@@ -2,14 +2,23 @@
   "slug": "que-es-una-landing-page",
   "title": "Qué es una landing page y cuándo la necesitás para tu negocio",
   "metaTitle": "Qué es una landing page | Guía simple para PyMEs",
-  "metaDescription": "Una landing page es una página web diseñada para que el visitante haga una acción: consultar, comprar o dejar sus datos. Te explicamos cuándo conviene tener una.",
+  "metaDescription": "Una landing page es una web diseñada para que el visitante consulte, compre o deje sus datos. Cuándo conviene y cuánto cuesta.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
-  "tags": ["landing page", "página web", "conversión", "marketing digital"],
+  "tags": [
+    "landing page",
+    "página web",
+    "conversión",
+    "marketing digital"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "5 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "como-mejorar-presencia-digital", "que-es-un-embudo-de-ventas"],
+  "relatedSlugs": [
+    "cuanto-cuesta-pagina-web-argentina",
+    "como-mejorar-presencia-digital",
+    "que-es-un-embudo-de-ventas"
+  ],
   "content": {
     "intro": "<p>Una <strong>landing page</strong> (página de aterrizaje) es una página web con un solo objetivo: que el visitante haga algo concreto. Puede ser dejar sus datos, pedir un presupuesto, agendar un turno o comprar un producto. A diferencia de un sitio web completo, la landing page no tiene menú, no tiene 20 secciones ni distrae con información que no viene al caso.</p><p>Pensalo así: si tu sitio web completo es como un local con vidriera, góndolas y caja, una landing page es como un vendedor que te para en la puerta y te dice exactamente lo que necesitás escuchar para entrar. Es directa, enfocada y efectiva.</p>",
     "sections": [

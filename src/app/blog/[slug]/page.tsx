@@ -36,10 +36,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-/** Strip HTML tags from intro for clean text rendering */
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, "");
-}
 
 export default async function BlogArticlePage({ params }: Props) {
   const { slug } = await params;
@@ -108,9 +104,10 @@ export default async function BlogArticlePage({ params }: Props) {
               {article.title}
             </h1>
 
-            <p className="text-s-sub text-[15px] sm:text-[17px] leading-relaxed">
-              {stripHtml(article.content.intro)}
-            </p>
+            <div
+              className="text-s-sub text-[15px] sm:text-[17px] leading-relaxed blog-prose"
+              dangerouslySetInnerHTML={{ __html: article.content.intro }}
+            />
 
             <div className="flex items-center gap-3 mt-5 pt-5 border-t border-white/5">
               <div className="w-8 h-8 rounded-full bg-s-accent/10 border border-s-accent/20 flex items-center justify-center text-[11px] font-bold text-s-accent">
