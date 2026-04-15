@@ -1,0 +1,61 @@
+{
+  "slug": "tiendanube-vs-woocommerce-vs-shopify-argentina",
+  "title": "Tiendanube vs WooCommerce vs Shopify en Argentina: cuál te conviene según tu negocio",
+  "metaTitle": "Tiendanube vs WooCommerce vs Shopify Argentina 2026",
+  "metaDescription": "Comparativa real con precios en pesos y dólares. Tiendanube gana para PyMEs argentinas, WooCommerce para flexibilidad y Shopify para vender afuera.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["tiendanube", "woocommerce", "shopify", "ecommerce argentina", "tienda online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["shopify-vs-tiendanube-argentina", "woocommerce-vs-tiendanube-argentina", "shopify-vs-woocommerce-argentina", "cuanto-cuesta-tienda-online-argentina"],
+  "content": {
+    "intro": "<p><strong>Veredicto directo:</strong> si vendés solo en Argentina y necesitás arrancar rápido, <strong>Tiendanube</strong>. Si necesitás personalización total y tenés alguien técnico, <strong>WooCommerce</strong>. Si vendés al exterior o necesitás una plataforma internacional probada, <strong>Shopify</strong>.</p><p>Las tres plataformas funcionan, pero resuelven problemas distintos. Tiendanube es la más usada en Argentina (100.000+ tiendas activas) porque integra Mercado Pago, Correo Argentino y AFIP de forma nativa. WooCommerce te da libertad total pero necesitás hosting y mantenimiento. Shopify es la más robusta pero la más cara en pesos argentinos.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa directa: precios, funciones y limitaciones",
+        "body": "<table><thead><tr><th>Característica</th><th>Tiendanube</th><th>WooCommerce</th><th>Shopify</th></tr></thead><tbody><tr><td><strong>Costo mensual</strong></td><td>Gratis (Inicio) a $49.999/mes (Siguiente)</td><td>$0 (plugin) + hosting $5-30 USD/mes</td><td>$39 USD/mes (Basic) = ~$48.000 ARS</td></tr><tr><td><strong>Comisión por venta</strong></td><td>2% plan gratis, 1% Impulso, 0.5% Escala</td><td>0% (solo comisión del gateway)</td><td>2% sin Shopify Payments</td></tr><tr><td><strong>Mercado Pago nativo</strong></td><td>Sí, integración directa</td><td>Sí, con plugin gratuito</td><td>Sí, con app</td></tr><tr><td><strong>Facturación AFIP</strong></td><td>Integración nativa</td><td>Con plugins de terceros</td><td>Con apps de terceros</td></tr><tr><td><strong>Envíos Argentina</strong></td><td>Correo Argentino, Andreani, Oca nativos</td><td>Plugins, configuración manual</td><td>Apps de terceros</td></tr><tr><td><strong>Personalización</strong></td><td>Media (temas + editor)</td><td>Total (código abierto)</td><td>Alta (Liquid + apps)</td></tr><tr><td><strong>Curva de aprendizaje</strong></td><td>Baja</td><td>Alta (necesitás WordPress)</td><td>Media</td></tr><tr><td><strong>Soporte en español</strong></td><td>Excelente, equipo argentino</td><td>Comunidad, sin soporte oficial</td><td>24/7 pero en inglés primero</td></tr><tr><td><strong>Ideal para</strong></td><td>PyMEs argentinas, primeros pasos</td><td>Negocios con equipo técnico</td><td>Marcas que venden al exterior</td></tr></tbody></table><p>El costo real importa: con Tiendanube plan Impulso ($24.999/mes + 1% comisión) vendiendo $2.000.000/mes pagás <strong>$44.999/mes</strong>. Con Shopify Basic ($48.000/mes + 2% comisión) pagás <strong>$88.000/mes</strong>. WooCommerce con buen hosting sale <strong>$15.000-$35.000/mes</strong> pero necesitás invertir en mantenimiento técnico.</p>"
+      },
+      {
+        "heading": "Tiendanube: la opción local que entiende Argentina",
+        "body": "<p>Tiendanube nació en Argentina y se nota. Todo lo que un negocio argentino necesita viene resuelto de fábrica:</p><ul><li><strong>Mercado Pago y Mercado Envíos:</strong> integración nativa, sin configuraciones raras. Activás con un clic.</li><li><strong>Facturación electrónica AFIP:</strong> generás facturas A, B y C directamente desde el panel.</li><li><strong>Correo Argentino, Andreani, Oca:</strong> cotización de envíos en tiempo real sin plugins.</li><li><strong>Soporte humano en español argentino:</strong> chat, mail y WhatsApp con gente que entiende tus problemas.</li><li><strong>Plan gratuito funcional:</strong> el plan Inicio tiene todo lo básico para arrancar a vender hoy.</li></ul><p>Las limitaciones: <strong>personalización limitada</strong> comparada con WooCommerce, la comisión por venta sube el costo real, y si tu negocio crece mucho internacionalmente, te queda chico. Pero para el 90% de los negocios argentinos, Tiendanube es más que suficiente.</p>"
+      },
+      {
+        "heading": "WooCommerce: libertad total con responsabilidad técnica",
+        "body": "<p>WooCommerce es un plugin gratuito de WordPress. Eso significa que no pagás licencia pero sí todo lo demás: hosting, dominio, SSL, plugins premium, y sobre todo <strong>tiempo de alguien técnico</strong>.</p><p><strong>Ventajas reales:</strong></p><ul><li>Personalizás absolutamente todo: diseño, funciones, integraciones, checkout</li><li>Sin comisión por venta (solo la del gateway de pago)</li><li>Miles de plugins para cualquier necesidad</li><li>Sos dueño del código y los datos al 100%</li><li>Escalabilidad ilimitada con el hosting correcto</li></ul><p><strong>Desventajas reales:</strong></p><ul><li>Necesitás saber WordPress o contratar a alguien que sepa</li><li>Las actualizaciones pueden romper cosas (plugins incompatibles)</li><li>Seguridad es tu responsabilidad: backups, firewalls, SSL</li><li>Integrar Mercado Pago, envíos y AFIP requiere plugins + configuración</li></ul><p>WooCommerce es ideal si tenés un <a href=\"/blog/cuanto-cuesta-tienda-online-argentina\">presupuesto para desarrollo web</a> y necesitás algo que ninguna plataforma SaaS te da. Si querés \"instalar y vender\", no es para vos.</p>"
+      },
+      {
+        "heading": "Shopify: potencia internacional a precio dólar",
+        "body": "<p>Shopify es la plataforma de ecommerce más grande del mundo. Funciona perfectamente en Argentina, pero está pensada para el mercado global, y eso se nota en dos cosas: <strong>el precio en dólares</strong> y la falta de integraciones argentinas nativas.</p><p><strong>Cuándo Shopify tiene sentido:</strong></p><ul><li>Vendés productos al exterior (dropshipping, servicios digitales, marcas internacionales)</li><li>Necesitás múltiples monedas y métodos de pago internacionales</li><li>Querés un ecosistema de apps gigante (8.000+ apps en el store)</li><li>Tu marca necesita un checkout ultra-optimizado (Shop Pay convierte un 15% más)</li></ul><p><strong>Cuándo NO tiene sentido:</strong></p><ul><li>Solo vendés en Argentina en pesos: pagás dólar tarjeta + impuestos por una plataforma que no está optimizada para tu mercado</li><li>Facturación AFIP: necesitás apps de terceros (Facturante, Alegra) con costo adicional</li><li>Envíos locales: configurar Correo Argentino y Andreani requiere apps pagas</li></ul><p>El costo real de Shopify para un negocio argentino: $39 USD/mes ($48.000 ARS) + apps de facturación ($15.000/mes) + apps de envío ($10.000/mes) + 2% comisión = <strong>mínimo $73.000/mes</strong> antes de vender un solo producto.</p>"
+      },
+      {
+        "heading": "Cuál elegir: guía rápida por tipo de negocio",
+        "body": "<p><strong>Recién arrancás, presupuesto ajustado:</strong> Tiendanube plan Inicio (gratis). Empezá a vender hoy, migrá después si necesitás más.</p><p><strong>PyME argentina con 50-500 productos:</strong> Tiendanube plan Impulso. Tenés todo resuelto por $24.999/mes + comisión.</p><p><strong>Negocio con equipo técnico propio:</strong> WooCommerce. Vas a pagar menos a largo plazo y tener control total.</p><p><strong>Marca que vende al exterior:</strong> Shopify. La infraestructura internacional justifica el costo en dólares.</p><p><strong>Ecommerce grande (10.000+ productos):</strong> WooCommerce con hosting dedicado o Shopify Plus. Tiendanube empieza a quedarse corto en catálogos muy grandes.</p><p>Lo más importante: <strong>no elijas plataforma antes de definir tu estrategia</strong>. Primero definí qué vendés, a quién, por dónde cobrás y cómo enviás. La plataforma es una herramienta, no una decisión de vida. Y si después cambiás, se puede migrar.</p><p>¿No estás seguro de cuál te conviene? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos la recomendación basada en tu negocio real.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Tiendanube es gratis de verdad?",
+        "answer": "Sí. El plan Inicio es gratis y te permite vender con Mercado Pago, subir productos ilimitados y tener tu dominio propio. La contra: cobra 2% de comisión por venta y tiene menos funciones que los planes pagos. Para empezar, funciona perfecto."
+      },
+      {
+        "question": "¿WooCommerce es más barato que Tiendanube?",
+        "answer": "En costo mensual directo sí: hosting bueno sale $5-15 USD/mes vs $24.999/mes de Tiendanube Impulso. Pero sumá el tiempo de configuración, mantenimiento, plugins premium y soporte técnico. Si no tenés a alguien técnico, WooCommerce termina siendo más caro."
+      },
+      {
+        "question": "¿Puedo usar Shopify pagando en pesos argentinos?",
+        "answer": "No. Shopify cobra en dólares y se debita de tu tarjeta con el recargo de dólar tarjeta + impuestos (35% + 30% PAIS en 2026). El plan Basic de $39 USD termina costando unos $48.000 ARS o más según la cotización del momento."
+      },
+      {
+        "question": "¿Se puede migrar de Tiendanube a Shopify o viceversa?",
+        "answer": "Sí. Las tres plataformas permiten exportar/importar productos vía CSV. Lo que no se migra automáticamente: diseño, apps configuradas, SEO (URLs cambian) y clientes registrados. Una migración bien hecha tarda 1-3 semanas."
+      },
+      {
+        "question": "¿Cuál tiene mejor SEO para posicionar en Google?",
+        "answer": "Las tres permiten hacer buen SEO. Shopify y WooCommerce tienen más control sobre URLs, meta tags y estructura. Tiendanube mejoró mucho pero sigue más limitado en personalización SEO técnica. Para la mayoría de las tiendas argentinas, la diferencia es marginal."
+      }
+    ],
+    "ctaText": "¿Necesitás ayuda para elegir la mejor plataforma para tu tienda online? Pedí tu diagnóstico gratuito y te recomendamos la opción justa para tu negocio."
+  }
+}

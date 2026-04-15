@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-talleres-mecanicos",
+  "title": "Cómo automatizar WhatsApp para talleres mecánicos: turnos, presupuestos y avisos de retiro",
+  "metaTitle": "Automatizar WhatsApp para Talleres Mecánicos | SODI",
+  "metaDescription": "Automatizá turnos, avisos de \"tu auto está listo\" y presupuestos por WhatsApp en tu taller mecánico. Menos llamadas, más clientes.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["talleres mecánicos", "WhatsApp Business", "turnos", "presupuestos", "automotriz"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-talleres-mecanicos", "sistema-de-gestion-para-talleres-mecanicos", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Si tenés un taller mecánico en Argentina, ya sabés cómo es: el teléfono suena mientras estás debajo de un auto, el cliente te escribe \"¿ya está mi auto?\" por quinta vez en el día, y los turnos se pierden en un mar de mensajes sin leer. <strong>Tu WhatsApp es tu canal principal de contacto, pero también tu mayor cuello de botella.</strong></p><p>Automatizar WhatsApp en tu taller te permite responder al instante, avisar cuando el auto está listo, enviar presupuestos prolijos y agendar turnos sin que nadie deje de trabajar para contestar el celular. No es ciencia ficción: es una inversión que se paga en semanas.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en un taller mecánico",
+        "body": "<p>El 80% de los mensajes que recibís en el taller son siempre los mismos. Automatizalos y liberá tiempo para lo que importa: arreglar autos.</p><ul><li><strong>\"¿Tienen turno para...?\":</strong> el bot muestra días y horarios disponibles según el tipo de servicio (service, frenos, scanner, etc.) y agenda automáticamente.</li><li><strong>\"¿Cuánto sale un service?\":</strong> respuesta automática con rangos de precio por tipo de vehículo y servicio. No necesitás dar el precio exacto, pero sí orientar.</li><li><strong>\"¿Ya está mi auto?\":</strong> el mensaje que más te interrumpe. Con un sistema de estados, el bot responde automáticamente según la etapa: \"En diagnóstico\", \"Esperando repuesto\", \"En reparación\", \"Listo para retirar\".</li><li><strong>Aviso de auto listo:</strong> cuando marcás el trabajo como terminado, el cliente recibe: \"Tu auto ya está listo para retirar. Estamos hasta las 18hs.\"</li><li><strong>Recordatorio de service:</strong> mensaje automático a los 6 meses o 10.000 km: \"Se acerca tu próximo service. ¿Querés sacar turno?\"</li></ul><p>Estos mensajes representan la mayoría de tu tráfico en WhatsApp. Automatizándolos, <strong>tu equipo deja de ser recepcionista y vuelve a ser mecánico</strong>.</p>"
+      },
+      {
+        "heading": "El flujo ideal: del turno al retiro del vehículo",
+        "body": "<p>Un taller bien automatizado tiene un flujo claro por WhatsApp que acompaña al cliente en cada etapa:</p><ol><li><strong>Solicitud de turno:</strong> el cliente escribe, el bot pregunta tipo de servicio, marca/modelo y ofrece horarios disponibles.</li><li><strong>Confirmación:</strong> \"Tu turno para service de Ford Focus es el martes 15 a las 9hs. Traé el auto con nafta.\"</li><li><strong>Recordatorio 24h antes:</strong> \"Mañana tenés turno a las 9hs. ¿Confirmás?\" Con botones de Sí/Reprogramar.</li><li><strong>Ingreso del vehículo:</strong> \"Recibimos tu auto. Te avisamos cuando tengamos el diagnóstico.\"</li><li><strong>Presupuesto:</strong> \"El diagnóstico de tu Focus indica: [detalle]. Presupuesto: $XX.XXX. ¿Autorizás la reparación?\" Con botón de Sí/No.</li><li><strong>Estado de avance:</strong> actualizaciones automáticas cuando cambia el estado en tu <a href=\"/blog/sistema-de-gestion-para-talleres-mecanicos\">sistema de gestión</a>.</li><li><strong>Auto listo:</strong> \"¡Tu auto está listo! Podés retirarlo hoy hasta las 18hs. Total: $XX.XXX.\"</li></ol><p>Ese flujo completo <strong>elimina el 90% de los mensajes manuales</strong> y le da al cliente una experiencia profesional que pocos talleres ofrecen en Argentina.</p>"
+      },
+      {
+        "heading": "Herramientas para automatizar WhatsApp en tu taller",
+        "body": "<p>No necesitás ser programador. Estas herramientas están pensadas para PyMEs argentinas:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, catálogo de servicios, mensaje de ausencia. El mínimo para arrancar. Configurá al menos: saludo automático, respuesta fuera de horario y 5-6 respuestas rápidas para las consultas más frecuentes.</li><li><strong>Aurora Inbox (desde USD 15/mes):</strong> plataforma argentina que permite flujos de conversación automatizados, etiquetas y métricas. Ideal para talleres con 2-3 personas atendiendo WhatsApp.</li><li><strong>Whato (desde USD 20/mes):</strong> otra opción argentina con buena integración de catálogos y respuestas automáticas por palabras clave.</li><li><strong>ChatCompose (desde USD 12/mes):</strong> chatbot que se integra con WhatsApp Business API. Permite flujos de turnos y presupuestos automatizados.</li><li><strong>ManyChat (desde USD 15/mes):</strong> muy popular para automatización de WhatsApp con flujos visuales. Fácil de configurar sin código.</li></ul><p>La inversión mensual es menor que lo que facturás con <strong>un solo turno de service</strong>. Y la diferencia en tiempo ahorrado es enorme.</p><p>Si querés entender la diferencia entre manejar WhatsApp a mano y usar un bot, <a href=\"/blog/whatsapp-manual-vs-bot-automatico\">leé esta comparativa</a>.</p>"
+      },
+      {
+        "heading": "Presupuestos por WhatsApp: rápido, claro y profesional",
+        "body": "<p>Uno de los momentos más críticos para un taller es el presupuesto. Si tardás en pasarlo, el cliente se va a otro lado. Si lo mandás por audio o en un mensaje desordenado, no transmitís profesionalismo.</p><p>Con automatización podés enviar presupuestos estructurados:</p><ul><li><strong>Formato prolijo:</strong> mensaje con detalle de trabajos, repuestos, mano de obra y total. Generado automáticamente desde tu sistema de gestión.</li><li><strong>Botones de acción:</strong> \"Autorizar reparación\" / \"Tengo dudas\" / \"No, gracias\". El cliente responde con un toque y vos recibís la autorización sin intermediarios.</li><li><strong>PDF adjunto:</strong> para presupuestos más complejos, el sistema genera un PDF y lo envía por WhatsApp automáticamente.</li><li><strong>Seguimiento:</strong> si el cliente no responde en 24hs, un recordatorio amable: \"¿Pudiste ver el presupuesto de tu auto? Estamos a disposición.\"</li></ul><p>Un taller que envía presupuestos rápidos y claros <strong>convierte más y transmite seriedad</strong>. Es la diferencia entre que el cliente te elija a vos o al taller de la otra cuadra.</p>"
+      },
+      {
+        "heading": "Recordatorios de mantenimiento: turnos que se generan solos",
+        "body": "<p>El mantenimiento preventivo es <strong>la mejor fuente de ingresos recurrentes</strong> para un taller. Pero el cliente se olvida. Si vos le recordás, viene:</p><ul><li><strong>Service periódico:</strong> \"¡Hola [nombre]! Tu [marca modelo] está por cumplir 10.000 km desde el último service. ¿Querés sacar turno?\"</li><li><strong>Cambio de cubiertas:</strong> recordatorio según desgaste estimado o kilometraje.</li><li><strong>VTV/RTO:</strong> \"Se acerca el vencimiento de tu VTV. ¿Querés que te hagamos la revisión pre-VTV?\"</li><li><strong>Cambio de correa de distribución:</strong> para vehículos que se acercan al kilometraje recomendado.</li></ul><p>Un taller con 500 clientes en su base que envía recordatorios automáticos puede generar <strong>entre 20 y 40 turnos extra por mes</strong>. Sin publicidad, sin esfuerzo, solo reactivando clientes que ya te conocen y confían en vos.</p><p>Para que funcione necesitás registrar el vehículo, kilometraje y tipo de servicio de cada cliente. Un <a href=\"/blog/sistema-de-gestion-para-talleres-mecanicos\">sistema de gestión para talleres</a> hace esto automáticamente y dispara los recordatorios.</p><p>¿Querés automatizar el WhatsApp de tu taller? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te mostramos por dónde arrancar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo automatizar WhatsApp sin un sistema de gestión?",
+        "answer": "Sí, podés arrancar con WhatsApp Business gratis y respuestas rápidas. Pero para flujos completos (estados del auto, presupuestos, recordatorios), necesitás un sistema que alimente al bot con datos reales. Lo ideal es ir de a poco: arrancar con lo básico y crecer."
+      },
+      {
+        "question": "¿El bot reemplaza a la persona que atiende el WhatsApp?",
+        "answer": "No la reemplaza, la libera. El bot resuelve las consultas repetitivas (turnos, precios, estados) y la persona se enfoca en consultas complejas, reclamos o situaciones especiales. Es complementario."
+      },
+      {
+        "question": "¿Cuánto cuesta automatizar WhatsApp en un taller?",
+        "answer": "Desde gratis con WhatsApp Business hasta USD 15-30/mes con herramientas como Aurora Inbox o ManyChat. Un desarrollo custom integrado con tu sistema de gestión puede costar desde USD 200 de setup. El ROI es rápido: con 2-3 turnos extra por mes ya se paga solo."
+      },
+      {
+        "question": "¿Los clientes se molestan con los mensajes automáticos?",
+        "answer": "No, si son útiles y oportunos. Un aviso de 'tu auto está listo' o un recordatorio de service son mensajes que el cliente agradece. Lo que molesta es el spam o mensajes irrelevantes. La clave es enviar solo lo que le importa al cliente."
+      },
+      {
+        "question": "¿Puedo enviar presupuestos con fotos del problema del auto?",
+        "answer": "Sí. Muchos talleres sacan fotos del desgaste o la pieza rota y las envían junto al presupuesto. Eso genera confianza porque el cliente ve el problema con sus propios ojos. Podés hacerlo manual o semi-automatizado con herramientas como Aurora Inbox."
+      }
+    ],
+    "ctaText": "¿Tu taller pierde tiempo contestando siempre las mismas preguntas por WhatsApp? En SODI te armamos el sistema de automatización completo. <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>."
+  }
+}

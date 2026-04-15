@@ -1,0 +1,61 @@
+{
+  "slug": "tienda-online-para-vinos-bodegas",
+  "title": "Tienda online para vinos y bodegas: cómo vender por internet en Argentina",
+  "metaTitle": "Tienda Online para Vinos y Bodegas Argentina 2026",
+  "metaDescription": "Tienda online para bodegas en Argentina: verificación de edad, wine clubs, envío seguro de botellas y plataformas desde $0/mes. Guía con costos 2026.",
+  "silo": "ecommerce-por-rubro",
+  "siloLabel": "Ecommerce por Rubro",
+  "tags": ["tienda online", "ecommerce", "vinos", "bodegas", "vender online", "Argentina"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "como-vender-por-internet-argentina", "shopify-vs-tiendanube-argentina", "como-preparar-negocio-para-vender-online"],
+  "content": {
+    "intro": "<p>El <strong>ecommerce de vinos en Argentina</strong> explotó post-pandemia y no frenó. Las bodegas que antes dependían 100% de distribuidores y vinotecas ahora venden directo al consumidor (DTC) con márgenes mucho más altos. El desafío: verificación de edad, logística de botellas frágiles, y diferenciarse en un mercado con cientos de etiquetas.</p><p>Las opciones en 2026: <strong>Tiendanube</strong> (desde $0/mes, rápido de armar), <strong>WooCommerce</strong> (ideal para wine clubs y suscripciones) o <strong>desarrollo custom</strong> (desde $1.000.000 ARS, para bodegas grandes con enoturismo integrado). Te contamos costos, regulaciones y qué conviene según tu bodega.</p>",
+    "sections": [
+      {
+        "heading": "Plataformas para vender vinos online en Argentina",
+        "body": "<p>El rubro vinos tiene necesidades específicas que no todos los ecommerce manejan bien:</p><p><strong>Tiendanube</strong> ($0-$49.900 ARS/mes): la opción más rápida para arrancar. Subís tus vinos con ficha técnica (cepa, añada, notas de cata), integrás MercadoPago con cuotas y listo. Funciona perfecto para bodegas chicas y vinotecas que quieren vender online. Limitaciones: no tiene verificación de edad nativa (se resuelve con un popup de JavaScript), no maneja suscripciones de wine club sin apps de terceros.</p><p><strong>WooCommerce</strong> ($400.000-$800.000 ARS desarrollo + $15.000-$30.000 ARS/mes hosting): más poder para funcionalidades de vino. Plugins para verificación de edad en checkout, sistema de suscripciones para wine club, fichas de producto con ficha técnica enológica (cepa, región, temperatura de servicio, maridaje), y scoring/puntuaciones. Ideal para bodegas medianas que quieren DTC fuerte.</p><p><strong>Desarrollo custom</strong> ($1.000.000-$2.200.000 ARS): para bodegas grandes que quieren integrar <strong>enoturismo + tienda online</strong>. Reserva de visitas y degustaciones, wine club con cuota mensual, experiencias VIP, integración con sistema de gestión bodeguera. Es una inversión que se justifica si tu bodega recibe 500+ visitantes por mes.</p><p>Recomendación: bodegas boutique y vinotecas, Tiendanube. Bodegas medianas con ambición DTC, WooCommerce. Bodegas grandes con enoturismo, custom.</p>"
+      },
+      {
+        "heading": "Verificación de edad y regulaciones para vender alcohol online",
+        "body": "<p>Vender alcohol online en Argentina tiene regulaciones que tenés que cumplir:</p><ul><li><strong>Verificación de edad</strong>: la venta de bebidas alcohólicas a menores de 18 años está prohibida por la Ley Nacional de Lucha contra el Alcoholismo (Ley 24.788). Tu tienda necesita un mecanismo de verificación de edad antes de acceder al sitio o al momento del checkout. La solución más común: un popup al entrar al sitio donde el visitante confirma ser mayor de 18. No es infalible, pero cumple con el requisito legal.</li><li><strong>Leyenda obligatoria</strong>: todo sitio que venda alcohol debe mostrar la leyenda \"Beber con moderación. Prohibida su venta a menores de 18 años\". Visible en el footer y en el checkout.</li><li><strong>Restricciones horarias y de envío</strong>: algunas provincias tienen restricciones de horario para venta de alcohol. Informate sobre la regulación de tu provincia.</li><li><strong>Facturación</strong>: la venta de vinos lleva IVA 21% (no reducido). Si vendés a consumidor final, factura B. Si vendés a restaurantes o vinotecas (B2B), factura A.</li></ul><p>En Tiendanube, el popup de verificación de edad se implementa con código JavaScript en el theme (un desarrollador lo hace en 2 horas, ~$20.000 ARS). En WooCommerce, hay plugins gratuitos. En custom, se desarrolla nativo.</p>"
+      },
+      {
+        "heading": "Wine clubs y suscripciones: ingreso recurrente para tu bodega",
+        "body": "<p>El <strong>wine club</strong> es el modelo de negocio más rentable para bodegas que venden directo al consumidor. El concepto: el cliente se suscribe a una cuota mensual o bimestral, y recibe una selección de vinos curada por tu enólogo.</p><p>Modelos de wine club que funcionan en Argentina:</p><ul><li><strong>Caja mensual fija</strong>: 2-3 botellas seleccionadas por tu equipo. Precio: $25.000-$60.000 ARS/mes según gama. El suscriptor recibe vinos que no compraría por su cuenta + fichas de cata + contenido exclusivo.</li><li><strong>Caja trimestral premium</strong>: 6 botellas cada 3 meses con vinos de reserva o edición limitada. Precio: $80.000-$150.000 ARS. Ideal para bodegas con producción limitada.</li><li><strong>Membresía con beneficios</strong>: no se envían vinos automáticamente, pero el miembro tiene 15-20% de descuento permanente, acceso a preventa de nuevas etiquetas, invitaciones a degustaciones exclusivas, y envío gratis.</li></ul><p>Implementación técnica: en Tiendanube necesitás Rebill o similar (~$15.000 ARS/mes). En WooCommerce, WooCommerce Subscriptions (~USD 199/año). En custom, se desarrolla a medida con débito automático vía MercadoPago.</p><p>Números reales: un wine club con <strong>50 suscriptores a $40.000 ARS/mes</strong> genera $2.000.000 ARS mensuales de ingreso predecible. Considerando que el costo del vino para la bodega es 30-40% del precio de venta, el margen es excelente. El desafío es la retención: un buen wine club retiene al 85-90% de suscriptores mes a mes.</p>"
+      },
+      {
+        "heading": "Logística: cómo enviar botellas sin que se rompan",
+        "body": "<p>El envío de vino tiene dos enemigos: <strong>la rotura y la temperatura</strong>. Una botella rota es pérdida total (producto + envío + reposición + cliente enojado). Necesitás logística especializada.</p><p><strong>Packaging</strong>: cajas de cartón con separadores individuales para cada botella. Para 1-2 botellas: caja con relleno de cartón corrugado o espuma. Para 3-6 botellas: caja con divisores (tipo colmena). Costo del packaging: $1.500-$4.000 ARS por caja según cantidad de botellas. Invertí en packaging bueno: una rotura cuesta 10x más que la caja.</p><p><strong>Opciones de envío</strong>:</p><ul><li><strong>Transporte especializado en vinos</strong>: empresas como Envía Tu Vino o servicios de cadetería con experiencia en frágiles. Costo CABA/GBA: $5.000-$10.000 ARS. Interior: $8.000-$18.000 ARS.</li><li><strong>Andreani/OCA</strong>: manejan frágiles pero necesitás packaging impecable y declarar valor. Seguro obligatorio.</li><li><strong>Retiro en bodega</strong>: la mejor opción si tenés espacio de atención al público. Gratis, sin riesgo de rotura, y el cliente puede conocer tu bodega (oportunidad de enoturismo).</li></ul><p><strong>Temperatura</strong>: en verano, los vinos no pueden estar horas en un camión a 40°C. Si enviás vinos premium, coordiná envíos para que lleguen en 24-48 horas máximo, o usá packs térmicos ($2.000-$3.000 ARS extra) para envíos a zonas calurosas.</p><p>Consejo: ofrecé <strong>envío gratis a partir de 6 botellas</strong>. Esto sube el ticket promedio y amortiza mejor el costo logístico. Una caja de 6 botellas cuesta lo mismo de enviar que una de 2.</p>"
+      },
+      {
+        "heading": "Enoturismo + tienda online: la combinación ganadora",
+        "body": "<p>Si tu bodega recibe visitantes, tu tienda online tiene que estar <strong>integrada con la experiencia presencial</strong>. El visitante que degustó en tu bodega es tu mejor cliente online: ya probó el vino, conoce la marca y confía.</p><p>Estrategias de integración:</p><ul><li><strong>QR en la mesa de degustación</strong>: el visitante escanea y accede a la tienda online para comprar los vinos que acaba de probar. Envío a domicilio para que no cargue botellas en el viaje.</li><li><strong>Descuento post-visita</strong>: email automático 24-48 horas después de la visita con 10% de descuento en la primera compra online. Tasa de conversión: 15-25%.</li><li><strong>Reserva de visitas online</strong>: tu web permite reservar degustaciones, visitas guiadas y experiencias especiales. Pago anticipado vía MercadoPago. Reduce no-shows (del 30% al 5% con pago anticipado).</li><li><strong>Contenido experiencial</strong>: blog con notas de cata, historias de cada etiqueta, videos del enólogo. Esto genera tráfico orgánico y posiciona a tu bodega como marca, no solo como producto.</li></ul><p><strong>Costos de integración enoturismo</strong>: en Tiendanube, sistema de reservas básico con app de terceros ($10.000-$20.000 ARS/mes). En WooCommerce, WooCommerce Bookings (~USD 249/año). En custom, reservas + tienda + wine club integrado ($1.500.000-$2.200.000 ARS desarrollo total).</p><p>Si tu bodega factura más del 20% por enoturismo, la inversión en una plataforma que integre todo se paga en 6-12 meses.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Necesito habilitación especial para vender vinos por internet?",
+        "answer": "Si sos bodega inscripta en el INV (Instituto Nacional de Vitivinicultura), ya tenés la habilitación para vender tus vinos. Si sos vinoteca, necesitás la habilitación comercial que ya tenés para tu local. Lo que necesitás agregar: verificación de edad en tu sitio web, leyenda de consumo responsable, y cumplir con las regulaciones provinciales de venta de alcohol online."
+      },
+      {
+        "question": "Cuánto cuesta armar un wine club online?",
+        "answer": "La plataforma de suscripciones: $15.000-$30.000 ARS/mes (app en Tiendanube) o incluido en el desarrollo si vas por WooCommerce/custom. El costo real está en la operación: selección y empaque mensual, logística recurrente, y contenido (fichas de cata, notas del enólogo). Un wine club de 50 suscriptores puede generar $2.000.000 ARS/mes con márgenes del 60-70% para la bodega."
+      },
+      {
+        "question": "MercadoLibre sirve para vender vinos?",
+        "answer": "Sí, MercadoLibre permite la venta de vinos. Es un canal complementario con mucho tráfico. Pero las comisiones son altas (13-17% + envío) y perdés la relación directa con el cliente. Estrategia recomendada: usá MercadoLibre para líneas de entrada o promociones, y dirigí al cliente a tu tienda propia para compras recurrentes y wine club donde tenés mejor margen."
+      },
+      {
+        "question": "Cómo hago la verificación de edad en mi tienda online?",
+        "answer": "La forma más común en Argentina es un popup/modal al ingresar al sitio donde el visitante declara ser mayor de 18 años con un botón de 'Sí, soy mayor' o ingresando su fecha de nacimiento. No es verificación biométrica (no se usa en Argentina para esto). En Tiendanube se implementa con JavaScript en el theme (~$20.000 ARS). En WooCommerce, plugins gratuitos como Age Gate."
+      },
+      {
+        "question": "Conviene envío propio o tercerizar para vinos?",
+        "answer": "Para zona local (hasta 50 km de tu bodega), envío propio o cadetería de confianza. Para CABA/GBA y envíos nacionales, servicios especializados en frágiles o Andreani/OCA con packaging reforzado y seguro. El envío propio te da control total sobre la experiencia, pero no escala a nivel nacional. Combiná ambos: propio en zona + tercerizado para el resto."
+      }
+    ],
+    "ctaText": "¿Querés vender los vinos de tu bodega online? Pedí tu diagnóstico gratuito y te armamos la tienda ideal para tu marca."
+  }
+}

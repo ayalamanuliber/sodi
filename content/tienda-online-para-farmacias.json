@@ -1,0 +1,61 @@
+{
+  "slug": "tienda-online-para-farmacias",
+  "title": "Tienda online para farmacias: cómo vender por internet en Argentina",
+  "metaTitle": "Tienda Online para Farmacias Argentina 2026",
+  "metaDescription": "Tienda online para farmacias en Argentina: Tiendastic desde USD 50/mes, Tiendanube desde $0. Regulaciones, delivery por zona y costos reales 2026.",
+  "silo": "ecommerce-por-rubro",
+  "siloLabel": "Ecommerce por Rubro",
+  "tags": ["tienda online", "ecommerce", "farmacias", "vender online", "Argentina"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-farmacias", "cuanto-cuesta-tienda-online-argentina", "presencia-digital-ideal-farmacia", "shopify-vs-tiendanube-argentina"],
+  "content": {
+    "intro": "<p>Las <strong>farmacias en Argentina</strong> tienen una oportunidad enorme en ecommerce: el 65% de los consumidores ya compra productos de perfumeria, dermocosmetica y suplementos por internet. Pero vender medicamentos online tiene restricciones regulatorias que hacen que no cualquier plataforma sirva. Necesitas una solucion que maneje productos regulados y productos de venta libre con logicas diferentes.</p><p>Las opciones en 2026: <strong>Tiendastic</strong> (plataforma especializada en farmacias, desde USD 50/mes), <strong>Tiendanube</strong> (desde $0/mes, ideal para perfumeria y dermocosmética) o <strong>desarrollo custom</strong> (desde $900.000 ARS). Cada camino tiene sus ventajas segun tu mix de productos y zona de delivery. Te explicamos costos, regulaciones y que conviene para tu farmacia.</p>",
+    "sections": [
+      {
+        "heading": "Plataformas para farmacias: Tiendastic, Tiendanube o custom",
+        "body": "<p><strong>Tiendastic</strong> es la plataforma especializada en farmacias de habla hispana. Ventajas: manejo de productos bajo receta (el cliente sube la receta y vos la validás), categorización farmacéutica, integración con sistemas de stock de droguería, y alertas de vencimiento. Costo: desde USD 50/mes (~$62.500 ARS al cambio actual). Desventaja: menos flexibilidad de diseño que una tienda custom.</p><p><strong>Tiendanube</strong> funciona perfecto si tu foco es <strong>perfumería, dermocosmetica, suplementos y productos OTC</strong> (venta libre). Plan gratuito para arrancar, plan Esencial ~$24.900 ARS/mes para crecer. No tiene funcionalidades especificas para validación de recetas, asi que no es ideal si querés vender medicamentos bajo prescripcion online.</p><p><strong>Desarrollo custom</strong> ($900.000-$1.800.000 ARS): tiene sentido si necesitás integración con tu sistema de gestión de farmacia (Farmalink, Nextfarma), manejo de recetas digitales, y delivery por zona con franjas horarias. Es la opción para farmacias grandes o cadenas que necesitan control total.</p><p>Nuestra recomendación: si sos farmacia independiente, arrancá con Tiendanube para perfumería/dermocosmética (el 70% de la facturación online de farmacias viene de ahí). Si necesitás venta de medicamentos online, evaluá Tiendastic o desarrollo custom.</p>"
+      },
+      {
+        "heading": "Regulaciones para vender productos farmacéuticos online",
+        "body": "<p>Acá está lo que diferencia a una farmacia de cualquier otro ecommerce: <strong>la regulación</strong>. En Argentina, la venta online de medicamentos está regulada por ANMAT y las autoridades sanitarias provinciales.</p><ul><li><strong>Medicamentos de venta libre (OTC)</strong>: se pueden vender online sin restricciones. Ibuprofeno, paracetamol, vitaminas, protectores solares, etc. Tu tienda online puede listarlos como cualquier producto.</li><li><strong>Medicamentos bajo receta</strong>: necesitás un sistema de validación de receta. El cliente sube la foto de la receta, vos la validás antes de despachar. Requiere habilitación como farmacia (que ya tenés) y registro ante la autoridad sanitaria provincial para venta online.</li><li><strong>Medicamentos psicotrópicos y estupefacientes</strong>: no se pueden vender online. Punto.</li><li><strong>Productos de perfumería y dermocosmética</strong>: venta libre, sin restricciones. Esto incluye cremas, shampoos, maquillaje, protectores solares cosméticos. Es el grueso de la facturación online de farmacias.</li></ul><p>Importante: necesitás que tu tienda muestre <strong>Director Técnico habilitado</strong> y número de habilitación municipal/provincial. Es obligatorio en la web como lo es en el local físico. Asegurate de que tu plataforma permita mostrar esta información de forma visible.</p>"
+      },
+      {
+        "heading": "Delivery por zona y logística para farmacias",
+        "body": "<p>La logística de farmacia tiene una particularidad: <strong>el delivery rápido por zona es más importante que el envío nacional</strong>. El 80% de los pedidos online de farmacias son de clientes en un radio de 5-10 km que quieren recibir el producto en el día.</p><p><strong>Delivery propio</strong>: la opción más usada por farmacias. Motoquero o cadete que cubre tu zona. Costo: $3.000-$6.000 ARS por envío según zona. Tiempo: 1-3 horas. Podés ofrecerlo gratis arriba de cierto monto ($15.000-$25.000 ARS) para incentivar el ticket promedio.</p><p><strong>MercadoEnvíos</strong>: para envíos fuera de tu zona o nacionales. Útil para productos de perfumería que no requieren cadena de frío ni urgencia. Costo absorbido por el comprador o bonificado por vos.</p><p><strong>Retiro en farmacia (pickup)</strong>: opción gratuita que muchos clientes prefieren. El cliente pide online, vos prepará el pedido, y lo retira cuando le queda cómodo. Esto ahorra logística y funciona excelente para medicamentos bajo receta que requieren validación presencial.</p><p>Clave: tu plataforma tiene que manejar <strong>zonas de delivery con costos diferenciados</strong>. Dentro de 5 km: gratis o $3.000. De 5 a 15 km: $5.000. Más lejos: MercadoEnvíos. Tanto Tiendastic como desarrollo custom manejan esto. En Tiendanube necesitás una app como Envíopack para configurar zonas.</p>"
+      },
+      {
+        "heading": "Catálogo y pagos: qué necesita tu tienda de farmacia",
+        "body": "<p>El catálogo de una farmacia online tiene desafíos únicos: <strong>miles de SKUs</strong> (una farmacia promedio maneja 3.000-8.000 productos), actualizaciones de precio frecuentes (laboratorios cambian precios cada 2-4 semanas), y productos que entran y salen de stock constantemente.</p><p>Funcionalidades imprescindibles para el catálogo:</p><ul><li><strong>Importación masiva</strong>: subir y actualizar precios por lote (CSV/Excel). Si tenés 5.000 productos, no podés actualizar uno por uno. Tiendanube y Tiendastic permiten importación masiva.</li><li><strong>Categorización farmacéutica</strong>: por laboratorio, por principio activo, por categoría terapéutica. El cliente que busca \"crema para dermatitis\" necesita encontrarla rápido.</li><li><strong>Búsqueda inteligente</strong>: que buscar \"ibuprofeno\" muestre todas las presentaciones, marcas y laboratorios. En Tiendanube el buscador nativo es limitado. En custom, podés implementar Algolia o ElasticSearch.</li><li><strong>Control de stock en tiempo real</strong>: integración con tu sistema de gestión para evitar vender productos sin stock. Nada peor que confirmar un pedido y después avisar que no hay stock.</li></ul><p><strong>Medios de pago</strong>: <a href='https://www.mercadopago.com.ar'>MercadoPago</a> es el estándar. Comisión: 4%-6% por transacción según plan. Aceptás tarjetas de crédito (hasta 12 cuotas), débito, transferencia y efectivo (RapiPago, PagoFacil). Para farmacias, es importante aceptar <strong>obras sociales y prepagas</strong> en el local, pero esto todavía no funciona bien en ecommerce. Solución parcial: descuento equivalente al reintegro de obra social para compras online.</p>"
+      },
+      {
+        "heading": "Costos reales de armar tu farmacia online en 2026",
+        "body": "<p>Acá va el resumen de costos según cada opción:</p><p><strong>Opción 1: Tiendanube (perfumería/dermocosmética)</strong></p><ul><li>Plataforma: $0-$49.900 ARS/mes</li><li>Dominio: $5.000 ARS/año (.com.ar)</li><li>Personalización de diseño: $80.000-$150.000 ARS (una vez)</li><li>Fotos de productos: $50.000-$100.000 ARS (primeras 200 fotos)</li><li>Total arranque: ~$135.000-$305.000 ARS</li><li>Mensual operativo: $30.000-$80.000 ARS + comisiones de MercadoPago</li></ul><p><strong>Opción 2: Tiendastic</strong></p><ul><li>Plataforma: USD 50-120/mes (~$62.500-$150.000 ARS/mes)</li><li>Setup inicial: desde USD 200 (~$250.000 ARS)</li><li>Dominio y hosting: incluido</li><li>Total arranque: ~$310.000-$400.000 ARS</li><li>Mensual operativo: $62.500-$150.000 ARS + comisiones de pago</li></ul><p><strong>Opción 3: Desarrollo custom</strong></p><ul><li>Desarrollo: $900.000-$1.800.000 ARS</li><li>Hosting: $15.000-$30.000 ARS/mes</li><li>Mantenimiento: $30.000-$60.000 ARS/mes</li><li>Total arranque: $900.000-$1.800.000 ARS</li><li>Mensual operativo: $45.000-$90.000 ARS + comisiones de pago</li></ul><p>En todos los casos, sumá <strong>delivery</strong> ($3.000-$6.000 por envío, parcialmente trasladado al cliente) y <strong>marketing digital</strong> ($80.000-$200.000 ARS/mes en Google Ads, fundamental para farmacias donde el cliente busca por producto específico).</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Puedo vender medicamentos bajo receta por internet en Argentina?",
+        "answer": "Sí, pero con restricciones. El cliente sube la foto de la receta médica, tu farmacéutico la valida, y recién ahí despachas el producto. Necesitás habilitación como farmacia (ya la tenés) y registro ante la autoridad sanitaria provincial para venta online. Medicamentos psicotrópicos y estupefacientes no se pueden vender online bajo ninguna circunstancia."
+      },
+      {
+        "question": "Tiendanube sirve para una farmacia?",
+        "answer": "Para perfumería, dermocosmética, suplementos y productos OTC (venta libre), sí. Tiendanube no tiene funcionalidades específicas para validar recetas ni manejar regulación farmacéutica. Si tu foco online es dermocosmética y perfumería (que representa el 70% de la facturación online de farmacias), Tiendanube es una opción válida y más económica."
+      },
+      {
+        "question": "Cuánto cuesta el delivery propio para farmacia?",
+        "answer": "Entre $3.000 y $6.000 ARS por envío dentro de tu zona (5-10 km). La mayoría de las farmacias ofrecen envío gratis a partir de $15.000-$25.000 ARS de compra. El motoquero o cadete propio sale más barato que tercerizar con apps de delivery que cobran 20-30% de comisión. Para envíos fuera de zona, usás MercadoEnvíos."
+      },
+      {
+        "question": "Necesito integrar mi sistema de gestión de farmacia con la tienda online?",
+        "answer": "Es muy recomendable. Si no lo integrás, tenés que actualizar stock y precios manualmente en dos sistemas. Con integración (Farmalink, Nextfarma, o tu sistema), cuando vendés online el stock se descuenta automáticamente. En Tiendanube podés lograrlo con apps de terceros. En desarrollo custom, se hace integración directa por API."
+      },
+      {
+        "question": "Qué productos de farmacia se venden más online?",
+        "answer": "En orden: 1) Dermocosmética (La Roche-Posay, Avène, Vichy) con ticket alto. 2) Perfumería y cuidado personal. 3) Suplementos y vitaminas. 4) Pañales y productos de bebé (compra recurrente). 5) Medicamentos OTC habituales. El grueso de la facturación online de farmacias viene de dermocosmética y perfumería, no de medicamentos."
+      }
+    ],
+    "ctaText": "¿Querés armar la tienda online de tu farmacia? Pedí tu diagnóstico gratuito y te recomendamos la mejor plataforma para tu caso."
+  }
+}

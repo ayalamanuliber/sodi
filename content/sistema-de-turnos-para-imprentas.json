@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-imprentas",
+  "title": "Sistema de turnos para imprentas: consultas de diseño, retiros y entregas programadas",
+  "metaTitle": "Sistema de Turnos para Imprentas Argentina | SODI",
+  "metaDescription": "Sistemas de turnos para imprentas en Argentina. Citas de consulta, slots de retiro, entregas programadas, aprobación de pruebas y recordatorios automáticos.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "imprentas", "citas imprenta", "retiro de trabajos", "entregas programadas"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-imprentas", "sistema-de-gestion-para-imprentas", "cuanto-cuesta-app-de-turnos", "automatizar-whatsapp-imprentas"],
+  "content": {
+    "intro": "<p>Una imprenta no atiende turnos médicos, pero sí tiene <strong>momentos clave que necesitan organización</strong>: la consulta inicial donde el cliente explica qué necesita, el envío de pruebas para aprobación, la coordinación del retiro y las entregas programadas. Cuando todo eso se maneja por WhatsApp, el caos es inevitable: clientes que llegan sin aviso, retiros que se amontonan y pruebas que nadie aprobó a tiempo.</p><p>Un sistema de turnos para imprentas organiza cada punto de contacto con el cliente. En esta guía te mostramos cómo funciona, qué opciones tenés y cuánto cuesta implementarlo.</p>",
+    "sections": [
+      {
+        "heading": "Por qué una imprenta necesita un sistema de turnos",
+        "body": "<p>Puede sonar raro hablar de \"turnos\" en una imprenta, pero pensá en cuántas veces al día se interrumpe la producción porque:</p><ul><li><strong>Llega un cliente sin aviso:</strong> quiere consultar un trabajo, ver muestras de papel o discutir un diseño. El encargado tiene que dejar lo que está haciendo para atenderlo.</li><li><strong>Varios clientes quieren retirar al mismo tiempo:</strong> la hora pico de retiros (generalmente 17-19hs) se convierte en una cola y un caos logístico para encontrar cada trabajo.</li><li><strong>Entregas grandes sin coordinación:</strong> un pedido de 5.000 folletos necesita que alguien lo prepare, empaquete y tenga listo. Si el cliente llega sin avisar, no está listo.</li><li><strong>Aprobación de pruebas atrasada:</strong> mandaste la prueba por WhatsApp, el cliente no contestó, el trabajo se frena y la máquina está parada esperando.</li></ul><p>Un sistema de turnos no es un lujo: es una herramienta que <strong>ordena los puntos de contacto con el cliente</strong> y libera al equipo para producir sin interrupciones.</p>"
+      },
+      {
+        "heading": "Los tipos de turno que necesita una imprenta",
+        "body": "<p>No todos los turnos son iguales. Una imprenta necesita gestionar al menos estos tipos:</p><ul><li><strong>Consulta de diseño/presupuesto:</strong> el cliente viene a explicar lo que necesita, ver muestras, definir especificaciones. Duración típica: 30-45 minutos. Se agenda con el encargado comercial.</li><li><strong>Aprobación de pruebas presencial:</strong> el cliente viene a ver la prueba de color en papel. Duración: 15-20 minutos. Se agenda cuando la prueba está lista.</li><li><strong>Slot de retiro:</strong> franjas horarias para que los clientes pasen a buscar sus trabajos. Se asignan por ventana (ej: 10:00-10:30) para evitar amontonamientos.</li><li><strong>Entrega programada:</strong> para trabajos grandes o entregas a domicilio. Se coordina la fecha, hora y dirección.</li><li><strong>Revisión de archivos:</strong> el diseñador de la imprenta revisa los archivos del cliente antes de mandar a producción. Se agenda para tener tiempo dedicado.</li></ul><p>Cada tipo tiene su duración, su responsable y su lógica. Un <a href=\"/blog/sistema-de-gestion-para-imprentas\">sistema de gestión para imprentas</a> complementa esto con el seguimiento completo de cada trabajo.</p>"
+      },
+      {
+        "heading": "Opciones SaaS vs desarrollo a medida",
+        "body": "<p>Para el sistema de turnos de una imprenta, las opciones son:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> podés crear distintos tipos de evento (consulta, retiro, aprobación) con sus duraciones. El cliente elige el tipo y el horario. Simple, gratuito y funcional para empezar.</li><li><strong>Calendly (USD 10-20/mes):</strong> similar a Cal.com pero con mejor integración de recordatorios y formularios previos. Podés pedir al cliente que suba archivos antes de la consulta.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> más robusto, permite gestionar múltiples \"servicios\" (tipos de turno) con distintos responsables y duraciones.</li></ul><p><strong>Sistema a medida:</strong> tiene sentido cuando querés integrar los turnos con el <a href=\"/blog/sistema-de-gestion-para-imprentas\">sistema de gestión de la imprenta</a>. Por ejemplo: cuando un trabajo está listo, el sistema automáticamente le ofrece al cliente un slot de retiro. O cuando subís una prueba, le manda un link para aprobar online o agendar visita presencial.</p><p>Para imprentas chicas, Cal.com o Calendly alcanzan. Para imprentas medianas o grandes con sistema de gestión, la integración a medida es lo que realmente hace la diferencia.</p>"
+      },
+      {
+        "heading": "Aprobación de pruebas online: el turno que te ahorra tiempo",
+        "body": "<p>La aprobación de pruebas es uno de los cuellos de botella más grandes en una imprenta. El flujo tradicional es lento:</p><ol><li>Mandás la prueba por WhatsApp o email</li><li>El cliente no contesta</li><li>Le escribís de nuevo</li><li>Te dice que quiere verla en persona</li><li>Viene sin aviso, no hay nadie disponible</li><li>Finalmente aprueba 3 días después</li></ol><p>Con un sistema integrado, el flujo es:</p><ol><li>La prueba se sube al sistema cuando está lista</li><li>El cliente recibe una notificación automática con el link</li><li>Puede aprobar online con un clic (queda registrado con fecha y hora)</li><li>Si quiere verla en persona, agenda un turno de aprobación desde el mismo link</li><li>Cuando aprueba, el trabajo pasa automáticamente a producción</li></ol><p>Ese flujo <strong>ahorra 2-3 días por trabajo</strong> en promedio. Multiplicalo por la cantidad de trabajos mensuales y el impacto en la productividad es enorme.</p><p>La <a href=\"/blog/automatizar-whatsapp-imprentas\">automatización de WhatsApp</a> complementa esto con recordatorios automáticos de pruebas pendientes.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta y cómo elegir",
+        "body": "<p>Los costos en 2026:</p><ul><li><strong>Cal.com / Calendly:</strong> gratis - USD 20/mes. Funcional para empezar con turnos básicos.</li><li><strong>AgendaPro:</strong> USD 15-45/mes. Más completo, con recordatorios profesionales.</li><li><strong>Módulo de turnos a medida (integrado con gestión):</strong> $800.000 - $2.000.000 ARS como parte del sistema de gestión de la imprenta.</li></ul><p>La decisión depende de tu volumen:</p><ul><li><strong>Imprenta chica (5-15 trabajos/semana):</strong> Cal.com con tipos de turno configurados. Gratis y funcional.</li><li><strong>Imprenta mediana (15-50 trabajos/semana):</strong> Calendly o AgendaPro + automatización de WhatsApp para recordatorios.</li><li><strong>Imprenta grande (50+ trabajos/semana):</strong> sistema de turnos integrado con el sistema de gestión. Los turnos se generan automáticamente según el estado de los trabajos.</li></ul><p>Consultá nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos de turnos online</a> para más detalle. Y si querés evaluar tu situación, <strong><a href=\"/diagnostico\">agendá tu diagnóstico gratuito</a></strong>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Tiene sentido un sistema de turnos para una imprenta?",
+        "answer": "Sí. Las imprentas tienen múltiples puntos de contacto con el cliente (consultas, aprobaciones, retiros, entregas) que si no se organizan, interrumpen la producción y generan colas. Un sistema de turnos ordena todo eso."
+      },
+      {
+        "question": "¿Los clientes pueden aprobar pruebas online sin venir a la imprenta?",
+        "answer": "Sí. Con un sistema a medida o herramientas complementarias, el cliente recibe la prueba digital y la aprueba con un clic. Queda registrado con fecha y hora. Si quiere verla en persona, agenda un turno."
+      },
+      {
+        "question": "¿Puedo organizar los retiros por franjas horarias?",
+        "answer": "Sí. Configurás slots de retiro (ej: cada 30 minutos) con un límite de retiros por slot. Así evitás que 10 clientes lleguen a la misma hora."
+      },
+      {
+        "question": "¿Se puede integrar con un sistema de gestión de imprenta?",
+        "answer": "Sí. Un sistema a medida integra turnos y gestión. Cuando un trabajo cambia de estado (prueba lista, trabajo terminado), el sistema ofrece automáticamente el turno correspondiente al cliente."
+      },
+      {
+        "question": "¿Cuánto cuesta implementar turnos para una imprenta?",
+        "answer": "SaaS: gratis a USD 45/mes. Módulo de turnos a medida integrado con gestión: entre $800.000 y $2.000.000 ARS. Cal.com es una opción gratuita funcional para empezar."
+      }
+    ],
+    "ctaText": "¿Querés organizar las consultas, retiros y aprobaciones de tu imprenta? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a implementar el sistema de turnos ideal."
+  }
+}

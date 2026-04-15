@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-un-chatbot-y-para-que-sirve",
+  "title": "Qué es un chatbot y para qué sirve: guía para PyMEs argentinas",
+  "metaTitle": "Qué es un Chatbot y Para Qué Sirve | Guía PyMEs 2026",
+  "metaDescription": "Un chatbot es un programa que responde mensajes automáticamente. Tipos, costos, cuándo conviene y cuándo no para PyMEs argentinas. Guía completa.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["chatbot", "inteligencia artificial", "atención al cliente", "WhatsApp", "automatización"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["que-es-un-bot-de-whatsapp", "cuanto-cuesta-chatbot-ia-argentina", "chatbot-ia-vs-atencion-humana-argentina", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Un <strong>chatbot</strong> es un programa que mantiene conversaciones con personas de forma automática, generalmente por texto. Puede estar en tu sitio web, en WhatsApp, en Instagram o en cualquier plataforma de mensajería. Cuando un cliente te escribe \"¿tienen stock?\" a las 2 de la mañana y recibe una respuesta instantánea, eso es un chatbot.</p><p>Pero no todos los chatbots son iguales. Hay desde los más básicos (que responden con opciones predefinidas, tipo \"Escribí 1 para ventas, 2 para soporte\") hasta los que usan <strong>inteligencia artificial</strong> y entienden lo que el cliente escribe en lenguaje natural. La diferencia de precio y capacidad entre uno y otro es enorme. En esta guía te explicamos los tipos, cuánto cuestan y — lo más importante — cuándo realmente necesitás uno para tu PyME.</p>",
+    "sections": [
+      {
+        "heading": "Tipos de chatbot: desde el básico hasta el inteligente",
+        "body": "<p>Antes de pensar en implementar un chatbot, necesitás entender qué tipos existen y qué puede (y no puede) hacer cada uno:</p><h3>Chatbot basado en reglas (el más común)</h3><p>Funciona con <strong>flujos predefinidos</strong>: el usuario elige opciones de un menú o escribe palabras clave, y el bot responde según reglas configuradas. Es el típico \"Escribí HORARIOS para ver nuestros horarios\" o el menú de botones en WhatsApp.</p><ul><li><strong>Ventajas:</strong> barato, fácil de implementar, predecible (nunca dice algo incorrecto).</li><li><strong>Limitaciones:</strong> solo responde lo que programaste. Si el cliente escribe algo fuera del flujo, se traba.</li><li><strong>Costo:</strong> desde $0 (ManyChat free tier) hasta $30.000-$80.000 ARS/mes con herramientas pagas.</li></ul><h3>Chatbot con inteligencia artificial (IA)</h3><p>Usa modelos de lenguaje (como ChatGPT o Claude) para <strong>entender lo que escribe el cliente</strong> y responder de forma natural. Puede manejar preguntas inesperadas, entender contexto y mantener conversaciones fluidas.</p><ul><li><strong>Ventajas:</strong> entiende lenguaje natural, maneja variedad de preguntas, experiencia mucho mejor para el cliente.</li><li><strong>Limitaciones:</strong> más caro, puede \"alucinar\" (dar información incorrecta), requiere supervisión.</li><li><strong>Costo:</strong> desde $50.000 ARS/mes (soluciones SaaS) hasta $200.000+ ARS/mes (desarrollo custom con IA propia).</li></ul><h3>Chatbot híbrido</h3><p>Combina reglas para las consultas frecuentes (horarios, precios, ubicación) con IA para las preguntas complejas. Y cuando no puede resolver algo, <strong>deriva a un humano</strong>. Es el modelo más recomendado para PyMEs.</p>"
+      },
+      {
+        "heading": "Para qué sirve un chatbot en una PyME argentina",
+        "body": "<p>Un chatbot no es magia. Sirve para cosas concretas y hay que ser honesto sobre lo que puede y no puede hacer:</p><h3>Lo que sí hace bien</h3><ul><li><strong>Responder consultas frecuentes 24/7:</strong> horarios, precios, ubicación, stock, formas de pago. El 60-70% de las consultas de una PyME son siempre las mismas. Un chatbot las responde sin que vos intervengás.</li><li><strong>Tomar datos de contacto:</strong> nombre, email, teléfono, qué necesita. Cuando llegás a la oficina a la mañana, tenés una lista de leads calificados.</li><li><strong>Agendar turnos o reservas:</strong> si tu negocio trabaja con turnos (consultorio, peluquería, taller), el chatbot puede consultar disponibilidad y agendar automáticamente.</li><li><strong>Enviar recordatorios:</strong> turno en 24 horas, pedido en camino, cuota por vencer. Reduce la inasistencia y mejora la experiencia.</li><li><strong>Derivar al canal correcto:</strong> si el cliente necesita soporte, va para soporte. Si quiere comprar, va para ventas. Ahorra tiempo a tu equipo.</li></ul><h3>Lo que no hace bien (todavía)</h3><ul><li><strong>Reemplazar la atención humana en ventas complejas:</strong> si vendés un servicio que requiere explicación, negociación o confianza, el chatbot puede iniciar la conversación pero el cierre lo tiene que hacer una persona.</li><li><strong>Manejar quejas y reclamos delicados:</strong> un cliente enojado que habla con un bot se enoja más. Los reclamos siempre a un humano.</li></ul>"
+      },
+      {
+        "heading": "Cuándo tu PyME necesita un chatbot (y cuándo no)",
+        "body": "<p>No todas las PyMEs necesitan un chatbot. Antes de invertir, respondete estas preguntas:</p><h3>Sí necesitás un chatbot si:</h3><ul><li><strong>Recibís más de 30 consultas por día</strong> por WhatsApp, Instagram o web, y la mayoría son preguntas repetitivas (horarios, precios, stock).</li><li><strong>Perdés ventas por no responder a tiempo:</strong> si te escriben a las 22hs y vos contestás a las 9 del día siguiente, muchos ya compraron en otro lado.</li><li><strong>Tu equipo dedica horas a responder siempre lo mismo:</strong> esas horas cuestan plata. Un chatbot las libera para tareas que sí requieren un humano.</li><li><strong>Trabajás con turnos o reservas:</strong> el chatbot puede agendar automáticamente y reducir la inasistencia con recordatorios.</li></ul><h3>No necesitás un chatbot si:</h3><ul><li><strong>Recibís menos de 10 consultas por día:</strong> no justifica la inversión. Respondé vos o tu equipo.</li><li><strong>Tu negocio es de venta consultiva:</strong> si cada venta requiere una conversación personalizada (consultoría, servicios profesionales complejos), el chatbot no reemplaza eso.</li><li><strong>No tenés tu proceso de ventas claro:</strong> un chatbot automatiza un proceso. Si no tenés proceso, no hay nada que automatizar. Primero ordená tu operación, después automatizá.</li></ul>"
+      },
+      {
+        "heading": "Chatbot en WhatsApp: el canal estrella en Argentina",
+        "body": "<p>En Argentina, WhatsApp no es \"un canal más\" — es <strong>el canal</strong>. El 95% de los argentinos usa WhatsApp y la mayoría prefiere escribir antes que llamar. Por eso, cuando hablamos de chatbots para PyMEs argentinas, en el 80% de los casos hablamos de <strong>chatbots de WhatsApp</strong>.</p><h3>Opciones para armar un chatbot en WhatsApp</h3><ul><li><strong>WhatsApp Business App (gratis):</strong> Respuestas rápidas y mensajes automatizados básicos. No es un chatbot real, pero para PyMEs chicas que reciben pocas consultas, alcanza.</li><li><strong>WhatsApp Business API + plataforma:</strong> Herramientas como Botpress, ManyChat o Respond.io que se conectan a la API oficial de WhatsApp. Desde $30.000 ARS/mes. Flujos con botones, carruseles, listas de productos.</li><li><strong>Chatbot IA + WhatsApp API:</strong> Un chatbot inteligente que entiende lenguaje natural, conectado a WhatsApp. Desde $80.000 ARS/mes. La experiencia es mucho mejor pero el costo sube.</li></ul><h3>Costos de WhatsApp Business API</h3><p>Meta cobra por conversación iniciada: las que inicia el negocio cuestan más que las que inicia el cliente. Para una PyME que recibe 500-1000 conversaciones por mes, el costo de Meta ronda los $10-30 USD/mes más el costo de la plataforma.</p><p>Si querés profundizar en bots de WhatsApp, revisá nuestra <a href=\"/blog/que-es-un-bot-de-whatsapp\">guía de bots de WhatsApp</a> y los <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">costos de bots de WhatsApp para empresas</a>.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un chatbot en Argentina en 2026",
+        "body": "<p>Los costos varían enormemente según el tipo de chatbot y la complejidad:</p><h3>Chatbot basado en reglas</h3><ul><li><strong>DIY con herramientas SaaS:</strong> $0-$50.000 ARS/mes. Plataformas como ManyChat, Chatfuel o Botpress tienen planes gratuitos o económicos. Vos lo configurás con flujos drag-and-drop.</li><li><strong>Implementado por una agencia:</strong> $80.000-$200.000 ARS de setup + $30.000-$80.000 ARS/mes de mantenimiento. La agencia diseña los flujos, configura todo y te entrega funcionando.</li></ul><h3>Chatbot con IA</h3><ul><li><strong>SaaS con IA integrada:</strong> $50.000-$120.000 ARS/mes. Herramientas que ya vienen con IA configurada, solo tenés que cargar tu información (FAQs, productos, precios).</li><li><strong>Desarrollo custom con IA:</strong> $300.000-$800.000 ARS de desarrollo + $80.000-$200.000 ARS/mes. Un chatbot entrenado con tus datos específicos, integrado a tu CRM o sistema de stock.</li></ul><h3>¿Cuándo vale la inversión?</h3><p>Hacé la cuenta simple: si el chatbot te ahorra 3 horas/día de atención repetitiva (a $5.000 ARS/hora de un empleado) y captura 5 ventas extra por mes que no hubieras cerrado, <strong>la inversión se paga sola desde el mes 1</strong> incluso con un chatbot de IA. La clave es que tu volumen de consultas justifique la automatización.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Un chatbot puede reemplazar a mi equipo de atención al cliente?",
+        "answer": "No, y no debería. El chatbot se encarga de las consultas repetitivas y simples (horarios, precios, stock, agendar turnos). Las consultas complejas, reclamos y ventas consultivas siguen necesitando un humano. El chatbot libera a tu equipo para que se enfoque en lo que realmente requiere una persona."
+      },
+      {
+        "question": "¿Cuánto tardo en implementar un chatbot?",
+        "answer": "Un chatbot basado en reglas simple se puede armar en 1-2 semanas. Uno con IA, entre 2-4 semanas. El tiempo real depende de cuántas preguntas frecuentes tenés, si necesitás integraciones (CRM, calendario, stock) y qué tan claro tenés tu proceso de atención."
+      },
+      {
+        "question": "¿Qué pasa si el chatbot da una respuesta incorrecta?",
+        "answer": "Los chatbots basados en reglas no se equivocan (solo responden lo que programaste). Los chatbots con IA pueden alucinar (inventar información). Por eso es clave configurar bien los límites, supervisar las conversaciones las primeras semanas y tener siempre la opción de derivar a un humano."
+      },
+      {
+        "question": "¿Necesito saber programar para tener un chatbot?",
+        "answer": "No. Las plataformas modernas (ManyChat, Botpress, Chatfuel) tienen interfaces visuales donde armás los flujos arrastrando bloques. Para un chatbot con IA avanzado o integraciones complejas, ahí sí conviene contratar a un desarrollador o agencia."
+      },
+      {
+        "question": "¿Un chatbot es lo mismo que un bot de WhatsApp?",
+        "answer": "Un bot de WhatsApp es un tipo de chatbot que funciona específicamente en WhatsApp. Pero un chatbot puede estar en tu web, en Instagram, en Facebook Messenger o en cualquier plataforma. En Argentina, WhatsApp es el canal más relevante, pero no es el único."
+      }
+    ],
+    "ctaText": "¿Querés un chatbot que atienda a tus clientes 24/7 y no pierda ni una consulta? En SODI desarrollamos chatbots para PyMEs argentinas, desde bots de WhatsApp hasta soluciones con inteligencia artificial. Contactanos y te armamos una solución a medida."
+  }
+}

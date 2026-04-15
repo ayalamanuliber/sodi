@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-imprentas",
+  "title": "Cómo automatizar WhatsApp para imprentas: presupuestos, aprobación de archivos y entregas",
+  "metaTitle": "Automatizar WhatsApp para Imprentas | SODI",
+  "metaDescription": "Automatizá tu imprenta por WhatsApp: cotizaciones desde foto, aprobación de archivos, estado de pedidos y alertas de retiro o delivery.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["imprentas", "WhatsApp Business", "automatización", "presupuestos", "gestión de pedidos"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-imprentas", "como-automatizar-atencion-al-cliente", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Las imprentas viven atadas al WhatsApp. El 90% de los pedidos empiezan con un mensaje: una foto de una tarjeta, un PDF mal exportado, un \"necesito 500 volantes para mañana\". <strong>El problema no es recibir mensajes, es que cada mensaje requiere 5-10 minutos de ida y vuelta</strong> para entender qué quiere el cliente, pedir el archivo bien, dar el presupuesto y confirmar.</p><p>Automatizar WhatsApp en una imprenta no significa reemplazar la atención personalizada. Significa que el bot haga el trabajo pesado (recopilar datos, dar precios estándar, confirmar pedidos) y vos te concentres en lo que requiere criterio humano.</p>",
+    "sections": [
+      {
+        "heading": "Qué automatizar en una imprenta por WhatsApp",
+        "body": "<p>Una imprenta tiene flujos muy repetitivos que <strong>se prestan perfecto a la automatización</strong>:</p><ul><li><strong>Cotización rápida:</strong> \"¿Qué necesitás imprimir?\" → Tarjetas / Volantes / Folletos / Banners / Stickers / Otro → \"¿Cantidad?\" → \"¿Tamaño?\" → Presupuesto automático para trabajos estándar.</li><li><strong>Recepción de archivos:</strong> \"Mandanos tu archivo en PDF o AI. Resolución mínima: 300 dpi. Incluí sangrado de 3mm.\" Instrucciones automáticas que reducen archivos mal armados.</li><li><strong>Aprobación de prueba:</strong> \"Te mandamos la prueba digital de tu trabajo. ¿Está aprobado para imprimir? Respondé SI para aprobar o CAMBIOS si necesitás modificaciones.\"</li><li><strong>Estado del pedido:</strong> \"Tu pedido #456 está en impresión. Estimado de entrega: mañana a las 15 hs.\" Actualización automática por etapas.</li><li><strong>Aviso de retiro/delivery:</strong> \"Tu pedido está listo para retirar\" o \"Tu pedido sale hoy en delivery. Horario estimado: 14-16 hs.\"</li></ul><p>La cotización automática para trabajos estándar es el <strong>ahorro de tiempo más grande</strong>. 500 tarjetas, 1000 volantes, 100 folletos trípticos: son precios fijos que no necesitan intervención humana.</p>"
+      },
+      {
+        "heading": "Flujo de cotización automática: de la foto al presupuesto",
+        "body": "<p>El flujo estrella para imprentas es <strong>convertir una consulta vaga en un presupuesto concreto</strong> en menos de 2 minutos:</p><ol><li><strong>Bienvenida:</strong> \"Hola, bienvenido a [Imprenta]. ¿Qué necesitás imprimir?\" → opciones: Tarjetas de presentación / Volantes / Folletos / Banners / Stickers / Invitaciones / Otro.</li><li><strong>Especificaciones:</strong> según el producto, el bot pregunta cantidad, tamaño, tipo de papel (ilustración, obra, vinilo), terminación (laminado, barniz UV, troquelado).</li><li><strong>Precio automático:</strong> para combinaciones estándar, el bot da el precio al instante. \"500 tarjetas, cartulina 300g, doble faz, laminado mate: $X. Tiempo de entrega: 3 días hábiles.\"</li><li><strong>Trabajos especiales:</strong> si el pedido sale de lo estándar, el bot recopila la info y deriva a un humano. \"Tu pedido necesita cotización personalizada. Un asesor te contacta en menos de 2 horas.\"</li><li><strong>Confirmación:</strong> \"¿Querés confirmar el pedido? Mandanos el archivo y te enviamos la prueba digital para aprobar.\"</li></ol><p>Este flujo resuelve el <strong>70% de las consultas sin intervención humana</strong>. El 30% restante (trabajos especiales, presupuestos complejos) llega al asesor con toda la info ya recopilada.</p>"
+      },
+      {
+        "heading": "Gestión de archivos y aprobación digital",
+        "body": "<p>El ida y vuelta de archivos es la <strong>pesadilla operativa de toda imprenta</strong>. Automatizarlo cambia todo:</p><ul><li><strong>Instrucciones claras al recibir:</strong> cuando el cliente manda el archivo, el bot responde con un checklist: \"Estamos revisando tu archivo. Recordá que necesitamos: PDF en alta resolución (300 dpi), colores en CMYK, sangrado de 3mm, textos vectorizados.\"</li><li><strong>Validación básica:</strong> un bot avanzado puede verificar formato y tamaño del archivo. Si el cliente manda un .jpg de 72 dpi, el bot avisa: \"El archivo no tiene la resolución necesaria para impresión. ¿Podés mandarlo en mejor calidad?\"</li><li><strong>Prueba digital:</strong> el diseñador arma la prueba, la sube al sistema, y el bot la envía al cliente. \"Acá está la prueba de tu trabajo. Revisá textos, colores y posición. ¿Aprobás para imprimir?\"</li><li><strong>Registro de aprobación:</strong> cuando el cliente responde \"SI\", queda registrado con fecha y hora. No más \"yo no aprobé eso\" después de imprimir.</li></ul><p>El registro de aprobación por WhatsApp es <strong>evidencia legal</strong> en caso de reclamos. Mucho mejor que la aprobación verbal o por llamada telefónica que después nadie recuerda.</p>"
+      },
+      {
+        "heading": "Seguimiento de pedidos y notificaciones de entrega",
+        "body": "<p>Mantener al cliente informado <strong>reduce llamadas de seguimiento a cero</strong>:</p><ul><li><strong>Confirmación de pedido:</strong> \"Pedido #789 confirmado. Producto: 1000 volantes A5, ilustración 150g, full color. Entrega: viernes 18/04. Total: $X.\"</li><li><strong>En producción:</strong> \"Tu pedido #789 entró a impresión.\" Mensaje automático cuando cambia el estado en el sistema.</li><li><strong>Control de calidad:</strong> \"Tu pedido pasó control de calidad. Todo en orden.\"</li><li><strong>Listo para entrega:</strong> \"Tu pedido #789 está listo. Podés retirarlo de lunes a viernes de 9 a 18 hs en [dirección].\" O: \"Sale en delivery hoy, horario estimado: 14-16 hs.\"</li><li><strong>Post-entrega:</strong> \"¿Recibiste todo bien? Si necesitás reimprimir o tenés otro trabajo, escribinos.\" → cierra el ciclo y abre la puerta a la recompra.</li></ul><p>Un cliente que recibe actualizaciones proactivas <strong>no llama para preguntar</strong> \"¿ya está mi pedido?\". Esas llamadas interrumpen la producción y generan estrés. Con el bot, se eliminan.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para imprentas",
+        "body": "<p>Según el volumen de tu imprenta:</p><ul><li><strong>WhatsApp Business gratis:</strong> respuestas rápidas con precios estándar, catálogo de servicios, etiquetas por estado de pedido. Para imprentas pequeñas con 5-15 pedidos diarios.</li><li><strong>Bots SaaS (desde USD 25/mes):</strong> flujos de cotización, recepción de archivos, notificaciones automáticas. Para imprentas medianas.</li><li><strong>Desarrollo custom (desde USD 400 setup):</strong> integración con sistema de gestión de la imprenta, cotizador automático con precios dinámicos, tracking de pedidos en tiempo real. Para imprentas grandes o cadenas.</li></ul><p>El ahorro es directo: si tu equipo dedica <strong>3 horas diarias a responder consultas de precios y estado de pedidos</strong>, y el bot resuelve el 70%, estás recuperando 2 horas de producción por día. En un mes son 40 horas. ¿Cuánto vale eso en tu imprenta?</p><p>Combiná la automatización con una <a href=\"/blog/pagina-web-para-imprentas\">web profesional para tu imprenta</a> con cotizador online y tenés un sistema de captación completo. <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot puede dar presupuestos exactos?",
+        "answer": "Para trabajos estándar (tarjetas, volantes, folletos con especificaciones comunes), sí. Configurás una tabla de precios y el bot calcula automáticamente. Para trabajos especiales o fuera de estándar, el bot recopila la información y deriva a un humano que cotiza con todos los datos ya armados."
+      },
+      {
+        "question": "¿Cómo manejo archivos que llegan mal?",
+        "answer": "El bot envía instrucciones claras antes de recibir el archivo (formato, resolución, sangrado). Si el archivo no cumple, el bot puede detectar problemas básicos (formato incorrecto, tamaño muy chico) y pedir uno nuevo. Para revisiones técnicas más complejas, el diseñador revisa y comunica correcciones."
+      },
+      {
+        "question": "¿La aprobación por WhatsApp tiene validez legal?",
+        "answer": "WhatsApp genera un registro con fecha, hora y contenido del mensaje. Funciona como evidencia de aprobación. Para mayor seguridad, el bot puede pedir que el cliente responda con su nombre completo y la palabra 'APRUEBO'. Es mucho más sólido que una aprobación verbal por teléfono."
+      },
+      {
+        "question": "¿Puedo integrar el bot con mi sistema de gestión actual?",
+        "answer": "Sí, con un desarrollo custom. Se puede conectar WhatsApp con sistemas como Printflow, el ERP de tu imprenta o incluso una planilla de Google Sheets. La integración permite que los estados de pedido se actualicen automáticamente cuando cambian en tu sistema."
+      },
+      {
+        "question": "¿Cuántos mensajes puedo enviar por día sin que WhatsApp me bloquee?",
+        "answer": "Con WhatsApp Business estándar, no hay límite oficial pero Meta puede restringir cuentas que envían muchos mensajes no solicitados. Con la API de WhatsApp Business (que usan los bots), tenés límites según tu tier: arrancás en 1.000 mensajes/día y subís a medida que tu reputación crece."
+      }
+    ],
+    "ctaText": "¿Tu imprenta pierde tiempo respondiendo las mismas consultas? Pedí un diagnóstico gratuito y te mostramos cómo automatizar presupuestos y seguimiento por WhatsApp."
+  }
+}

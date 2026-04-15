@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-diseno-ux-ui-argentina",
+  "title": "Cuánto cuesta el diseño UX/UI en Argentina 2026: precios por tipo de proyecto",
+  "metaTitle": "Diseño UX/UI Argentina 2026: precios reales",
+  "metaDescription": "Diseño UX/UI en Argentina: landing page USD 300-800, app/web completa USD 1.500-5.000, auditoría UX USD 500-2.000. Precios reales del mercado 2026.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["diseño UX", "diseño UI", "experiencia de usuario", "precios diseño", "UX Argentina"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "cuanto-cuesta-app-movil-argentina", "que-es-ux-y-por-que-importa", "como-elegir-agencia-web-argentina"],
+  "content": {
+    "intro": "<p>El <strong>diseño UX/UI en Argentina</strong> cuesta entre USD 300 y USD 5.000 en 2026, dependiendo de la complejidad del proyecto. Una landing page bien diseñada va de USD 300 a USD 800 ($360.000-$960.000 ARS). El diseño completo de una app o plataforma web va de USD 1.500 a USD 5.000 ($1.800.000-$6.000.000 ARS). Y una auditoría UX de un producto existente cuesta entre USD 500 y USD 2.000.</p><p>La confusión más grande en este rubro es que muchas PyMEs pagan por \"diseño web\" pensando que incluye UX, cuando en realidad solo están comprando estética. El diseño UX (experiencia de usuario) define cómo funciona tu producto; el UI (interfaz de usuario) define cómo se ve. Necesitás los dos, pero el UX es el que impacta en tus conversiones.</p>",
+    "sections": [
+      {
+        "heading": "Precios de diseño UX/UI según tipo de proyecto",
+        "body": "<p><strong>Landing page (USD 300-800 / $360.000-$960.000 ARS):</strong> diseño de una sola página con estructura de conversión, wireframe, diseño visual responsive (desktop + mobile), prototipo interactivo en Figma. Incluye 2-3 rondas de revisiones. Plazo: 1-2 semanas. Es el proyecto más pedido por PyMEs que quieren una primera impresión profesional.</p><p><strong>Sitio web institucional de 5-10 páginas (USD 800-2.000 / $960.000-$2.400.000 ARS):</strong> investigación básica de usuario, arquitectura de información, wireframes de todas las páginas, diseño UI completo, prototipo navegable, sistema de componentes básico. Plazo: 3-5 semanas.</p><p><strong>App móvil o plataforma web (USD 1.500-5.000 / $1.800.000-$6.000.000 ARS):</strong> investigación de usuarios (entrevistas o encuestas), flujos de usuario, wireframes de baja y alta fidelidad, diseño UI completo de todas las pantallas, sistema de diseño (design system), prototipo interactivo, especificaciones para desarrollo. Plazo: 6-12 semanas.</p><p><strong>Auditoría UX (USD 500-2.000 / $600.000-$2.400.000 ARS):</strong> análisis heurístico de tu producto actual, revisión de métricas (analytics, heatmaps, grabaciones de sesión), identificación de puntos de fricción, reporte con recomendaciones priorizadas. Plazo: 1-3 semanas. Ideal antes de un rediseño para saber qué cambiar y qué mantener.</p>"
+      },
+      {
+        "heading": "Freelancer vs agencia vs diseñador in-house: cuánto cobra cada uno",
+        "body": "<p>Un <strong>diseñador UX/UI freelancer junior</strong> (1-3 años de experiencia) cobra entre USD 15 y USD 30/hora en Argentina. Un <strong>senior</strong> (5+ años) cobra entre USD 35 y USD 60/hora. Por proyecto, un junior te diseña una landing por USD 300-500 y un senior por USD 500-800.</p><p>Una <strong>agencia o estudio de diseño</strong> cobra entre USD 40 y USD 100/hora. El precio incluye un equipo (UX researcher + UI designer + director creativo), metodología más estructurada y generalmente mejor documentación para el equipo de desarrollo. Por proyecto, una agencia cobra 40-80% más que un freelancer.</p><p>Un <strong>diseñador in-house</strong> cuesta $600.000-$1.200.000 ARS/mes de sueldo bruto (USD 500-1.000). Tiene sentido si tenés producto digital propio que requiere diseño continuo. Para proyectos puntuales, un freelancer o agencia es más eficiente.</p><p>Plataformas para encontrar diseñadores UX/UI en Argentina: <strong>Workana</strong>, <strong>Freelancer.com</strong>, <strong>LinkedIn</strong> (buscá \"diseñador UX Argentina\"), grupos de <strong>UX en Español</strong> en Slack, y la comunidad de <strong>IxDA Buenos Aires</strong>. Pedí siempre portfolio con casos de uso, no solo pantallas lindas.</p>"
+      },
+      {
+        "heading": "Qué incluye un buen proceso de diseño UX/UI",
+        "body": "<p>Un proceso serio de UX/UI tiene 4 etapas, y si tu diseñador se saltea las dos primeras, estás comprando solo estética:</p><p><strong>1. Investigación (10-20% del presupuesto):</strong> entender a tus usuarios (quiénes son, qué necesitan, qué problemas tienen), analizar la competencia, revisar datos existentes. Para PyMEs, una investigación liviana (5-10 entrevistas + análisis de analytics) alcanza y cuesta USD 200-500.</p><p><strong>2. Arquitectura y wireframes (20-30%):</strong> definir la estructura de información, los flujos de usuario (cómo navega alguien desde que entra hasta que convierte), y wireframes de baja fidelidad (esquemas en gris sin diseño visual). Esta etapa es donde se definen las decisiones importantes.</p><p><strong>3. Diseño visual / UI (30-40%):</strong> aplicar la identidad de marca, tipografía, colores, iconografía y crear las pantallas finales en alta fidelidad. Se trabaja en Figma (el estándar de la industria) y se genera un prototipo interactivo que podés probar antes de desarrollar.</p><p><strong>4. Testing y entrega (10-20%):</strong> probar el prototipo con usuarios reales (aunque sean 3-5 personas), iterar según el feedback, y preparar los archivos de entrega para desarrollo con especificaciones de spacing, tipografía, colores y comportamientos.</p>"
+      },
+      {
+        "heading": "Herramientas de UX/UI que podés usar vos mismo",
+        "body": "<p>Si tu presupuesto no da para un diseñador profesional, hay herramientas que te permiten hacer algo decente vos mismo:</p><p><strong>Figma (gratis para hasta 3 proyectos):</strong> la herramienta estándar de diseño UX/UI. La versión gratuita alcanza para diseñar una landing o un sitio chico. Tiene miles de templates gratuitos en la comunidad. Curva de aprendizaje: 1-2 semanas para lo básico.</p><p><strong>Canva (gratis / USD 13/mes Pro):</strong> no es una herramienta de UX pero sirve para crear mockups rápidos y diseñar elementos visuales. No reemplaza a Figma para diseño de interfaces, pero es más fácil de usar.</p><p><strong>Hotjar (gratis hasta 35 sesiones/día):</strong> grabaciones de sesiones de usuarios en tu web y heatmaps. Te muestra exactamente dónde hacen clic, hasta dónde scrollean y dónde abandonan. Es oro puro para entender problemas de UX sin contratar a un auditor.</p><p><strong>Google Analytics + Search Console (gratis):</strong> las métricas de rebote, tiempo en página y páginas de salida te dicen mucho sobre la experiencia de usuario. Si tu landing tiene 80% de rebote, hay un problema de UX que no se resuelve con más tráfico.</p><p>Estas herramientas no reemplazan a un diseñador profesional, pero te dan diagnóstico y te permiten llegar a la conversación con un diseñador sabiendo qué funciona y qué no.</p>"
+      },
+      {
+        "heading": "Cuándo vale la pena invertir en UX/UI profesional",
+        "body": "<p>Invertí en UX/UI profesional si tu <strong>sitio web o app genera ingresos directos</strong> (e-commerce, plataforma SaaS, marketplace). Cada punto porcentual de mejora en conversión se traduce en plata real. Un diseño UX profesional puede mejorar la conversión entre 20% y 200%.</p><p>También vale la pena si <strong>estás por desarrollar una app o plataforma nueva</strong>. Diseñar bien primero y desarrollar después te ahorra 3-5x en costos de desarrollo. Cambiar un wireframe tarda minutos; cambiar código ya desarrollado tarda días.</p><p>No tiene sentido invertir USD 2.000+ en UX/UI si tu sitio es solo <strong>presencia institucional</strong> con poco tráfico. En ese caso, un buen template de Figma aplicado por un freelancer junior (USD 300-500) te resuelve la vida.</p><p>La señal más clara de que necesitás UX profesional: <strong>tenés tráfico pero no convertís</strong>. Si tu web recibe 1.000 visitas/mes y genera 2 consultas, el problema no es marketing, es experiencia de usuario. Antes de gastar más en publicidad, invertí en mejorar lo que ya tenés.</p><p>En SODI incluimos diseño UX/UI en todos nuestros proyectos de desarrollo web y app porque sabemos que un sitio que funciona bien convierte más que uno que solo se ve bien.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cobra un diseñador UX/UI en Argentina?",
+        "answer": "Un diseñador UX/UI freelancer cobra entre USD 15 y USD 60/hora según experiencia. Por proyecto: una landing page cuesta USD 300-800, un sitio web completo USD 800-2.000, y una app USD 1.500-5.000. Una agencia cobra 40-80% más que un freelancer por el mismo tipo de proyecto."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre UX y UI?",
+        "answer": "UX (User Experience) define cómo funciona tu producto: la estructura, los flujos, la facilidad de uso. UI (User Interface) define cómo se ve: colores, tipografía, botones, estética. Un producto puede verse hermoso (buen UI) pero ser confuso de usar (mal UX). Necesitás los dos para que funcione."
+      },
+      {
+        "question": "¿Cuánto tarda un proyecto de diseño UX/UI?",
+        "answer": "Una landing page se diseña en 1-2 semanas. Un sitio web institucional en 3-5 semanas. Una app o plataforma completa tarda 6-12 semanas de diseño. Los plazos se extienden si hay investigación de usuarios profunda o si las aprobaciones del cliente son lentas."
+      },
+      {
+        "question": "¿Necesita mi PyME invertir en diseño UX?",
+        "answer": "Si tu web genera ingresos directos o consultas comerciales, sí. Un buen diseño UX puede aumentar tu conversión entre 20% y 200%. Si tu web es solo presencia institucional con poco tráfico, un template bien aplicado por un freelancer junior alcanza."
+      },
+      {
+        "question": "¿Qué herramienta se usa para diseño UX/UI?",
+        "answer": "Figma es el estándar de la industria en 2026. Es gratuito para hasta 3 proyectos, funciona en el navegador y permite colaboración en tiempo real. Otras opciones: Adobe XD (descontinuado pero todavía usado), Sketch (solo Mac), y Framer para prototipos avanzados."
+      }
+    ],
+    "ctaText": "¿Tu web tiene visitas pero no genera consultas? Probablemente sea un problema de UX. En SODI hacemos auditoría de experiencia de usuario y te mostramos exactamente qué cambiar para convertir más. Hablemos."
+  }
+}

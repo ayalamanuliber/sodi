@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-cervecerias",
+  "title": "Cómo automatizar WhatsApp para cervecerías artesanales: eventos, lanzamientos y growlers",
+  "metaTitle": "Automatizar WhatsApp Cervecerías Artesanales | SODI",
+  "metaDescription": "Automatizá tu cervecería por WhatsApp: invitaciones a eventos, lanzamientos de birras, refill de growlers y reservas de tours.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["cervecerías artesanales", "WhatsApp Business", "automatización", "cerveza artesanal", "eventos"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-cervecerias-artesanales", "tienda-online-para-cervecerias", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Las cervecerías artesanales tienen una ventaja enorme sobre otros negocios: <strong>sus clientes son fans</strong>. No son compradores ocasionales, son personas que quieren saber qué hay en canilla, cuándo sale la nueva IPA y cuándo es la próxima cata. Esa relación de fanatismo es perfecta para WhatsApp.</p><p>El problema es que manejar esa comunicación manualmente es un caos. Responder \"¿qué hay en canilla hoy?\" 50 veces, avisar uno por uno del evento del viernes, tomar reservas por chat. Automatizar WhatsApp te permite mantener esa conexión cercana <strong>sin que te consuma todo el día</strong>.</p>",
+    "sections": [
+      {
+        "heading": "Qué automatizar en una cervecería artesanal",
+        "body": "<p>Estos son los flujos que más impacto tienen al <strong>automatizarlos</strong>:</p><ul><li><strong>\"¿Qué hay en canilla?\":</strong> es el mensaje más frecuente que recibe cualquier cervecería. Bot con respuesta automática que muestra la tap list actualizada del día.</li><li><strong>Eventos e invitaciones:</strong> catas, tap takeovers, bandas en vivo, noches temáticas. Mensaje masivo segmentado a clientes que van a eventos.</li><li><strong>Lanzamientos de birras:</strong> \"Salió nuestra nueva Hazy IPA. ¿Querés reservar un growler antes de que se agote?\" Notificación a la lista de fans.</li><li><strong>Refill de growler:</strong> \"Hace 2 semanas llenaste tu growler. ¿Querés pasar a recargarlo? Esta semana tenemos Honey Ale.\" Recordatorio automático.</li><li><strong>Reservas de mesa y tours:</strong> flujo de reserva con fecha, hora y cantidad de personas. Confirmación automática.</li></ul><p>Solo automatizando la <strong>tap list</strong> te ahorrás responder ese mensaje 30-50 veces por día. Multiplicá eso por un mes y son horas de trabajo recuperadas.</p>"
+      },
+      {
+        "heading": "Campañas de lanzamiento y eventos por WhatsApp",
+        "body": "<p>Los lanzamientos y eventos son el <strong>alma de una cervecería artesanal</strong>. WhatsApp los amplifica:</p><ul><li><strong>Pre-lanzamiento (1 semana antes):</strong> \"La semana que viene sale nuestra Imperial Stout edición limitada. Solo 200 litros. ¿Querés que te avisemos cuando esté disponible?\" → genera lista de espera.</li><li><strong>Día del lanzamiento:</strong> \"Ya tenemos la Imperial Stout en canilla. Hoy hay promo de lanzamiento: pinta a $X hasta las 21 hs.\" → genera visita inmediata.</li><li><strong>Invitación a eventos:</strong> \"Este viernes: cata de 6 estilos con el cervecero. Cupos limitados. Reservá respondiendo 'QUIERO' + cantidad de personas.\" → reserva simplificada.</li><li><strong>Post-evento:</strong> \"Gracias por venir a la cata. ¿Cuál fue tu birra favorita? Respondé y te guardamos una pinta la próxima vez que vengas.\" → feedback + fidelización.</li></ul><p>La clave es <strong>no saturar</strong>. Máximo 2-3 mensajes por semana para la lista general. Para fans que optaron por recibir todo, podés subir a 4-5. Siempre ofrecé la opción de darse de baja.</p>"
+      },
+      {
+        "heading": "Programa de growler y fidelización cervecera",
+        "body": "<p>El growler es el <strong>producto perfecto para fidelización por WhatsApp</strong>:</p><ul><li><strong>Primer llenado:</strong> cuando alguien compra un growler, se registra en el sistema. \"¡Bienvenido al club growler! Te vamos a avisar cuando haya estilos nuevos para recargar.\"</li><li><strong>Recordatorio de refill:</strong> cada 10-15 días el bot pregunta: \"¿Querés recargar tu growler? Esta semana tenemos APA, Red Ale y Barley Wine. Respondé con el estilo y te lo reservamos.\"</li><li><strong>Descuento por recarga:</strong> \"Cada 5 recargas, la sexta tiene 30% off.\" Seguimiento automático del conteo.</li><li><strong>Aviso de ediciones limitadas:</strong> los del club growler reciben aviso primero cuando sale una birra edición limitada. Privilegio de ser miembro.</li></ul><p>Un programa de growler bien automatizado genera <strong>recurrencia mensual garantizada</strong>. El cliente no tiene que acordarse de pasar: el bot le recuerda y le facilita la reserva. El ticket promedio de un cliente con growler es 3 veces mayor que el del cliente casual.</p>"
+      },
+      {
+        "heading": "Reservas, tours y atención automatizada",
+        "body": "<p>Las reservas y tours se pueden <strong>automatizar casi al 100%</strong>:</p><ul><li><strong>Reserva de mesa:</strong> \"¿Para cuántas personas?\" → \"¿Qué día y horario?\" → \"Perfecto, tu reserva está confirmada para [fecha] a las [hora] para [N] personas. Te esperamos.\" Con recordatorio el mismo día.</li><li><strong>Tour por la planta:</strong> \"Nuestros tours son los sábados a las 16 hs. Incluyen recorrido por la planta + degustación de 4 estilos. $X por persona. ¿Querés reservar?\" → Confirmación y pago.</li><li><strong>Consultas frecuentes:</strong> horarios, dirección, estacionamiento, si aceptan mascotas, medios de pago. Todo automatizable con respuestas rápidas.</li><li><strong>Pedidos de merchandising:</strong> vasos, remeras, growlers vacíos. Catálogo con fotos y precios.</li></ul><p>El tour por la planta es una <strong>oportunidad de oro</strong>. Cada persona que hace el tour se convierte en embajador de tu marca. Automatizar la reserva baja la fricción y llena los cupos.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para cervecerías",
+        "body": "<p>Opciones según el tamaño de tu operación:</p><ul><li><strong>WhatsApp Business gratis:</strong> catálogo de birras, respuestas rápidas para tap list, etiquetas (\"club growler\", \"eventos\", \"VIP\"). Para cervecerías chicas.</li><li><strong>Bots SaaS (desde USD 25/mes):</strong> flujos de reserva, mensajes masivos segmentados, recordatorios de growler. Para cervecerías medianas con taproom.</li><li><strong>Desarrollo custom (desde USD 300 setup):</strong> integración con punto de venta, actualización automática de tap list desde el sistema, CRM cervecero completo. Para cervecerías con distribución y múltiples puntos de venta.</li></ul><p>El cálculo es simple: si <strong>un evento bien comunicado por WhatsApp te trae 20 personas más</strong> que gastan un promedio de $15.000 cada una, son $300.000 extra en una noche. La herramienta se paga sola.</p><p>Complementá con una <a href=\"/blog/pagina-web-para-cervecerias-artesanales\">web profesional</a> y <a href=\"/blog/redes-sociales-para-cervecerias-artesanales\">redes sociales activas</a> para un ecosistema digital completo. <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo mandar mensajes masivos sobre cerveza por WhatsApp?",
+        "answer": "Sí, pero con cuidado. Necesitás que los contactos hayan dado su consentimiento (opt-in). Usá listas de difusión de WhatsApp Business o, mejor, un bot con sistema de suscripción. Y no mandes más de 2-3 mensajes por semana a la lista general."
+      },
+      {
+        "question": "¿Cómo actualizo la tap list automáticamente?",
+        "answer": "Con WhatsApp Business básico, actualizás el catálogo manualmente cada día (toma 5 minutos). Con un bot custom, podés integrar con tu sistema de punto de venta para que se actualice solo cuando cambiás los barriles."
+      },
+      {
+        "question": "¿El programa de growler funciona para cervecerías que también distribuyen?",
+        "answer": "Sí. Podés manejar dos segmentos: 'club growler taproom' para los que vienen al bar, y 'distribución' para bares y restaurantes que te compran. Cada segmento recibe comunicaciones relevantes: el taproom recibe eventos, la distribución recibe lista de precios y novedades."
+      },
+      {
+        "question": "¿Conviene cobrar el tour por WhatsApp?",
+        "answer": "Sí, facilita la operación. Podés enviar un link de MercadoPago para que paguen al reservar. Así asegurás que no haya ausentes y manejás cupos reales. El flujo es: reserva por bot → link de pago → confirmación automática al acreditar."
+      },
+      {
+        "question": "¿WhatsApp reemplaza a mis redes sociales?",
+        "answer": "No, se complementan. Las redes son para alcance (que te descubran nuevos clientes) y WhatsApp es para retención (que los que ya te conocen vuelvan). Usá Instagram para atraer, WhatsApp para fidelizar. Son canales distintos con funciones distintas."
+      }
+    ],
+    "ctaText": "¿Querés que tu cervecería fidelice fans y llene eventos con WhatsApp? Pedí un diagnóstico gratuito y te mostramos cómo automatizar tu comunicación."
+  }
+}

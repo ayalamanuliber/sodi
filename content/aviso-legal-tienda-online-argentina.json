@@ -1,0 +1,61 @@
+{
+  "slug": "aviso-legal-tienda-online-argentina",
+  "title": "Aviso legal para tienda online en Argentina: qué necesitás por ley en 2026",
+  "metaTitle": "Aviso legal tienda online Argentina 2026",
+  "metaDescription": "Términos y condiciones, política de privacidad, botón de arrepentimiento y AAIP. Todo lo que tu tienda online necesita por ley. Guía paso a paso.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["aviso legal", "tienda online", "términos y condiciones", "protección al consumidor", "ecommerce"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["monotributista-puede-vender-online-argentina", "cuanto-cuesta-tienda-online-argentina", "como-crear-tienda-online-argentina", "factura-electronica-arca-2026"],
+  "content": {
+    "intro": "<p>Si vendés online en Argentina, hay cosas que la ley te exige tener en tu web y que la mayoría de las tiendas ignoran hasta que llega un reclamo. No estamos hablando de formalidades decorativas — estamos hablando de la <strong>Ley de Defensa del Consumidor (24.240)</strong>, la <strong>Ley de Protección de Datos Personales (25.326)</strong> y la <strong>Resolución 424/2020</strong> de comercio electrónico.</p><p>En esta guía te explicamos exactamente qué documentos legales necesita tu tienda online, qué debe incluir cada uno, y cómo implementarlos sin contratar un abogado. No es complicado, pero sí es obligatorio.</p>",
+    "sections": [
+      {
+        "heading": "Qué documentos legales necesita tu tienda online",
+        "body": "<p>Toda tienda online que opere en Argentina necesita, como mínimo, estos elementos:</p><ol><li><strong>Términos y condiciones de compra:</strong> el contrato entre vos y tu cliente. Define reglas de compra, envío, devoluciones, garantía.</li><li><strong>Política de privacidad:</strong> cómo recopilás, usás y protegés los datos personales de tus clientes.</li><li><strong>Botón de arrepentimiento:</strong> obligatorio por la Resolución 424/2020. El cliente tiene 10 días para devolver el producto sin dar explicación.</li><li><strong>Datos del vendedor visibles:</strong> razón social o nombre, CUIT, domicilio, email de contacto. La ley exige que el consumidor sepa con quién está contratando.</li><li><strong>Inscripción en AAIP:</strong> si recopilás datos personales (nombre, email, dirección, teléfono), tenés que registrar tu base de datos ante la Agencia de Acceso a la Información Pública.</li></ol><p><strong>¿Y si no los tengo?</strong> Te exponés a multas de la Dirección de Defensa del Consumidor (que pueden ser de varios millones de pesos), reclamos que perdés automáticamente por no tener los términos claros, y sanciones por incumplimiento de la ley de datos personales.</p>"
+      },
+      {
+        "heading": "Términos y condiciones: qué incluir",
+        "body": "<p>Los términos y condiciones son el contrato de tu tienda. Tienen que estar accesibles desde el footer de tu web y el cliente debe aceptarlos antes de completar la compra (checkbox es suficiente).</p><p><strong>Secciones que no pueden faltar:</strong></p><ul><li><strong>Identificación del vendedor:</strong> nombre o razón social, CUIT, domicilio legal, email de contacto, teléfono.</li><li><strong>Objeto:</strong> qué estás vendiendo (productos, servicios, digitales).</li><li><strong>Proceso de compra:</strong> cómo se hace un pedido, cuándo se confirma, cuándo se puede cancelar.</li><li><strong>Precios:</strong> que incluyen IVA (obligatorio mostrar precio final), moneda, vigencia.</li><li><strong>Medios de pago:</strong> cuáles aceptás, cuándo se hace el cargo, política de cuotas.</li><li><strong>Envío y entrega:</strong> plazos estimados, costos, zonas de cobertura, qué pasa si no se entrega a tiempo.</li><li><strong>Derecho de revocación (arrepentimiento):</strong> el cliente tiene 10 días corridos desde que recibe el producto para devolver sin causa. Tenés que explicar cómo ejercerlo.</li><li><strong>Garantía:</strong> garantía legal de 6 meses mínimo para productos nuevos (Ley 24.240, art. 11).</li><li><strong>Cambios y devoluciones:</strong> más allá del arrepentimiento, tu política para productos defectuosos o errores de envío.</li><li><strong>Limitación de responsabilidad:</strong> qué no cubre tu tienda (uso indebido, fuerza mayor, etc.).</li><li><strong>Ley aplicable y jurisdicción:</strong> ley argentina, tribunales de tu domicilio.</li></ul><p><strong>Tip:</strong> no copies términos de una tienda de otro país. La legislación argentina tiene particularidades (como el derecho de arrepentimiento obligatorio) que no existen en otros mercados.</p>"
+      },
+      {
+        "heading": "Política de privacidad y registro en AAIP",
+        "body": "<p>La <strong>Ley 25.326 de Protección de Datos Personales</strong> te obliga a informar qué datos recopilás, para qué los usás y cómo los protegés.</p><p><strong>Tu política de privacidad debe incluir:</strong></p><ul><li>Qué datos personales recopilás (nombre, email, dirección, teléfono, datos de pago).</li><li>Para qué los usás (procesar pedidos, enviar novedades, mejorar el servicio).</li><li>Si los compartís con terceros (MercadoPago, empresa de logística, email marketing).</li><li>Cómo los protegés (SSL, acceso restringido, servidores seguros).</li><li>Derecho del titular: el cliente puede pedir acceso, rectificación o supresión de sus datos.</li><li>Cookies: qué cookies usa tu sitio y para qué.</li><li>Contacto del responsable de la base de datos.</li></ul><p><strong>Registro en AAIP:</strong> si tenés una base de datos con datos personales de clientes (y si vendés online, la tenés), debés registrarla ante la <strong>Agencia de Acceso a la Información Pública</strong>. El trámite es online a través de la plataforma TAD (Trámites a Distancia) y es gratuito. Se renueva anualmente.</p><p><strong>En la práctica:</strong> la mayoría de las tiendas online chicas no hacen este registro. Pero si un cliente hace un reclamo formal invocando la ley de datos personales, no tenerlo registrado te pone en falta. Es un trámite simple que te protege.</p>"
+      },
+      {
+        "heading": "Botón de arrepentimiento: qué es y cómo implementarlo",
+        "body": "<p>La <strong>Resolución 424/2020</strong> de la Secretaría de Comercio Interior obliga a todas las tiendas online argentinas a incluir un <strong>botón de arrepentimiento</strong> visible y accesible.</p><p><strong>¿Qué es?</strong> Es un link o botón en tu web que permite al cliente iniciar la devolución de una compra dentro de los 10 días corridos de recibido el producto, sin necesidad de dar explicación ni justificación.</p><p><strong>Requisitos legales del botón:</strong></p><ul><li>Debe estar en un lugar visible de la web (home, footer, o en cada producto).</li><li>El texto debe decir \"Botón de Arrepentimiento\" o similar.</li><li>Debe llevar a un formulario o canal donde el cliente pueda ejercer su derecho.</li><li>La empresa tiene 10 días hábiles para devolver el dinero una vez recibido el producto de vuelta.</li><li>El costo de devolución del producto lo paga el vendedor.</li></ul><p><strong>Cómo implementarlo:</strong></p><ol><li>Creá una página en tu web tipo \"/arrepentimiento\" con un formulario simple: nombre, email, número de pedido, motivo (opcional).</li><li>Agregá un link en el footer de tu web: \"Botón de Arrepentimiento\".</li><li>Configurá que ese formulario te llegue por email para procesarlo.</li><li>Tené un proceso interno para gestionar la devolución del producto y el reembolso.</li></ol><p><strong>Excepciones:</strong> el derecho de arrepentimiento no aplica a productos personalizados, productos perecederos, software descargado, o servicios ya prestados.</p><p><strong>Realidad:</strong> muchas tiendas lo ponen en el footer como link muerto o lo esconden. Eso te expone a multas. Mejor tenerlo bien implementado — es un diferencial de confianza y un requisito legal.</p>"
+      },
+      {
+        "heading": "Errores legales comunes en tiendas online argentinas",
+        "body": "<p>Cosas que vemos todo el tiempo y que te pueden costar caro:</p><ul><li><strong>No mostrar el precio final:</strong> la Ley 24.240 y la Resolución 7/2002 obligan a mostrar el precio con IVA incluido. Si mostrás \"$10.000 + IVA\" estás en falta.</li><li><strong>No tener botón de arrepentimiento:</strong> la multa puede ser de varios millones de pesos. No vale la pena ahorrarse un formulario de 10 minutos.</li><li><strong>Copiar términos de tiendas extranjeras:</strong> las leyes de Argentina son distintas. Términos de una tienda de EEUU o España no te cubren.</li><li><strong>No identificarte como vendedor:</strong> tu web tiene que mostrar claramente quién vende (nombre/razón social, CUIT, domicilio). Si el consumidor no sabe con quién está contratando, cualquier reclamo va a favor de él.</li><li><strong>Prometer plazos de envío que no cumplís:</strong> si decís \"entrega en 24 hs\" y tardás 7 días, el cliente puede reclamar. Mejor poner un rango realista.</li><li><strong>No dar factura:</strong> toda venta online requiere factura o ticket fiscal. Si no facturás, además del problema legal, ARCA (ex AFIP) puede clausurarte.</li><li><strong>Ignorar reclamos en redes sociales:</strong> la ley de defensa del consumidor aplica independientemente del canal. Un reclamo por Instagram tiene la misma validez que uno formal.</li></ul><p>¿Necesitás ayuda armando los textos legales de tu tienda o implementando el botón de arrepentimiento? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te guiamos paso a paso.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Es obligatorio el botón de arrepentimiento en mi tienda online?",
+        "answer": "Sí, es obligatorio por la Resolución 424/2020. Todas las tiendas online que vendan a consumidores finales en Argentina deben tener un botón de arrepentimiento visible que permita iniciar la devolución dentro de los 10 días de recibido el producto."
+      },
+      {
+        "question": "¿Qué pasa si no tengo términos y condiciones en mi tienda?",
+        "answer": "Te exponés a perder cualquier disputa con un cliente porque no hay reglas claras que te respalden. Además, la Dirección de Defensa del Consumidor puede sancionarte con multas significativas por no cumplir con la obligación de informar al consumidor."
+      },
+      {
+        "question": "¿Necesito registrar mi base de datos de clientes?",
+        "answer": "Sí, si recopilás datos personales (nombre, email, dirección, teléfono), la Ley 25.326 te obliga a registrar la base de datos ante la AAIP. El trámite es online y gratuito a través de TAD (Trámites a Distancia)."
+      },
+      {
+        "question": "¿El consumidor puede devolver cualquier producto comprado online?",
+        "answer": "Dentro de los 10 días corridos de recibido, sí, sin dar explicación. Las excepciones son productos personalizados, perecederos, software descargado y servicios ya prestados. El costo de devolución lo asume el vendedor."
+      },
+      {
+        "question": "¿Puedo usar una política de privacidad genérica?",
+        "answer": "Podés usar un modelo base, pero tiene que reflejar tu operación real: qué datos recopilás vos, con quién los compartís (tu pasarela de pago, tu logística), y cómo los protegés. No copies la política de otra tienda porque si no es precisa, no te protege legalmente."
+      }
+    ],
+    "ctaText": "¿Tu tienda online necesita ponerse en regla? En SODI te ayudamos a implementar los textos legales, el botón de arrepentimiento y todo lo que necesitás para cumplir con la ley y transmitir confianza a tus clientes."
+  }
+}

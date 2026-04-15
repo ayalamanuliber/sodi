@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-chatbot-ia-argentina",
+  "title": "Cuánto cuesta un chatbot con IA en Argentina en 2026: bot básico, chatbot IA y agente conversacional",
+  "metaTitle": "Cuánto cuesta un chatbot IA en Argentina 2026",
+  "metaDescription": "Bot WhatsApp básico: $200.000-$500.000 ARS. Chatbot IA: USD 2.000-10.000. Costo mensual recurrente: USD 50-250/mes. Precios reales Argentina.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["chatbot IA", "bot WhatsApp", "inteligencia artificial", "automatización", "atención al cliente"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "como-automatizar-atencion-al-cliente", "whatsapp-manual-vs-bot-automatico", "que-es-automatizacion-para-empresas"],
+  "content": {
+    "intro": "<p>Un chatbot en Argentina en 2026 cuesta entre <strong>$200.000 ARS por un bot básico de WhatsApp</strong> y <strong>USD 10.000+ por un agente conversacional con inteligencia artificial</strong>. El costo mensual recurrente va de USD 50 a 250/mes por tokens de IA, API de WhatsApp Business y hosting. La diferencia de precio refleja una diferencia enorme en capacidad: un bot básico sigue un menú fijo, un chatbot IA entiende lenguaje natural y responde como un humano.</p><p>El mercado explotó en los últimos 2 años. Hoy cualquier PyME puede tener un bot que responde consultas las 24hs, califica leads y agenda turnos. Pero hay mucho humo. Te explicamos qué existe realmente, cuánto cuesta cada nivel y cuándo vale la pena la inversión.</p>",
+    "sections": [
+      {
+        "heading": "Los 3 niveles de chatbot y cuánto cuesta cada uno",
+        "body": "<p><strong>Nivel 1 - Bot de menú/flujo ($200.000-$500.000 ARS setup, $15.000-$40.000 ARS/mes):</strong> funciona con opciones predefinidas (\"Escribí 1 para consultas, 2 para turnos, 3 para precios\"). No entiende texto libre. Se implementa con plataformas como Chatcompose, Botslovers o <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">integraciones directas de WhatsApp Business API</a>. Setup en 1-3 semanas. Ideal para derivar consultas frecuentes y reducir la carga del equipo.</p><p><strong>Nivel 2 - Chatbot con IA (USD 2.000-5.000 setup, USD 50-150/mes):</strong> usa modelos de lenguaje (GPT-4, Claude, Gemini) para entender preguntas en lenguaje natural. Responde en base a tu información específica (precios, servicios, horarios, FAQ). No improvisa: está entrenado con tus datos. Se integra con WhatsApp, Instagram y web. Setup en 3-6 semanas.</p><p><strong>Nivel 3 - Agente conversacional IA (USD 5.000-10.000+ setup, USD 150-250/mes):</strong> no solo responde, sino que ejecuta acciones: agenda turnos en tu calendario, crea cotizaciones, consulta stock en tiempo real, registra datos en tu CRM, escala a un humano cuando no puede resolver. Requiere integración con tus sistemas internos. Setup en 6-12 semanas.</p><p>El salto de nivel 1 a nivel 2 es el que más impacto tiene en la experiencia del cliente. Un bot de menú frustra al 60% de los usuarios. Un chatbot IA resuelve el 70-80% de las consultas sin intervención humana.</p>"
+      },
+      {
+        "heading": "Costos recurrentes: tokens de IA, API de WhatsApp y hosting",
+        "body": "<p>El costo mensual es donde muchas PyMEs se sorprenden. El chatbot no es un gasto único.</p><p><strong>Tokens de IA:</strong> si usás GPT-4o, el costo es de aproximadamente USD 2.50 por millón de tokens de entrada y USD 10 por millón de salida. Para una PyME que recibe 500-1.000 consultas/mes, esto representa USD 15-40/mes. Con Claude o Gemini los precios son similares. Modelos más baratos como GPT-4o-mini cuestan 10x menos pero son menos precisos.</p><p><strong>API de WhatsApp Business:</strong> Meta cobra por conversación. En Argentina, una conversación de servicio cuesta USD 0.025 y una de marketing USD 0.056 (precios abril 2026). Con 1.000 conversaciones de servicio/mes, son USD 25/mes. Plataformas intermediarias como Twilio o 360dialog cobran un fee adicional de USD 5-15/mes.</p><p><strong>Hosting del bot:</strong> USD 5-20/mes para un bot en la nube (Vercel, Railway, AWS Lambda). Si usás una plataforma todo-en-uno como Botpress, ManyChat o Voiceflow, el costo del hosting está incluido en la suscripción (USD 30-100/mes).</p><p>Total recurrente realista: <strong>USD 50-100/mes para nivel 2, USD 150-250/mes para nivel 3</strong>. Compará esto con el sueldo de una persona atendiendo WhatsApp 8 horas por día y sacá tus conclusiones.</p>"
+      },
+      {
+        "heading": "Plataformas para armar un chatbot sin programar",
+        "body": "<p>Si tu presupuesto es limitado, podés arrancar con plataformas no-code que reducen drásticamente el costo de setup:</p><p><strong>ManyChat:</strong> gratis hasta 1.000 contactos, después USD 15/mes. Excelente para Instagram y Facebook. Soporte de WhatsApp desde 2024. Ideal para nivel 1 y 2 básico. Lo usan muchas PyMEs argentinas de e-commerce y servicios.</p><p><strong>Botpress:</strong> plan gratuito generoso, planes pagos desde USD 50/mes. Permite crear chatbots con IA avanzada sin código. Integración con WhatsApp, web, Slack. Es la mejor opción calidad-precio para nivel 2.</p><p><strong>Voiceflow:</strong> desde USD 50/mes. Interfaz visual para diseñar flujos complejos. Muy usado por agencias. Soporta variables, condiciones, integraciones API. Bueno para nivel 2 y 3 básico.</p><p><strong>Chatcompose:</strong> plataforma argentina, planes desde USD 30/mes. Soporte en español, facturación local. Si preferís un proveedor argentino con soporte en tu horario, es una opción sólida.</p><p>Con estas herramientas, un chatbot nivel 2 te puede costar $150.000-$300.000 ARS de setup (configuración + entrenamiento con tus datos) en vez de USD 3.000+ de desarrollo custom. La limitación es la personalización: si necesitás integraciones específicas con tus sistemas, vas a necesitar desarrollo a medida.</p>"
+      },
+      {
+        "heading": "Cuándo conviene un chatbot y cuándo es overkill",
+        "body": "<p><strong>Invertí en chatbot si:</strong> recibís más de 30 consultas diarias por WhatsApp/web, el 60%+ de las preguntas son repetitivas (horarios, precios, disponibilidad), necesitás atender fuera de horario comercial, tu equipo pierde tiempo respondiendo lo mismo, o querés calificar leads automáticamente antes de que lleguen a tu vendedor.</p><p><strong>No vale la pena si:</strong> recibís menos de 10 consultas por día (respondé manual, no te cuesta nada), tu servicio requiere personalización alta en cada interacción (ej: <a href=\"/blog/como-automatizar-atencion-al-cliente\">consultas legales complejas</a>), tus clientes son mayores y se frustran con bots, o no tenés la información estructurada (precios, FAQ, servicios) para entrenar al bot.</p><p>Un caso real: una inmobiliaria argentina con 80 consultas diarias implementó un chatbot nivel 2 por USD 3.000. El bot resuelve el 70% de las consultas (disponibilidad, precios, ubicaciones), agenda visitas y pasa los leads calificados al equipo. Se pagó solo en el primer mes porque liberó a 2 personas de responder WhatsApp.</p><p>Otro caso: un estudio contable con 5 consultas diarias gastó $400.000 en un bot que nadie usaba porque los clientes preferían hablar con el contador directamente. Plata tirada.</p>"
+      },
+      {
+        "heading": "Cómo elegir proveedor de chatbot en Argentina",
+        "body": "<p>Pedí siempre una <strong>demo con tus datos reales</strong>, no con datos genéricos. Un chatbot que responde bien sobre \"productos de ejemplo\" puede fallar con tus precios, horarios y preguntas reales. Exigí una prueba de concepto antes de pagar el desarrollo completo.</p><p>Preguntá <strong>quién es dueño de los datos de entrenamiento</strong>. Si el proveedor entrena el chatbot con la información de tu empresa, esos datos tienen que ser tuyos. Si cortás la relación, tenés que poder llevarte todo.</p><p>Verificá la <strong>tasa de resolución real</strong>. Cualquier proveedor te va a decir \"90% de resolución\". Pedí que te muestren métricas de clientes reales: cuántas conversaciones resuelve sin escalar a humano, cuántas abandona el usuario, cuántas respuestas incorrectas genera por semana.</p><p>Definí el <strong>protocolo de escalamiento</strong>. ¿Qué pasa cuando el bot no sabe responder? ¿Avisa al cliente que lo va a atender un humano? ¿Transfiere la conversación con contexto? Un bot que deja al cliente colgado es peor que no tener bot.</p><p>Evaluá el <strong>soporte post-implementación</strong>. Un chatbot necesita ajustes constantes las primeras 4-8 semanas. Si el proveedor desaparece después del setup, vas a tener un bot que responde mal y frustra a tus clientes. Exigí al menos 30 días de optimización incluidos.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un chatbot para WhatsApp en Argentina?",
+        "answer": "Un bot básico de menú cuesta $200.000-$500.000 ARS de setup más $15.000-$40.000/mes. Un chatbot con IA que entiende lenguaje natural cuesta USD 2.000-5.000 de setup más USD 50-150/mes de costos recurrentes."
+      },
+      {
+        "question": "¿Cuánto cuesta por mes mantener un chatbot con IA?",
+        "answer": "Entre USD 50 y 250/mes dependiendo del volumen de consultas y la complejidad. Incluye tokens de IA (USD 15-40), API de WhatsApp (USD 25-50) y hosting (USD 5-20). A más consultas, mayor costo de tokens."
+      },
+      {
+        "question": "¿Un chatbot con IA puede reemplazar a un empleado?",
+        "answer": "No lo reemplaza, lo complementa. Un buen chatbot resuelve el 60-80% de las consultas repetitivas y libera al equipo humano para las conversaciones que generan ventas. Seguís necesitando personas para cierres, reclamos complejos y relaciones comerciales."
+      },
+      {
+        "question": "¿Qué diferencia hay entre un bot de WhatsApp y un chatbot con IA?",
+        "answer": "Un bot de WhatsApp sigue flujos predefinidos (menú de opciones). Un chatbot con IA entiende lenguaje natural, interpreta preguntas escritas de cualquier forma y genera respuestas contextuales. La experiencia del usuario es radicalmente diferente."
+      },
+      {
+        "question": "¿Puedo armar un chatbot yo mismo sin programar?",
+        "answer": "Sí. Plataformas como ManyChat (desde gratis), Botpress (desde gratis) y Chatcompose (desde USD 30/mes) permiten crear chatbots con IA sin código. El setup básico te puede llevar 1-2 semanas si tenés la información de tu negocio estructurada."
+      }
+    ],
+    "ctaText": "¿Querés saber qué tipo de chatbot necesita tu negocio y cuánto te costaría? En SODI te hacemos un diagnóstico gratuito de tus consultas y te proponemos la solución más eficiente."
+  }
+}

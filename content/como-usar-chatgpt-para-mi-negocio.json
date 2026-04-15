@@ -1,0 +1,61 @@
+{
+  "slug": "como-usar-chatgpt-para-mi-negocio",
+  "title": "Cómo usar ChatGPT para tu negocio en Argentina: guía práctica con prompts y ejemplos reales",
+  "metaTitle": "Cómo usar ChatGPT para tu negocio Argentina",
+  "metaDescription": "Guía paso a paso para usar ChatGPT en tu negocio: crear cuenta, prompts para PyMEs argentinas, Free vs Plus (USD 20/mes), qué NO hacer.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["chatgpt", "inteligencia artificial", "prompts negocio", "pymes", "productividad"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["inteligencia-artificial-para-pymes-argentina", "chatgpt-vs-community-manager", "como-automatizar-atencion-al-cliente", "como-armar-estrategia-redes-sociales"],
+  "content": {
+    "intro": "<p>ChatGPT ya no es una novedad — es una herramienta de trabajo. Pero la mayoría de los dueños de negocios argentinos lo usan mal: le hacen preguntas vagas, obtienen respuestas genéricas, y concluyen que \"no sirve para mi rubro\". El problema no es la herramienta, es cómo la usás.</p><p>Esta guía te lleva desde cero — <strong>crear la cuenta, armar prompts que funcionen, y aplicarlo a tareas concretas</strong> de tu negocio — hasta entender cuándo vale la pena pagar USD 20/mes por la versión Plus y cuándo la gratuita alcanza.</p>",
+    "sections": [
+      {
+        "heading": "Primeros pasos: crear cuenta y configurar ChatGPT",
+        "body": "<p>Si nunca usaste ChatGPT, arrancá acá:</p><h3>Crear cuenta (2 minutos)</h3><ol><li>Entrá a <strong>chat.openai.com</strong></li><li>Hacé clic en \"Sign up\" → usá tu email de Gmail o cualquier otro</li><li>Verificá el email y listo — ya tenés acceso a ChatGPT gratis</li></ol><h3>Configuración recomendada para negocios</h3><ul><li><strong>Custom Instructions:</strong> andá a tu perfil → Custom Instructions. En \"What would you like ChatGPT to know about you?\" escribí: tu rubro, tu público, y tu país. Ejemplo: <em>\"Tengo una ferretería en Córdoba, Argentina. Vendo a particulares y a empresas constructoras. Quiero que me respondas en español argentino.\"</em></li><li><strong>Desactivar historial para entrenamiento:</strong> si te preocupa la privacidad, andá a Settings → Data Controls → desactivá \"Improve the model for everyone\". Tus datos no se usan para entrenar.</li></ul><p>Con esas dos configuraciones, cada respuesta de ChatGPT ya va a estar contextualizada a tu negocio. Sin esto, te responde de forma genérica.</p>"
+      },
+      {
+        "heading": "6 usos concretos de ChatGPT para negocios argentinos",
+        "body": "<h3>1. Responder consultas de clientes</h3><p>Prompt ejemplo: <em>\"Redactá una respuesta profesional pero cercana para un cliente que pregunta por WhatsApp si hacemos envíos al interior. Somos una tienda de indumentaria en Buenos Aires, hacemos envíos por Andreani a todo el país, costo desde $3.500.\"</em></p><h3>2. Escribir posteos para redes sociales</h3><p>Prompt ejemplo: <em>\"Creá 5 ideas de posteos para Instagram para una veterinaria en Rosario. Tono cercano y profesional. Incluí una idea de Reel, un carrusel educativo, y un posteo de interacción. Público: dueños de perros y gatos, 25-45 años.\"</em></p><h3>3. Analizar la competencia</h3><p>Prompt ejemplo: <em>\"Analizá el sitio web [URL del competidor] y decime: qué servicios ofrecen, cómo se posicionan, qué hacen bien, y qué oportunidades veo para diferenciarme. Mi negocio es [describí tu negocio].\"</em> (Funciona mejor con ChatGPT Plus que puede navegar la web.)</p><h3>4. Generar ideas de contenido</h3><p>Prompt ejemplo: <em>\"Dame 20 ideas de artículos de blog para una empresa de fumigación en Mendoza. Enfocate en preguntas que harían los clientes en Google antes de contratar el servicio.\"</em></p><h3>5. Redactar emails comerciales</h3><p>Prompt ejemplo: <em>\"Escribí un email de seguimiento para un cliente que pidió presupuesto hace 5 días y no respondió. Tono amable, no insistente. El presupuesto era por un sistema de gestión a medida, $500.000 ARS.\"</em></p><h3>6. Crear descripciones de productos</h3><p>Prompt ejemplo: <em>\"Escribí la descripción de producto para mi tienda online: zapatillas running marca X, modelo Y. Talle 38-45. Precio $89.990. Beneficio principal: amortiguación para corredores de +80kg. Incluí bullet points y un párrafo de venta.\"</em></p>"
+      },
+      {
+        "heading": "Cómo escribir prompts que dan buenos resultados",
+        "body": "<p>La diferencia entre una respuesta inútil y una respuesta que ahorra trabajo está en el prompt. Seguí estas reglas:</p><h3>Regla 1: Dá contexto</h3><p>Mal: <em>\"Escribí un posteo para Instagram.\"</em><br>Bien: <em>\"Escribí un posteo para Instagram para mi estudio contable en CABA. Público: monotributistas que no saben cómo facturar. Tono didáctico y cercano. Formato: texto + imagen estática.\"</em></p><h3>Regla 2: Especificá el formato de salida</h3><p>Mal: <em>\"Dame ideas de marketing.\"</em><br>Bien: <em>\"Dame 10 ideas de acciones de marketing digital para una panadería artesanal. Para cada idea incluí: la acción concreta, el canal, el costo estimado, y el resultado esperado. Formato tabla.\"</em></p><h3>Regla 3: Pedí que asuma un rol</h3><p><em>\"Sos un experto en marketing digital para PyMEs argentinas. Ayudame a armar un plan de contenidos para Instagram para los próximos 30 días.\"</em></p><h3>Regla 4: Iterá</h3><p>No esperes que la primera respuesta sea perfecta. Pedí ajustes: <em>\"Hacelo más corto\", \"Usá un tono más informal\", \"Agregá un CTA al final\", \"Esto es muy genérico, dale más especificidad para el rubro farmacéutico\".</em></p><h3>Regla 5: Dá ejemplos</h3><p>Si tenés un posteo anterior que te gustó, pegalo y decí: <em>\"Usá este estilo y tono para crear 3 posteos similares sobre [tema].\"</em></p>"
+      },
+      {
+        "heading": "ChatGPT Free vs Plus: ¿vale la pena pagar USD 20/mes?",
+        "body": "<p>Comparativa honesta:</p><h3>ChatGPT Free (gratis)</h3><ul><li>Acceso al modelo GPT-4o con límites de uso diario</li><li>Suficiente para: redactar textos, responder consultas, generar ideas, emails básicos</li><li>Limitación principal: cantidad de mensajes por día (se reduce en horarios pico), no navega la web de forma confiable</li></ul><h3>ChatGPT Plus (USD 20/mes ≈ $25.000 ARS)</h3><ul><li>Acceso prioritario, más mensajes por día</li><li>Navegación web: puede analizar sitios de competidores en tiempo real</li><li>Análisis de archivos: subís una planilla Excel y la analiza, subís un PDF y lo resume</li><li>Generación de imágenes con DALL-E</li><li>GPTs personalizados: podés crear un asistente entrenado para tu negocio específico</li></ul><h3>Veredicto</h3><p><strong>Si usás ChatGPT menos de 30 minutos por día:</strong> la versión gratis alcanza.</p><p><strong>Si lo usás +1 hora/día o necesitás analizar archivos/navegar web:</strong> el Plus se paga solo. USD 20/mes por una herramienta que te ahorra 10+ horas de trabajo mensual es una de las mejores inversiones que puede hacer una PyME.</p><p>Alternativa: probá <strong>Claude</strong> (Anthropic) en su versión gratuita. Para textos largos y análisis de documentos, suele dar mejores resultados que ChatGPT Free.</p>"
+      },
+      {
+        "heading": "Lo que NO tenés que hacer con ChatGPT (importante)",
+        "body": "<p>ChatGPT es poderoso pero tiene límites reales. Estas son las líneas que no deberías cruzar:</p><ul><li><strong>No subas datos confidenciales de clientes:</strong> nombres, DNIs, datos de contacto, historiales médicos, información financiera. Aunque desactives el entrenamiento, tus datos se procesan en servidores externos. Si manejás datos sensibles, usá la versión empresarial con acuerdos de privacidad.</li><li><strong>No lo uses para consejo legal:</strong> ChatGPT puede darte información legal general, pero no reemplaza a un abogado. Las leyes argentinas cambian constantemente y ChatGPT puede darte información desactualizada o directamente incorrecta.</li><li><strong>No lo uses para consejo médico o contable:</strong> misma lógica. Puede orientarte, pero las decisiones importantes las toma un profesional.</li><li><strong>No publiques contenido sin revisar:</strong> ChatGPT inventa datos, cifras y hasta citas textuales. Si publicás algo que generó la IA sin verificar, la responsabilidad es tuya. Revisá siempre números, precios, y afirmaciones fácticas.</li><li><strong>No dependas 100% de la IA para tu voz de marca:</strong> usala para generar borradores, pero editá y personalizá. Si todo tu contenido suena a ChatGPT (y cada vez más gente lo detecta), tu marca pierde autenticidad.</li></ul><p>Usá ChatGPT como un asistente que produce borradores rápidos. La decisión final, la revisión, y la responsabilidad siempre son tuyas.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿ChatGPT funciona bien en español argentino?",
+        "answer": "Sí, especialmente si le aclarás en las Custom Instructions que querés respuestas en español argentino. Usa voseo, modismos locales, y entiende contexto argentino (ARCA, Mercado Pago, Tiendanube, etc.). A veces se le escapa algún españolismo, pero corrigiéndolo aprende."
+      },
+      {
+        "question": "¿Puedo usar ChatGPT gratis para mi negocio?",
+        "answer": "Sí. La versión gratuita es suficiente para generar contenido, redactar emails, responder consultas, y hacer brainstorming. El límite es la cantidad de mensajes por día y que no puede analizar archivos ni navegar la web de forma confiable."
+      },
+      {
+        "question": "¿ChatGPT puede manejar mi atención al cliente?",
+        "answer": "No directamente. ChatGPT es una herramienta de chat que vos usás. Para atención al cliente automatizada necesitás un chatbot de WhatsApp o web que use IA por detrás. Eso requiere una integración técnica, no es solo abrir chat.openai.com."
+      },
+      {
+        "question": "¿Qué pasa si ChatGPT me da información incorrecta?",
+        "answer": "Pasa seguido — se llama 'alucinación'. ChatGPT inventa datos con total confianza. Nunca publiques números, precios, leyes o datos fácticos sin verificarlos por tu cuenta. Usalo para generar borradores, no como fuente de verdad."
+      },
+      {
+        "question": "¿ChatGPT reemplaza contratar un profesional de marketing?",
+        "answer": "No. Te ayuda a ejecutar más rápido (generar contenido, ideas, emails), pero no reemplaza la estrategia, el conocimiento del mercado, ni la creatividad humana. Un profesional que usa ChatGPT rinde mucho más que ChatGPT solo."
+      }
+    ],
+    "ctaText": "¿Querés integrar ChatGPT y otras herramientas de IA en tu negocio de forma efectiva? En SODI te ayudamos a configurar chatbots, automatizar procesos y capacitar a tu equipo."
+  }
+}

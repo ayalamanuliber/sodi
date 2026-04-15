@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-guarderias-caninas",
+  "title": "Sistema de turnos para guarderías caninas: organizá reservas de guardería, peluquería y paseos",
+  "metaTitle": "Sistema de Turnos para Guarderías Caninas 2026",
+  "metaDescription": "Sistemas de turnos para guarderías caninas. Reservas de daycare, grooming y paseos. Multi-mascota, turnos recurrentes, opciones y precios.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "guarderías caninas", "daycare mascotas", "peluquería canina", "reservas online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-guarderias-caninas", "presencia-digital-ideal-guarderia-canina", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>Si tenés una guardería canina en Argentina, sabés que el teléfono no para: <strong>dueños que quieren reservar daycare, turnos de peluquería canina, paseos programados, clientes que tienen dos o tres mascotas, y reservas recurrentes que se repiten cada semana</strong>. Gestionar todo por WhatsApp es un quilombo que escala mal.</p><p>Un <strong>sistema de turnos para guarderías caninas</strong> te permite recibir reservas las 24 horas, manejar turnos recurrentes automáticamente y saber exactamente cuántas mascotas vas a recibir cada día. En esta guía te mostramos las opciones, costos y cómo implementar uno en tu guardería.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu guardería canina necesita turnos online",
+        "body": "<p>Las guarderías caninas tienen particularidades únicas en su gestión de turnos:</p><ul><li><strong>Capacidad limitada:</strong> Tenés espacio para X perros por día. Si no controlás las reservas, un día te llegan 20 y otro día 3. El sistema balancea la ocupación.</li><li><strong>Múltiples servicios:</strong> Daycare por día completo, medio día, peluquería (baño, corte, stripping), paseos grupales, adiestramiento. Cada uno con su duración y capacidad.</li><li><strong>Clientes con varias mascotas:</strong> El dueño tiene 2 perros y quiere reservar daycare para ambos el mismo día. El sistema tiene que manejar multi-mascota.</li><li><strong>Turnos recurrentes:</strong> \"Todos los martes y jueves traigo a Rocky\". Si esto lo gestionás manual, es cuestión de tiempo hasta que se pierda una reserva.</li><li><strong>Información de la mascota:</strong> Raza, tamaño, temperamento, vacunas al día, alergias, necesidades especiales. Si no la tenés antes de que llegue, arrancás el día improvisando.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para guarderías caninas",
+        "body": "<p>Hay opciones tanto específicas como genéricas que se adaptan bien:</p><ul><li><strong>PetExec / Gingr (USD 100-200/mes):</strong> Plataformas internacionales diseñadas para guarderías caninas. Manejan reservas, fichas de mascota, vacunas, reportes diarios con fotos. Son las más completas pero tienen precio premium y están en inglés.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> No es específico para mascotas, pero podés crear servicios (daycare, grooming, paseo), asignar capacidad y enviar recordatorios. Económico y funcional.</li><li><strong>Cal.com (gratis el plan básico):</strong> Para empezar. Creá tipos de reserva con duraciones distintas. No tiene ficha de mascota, pero podés pedir los datos en un formulario de reserva.</li></ul><p><strong>Para guarderías caninas argentinas</strong>, la mejor relación costo-beneficio es AgendaPro o Cal.com. Las plataformas internacionales específicas (PetExec, Gingr) son excelentes pero su precio puede ser alto para el mercado local.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo conviene",
+        "body": "<p>Un sistema a medida para guardería canina tiene sentido cuando:</p><ul><li><strong>Operación grande (20+ mascotas/día):</strong> Necesitás un panel operativo donde veas en tiempo real qué mascotas están, quién las trajo, a qué hora las buscan y qué servicios tienen.</li><li><strong>App para clientes:</strong> Los dueños quieren ver fotos y videos de su mascota durante el día, recibir un reporte diario (\"Rocky comió bien, jugó con Luna, durmió la siesta\") y pagar desde la app.</li><li><strong>Gestión de paquetes y abonos:</strong> Packs de 10 días de daycare, abono mensual ilimitado, combos daycare + grooming. Con descuentos y vencimientos.</li><li><strong>Multi-sede:</strong> Si tenés más de una sucursal y necesitás gestión centralizada de mascotas, staff y disponibilidad.</li></ul><p><strong>Costo estimado:</strong> entre $1.000.000 y $3.000.000 ARS. Para una guardería chica-mediana, es mejor arrancar con un SaaS y escalar después. Más detalles en <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta un sistema de turnos</a>.</p>"
+      },
+      {
+        "heading": "Fichas de mascota y comunicación con dueños",
+        "body": "<p>Lo que diferencia a una guardería canina profesional es la <strong>información y la comunicación</strong>:</p><ul><li><strong>Ficha de mascota:</strong> Nombre, raza, edad, peso, temperamento, vacunas (antirábica, quíntuple, tos de las perreras), alergias, medicación, veterinario de cabecera, contacto de emergencia.</li><li><strong>Check-in de ingreso:</strong> Cuando el dueño trae la mascota, registrá estado general, si comió, si tiene alguna novedad. Toma 1 minuto y te cubre ante cualquier reclamo.</li><li><strong>Reportes diarios:</strong> \"Hoy Rocky jugó mucho con Simón, comió toda su porción y durmió una hora de siesta.\" Con fotos. Los dueños aman esto y es lo que los fideliza.</li><li><strong>Recordatorios de vacunas:</strong> \"Hola María, las vacunas de Rocky vencen el 15 de mayo. Recordá actualizarlas para que pueda seguir viniendo a la guardería.\"</li><li><strong>Alertas de reserva recurrente:</strong> \"Confirmamos tu reserva de daycare para Rocky, martes y jueves como siempre. ¿Todo bien?\"</li></ul><p>Esta comunicación automatizada genera confianza y <strong>aumenta la retención de clientes significativamente</strong>.</p>"
+      },
+      {
+        "heading": "Cómo implementar turnos en tu guardería canina",
+        "body": "<p>La implementación es rápida si seguís estos pasos:</p><ul><li><strong>Definí tus servicios:</strong> Daycare completo, medio día, peluquería (baño, corte, baño + corte), paseo grupal, adiestramiento individual. Cada uno con precio, duración y capacidad máxima.</li><li><strong>Creá la ficha de mascota:</strong> Diseñá un formulario que los dueños completen al registrarse. Pedí toda la información de salud y comportamiento que necesitás.</li><li><strong>Configurá la capacidad:</strong> ¿Cuántas mascotas podés recibir por día? ¿Cuántos turnos de peluquería? El sistema tiene que respetar estos límites.</li><li><strong>Activá reservas recurrentes:</strong> Permití que los clientes reserven \"todos los martes\" o \"lunes, miércoles y viernes\" de forma automática.</li><li><strong>Publicá el link de reservas:</strong> En tu <a href=\"/blog/pagina-web-para-guarderias-caninas\">página web</a>, Instagram, Google Maps y WhatsApp Business.</li></ul><p>En una semana podés estar recibiendo reservas online. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y te ayudamos a elegir la mejor opción.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo manejar reservas de varias mascotas del mismo dueño?",
+        "answer": "Sí. Los sistemas permiten vincular varias mascotas a un mismo cliente. El dueño reserva daycare para sus 2 o 3 perros en una sola operación."
+      },
+      {
+        "question": "¿El sistema maneja turnos recurrentes automáticos?",
+        "answer": "Sí. Podés configurar reservas que se repitan semanalmente. El sistema genera los turnos automáticamente y envía confirmación al dueño."
+      },
+      {
+        "question": "¿Puedo controlar la capacidad máxima de mascotas por día?",
+        "answer": "Sí. Definís un límite diario y el sistema deja de aceptar reservas cuando se alcanza. También podés diferenciar capacidad por servicio."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para guardería canina?",
+        "answer": "Cal.com es gratis. AgendaPro: USD 15-45/mes. Plataformas especializadas (PetExec, Gingr): USD 100-200/mes. Desarrollo a medida: $1.000.000 a $3.000.000 ARS."
+      },
+      {
+        "question": "¿Puedo enviar fotos de las mascotas a los dueños durante el día?",
+        "answer": "Con sistemas a medida sí, directamente desde la app. Con SaaS genéricos, podés complementar con WhatsApp Business para enviar reportes con fotos manualmente o con automatización."
+      }
+    ],
+    "ctaText": "¿Querés organizar las reservas de tu guardería canina? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir el mejor sistema."
+  }
+}

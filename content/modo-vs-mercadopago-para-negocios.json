@@ -1,0 +1,61 @@
+{
+  "slug": "modo-vs-mercadopago-para-negocios",
+  "title": "MODO vs MercadoPago para negocios: cuál conviene para cobrar en Argentina",
+  "metaTitle": "MODO vs MercadoPago: cuál conviene tu negocio",
+  "metaDescription": "MODO cobra menos en transferencias bancarias, MercadoPago domina en ecommerce. Comparamos comisiones, funciones y cuándo usar cada uno. Guía 2026.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["modo", "mercadopago", "cobrar con qr", "pagos digitales", "negocios"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["mercadopago-vs-mobbex-ecommerce", "como-cobrar-con-qr-en-mi-negocio", "cuanto-cuesta-tienda-online-argentina", "como-vender-por-internet-argentina"],
+  "content": {
+    "intro": "<p><strong>Respuesta rápida:</strong> si vendés online, <strong>MercadoPago</strong> es prácticamente obligatorio — tiene el ecosistema más completo de Argentina con checkout, links de pago, QR y cuotas. Si tenés un local físico y querés reducir comisiones, <strong>MODO</strong> es un excelente complemento porque las transferencias bancarias directas no tienen comisión para el comercio.</p><p>MODO y MercadoPago no compiten de la misma manera. MercadoPago es una fintech con billetera virtual, marketplace y pasarela de pago integrada. MODO es una alianza de más de 35 bancos argentinos que permite pagar con QR desde la app de tu banco. Son herramientas distintas, y la mayoría de los negocios inteligentes usan las dos.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa directa: MODO vs MercadoPago",
+        "body": "<table><thead><tr><th>Característica</th><th>MODO</th><th>MercadoPago</th></tr></thead><tbody><tr><td>Comisión transferencia</td><td>0% (transferencia bancaria directa)</td><td>0% (si es transferencia entre cuentas)</td></tr><tr><td>Comisión QR presencial</td><td>0.8% promedio (varía por banco)</td><td>0.99% + IVA con QR</td></tr><tr><td>Comisión venta online</td><td>No tiene checkout online</td><td>4.99% + IVA</td></tr><tr><td>Cuotas con tarjeta</td><td>Depende del banco emisor</td><td>Sí, hasta 12 cuotas con todos los bancos</td></tr><tr><td>Links de pago</td><td>No</td><td>Sí</td></tr><tr><td>Checkout ecommerce</td><td>No</td><td>Sí (Checkout Pro, Bricks, API)</td></tr><tr><td>QR en local</td><td>Sí (interoperable con bancos)</td><td>Sí (QR propio + Point)</td></tr><tr><td>Acreditación</td><td>Instantánea en cuenta bancaria</td><td>Inmediata en billetera MP, 2-14 días a banco</td></tr><tr><td>Respaldo</td><td>+35 bancos argentinos</td><td>MercadoLibre (MELI)</td></tr><tr><td>App necesaria</td><td>La del banco del cliente</td><td>App MercadoPago o billetera</td></tr></tbody></table><p>El dato clave: MODO no reemplaza a MercadoPago para ecommerce. <strong>MODO no tiene pasarela de pago online</strong>, no genera links de cobro, no tiene checkout. Si vendés por internet, necesitás MercadoPago (o una alternativa como Mobbex). Pero para cobros presenciales, MODO te ahorra comisión y la plata cae directo en tu cuenta bancaria.</p>"
+      },
+      {
+        "heading": "MODO: qué es, cómo funciona y para quién sirve",
+        "body": "<p>MODO es una iniciativa de más de 35 bancos argentinos (Galicia, Santander, BBVA, Macro, ICBC, etc.) que unifica pagos digitales. El cliente escanea un QR con la app de su banco y paga directo desde su cuenta. No necesita otra app, no necesita billetera virtual.</p><p><strong>Ventajas reales de MODO para negocios:</strong></p><ul><li><strong>Comisiones bajas o nulas:</strong> las transferencias por MODO son gratuitas. Los pagos con QR MODO en comercios tienen comisiones mucho más bajas que MercadoPago (0.6-0.8% promedio vs 0.99-4.99%).</li><li><strong>Acreditación instantánea:</strong> la plata cae en tu cuenta bancaria al instante. No pasa por una billetera intermedia.</li><li><strong>Base de usuarios enorme:</strong> todo el que tiene cuenta bancaria y la app de su banco puede pagar con MODO. No necesitan descargar nada nuevo.</li><li><strong>Sin retención de fondos:</strong> a diferencia de MercadoPago, no existe el riesgo de que te retengan plata por \"revisión\".</li></ul><p><strong>Limitaciones de MODO:</strong></p><ul><li><strong>No sirve para ecommerce:</strong> no tiene checkout online, no genera links de pago, no se integra con Tiendanube ni WooCommerce.</li><li><strong>Sin cuotas:</strong> el pago es débito inmediato desde la cuenta del cliente. No hay opción de financiar en cuotas.</li><li><strong>Depende del banco:</strong> cada banco implementa MODO a su manera. La experiencia no es 100% uniforme.</li><li><strong>Sin protección al comprador:</strong> no tiene programa de protección tipo Compra Protegida de MercadoLibre.</li></ul>"
+      },
+      {
+        "heading": "MercadoPago: el ecosistema completo pero más caro",
+        "body": "<p>MercadoPago procesa más del 70% de los pagos online en Argentina. Es la opción por defecto para cualquier tienda online, y su ecosistema de productos es incomparable.</p><p><strong>Lo que MercadoPago ofrece y MODO no:</strong></p><ul><li><strong>Checkout online completo:</strong> Checkout Pro, Checkout Bricks, API de pagos. Integrás en tu tienda y listo.</li><li><strong>Links de pago:</strong> generás un link, lo mandás por WhatsApp o email, y tu cliente paga. Ideal para PyMEs sin tienda web.</li><li><strong>Cuotas con todos los bancos:</strong> hasta 12 cuotas, con o sin interés. Para productos de ticket alto, esto define la venta.</li><li><strong>Point y QR unificados:</strong> cobrás con posnet (Point), QR y online desde la misma cuenta.</li><li><strong>Mercado Crédito:</strong> acceso a préstamos basados en tu historial de ventas.</li><li><strong>Integración con Mercado Libre:</strong> si vendés en ML, todo es nativo.</li></ul><p><strong>El costo real:</strong> por cada $100.000 ARS que vendés online con MercadoPago, pagás $6.039 de comisión (4.99% + IVA). En QR presencial, pagás $1.197 (0.99% + IVA). En transferencia entre cuentas MP, $0. Esa estructura de comisiones es importante entenderla porque cambia según el canal.</p>"
+      },
+      {
+        "heading": "Cuándo usar cada uno: la estrategia inteligente",
+        "body": "<p>La respuesta correcta para la mayoría de los negocios argentinos no es \"uno u otro\" — es <strong>usar ambos en el canal correcto</strong>:</p><ul><li><strong>En tu local físico:</strong> ofrecé MODO como opción principal de pago QR. Comisión más baja, acreditación instantánea en tu banco. Tené MercadoPago Point como backup para tarjetas de crédito y cuotas.</li><li><strong>En tu tienda online:</strong> MercadoPago como pasarela de pago principal. MODO no tiene checkout online, así que no hay alternativa directa acá.</li><li><strong>Para cobros por WhatsApp:</strong> usá los links de pago de MercadoPago. Alternativa: pasá tu CBU/alias y pedí transferencia (comisión 0%, pero sin protección).</li><li><strong>Para montos altos:</strong> si el cliente puede pagar sin cuotas, ofrecele transferencia bancaria o MODO (comisión 0%). Si necesita cuotas, MercadoPago.</li></ul><p><strong>Ejemplo real:</strong> un restaurante en CABA que factura $5.000.000/mes. Si cobra todo por MercadoPago QR, paga ~$59.895 en comisiones. Si cobra el 60% por MODO y el 40% restante por MercadoPago (cuotas/tarjeta), paga ~$47.800. <strong>Ahorro: $12.095/mes</strong>, o $145.140/año. No es fortuna, pero es plata que queda en tu caja.</p>"
+      },
+      {
+        "heading": "Cómo activar MODO y MercadoPago en tu negocio",
+        "body": "<p><strong>Para activar MODO:</strong></p><ol><li>Verificá que tu banco esté adherido a MODO (la mayoría de los bancos grandes lo están).</li><li>Entrá al homebanking o la app de tu banco y buscá la sección \"MODO para comercios\" o \"Cobrar con QR\".</li><li>Generá tu QR MODO desde la app del banco. Imprimilo y ponelo en tu local.</li><li>Los pagos caen directo en tu cuenta bancaria, al instante.</li></ol><p><strong>Para activar MercadoPago:</strong></p><ol><li>Creá una cuenta de MercadoPago (si ya tenés Mercado Libre, ya la tenés).</li><li>Completá la verificación de identidad y asociá tu CUIT.</li><li>Para local físico: pedí un QR o un Point desde la app.</li><li>Para ecommerce: integrá Checkout Pro en tu tienda (un click en Tiendanube, plugin en WooCommerce).</li><li>Para cobros sin web: generá links de pago desde la app.</li></ol><p><strong>Tip de implementación:</strong> en tu local, tené ambos QR impresos uno al lado del otro. \"Pagá con MODO (desde tu banco)\" y \"Pagá con MercadoPago\". Dejá que el cliente elija. Vos ganás en ambos casos, y con MODO ganás un poco más.</p><p>¿Necesitás integrar pagos en tu tienda online o sistematizar los cobros de tu negocio? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te ayudamos a elegir la mejor combinación.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿MODO cobra comisión a los comercios?",
+        "answer": "Las transferencias bancarias a través de MODO son gratuitas para el comercio. Los pagos con QR MODO en comercios tienen una comisión de entre 0.6% y 0.8% según el banco, mucho menor que el 0.99-4.99% de MercadoPago."
+      },
+      {
+        "question": "¿Puedo usar MODO para cobrar en mi tienda online?",
+        "answer": "No directamente. MODO no tiene checkout online ni pasarela de pago para ecommerce. Para vender online necesitás MercadoPago, Mobbex u otra pasarela. Podés ofrecer transferencia bancaria como alternativa (comisión 0%) y el cliente puede hacer esa transferencia desde MODO."
+      },
+      {
+        "question": "¿Qué bancos funcionan con MODO?",
+        "answer": "MODO integra más de 35 bancos argentinos incluyendo Galicia, Santander, BBVA, Macro, ICBC, Banco Provincia, Banco Nación, HSBC, entre otros. Casi cualquier persona con cuenta bancaria puede pagar con MODO desde la app de su banco."
+      },
+      {
+        "question": "¿MercadoPago o MODO para un local gastronómico?",
+        "answer": "Idealmente ambos. MODO como opción principal de QR porque la comisión es más baja y la plata cae instantáneamente en tu cuenta bancaria. MercadoPago como segunda opción para clientes que quieran pagar con tarjeta de crédito o en cuotas."
+      },
+      {
+        "question": "¿MODO va a reemplazar a MercadoPago?",
+        "answer": "No en el corto plazo. MercadoPago tiene un ecosistema completo (ecommerce, cuotas, links de pago, Point, Mercado Libre) que MODO no ofrece. MODO es fuerte en pagos presenciales y transferencias, pero no compite en el mundo online. Son complementarios, no sustitutos."
+      }
+    ],
+    "ctaText": "¿Querés integrar MODO y MercadoPago en tu negocio de la forma más eficiente? En SODI te ayudamos a elegir y configurar la mejor combinación de medios de pago para que cobres más y pagues menos comisiones."
+  }
+}

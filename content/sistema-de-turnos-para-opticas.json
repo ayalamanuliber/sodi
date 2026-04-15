@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-opticas",
+  "title": "Sistema de Turnos para Ópticas: Exámenes Visuales, Optometristas y Obras Sociales",
+  "metaTitle": "Sistema de Turnos para Ópticas Argentina | SODI",
+  "metaDescription": "Comparativa de sistemas de turnos para ópticas. Agenda de exámenes visuales, gestión de optometristas, preautorización de obras sociales. Costos.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "ópticas", "agenda óptica", "examen visual", "obras sociales"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-opticas", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online", "sistema-de-turnos-para-consultorios-medicos"],
+  "content": {
+    "intro": "<p>Si tenés una óptica con optometrista, sabés que los turnos para exámenes visuales son un dolor de cabeza: el teléfono suena mientras estás atendiendo, los turnos se superponen, el paciente no trae la orden de la obra social y hay que reprogramar. <strong>Todo eso se resuelve con un sistema de turnos online</strong>.</p><p>Un sistema de turnos para ópticas no solo organiza la agenda del optometrista: también permite que el cliente traiga la documentación de su obra social lista, reduce ausencias con recordatorios automáticos y te libera para atender en vez de coordinar por teléfono.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu óptica necesita turnos online",
+        "body": "<p>La óptica tiene un flujo de atención particular: clientes que entran a ver marcos (sin turno) y pacientes que necesitan examen visual (con turno). Esa convivencia hace que el teléfono sea caótico.</p><ul><li><strong>Exámenes con duración fija:</strong> un examen visual dura entre 20 y 40 minutos según el tipo. El sistema bloquea el tiempo exacto y evita superposiciones.</li><li><strong>Múltiples optometristas:</strong> si tenés más de un profesional, cada uno con su agenda, sus horarios y sus días. El cliente elige profesional y horario en un solo paso.</li><li><strong>Obra social:</strong> muchos turnos se pierden porque el paciente llega sin la orden o la autorización. Con el sistema online, le pedís que suba la documentación al reservar. Así verificás cobertura antes de que llegue.</li><li><strong>Ausencias:</strong> un turno perdido es un espacio vacío en la agenda del optometrista que no se recupera. Los recordatorios por WhatsApp 24 horas antes <strong>reducen las faltas entre un 40% y 60%</strong>.</li></ul><p>Si ya tenés <a href=\"/blog/pagina-web-para-opticas\">web para tu óptica</a>, integrar turnos online es el siguiente paso natural.</p>"
+      },
+      {
+        "heading": "Opciones SaaS para ópticas",
+        "body": "<p>Las plataformas SaaS te permiten empezar rápido sin desarrollo a medida:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> open source y flexible. Configurás tipos de examen con duración, calendarios por optometrista y formulario previo donde pedís datos de obra social. Gratis para empezar, planes pagos desde USD 12/mes.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> usado en salud y estética en Latam. Agenda por profesional, recordatorios por WhatsApp, historial de paciente. Incluye app para el cliente.</li><li><strong>Reservo (USD 10-25/mes):</strong> plataforma argentina con buena integración local. Agenda online, link de reserva, recordatorios y reportes básicos.</li></ul><p><strong>Para ópticas, Cal.com es una opción sólida y gratuita para arrancar.</strong> Si necesitás funcionalidades más específicas del rubro salud (historial, ficha de paciente), AgendaPro es más completo.</p>"
+      },
+      {
+        "heading": "Gestión de obras sociales en el sistema de turnos",
+        "body": "<p>Las obras sociales son una parte central del negocio de muchas ópticas. El sistema de turnos puede simplificar enormemente esta gestión:</p><p><strong>Al momento de reservar:</strong> el cliente selecciona su obra social de un listado. El sistema le muestra qué documentación necesita (orden médica, autorización, carnet) y le permite subirla en formato digital.</p><p><strong>Preautorización:</strong> con la documentación cargada, tu equipo puede verificar la cobertura antes de que el paciente llegue. Si falta algo, se le avisa automáticamente. No más \"ah, me faltó la orden\" el día del turno.</p><p><strong>Coseguros claros:</strong> al confirmar el turno, el sistema le puede informar al paciente si hay coseguro y de cuánto, para que no haya sorpresas al momento de pagar.</p><p>Esta funcionalidad <strong>reduce reprogramaciones por documentación faltante</strong> en un 70-80%. El paciente llega preparado, vos atendés sin interrupciones y la cobertura ya está verificada.</p><p>Si te interesa armar toda tu presencia digital, mirá nuestra guía de <a href=\"/blog/como-crear-sistema-de-turnos-online\">cómo crear un sistema de turnos online</a>.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo vale la pena",
+        "body": "<p>Un sistema a medida para tu óptica tiene sentido en estos casos:</p><ul><li><strong>Cadenas de ópticas:</strong> agenda centralizada para múltiples sucursales, con posibilidad de derivar pacientes entre locales según disponibilidad.</li><li><strong>Integración con software óptico:</strong> si usás software especializado para recetas y mediciones, la integración con el sistema de turnos elimina la carga doble de datos.</li><li><strong>Gestión completa de obras sociales:</strong> facturación automática a obras sociales, seguimiento de autorizaciones, reportes de cobertura.</li><li><strong>Recordatorios de control anual:</strong> el sistema recuerda al paciente que hace un año se hizo el último control visual y le sugiere sacar turno. Genera turnos recurrentes automáticos.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.500.000 ARS dependiendo de la complejidad. Para una óptica individual, el SaaS es suficiente. Para cadenas o ópticas con alto volumen de obras sociales, el desarrollo a medida se justifica.</p><p>Más detalles en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de precios de sistemas de turnos</a>.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto para tu óptica",
+        "body": "<p>Tres preguntas para decidir:</p><ul><li><strong>¿Cuántos optometristas tenés?</strong> Uno solo → Cal.com gratis es perfecto. Varios → AgendaPro para manejar múltiples agendas. Cadena → desarrollo a medida.</li><li><strong>¿Qué peso tienen las obras sociales?</strong> Si el 70%+ de tus turnos son por obra social, necesitás gestión de documentación integrada. Eso lo hace mejor un desarrollo a medida o un SaaS con formularios personalizables.</li><li><strong>¿Necesitás recordatorios de control anual?</strong> Si querés generar turnos recurrentes automáticos, necesitás un sistema que guarde historial y dispare recordatorios. Eso es desarrollo a medida.</li></ul><p>Nuestra recomendación: <strong>empezá con Cal.com o AgendaPro</strong> y evaluá en 3 meses si necesitás algo más. Si validás que los turnos online funcionan para tu óptica (spoiler: funcionan), ahí podés invertir en un desarrollo a medida.</p><p>¿No sabés por dónde empezar? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te ayudamos a elegir la mejor opción.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Un sistema de turnos online sirve para exámenes visuales?",
+        "answer": "Perfecto. Configurás tipos de examen (control visual, adaptación de lentes de contacto, fondo de ojo) con su duración y el sistema bloquea el tiempo correspondiente. El paciente elige tipo de examen, profesional y horario."
+      },
+      {
+        "question": "¿Cómo manejo la documentación de obras sociales en el sistema?",
+        "answer": "Al reservar, el paciente selecciona su obra social y sube la documentación requerida (orden, autorización, carnet). Tu equipo la verifica antes del turno. Si falta algo, se envía un aviso automático. Así evitás reprogramaciones."
+      },
+      {
+        "question": "¿Los recordatorios por WhatsApp reducen las ausencias?",
+        "answer": "Sí, entre un 40% y 60%. Un mensaje 24 horas antes con opción de confirmar o reprogramar hace una diferencia enorme. Si el paciente cancela, el turno se libera para otro."
+      },
+      {
+        "question": "¿Cuánto cuesta implementar turnos online en mi óptica?",
+        "answer": "SaaS: gratis con Cal.com o entre USD 10 y USD 45/mes con AgendaPro o Reservo. Desarrollo a medida: entre $800.000 y $2.500.000 ARS según funcionalidades."
+      },
+      {
+        "question": "¿Puedo integrar el sistema de turnos con mi web actual?",
+        "answer": "Sí, los SaaS como Cal.com generan un widget o link que se embebe en tu web. El cliente saca turno sin salir de tu sitio. Si es desarrollo a medida, la integración es nativa."
+      }
+    ],
+    "ctaText": "¿Querés un sistema de turnos que organice la agenda de tu óptica, gestione obras sociales y reduzca ausencias? En SODI diseñamos soluciones de turnos para ópticas con foco en eficiencia operativa. <a href=\"/diagnostico\">Hacé tu diagnóstico gratuito</a>."
+  }
+}

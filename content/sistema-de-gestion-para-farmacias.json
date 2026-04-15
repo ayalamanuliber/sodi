@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-farmacias",
+  "title": "Sistema de Gestión para Farmacias en Argentina",
+  "metaTitle": "Sistema de Gestión para Farmacias Argentina 2026",
+  "metaDescription": "Gestioná stock, obras sociales, facturación ARCA y vencimientos de tu farmacia con un sistema integral. Comparamos opciones SaaS y a medida.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "farmacias", "stock de medicamentos", "obras sociales", "facturación ARCA"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-farmacias", "presencia-digital-ideal-farmacia", "cuanto-cuesta-sistema-de-gestion-pymes", "tienda-online-para-farmacias"],
+  "content": {
+    "intro": "<p>Gestionar una farmacia en Argentina es un ejercicio de malabarismo: <strong>miles de productos con vencimientos distintos, obras sociales con validaciones diferentes, facturación electrónica obligatoria, pedidos a droguerías, y márgenes que se achican cada año</strong>. Todo eso mientras atendés al público.</p><p>Un <strong>sistema de gestión para farmacias</strong> no es un lujo — es una necesidad operativa. Si todavía manejás stock con planillas, validás obras sociales por teléfono o facturás manualmente, estás perdiendo tiempo y plata. En esta guía te mostramos qué opciones tenés, cuánto cuestan y cómo elegir.</p>",
+    "sections": [
+      {
+        "heading": "Los problemas más comunes en farmacias sin sistema",
+        "body": "<p>Las farmacias que operan sin un sistema dedicado enfrentan problemas diarios:</p><ul><li><strong>Vencimientos no controlados:</strong> Medicamentos que vencen en el estante y nadie se da cuenta hasta que un cliente los lleva al mostrador. Pérdida directa de plata.</li><li><strong>Stock desactualizado:</strong> No sabés cuántas unidades tenés de cada producto. Comprás de más o te quedás sin un medicamento clave un sábado a las 11 de la noche.</li><li><strong>Obras sociales manuales:</strong> Validar recetas, calcular descuentos y hacer las liquidaciones mensuales a mano es un proceso que consume horas y genera errores.</li><li><strong>Facturación ARCA desconectada:</strong> Facturás por un lado y registrás ventas por otro. Al final del mes, cruzar todo es una pesadilla contable.</li><li><strong>Pedidos a droguerías sin criterio:</strong> Pedís \"a ojo\" en vez de basarte en datos de rotación. Resultado: sobrestock de algunos productos y faltantes de otros.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades esenciales de un sistema para farmacias",
+        "body": "<p>Un sistema de gestión farmacéutico completo incluye:</p><ul><li><strong>Gestión de stock con vencimientos:</strong> Cada producto con lote, fecha de vencimiento y alertas automáticas. El sistema te avisa 90, 60 y 30 días antes del vencimiento para que tomes acción.</li><li><strong>Validación de obras sociales:</strong> Conexión con los validadores de PAMI, IOMA, OSDE, Swiss Medical y demás. Escaneás la receta, el sistema valida en tiempo real y aplica el descuento.</li><li><strong>Facturación electrónica ARCA:</strong> Factura A, B y C integrada. Se emite automáticamente con cada venta. Cumplís con la normativa sin pasos extra.</li><li><strong>Pedidos a droguerías:</strong> El sistema analiza rotación y stock mínimo, y genera pedidos sugeridos a tus droguerías habituales (Droguería del Sud, Monroe, Suizo Argentina, etc.).</li><li><strong>Punto de venta (POS):</strong> Lectura de código de barras, cálculo de descuentos, medios de pago múltiples (efectivo, tarjeta, Mercado Pago, cuenta corriente).</li><li><strong>Reportes de rentabilidad:</strong> Margen por producto, ventas por franja horaria, productos más vendidos, comparativa mensual.</li></ul>"
+      },
+      {
+        "heading": "Opciones de sistemas para farmacias en Argentina",
+        "body": "<p>El rubro farmacéutico tiene sistemas muy especializados:</p><p><strong>Farmacloud:</strong> SaaS argentino diseñado para farmacias. Stock con vencimientos, validación de obras sociales, facturación ARCA, pedidos a droguerías. Es la opción más completa para farmacias independientes. Precio mensual accesible.</p><p><strong>Nubis Farma:</strong> Otra opción argentina con foco en la gestión comercial. Buen manejo de precios, descuentos y promociones. Integración con las principales droguerías.</p><p><strong>Sistemas legacy (Megalink, Novafarma):</strong> Sistemas instalados que muchas farmacias ya usan hace años. Funcionan, pero son cerrados, dependen de un técnico para actualizaciones y no tienen acceso remoto.</p><p><strong>Sistema a medida:</strong> Muy raro en farmacias porque los requisitos regulatorios (ANMAT, obras sociales, ARCA) son complejos y los SaaS especializados ya los resuelven. Solo tiene sentido para cadenas grandes con procesos únicos. Más sobre esta decisión en <a href=\"/blog/software-a-medida-vs-estandar\">SaaS vs desarrollo a medida</a>.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para farmacias en 2026",
+        "body": "<p>Precios de referencia en Argentina:</p><ul><li><strong>SaaS para farmacia individual:</strong> $30.000 - $60.000 ARS/mes. Incluye stock, POS, obras sociales, facturación ARCA.</li><li><strong>SaaS para cadena (2-5 sucursales):</strong> $60.000 - $150.000 ARS/mes. Gestión multi-sucursal, stock centralizado, reportes consolidados.</li><li><strong>Hardware POS:</strong> $100.000 - $300.000 ARS. Lector de código de barras, impresora de tickets, cajón de dinero.</li><li><strong>Migración desde sistema legacy:</strong> $50.000 - $200.000 ARS (único). Incluye carga de catálogo, stock inicial y capacitación.</li></ul><p>El retorno es inmediato: una farmacia que controla vencimientos deja de perder entre $50.000 y $200.000 por mes en productos vencidos. El sistema se paga solo en la primera semana.</p>"
+      },
+      {
+        "heading": "Implementación en tu farmacia",
+        "body": "<p>Migrar a un sistema nuevo en una farmacia requiere planificación porque no podés cerrar:</p><ul><li><strong>Cargá el catálogo de productos:</strong> La mayoría de los SaaS tienen la base de datos de medicamentos precargada (alfabeta, kairos). Solo ajustás precios y stock.</li><li><strong>Hacé un inventario inicial:</strong> Sí, es pesado. Pero si arrancás con stock incorrecto, el sistema no te va a servir. Hacelo un domingo o por secciones.</li><li><strong>Configurá obras sociales:</strong> Ingresá los convenios activos, los porcentajes de descuento y conectá los validadores. Probá con recetas reales antes de largar.</li><li><strong>Activá la facturación electrónica:</strong> Vinculá tu CUIT, punto de venta ARCA y certificado digital. El sistema genera las facturas automáticamente.</li><li><strong>Capacitá al equipo:</strong> Los farmacéuticos y empleados de mostrador tienen que sentirse cómodos con el POS. Dos días de uso supervisado suelen alcanzar.</li></ul><p>En 1-2 semanas tu farmacia puede estar operando con el sistema nuevo. ¿Necesitás ayuda? <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema valida obras sociales en tiempo real?",
+        "answer": "Sí. Los sistemas especializados para farmacias se conectan con los validadores de PAMI, IOMA, OSDE y demás obras sociales. Escaneás la receta y el descuento se aplica automáticamente."
+      },
+      {
+        "question": "¿Puedo generar facturas electrónicas ARCA desde el sistema?",
+        "answer": "Sí. La facturación electrónica viene integrada en todos los SaaS para farmacias. Se emite factura A, B o C automáticamente con cada venta."
+      },
+      {
+        "question": "¿Cómo manejo los vencimientos de medicamentos?",
+        "answer": "El sistema registra lote y fecha de vencimiento de cada producto. Te alerta con anticipación (90, 60, 30 días) y podés generar reportes de productos próximos a vencer para tomar acción."
+      },
+      {
+        "question": "¿Sirve para farmacias con varias sucursales?",
+        "answer": "Sí. Los planes profesionales permiten gestión multi-sucursal con stock centralizado, transferencias entre sucursales y reportes consolidados."
+      },
+      {
+        "question": "¿Puedo hacer pedidos a droguerías desde el sistema?",
+        "answer": "Sí. Los sistemas más completos analizan la rotación de cada producto y generan pedidos sugeridos a tus droguerías habituales, optimizando el stock y evitando faltantes."
+      }
+    ],
+    "ctaText": "¿Querés ordenar el stock y la facturación de tu farmacia? <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y te ayudamos a elegir el sistema ideal."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-a-medida-vs-planilla-excel",
+  "title": "Sistema a medida vs planilla de Excel: cuándo tu negocio necesita dar el salto",
+  "metaTitle": "Sistema a medida vs Excel: cuándo migrar en 2026",
+  "metaDescription": "Excel es gratis y familiar, pero se rompe a las 500 filas. Un sistema a medida cuesta $1.5M+ ARS pero escala para siempre. Te mostramos cuándo conviene migrar.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["sistema a medida", "Excel", "gestión empresarial", "software a medida", "PyMEs argentina"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["excel-vs-sistema-de-gestion", "cuanto-cuesta-sistema-de-gestion-pymes", "como-dejar-de-depender-de-excel", "software-a-medida-vs-estandar"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> si tu operación tiene menos de 3 personas y procesos simples, Excel funciona. En el momento que tenés más de 500 filas de datos críticos, 2+ personas editando o procesos que dependen de la planilla, necesitás un <strong>sistema a medida</strong>.</p><p>Excel no es un sistema de gestión — es una hoja de cálculo que los argentinos usamos para absolutamente todo. Y funciona, hasta que deja de funcionar. El momento en que un empleado pisa un dato, una fórmula se rompe o necesitás un reporte que tarda 3 horas en armar, Excel pasó de herramienta a <strong>obstáculo</strong>. Un sistema a medida cuesta más, pero está diseñado exactamente para tu operación.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa: Excel vs sistema a medida en números",
+        "body": "<table><thead><tr><th>Característica</th><th>Planilla de Excel/Sheets</th><th>Sistema a medida</th></tr></thead><tbody><tr><td><strong>Costo inicial</strong></td><td>$0 (Google Sheets) a $5.000 ARS/mes (Microsoft 365)</td><td>$1.500.000-$5.000.000+ ARS</td></tr><tr><td><strong>Costo mensual</strong></td><td>$0-$5.000 ARS</td><td>$50.000-$200.000 ARS (hosting + soporte)</td></tr><tr><td><strong>Usuarios simultáneos</strong></td><td>Problemático con 2+ editores</td><td>Ilimitados, con roles y permisos</td></tr><tr><td><strong>Límite de datos</strong></td><td>Se degrada a partir de 500-1.000 filas</td><td>Millones de registros sin problema</td></tr><tr><td><strong>Seguridad</strong></td><td>Mínima: cualquiera puede borrar/editar</td><td>Roles, permisos, auditoría de cambios</td></tr><tr><td><strong>Reportes</strong></td><td>Manuales (tablas dinámicas, horas de trabajo)</td><td>Automáticos, en tiempo real, un clic</td></tr><tr><td><strong>Backup/historial</strong></td><td>Limitado (versiones en Sheets, nada en Excel local)</td><td>Backup automático, historial completo</td></tr><tr><td><strong>Integración con otros sistemas</strong></td><td>Copy-paste o importación manual</td><td>APIs, webhooks, integración automática</td></tr><tr><td><strong>Acceso remoto</strong></td><td>Solo Google Sheets (Excel local no)</td><td>Desde cualquier dispositivo con internet</td></tr><tr><td><strong>Personalización</strong></td><td>Fórmulas, macros (frágiles)</td><td>Exactamente lo que tu proceso necesita</td></tr><tr><td><strong>Tiempo de implementación</strong></td><td>Inmediato</td><td>2-6 meses</td></tr></tbody></table><p>La diferencia de costo parece abismal: $0 vs $1.500.000+. Pero cuando sumás el costo de errores, tiempo perdido y oportunidades no capturadas por depender de Excel, el sistema a medida se paga solo en 6-12 meses.</p>"
+      },
+      {
+        "heading": "Las 5 señales de que Excel ya no te alcanza",
+        "body": "<p>Si te identificás con 2 o más de estas situaciones, es hora de migrar:</p><p><strong>1. Más de una persona edita datos críticos</strong></p><p>Dos personas editando la misma planilla = datos pisados, versiones conflictivas, filas borradas por error. Google Sheets mejora la colaboración pero no resuelve el problema de permisos: cualquiera puede borrar o modificar cualquier cosa.</p><p><strong>2. Tus planillas tienen más de 500 filas</strong></p><p>Excel se vuelve lento, buscar datos es un calvario, y las fórmulas complejas tardan en calcular. Un sistema con base de datos real maneja millones de registros al instante.</p><p><strong>3. Armás reportes manualmente</strong></p><p>Si cada vez que tu jefe pide \"¿cuánto vendimos este trimestre?\" tardás más de 5 minutos en responder, estás desperdiciando horas productivas. Un sistema genera ese reporte en un clic.</p><p><strong>4. Tuviste un error que costó plata</strong></p><p>Una fórmula rota, un precio mal copiado, un dato duplicado. El 88% de las planillas de Excel tienen al menos un error. En un sistema, las validaciones impiden que se carguen datos incorrectos.</p><p><strong>5. Si la persona que armó la planilla se va, nadie entiende nada</strong></p><p>Las planillas complejas con macros y fórmulas anidadas son inmantenibles. Un sistema a medida tiene documentación, interfaz clara y no depende de que una persona sepa dónde está cada cosa.</p>"
+      },
+      {
+        "heading": "Qué incluye un sistema a medida y cuánto cuesta",
+        "body": "<p>Un <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistema a medida</a> se diseña y desarrolla específicamente para tu operación. No es un software genérico que adaptás — es TU software.</p><p><strong>Qué incluye típicamente:</strong></p><ul><li><strong>Relevamiento de procesos:</strong> un equipo analiza cómo trabaja tu empresa, detecta ineficiencias y diseña la solución</li><li><strong>Módulos personalizados:</strong> gestión de clientes, stock, facturación, RRHH, producción — lo que necesites</li><li><strong>Panel de reportes:</strong> dashboards en tiempo real con las métricas que importan para tu negocio</li><li><strong>Roles y permisos:</strong> cada usuario ve y hace solo lo que le corresponde</li><li><strong>Integración con herramientas existentes:</strong> Mercado Pago, AFIP, WhatsApp, email, CRM</li><li><strong>App web accesible desde cualquier dispositivo:</strong> trabajá desde la oficina, la casa o el celular</li></ul><p><strong>Costos en Argentina 2026:</strong></p><ul><li><strong>Sistema básico (1-2 módulos):</strong> $1.500.000-$2.500.000 ARS + $50.000-$80.000/mes mantenimiento</li><li><strong>Sistema intermedio (3-5 módulos):</strong> $2.500.000-$5.000.000 ARS + $80.000-$150.000/mes</li><li><strong>Sistema complejo (ERP completo):</strong> $5.000.000-$15.000.000+ ARS + $150.000-$300.000/mes</li></ul><p>El desarrollo tarda entre 2 y 6 meses según la complejidad. Un buen proveedor te entrega un MVP funcional en 4-6 semanas para que empieces a usarlo mientras se termina el resto.</p>"
+      },
+      {
+        "heading": "El paso intermedio: SaaS antes de ir a medida",
+        "body": "<p>No siempre necesitás un sistema 100% a medida. Antes de invertir $1.500.000+, evaluá si un <a href=\"/blog/software-a-medida-vs-estandar\">SaaS (software estándar)</a> resuelve tu problema:</p><p><strong>Opciones SaaS populares en Argentina:</strong></p><ul><li><strong>Xubio / Colppy:</strong> contabilidad + facturación AFIP. $12.000-$40.000/mes</li><li><strong>Odoo:</strong> ERP open source modular. Gratis (Community) o $25-$50 USD/usuario/mes (Enterprise)</li><li><strong>Zoho One:</strong> suite completa (CRM, inventario, facturación, RRHH). $45 USD/usuario/mes</li><li><strong>Monday / Notion / Trello:</strong> gestión de proyectos y tareas. Gratis a $20 USD/usuario/mes</li></ul><p><strong>Cuándo el SaaS alcanza:</strong></p><ul><li>Tu proceso se adapta al 80%+ de lo que ofrece el SaaS</li><li>No necesitás integraciones complejas con otros sistemas</li><li>Tu equipo tiene menos de 20 personas</li></ul><p><strong>Cuándo necesitás a medida:</strong></p><ul><li>Ningún SaaS cubre más del 60% de tu proceso</li><li>Tu flujo de trabajo es único en tu industria</li><li>Necesitás integrar 3+ sistemas que no se hablan entre sí</li><li>El volumen de datos o usuarios requiere una solución dedicada</li></ul><p>La estrategia inteligente: empezá con SaaS, identificá qué te falta, y desarrollá a medida solo lo que ningún SaaS resuelve.</p>"
+      },
+      {
+        "heading": "Cómo migrar de Excel a un sistema sin perder datos ni perder la cabeza",
+        "body": "<p>La migración de Excel a un sistema es el momento que más miedo genera. Pero si lo planificás bien, es un proceso gradual y seguro:</p><p><strong>Fase 1 — Auditoría (1-2 semanas):</strong></p><ul><li>Listá TODAS las planillas que usa tu equipo</li><li>Identificá cuáles son críticas (facturación, stock, clientes) y cuáles son secundarias</li><li>Documentá qué datos tienen, quién las usa y qué procesos dependen de ellas</li></ul><p><strong>Fase 2 — Desarrollo/Configuración (4-12 semanas):</strong></p><ul><li>El proveedor del sistema construye los módulos basándose en tu auditoría</li><li>Se importan los datos históricos de Excel al sistema nuevo</li><li>Se prueban todas las funcionalidades con datos reales</li></ul><p><strong>Fase 3 — Operación en paralelo (2-4 semanas):</strong></p><ul><li>Tu equipo usa el sistema nuevo Y Excel al mismo tiempo</li><li>Se comparan resultados para verificar que no hay diferencias</li><li>Se corrigen problemas que aparecen con el uso real</li></ul><p><strong>Fase 4 — Corte definitivo (1 día):</strong></p><ul><li>Cuando el equipo está cómodo con el sistema, se deja de usar Excel</li><li>Las planillas viejas se archivan (no se borran) como respaldo histórico</li><li>Se establece como regla: si no está en el sistema, no existe</li></ul><p>¿Tu negocio ya superó a Excel? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te mostramos el camino más corto hacia un sistema que escale con vos.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un sistema a medida para PyMEs en Argentina?",
+        "answer": "Desde $1.500.000 ARS para un sistema básico de 1-2 módulos, más $50.000-$80.000 ARS/mes de mantenimiento y hosting. Un sistema intermedio (3-5 módulos) va de $2.500.000 a $5.000.000 ARS. Los precios varían según la complejidad de tus procesos."
+      },
+      {
+        "question": "¿Google Sheets es mejor que Excel para trabajar en equipo?",
+        "answer": "Sí, para colaboración en tiempo real es mejor: varias personas editan sin conflictos de archivo. Pero tiene los mismos problemas fundamentales de Excel: sin roles, sin auditoría robusta, sin automatización de procesos, sin validaciones. Es un parche, no una solución a largo plazo."
+      },
+      {
+        "question": "¿Cuánto tarda desarrollar un sistema a medida?",
+        "answer": "Un MVP funcional: 4-8 semanas. Un sistema completo con todos los módulos: 3-6 meses. Un buen proveedor te entrega versiones incrementales para que empieces a usar el sistema desde el primer mes mientras se sigue desarrollando."
+      },
+      {
+        "question": "¿Puedo seguir usando Excel para algunas cosas?",
+        "answer": "Sí. Excel sigue siendo excelente para análisis puntuales, simulaciones y cálculos rápidos. Lo que no debería estar en Excel son los datos operativos de tu negocio: clientes, ventas, stock, facturación. Esos datos van en el sistema."
+      },
+      {
+        "question": "¿Qué pasa si el sistema a medida falla o el proveedor desaparece?",
+        "answer": "Exigí desde el contrato: código fuente entregado, documentación técnica y acceso a la base de datos. Con eso, cualquier otro desarrollador puede mantener y evolucionar tu sistema. Nunca contrates un sistema a medida sin que el código sea tuyo."
+      }
+    ],
+    "ctaText": "¿Tu negocio ya superó a Excel? Pedí tu diagnóstico gratuito y te mostramos qué tipo de sistema necesitás y cuánto cuesta implementarlo."
+  }
+}

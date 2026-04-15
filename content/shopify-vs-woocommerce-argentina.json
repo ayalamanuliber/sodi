@@ -1,0 +1,61 @@
+{
+  "slug": "shopify-vs-woocommerce-argentina",
+  "title": "Shopify vs WooCommerce en Argentina: cuál conviene para tu tienda online en 2026",
+  "metaTitle": "Shopify vs WooCommerce Argentina tienda online 2026",
+  "metaDescription": "WooCommerce más control y más barato a largo plazo, pero necesita developer. Shopify más fácil y rápido, pero más caro mensualmente. Precios reales.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["Shopify", "WooCommerce", "tienda online", "e-commerce Argentina", "vender online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["shopify-vs-tiendanube-argentina", "woocommerce-vs-tiendanube-argentina", "cuanto-cuesta-tienda-online-argentina", "wordpress-vs-desarrollo-a-medida"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> WooCommerce te da más control, es más barato a largo plazo y no tenés techo de personalización. Pero necesitás un developer para instalarlo, configurarlo y mantenerlo. Shopify es más fácil, arrancás en un día y no necesitás tocar código. Pero pagás más por mes y estás limitado a lo que Shopify permite.</p><p>Para una PyME argentina que quiere vender online rápido y sin complicaciones, Shopify resuelve. Si querés una tienda que escale sin límites, con control total sobre el diseño, funcionalidades y costos operativos, WooCommerce es la mejor inversión a largo plazo. La elección depende de si priorizás velocidad de arranque o control a futuro.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa directa: Shopify vs WooCommerce para Argentina",
+        "body": "<table><thead><tr><th>Criterio</th><th>Shopify</th><th>WooCommerce</th></tr></thead><tbody><tr><td><strong>Costo mensual</strong></td><td>$39 USD/mes (Basic) / $105 USD/mes (Shopify)</td><td>Hosting $5-20 USD/mes + dominio</td></tr><tr><td><strong>Costo anual estimado</strong></td><td>$468-$1.260 USD + apps</td><td>$80-$300 USD + developer</td></tr><tr><td><strong>Comisión por venta</strong></td><td>2% (Basic) si no usás Shopify Payments</td><td>0% — solo comisión del gateway</td></tr><tr><td><strong>Setup inicial</strong></td><td>1-3 días, sin developer</td><td>1-4 semanas, con developer</td></tr><tr><td><strong>Facilidad de uso</strong></td><td>Muy fácil — panel intuitivo</td><td>Media — panel de WordPress</td></tr><tr><td><strong>Personalización</strong></td><td>Limitada al theme y apps</td><td>Ilimitada — código abierto</td></tr><tr><td><strong>SEO</strong></td><td>Bueno, con limitaciones en URLs</td><td>Excelente — control total con plugins</td></tr><tr><td><strong>Medios de pago Argentina</strong></td><td>MercadoPago, tarjetas internacionales</td><td>MercadoPago, Todopago, transferencia, todos</td></tr><tr><td><strong>Plugins / Apps</strong></td><td>8.000+ apps (muchas pagas)</td><td>55.000+ plugins (mayoría gratis)</td></tr><tr><td><strong>Propiedad del código</strong></td><td>No — atado a Shopify</td><td>100% tuyo</td></tr><tr><td><strong>Ideal para</strong></td><td>Arrancar rápido, operación simple</td><td>Control total, escalabilidad, largo plazo</td></tr></tbody></table><p>El detalle que muchos ignoran: Shopify cobra una comisión del 2% por transacción (en el plan Basic) si no usás Shopify Payments. En Argentina, Shopify Payments no está disponible, así que pagás esa comisión siempre, sobre cada venta. Con 100 ventas de $50.000 ARS, son $100.000 ARS/mes extra solo en comisiones.</p>"
+      },
+      {
+        "heading": "Shopify: arrancar rápido sin dolor de cabeza",
+        "body": "<p>Shopify es la opción \"quiero vender online mañana\". Y cumple esa promesa:</p><ul><li><strong>Setup en horas:</strong> elegís un theme, cargás productos, conectás MercadoPago y estás vendiendo. No necesitás developer, hosting ni conocimientos técnicos.</li><li><strong>Panel de administración impecable:</strong> gestión de pedidos, inventario, clientes y reportes en un panel intuitivo que funciona perfecto en celular.</li><li><strong>Apps para todo:</strong> email marketing, reviews de productos, upselling, gestión de envíos. El App Store de Shopify tiene 8.000+ opciones.</li><li><strong>Checkout optimizado:</strong> la tasa de conversión del checkout de Shopify es de las más altas del mercado. Está diseñado para que el cliente no abandone.</li></ul><p><strong>Los costos reales en Argentina:</strong></p><ul><li>Plan Basic: $39 USD/mes (~$61.000 ARS/mes con impuestos).</li><li>Apps esenciales (reviews, email, SEO): $20-50 USD/mes extra.</li><li>Theme premium: $180-350 USD (pago único).</li><li>Comisión por venta: 2% sobre cada transacción.</li><li><strong>Total primer año:</strong> ~$900-$1.500 USD sin contar comisiones por venta.</li></ul><p>Para una tienda con 50-200 productos y ventas de hasta $5.000.000 ARS/mes, Shopify funciona perfecto. Cuando superás ese volumen, las comisiones empiezan a doler.</p>"
+      },
+      {
+        "heading": "WooCommerce: control total para quien piensa a largo plazo",
+        "body": "<p>WooCommerce es un plugin gratuito de WordPress que convierte cualquier sitio en una tienda online completa. Es la opción más usada del mundo (28% de las tiendas online) por una razón: flexibilidad total.</p><ul><li><strong>Cero comisión por venta:</strong> solo pagás la comisión del gateway de pago (MercadoPago cobra 4.99% + IVA, igual en ambas plataformas). WooCommerce no se lleva nada extra.</li><li><strong>Personalización infinita:</strong> diseño, funcionalidades, checkout, emails, todo se puede modificar. ¿Querés un sistema de puntos? Plugin. ¿Suscripciones? Plugin. ¿Venta B2B con precios por cliente? Plugin.</li><li><strong>SEO superior:</strong> WordPress con Yoast/Rank Math + WooCommerce te da control total sobre URLs, categorías, schema de producto y velocidad. Para posicionar productos en Google, WooCommerce gana.</li><li><strong>55.000+ plugins:</strong> la mayoría gratuitos. El ecosistema de WordPress es 7x más grande que el de Shopify.</li></ul><p><strong>Los costos reales en Argentina:</strong></p><ul><li>Hosting optimizado para WooCommerce: $10-20 USD/mes.</li><li>Developer para setup y diseño: $300.000-$800.000 ARS (una vez).</li><li>Theme premium: $60-80 USD (una vez).</li><li>Plugins esenciales: $100-300 USD/año.</li><li>Mantenimiento: $50.000-$150.000 ARS/mes.</li><li><strong>Total primer año:</strong> ~$600-$1.200 USD + developer inicial.</li></ul><p>El costo del developer inicial es mayor, pero a partir del segundo año WooCommerce es significativamente más barato que Shopify, especialmente si tenés volumen de ventas alto.</p>"
+      },
+      {
+        "heading": "Medios de pago en Argentina: qué funciona en cada uno",
+        "body": "<p>Los medios de pago son un factor clave para el e-commerce argentino:</p><ul><li><strong>MercadoPago:</strong> funciona en ambos. Shopify tiene integración oficial. WooCommerce tiene plugin oficial. Comisión: 4.99% + IVA por venta. Es el medio de pago más usado en Argentina.</li><li><strong>Tarjetas de crédito/débito (directas):</strong> en Shopify, solo si usás Shopify Payments (no disponible en Argentina) o un gateway externo. En WooCommerce, podés integrar cualquier gateway: Decidir, Mobbex, PayWay.</li><li><strong>Transferencia bancaria:</strong> WooCommerce lo soporta nativamente con confirmación manual o automática. Shopify requiere apps externas.</li><li><strong>Rapipago / PagoFácil:</strong> a través de MercadoPago en ambas plataformas, o con gateways específicos en WooCommerce.</li><li><strong>Cuotas sin interés:</strong> depende del gateway. Con MercadoPago, ambas plataformas soportan hasta 12 cuotas. Con gateways directos en WooCommerce, tenés más control sobre las promociones.</li></ul><p>Si tu público paga mayormente con MercadoPago (la mayoría en Argentina), ambas plataformas funcionan igual. Si necesitás múltiples medios de pago o condiciones especiales, WooCommerce da más flexibilidad.</p>"
+      },
+      {
+        "heading": "Cuál elegir según tu situación",
+        "body": "<p>La decisión se simplifica así:</p><ul><li><strong>\"Quiero vender online ya, sin complicaciones\"</strong> → <strong>Shopify</strong>. En 1-3 días tenés una tienda funcionando. Ideal para validar si tu producto se vende online antes de invertir más.</li><li><strong>\"Tengo presupuesto para developer y pienso a largo plazo\"</strong> → <strong>WooCommerce</strong>. Mayor inversión inicial, pero más barato y flexible a medida que crecés.</li><li><strong>\"Mi catálogo es chico (menos de 50 productos)\"</strong> → <strong>Shopify</strong>. Para catálogos chicos, Shopify es más eficiente en costo-beneficio.</li><li><strong>\"Necesito SEO agresivo para posicionar productos en Google\"</strong> → <strong>WooCommerce</strong>. WordPress + Yoast + schema de producto es imbatible.</li><li><strong>\"Vendo mucho volumen y las comisiones me duelen\"</strong> → <strong>WooCommerce</strong>. Sin comisión de plataforma, solo del gateway de pago.</li></ul><p>Una nota sobre Tiendanube: si tu mercado es 100% argentino, Tiendanube merece consideración. Tiene integración nativa con MercadoPago, MercadoEnvíos, factura en pesos y soporte local. Mirá nuestra comparativa de <a href=\"/blog/shopify-vs-tiendanube-argentina\">Shopify vs Tiendanube</a> para esa decisión específica.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Shopify cobra comisión por cada venta en Argentina?",
+        "answer": "Sí. En el plan Basic, Shopify cobra 2% sobre cada transacción además de la comisión del gateway de pago (ej: MercadoPago 4.99% + IVA). En el plan Shopify ($105 USD/mes), baja a 1%. En el plan Advanced ($399 USD/mes), baja a 0.5%. Esta comisión es inevitable en Argentina porque Shopify Payments no opera acá."
+      },
+      {
+        "question": "¿WooCommerce es realmente gratis?",
+        "answer": "El plugin WooCommerce es gratuito. Pero necesitás hosting ($5-20 USD/mes), dominio ($15 USD/año), un theme ($0-80 USD) y probablemente un developer para la configuración inicial ($300.000-$800.000 ARS). Es como decir que WordPress es gratis: el software sí, pero el ecosistema tiene costos."
+      },
+      {
+        "question": "¿Puedo migrar de Shopify a WooCommerce después?",
+        "answer": "Sí. Existen plugins y herramientas que migran productos, clientes, pedidos e imágenes de Shopify a WooCommerce. El diseño no se migra — hay que reconstruirlo. Calculá 1-3 semanas de trabajo de developer para una tienda de 100-500 productos."
+      },
+      {
+        "question": "¿Cuál es mejor para vender en MercadoLibre y tienda propia?",
+        "answer": "Si vendés en MercadoLibre y querés tienda propia, Tiendanube tiene la mejor integración con MercadoLibre (sincronización de stock automática). WooCommerce puede hacerlo con plugins. Shopify tiene integración pero menos fluida para el mercado argentino."
+      },
+      {
+        "question": "¿Cuántos productos necesito para que WooCommerce convenga sobre Shopify?",
+        "answer": "No es solo por cantidad de productos sino por volumen de ventas. Si facturás más de $2.000.000 ARS/mes en tu tienda, la comisión del 2% de Shopify ($40.000+ ARS/mes) supera el costo de mantenimiento de WooCommerce. A partir de ahí, WooCommerce es más económico cada mes."
+      }
+    ],
+    "ctaText": "¿Querés montar tu tienda online y no sabés si elegir Shopify o WooCommerce? En SODI te ayudamos a decidir, configurar y lanzar tu e-commerce. Pedí tu diagnóstico gratuito."
+  }
+}

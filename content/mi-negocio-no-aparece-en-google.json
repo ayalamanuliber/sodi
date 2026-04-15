@@ -1,0 +1,61 @@
+{
+  "slug": "mi-negocio-no-aparece-en-google",
+  "title": "Tu negocio no aparece en Google: 4 razones reales y cómo solucionarlas hoy",
+  "metaTitle": "Mi negocio no aparece en Google | 4 soluciones",
+  "metaDescription": "¿Buscás tu negocio en Google y no aparece? Te explicamos las 4 razones más comunes y cómo solucionarlo paso a paso sin gastar una fortuna.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["google", "seo", "google business profile", "posicionamiento", "visibilidad online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["que-es-seo-y-por-que-importa", "como-mejorar-presencia-digital", "como-conseguir-clientes-por-internet", "cuanto-cuesta-seo-argentina"],
+  "content": {
+    "intro": "<p>Buscás el nombre de tu negocio en Google y no aparece. O peor: aparece tu competencia y vos ni figurás. Es frustrante, sobre todo cuando sabés que tu producto o servicio es bueno y que la gente te busca. <strong>No es que Google te tenga bronca</strong>: hay razones concretas por las que no aparecés, y todas tienen solución.</p><p>En esta guía te explicamos las 4 razones más comunes por las que un negocio argentino no aparece en Google y qué podés hacer hoy mismo para empezar a solucionarlo. Sin tecnicismos, sin humo, con pasos que podés seguir vos mismo.</p>",
+    "sections": [
+      {
+        "heading": "Razón 1: No tenés Google Business Profile (ex Google Mi Negocio)",
+        "body": "<p>Esta es la razón número uno por la que un negocio local no aparece en Google. <strong>Google Business Profile es la ficha gratuita</strong> que muestra tu negocio en los resultados de búsqueda y en Google Maps. Sin ella, Google directamente no sabe que existís como negocio local.</p><p>¿Cómo crearlo? Es gratis y lleva 15 minutos:</p><ol><li>Entrá a <strong>business.google.com</strong> con tu cuenta de Google.</li><li>Agregá el nombre exacto de tu negocio como lo conocen tus clientes.</li><li>Elegí la categoría correcta (ej: \"Abogado\", \"Restaurante\", \"Peluquería\").</li><li>Cargá tu dirección, teléfono, horarios y fotos reales del local.</li><li>Google te va a pedir que verifiques que sos el dueño (generalmente por correo postal o teléfono).</li></ol><p>Una vez verificado, tu negocio empieza a aparecer en búsquedas locales. <strong>El 46% de las búsquedas en Google tienen intención local</strong> (\"peluquería cerca\", \"plomero en zona sur\"), y si no tenés ficha, te perdés todo ese tráfico.</p>"
+      },
+      {
+        "heading": "Razón 2: No tenés sitio web (o tu sitio no está indexado)",
+        "body": "<p>Si tu única presencia online es Instagram o Facebook, para Google prácticamente no existís en búsquedas comerciales. Las redes sociales no posicionan bien para búsquedas del tipo \"<em>electricista en Quilmes</em>\" o \"<em>contador zona norte</em>\". Para eso necesitás un <strong>sitio web propio</strong>.</p><p>Puede pasar también que tengas un sitio pero que Google no lo haya indexado (es decir, no lo registró en su base de datos). Esto pasa cuando:</p><ul><li>El sitio es muy nuevo y Google todavía no lo rastreó.</li><li>Tiene errores técnicos que bloquean el rastreo (archivo robots.txt mal configurado, etiqueta noindex).</li><li>Nadie enlaza a tu sitio desde ningún otro lugar de internet.</li></ul><p>Para verificar si Google conoce tu sitio, buscá <strong>site:tudominio.com.ar</strong> en Google. Si no aparece nada, tu sitio no está indexado. Podés solucionarlo registrándote en <strong>Google Search Console</strong> (gratis) y pidiendo la indexación manualmente.</p>"
+      },
+      {
+        "heading": "Razón 3: Tu sitio no tiene SEO básico",
+        "body": "<p>Tener un sitio web no alcanza. Si tu página dice \"Inicio\" como título, tiene 3 párrafos de texto y ninguna palabra clave relevante, Google no tiene forma de saber para qué búsquedas mostrarte.</p><p>El <strong>SEO básico mínimo</strong> que necesita cualquier sitio web de PyME:</p><ul><li><strong>Títulos descriptivos en cada página</strong>: en vez de \"Servicios\", poné \"Servicios de plomería en Avellaneda | Presupuesto sin cargo\".</li><li><strong>Texto suficiente</strong>: cada página importante necesita al menos 300-500 palabras explicando qué ofrecés, para quién, dónde.</li><li><strong>Que cargue rápido</strong>: si tu sitio tarda más de 3 segundos en cargar, Google te penaliza. Podés medir la velocidad gratis en PageSpeed Insights.</li><li><strong>Que se vea bien en celular</strong>: el 70% de las búsquedas en Argentina son desde el teléfono. Si tu sitio no es responsive, perdés posiciones.</li><li><strong>Tu dirección y teléfono visibles</strong>: Google usa esta información para confirmar que sos un negocio real y mostrarte en resultados locales.</li></ul><p>No necesitás ser experto. Con estos 5 puntos ya estás por encima de la mayoría de las PyMEs argentinas.</p>"
+      },
+      {
+        "heading": "Razón 4: Google te penalizó (y capaz ni te enteraste)",
+        "body": "<p>Menos común, pero pasa. Google puede penalizar tu sitio si detecta:</p><ul><li><strong>Contenido duplicado</strong>: copiaste textos de otros sitios o de tu propia web en múltiples páginas.</li><li><strong>Técnicas de SEO prohibidas</strong>: texto oculto, links comprados, palabras clave repetidas de forma artificial.</li><li><strong>Hackeo o malware</strong>: si tu sitio fue hackeado y tiene código malicioso, Google lo saca de los resultados para proteger a los usuarios.</li><li><strong>Experiencia de usuario pésima</strong>: pop-ups invasivos, publicidad excesiva, sitio imposible de navegar.</li></ul><p>¿Cómo saberlo? Registrate en <strong>Google Search Console</strong> y revisá la sección de \"Acciones manuales\". Si hay una penalización, te dice exactamente cuál es y cómo solucionarla. Si tu sitio fue hackeado, necesitás limpiarlo urgente y pedir una revisión a Google.</p><p>La buena noticia: las penalizaciones se pueden revertir. La mala: puede tardar semanas o meses en recuperar las posiciones que perdiste.</p>"
+      },
+      {
+        "heading": "Plan de acción: qué hacer hoy para empezar a aparecer",
+        "body": "<p>Si tu negocio no aparece en Google, este es el orden en el que tenés que actuar:</p><ol><li><strong>Hoy</strong>: creá o completá tu Google Business Profile. Es gratis y es lo que más impacto tiene para negocios locales.</li><li><strong>Esta semana</strong>: verificá si tu sitio está indexado (site:tudominio.com.ar). Si no tenés sitio, empezá a pensar en uno.</li><li><strong>Este mes</strong>: optimizá los títulos y textos de tu sitio web con palabras clave que tus clientes realmente buscan.</li><li><strong>Ongoing</strong>: pedí reseñas a tus clientes satisfechos en Google. Las reseñas positivas son uno de los factores más importantes para el posicionamiento local.</li></ol><p>No necesitás un presupuesto enorme. Google Business Profile es gratis, Search Console es gratis, y las optimizaciones básicas de SEO las puede hacer cualquier persona con un poco de guía. <strong>Lo que no podés permitirte es seguir siendo invisible</strong> mientras tu competencia se lleva los clientes que te están buscando.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto tarda en aparecer mi negocio en Google después de crear la ficha?",
+        "answer": "Después de verificar tu Google Business Profile, tu negocio puede empezar a aparecer en búsquedas locales y Google Maps en 1-2 semanas. Para posicionar bien un sitio web en resultados orgánicos, calculá 3-6 meses mínimo."
+      },
+      {
+        "question": "¿Puedo aparecer en Google sin tener sitio web?",
+        "answer": "Sí, con Google Business Profile podés aparecer en búsquedas locales y en Maps sin tener sitio web. Pero es limitado: no vas a posicionar para búsquedas informativas ni competir por palabras clave más amplias. Lo ideal es tener ambos."
+      },
+      {
+        "question": "¿Alcanza con tener Instagram para aparecer en Google?",
+        "answer": "No. Tu perfil de Instagram puede aparecer si alguien busca tu nombre exacto, pero no posiciona para búsquedas comerciales como 'plomero en zona sur' o 'abogado laboral Córdoba'. Para eso necesitás un sitio web optimizado."
+      },
+      {
+        "question": "¿Cómo sé si Google penalizó mi sitio web?",
+        "answer": "Registrate en Google Search Console (gratis), conectá tu sitio y revisá la sección 'Acciones manuales'. Si hay una penalización activa, te dice cuál es y cómo solucionarla. Si no hay nada ahí, el problema es falta de SEO, no penalización."
+      },
+      {
+        "question": "¿Cuánto cuesta solucionar esto si no sé nada de tecnología?",
+        "answer": "Google Business Profile es gratis y lo podés hacer vos. Un sitio web profesional para PyME arranca en $300.000-$500.000 ARS. Un servicio de SEO básico mensual ronda $100.000-$300.000 ARS/mes. Si tu presupuesto es limitado, empezá por la ficha de Google que es gratis y tiene impacto inmediato."
+      }
+    ],
+    "ctaText": "¿Querés saber exactamente por qué tu negocio no aparece en Google? En SODI hacemos un diagnóstico gratuito de tu presencia digital y te decimos qué corregir primero."
+  }
+}

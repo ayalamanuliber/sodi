@@ -1,0 +1,72 @@
+{
+  "slug": "tienda-online-para-cervecerias",
+  "title": "Tienda online para cervecerías artesanales: vendé birra por internet en Argentina",
+  "metaTitle": "Tienda Online para Cervecerías Artesanales 2026",
+  "metaDescription": "Tienda online para cervecerías: verificación de edad, envío refrigerado, growlers, beer clubs y suscripciones. Guía completa con costos Argentina 2026.",
+  "silo": "ecommerce-por-rubro",
+  "siloLabel": "Ecommerce por Rubro",
+  "tags": [
+    "tienda online",
+    "cervecerías",
+    "cerveza artesanal",
+    "ecommerce",
+    "vender online"
+  ],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": [
+    "pagina-web-para-cervecerias-artesanales",
+    "cuanto-cuesta-tienda-online-argentina",
+    "como-vender-por-internet-argentina",
+    "tienda-online-para-vinos-bodegas"
+  ],
+  "content": {
+    "intro": "<p>La <strong>cerveza artesanal argentina</strong> es un mercado que no para de crecer: más de 1.500 cervecerías artesanales en todo el país y un consumidor cada vez más exigente. El problema es que la mayoría sigue vendiendo solo en barra o a distribuidores, perdiendo margen y control de la marca. Una <strong>tienda online</strong> te permite vender directo al consumidor (DTC) con márgenes 2-3x mejores.</p><p>Pero no es un ecommerce genérico: necesitás <strong>verificación de edad, cadena de frío, sistema de growlers y beer clubs</strong>. Te contamos las plataformas, costos y funcionalidades clave para montar tu tienda cervecera online en 2026.</p>",
+    "sections": [
+      {
+        "heading": "Plataformas para vender cerveza artesanal online",
+        "body": "<p>La cerveza artesanal tiene necesidades muy específicas que condicionan la elección de plataforma:</p><p><strong>Tiendanube</strong> ($0-$49.900 ARS/mes): ideal para arrancar rápido. Subís tus cervezas con ficha de producto (estilo, IBU, ABV, notas de cata), integrás MercadoPago y salís a vender. Funciona muy bien para cervecerías que venden en zona acotada con delivery propio. Limitaciones: la verificación de edad se resuelve con popup JavaScript, y las suscripciones de beer club necesitan apps externas.</p><p><strong>WooCommerce</strong> ($400.000-$750.000 ARS desarrollo + $15.000-$30.000 ARS/mes hosting): la opción más completa para cervecerías que quieren DTC serio. Plugins para verificación de edad en checkout, sistema de suscripciones para beer club, fichas técnicas con IBU/ABV/SRM/maridaje, y stock por lote (fundamental para ediciones limitadas). Si tenés taproom + tienda online, WooCommerce integra ambos mundos.</p><p><strong>Desarrollo custom</strong> ($1.000.000-$2.000.000 ARS): para cervecerías grandes o con múltiples puntos de venta. Sistema de growler exchange (el cliente devuelve el growler vacío y recibe descuento), integración con sistema de producción para stock en tiempo real, panel de distribuidores B2B con precios diferenciados.</p><p>Recomendación: cervecería chica vendiendo en zona local, Tiendanube. Cervecería mediana con beer club y taproom, WooCommerce. Cervecería con distribución regional y B2B, custom.</p>"
+      },
+      {
+        "heading": "Verificación de edad y cadena de frío",
+        "body": "<p>Dos requisitos innegociables para vender cerveza online en Argentina:</p><p><strong>Verificación de edad</strong>: la Ley 24.788 prohíbe la venta de alcohol a menores de 18 años. Tu tienda necesita un mecanismo de verificación antes de que el usuario acceda al catálogo o al momento del checkout. La implementación estándar es un popup/modal al ingresar donde el visitante confirma ser mayor de 18 (botón \"Soy mayor de 18\" o ingreso de fecha de nacimiento). Además, es obligatoria la leyenda \"Beber con moderación. Prohibida su venta a menores de 18 años\" en el footer y en el checkout.</p><p>Costo de implementación: en Tiendanube, ~$20.000 ARS (JavaScript en el theme). En WooCommerce, plugins gratuitos como Age Gate. En custom, se desarrolla nativo.</p><p><strong>Cadena de frío</strong>: la cerveza artesanal sin pasteurizar necesita refrigeración constante (2-8°C). Si vendés cerveza viva (no pasteurizada), tenés que garantizar que llegue fría al cliente. Opciones:</p><ul><li><strong>Delivery propio con conservadoras</strong>: la mejor opción para zona local. Conservadora con hielo seco o geles refrigerantes. Costo: $5.000-$8.000 ARS por entrega.</li><li><strong>Envío con packaging térmico</strong>: cajas de telgopor con geles refrigerantes para envíos de hasta 24 hs. Funciona para CABA/GBA y ciudades con envío overnight. Costo del packaging: $3.000-$6.000 ARS.</li><li><strong>Solo cerveza pasteurizada/envasada para envíos largos</strong>: si hacés envíos a todo el país, ofrecé solo las referencias que aguantan temperatura ambiente (latas/botellas pasteurizadas).</li></ul><p>Consejo: definí zonas de delivery según tu capacidad de mantener la cadena de frío. Mejor vender menos y que llegue perfecto, que vender a todo el país y que llegue tibia.</p>"
+      },
+      {
+        "heading": "Growler exchange y packaging cervecero",
+        "body": "<p>El <strong>sistema de growlers</strong> es una ventaja competitiva enorme para cervecerías artesanales online. El concepto: vendés la cerveza en growler (botella de vidrio o acero de 1-2 litros) con un sistema de intercambio donde el cliente devuelve el vacío en la próxima compra y recibe un descuento.</p><p>Cómo implementar growler exchange online:</p><ul><li><strong>Opción simple</strong>: en la ficha de producto ofrecé dos precios: \"Con growler nuevo: $X\" y \"Recarga (traé tu growler): $Y\". El cliente selecciona al comprar. En la entrega, el repartidor retira el growler vacío.</li><li><strong>Opción avanzada</strong> (custom): sistema de depósito. El cliente paga un depósito por el growler ($5.000-$8.000 ARS) que se le acredita al devolverlo. Se trackea en su cuenta de usuario. Requiere desarrollo custom.</li></ul><p><strong>Packaging para envío de cerveza</strong>:</p><ul><li><strong>Botellas</strong>: caja de cartón con divisores individuales (tipo colmena). Mismo sistema que vinos. Costo: $1.500-$3.500 ARS por caja de 6.</li><li><strong>Latas</strong>: más fácil de enviar (no se rompen). Caja simple con relleno. Costo: $800-$1.500 ARS.</li><li><strong>Growlers</strong>: caja individual con espuma protectora. El growler de acero no se rompe; el de vidrio necesita protección extra.</li><li><strong>Barriles/cornelius</strong>: para clientes B2B (bares, restaurantes). Envío en fletes con precinto de seguridad.</li></ul><p>Tip: ofrecé <strong>packs</strong> (6-pack, 12-pack, mix de estilos) con descuento. El pack de 12 con mix de estilos es el producto más vendido en ecommerce cervecero — el cliente prueba varios estilos y descubre su favorito.</p>"
+      },
+      {
+        "heading": "Beer club: suscripción cervecera que fideliza",
+        "body": "<p>El <strong>beer club</strong> es el equivalente cervecero del wine club, y funciona igual de bien para generar ingreso recurrente predecible. El cliente se suscribe y recibe una selección de cervezas curada por tu maestro cervecero.</p><p>Modelos de beer club que funcionan en Argentina:</p><ul><li><strong>Pack mensual de novedades</strong>: 4-6 latas/botellas con los estilos nuevos del mes + ficha de cata de cada uno. Precio: $18.000-$35.000 ARS/mes. El atractivo: probás cosas que no están en la barra.</li><li><strong>Box premium bimestral</strong>: 6-8 cervezas incluyendo ediciones limitadas + un vaso o merchandising de la marca. Precio: $30.000-$55.000 ARS. Ideal para cervecerías con lanzamientos frecuentes.</li><li><strong>Membresía con beneficios</strong>: sin envío automático, pero con 15-20% off permanente en la tienda, acceso anticipado a lanzamientos, invitaciones a eventos de cata y tours de fábrica. Cuota: $8.000-$15.000 ARS/mes.</li></ul><p>Implementación: en Tiendanube, usá Rebill para pagos recurrentes (~$15.000 ARS/mes). En WooCommerce, WooCommerce Subscriptions (~USD 199/año). En custom, débito automático vía MercadoPago.</p><p>Números: un beer club con <strong>40 suscriptores a $25.000 ARS/mes</strong> genera $1.000.000 ARS/mes de ingreso fijo. El costo de producción de la cerveza artesanal es 20-30% del precio de venta, así que el margen es excelente. La retención promedio: 80-85% mes a mes si el producto es consistente y las novedades son genuinas.</p>"
+      },
+      {
+        "heading": "Marketing cervecero: cómo llevar tráfico a tu tienda",
+        "body": "<p>El consumidor de cerveza artesanal es un perfil muy activo en redes: le gusta descubrir, compartir y opinar. Aprovechá eso para llevar tráfico a tu tienda online.</p><p><strong>Instagram</strong>: tu canal principal. Fotos y reels de tus cervezas (bien producidos, con buena luz), el proceso de elaboración, y la vida en tu taproom. El contenido \"behind the scenes\" de cómo se hace la cerveza genera engagement altísimo. Posteá 3-4 veces por semana.</p><p><strong>WhatsApp</strong>: creá una lista de difusión con tus clientes para avisar lanzamientos, ediciones limitadas y promos. Tasa de apertura de WhatsApp: 95%+ vs 20% del email. Es tu canal de venta directa más efectivo.</p><p><strong>Google Ads</strong>: campañas de búsqueda para \"comprar cerveza artesanal online [tu ciudad]\" y \"delivery cerveza artesanal [tu zona]\". Presupuesto recomendado: $30.000-$80.000 ARS/mes. El retorno suele ser 3-5x en zonas con buena demanda.</p><p><strong>Eventos y colaboraciones</strong>: participá en festivales cerveceros con QR a tu tienda online. Hacé colaboraciones con otras cervecerías (cerveza collab) y cada uno la vende en su tienda. Las collabs generan novedad y cross-pollination de audiencias.</p><p><strong>SEO</strong>: blog con contenido sobre estilos (\"Qué es una IPA\", \"Diferencia entre Stout y Porter\"), maridajes, y proceso de elaboración. Este contenido posiciona en Google y atrae tráfico orgánico de gente interesada en cerveza artesanal que después se convierte en compradora.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Necesito habilitación especial para vender cerveza online?",
+        "answer": "Si ya tenés habilitación como cervecería artesanal (registro ante ANMAT y habilitación municipal), podés vender online. Lo que necesitás agregar: verificación de edad en tu sitio web, leyenda de consumo responsable visible, y cumplir con las regulaciones provinciales de venta de alcohol. Consultá la normativa de tu municipio porque algunas jurisdicciones tienen requisitos adicionales para venta online de alcohol."
+      },
+      {
+        "question": "Puedo vender cerveza artesanal en MercadoLibre?",
+        "answer": "Sí, MercadoLibre permite la venta de cerveza. Es un canal complementario con mucho tráfico, pero las comisiones son altas (13-17%) y no controlás la cadena de frío en MercadoEnvíos. Estrategia recomendada: usá MercadoLibre para latas/botellas pasteurizadas que aguantan temperatura ambiente, y tu tienda propia para cerveza fresca, growlers y beer club donde tenés mejor margen y control."
+      },
+      {
+        "question": "Cómo manejo el stock si la cerveza artesanal es por lotes?",
+        "answer": "Tu ecommerce tiene que reflejar la realidad de producción por lotes. Cuando un lote se termina, desactivá el producto o mostrá 'Agotado - próximo lote en X semanas'. En WooCommerce o custom, podés implementar botón de 'Avisame cuando haya stock' que captura el email del interesado. Las ediciones limitadas con stock visible ('Quedan 24 unidades') generan urgencia y venden más rápido."
+      },
+      {
+        "question": "Cuánto cuesta el envío de cerveza artesanal?",
+        "answer": "Delivery propio en zona local: $4.000-$8.000 ARS. Envío CABA/GBA con packaging térmico: $6.000-$12.000 ARS. Envío a interior (solo cerveza pasteurizada/latas): $8.000-$18.000 ARS vía Andreani/OCA. El packaging térmico suma $3.000-$6.000 ARS extra. Ofrecé envío gratis a partir de cierto monto (ej: gratis con compra de $25.000+) para subir el ticket promedio."
+      },
+      {
+        "question": "Qué fotos necesito para vender cerveza online?",
+        "answer": "Mínimo: foto de la botella/lata con la etiqueta bien visible, foto del vaso servido (mostrando color y espuma), y foto del pack si vendés combos. Las fotos con fondo oscuro o de madera funcionan mejor que fondo blanco para cerveza. Invertí en una sesión profesional para tus productos fijos (~$30.000-$50.000 ARS) y después las fotos de nuevos lanzamientos las podés sacar con celular con buena luz."
+      }
+    ],
+    "ctaText": "¿Querés vender tu cerveza artesanal online con beer club y delivery? Pedí tu diagnóstico gratuito y te armamos la tienda ideal para tu cervecería."
+  }
+}

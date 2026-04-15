@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-opticas",
+  "title": "Sistema de Gestión para Ópticas en Argentina",
+  "metaTitle": "Sistema de Gestión para Ópticas Argentina 2026",
+  "metaDescription": "Gestioná prescripciones, stock de lentes, obras sociales e historial de pacientes de tu óptica con un sistema integral. Opciones y precios.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "ópticas", "stock de lentes", "obras sociales", "prescripciones"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-opticas", "sistema-de-turnos-para-opticas", "cuanto-cuesta-sistema-de-gestion-pymes", "presencia-digital-ideal-optica"],
+  "content": {
+    "intro": "<p>Gestionar una óptica es más complejo de lo que parece: <strong>prescripciones con graduaciones específicas, stock de lentes y armazones con miles de combinaciones, obras sociales con sus tiempos de aprobación, pedidos a proveedores y el historial de cada paciente</strong>. Si manejás todo esto con cuadernos o planillas, estás perdiendo tiempo y cometiendo errores evitables.</p><p>Un <strong>sistema de gestión para ópticas</strong> centraliza todo: desde que el paciente entra con su receta hasta que retira sus anteojos. En esta guía te mostramos qué funcionalidades necesitás, qué opciones existen y cuánto cuesta implementar uno.</p>",
+    "sections": [
+      {
+        "heading": "Problemas comunes en ópticas sin sistema",
+        "body": "<p>Las ópticas que operan sin un sistema dedicado enfrentan estos problemas:</p><ul><li><strong>Prescripciones mal registradas:</strong> Anotar a mano graduaciones, distancias pupilares y adiciones es una fuente constante de errores. Un dígito mal y el paciente vuelve insatisfecho.</li><li><strong>Stock inmanejable:</strong> Entre armazones, cristales, lentes de contacto y accesorios, una óptica puede tener miles de SKU. Sin sistema, no sabés qué tenés, qué te falta y qué no se vende.</li><li><strong>Obras sociales lentas:</strong> La gestión de autorizaciones con obras sociales requiere seguimiento. Si lo hacés manual, se te pierden trámites y el paciente espera más de lo necesario.</li><li><strong>Historial de pacientes disperso:</strong> ¿Qué graduación tenía este paciente hace dos años? ¿Qué armazón eligió la última vez? Sin historial digitalizado, perdés información valiosa.</li><li><strong>Pedidos a proveedores sin datos:</strong> Pedís armazones \"a ojo\" sin saber cuáles se venden más. Resultado: vidrieras llenas de modelos que nadie quiere.</li></ul>"
+      },
+      {
+        "heading": "Funcionalidades que necesita un sistema para ópticas",
+        "body": "<p>Un sistema de gestión óptico completo incluye:</p><ul><li><strong>Ficha de paciente con historial:</strong> Datos personales, historial de prescripciones, graduaciones anteriores, preferencias de armazón, obra social. Todo accesible al instante.</li><li><strong>Registro de prescripciones:</strong> Carga estructurada de recetas: esfera, cilindro, eje, adición, distancia pupilar. Sin ambigüedades ni errores de transcripción.</li><li><strong>Gestión de stock por categoría:</strong> Armazones (marca, modelo, color, talle), cristales (material, tratamiento, graduación), lentes de contacto (marca, tipo, parámetros), accesorios.</li><li><strong>Gestión de obras sociales:</strong> Carga de autorizaciones, seguimiento del estado (pendiente, aprobada, rechazada), liquidación mensual. Integración con los principales convenios.</li><li><strong>Pedidos a proveedores:</strong> Seguimiento de pedidos de cristales a laboratorios (Essilor, Rodenstock, Carl Zeiss). Estado del pedido: solicitado, en fabricación, enviado, recibido.</li><li><strong>Punto de venta y facturación:</strong> Presupuestos, ventas, facturación ARCA, medios de pago múltiples, cuenta corriente de pacientes.</li></ul>"
+      },
+      {
+        "heading": "Opciones de software para ópticas en Argentina",
+        "body": "<p>El mercado de software para ópticas tiene opciones especializadas:</p><p><strong>OptiSoft / SoftÓptica:</strong> Sistemas argentinos diseñados específicamente para ópticas. Manejan prescripciones, stock de lentes y armazones, obras sociales y pedidos a laboratorios. Son la opción más completa para ópticas independientes.</p><p><strong>Sistemas genéricos adaptados:</strong> Algunas ópticas usan sistemas de gestión comercial genéricos (como Tango o Colppy) y los adaptan. Funcionan para la parte contable y de stock, pero no tienen ficha óptica ni gestión de prescripciones.</p><p><strong>Sistema a medida:</strong> Tiene sentido para cadenas de ópticas que necesitan integración con laboratorios propios, gestión de sucursales con stock compartido, o un e-commerce de lentes de contacto integrado. Costo significativamente mayor. Más en <a href=\"/blog/software-a-medida-vs-estandar\">software estándar vs a medida</a>.</p><p><strong>Nuestra recomendación:</strong> si tenés una óptica individual o hasta 3 sucursales, un SaaS especializado te resuelve el 95% de las necesidades. Solo evaluá un sistema a medida si tenés procesos realmente únicos.</p>"
+      },
+      {
+        "heading": "Costos de un sistema para ópticas en 2026",
+        "body": "<p>Precios de referencia en Argentina:</p><ul><li><strong>SaaS especializado (1 sucursal):</strong> $25.000 - $55.000 ARS/mes. Incluye ficha de paciente, prescripciones, stock, obras sociales, facturación.</li><li><strong>SaaS multi-sucursal:</strong> $55.000 - $120.000 ARS/mes. Stock centralizado, reportes consolidados, transferencias entre locales.</li><li><strong>Hardware POS:</strong> $80.000 - $250.000 ARS. Lector de código de barras, impresora de tickets.</li><li><strong>Sistema a medida:</strong> $2.500.000 - $6.000.000 ARS de desarrollo inicial.</li></ul><p>El ROI es claro: una óptica que deja de perder ventas por falta de stock, que recupera pacientes recordándoles su control anual, y que cobra obras sociales sin errores, recupera la inversión en el primer trimestre.</p>"
+      },
+      {
+        "heading": "Cómo implementar un sistema en tu óptica",
+        "body": "<p>La migración en una óptica requiere atención al detalle:</p><ul><li><strong>Cargá el catálogo de productos:</strong> Armazones con marca, modelo, color y precio. Cristales por tipo y tratamiento. Lentes de contacto por parámetros. Es el paso más largo pero el más importante.</li><li><strong>Digitalizá el historial de pacientes:</strong> Empezá por los pacientes activos (los que vinieron en el último año). Cargá sus datos y últimas prescripciones. El resto se va cargando a medida que vuelvan.</li><li><strong>Configurá obras sociales:</strong> Ingresá los convenios vigentes, porcentajes de cobertura y requisitos de cada obra social.</li><li><strong>Conectá con proveedores:</strong> Configurá los laboratorios ópticos con los que trabajás para poder hacer pedidos y seguimiento desde el sistema.</li><li><strong>Capacitá al equipo:</strong> Vendedores, ópticos y administrativos. Cada uno usa módulos diferentes. Dedicá al menos una semana de uso asistido.</li></ul><p>En 2-3 semanas tu óptica puede estar operando digitalmente. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y te ayudamos a elegir la mejor opción.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema maneja prescripciones ópticas?",
+        "answer": "Sí. Los sistemas especializados para ópticas permiten cargar recetas con esfera, cilindro, eje, adición y distancia pupilar de forma estructurada, evitando errores de transcripción."
+      },
+      {
+        "question": "¿Puedo gestionar obras sociales desde el sistema?",
+        "answer": "Sí. Podés cargar autorizaciones, hacer seguimiento del estado de cada trámite y generar las liquidaciones mensuales para cada obra social."
+      },
+      {
+        "question": "¿El sistema controla vencimientos de lentes de contacto?",
+        "answer": "Sí. Podés registrar lotes y fechas de vencimiento para lentes de contacto, y el sistema te alerta antes de que expiren para que tomes acción."
+      },
+      {
+        "question": "¿Puedo recordarles a mis pacientes su control anual?",
+        "answer": "Sí. El sistema puede enviar recordatorios automáticos por WhatsApp o email cuando se cumple un año desde la última prescripción, generando turnos de forma proactiva."
+      },
+      {
+        "question": "¿Sirve para ópticas con laboratorio propio?",
+        "answer": "Los SaaS cubren la gestión comercial. Si tenés un laboratorio de tallado propio, probablemente necesites un sistema a medida que integre la producción con la venta."
+      }
+    ],
+    "ctaText": "¿Querés ordenar prescripciones, stock y obras sociales en tu óptica? <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y encontrá el sistema ideal."
+  }
+}

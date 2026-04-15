@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-imprentas",
+  "title": "Sistema de gestión para imprentas: presupuestos, órdenes de trabajo y seguimiento de producción",
+  "metaTitle": "Sistema de Gestión para Imprentas Argentina | SODI",
+  "metaDescription": "Sistemas de gestión para imprentas en Argentina. Presupuestos automatizados, órdenes de trabajo, control de materiales, seguimiento de producción y facturación.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "imprentas", "órdenes de trabajo", "presupuestos imprenta", "control de producción"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-imprentas", "cuanto-cuesta-sistema-de-gestion-pymes", "como-ordenar-operacion-interna-pyme", "automatizar-whatsapp-imprentas"],
+  "content": {
+    "intro": "<p>Si manejás una imprenta en Argentina, tu día a día es un flujo constante de presupuestos, aprobaciones, órdenes de trabajo, control de materiales y entregas. <strong>Un presupuesto mal calculado te come el margen, una orden de trabajo perdida te cuesta un cliente</strong>, y un material que no llegó a tiempo frena toda la producción.</p><p>Un <strong>sistema de gestión para imprentas</strong> automatiza los presupuestos, organiza las órdenes de trabajo, controla el stock de materiales (papeles, tintas, sustratos) y te da visibilidad completa del estado de cada trabajo. En esta guía te explicamos qué necesitás, cuánto cuesta y cómo implementarlo sin frenar tu producción.</p>",
+    "sections": [
+      {
+        "heading": "El problema real: cómo operan hoy la mayoría de las imprentas argentinas",
+        "body": "<p>Las imprentas tienen un flujo operativo complejo que la mayoría gestiona con herramientas desconectadas. El resultado es ineficiencia pura:</p><ul><li><strong>Presupuestos lentos y con errores:</strong> calcular un presupuesto implica cruzar tipo de papel, cantidad de colores, terminación, cantidad de copias y tiempo de máquina. Si lo hacés a mano o en Excel, un error de cálculo te puede costar el margen del trabajo entero.</li><li><strong>Órdenes de trabajo en papel:</strong> la orden sale impresa (paradójico para una imprenta), se pierde en el taller, se mancha, se traspapela. Nadie sabe con certeza en qué etapa está cada trabajo.</li><li><strong>Control de materiales inexistente:</strong> ¿cuántas resmas de ilustración 300g te quedan? ¿Alcanza la tinta para el trabajo de mañana? Sin control de stock, las paradas de producción por falta de material son habituales.</li><li><strong>Seguimiento imposible:</strong> un cliente llama y pregunta \"¿cuándo está mi trabajo?\". Tenés que ir al taller, buscar la orden y preguntarle al operario. Eso no escala.</li><li><strong>Facturación desconectada:</strong> los trabajos se facturan por un lado y los costos se registran por otro (si es que se registran). El margen real de cada trabajo es un misterio.</li></ul>"
+      },
+      {
+        "heading": "Qué tiene que hacer un sistema de gestión para imprentas",
+        "body": "<p>Un sistema para imprentas necesita entender el flujo específico del rubro: desde el presupuesto hasta la entrega. Estos son los módulos esenciales:</p><ul><li><strong>Presupuestador automático:</strong> seleccionás tipo de trabajo, papel, colores, terminación, cantidad y el sistema calcula el costo y el precio de venta. Con variables configurables por máquina, tiempo de producción y margen deseado.</li><li><strong>Órdenes de trabajo digitales:</strong> cada trabajo aprobado genera una orden con todas las especificaciones técnicas, archivos del cliente, fechas de entrega y etapas de producción (preprensa, impresión, terminación, entrega).</li><li><strong>Seguimiento de producción:</strong> cada etapa se marca como completada en el sistema. El cliente puede consultar el estado, y vos podés ver en un tablero qué trabajos están en cada fase.</li><li><strong>Control de materiales:</strong> stock de papeles por tipo y gramaje, tintas, sustratos especiales, materiales de terminación. Descuento automático al asignar materiales a una orden.</li><li><strong>Aprobación de pruebas:</strong> el cliente aprueba la prueba de color o diseño directamente desde el sistema, con registro de fecha y versión aprobada.</li><li><strong>Facturación integrada:</strong> la orden terminada se factura directo desde el sistema con integración ARCA.</li></ul><p>Revisá también nuestras recomendaciones para <a href=\"/blog/como-ordenar-operacion-interna-pyme\">ordenar la operación interna</a> de tu negocio.</p>"
+      },
+      {
+        "heading": "SaaS vs desarrollo a medida: qué conviene para tu imprenta",
+        "body": "<p>El mercado de software para imprentas en Argentina es limitado:</p><p><strong>SaaS especializados:</strong> existen opciones internacionales como PrintVis o Printavo, pero están pensadas para mercados con otros costos, otros papeles y otra moneda. La adaptación al mercado argentino (materiales locales, precios en pesos, ARCA) requiere trabajo extra.</p><p><strong>SaaS genérico de gestión:</strong> podés usar un sistema de proyectos (estilo Asana o Monday) para las órdenes de trabajo, pero no vas a tener presupuestador automático, control de materiales ni facturación integrada. Te queda todo a medio camino.</p><p><strong>Sistema a medida:</strong> se diseña para tu imprenta específica. Si tenés offset y digital, el presupuestador contempla las dos tecnologías. Si hacés packaging, gran formato o editorial, las variables de cálculo son distintas y el sistema las maneja.</p><p>La realidad es que <strong>cada imprenta tiene su forma de calcular presupuestos</strong>. Las variables cambian según el equipamiento, los proveedores y los tipos de trabajo. Un sistema a medida es la opción que mejor se adapta a esta complejidad.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un sistema de gestión para imprentas en Argentina",
+        "body": "<p>Los rangos en 2026:</p><ul><li><strong>SaaS internacional adaptado:</strong> USD 50 - USD 200/mes (requiere personalización adicional)</li><li><strong>Sistema a medida básico:</strong> $2.500.000 - $5.000.000 ARS (presupuestador, órdenes, stock, facturación)</li><li><strong>Sistema a medida completo:</strong> $5.000.000 - $12.000.000 ARS (todo lo anterior + portal de clientes, aprobación online, reportes de rentabilidad por trabajo, integración con diseño)</li></ul><p>Pensá en esto: si hacés 100 presupuestos por mes y el 10% tiene errores de cálculo que te hacen perder un 20% de margen, estás regalando plata. Un presupuestador automático elimina esos errores desde el día uno.</p><p>Para una referencia general, consultá nuestra <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">guía de costos de sistemas para PyMEs</a>.</p>"
+      },
+      {
+        "heading": "Implementación: cómo migrar sin frenar la producción",
+        "body": "<p>Una imprenta no puede parar las máquinas para implementar un sistema. La transición se hace por módulos:</p><ul><li><strong>Fase 1 - Presupuestador (semana 1-2):</strong> se configuran las variables de cálculo (papeles, tintas, tiempos de máquina, terminaciones, márgenes). Se prueban con presupuestos reales para validar los números.</li><li><strong>Fase 2 - Órdenes de trabajo (semana 3-4):</strong> los nuevos trabajos empiezan a gestionarse en el sistema. Los que ya están en producción se terminan con el método anterior.</li><li><strong>Fase 3 - Control de materiales (semana 4-5):</strong> inventario completo de papeles, tintas y sustratos. Se configura el descuento automático al asignar a órdenes.</li><li><strong>Fase 4 - Facturación (semana 5-6):</strong> integración con ARCA y facturación directa desde las órdenes completadas.</li><li><strong>Fase 5 - Ajuste y reportes (semana 6-8):</strong> se afinan los tiempos de producción, se ajustan variables del presupuestador con datos reales y se activan los reportes de rentabilidad.</li></ul><p>Total: 6-8 semanas. Lo clave es que el presupuestador esté bien calibrado —es el corazón del sistema y donde más impacto vas a ver.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema calcula presupuestos automáticamente según tipo de trabajo?",
+        "answer": "Sí. Configurás las variables (papel, colores, terminación, cantidad, tiempo de máquina, margen) y el sistema calcula el costo y precio de venta. Podés tener plantillas para los trabajos más comunes y generar presupuestos en minutos."
+      },
+      {
+        "question": "¿Puedo hacer seguimiento de cada trabajo en tiempo real?",
+        "answer": "Sí. Cada orden de trabajo tiene etapas (preprensa, impresión, terminación, entrega) que se van marcando en el sistema. Podés ver un tablero con el estado de todos los trabajos activos."
+      },
+      {
+        "question": "¿Los clientes pueden aprobar pruebas online?",
+        "answer": "Sí. El sistema permite subir pruebas de diseño o color para que el cliente las apruebe desde un link, con registro de fecha, versión aprobada y observaciones."
+      },
+      {
+        "question": "¿Se integra con ARCA para facturación electrónica?",
+        "answer": "Sí. Cuando una orden se completa, se genera la factura electrónica directamente desde el sistema con todos los datos del trabajo ya cargados."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva implementar el sistema en una imprenta?",
+        "answer": "Entre 6 y 8 semanas, implementándose por módulos sin frenar la producción. El presupuestador se calibra primero, después las órdenes de trabajo, stock y facturación."
+      }
+    ],
+    "ctaText": "¿Querés presupuestar sin errores y tener visibilidad de cada trabajo? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te mostramos cómo ordenar tu imprenta con un sistema a medida."
+  }
+}

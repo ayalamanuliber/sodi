@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-hosting-argentina",
+  "title": "Cuánto cuesta el hosting y dominio en Argentina en 2026: compartido, VPS, cloud y proveedores",
+  "metaTitle": "Cuánto cuesta hosting y dominio en Argentina 2026",
+  "metaDescription": "Hosting compartido: ARS 2.000-4.500/mes. VPS: USD 10-50/mes. Dominio .com.ar: ARS 8.500/año. Comparamos WNPower, Hostinger, DonWeb y más.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["hosting Argentina", "dominio web", "hosting compartido", "VPS Argentina", "alojamiento web"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["que-es-hosting-y-dominio", "cuanto-cuesta-pagina-web-argentina", "cuanto-cuesta-mantenimiento-pagina-web", "wordpress-vs-desarrollo-a-medida"],
+  "content": {
+    "intro": "<p>El <strong>hosting en Argentina</strong> cuesta entre ARS 2.000 y 4.500/mes para un plan compartido, entre USD 10 y 50/mes para un VPS, y entre USD 20 y 200/mes para cloud. Un <strong>dominio .com.ar</strong> sale ARS 8.500/año, y un .com entre USD 12 y 15/año.</p><p>La diferencia entre el hosting de $2.000 y el de USD 50 no es solo velocidad: es la diferencia entre que tu web cargue en 6 segundos y que cargue en 1.5. Para una PyME, eso se traduce directamente en clientes que se van o se quedan. Acá te desglosamos qué necesitás realmente.</p>",
+    "sections": [
+      {
+        "heading": "Hosting compartido en Argentina: precios y proveedores",
+        "body": "<p>El <strong>hosting compartido</strong> es el más usado por PyMEs argentinas. Tu sitio comparte un servidor con cientos de otros sitios. Precios actualizados a 2026:</p><p><strong>WNPower:</strong> desde ARS 2.500/mes. Servidor en Argentina, buen soporte local, panel cPanel. Ideal para WordPress de PyMEs.</p><p><strong>DonWeb:</strong> desde ARS 2.000/mes. Empresa argentina con datacenters locales. Planes básicos limitados en almacenamiento (5-10 GB).</p><p><strong>Nuthost:</strong> desde ARS 3.000/mes. Servidores en Argentina y Brasil. Buen balance precio/rendimiento.</p><p><strong>Hostinger:</strong> desde ARS 2.200/mes (pago anual). Servidores en Brasil, buena velocidad para Argentina. Interfaz más moderna que los locales, pero soporte en español genérico (no argentino).</p><p>El hosting compartido sirve si tu <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">página web</a> tiene menos de 10.000 visitas/mes y no maneja transacciones en tiempo real. Para un sitio institucional, un blog o un catálogo de productos, sobra. Para una tienda online con 500+ productos o un sistema de turnos con muchos usuarios simultáneos, se queda corto.</p>"
+      },
+      {
+        "heading": "VPS y hosting cloud: cuándo necesitás más potencia",
+        "body": "<p>Un <strong>VPS (servidor virtual privado)</strong> te da recursos dedicados: CPU, RAM y almacenamiento que no compartís con nadie. Precios en 2026:</p><p><strong>VPS básico:</strong> USD 10-20/mes (1-2 GB RAM, 1-2 vCPU). Suficiente para un WordPress optimizado o una app web liviana con hasta 50.000 visitas/mes.</p><p><strong>VPS medio:</strong> USD 20-50/mes (4-8 GB RAM, 2-4 vCPU). Para tiendas online con tráfico medio, sistemas de gestión internos, o múltiples sitios web en un mismo servidor.</p><p><strong>Cloud (AWS, Google Cloud, Vercel):</strong> USD 20-200/mes dependiendo del consumo. Vercel tiene plan gratuito excelente para sitios estáticos y Next.js. AWS y Google Cloud son pay-as-you-go — podés arrancar con USD 20/mes pero escalar sin límite.</p><p>La ventaja del cloud es la <strong>escalabilidad</strong>: si tu sitio tiene un pico de tráfico (por una promo, por ejemplo), el cloud se adapta automáticamente. Con hosting compartido, tu sitio se cae. Con VPS, tenés que escalar manualmente.</p><p>¿Necesitás VPS o cloud? Si tu web es un sitio institucional con blog, no. Si tenés una <a href=\"/blog/wordpress-vs-desarrollo-a-medida\">aplicación web a medida</a>, un ecommerce con pasarela de pagos, o un sistema con usuarios concurrentes, sí.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un dominio en Argentina",
+        "body": "<p><strong>Dominio .com.ar:</strong> ARS 8.500/año. Se registra en NIC Argentina (nic.ar). Necesitás CUIT/CUIL argentino. La renovación es anual y al mismo precio. Si se te vence, tenés 30 días de gracia antes de que lo liberen.</p><p><strong>Dominio .com:</strong> USD 12-15/año en registradores internacionales (Namecheap, Google Domains, Cloudflare). En registradores argentinos como DonWeb o WNPower, el mismo .com sale USD 15-20/año con markup local.</p><p><strong>Dominio .com.ar vs .com:</strong> para un negocio que opera solo en Argentina, el .com.ar genera más confianza local y ayuda levemente en SEO para búsquedas geolocalizadas. Si tenés proyección regional o internacional, conviene tener ambos (el .com como dominio principal y el .com.ar redirigiendo).</p><p><strong>Otros dominios:</strong> .ar (sin el \"com\") cuesta ARS 8.500/año igual. Los .store, .shop, .online cuestan USD 10-40/año pero no generan la misma confianza que un .com o .com.ar. No los recomendamos para PyMEs.</p><p>Consejo: registrá tu dominio <strong>a tu nombre o al de tu empresa</strong>, nunca al nombre de tu diseñador o agencia. Es sorprendente la cantidad de PyMEs que pierden el control de su dominio porque lo registró un tercero que ya no trabaja con ellos.</p>"
+      },
+      {
+        "heading": "Hosting gratis y planes freemium: cuándo sirven y cuándo no",
+        "body": "<p><strong>Vercel (gratis):</strong> excelente para sitios estáticos y aplicaciones Next.js. Incluye SSL, CDN global, y deploy automático desde GitHub. Si tu sitio no necesita base de datos ni backend complejo, es la mejor opción gratuita en 2026. SODI usa Vercel para muchos de sus proyectos.</p><p><strong>Netlify (gratis):</strong> similar a Vercel. 100 GB de bandwidth/mes gratis. Ideal para landing pages y sitios institucionales estáticos.</p><p><strong>000webhost / InfinityFree (gratis):</strong> hosting compartido gratuito con publicidad, sin SSL, y rendimiento pésimo. No los uses ni para un proyecto personal. Tu web va a cargar en 8+ segundos y Google la va a enterrar en los resultados.</p><p><strong>Hostinger / DonWeb plan básico:</strong> ARS 1.500-2.000/mes con contratos anuales. El precio publicitado es con 2-3 años de compromiso. Si pagás mensual, sale el doble. Leé la letra chica.</p><p>La realidad: si tu negocio depende de la web, <strong>no uses hosting gratis</strong> (salvo Vercel/Netlify para sitios estáticos). Un hosting de $3.000-4.500 ARS/mes es menos de lo que gastás en café. La caída de tu sitio por un hosting malo te cuesta más en clientes perdidos que lo que ahorrás.</p>"
+      },
+      {
+        "heading": "SSL, email y extras: costos ocultos del hosting",
+        "body": "<p><strong>Certificado SSL:</strong> hoy es gratis con Let's Encrypt en prácticamente todos los proveedores de hosting. Si un proveedor te quiere cobrar por SSL, cambiá de proveedor. Google penaliza los sitios sin HTTPS desde 2018.</p><p><strong>Email corporativo:</strong> la mayoría de los hostings compartidos incluyen cuentas de email (info@tuempresa.com.ar). Pero el email de hosting es limitado: 1-5 GB de almacenamiento, antispam básico, y sin las funcionalidades de Google Workspace o Microsoft 365. Google Workspace cuesta USD 7/usuario/mes y vale cada dólar si dependés del email para tu negocio.</p><p><strong>Backups automáticos:</strong> algunos hostings los incluyen, otros cobran extra ($500-1.500 ARS/mes). Asegurate de que tu hosting haga backups diarios. Un hackeo o error sin backup puede significar perder meses de contenido.</p><p><strong>CDN (Content Delivery Network):</strong> Cloudflare tiene plan gratuito que acelera tu sitio y lo protege de ataques DDoS. Activalo siempre, sin importar tu hosting. Es gratis y mejora la velocidad de carga entre un 20-40%.</p><p>El <a href=\"/blog/cuanto-cuesta-mantenimiento-pagina-web\">costo total real de mantener una web</a> no es solo el hosting. Sumá dominio + hosting + email + mantenimiento y estás en $15.000-30.000 ARS/mes como mínimo para algo profesional.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta el hosting en Argentina por mes?",
+        "answer": "Un hosting compartido cuesta entre ARS 2.000 y 4.500/mes. Un VPS arranca en USD 10/mes y llega a USD 50/mes. Cloud (AWS, Google Cloud) va de USD 20 a 200/mes según consumo. Vercel y Netlify tienen planes gratuitos excelentes para sitios estáticos."
+      },
+      {
+        "question": "¿Cuánto sale un dominio .com.ar en Argentina?",
+        "answer": "Un dominio .com.ar cuesta ARS 8.500/año, registrado en NIC Argentina. Un dominio .com internacional cuesta USD 12-15/año. Necesitás CUIT/CUIL argentino para registrar un .com.ar."
+      },
+      {
+        "question": "¿Qué hosting es mejor para una PyME argentina?",
+        "answer": "Para un sitio institucional con blog: WNPower o Nuthost (hosting compartido, ARS 2.500-3.000/mes). Para un sitio estático o landing page: Vercel (gratis). Para ecommerce o sistema con tráfico alto: VPS de USD 20-50/mes en DigitalOcean o Hostinger VPS."
+      },
+      {
+        "question": "¿El hosting gratis sirve para un negocio?",
+        "answer": "Solo si es Vercel o Netlify para sitios estáticos, que son excelentes y sin limitaciones serias. Los hostings gratuitos tradicionales (000webhost, InfinityFree) tienen rendimiento pésimo, sin SSL, y con publicidad. No sirven para nada profesional."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre hosting compartido y VPS?",
+        "answer": "En hosting compartido tu sitio comparte recursos (CPU, RAM) con cientos de sitios. En VPS tenés recursos dedicados. El compartido sirve para sitios con menos de 10.000 visitas/mes. El VPS es necesario para tiendas online, sistemas con usuarios concurrentes, o sitios con más de 50.000 visitas/mes."
+      }
+    ],
+    "ctaText": "¿No sabés qué hosting necesitás para tu proyecto? En SODI analizamos tu sitio y te recomendamos la mejor opción sin venderte lo que no necesitás. Pedí tu diagnóstico gratuito."
+  }
+}

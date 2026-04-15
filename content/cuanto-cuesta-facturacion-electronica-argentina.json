@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-facturacion-electronica-argentina",
+  "title": "Cuánto cuesta la facturación electrónica en Argentina en 2026: ARCA, SaaS y desarrollo custom",
+  "metaTitle": "Cuánto cuesta facturación electrónica Argentina 2026",
+  "metaDescription": "ARCA (ex AFIP) gratis pero manual. Xubio gratis 10 facturas/mes. Alegra $2.599 ARS/mes. Integración custom: $500.000-$1.500.000 ARS.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["facturación electrónica", "ARCA ex AFIP", "factura electrónica Argentina", "Xubio", "facturación PyMEs"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "excel-vs-sistema-de-gestion", "como-ordenar-operacion-interna-pyme", "que-es-un-sistema-de-gestion"],
+  "content": {
+    "intro": "<p>La <strong>facturación electrónica en Argentina</strong> es obligatoria y se gestiona a través de <strong>ARCA (ex AFIP)</strong> — el organismo se rebrandeó en 2024 pero la operatoria es la misma. Facturar manualmente desde el sitio de ARCA es gratis. Si querés automatizar con un SaaS, los precios arrancan en $0 (Xubio, 10 facturas/mes gratis) y llegan a $5.000+ ARS/mes con sistemas completos como Colppy.</p><p>El problema no es el costo de la herramienta, sino las horas que perdés haciendo facturas a mano. Una PyME que emite 50+ facturas por mes y las hace una por una en ARCA está tirando 8-15 horas mensuales que podría dedicar a vender. Acá te mostramos todas las opciones con precios reales.</p>",
+    "sections": [
+      {
+        "heading": "Facturar gratis desde ARCA (ex AFIP): cómo funciona y cuándo deja de convenir",
+        "body": "<p><strong>ARCA</strong> (Agencia de Recaudación y Control Aduanero, la ex AFIP) te permite emitir facturas electrónicas gratis desde su portal web. Entrás con clave fiscal nivel 3+, seleccionás el punto de venta, cargás los datos del cliente, y emitís la factura tipo A, B o C según corresponda.</p><p>Es <strong>100% gratis</strong> y cumple con todos los requisitos legales. Funciona perfecto si emitís menos de 10-15 facturas por mes y no necesitás automatizar nada.</p><p>Deja de convenir cuando: emitís más de 20 facturas mensuales (el proceso manual se come horas), necesitás reportes automáticos para tu contador, querés integrar la facturación con tu sistema de ventas o ecommerce, o tenés que emitir facturas recurrentes (suscripciones, cuotas).</p><p>Otro problema: ARCA no genera reportes de IVA automáticos. Tu contador tiene que cruzar los datos manualmente. Con un SaaS de facturación, los reportes para el contador se generan con un click.</p><p>La facturación manual en ARCA es como usar <a href=\"/blog/excel-vs-sistema-de-gestion\">Excel para gestionar tu negocio</a>: funciona al principio, pero se vuelve insostenible cuando crecés.</p>"
+      },
+      {
+        "heading": "Plataformas SaaS de facturación electrónica: precios comparados",
+        "body": "<p>Las principales opciones de software de facturación para PyMEs argentinas en 2026:</p><p><strong>Xubio:</strong> plan gratuito con 10 facturas/mes (ideal para arrancar). Plan PyME desde $3.500 ARS/mes con facturas ilimitadas, reportes contables, y libro IVA automático. Excelente para monotributistas y PyMEs chicas. Interfaz intuitiva, soporte argentino.</p><p><strong>Alegra:</strong> desde $2.599 ARS/mes (plan básico, 15 facturas/mes). Plan PyME desde $5.999 ARS/mes con facturas ilimitadas, inventario básico, y reportes financieros. Tiene app mobile para facturar desde el celular.</p><p><strong>Colppy:</strong> desde $5.000 ARS/mes. Es más que facturación: incluye contabilidad, gestión de cobranzas, conciliación bancaria, y reportes avanzados. Orientado a estudios contables y PyMEs que necesitan un <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a> contable completo.</p><p><strong>Tango Factura:</strong> versión lite del sistema Tango, desde $4.000 ARS/mes. Si tu empresa ya usa Tango Gestión, es la extensión natural.</p><p><strong>Facturante:</strong> plan gratuito con 5 facturas/mes. Plan pago desde $2.000 ARS/mes. Interfaz simple, ideal para freelancers y monotributistas que solo necesitan facturar.</p><p>Todas estas plataformas se conectan con ARCA vía API (WSFE) para emitir facturas electrónicas válidas. La factura se genera en tu sistema y ARCA la autoriza automáticamente.</p>"
+      },
+      {
+        "heading": "Integración custom con sistema propio: cuándo conviene y cuánto sale",
+        "body": "<p>Si tu empresa tiene un sistema de gestión propio, un ecommerce custom, o un flujo de facturación complejo, necesitás una <strong>integración a medida con la API de ARCA</strong> (WSFE - Web Service de Facturación Electrónica).</p><p><strong>Costo de desarrollo:</strong> $500.000-$1.500.000 ARS dependiendo de la complejidad. El rango bajo es para una integración básica (emitir facturas A/B/C desde tu sistema). El rango alto incluye: notas de crédito/débito, facturas de exportación, factura electrónica de crédito (FCE), y manejo de múltiples puntos de venta.</p><p><strong>Tiempo de desarrollo:</strong> 2-6 semanas. La API de ARCA usa SOAP (tecnología antigua), tiene documentación mediocre, y un entorno de testing (homologación) que funciona distinto al productivo. No es un desarrollo trivial.</p><p><strong>Mantenimiento anual:</strong> $100.000-$300.000 ARS/año. ARCA cambia regulaciones y endpoints periódicamente. Si nadie mantiene la integración, un día deja de funcionar y no podés facturar.</p><p>¿Cuándo conviene el desarrollo custom? Si emitís más de 200 facturas/mes, si necesitás integración bidireccional con tu ERP o sistema de ventas, o si tu flujo de facturación tiene reglas de negocio específicas que ningún SaaS cubre. Para el resto, un SaaS de $3.000-5.000 ARS/mes te resuelve la vida sin desarrollo.</p>"
+      },
+      {
+        "heading": "MercadoPago y facturación automática para ecommerce",
+        "body": "<p>Si vendés online con <strong>MercadoPago</strong> como pasarela de pago, la facturación automática es clave para no ahogarte en tareas administrativas.</p><p><strong>Tiendanube + facturación:</strong> Tiendanube no emite facturas por sí solo. Necesitás un complemento. Las opciones más usadas: Xubio (se integra directo con Tiendanube), Afip Factura Plugin (gratuito, básico), o un desarrollo custom si tenés volumen alto.</p><p><strong>MercadoShops:</strong> la plataforma de ecommerce de MercadoLibre tampoco emite facturas electrónicas automáticas. Tenés que facturar por separado.</p><p>La realidad es que en Argentina, la <strong>integración entre ecommerce y facturación electrónica</strong> sigue siendo un dolor de cabeza. No existe una solución plug-and-play que funcione perfecto para todos los casos. Las PyMEs que venden 50+ pedidos/día y facturan manualmente están perdiendo horas de productividad todos los días.</p><p>La solución más eficiente: un <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistema de gestión</a> que integre ventas + stock + facturación en un solo lugar. Así, cuando se confirma un pedido, la factura se emite automáticamente y el stock se actualiza solo.</p>"
+      },
+      {
+        "heading": "Qué necesitás para empezar a facturar electrónicamente",
+        "body": "<p>Si estás arrancando o querés ordenar tu facturación, estos son los pasos concretos:</p><p><strong>1. Habilitá un punto de venta electrónico en ARCA.</strong> Entrá con clave fiscal nivel 3+, andá a \"Administración de puntos de venta\" y creá uno de tipo \"Factura electrónica - Web Service\" (si vas a usar un SaaS) o \"Comprobantes en línea\" (si vas a facturar manualmente desde el portal).</p><p><strong>2. Decidí tu herramienta.</strong> Menos de 10 facturas/mes: ARCA manual (gratis) o Xubio gratis. 10-50 facturas/mes: Xubio o Alegra pago ($2.599-$5.999 ARS/mes). Más de 50 facturas/mes: Colppy ($5.000+ ARS/mes) o integración custom.</p><p><strong>3. Configurá la conexión con ARCA.</strong> Si usás un SaaS, te pide el certificado digital y la clave fiscal. El proceso toma 15-30 minutos con la documentación del proveedor. Si hacés integración custom, necesitás un desarrollador que configure los Web Services (WSFE, WSAA).</p><p><strong>4. Emití facturas de prueba en homologación.</strong> Antes de facturar en producción, testeá en el entorno de pruebas de ARCA para asegurarte de que todo funcione.</p><p>Consejo: hablá con tu contador antes de elegir herramienta. Muchos contadores ya trabajan con Xubio o Colppy y prefieren que uses lo mismo para simplificar la contabilidad. Si tu contador te pide los archivos de ARCA manualmente, es momento de <a href=\"/blog/como-ordenar-operacion-interna-pyme\">ordenar tu operación</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta la facturación electrónica en Argentina?",
+        "answer": "Facturar manualmente desde ARCA (ex AFIP) es gratis. Los SaaS arrancan en $0 (Xubio, 10 facturas gratis) y llegan a $5.000+ ARS/mes (Colppy). Una integración custom con tu sistema propio cuesta entre $500.000 y $1.500.000 ARS de desarrollo."
+      },
+      {
+        "question": "¿Qué es ARCA y qué tiene que ver con AFIP?",
+        "answer": "ARCA (Agencia de Recaudación y Control Aduanero) es el nuevo nombre de la ex AFIP desde 2024. Cumple exactamente las mismas funciones: administración tributaria, facturación electrónica, y recaudación. Los sistemas, claves fiscales y procedimientos son los mismos."
+      },
+      {
+        "question": "¿Qué sistema de facturación electrónica conviene para una PyME?",
+        "answer": "Para monotributistas y PyMEs chicas: Xubio (gratis hasta 10 facturas/mes, pago desde $3.500 ARS/mes). Para PyMEs que necesitan contabilidad integrada: Colppy (desde $5.000 ARS/mes). Para facturar desde el celular: Alegra (desde $2.599 ARS/mes)."
+      },
+      {
+        "question": "¿Es obligatoria la factura electrónica en Argentina?",
+        "answer": "Sí, es obligatoria para todos los contribuyentes (monotributistas y responsables inscriptos) desde hace años. No existe la opción de factura en papel. Toda factura A, B o C debe emitirse electrónicamente y ser autorizada por ARCA."
+      },
+      {
+        "question": "¿Puedo integrar la facturación electrónica con mi tienda online?",
+        "answer": "Sí. Xubio se integra directo con Tiendanube. Para otras plataformas (WooCommerce, custom) necesitás desarrollo a medida ($500.000-$1.500.000 ARS). MercadoPago y MercadoShops no emiten facturas electrónicas automáticamente, hay que facturar por separado o integrar con un SaaS."
+      }
+    ],
+    "ctaText": "¿Necesitás integrar la facturación electrónica con tu sistema de ventas o ecommerce? En SODI desarrollamos integraciones con ARCA a medida. Pedí tu diagnóstico gratuito."
+  }
+}

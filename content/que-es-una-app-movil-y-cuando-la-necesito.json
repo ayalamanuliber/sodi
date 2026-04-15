@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-una-app-movil-y-cuando-la-necesito",
+  "title": "Qué es una app móvil y cuándo la necesitás: la verdad para PyMEs argentinas",
+  "metaTitle": "Qué es una App Móvil y Cuándo la Necesitás | 2026",
+  "metaDescription": "Nativa, híbrida o PWA: qué tipo de app móvil existe, cuánto cuesta en Argentina y cuándo una PyME realmente necesita una vs una web responsive.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["app móvil", "desarrollo mobile", "PWA", "tecnología", "PyMEs"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-app-movil-argentina", "desarrollar-app-vs-usar-plataforma", "que-es-desarrollo-web-a-medida", "que-es-ux-y-por-que-importa"],
+  "content": {
+    "intro": "<p>\"Necesito una app para mi negocio\" es una de las frases más comunes (y más caras) que escuchamos. La realidad: <strong>la mayoría de las PyMEs argentinas no necesitan una app móvil</strong>. Lo que necesitan es una web responsive que funcione bien en celulares. Pero hay casos donde una app sí tiene sentido, y es importante entender la diferencia.</p><p>Una <strong>app móvil</strong> es un programa que se instala en el celular del usuario (desde la App Store o Google Play). A diferencia de una web, que se abre desde el navegador, una app vive en el teléfono y puede acceder a funciones como cámara, GPS, notificaciones push y almacenamiento offline. La pregunta no es \"¿qué es una app?\" sino <strong>\"¿tu negocio realmente necesita una?\"</strong>. Vamos a eso.</p>",
+    "sections": [
+      {
+        "heading": "Tipos de apps: nativa, híbrida y PWA",
+        "body": "<p>No todas las apps son iguales. Hay tres tipos principales y cada uno tiene un costo y capacidad muy diferente:</p><h3>App nativa</h3><p>Se desarrolla específicamente para <strong>iOS (Swift) o Android (Kotlin)</strong> por separado. Es la que mejor rendimiento tiene y la que accede a todas las funcionalidades del teléfono.</p><ul><li><strong>Ventajas:</strong> rendimiento óptimo, acceso total al hardware (cámara, GPS, sensores), mejor experiencia de usuario.</li><li><strong>Desventajas:</strong> la más cara (tenés que desarrollar dos apps, una por plataforma), tiempos de desarrollo largos, actualizaciones duplicadas.</li><li><strong>Costo en Argentina:</strong> desde $3.000.000 ARS (app simple) hasta $15.000.000+ ARS (app compleja con backend).</li></ul><h3>App híbrida (React Native, Flutter)</h3><p>Se programa <strong>una sola vez</strong> y funciona tanto en iOS como en Android. Usa frameworks como React Native o Flutter que compilan a código nativo.</p><ul><li><strong>Ventajas:</strong> un solo desarrollo para ambas plataformas, más barata que nativa, rendimiento muy bueno (95% comparable a nativo).</li><li><strong>Desventajas:</strong> limitaciones en funcionalidades muy específicas del hardware, dependencia del framework.</li><li><strong>Costo en Argentina:</strong> desde $1.500.000 ARS (app simple) hasta $8.000.000+ ARS (app compleja).</li></ul><h3>PWA (Progressive Web App)</h3><p>Es una <strong>web que se comporta como app</strong>. Se puede \"instalar\" desde el navegador, funciona offline, envía notificaciones push y se ve como una app nativa. Pero técnicamente es una web.</p><ul><li><strong>Ventajas:</strong> la más barata, no necesita aprobación de App Store/Google Play, se actualiza instantáneamente, funciona en cualquier dispositivo.</li><li><strong>Desventajas:</strong> acceso limitado al hardware, no aparece en las tiendas de apps (aunque se puede listar con wrappers), menos funcionalidades que una app nativa.</li><li><strong>Costo en Argentina:</strong> desde $500.000 ARS hasta $3.000.000 ARS.</li></ul>"
+      },
+      {
+        "heading": "Cuándo una PyME necesita una app (de verdad)",
+        "body": "<p>Antes de gastar millones en una app, revisá si tu caso realmente lo justifica. <strong>Necesitás una app si:</strong></p><ul><li><strong>Tus usuarios necesitan funcionalidad offline:</strong> si tu servicio se usa en contextos sin internet (campo, obras, transporte), una app que funcione offline es necesaria.</li><li><strong>Necesitás acceso avanzado al hardware:</strong> cámara para escanear productos, GPS para tracking en tiempo real, Bluetooth para conectar dispositivos, sensores para mediciones. Si tu funcionalidad depende del hardware del celular, necesitás una app.</li><li><strong>Tus usuarios interactúan diariamente:</strong> si tu producto es de uso diario o muy frecuente (app de delivery, app de fitness, app de gestión), la app en el home screen del celular reduce la fricción de acceso.</li><li><strong>Las notificaciones push son core de tu negocio:</strong> recordatorios de turnos, alertas de pedidos, actualizaciones en tiempo real. Sí, las PWAs envían notificaciones, pero las apps nativas tienen mejor entrega.</li></ul><p><strong>No necesitás una app si:</strong></p><ul><li>Querés \"tener presencia mobile\" — para eso alcanza una web responsive.</li><li>Tu usuario te visita 1-2 veces al mes — no va a instalar una app por eso.</li><li>Tu funcionalidad es informativa (catálogo, portfolio, blog) — una web lo resuelve mejor y más barato.</li><li>No tenés presupuesto para mantenerla — una app sin actualizaciones ni mantenimiento es peor que no tener app.</li></ul>"
+      },
+      {
+        "heading": "La alternativa que nadie te cuenta: web responsive + PWA",
+        "body": "<p>Para el 80% de las PyMEs argentinas, la mejor solución no es una app nativa sino una <strong>web responsive bien hecha</strong> o, como mucho, una <strong>PWA</strong>. Por qué:</p><h3>La web responsive cubre el 90% de los casos</h3><p>Una web que se adapta al celular te permite mostrar productos, tomar pedidos, agendar turnos, recibir consultas y vender online. Todo desde el navegador, sin que el usuario tenga que instalar nada. En Argentina, donde el almacenamiento del celular es un recurso escaso para muchos usuarios, esto es una ventaja enorme.</p><h3>La PWA cierra la brecha</h3><p>Si necesitás algo más que una web pero no justificás una app nativa, la PWA es tu mejor opción. Ofrece:</p><ul><li>Instalación desde el navegador (aparece como ícono en el home screen)</li><li>Funciona offline o con mala conexión</li><li>Notificaciones push (en Android, en iOS desde 2023)</li><li>Carga rápida y experiencia similar a app nativa</li></ul><p>El costo de una PWA es una fracción del de una app nativa. Y la podés evolucionar: si después necesitás funcionalidades nativas, podés envolver la PWA en un wrapper para las tiendas o desarrollar módulos nativos puntuales.</p><h3>El costo de mantener una app es más que desarrollarla</h3><p>Esto es lo que muchos no te cuentan: desarrollar la app es solo el principio. Después tenés que pagar <strong>mantenimiento mensual</strong> ($80.000-$300.000 ARS/mes), actualizar cada vez que iOS o Android sacan una nueva versión, corregir bugs, agregar funcionalidades. Si no tenés presupuesto para eso, la app se degrada y termina siendo peor que una web.</p>"
+      },
+      {
+        "heading": "Cómo decidir: el framework de decisión para tu PyME",
+        "body": "<p>Usá este proceso para decidir qué necesitás realmente:</p><h3>Paso 1: Definí qué problema resolvés</h3><p>\"Quiero una app\" no es un problema. \"Mis clientes no pueden ver el estado de su pedido en tiempo real\" sí lo es. Empezá por el problema, no por la solución.</p><h3>Paso 2: ¿Una web lo resuelve?</h3><p>Si la respuesta es sí — y en el 80% de los casos lo es — hacé una web responsive y listo. Es más barata, más rápida de desarrollar y más fácil de mantener.</p><h3>Paso 3: ¿Necesitás funcionalidades offline, hardware o uso diario?</h3><p>Si la respuesta es sí, considerá una PWA primero. Solo si la PWA no cubre tus necesidades técnicas (necesitás Bluetooth, NFC, sensores avanzados), ahí sí pensá en una app híbrida o nativa.</p><h3>Paso 4: ¿Tenés presupuesto para el desarrollo Y el mantenimiento?</h3><p>Si podés pagar el desarrollo pero no el mantenimiento mensual, no hagas la app. Una app sin mantenimiento se rompe en 6-12 meses cuando las tiendas actualizan sus requisitos.</p><h3>Paso 5: ¿Cuántos usuarios van a instalar la app?</h3><p>Si estimás menos de 1.000 usuarios activos mensuales, una app no tiene sentido económico. El costo por usuario es demasiado alto. Invertí en una web que llegue a más gente.</p>"
+      },
+      {
+        "heading": "Costos reales de apps en Argentina en 2026",
+        "body": "<p>Para que tengas números concretos antes de tomar una decisión:</p><h3>Desarrollo (precio único)</h3><ul><li><strong>PWA simple:</strong> $500.000-$1.500.000 ARS</li><li><strong>App híbrida simple</strong> (Flutter/React Native): $1.500.000-$4.000.000 ARS</li><li><strong>App híbrida compleja</strong> (con backend, integraciones, pagos): $4.000.000-$8.000.000 ARS</li><li><strong>App nativa</strong> (iOS + Android por separado): $3.000.000-$15.000.000+ ARS</li></ul><h3>Mantenimiento mensual</h3><ul><li><strong>PWA:</strong> $30.000-$80.000 ARS/mes</li><li><strong>App híbrida:</strong> $80.000-$200.000 ARS/mes</li><li><strong>App nativa:</strong> $150.000-$400.000 ARS/mes</li></ul><h3>Costos ocultos</h3><ul><li><strong>Cuenta de desarrollador Apple:</strong> $99 USD/año</li><li><strong>Cuenta de desarrollador Google:</strong> $25 USD (pago único)</li><li><strong>Servidor/backend:</strong> $20-200 USD/mes según uso</li><li><strong>Actualizaciones por cambios de OS:</strong> cada 6-12 meses, Apple y Google sacan nuevos requisitos. Si no actualizás, tu app puede desaparecer de la tienda.</li></ul><p>Para dimensionar tu inversión, revisá nuestra <a href=\"/blog/cuanto-cuesta-app-movil-argentina\">guía de precios de apps en Argentina</a>. Y si estás decidiendo entre desarrollar desde cero o usar una plataforma, mirá <a href=\"/blog/desarrollar-app-vs-usar-plataforma\">desarrollar app vs usar plataforma</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Mi negocio necesita una app o alcanza con una web?",
+        "answer": "Para la mayoría de las PyMEs argentinas, una web responsive es suficiente. Necesitás una app solo si tus usuarios la van a usar a diario, necesitás funcionalidad offline o acceso avanzado al hardware del celular (cámara, GPS, Bluetooth). Si tu usuario te visita una vez al mes, no va a instalar una app por eso."
+      },
+      {
+        "question": "¿Qué es una PWA y conviene más que una app nativa?",
+        "answer": "Una PWA (Progressive Web App) es una web que se comporta como app: se instala desde el navegador, funciona offline y envía notificaciones. Conviene más que una app nativa cuando no necesitás acceso avanzado al hardware, porque cuesta una fracción y es mucho más fácil de mantener."
+      },
+      {
+        "question": "¿Cuánto cuesta desarrollar una app en Argentina?",
+        "answer": "Depende del tipo. Una PWA simple arranca en $500.000 ARS, una app híbrida (Flutter/React Native) desde $1.500.000 ARS y una app nativa desde $3.000.000 ARS. Pero el desarrollo es solo el principio: sumá $80.000-$400.000 ARS/mes de mantenimiento."
+      },
+      {
+        "question": "¿Cuánto tarda en desarrollarse una app?",
+        "answer": "Una PWA simple: 1-2 meses. Una app híbrida: 2-4 meses. Una app nativa compleja: 4-8 meses. Estos tiempos asumen que tenés claros los requerimientos. Si el scope cambia durante el desarrollo (cosa que pasa siempre), sumá 30-50% más de tiempo."
+      },
+      {
+        "question": "¿Puedo arrancar con una web y después hacer una app?",
+        "answer": "Sí, y es la estrategia más inteligente. Arrancá con una web responsive, validá que tu producto o servicio digital tiene tracción, y cuando tengas usuarios suficientes y necesidades que la web no cubre, ahí invertí en una app. Muchas startups exitosas arrancaron como web antes de lanzar su app."
+      }
+    ],
+    "ctaText": "¿No estás seguro si necesitás una app o una web? En SODI te asesoramos sin compromiso. Analizamos tu caso y te recomendamos la solución que realmente necesita tu negocio, sin venderte más de lo que hace falta. Contactanos."
+  }
+}

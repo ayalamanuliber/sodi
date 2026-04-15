@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-inteligencia-artificial-para-empresas",
+  "title": "Qué es la Inteligencia Artificial para Empresas: Guía Simple",
+  "metaTitle": "Qué es la Inteligencia Artificial para Empresas | SODI",
+  "metaDescription": "Explicación simple de qué es la IA para dueños de negocios. Tipos de IA, usos reales, qué es hype y qué funciona hoy para empresas argentinas.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["inteligencia artificial", "IA para empresas", "chatbots", "automatización", "IA generativa"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["inteligencia-artificial-para-pymes-argentina", "como-usar-chatgpt-para-mi-negocio", "herramientas-ia-gratuitas-emprendedores", "que-es-automatizacion-para-empresas"],
+  "content": {
+    "intro": "<p>\"Inteligencia Artificial\" suena a ciencia ficción, pero la realidad es mucho más mundana (y útil). Si usás el corrector automático del celular, las recomendaciones de Netflix o el filtro de spam de tu email, ya estás usando IA todos los días. Para tu negocio, la IA es simplemente software que aprende de datos y toma decisiones que antes solo podía tomar una persona.</p><p>En esta guía te explicamos en términos simples qué tipos de IA existen, cuáles son los usos reales para empresas hoy, y cómo separar lo que funciona del puro marketing. Sin tecnicismos innecesarios.</p>",
+    "sections": [
+      {
+        "heading": "Qué es la IA en términos que se entienden",
+        "body": "<p>La inteligencia artificial es un conjunto de tecnologías que permiten a las computadoras hacer cosas que normalmente requieren inteligencia humana: entender texto, reconocer imágenes, tomar decisiones, predecir resultados y generar contenido.</p><p>No es una sola tecnología. Son varias, y cada una sirve para cosas diferentes:</p><ul><li><strong>Machine Learning (Aprendizaje Automático):</strong> El software aprende de datos históricos para hacer predicciones. Ejemplo: un sistema que aprende de tus ventas pasadas para predecir cuánto vas a vender el próximo mes.</li><li><strong>Procesamiento de Lenguaje Natural (NLP):</strong> La computadora entiende y genera texto humano. Es lo que hace que un chatbot pueda entender tu pregunta y responder de forma coherente.</li><li><strong>Visión por Computadora:</strong> La computadora entiende imágenes. Ejemplo: un sistema que lee automáticamente los datos de una factura escaneada.</li></ul><p>Lo que cambió todo en los últimos años es la <strong>IA generativa</strong>: modelos como ChatGPT, Claude o Gemini que pueden generar texto, imágenes, código y más. Esto hizo que la IA sea accesible para cualquier empresa, no solo para corporaciones con equipos de data science.</p>"
+      },
+      {
+        "heading": "Los tres tipos de IA que le importan a tu negocio",
+        "body": "<p>Olvidate de la clasificación académica. Para tu negocio, hay tres tipos de IA que importan:</p><p><strong>1. IA Generativa (la que crea contenido):</strong></p><ul><li>Genera textos, imágenes, videos, código</li><li>Herramientas: ChatGPT, Claude, Gemini, Midjourney, DALL-E</li><li>Usos en tu negocio: escribir emails, crear posts para redes, generar descripciones de productos, armar presentaciones, resumir documentos largos</li><li>Costo: muchas tienen versión gratuita. Las versiones pagas van de USD 10-25/mes</li></ul><p><strong>2. Chatbots y Agentes de IA (los que atienden):</strong></p><ul><li>Responden consultas de clientes por WhatsApp, web o redes sociales</li><li>Pueden tomar pedidos, agendar citas, calificar leads</li><li>Funcionan 24/7 sin descanso</li><li>Costo: desde USD 50/mes dependiendo de la complejidad</li></ul><p><strong>3. Automatización con IA (la que trabaja sola):</strong></p><ul><li>Procesa datos, genera reportes, clasifica información, ejecuta tareas repetitivas</li><li>Se conecta entre tus herramientas (email, planillas, CRM, ecommerce)</li><li>Herramientas: Zapier, Make, n8n con módulos de IA</li><li>Costo: desde USD 10-50/mes</li></ul><p>La mayoría de las PyMEs argentinas deberían empezar por el tipo 1 (usar IA generativa para crear contenido y ahorrar tiempo) y después avanzar al tipo 2 o 3 según su necesidad.</p>"
+      },
+      {
+        "heading": "Usos reales de IA en empresas argentinas hoy",
+        "body": "<p>Dejemos de lado las promesas futuristas. Esto es lo que empresas argentinas reales están haciendo con IA hoy:</p><p><strong>Atención al cliente automatizada:</strong> Inmobiliarias, clínicas y ecommerce usan chatbots de IA en WhatsApp para responder consultas las 24 horas. Un chatbot bien configurado resuelve el 60-70% de las consultas sin intervención humana.</p><p><strong>Generación de contenido:</strong> Estudios de marketing, medios y emprendedores usan ChatGPT o Claude para generar borradores de artículos, newsletters, posts de redes sociales y descripciones de productos. No reemplaza al creativo, pero lo hace 3-5 veces más productivo.</p><p><strong>Análisis de datos:</strong> Contadores y analistas usan IA para procesar planillas grandes, encontrar patrones en ventas, y generar resúmenes ejecutivos. Lo que antes tomaba un día, ahora toma 20 minutos.</p><p><strong>Procesamiento de documentos:</strong> Estudios jurídicos y empresas de logística usan IA para leer contratos, facturas y formularios, extraer datos clave y cargarlos en sus sistemas automáticamente.</p><p><strong>Marketing personalizado:</strong> Ecommerce que usan IA para recomendar productos basándose en el historial de compra, personalizar emails y optimizar campañas publicitarias.</p>"
+      },
+      {
+        "heading": "IA: qué es hype y qué funciona de verdad",
+        "body": "<p>Hay mucho ruido alrededor de la IA. Acá te separamos lo que funciona hoy de lo que es puro marketing:</p><p><strong>Funciona de verdad:</strong></p><ul><li>Chatbots para atención al cliente en WhatsApp y web</li><li>Generación de borradores de contenido (textos, emails, posts)</li><li>Automatización de tareas repetitivas (data entry, reportes, clasificación)</li><li>Procesamiento de documentos (facturas, formularios)</li><li>Asistentes de búsqueda sobre tus propios datos</li></ul><p><strong>Funciona pero con limitaciones:</strong></p><ul><li>Generación de imágenes (buena para borradores, no siempre lista para publicar)</li><li>Traducción automática (excelente para contexto general, puede fallar en jerga técnica)</li><li>Análisis predictivo (necesitás datos históricos limpios y en cantidad)</li></ul><p><strong>Más hype que realidad (por ahora):</strong></p><ul><li>\"La IA va a reemplazar a todos tus empleados\" — No. Va a hacer que sean más productivos.</li><li>\"Un bot de IA maneja tu negocio solo\" — No. Necesita supervisión, datos buenos y mantenimiento constante.</li><li>\"La IA entiende tu negocio mejor que vos\" — No. Es una herramienta. Si le das datos malos, te da resultados malos.</li></ul><p>La IA es como un empleado muy rápido pero sin criterio propio. Hace lo que le pedís a velocidad sobrehumana, pero necesita que le des instrucciones claras y revises su trabajo.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta implementar IA en tu empresa",
+        "body": "<p>Los costos dependen de qué querés hacer:</p><p><strong>Nivel 1 — Uso personal de IA generativa (USD 0-25/mes):</strong></p><ul><li>Versiones gratuitas de ChatGPT, Claude, Gemini</li><li>Para generar contenido, resolver consultas, analizar textos</li><li>No requiere implementación, empezás hoy</li></ul><p><strong>Nivel 2 — Chatbot de IA para atención al cliente (USD 50-200/mes):</strong></p><ul><li>Plataformas como Aurora Inbox, Whato o BotConversa</li><li>Setup inicial: $100.000-400.000 ARS si lo tercierizás</li><li>Atención 24/7 en WhatsApp y/o web</li></ul><p><strong>Nivel 3 — Automatización de procesos (USD 15-100/mes):</strong></p><ul><li>Zapier, Make o n8n + APIs de IA</li><li>Setup inicial: $150.000-500.000 ARS dependiendo de la complejidad</li><li>Automatización de facturación, reportes, redes sociales, etc.</li></ul><p><strong>Nivel 4 — Solución a medida (desde USD 500/mes):</strong></p><ul><li>Desarrollo custom con APIs de IA</li><li>Para necesidades específicas que no cubren las herramientas estándar</li><li>Requiere un equipo de desarrollo o una agencia especializada</li></ul><p>La mayoría de las PyMEs pueden obtener beneficios enormes con los niveles 1 y 2. No necesitás llegar al nivel 4 para ver resultados.</p>"
+      },
+      {
+        "heading": "Cómo empezar con IA en tu empresa sin complicarte",
+        "body": "<p>La mejor forma de arrancar es simple y pragmática:</p><ol><li><strong>Empezá usando IA vos mismo:</strong> Creá una cuenta gratuita en ChatGPT o Claude. Usala durante 2 semanas para tus tareas diarias: escribir emails, analizar información, generar ideas. Vas a entender rápido qué puede y qué no puede hacer.</li><li><strong>Identificá una tarea repetitiva que te consume tiempo:</strong> Puede ser responder las mismas preguntas por WhatsApp, cargar datos en planillas, o escribir descripciones de productos. Esa es tu primera candidata a automatizar.</li><li><strong>Empezá con una herramienta simple:</strong> No necesitás un desarrollo a medida. Herramientas como Zapier o un chatbot preconfigurado te dan resultados en días, no meses.</li><li><strong>Medí el impacto:</strong> Cuánto tiempo ahorraste, cuántas consultas resolvió el bot, cuántos errores evitaste. Los números te van a decir si escalar o ajustar.</li><li><strong>Iterá y expandí:</strong> Una vez que la primera automatización funciona, sumá la siguiente. De a una por vez.</li></ol><p>El peor error es querer implementar IA en toda tu empresa de golpe. Empezá chico, aprendé, y escalá con datos que respalden la inversión.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿La IA va a reemplazar empleados en mi empresa?",
+        "answer": "En la mayoría de los casos, no. La IA reemplaza tareas, no personas. Tus empleados van a dedicar menos tiempo a tareas repetitivas y más a lo que requiere criterio humano: vender, negociar, crear, resolver problemas complejos."
+      },
+      {
+        "question": "¿Necesito un equipo técnico para implementar IA?",
+        "answer": "Para los niveles básicos (IA generativa, chatbots, automatizaciones simples), no. Las herramientas actuales son muy accesibles. Para soluciones a medida sí necesitás soporte técnico, pero podés tercierizarlo."
+      },
+      {
+        "question": "¿Es seguro usar IA con datos de mis clientes?",
+        "answer": "Depende de la herramienta y de cómo la uses. Las APIs pagas de OpenAI y Anthropic no usan tus datos para entrenar sus modelos. Pero evitá compartir datos sensibles en versiones gratuitas. Consultá con tu asesor legal para cumplir con la normativa de protección de datos."
+      },
+      {
+        "question": "¿Cuánto tarda en verse el retorno de la inversión?",
+        "answer": "Para IA generativa (escribir contenido, analizar datos), el retorno es inmediato: ahorrás tiempo desde el primer día. Para chatbots y automatizaciones, generalmente ves resultados claros en 30-60 días después de la implementación."
+      }
+    ],
+    "ctaText": "¿Querés implementar inteligencia artificial en tu empresa y no sabés por dónde empezar? En SODI te asesoramos, armamos la estrategia y la implementamos. Sin tecnicismos, con resultados. Escribinos."
+  }
+}

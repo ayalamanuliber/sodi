@@ -1,0 +1,61 @@
+{
+  "slug": "google-workspace-vs-microsoft-365-argentina",
+  "title": "Google Workspace vs Microsoft 365 en Argentina: cuál conviene para tu equipo y precios 2026",
+  "metaTitle": "Google Workspace vs Microsoft 365 Argentina 2026",
+  "metaDescription": "Workspace $7.20 USD/usuario/mes, M365 $6 USD/usuario/mes. Workspace para equipos chicos y colaboración. M365 para Excel-heavy y empresas grandes.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["Google Workspace", "Microsoft 365", "productividad", "email empresarial", "herramientas colaborativas"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["como-centralizar-informacion-empresa", "como-digitalizar-mi-empresa", "excel-vs-sistema-de-gestion", "como-escalar-operacion-sin-contratar"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> Google Workspace es mejor para equipos chicos (hasta 20 personas) que priorizan colaboración en tiempo real y simplicidad. Microsoft 365 conviene para empresas que dependen fuertemente de Excel avanzado, macros de Office o necesitan Active Directory. Para la PyME argentina promedio, Workspace es la opción más práctica.</p><p>En precios, la diferencia es mínima: Workspace Business Starter sale $7.20 USD/usuario/mes y M365 Business Basic $6 USD/usuario/mes. La decisión no pasa por el precio sino por cómo trabaja tu equipo. Si ya están en Gmail y Google Drive, cambiarse a Microsoft no tiene sentido. Y viceversa.</p>",
+    "sections": [
+      {
+        "heading": "Tabla comparativa: Google Workspace vs Microsoft 365",
+        "body": "<table><thead><tr><th>Criterio</th><th>Google Workspace</th><th>Microsoft 365</th></tr></thead><tbody><tr><td><strong>Precio base</strong></td><td>$7.20 USD/usuario/mes (Business Starter)</td><td>$6 USD/usuario/mes (Business Basic)</td></tr><tr><td><strong>Costo 10 usuarios/mes</strong></td><td>$72 USD (~$86.400 ARS)</td><td>$60 USD (~$72.000 ARS)</td></tr><tr><td><strong>Email empresarial</strong></td><td>Gmail con dominio propio</td><td>Outlook con dominio propio</td></tr><tr><td><strong>Almacenamiento</strong></td><td>30 GB/usuario (Starter), 2 TB (Business Plus)</td><td>1 TB/usuario (desde Business Basic)</td></tr><tr><td><strong>Ofimática</strong></td><td>Docs, Sheets, Slides (web)</td><td>Word, Excel, PowerPoint (web + desktop)</td></tr><tr><td><strong>Colaboración en tiempo real</strong></td><td>Nativa y fluida</td><td>Funciona, pero menos intuitiva</td></tr><tr><td><strong>Videoconferencia</strong></td><td>Google Meet (100 participantes)</td><td>Microsoft Teams (300 participantes)</td></tr><tr><td><strong>Macros / VBA</strong></td><td>Apps Script (limitado)</td><td>VBA completo en Excel desktop</td></tr><tr><td><strong>App desktop</strong></td><td>No (todo en navegador)</td><td>Sí (desde Business Standard $12.50/usuario)</td></tr><tr><td><strong>Curva de aprendizaje</strong></td><td>Mínima si usás Gmail</td><td>Media — Teams y Outlook tienen complejidad</td></tr></tbody></table><p>El punto clave: Google vive en el navegador y es más ágil. Microsoft vive en el escritorio y es más potente en hojas de cálculo avanzadas. Para una PyME que necesita email profesional, almacenamiento y herramientas básicas de oficina, ambas funcionan. La diferencia está en los detalles.</p>"
+      },
+      {
+        "heading": "Google Workspace: para quién funciona mejor",
+        "body": "<p>Workspace es ideal cuando:</p><ul><li><strong>Tu equipo ya usa Gmail y Google Drive.</strong> No hay transición. Activás el plan, conectás tu dominio, y seguís trabajando como antes pero con email profesional.</li><li><strong>La colaboración en tiempo real es clave.</strong> Google Docs permite que 10 personas editen un documento al mismo tiempo sin conflictos. Microsoft mejoró mucho en esto, pero Google sigue siendo superior.</li><li><strong>No necesitás Excel avanzado.</strong> Google Sheets cubre el 90% de los usos de una PyME. Si no usás macros, tablas dinámicas complejas o Power Query, Sheets alcanza.</li><li><strong>Querés simplicidad.</strong> Todo funciona desde el navegador, sin instalar nada. Actualizaciones automáticas, cero mantenimiento.</li></ul><p>El plan Business Starter ($7.20 USD/usuario) cubre email, Drive (30 GB), Meet, Docs, Sheets y Slides. Para la mayoría de las PyMEs argentinas, esto es más que suficiente.</p>"
+      },
+      {
+        "heading": "Microsoft 365: para quién funciona mejor",
+        "body": "<p>M365 conviene cuando:</p><ul><li><strong>Dependés de Excel avanzado.</strong> Macros, VBA, Power Query, tablas dinámicas complejas, modelos financieros — nada reemplaza a Excel desktop para esto.</li><li><strong>Necesitás apps de escritorio.</strong> Si tu equipo prefiere Word y PowerPoint instalados (no en el navegador), M365 Business Standard ($12.50 USD/usuario) incluye las apps desktop completas.</li><li><strong>Usás Teams como hub de comunicación.</strong> Teams integra chat, videollamadas, archivos y apps en un solo lugar. Para empresas con 20+ personas, la organización por canales de Teams es superior a Google Chat.</li><li><strong>Tu industria lo exige.</strong> Estudios contables, consultoras financieras y ciertos rubros tienen plantillas y workflows armados en Excel/Word que son difíciles de migrar.</li></ul><p>El plan Business Basic ($6 USD/usuario) incluye apps web + 1 TB de OneDrive + Teams. Para apps desktop, necesitás el Business Standard ($12.50 USD/usuario), lo que eleva el costo de 10 usuarios a $125 USD/mes (~$150.000 ARS/mes).</p>"
+      },
+      {
+        "heading": "Costos reales en Argentina con impuestos 2026",
+        "body": "<p>Ambos servicios se pagan en dólares con tarjeta internacional. Con impuestos (IVA + percepción de ganancias), el costo real es ~30% más que el precio de lista:</p><ul><li><strong>Google Workspace Starter (10 usuarios):</strong> $72 USD + impuestos = ~$112.000 ARS/mes.</li><li><strong>Google Workspace Business Plus (10 usuarios):</strong> $180 USD + impuestos = ~$280.000 ARS/mes.</li><li><strong>M365 Business Basic (10 usuarios):</strong> $60 USD + impuestos = ~$94.000 ARS/mes.</li><li><strong>M365 Business Standard (10 usuarios):</strong> $125 USD + impuestos = ~$195.000 ARS/mes.</li></ul><p>Ambos ofrecen facturación anual con descuento (~20% menos). Si podés pagar anual, conviene. También existen resellers argentinos que facturan en pesos y pueden conseguir precios especiales, especialmente para Microsoft 365. Consultá con tu contador sobre la deducción impositiva — es un gasto deducible para monotributistas y responsables inscriptos.</p>"
+      },
+      {
+        "heading": "Cómo elegir: la pregunta que define todo",
+        "body": "<p>Hacete una sola pregunta: <strong>¿tu equipo vive en el navegador o en el escritorio?</strong></p><ul><li>Si la respuesta es <strong>navegador</strong> → Google Workspace. Todo funciona en Chrome, sin instalar nada, y la colaboración es instantánea.</li><li>Si la respuesta es <strong>escritorio</strong> → Microsoft 365. Las apps instaladas de Office siguen siendo más potentes para trabajo individual pesado.</li></ul><p>Para la PyME argentina promedio de 3-10 personas que necesita email profesional, almacenamiento en la nube y herramientas de oficina básicas, <strong>Google Workspace Business Starter es la opción más práctica</strong>. Es fácil de configurar, no requiere soporte técnico y tu equipo probablemente ya sabe usar Gmail.</p><p>Eso sí: sea cual sea tu elección, lo importante es <a href=\"/blog/como-centralizar-informacion-empresa\">centralizar la información de tu empresa</a> en un solo lugar. Tener archivos en 5 PCs distintas sin backup en la nube es una bomba de tiempo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo usar Gmail con mi dominio propio sin pagar Google Workspace?",
+        "answer": "No. Para usar tu@tuempresa.com.ar con Gmail necesitás Google Workspace (mínimo $7.20 USD/usuario/mes). La alternativa gratuita es configurar tu dominio con un servicio de hosting que incluya email, pero perdés las ventajas de Google (Drive, Docs, Meet integrados)."
+      },
+      {
+        "question": "¿Google Sheets reemplaza a Excel para una PyME?",
+        "answer": "Para el 90% de los usos sí: listas de clientes, presupuestos, seguimiento de ventas, reportes básicos. Donde no reemplaza es en macros VBA, Power Query, tablas dinámicas avanzadas y modelos financieros complejos. Si tu negocio depende de esas funciones, necesitás Excel."
+      },
+      {
+        "question": "¿Puedo cambiar de Google Workspace a Microsoft 365 después?",
+        "answer": "Sí, pero la migración de emails y archivos requiere planificación. Herramientas como BitTitan o CloudM automatizan el proceso. Calculá 1-2 semanas para una migración limpia de 10 usuarios. Lo más importante: avisale a tus clientes si cambiás de dominio de email."
+      },
+      {
+        "question": "¿Cuál es más seguro para datos empresariales?",
+        "answer": "Ambos tienen seguridad enterprise: cifrado en tránsito y en reposo, autenticación de dos factores, y cumplimiento de estándares internacionales (SOC 2, ISO 27001). Para una PyME, la seguridad es comparable. La diferencia está en las políticas de administración avanzadas (dispositivos, DLP), donde Microsoft tiene una ligera ventaja."
+      },
+      {
+        "question": "¿Puedo usar Microsoft 365 gratis?",
+        "answer": "Microsoft ofrece versiones web gratuitas de Word, Excel y PowerPoint en office.com, pero sin email con dominio propio ni almacenamiento empresarial. Para un uso empresarial real (email @tuempresa, OneDrive, Teams), necesitás un plan pago desde $6 USD/usuario/mes."
+      }
+    ],
+    "ctaText": "¿Necesitás configurar Google Workspace o Microsoft 365 para tu empresa? En SODI te ayudamos con la migración, configuración y capacitación de tu equipo. Pedí tu diagnóstico gratuito."
+  }
+}

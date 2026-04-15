@@ -1,0 +1,61 @@
+{
+  "slug": "chatgpt-vs-programador-argentina",
+  "title": "ChatGPT vs contratar un programador en Argentina: qué conviene realmente en 2026",
+  "metaTitle": "ChatGPT vs programador Argentina: qué conviene",
+  "metaDescription": "ChatGPT cuesta $0-20 USD/mes, un dev mid $800.000-$2.000.000 ARS/mes. Pero ChatGPT no deployea, no mantiene ni debuggea. Cuándo sirve cada opción.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["chatgpt", "programador", "desarrollo web", "inteligencia artificial", "software a medida"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["contratar-programador-vs-agencia", "cuanto-cuesta-software-a-medida-argentina", "software-a-medida-vs-estandar", "cuanto-cuesta-app-movil-argentina"],
+  "content": {
+    "intro": "<p><strong>Veredicto directo:</strong> ChatGPT es una <strong>herramienta para programadores</strong>, no un reemplazo. Es como preguntarse si un bisturí reemplaza a un cirujano — el instrumento sin la persona que sabe usarlo no sirve de nada. ChatGPT genera código, pero no lo deployea, no lo mantiene, no lo testea en producción y no se hace responsable cuando algo se rompe a las 3 de la mañana.</p><p>La confusión viene de que ChatGPT puede generar código que <strong>parece funcional</strong> en una ventana de chat. Pero entre \"código que anda en un chat\" y \"software en producción que no se cae\" hay un abismo de conocimiento, infraestructura y mantenimiento que cuesta entre $800.000 y $2.000.000 ARS/mes si lo hace un desarrollador mid-level en Argentina.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa real: ChatGPT vs programador profesional",
+        "body": "<table><thead><tr><th>Aspecto</th><th>ChatGPT ($0-20 USD/mes)</th><th>Programador mid ($800K-2M ARS/mes)</th></tr></thead><tbody><tr><td>Genera código</td><td>Sí, rápido y variado</td><td>Sí, con contexto de negocio</td></tr><tr><td>Deployea a producción</td><td>No</td><td>Sí</td></tr><tr><td>Mantiene el sistema</td><td>No</td><td>Sí (updates, parches, fixes)</td></tr><tr><td>Debuggea errores reales</td><td>Parcialmente (sin acceso al server)</td><td>Sí, con acceso completo</td></tr><tr><td>Integra con APIs argentinas</td><td>Conocimiento genérico</td><td>Experiencia con AFIP, MercadoPago, etc.</td></tr><tr><td>Seguridad</td><td>Puede generar código inseguro sin saberlo</td><td>Aplica buenas prácticas (si es bueno)</td></tr><tr><td>Responsabilidad legal</td><td>Ninguna</td><td>Contractual</td></tr><tr><td>Escalabilidad</td><td>Genera código que no escala</td><td>Diseña arquitectura escalable</td></tr><tr><td>Conoce tu negocio</td><td>Solo lo que le contás en el prompt</td><td>Entiende el contexto completo</td></tr><tr><td>Disponibilidad</td><td>24/7</td><td>Horario laboral (salvo guardia)</td></tr></tbody></table><p>La tabla es clara: ChatGPT es un <strong>asistente de generación de código</strong>. Un programador es un <strong>profesional que entiende el problema, diseña la solución, la implementa y la mantiene</strong>. Son cosas fundamentalmente distintas.</p>"
+      },
+      {
+        "heading": "Lo que ChatGPT hace bien (y deberías aprovecharlo)",
+        "body": "<p>Decir que ChatGPT no sirve sería mentira. Es una herramienta <strong>increíblemente útil</strong> cuando la usa alguien que sabe qué está haciendo:</p><ul><li><strong>Prototipado rápido:</strong> generar un MVP o prototipo funcional en horas para validar una idea</li><li><strong>Automatización de tareas repetitivas:</strong> scripts para procesar datos, limpiar planillas, generar reportes</li><li><strong>Aprender a programar:</strong> es el mejor tutor de programación que existió jamás</li><li><strong>Generar boilerplate:</strong> código base repetitivo que un dev después ajusta y personaliza</li><li><strong>Documentación:</strong> escribir documentación técnica, comentarios, README files</li><li><strong>Debugging asistido:</strong> pegarle un error y que te sugiera soluciones posibles</li></ul><p>Muchos programadores argentinos ya usan ChatGPT (o Claude, Copilot, Cursor) como parte de su workflow diario. No lo ven como competencia — lo ven como un <strong>multiplicador de productividad</strong>. Un dev que usa IA produce 2-3x más rápido que uno que no la usa.</p><p>El punto clave: <strong>ChatGPT acelera al programador, no lo reemplaza</strong>. Es como decir que la calculadora reemplaza al contador — no, le permite trabajar más rápido.</p>"
+      },
+      {
+        "heading": "Lo que ChatGPT NO puede hacer (y te va a costar caro descubrirlo)",
+        "body": "<p>Estos son los problemas reales que vemos en empresas argentinas que intentaron \"reemplazar al programador con ChatGPT\":</p><ul><li><strong>No deployea:</strong> ChatGPT genera código pero no lo sube a un servidor, no configura el hosting, no maneja DNS, SSL, bases de datos en producción</li><li><strong>No integra con sistemas argentinos:</strong> facturación electrónica AFIP, MercadoPago, Andreani, BCRA, APIs de bancos — esto requiere experiencia específica que ChatGPT no tiene</li><li><strong>No maneja seguridad:</strong> puede generar código con vulnerabilidades (SQL injection, XSS, datos expuestos) que un dev con experiencia evitaría</li><li><strong>No escala:</strong> el código que genera funciona para 10 usuarios, se rompe con 1.000</li><li><strong>No mantiene:</strong> cuando la API de MercadoPago cambia, cuando el servidor se cae, cuando hay un bug en producción — ¿quién lo arregla a las 11 de la noche?</li><li><strong>Alucina:</strong> inventa funciones que no existen, usa librerías deprecadas, genera código que compila pero no hace lo que debería</li></ul><p>Caso real: una PyME de Córdoba usó ChatGPT para generar su sistema de stock. Funcionó 3 meses. Cuando el volumen creció, la base de datos colapsó porque <strong>no tenía indexación ni queries optimizadas</strong>. Arreglar el desastre costó más que haberlo hecho bien desde el principio.</p>"
+      },
+      {
+        "heading": "Costos reales: ChatGPT vs programador vs agencia en Argentina",
+        "body": "<p><strong>ChatGPT / herramientas IA:</strong></p><ul><li>ChatGPT Free: $0 (limitado)</li><li>ChatGPT Plus: $20 USD/mes (~$20.000 ARS)</li><li>Claude Pro: $20 USD/mes</li><li>GitHub Copilot: $10 USD/mes</li></ul><p><strong>Programador freelance Argentina:</strong></p><ul><li>Junior (0-2 años): $300.000-$600.000 ARS/mes o $200-500 USD/mes</li><li>Mid (2-5 años): $800.000-$1.500.000 ARS/mes o $500-1.000 USD/mes</li><li>Senior (5+ años): $1.500.000-$3.000.000 ARS/mes o $1.000-2.500 USD/mes</li></ul><p><strong>Agencia de desarrollo (como SODI):</strong></p><ul><li>Proyecto web: $500.000-$3.000.000 ARS (pago único)</li><li>Sistema a medida: $3.000.000-$15.000.000 ARS (según complejidad)</li><li>Mantenimiento mensual: $50.000-$200.000 ARS/mes</li></ul><p>La ventaja de una agencia sobre un freelancer: si el freelancer se va de vacaciones, se enferma o consigue otro trabajo, tu proyecto queda parado. Una agencia tiene equipo y continuidad. La ventaja sobre ChatGPT: que alguien se hace <strong>responsable</strong> de que tu sistema funcione.</p>"
+      },
+      {
+        "heading": "Cuándo usar cada opción según tu situación",
+        "body": "<p><strong>Usá ChatGPT solo cuando:</strong></p><ul><li>Necesitás un script rápido para automatizar algo puntual (y sabés validar el resultado)</li><li>Querés prototipar una idea antes de invertir en desarrollo real</li><li>Estás aprendiendo a programar y lo usás como tutor</li><li>Tu programador ya lo usa como herramienta (esto es lo ideal)</li></ul><p><strong>Contratá un programador freelance cuando:</strong></p><ul><li>Necesitás un proyecto acotado con principio y fin</li><li>Tenés conocimiento técnico para supervisar el trabajo</li><li>Tu presupuesto es limitado pero necesitás algo bien hecho</li></ul><p><strong>Contratá una agencia cuando:</strong></p><ul><li>Necesitás un sistema que funcione en producción y se mantenga a largo plazo</li><li>No tenés equipo técnico interno para supervisar un freelancer</li><li>Necesitás integraciones con sistemas argentinos (AFIP, MercadoPago, bancos)</li><li>Querés garantía, soporte y alguien que responda cuando algo se rompe</li></ul><p>La combinación ganadora para 2026: <strong>agencia o dev senior + herramientas IA</strong>. El profesional usa ChatGPT/Copilot/Claude para ser más productivo, vos pagás por el resultado final que funciona. Es como contratar un arquitecto que usa AutoCAD — no te importa la herramienta, te importa que la casa no se caiga.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo hacer una web con ChatGPT sin saber programar?",
+        "answer": "Podés generar código HTML/CSS básico, pero no vas a poder subirlo a un servidor, conectar un dominio, configurar SSL, integrar formularios funcionales ni mantenerlo. Para una web profesional que funcione, necesitás un desarrollador o una agencia."
+      },
+      {
+        "question": "¿ChatGPT va a reemplazar a los programadores?",
+        "answer": "No. ChatGPT es una herramienta que hace más productivos a los programadores, igual que la calculadora no reemplazó a los contadores. Los programadores que usan IA producen 2-3x más rápido, pero la IA sola no puede llevar un proyecto de principio a fin."
+      },
+      {
+        "question": "¿Cuánto cuesta un programador en Argentina en 2026?",
+        "answer": "Un junior cobra $300.000-$600.000 ARS/mes, un mid $800.000-$1.500.000 ARS/mes y un senior $1.500.000-$3.000.000 ARS/mes. En dólares freelance: $200-2.500 USD/mes según experiencia. Estos valores son para relación de dependencia o freelance local."
+      },
+      {
+        "question": "¿Es seguro usar código generado por ChatGPT en producción?",
+        "answer": "No sin revisión profesional. ChatGPT puede generar código con vulnerabilidades de seguridad, bugs silenciosos y prácticas deprecadas. Siempre necesitás un dev que revise, teste y valide antes de poner algo en producción."
+      },
+      {
+        "question": "¿Conviene que mi programador use ChatGPT?",
+        "answer": "Sí, absolutamente. Los mejores desarrolladores en 2026 usan herramientas de IA (ChatGPT, Claude, Copilot) para ser más productivos. Si tu programador no usa IA, está trabajando más lento de lo necesario. Es una herramienta, no competencia."
+      }
+    ],
+    "ctaText": "¿Necesitás desarrollo profesional que funcione de verdad? En SODI combinamos programadores experimentados con las mejores herramientas de IA para entregarte software que anda, escala y se mantiene. <a href='/diagnostico'>Pedí tu diagnóstico gratuito</a>."
+  }
+}

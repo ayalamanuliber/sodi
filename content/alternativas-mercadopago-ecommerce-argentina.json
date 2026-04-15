@@ -1,0 +1,61 @@
+{
+  "slug": "alternativas-mercadopago-ecommerce-argentina",
+  "title": "Alternativas a MercadoPago para ecommerce en Argentina: comparativa 2026",
+  "metaTitle": "Alternativas a MercadoPago ecommerce Argentina",
+  "metaDescription": "Mobbex, Payway, NaranjaX, Ualá Bis y transferencia directa. Comisiones, acreditación e integración. Las mejores alternativas a MercadoPago en 2026.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["mercadopago", "pasarela de pago", "mobbex", "ecommerce", "medios de pago"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["mercadopago-vs-mobbex-ecommerce", "modo-vs-mercadopago-para-negocios", "cuanto-cuesta-tienda-online-argentina", "como-crear-tienda-online-argentina"],
+  "content": {
+    "intro": "<p>MercadoPago es el estándar en Argentina, pero su comisión de <strong>4.99% + IVA</strong> no es la única opción. Si vendés online y querés mejorar tu margen, hay alternativas reales con comisiones más bajas, acreditación más rápida o mejor experiencia técnica. El tema es saber cuál encaja con tu operación.</p><p>En esta guía comparamos las principales alternativas a MercadoPago para ecommerce en Argentina: <strong>Mobbex, Payway (ex Decidir), NaranjaX, Ualá Bis y transferencia bancaria directa</strong>. Con números reales, pros y contras honestos, y recomendaciones según tu tipo de tienda.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa general: alternativas a MercadoPago",
+        "body": "<table><thead><tr><th>Pasarela</th><th>Comisión base</th><th>Acreditación</th><th>Integración</th><th>Ideal para</th></tr></thead><tbody><tr><td>MercadoPago</td><td>4.99% + IVA</td><td>Inmediata (billetera) / 2-14 días (banco)</td><td>Tiendanube nativa, WooCommerce, API</td><td>Todo tipo de tienda</td></tr><tr><td>Mobbex</td><td>~3.5% + IVA (negociable)</td><td>24-48 hs</td><td>Tiendanube, WooCommerce, API REST</td><td>Ecommerce custom, volumen medio-alto</td></tr><tr><td>Payway (ex Decidir)</td><td>Desde 2.5% (negociable)</td><td>48-72 hs</td><td>API, SDK, plugins limitados</td><td>Empresas medianas-grandes</td></tr><tr><td>NaranjaX</td><td>~3.5% + IVA</td><td>48 hs</td><td>API, plugin WooCommerce</td><td>Clientes con tarjeta Naranja</td></tr><tr><td>Ualá Bis</td><td>~4.5% + IVA</td><td>24-48 hs</td><td>QR, link de pago, API básica</td><td>Microemprendedores, locales</td></tr><tr><td>Transferencia directa</td><td>0%</td><td>Instantánea</td><td>Manual (CBU/alias)</td><td>Ventas de ticket alto, B2B</td></tr></tbody></table><p><strong>Nota importante:</strong> las comisiones son orientativas y pueden variar según acuerdos comerciales, volumen y tipo de rubro. Siempre verificá las condiciones actuales con cada proveedor antes de tomar una decisión.</p>"
+      },
+      {
+        "heading": "Mobbex: la mejor alternativa técnica",
+        "body": "<p>Mobbex es la alternativa más sólida a MercadoPago para ecommerce en Argentina. Fundada en Argentina, creció fuerte ofreciendo mejor tecnología y menores comisiones.</p><p><strong>Por qué elegir Mobbex:</strong></p><ul><li><strong>Comisión ~3.5% + IVA:</strong> negociable por volumen. Algunos negocios logran 2.8-3.0%. En $5.000.000/mes de facturación, te ahorrás entre $90.000 y $120.000 vs MercadoPago.</li><li><strong>API limpia y bien documentada:</strong> los desarrolladores que trabajan con Mobbex coinciden en que la integración es más simple y la documentación es superior a la de MercadoPago.</li><li><strong>Checkout embebido:</strong> el cliente paga sin salir de tu web. Menos fricción, mejor conversión.</li><li><strong>Soporte técnico humano:</strong> respuestas en horas, no en días. Para equipos de desarrollo, esto vale mucho.</li><li><strong>Pagos recurrentes:</strong> módulo nativo para suscripciones y membresías.</li></ul><p><strong>Contras:</strong></p><ul><li>Menor reconocimiento de marca — el consumidor no conoce \"Mobbex\" como conoce MercadoPago.</li><li>Integración con Tiendanube no es tan plug-and-play como MercadoPago.</li><li>No tiene ecosistema tipo Mercado Libre / Mercado Envíos.</li></ul><p><strong>Veredicto:</strong> si tenés un ecommerce custom o WooCommerce y movés volumen, Mobbex es probablemente tu mejor opción.</p>"
+      },
+      {
+        "heading": "Payway, NaranjaX y Ualá Bis: opciones según tu perfil",
+        "body": "<p><strong>Payway (ex Decidir)</strong></p><p>Payway es la pasarela de Prisma Medios de Pago (grupo que también opera Visa Argentina). Es la opción más corporativa del mercado.</p><ul><li>Comisiones desde 2.5%, pero negociables solo para cuentas con volumen significativo.</li><li>Integración más técnica — no es plug-and-play, necesitás desarrollador.</li><li>Acreditación en 48-72 hs hábiles.</li><li>Ideal para empresas medianas-grandes que mueven +$10.000.000/mes y tienen equipo técnico.</li><li>No tiene sentido para PyMEs chicas por la complejidad de integración y el mínimo de volumen.</li></ul><p><strong>NaranjaX</strong></p><p>NaranjaX es la fintech de Naranja, una de las tarjetas de crédito más usadas en el interior del país.</p><ul><li>Comisión ~3.5% + IVA para pagos con tarjeta Naranja.</li><li>Fuerte en provincias donde Naranja tiene alta penetración (Córdoba, Mendoza, Tucumán).</li><li>Plugin para WooCommerce y API disponible.</li><li>No reemplaza a MercadoPago para todos los medios de pago — es complementaria.</li><li>Útil si tu público objetivo está en el interior y muchos pagan con Naranja.</li></ul><p><strong>Ualá Bis</strong></p><p>Ualá Bis es la solución de cobro de Ualá para comercios.</p><ul><li>Comisión ~4.5% + IVA — no es mucho más barata que MercadoPago.</li><li>Fuerte en QR presencial y links de pago.</li><li>Integración ecommerce limitada comparada con Mobbex o MercadoPago.</li><li>Creciendo rápido entre microemprendedores y comercios chicos.</li><li>Útil como complemento, no como pasarela principal para ecommerce serio.</li></ul>"
+      },
+      {
+        "heading": "Transferencia bancaria: la opción de comisión cero",
+        "body": "<p>La opción más ignorada y más barata: cobrar por transferencia bancaria directa. Comisión 0%, acreditación instantánea, sin intermediarios.</p><p><strong>Cómo implementarlo:</strong></p><ul><li>Agregá tu CBU/alias como opción de pago en tu tienda (la mayoría de las plataformas lo permiten como \"pago por transferencia\").</li><li>El cliente transfiere desde su banco, MODO o billetera virtual.</li><li>Verificás el pago manualmente o con integración bancaria (más complejo).</li></ul><p><strong>Cuándo tiene sentido:</strong></p><ul><li><strong>Ventas B2B:</strong> empresas que compran entre sí prefieren transferir. No necesitan cuotas ni checkout.</li><li><strong>Ticket alto:</strong> en una venta de $500.000, te ahorrás $30.200 de comisión vs MercadoPago. Eso justifica el proceso manual.</li><li><strong>Servicios profesionales:</strong> contadores, abogados, consultores que cobran por proyecto.</li></ul><p><strong>Cuándo no tiene sentido:</strong></p><ul><li><strong>Ventas masivas de ticket bajo:</strong> verificar cada transferencia manualmente con 50 ventas diarias de $5.000 es inviable.</li><li><strong>Clientes que necesitan cuotas:</strong> no hay cuotas en transferencia bancaria.</li><li><strong>Si necesitás protección:</strong> no hay contracargo ni disputa — si el cliente reclama, no tenés la protección de la pasarela.</li></ul><p><strong>Tip:</strong> ofrecé un descuento del 5% por transferencia. Seguís ahorrando vs la comisión de MercadoPago y el cliente siente que gana. Es una estrategia que usan cada vez más tiendas argentinas.</p>"
+      },
+      {
+        "heading": "Cómo elegir la mejor alternativa para tu negocio",
+        "body": "<p>La decisión depende de tres factores: tu volumen, tu plataforma y tu cliente.</p><ul><li><strong>Vendés por Tiendanube y facturás menos de $3.000.000/mes:</strong> quedate con MercadoPago. La integración nativa y la confianza del consumidor compensan la comisión más alta. Optimizá con QR y transferencia donde puedas.</li><li><strong>Vendés por Tiendanube o WooCommerce y facturás más de $3.000.000/mes:</strong> integrá Mobbex como pasarela principal o secundaria. La diferencia de comisión ya justifica el esfuerzo.</li><li><strong>Tenés ecommerce custom (React, Next.js, Laravel):</strong> Mobbex primero, MercadoPago como fallback. La API de Mobbex es superior para desarrollo custom.</li><li><strong>Vendés B2B o servicios de ticket alto:</strong> transferencia bancaria como opción principal, MercadoPago/Mobbex para el que necesite cuotas.</li><li><strong>Tu público está en el interior:</strong> considerá NaranjaX como complemento — la penetración de Naranja en Córdoba y otras provincias es altísima.</li></ul><p><strong>La combinación más común entre nuestros clientes:</strong> MercadoPago para el checkout principal (confianza) + transferencia bancaria con descuento para ticket alto + MODO QR para presencial. Simple, efectivo, y reduce el costo promedio de comisión de 6% a menos de 3%.</p><p>¿Necesitás ayuda eligiendo e integrando la mejor pasarela para tu tienda? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te recomendamos la opción que más ahorro te genera.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la pasarela de pago más barata en Argentina?",
+        "answer": "Para ecommerce online, Mobbex ofrece las comisiones más competitivas (~3.5% + IVA, negociable por volumen). Para cobros presenciales, MODO tiene comisiones de 0.6-0.8%. Y la transferencia bancaria directa tiene comisión 0% pero requiere verificación manual."
+      },
+      {
+        "question": "¿Puedo usar varias pasarelas de pago a la vez?",
+        "answer": "Sí, y es recomendable. Muchas tiendas ofrecen MercadoPago + transferencia bancaria, o MercadoPago + Mobbex como opciones. El cliente elige cómo pagar, y vos diversificás el riesgo y optimizás comisiones."
+      },
+      {
+        "question": "¿Mobbex es seguro para cobrar online?",
+        "answer": "Sí. Mobbex es una empresa argentina regulada, cumple con PCI DSS (estándar de seguridad para datos de tarjetas) y procesa miles de transacciones diarias. No tiene la escala de MercadoPago, pero la seguridad técnica es sólida."
+      },
+      {
+        "question": "¿Qué pasa si dejo MercadoPago y pierdo ventas?",
+        "answer": "No necesitás dejar MercadoPago para usar alternativas. Lo más seguro es agregar una opción más barata (Mobbex, transferencia) como alternativa y mantener MercadoPago como opción. Medí la conversión durante 30 días antes de tomar decisiones definitivas."
+      },
+      {
+        "question": "¿NaranjaX sirve como pasarela principal?",
+        "answer": "No como única pasarela. NaranjaX es fuerte en tarjetas Naranja pero no cubre todos los medios de pago. Funciona bien como complemento de MercadoPago o Mobbex, especialmente si tu público está en provincias donde Naranja tiene alta penetración."
+      }
+    ],
+    "ctaText": "¿Querés integrar la pasarela de pago que más le conviene a tu tienda online? En SODI te ayudamos a comparar, elegir e implementar la mejor solución para reducir comisiones y no perder ventas."
+  }
+}

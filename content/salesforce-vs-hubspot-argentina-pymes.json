@@ -1,0 +1,61 @@
+{
+  "slug": "salesforce-vs-hubspot-argentina-pymes",
+  "title": "Salesforce vs HubSpot en Argentina: cuál conviene para tu PyME y precios reales 2026",
+  "metaTitle": "Salesforce vs HubSpot Argentina PyMEs 2026",
+  "metaDescription": "HubSpot es mejor para el 95% de las PyMEs argentinas. Salesforce solo conviene con 20+ vendedores. HubSpot Free → $20/mes. Salesforce $25-75/usuario/mes.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["CRM", "HubSpot", "Salesforce", "CRM PyMEs", "gestión comercial"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["hubspot-vs-zoho-crm-argentina", "cuanto-cuesta-crm-para-pymes", "crm-gratuito-vs-pago", "que-es-un-crm-y-para-que-sirve"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> HubSpot gana para el 95% de las PyMEs argentinas. Tiene plan gratuito funcional, interfaz intuitiva y no necesitás un consultor para configurarlo. Salesforce es una bestia poderosa, pero pensada para equipos de 20+ vendedores con procesos complejos. Si tenés menos de eso, vas a pagar de más por funciones que nunca usás.</p><p>HubSpot arranca gratis y el plan Starter sale ~$20 USD/mes. Salesforce arranca en $25 USD/usuario/mes (Essentials) y escala a $75-150/usuario/mes en planes profesionales, más el costo de implementación que puede superar los $2.000-5.000 USD. Para una PyME argentina con 3-5 vendedores, HubSpot es la respuesta correcta en el 95% de los casos.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa directa: HubSpot vs Salesforce para PyMEs argentinas",
+        "body": "<table><thead><tr><th>Criterio</th><th>HubSpot</th><th>Salesforce</th></tr></thead><tbody><tr><td><strong>Precio inicial</strong></td><td>Gratis / Starter $20 USD/mes</td><td>$25 USD/usuario/mes (Essentials)</td></tr><tr><td><strong>Costo equipo 5 personas</strong></td><td>$0-$100 USD/mes</td><td>$125-$375 USD/mes</td></tr><tr><td><strong>Implementación</strong></td><td>Autoservicio, 1-2 semanas</td><td>Consultor necesario, $2.000-5.000 USD</td></tr><tr><td><strong>Curva de aprendizaje</strong></td><td>Baja — interfaz intuitiva</td><td>Alta — necesitás capacitación formal</td></tr><tr><td><strong>Plan gratuito</strong></td><td>Sí, hasta 1.000.000 contactos</td><td>No</td></tr><tr><td><strong>Email marketing</strong></td><td>Incluido desde plan gratuito</td><td>Requiere Pardot ($1.250 USD/mes) o add-on</td></tr><tr><td><strong>Soporte en español</strong></td><td>Sí, con comunidad activa en LATAM</td><td>Sí, pero soporte premium es pago extra</td></tr><tr><td><strong>Personalización</strong></td><td>Media — suficiente para PyMEs</td><td>Máxima — todo se personaliza</td></tr><tr><td><strong>Integraciones</strong></td><td>1.000+ apps en marketplace</td><td>3.000+ apps en AppExchange</td></tr><tr><td><strong>Ideal para</strong></td><td>PyMEs de 1-20 vendedores</td><td>Empresas de 20+ vendedores</td></tr></tbody></table><p>La diferencia de costo es brutal para una PyME. Con HubSpot Free, un equipo de 5 personas puede gestionar contactos, deals y tareas sin pagar un peso. Con Salesforce, ese mismo equipo gasta mínimo $125 USD/mes (~$150.000 ARS) solo en licencias, sin contar implementación.</p>"
+      },
+      {
+        "heading": "Cuándo HubSpot es la mejor opción (la mayoría de los casos)",
+        "body": "<p>HubSpot conviene cuando:</p><ul><li><strong>Tu equipo comercial tiene entre 1 y 20 personas.</strong> El plan gratuito soporta contactos ilimitados prácticamente, y el Starter ($20 USD/mes) desbloquea automatización básica.</li><li><strong>No tenés un equipo de IT interno.</strong> Lo configurás vos mismo en una tarde. Arrastrás campos, creás pipelines, y listo. Sin código.</li><li><strong>Necesitás marketing + ventas en un solo lugar.</strong> Email marketing, landing pages, formularios y CRM integrado desde el plan gratuito. Con Salesforce, el marketing automation se paga aparte y es carísimo.</li><li><strong>Tu presupuesto es ajustado.</strong> El plan gratuito de HubSpot es genuinamente útil. No es un demo disfrazado. Podés operar meses sin pagar nada.</li></ul><p>El plan Professional ($800 USD/mes) es donde HubSpot se pone caro, pero para ese punto ya tenés un negocio que factura en serio y el ROI se justifica.</p>"
+      },
+      {
+        "heading": "Cuándo Salesforce tiene sentido (pocos casos en PyMEs)",
+        "body": "<p>Salesforce conviene cuando:</p><ul><li><strong>Tenés 20+ vendedores</strong> con procesos de venta complejos, múltiples territorios y líneas de producto diferentes.</li><li><strong>Necesitás reportes ultra-personalizados</strong> con cruces de datos que HubSpot no maneja. Salesforce Reports y Dashboards son imbatibles en profundidad.</li><li><strong>Usás sistemas enterprise que ya integran con Salesforce.</strong> SAP, Oracle, sistemas de ERP complejos — Salesforce tiene integraciones nativas más maduras.</li><li><strong>Tu ciclo de venta es largo y complejo</strong> (6+ meses, múltiples tomadores de decisión, aprobaciones internas).</li></ul><p>En Argentina, esto aplica a empresas medianas-grandes con facturación anual superior a $100 millones de pesos. Si tu negocio tiene 3-10 empleados, Salesforce es como comprar un camión para ir al supermercado.</p>"
+      },
+      {
+        "heading": "Costos reales en pesos argentinos 2026",
+        "body": "<p>Con el dólar a ~$1.200 ARS (abril 2026), estos son los costos mensuales reales:</p><ul><li><strong>HubSpot Free:</strong> $0 — CRM básico, contactos, deals, tareas, email tracking.</li><li><strong>HubSpot Starter:</strong> ~$24.000 ARS/mes — quita branding de HubSpot, agrega automatización simple.</li><li><strong>HubSpot Professional:</strong> ~$960.000 ARS/mes — automatización avanzada, reportes custom, workflows.</li><li><strong>Salesforce Essentials (5 usuarios):</strong> ~$150.000 ARS/mes + implementación inicial de $2.400.000-6.000.000 ARS.</li><li><strong>Salesforce Professional (5 usuarios):</strong> ~$450.000 ARS/mes + implementación.</li></ul><p>Para una PyME que recién arranca con CRM, <strong>la diferencia entre $0 y $150.000/mes + millones en implementación es enorme</strong>. Empezá con HubSpot Free, crecé al Starter cuando lo necesités, y recién evaluá Salesforce si tu equipo supera las 20 personas.</p>"
+      },
+      {
+        "heading": "Cómo migrar de Excel a HubSpot sin perder nada",
+        "body": "<p>Si hoy manejás tus contactos en Excel o Google Sheets (como el 80% de las PyMEs argentinas), migrar a HubSpot es simple:</p><ol><li><strong>Exportá tu Excel a CSV.</strong> Asegurate de que las columnas tengan encabezados claros: Nombre, Email, Teléfono, Empresa, Estado.</li><li><strong>Creá tu cuenta gratuita en HubSpot.</strong> Tardás 5 minutos. No te pide tarjeta de crédito.</li><li><strong>Importá el CSV.</strong> HubSpot te guía paso a paso para mapear cada columna a un campo del CRM.</li><li><strong>Armá tu pipeline de ventas.</strong> Definí las etapas (Contacto → Reunión → Propuesta → Cierre). Arrastrás y soltás.</li><li><strong>Invitá a tu equipo.</strong> Cada vendedor ve sus contactos y tareas. Vos ves todo.</li></ol><p>En SODI ayudamos a PyMEs a hacer esta migración en una semana, incluyendo la configuración de automatizaciones básicas y capacitación del equipo. El Excel te trajo hasta acá, pero un CRM te lleva al siguiente nivel.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿HubSpot gratis sirve de verdad o es muy limitado?",
+        "answer": "Sirve de verdad. El plan gratuito incluye CRM completo, hasta 1.000.000 de contactos, seguimiento de emails, pipeline de ventas, formularios web y chat en vivo. Las limitaciones son branding de HubSpot en formularios y emails, y falta de automatización avanzada. Para una PyME que arranca, sobra."
+      },
+      {
+        "question": "¿Puedo pagar HubSpot o Salesforce en pesos argentinos?",
+        "answer": "No directamente. Ambos cobran en dólares con tarjeta internacional. Con el impuesto PAIS y retenciones, el costo final puede ser 30-40% más que el precio de lista. HubSpot Free esquiva este problema completamente. Para planes pagos, algunas agencias partner ofrecen facturación local."
+      },
+      {
+        "question": "¿Necesito un consultor para implementar HubSpot?",
+        "answer": "Para el plan Free y Starter, no. Lo configurás vos mismo con los tutoriales de HubSpot Academy (gratuitos, en español). Para el plan Professional en adelante, sí conviene un partner certificado que te ayude con workflows y automatizaciones complejas."
+      },
+      {
+        "question": "¿Puedo migrar de HubSpot a Salesforce después?",
+        "answer": "Sí. HubSpot exporta todos tus datos en CSV y tiene integración nativa con Salesforce. La migración es factible pero requiere planificación. Por eso recomendamos arrancar con HubSpot: si algún día crecés lo suficiente para necesitar Salesforce, la migración está resuelta."
+      },
+      {
+        "question": "¿Cuántos vendedores necesito para que Salesforce valga la pena?",
+        "answer": "Mínimo 20, con procesos de venta complejos y múltiples líneas de producto. Por debajo de eso, HubSpot cubre todo lo que necesitás a una fracción del costo. El break-even real donde Salesforce empieza a justificar su inversión es cuando la complejidad operativa supera lo que HubSpot puede manejar."
+      }
+    ],
+    "ctaText": "¿Querés implementar HubSpot en tu PyME y no sabés por dónde arrancar? En SODI te configuramos el CRM, migramos tus datos y capacitamos a tu equipo. Pedí tu diagnóstico gratuito."
+  }
+}

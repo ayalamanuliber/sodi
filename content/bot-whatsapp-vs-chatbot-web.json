@@ -1,0 +1,61 @@
+{
+  "slug": "bot-whatsapp-vs-chatbot-web",
+  "title": "Bot de WhatsApp vs chatbot web: cuál necesitás (o los dos con un solo backend)",
+  "metaTitle": "Bot WhatsApp vs chatbot web: cuál te conviene 2026",
+  "metaDescription": "WhatsApp tiene 98% de apertura. El chatbot web captura visitantes 24/7. Lo ideal: los dos conectados al mismo backend. Precios y guía de implementación.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["bot whatsapp", "chatbot web", "chatbot argentina", "automatización", "atención al cliente"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "cuanto-cuesta-chatbot-ia-argentina", "whatsapp-manual-vs-bot-automatico", "chatbot-ia-vs-atencion-humana-argentina"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> lo mejor es tener los dos conectados al mismo backend. Pero si tenés que elegir uno, <strong>bot de WhatsApp</strong> para negocios que viven de la atención directa (servicios, consultorios, delivery) y <strong>chatbot web</strong> para negocios con mucho tráfico en la web (ecommerce, SaaS, inmobiliarias).</p><p>Un bot de WhatsApp tiene tasa de apertura del 98% y tus clientes ya están ahí. Un chatbot web captura visitantes que llegan por Google las 24 horas, incluso cuando dormís. No son competencia: se complementan. Y con las herramientas correctas, podés tener ambos funcionando con la misma lógica y base de datos.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa directa: capacidades y costos",
+        "body": "<table><thead><tr><th>Característica</th><th>Bot de WhatsApp</th><th>Chatbot web</th></tr></thead><tbody><tr><td><strong>Tasa de apertura</strong></td><td>98%</td><td>N/A (se activa en el sitio)</td></tr><tr><td><strong>Tasa de respuesta</strong></td><td>45-60%</td><td>15-25%</td></tr><tr><td><strong>Disponibilidad</strong></td><td>24/7 donde el cliente ya está</td><td>24/7 en tu sitio web</td></tr><tr><td><strong>Canal de captura</strong></td><td>Clientes que ya te conocen</td><td>Visitantes nuevos de Google/ads</td></tr><tr><td><strong>Costo setup</strong></td><td>$200.000-$800.000 ARS</td><td>$150.000-$600.000 ARS</td></tr><tr><td><strong>Costo mensual</strong></td><td>$30.000-$150.000 ARS (según volumen)</td><td>$15.000-$80.000 ARS</td></tr><tr><td><strong>WhatsApp Business API</strong></td><td>Requerida ($0.05-0.08 USD/mensaje)</td><td>No aplica</td></tr><tr><td><strong>Integración CRM</strong></td><td>Sí, con la API correcta</td><td>Sí, nativo en la mayoría</td></tr><tr><td><strong>IA conversacional</strong></td><td>Disponible (GPT, Claude, etc.)</td><td>Disponible</td></tr><tr><td><strong>Envío proactivo</strong></td><td>Sí (mensajes de plantilla)</td><td>No (solo responde en la web)</td></tr><tr><td><strong>Multimedia</strong></td><td>Fotos, videos, docs, ubicación</td><td>Texto, links, fotos básicas</td></tr><tr><td><strong>Ideal para</strong></td><td>Servicios, delivery, consultorios</td><td>Ecommerce, inmobiliarias, SaaS</td></tr></tbody></table><p>El costo del bot de WhatsApp es mayor porque necesitás la <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">WhatsApp Business API</a> (que cobra por mensaje). Pero la tasa de conversión compensa: un mensaje de WhatsApp tiene 20x más probabilidad de ser leído que un email.</p>"
+      },
+      {
+        "heading": "Bot de WhatsApp: tu vendedor 24/7 en el canal favorito",
+        "body": "<p>El 95% de los argentinos con smartphone usa WhatsApp todos los días. Tu bot vive donde tus clientes ya están, sin pedirles que descarguen nada ni visiten ningún sitio.</p><p><strong>Qué puede hacer un bot de WhatsApp bien armado:</strong></p><ul><li><strong>Responder consultas frecuentes:</strong> horarios, precios, disponibilidad, ubicación. Automático, instantáneo, 24/7</li><li><strong>Agendar turnos:</strong> el cliente elige fecha y hora directamente en la conversación</li><li><strong>Enviar recordatorios:</strong> turno mañana, pedido en camino, pago pendiente. Proactivo, no espera a que te escriban</li><li><strong>Calificar leads:</strong> hace las preguntas iniciales y pasa al vendedor solo los leads calificados</li><li><strong>Tomar pedidos:</strong> menú interactivo, selección de productos, confirmación de pedido</li></ul><p><strong>Limitaciones:</strong></p><ul><li>La WhatsApp Business API tiene reglas estrictas: no podés enviar mensajes masivos sin plantillas aprobadas</li><li>Costo por mensaje: $0.05-$0.08 USD por cada conversación iniciada por la empresa</li><li>No captura visitantes anónimos de tu web (solo gente que ya tiene tu número)</li><li>Si WhatsApp cambia sus políticas, tu bot se ve afectado</li></ul>"
+      },
+      {
+        "heading": "Chatbot web: capturá visitantes que llegan por Google",
+        "body": "<p>Tu web recibe visitas de gente que te buscó en Google, vio un anuncio o hizo clic en un link. El chatbot web intercepta a esos visitantes <strong>en el momento de máximo interés</strong> y los convierte en leads antes de que se vayan.</p><p><strong>Qué puede hacer un chatbot web bien armado:</strong></p><ul><li><strong>Capturar leads:</strong> \"Hola, ¿en qué puedo ayudarte?\" aparece después de 30 segundos. El visitante pregunta, el bot captura nombre, email y consulta</li><li><strong>Responder preguntas pre-compra:</strong> \"¿Hacen envíos a Córdoba?\", \"¿Cuánto cuesta el servicio X?\", \"¿Tienen disponibilidad esta semana?\"</li><li><strong>Guiar al visitante:</strong> según lo que busca, el bot lo lleva a la página correcta de tu sitio</li><li><strong>Reemplazar formularios:</strong> en vez de llenar un formulario aburrido, el visitante chatea. La tasa de conversión sube un 30-50%</li><li><strong>Funcionar con IA:</strong> un <a href=\"/blog/cuanto-cuesta-chatbot-ia-argentina\">chatbot con IA</a> puede responder preguntas que no estaban programadas, basándose en el contenido de tu web</li></ul><p><strong>Limitaciones:</strong></p><ul><li>Solo funciona si el visitante está en tu web (no llega a gente fuera del sitio)</li><li>Tasa de interacción más baja que WhatsApp (la gente está más acostumbrada a chatear en WhatsApp)</li><li>No puede enviar mensajes proactivos (solo responde cuando el visitante interactúa)</li></ul>"
+      },
+      {
+        "heading": "La mejor opción: los dos con el mismo backend",
+        "body": "<p>La estrategia ganadora no es elegir uno u otro — es <strong>tener ambos conectados al mismo sistema</strong>. Esto significa:</p><ul><li><strong>Una sola base de datos de clientes:</strong> si alguien chatea por WhatsApp y después visita tu web, el sistema lo reconoce</li><li><strong>Misma lógica de respuestas:</strong> configurás las respuestas una vez y funcionan en ambos canales</li><li><strong>Un solo panel de gestión:</strong> tu equipo ve todas las conversaciones (WhatsApp + web) en un solo lugar</li><li><strong>Escalado a humano unificado:</strong> cuando el bot no puede resolver, pasa la conversación a una persona, sin importar de dónde vino</li></ul><p><strong>Herramientas que permiten esto en Argentina:</strong></p><ul><li><strong>Botmaker:</strong> empresa argentina, integra WhatsApp + web + Instagram + Telegram. Desde $50.000/mes</li><li><strong>Cliengo:</strong> chatbot web + WhatsApp con CRM integrado. Desde $30.000/mes</li><li><strong>Desarrollo a medida:</strong> WhatsApp Business API + widget web con el mismo motor de IA. Desde $500.000 de setup + $40.000/mes</li></ul><p>Para una PyME que recibe 50-200 consultas por mes, la inversión en ambos canales se paga en 1-2 meses con la reducción de tiempo de atención y el aumento en leads capturados.</p>"
+      },
+      {
+        "heading": "Cuál implementar primero según tu negocio",
+        "body": "<p><strong>Empezá con bot de WhatsApp si:</strong></p><ul><li>Tus clientes ya te contactan por WhatsApp (y no das abasto)</li><li>Tenés un negocio de servicios con turnos/consultas frecuentes</li><li>Necesitás enviar recordatorios y notificaciones proactivas</li><li>Tu web todavía no tiene mucho tráfico</li></ul><p><strong>Empezá con chatbot web si:</strong></p><ul><li>Tu web tiene más de 500 visitas mensuales y pocas consultas</li><li>Querés capturar leads de Google Ads o campañas de tráfico</li><li>Vendés productos online y necesitás responder dudas pre-compra</li><li>Querés reemplazar formularios de contacto que nadie llena</li></ul><p><strong>Implementá los dos juntos si:</strong></p><ul><li>Ya tenés tráfico en la web Y consultas por WhatsApp</li><li>Tu equipo no da abasto con la atención manual en ambos canales</li><li>Querés una estrategia omnicanal real desde el inicio</li></ul><p>Lo importante: no implementes un bot \"porque sí\". Primero identificá cuál es tu cuello de botella (¿no capturás leads? ¿no das abasto con consultas? ¿perdés ventas fuera de horario?) y elegí el canal que resuelve ese problema específico.</p><p>¿Querés saber qué tipo de bot necesita tu negocio? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos la estrategia de automatización.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un bot de WhatsApp en Argentina?",
+        "answer": "El setup cuesta entre $200.000 y $800.000 ARS según la complejidad. El mantenimiento mensual va de $30.000 a $150.000 ARS, más el costo de la WhatsApp Business API (~$0.05-$0.08 USD por conversación iniciada por la empresa)."
+      },
+      {
+        "question": "¿Un chatbot web puede tener inteligencia artificial?",
+        "answer": "Sí. Los chatbots web modernos pueden usar IA (GPT, Claude, etc.) para responder preguntas que no estaban programadas, basándose en el contenido de tu sitio. Esto sube el costo pero mejora dramáticamente la experiencia del usuario y la tasa de resolución."
+      },
+      {
+        "question": "¿El bot de WhatsApp reemplaza al vendedor humano?",
+        "answer": "No. El bot maneja las consultas repetitivas (80% del volumen) y califica leads. Cuando la consulta es compleja o el lead está listo para comprar, el bot pasa la conversación a un humano. El resultado: tu equipo atiende menos consultas pero de mayor calidad."
+      },
+      {
+        "question": "¿Puedo tener un chatbot web gratis?",
+        "answer": "Sí, hay opciones gratuitas como Tawk.to (chat en vivo + bot básico) y HubSpot Free (chatbot con flujos simples). Son limitados en automatización e IA, pero funcionan para empezar. Cuando necesités más, migrás a una solución paga."
+      },
+      {
+        "question": "¿Cuánto tarda implementar un bot de WhatsApp?",
+        "answer": "Un bot básico con flujos simples (bienvenida, FAQ, derivación a humano) se implementa en 1-2 semanas. Un bot con IA, integración con CRM y flujos complejos tarda 3-6 semanas. La verificación de la WhatsApp Business API puede agregar 1-2 semanas más."
+      }
+    ],
+    "ctaText": "¿Querés automatizar la atención al cliente con un bot inteligente? Pedí tu diagnóstico gratuito y te mostramos qué tipo de bot necesita tu negocio."
+  }
+}

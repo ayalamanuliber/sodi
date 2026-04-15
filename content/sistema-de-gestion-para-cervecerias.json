@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-cervecerias",
+  "title": "Sistema de gestión para cervecerías artesanales: producción, stock y tap room en un solo sistema",
+  "metaTitle": "Sistema de Gestión para Cervecerías Argentina | SODI",
+  "metaDescription": "Sistemas de gestión para cervecerías artesanales en Argentina. Lotes de producción, control de insumos, tap room, eventos y facturación integrada.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "cervecerías artesanales", "lotes de producción", "tap room", "control de insumos"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-cervecerias-artesanales", "tienda-online-para-cervecerias", "cuanto-cuesta-sistema-de-gestion-pymes", "sistema-de-turnos-para-cervecerias"],
+  "content": {
+    "intro": "<p>Una cervecería artesanal es fábrica, bar y marca al mismo tiempo. Tenés que controlar lotes de producción, medir insumos al detalle, saber cuántos litros quedan en cada canilla del tap room, organizar eventos y facturar todo correctamente. <strong>Manejar eso con planillas sueltas es receta para el desastre</strong>.</p><p>Un <strong>sistema de gestión para cervecerías</strong> centraliza producción, stock, ventas y facturación en un solo lugar. En esta guía te mostramos qué funcionalidades necesitás, cuánto cuesta y cómo elegir entre un SaaS y un desarrollo a medida para tu cervecería.</p>",
+    "sections": [
+      {
+        "heading": "El problema real: cómo operan hoy la mayoría de las cervecerías artesanales",
+        "body": "<p>La cerveza artesanal en Argentina explotó, pero la gestión detrás de muchas cervecerías sigue siendo artesanal en el peor sentido de la palabra:</p><ul><li><strong>Lotes sin trazabilidad:</strong> cocinaste un batch de IPA, pero no tenés registro de qué insumos usaste, en qué cantidades, ni cuál fue el rendimiento real. Si ese lote sale espectacular, no podés replicarlo exactamente.</li><li><strong>Stock de insumos a ciegas:</strong> la malta, el lúpulo, la levadura y los aditivos se controlan \"de ojo\". Te enterás que falta algo cuando ya es tarde y el próximo batch no puede arrancar.</li><li><strong>Tap room descontrolado:</strong> ¿cuántos litros quedan en el barril de la canilla 3? Nadie sabe hasta que sale espuma. Y si vendés pints, medias pintas y growlers, el control se complica más.</li><li><strong>Eventos sin organización:</strong> las cervecerías viven de eventos (after office, música en vivo, catas). Pero la gestión de reservas, stock especial y personal extra se hace a último momento.</li><li><strong>Facturación desordenada:</strong> entre lo que vendés en barra, los barriles que entregás a otros bares y los growlers para llevar, la facturación con ARCA se vuelve un dolor de cabeza.</li></ul>"
+      },
+      {
+        "heading": "Qué tiene que hacer un sistema de gestión cervecero",
+        "body": "<p>El sistema ideal para una cervecería artesanal tiene que cubrir dos mundos: la fábrica y el bar. Estos son los módulos clave:</p><ul><li><strong>Gestión de lotes de producción:</strong> cada batch con receta, insumos usados, cantidades, fechas de cocción, fermentación, maduración y envasado. Trazabilidad completa del grano al vaso.</li><li><strong>Control de insumos:</strong> stock de maltas, lúpulos, levaduras, aditivos y envases. Con punto de reposición, costos por proveedor y descuento automático al registrar una cocción.</li><li><strong>Gestión del tap room:</strong> estado de cada canilla (qué cerveza, cuántos litros quedan), ventas por tipo de servicio (pint, media pinta, growler, barril), y alertas cuando un barril está por vaciarse.</li><li><strong>Costeo por lote:</strong> cuánto costó producir cada lote incluyendo insumos, energía, mano de obra y mermas. Así sabés tu margen real por estilo.</li><li><strong>Gestión de eventos:</strong> calendario de eventos, reservas, stock adicional necesario, personal asignado.</li><li><strong>Facturación con ARCA:</strong> ventas en barra, ventas mayoristas a otros bares, delivery. Todo facturado correctamente.</li></ul><p>Un sistema genérico de gastronomía no entiende lotes de producción ni fermentación. Necesitás algo pensado para cervecerías o un <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">desarrollo a medida</a>.</p>"
+      },
+      {
+        "heading": "SaaS vs desarrollo a medida: qué conviene para tu cervecería",
+        "body": "<p>Veamos las opciones disponibles:</p><p><strong>SaaS cerveceros internacionales:</strong> existen plataformas como Brewfather o Breww que gestionan producción y recetas. Son muy buenas para la parte de fábrica, pero tienen limitaciones: están en inglés, no se integran con ARCA, no manejan pesos argentinos y no contemplan la gestión del tap room al nivel de detalle que necesitás.</p><p><strong>SaaS gastronómico + planilla de producción:</strong> usás un sistema de barra (tipo Restó o iKentoo) para el tap room y llevás la producción aparte. Funciona, pero tenés datos en dos lados y no se cruzan.</p><p><strong>Sistema a medida:</strong> un desarrollo que integra fábrica y bar en un solo lugar. La receta del lote se vincula con el stock de insumos, la producción alimenta el inventario del tap room, y las ventas descuentan automáticamente. Todo conectado.</p><p>Para cervecerías que solo producen y venden a otros bares, un Brewfather + Excel puede alcanzar. Pero si tenés tap room propio, <strong>la integración entre producción y punto de venta es lo que marca la diferencia</strong>. Ahí el sistema a medida brilla.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un sistema de gestión para cervecerías en Argentina",
+        "body": "<p>Los rangos en 2026:</p><ul><li><strong>SaaS cervecero internacional:</strong> USD 20 - USD 80/mes (solo producción, sin adaptación local)</li><li><strong>SaaS gastronómico para barra:</strong> $25.000 - $70.000 ARS/mes (solo punto de venta)</li><li><strong>Sistema a medida básico:</strong> $2.000.000 - $4.000.000 ARS (producción + stock + tap room + facturación)</li><li><strong>Sistema a medida completo:</strong> $4.000.000 - $9.000.000 ARS (todo lo anterior + eventos + delivery + reportes avanzados + app para mozos)</li></ul><p>La clave está en el margen. Si producís 1.000 litros por mes y tu costeo está mal por un 15%, estás regalando plata en cada pinta que servís. Un sistema que te dé el costo real por lote se paga con los ajustes de precio que vas a poder hacer.</p><p>Para más contexto, revisá nuestra <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">guía de costos para sistemas de gestión</a>.</p>"
+      },
+      {
+        "heading": "Implementación: de la planilla al sistema sin perder un batch",
+        "body": "<p>La transición en una cervecería tiene que ser progresiva. No podés frenar la producción para cargar datos. Así lo encaramos:</p><ul><li><strong>Cargar las recetas base:</strong> todos los estilos que producís regularmente, con ingredientes, cantidades y tiempos. Si el cervecero tiene todo en la cabeza, es el momento de documentarlo.</li><li><strong>Inventario inicial de insumos:</strong> conteo completo de maltas, lúpulos, levaduras, adjuntos y envases. Con precios actualizados.</li><li><strong>Mapear el tap room:</strong> configurar las canillas, vincular los barriles actuales y registrar los niveles estimados.</li><li><strong>Marcha en paralelo:</strong> los primeros 2-3 batches se registran en el sistema nuevo y en el método anterior. Así validamos que los datos cuadren.</li><li><strong>Capacitación por rol:</strong> el cervecero usa el módulo de producción, el encargado de barra usa el tap room, el dueño ve los reportes. Cada uno aprende lo suyo.</li></ul><p>Implementación típica: 4-6 semanas. Lo más importante es que las recetas y los costos de insumos estén bien cargados desde el arranque.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo rastrear cada lote desde los insumos hasta la canilla?",
+        "answer": "Sí. El sistema registra qué insumos se usaron en cada batch, cuántos litros se produjeron, en qué barriles se envasó y en qué canilla se conectó. Trazabilidad completa del grano al vaso."
+      },
+      {
+        "question": "¿Cómo controlo lo que queda en cada canilla del tap room?",
+        "answer": "Cada canilla se vincula a un barril con litros conocidos. A medida que se registran ventas (pint, media pinta, growler), el sistema descuenta automáticamente y te avisa cuando queda poco."
+      },
+      {
+        "question": "¿El sistema calcula el costo real de cada lote?",
+        "answer": "Sí. Suma el costo de todos los insumos usados, el rendimiento real (litros producidos vs esperados) y calcula el costo por litro. Así podés poner precios con margen real, no estimado."
+      },
+      {
+        "question": "¿Puedo gestionar ventas mayoristas a otros bares?",
+        "answer": "Sí. El sistema distingue entre ventas en barra y ventas mayoristas. Cada canal tiene su precio, su facturación y su descuento de stock separado."
+      },
+      {
+        "question": "¿Se integra con ARCA para facturación electrónica?",
+        "answer": "Sí. El sistema a medida se integra con ARCA para emitir facturas electrónicas tanto de ventas en barra como de entregas mayoristas, sin cargar todo manualmente."
+      }
+    ],
+    "ctaText": "¿Querés controlar tu producción, tap room y costos desde un solo sistema? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te diseñamos la solución ideal para tu cervecería."
+  }
+}

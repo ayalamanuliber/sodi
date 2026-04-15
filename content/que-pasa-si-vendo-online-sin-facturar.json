@@ -1,0 +1,61 @@
+{
+  "slug": "que-pasa-si-vendo-online-sin-facturar",
+  "title": "Qué pasa si vendés online sin facturar en Argentina: riesgos reales en 2026",
+  "metaTitle": "Vender online sin facturar Argentina: riesgos",
+  "metaDescription": "ARCA cruza datos de MercadoPago, Tiendanube y MercadoLibre con tus declaraciones. Multas, clausura y cómo regularizarte. Lo que tenés que saber.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["facturación", "arca", "monotributo", "vender online", "impuestos"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["monotributista-puede-vender-online-argentina", "factura-electronica-arca-2026", "cuanto-cuesta-facturacion-electronica-argentina", "como-vender-por-internet-argentina"],
+  "content": {
+    "intro": "<p>\"Vendo poco, no hace falta facturar.\" \"Solo vendo por Instagram, no me van a encontrar.\" \"MercadoLibre no le pasa datos a ARCA.\" Estas son las frases más comunes que escuchamos de emprendedores que venden online sin facturar. Y las tres son falsas.</p><p>ARCA (ex AFIP) tiene acceso a los datos de <strong>MercadoPago, MercadoLibre, Tiendanube y los bancos</strong>. Cruzan la información de tus ventas con tus declaraciones juradas. Si los números no cierran, llega la intimación. Y las consecuencias van desde multas hasta clausura. En esta guía te contamos exactamente qué riesgos corrés y cómo regularizarte.</p>",
+    "sections": [
+      {
+        "heading": "Cómo ARCA detecta las ventas no facturadas",
+        "body": "<p>ARCA no necesita investigarte individualmente. Tiene <strong>regímenes de información</strong> que obligan a las plataformas y procesadores de pago a reportar tus operaciones:</p><ul><li><strong>MercadoLibre y MercadoPago:</strong> desde la RG 4164/2017, MercadoLibre informa a ARCA todas las operaciones de sus vendedores — montos, cantidades, datos del vendedor. MercadoPago hace lo mismo con los cobros que procesás.</li><li><strong>Bancos:</strong> todos los movimientos bancarios por encima de ciertos montos son reportados. Si recibís transferencias frecuentes de distintas personas, ARCA lo ve.</li><li><strong>Tiendanube y otras plataformas:</strong> si integrás medios de pago electrónicos, el procesador de pago reporta las transacciones.</li><li><strong>Tarjetas de crédito:</strong> las administradoras de tarjetas informan retenciones y operaciones.</li></ul><p><strong>El cruce automático:</strong> ARCA compara lo que las plataformas reportan con lo que vos declarás. Si MercadoPago dice que cobraste $2.000.000 en un año y vos declaraste $500.000 como monotributista, la inconsistencia salta automáticamente. No necesitan un inspector — es un sistema informático.</p><p><strong>Dato real:</strong> ARCA intensificó los controles sobre comercio electrónico desde 2023. Las intimaciones por inconsistencias entre ventas en plataformas y declaraciones juradas se multiplicaron. Ya no es un riesgo teórico.</p>"
+      },
+      {
+        "heading": "Consecuencias de vender sin facturar",
+        "body": "<p>Las consecuencias son concretas y escalan según la gravedad:</p><p><strong>1. Intimación de ARCA</strong></p><p>Lo primero que llega es una intimación electrónica o postal pidiéndote que justifiques ingresos no declarados. Tenés un plazo (generalmente 15 días hábiles) para responder. Si no respondés o no podés justificar, se abre un proceso de determinación de oficio.</p><p><strong>2. Multas</strong></p><p>La Ley 11.683 (Procedimiento Tributario) establece multas que van desde el 50% hasta el 200% del impuesto omitido. Si ARCA determina que dejaste de facturar $5.000.000 en un año, la multa puede ser de $2.500.000 a $10.000.000, más intereses resarcitorios.</p><p><strong>3. Clausura del negocio</strong></p><p>Si ARCA detecta que no emitís factura estando obligado, puede clausurar tu negocio (online o físico) por 2 a 6 días. En el caso de tiendas online, pueden intimarte a cerrar hasta que regularices.</p><p><strong>4. Exclusión del Monotributo</strong></p><p>Si tus ventas superan los límites del monotributo y no lo declaraste, ARCA te excluye de oficio y te pasa al régimen general (responsable inscripto). Ahí pagás IVA 21%, Ganancias, y la carga impositiva es mucho mayor.</p><p><strong>5. Responsabilidad penal</strong></p><p>Si el monto evadido supera los $15.000.000 por período fiscal, entrás en el régimen de la Ley Penal Tributaria (27.430). Eso implica causa penal con posibilidad de prisión. Es extremo, pero existe.</p>"
+      },
+      {
+        "heading": "\"Pero yo vendo poco\": los mitos más peligrosos",
+        "body": "<p><strong>Mito 1: \"Vendo menos de $X por mes, no hace falta facturar.\"</strong></p><p>Falso. No existe un mínimo legal para empezar a facturar. Si vendés habitualmente, estás obligado a inscribirte y emitir comprobantes. La habitualidad, no el monto, es lo que define la obligación.</p><p><strong>Mito 2: \"Solo vendo por Instagram/WhatsApp, ARCA no puede rastrearme.\"</strong></p><p>Si cobrás por MercadoPago, transferencia bancaria o cualquier medio electrónico, ARCA tiene acceso a esos datos. No importa dónde publicás — importa cómo cobrás.</p><p><strong>Mito 3: \"MercadoLibre no le pasa datos a ARCA.\"</strong></p><p>MercadoLibre y MercadoPago están legalmente obligados a informar todas las operaciones. Lo hacen automáticamente, todos los meses. No tienen opción.</p><p><strong>Mito 4: \"Si cobro en efectivo, no queda registro.\"</strong></p><p>Parcialmente cierto — el efectivo es más difícil de rastrear. Pero si publicás en MercadoLibre y la venta figura como concretada, ARCA la tiene registrada independientemente de cómo cobraste.</p><p><strong>Mito 5: \"Me van a avisar antes de multarme.\"</strong></p><p>ARCA manda intimaciones, pero si no las ves (porque fueron al domicilio fiscal que nunca actualizaste o al correo electrónico que no revisás), los plazos corren igual. La ignorancia no te protege.</p>"
+      },
+      {
+        "heading": "Cómo regularizarte: paso a paso",
+        "body": "<p>Si estás vendiendo sin facturar y querés ponerte en regla, este es el camino:</p><p><strong>1. Sacá el CUIT si no lo tenés</strong></p><p>Trámite presencial en una agencia de ARCA con DNI. Es gratuito y sale en el día.</p><p><strong>2. Inscribite en el Monotributo</strong></p><p>Si tus ingresos anuales no superan los límites de la categoría más alta del monotributo, esta es la opción más simple. Pagás una cuota mensual fija que incluye impuestos, obra social y jubilación. Las categorías 2026 arrancan desde ~$26.600/mes (categoría A).</p><p><strong>3. Habilitá la factura electrónica</strong></p><p>Entrá a la web de ARCA, habilitá el punto de venta y empezá a emitir facturas C (si sos monotributista) por cada venta. Podés usar la app \"Facturador Móvil\" de ARCA o integrarlo con tu tienda online.</p><p><strong>4. Registrá tus actividades</strong></p><p>En ARCA, asociá el código de actividad correcto (venta por internet, comercio electrónico, etc.). Es importante para que tu categoría de monotributo sea la correcta.</p><p><strong>5. Regularizá lo que debés (si corresponde)</strong></p><p>Si ARCA ya te intimó o detectó inconsistencias, podés adherirte a un plan de pagos (moratoria si hay vigente, o plan de facilidades). Consultá con un contador para definir la mejor estrategia.</p><p><strong>Costo real de regularizarte:</strong> un monotributista categoría A paga ~$26.600/mes (2026). Eso incluye impuesto, obra social y aporte jubilatorio. Es mucho menos de lo que cuesta una multa de ARCA.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta estar en regla vs cuánto cuesta una multa",
+        "body": "<p>Hagamos las cuentas:</p><p><strong>Estar en regla (monotributista categoría B, ventas hasta $6.450.000/año):</strong></p><ul><li>Cuota mensual: ~$30.000/mes</li><li>Contador que te liquide: $15.000-30.000/mes</li><li>Facturación electrónica: gratuita con herramientas de ARCA</li><li><strong>Total anual: ~$540.000 - $720.000</strong></li></ul><p><strong>No estar en regla (escenario de multa):</strong></p><ul><li>Multa por omisión: 50-200% del impuesto evadido</li><li>Si facturaste $5.000.000 sin declarar, el impuesto omitido puede ser de $1.500.000+</li><li>Multa mínima: $750.000. Multa máxima: $3.000.000+</li><li>Más intereses resarcitorios (tasa de ~5-6% mensual)</li><li>Más el costo de regularizarte igual</li><li>Más el estrés y tiempo de lidiar con ARCA</li></ul><p><strong>La cuenta es clara:</strong> regularizarte cuesta una fracción de lo que cuesta una multa. Y te da tranquilidad para hacer crecer tu negocio sin mirar por encima del hombro.</p><p>¿Necesitás ayuda armando tu tienda online para que facture correctamente desde el día uno? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te guiamos en toda la parte técnica y fiscal.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿ARCA puede ver mis ventas de MercadoPago?",
+        "answer": "Sí. MercadoPago y MercadoLibre están obligados por la RG 4164 a informar a ARCA todas las operaciones de sus usuarios: montos cobrados, datos del vendedor y frecuencia de operaciones. ARCA cruza esa información con tus declaraciones juradas automáticamente."
+      },
+      {
+        "question": "¿Cuánto es la multa por no facturar ventas online?",
+        "answer": "La multa por omisión de facturación va del 50% al 200% del impuesto omitido, según la Ley 11.683. Si además ARCA determina clausura, puede cerrar tu operación por 2 a 6 días. Los intereses resarcitorios se acumulan a una tasa de ~5-6% mensual."
+      },
+      {
+        "question": "¿Puedo facturar solo una parte de mis ventas?",
+        "answer": "No legalmente. Estás obligado a facturar todas las ventas. Si facturás solo una parte, la inconsistencia entre lo que reportan las plataformas y lo que declarás va a saltar en el cruce de datos de ARCA igual."
+      },
+      {
+        "question": "¿Desde qué monto estoy obligado a facturar?",
+        "answer": "No hay un monto mínimo. Si vendés de manera habitual (no es una venta aislada de algo personal), estás obligado a inscribirte y facturar desde la primera operación comercial. La habitualidad, no el monto, define la obligación."
+      },
+      {
+        "question": "¿Qué hago si ya me llegó una intimación de ARCA?",
+        "answer": "No la ignores. Consultá con un contador inmediatamente. Tenés un plazo para responder (generalmente 15 días hábiles). Podés presentar descargos, regularizarte y adherirte a un plan de pagos. Cuanto antes actúes, menores son las consecuencias."
+      }
+    ],
+    "ctaText": "¿Querés vender online en regla desde el primer día? En SODI te ayudamos a montar tu tienda con facturación integrada, para que te enfoques en vender y no en preocuparte por ARCA."
+  }
+}

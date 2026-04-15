@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-clinicas-esteticas",
+  "title": "Sistema de turnos para clínicas estéticas: tratamientos, consentimientos y seguimiento visual",
+  "metaTitle": "Sistema de Turnos para Clínicas Estéticas | SODI",
+  "metaDescription": "Sistemas de turnos para clínicas estéticas en Argentina. Turnos por tratamiento, duraciones variables, consentimiento previo y fotos before/after.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "clínicas estéticas", "agenda médica estética", "consentimiento informado", "before after"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-clinicas-esteticas", "google-ads-para-clinicas-esteticas", "cuanto-cuesta-app-de-turnos", "sistema-de-turnos-para-centros-de-estetica"],
+  "content": {
+    "intro": "<p>Una clínica estética no es un centro de belleza convencional. Manejás <strong>tratamientos médicos con duraciones muy distintas, profesionales especializados por procedimiento, consentimientos informados obligatorios y seguimiento visual con fotos before/after</strong>. Gestionar todo eso con un sistema de turnos genérico o por WhatsApp es un riesgo operativo y legal.</p><p>Un sistema de turnos pensado para clínicas estéticas organiza la agenda por tratamiento y profesional, gestiona los consentimientos previos digitalmente, registra el progreso visual del paciente y reduce las ausencias con recordatorios automáticos. En esta guía te mostramos las opciones y cómo elegir.</p>",
+    "sections": [
+      {
+        "heading": "Por qué una clínica estética necesita un sistema de turnos especializado",
+        "body": "<p>Las clínicas estéticas tienen complejidades que otros rubros de salud no tienen:</p><ul><li><strong>Duraciones extremadamente variables:</strong> una aplicación de toxina botulínica dura 15 minutos, un tratamiento de hidrolipoclasia 90 minutos, una sesión de láser fraxel 45 minutos. El sistema tiene que bloquear el tiempo correcto para cada procedimiento.</li><li><strong>Profesionales por especialidad:</strong> no cualquier profesional hace cualquier tratamiento. El dermatólogo aplica toxina, la cosmiatra hace limpiezas, el cirujano evalúa lipos. El sistema asigna turnos según quién puede hacer qué.</li><li><strong>Consentimiento informado obligatorio:</strong> antes de ciertos procedimientos, el paciente tiene que firmar un consentimiento. Si llega sin haberlo firmado, no se puede hacer el tratamiento. El sistema tiene que gestionar esto antes del turno.</li><li><strong>Seguimiento visual (before/after):</strong> las fotos de antes y después son parte del historial clínico y también son la mejor herramienta de venta. Un sistema que registre fotos vinculadas a cada sesión es invaluable.</li><li><strong>Ausencias costosas:</strong> un turno de relleno de ácido hialurónico que no se presenta son $50.000-$100.000 que no entran. Los recordatorios automáticos <strong>reducen las faltas entre un 40% y 60%</strong>.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS vs desarrollo a medida",
+        "body": "<p>Veamos qué hay disponible:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> es la opción SaaS más usada en estética en Argentina. Permite agenda por profesional, catálogo de tratamientos con duración, recordatorios por WhatsApp y gestión de paquetes de sesiones. <strong>Limitación:</strong> no tiene gestión de consentimientos informados ni registro de fotos before/after vinculado a la ficha del paciente.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple. Agenda y recordatorios. No tiene la complejidad que necesita una clínica estética.</li><li><strong>Sistemas médicos (Medilink, Dr. App):</strong> pensados para clínicas médicas, tienen historia clínica pero no están optimizados para el flujo estético (paquetes, fotos, consentimientos específicos de estética).</li></ul><p><strong>Sistema a medida:</strong> se diseña para el flujo exacto de tu clínica. Consentimientos digitales que el paciente firma antes de llegar, galería de fotos before/after vinculada a cada paciente y tratamiento, agenda inteligente por profesional y sala, paquetes de sesiones con seguimiento. Todo integrado.</p><p>Para clínicas con más de 3 profesionales o que hacen procedimientos médico-estéticos (toxina, rellenos, hilos), <strong>el sistema a medida es la opción más segura</strong> por la gestión de consentimientos y la trazabilidad de tratamientos.</p>"
+      },
+      {
+        "heading": "Consentimiento informado digital: por qué es clave",
+        "body": "<p>En estética médica, el consentimiento informado no es opcional. Es una obligación legal que te protege ante cualquier reclamo. El problema es cómo se gestiona:</p><ul><li><strong>Método tradicional:</strong> el paciente llega, le dan un papel, lo firma apurado, se archiva en una carpeta. Si necesitás encontrarlo tres años después, buena suerte.</li><li><strong>Método digital:</strong> el paciente recibe el consentimiento por email o WhatsApp antes del turno. Lo lee con calma, lo firma digitalmente. Queda almacenado, vinculado al paciente y al tratamiento, accesible en segundos.</li></ul><p>Un sistema de turnos a medida integra el consentimiento en el flujo de reserva:</p><ol><li>El paciente reserva turno para toxina botulínica</li><li>Recibe automáticamente el consentimiento específico de toxina botulínica</li><li>Lo firma digitalmente antes del turno</li><li>El profesional ve en el sistema que el consentimiento está firmado antes de empezar</li></ol><p>Si el paciente no firmó, el sistema alerta. Sin sorpresas, sin riesgos legales.</p>"
+      },
+      {
+        "heading": "Fotos before/after: la herramienta de venta más potente",
+        "body": "<p>En estética, los resultados visuales venden más que cualquier publicidad. Pero la mayoría de las clínicas manejan las fotos de forma desordenada:</p><ul><li>Fotos en el celular del profesional que se pierden cuando cambia de teléfono</li><li>Carpetas de Google Drive sin organización ni vinculación al paciente</li><li>Fotos tomadas con distinta luz, ángulo y distancia que no sirven para comparar</li></ul><p>Un sistema a medida resuelve esto con un <strong>módulo de seguimiento visual</strong>:</p><ul><li><strong>Protocolo de fotos:</strong> guía de ángulos, distancia y luz para que todas las fotos sean comparables</li><li><strong>Vinculación a paciente y tratamiento:</strong> las fotos se guardan en la ficha del paciente, asociadas al tratamiento y la sesión</li><li><strong>Timeline visual:</strong> el profesional y el paciente pueden ver la evolución del tratamiento en una línea de tiempo</li><li><strong>Consentimiento de uso de imagen:</strong> integrado con la firma digital, para que puedas usar los resultados en tu <a href=\"/blog/pagina-web-para-clinicas-esteticas\">página web</a> y redes</li></ul><p>Las fotos before/after bien gestionadas no solo mejoran la atención: son contenido para tu marketing y argumento de venta para <a href=\"/blog/google-ads-para-clinicas-esteticas\">tus campañas de Google Ads</a>.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta y cómo elegir el sistema ideal",
+        "body": "<p>Los rangos en 2026:</p><ul><li><strong>SaaS (AgendaPro):</strong> USD 15-45/mes. Funciona para agenda y recordatorios. Sin consentimientos ni fotos integradas.</li><li><strong>Sistema a medida básico:</strong> $1.500.000 - $3.000.000 ARS (agenda, consentimientos digitales, recordatorios, ficha de paciente)</li><li><strong>Sistema a medida completo:</strong> $3.000.000 - $7.000.000 ARS (todo lo anterior + fotos before/after, portal de pacientes, paquetes de sesiones, reportes de facturación)</li></ul><p>La decisión depende de tu operación:</p><ul><li><strong>Clínica chica (1-2 profesionales, tratamientos básicos):</strong> AgendaPro + archivos de consentimiento por email. Funcional y económico.</li><li><strong>Clínica mediana (3-5 profesionales, procedimientos médico-estéticos):</strong> sistema a medida. Los consentimientos, la trazabilidad y las fotos lo justifican.</li><li><strong>Clínica grande o cadena:</strong> sistema a medida completo con múltiples sedes, reportes consolidados y portal de pacientes.</li></ul><p>Más contexto en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos de turnos online</a>. Si no sabés cuál te conviene, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El sistema puede gestionar consentimientos informados digitales?",
+        "answer": "Sí, con un sistema a medida. El paciente recibe el consentimiento específico del tratamiento antes del turno, lo firma digitalmente y queda vinculado a su ficha. El profesional verifica la firma antes de empezar."
+      },
+      {
+        "question": "¿Puedo registrar fotos before/after de cada paciente?",
+        "answer": "Sí. El sistema a medida incluye un módulo de seguimiento visual donde se suben fotos vinculadas al paciente, tratamiento y sesión. Se puede ver la evolución en una timeline."
+      },
+      {
+        "question": "¿Cómo manejo tratamientos con duraciones muy distintas?",
+        "answer": "Cada tratamiento se configura con su duración específica. Cuando un paciente reserva, el sistema bloquea exactamente el tiempo necesario en la agenda del profesional correspondiente."
+      },
+      {
+        "question": "¿Puedo gestionar paquetes de sesiones?",
+        "answer": "Sí. Se crean paquetes (ej: 6 sesiones de láser) y el sistema lleva el control de cuántas sesiones usó cada paciente, cuántas le quedan y cuándo vencen."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para una clínica estética?",
+        "answer": "SaaS: entre USD 15 y USD 45/mes (sin consentimientos ni fotos). Sistema a medida: entre $1.500.000 y $7.000.000 ARS según funcionalidades."
+      }
+    ],
+    "ctaText": "¿Querés profesionalizar la agenda de tu clínica estética con consentimientos y fotos integradas? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos el sistema ideal."
+  }
+}

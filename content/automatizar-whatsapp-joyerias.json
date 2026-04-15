@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-joyerias",
+  "title": "Automatizar WhatsApp para joyerías: catálogo, consultas y seguimiento de clientes con bots",
+  "metaTitle": "Automatizar WhatsApp para Joyerías Argentina | SODI",
+  "metaDescription": "Cómo automatizar WhatsApp en tu joyería. Bots para catálogo, consultas de precios, aviso de reparaciones y seguimiento post-venta automatizado.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["joyerías", "WhatsApp Business", "automatización", "bots WhatsApp", "ventas online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-joyerias", "tienda-online-para-joyerias", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Tu joyería recibe mensajes de WhatsApp todo el día: \"¿Cuánto sale este anillo?\", \"¿Tienen alianzas?\", \"¿Hacen grabados?\", \"¿Ya está listo mi arreglo?\". Cada mensaje sin responder es una venta potencial que se pierde — porque el cliente que no recibe respuesta rápida <strong>le escribe a la joyería que sí le contesta</strong>.</p><p>Automatizar WhatsApp en tu joyería no es reemplazar la atención personalizada que define a tu rubro — es <strong>estar disponible 24/7 para las consultas básicas y dedicar tu tiempo a asesorar en lo que realmente importa</strong>. En esta guía te mostramos los flujos que necesitás, las herramientas disponibles y cómo implementarlo. Si querés vender online, mirá cómo armar tu <a href=\"/blog/tienda-online-para-joyerias\">tienda online para joyerías</a>.</p>",
+    "sections": [
+      {
+        "heading": "Flujos de automatización clave para joyerías",
+        "body": "<p>Estos son los flujos que más impacto generan en una joyería:</p><ul><li><strong>Catálogo interactivo:</strong> el cliente escribe y el bot le muestra categorías (anillos, alianzas, cadenas, relojes, reparaciones). Dentro de cada categoría, fotos con precio o rango de precios. Como una vidriera digital 24/7.</li><li><strong>Consulta de precios y disponibilidad:</strong> \"¿Tenés alianzas en oro 18k?\" → respuesta inmediata con opciones, fotos y precios. Sin esperar a que alguien agarre el teléfono.</li><li><strong>Aviso de reparaciones listas:</strong> cuando un arreglo o grabado está listo, se dispara automáticamente: \"Tu pieza ya está lista para retirar. Te esperamos de lunes a viernes de 10 a 19hs\".</li><li><strong>Seguimiento post-venta:</strong> 30 días después de una compra: \"¿Cómo está tu [pieza]? Recordá que tenés garantía por 6 meses. Si necesitás limpieza, acercate sin cargo\".</li><li><strong>Fechas especiales:</strong> 2 semanas antes de San Valentín, Día de la Madre, Navidad: \"¿Ya tenés el regalo perfecto? Mirá nuestras opciones con envío incluido\".</li></ul>"
+      },
+      {
+        "heading": "Herramientas para automatizar WhatsApp",
+        "body": "<p>Las mejores opciones para joyerías argentinas:</p><ul><li><strong>Aurora Inbox:</strong> plataforma argentina con flujos visuales sin código. Permite armar catálogos interactivos, respuestas automáticas y gestionar todas las conversaciones desde un panel. Ideal para arrancar sin complejidad.</li><li><strong>Whato:</strong> especializado en comercios. Tiene plantillas listas para catálogo, consultas y seguimiento. Lo configurás en un día y funciona.</li><li><strong>ManyChat:</strong> más robusto, permite flujos complejos con condicionales (si el cliente pregunta por alianzas, muestra una cosa; si pregunta por reparaciones, otra). Se integra también con Instagram.</li><li><strong>ChatCompose:</strong> usa IA para entender preguntas abiertas. El cliente puede escribir \"busco un regalo para mi novia de unos 50 mil pesos\" y el bot sugiere opciones relevantes.</li></ul><p><strong>Recomendación:</strong> para joyerías, el catálogo es fundamental. Aurora Inbox y ManyChat son las que mejor lo manejan. Si la personalización es importante para vos (y en joyería lo es), considerá ChatCompose por la IA conversacional.</p>"
+      },
+      {
+        "heading": "Catálogo y ventas por WhatsApp",
+        "body": "<p>WhatsApp puede ser tu canal de venta principal si lo armás bien:</p><ul><li><strong>Catálogo por categoría:</strong> el bot saluda y ofrece: \"1) Anillos 2) Alianzas 3) Cadenas y colgantes 4) Aros 5) Relojes 6) Reparaciones\". El cliente elige y ve opciones con foto y precio.</li><li><strong>Filtros inteligentes:</strong> dentro de cada categoría, permitile filtrar: \"¿En qué material? 1) Oro 18k 2) Plata 925 3) Acero 4) Todos\". Cuantos menos clicks para llegar al producto, mejor.</li><li><strong>Ficha de producto:</strong> cada pieza con foto de calidad, descripción, material, precio y botón de \"Quiero esta pieza\" que conecta con una persona real para cerrar la venta.</li><li><strong>Reserva de piezas:</strong> \"¿Querés que te la reservemos 48hs? Dejanos tu nombre y te la guardamos\". Genera compromiso sin presionar.</li><li><strong>Medios de pago:</strong> respuesta automática con opciones: efectivo, tarjeta, transferencia, cuotas. Elimina otra pregunta repetitiva.</li></ul><p>La transición bot→humano tiene que ser <strong>imperceptible</strong>. El bot filtra, muestra opciones y cuando el cliente está listo para comprar, entra una persona a cerrar con calidez.</p>"
+      },
+      {
+        "heading": "Seguimiento y fidelización automática",
+        "body": "<p>Una joyería vive de clientes recurrentes. La automatización te ayuda a mantener la relación:</p><ul><li><strong>Post-venta a 7 días:</strong> \"¿Pudiste estrenar tu [pieza]? Si necesitás ajuste de talle, acercate sin cargo\" — muestra cuidado profesional.</li><li><strong>Recordatorio de limpieza:</strong> cada 6 meses: \"Las joyas de plata necesitan limpieza periódica. Acercate y te la hacemos sin cargo\" — te trae al cliente de vuelta al local.</li><li><strong>Fechas especiales personalizadas:</strong> si compraste alianzas, un mensaje al aniversario: \"¡Feliz aniversario! Tenemos una sorpresa para vos en el local\". Fidelización premium.</li><li><strong>Pre-fechas comerciales:</strong> 15 días antes de San Valentín, Día de la Madre, Navidad: envío masivo segmentado con sugerencias de regalo por rango de precio.</li><li><strong>Clientes VIP:</strong> a quienes compraron más de X veces, acceso anticipado a nuevas colecciones o descuentos exclusivos.</li></ul><p><strong>Regla de oro:</strong> máximo 2 mensajes por mes a cada cliente. Más que eso se percibe como spam y te bloquean.</p>"
+      },
+      {
+        "heading": "Implementación paso a paso",
+        "body": "<p>Así arrancás sin complicarte:</p><ul><li><strong>Paso 1:</strong> sacá fotos de calidad de tus piezas más vendidas. 20-30 productos alcanza para arrancar. Fondo blanco o neutro, buena luz.</li><li><strong>Paso 2:</strong> elegí tu herramienta (Aurora Inbox para empezar) y conectá tu WhatsApp Business.</li><li><strong>Paso 3:</strong> armá el flujo del catálogo con categorías y productos. Es lo que más impacto tiene.</li><li><strong>Paso 4:</strong> configurá respuestas automáticas para las 5 preguntas más frecuentes (horarios, ubicación, medios de pago, si hacen grabados, si trabajan con alianzas).</li><li><strong>Paso 5:</strong> programá los mensajes de seguimiento post-venta y fechas especiales.</li></ul><p><strong>Errores a evitar:</strong></p><ul><li>No mostrar precios — en joyería la gente quiere saber antes de preguntar.</li><li>Bot demasiado rígido que no deja hablar con una persona.</li><li>Fotos de baja calidad — en joyería la imagen lo es todo.</li><li>No actualizar el catálogo cuando se agotan piezas.</li></ul><p>¿Necesitás ayuda para implementarlo? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te armamos todo el flujo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta automatizar WhatsApp para una joyería?",
+        "answer": "Las herramientas arrancan desde USD 20-30/mes. Considerando que una sola venta de una alianza o anillo recupera meses de suscripción, la inversión es mínima comparada con el retorno."
+      },
+      {
+        "question": "¿No se pierde el trato personalizado con un bot?",
+        "answer": "No, si lo armás bien. El bot maneja consultas iniciales y catálogo, pero cuando el cliente quiere comprar o necesita asesoramiento, la conversación pasa a una persona. El bot filtra y califica, vos cerrás la venta."
+      },
+      {
+        "question": "¿La gente compra joyas por WhatsApp sin verlas en persona?",
+        "answer": "Muchos sí, especialmente piezas de precio medio y regalos. La clave es tener fotos y videos de calidad. Para piezas de alto valor, WhatsApp funciona como pre-venta: el cliente llega al local ya sabiendo qué quiere."
+      },
+      {
+        "question": "¿Cómo manejo los pedidos de piezas personalizadas?",
+        "answer": "El bot puede recopilar los datos iniciales (tipo de pieza, material, presupuesto, si quiere grabado) y después transferir la conversación a vos para el asesoramiento detallado. Ahorrás tiempo en la recopilación inicial."
+      },
+      {
+        "question": "¿Es seguro enviar precios por WhatsApp?",
+        "answer": "Sí, no hay ningún problema legal ni práctico. Al contrario, mostrar precios genera confianza y ahorra tiempo. Si los precios varían mucho, usá rangos: 'Alianzas en oro 18k desde $X'."
+      }
+    ],
+    "ctaText": "¿Querés que tu joyería venda más por WhatsApp sin perder la atención personalizada? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y armamos tus flujos."
+  }
+}

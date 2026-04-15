@@ -1,0 +1,61 @@
+{
+  "slug": "como-preparar-tienda-hot-sale-2026",
+  "title": "Cómo preparar tu tienda online para el Hot Sale 2026: checklist completo para PyMEs argentinas",
+  "metaTitle": "Cómo preparar tu tienda para Hot Sale 2026",
+  "metaDescription": "Checklist completo para Hot Sale Argentina mayo 2026: inscripción, stock, load testing, pasarela de pago, retargeting y email. Todo lo que necesitás.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["hot sale", "ecommerce argentina", "tienda online", "ventas online", "hot sale 2026"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "como-vender-por-internet-argentina", "como-preparar-negocio-para-vender-online", "automatizar-whatsapp-ecommerce"],
+  "content": {
+    "intro": "<p>El <strong>Hot Sale 2026</strong> se viene en mayo y si tu tienda no está lista con al menos 3 semanas de anticipación, vas a perder la ventana más grande de ventas online del año en Argentina. En 2025 el evento generó más de $600.000 millones en facturación — y las PyMEs que se prepararon bien capturaron una porción desproporcionada del tráfico.</p><p>Este checklist cubre todo lo que tenés que hacer <strong>antes, durante y después</strong> del Hot Sale: desde la inscripción oficial hasta el retargeting post-evento. Sin humo, con plazos concretos.</p>",
+    "sections": [
+      {
+        "heading": "Inscripción y requisitos oficiales del Hot Sale",
+        "body": "<p>El Hot Sale es organizado por la <strong>CACE</strong> (Cámara Argentina de Comercio Electrónico). Para participar oficialmente necesitás:</p><ul><li><strong>Inscripción en hotsale.com.ar:</strong> la inscripción abre ~60 días antes del evento. Costo de participación: desde $150.000 ARS para PyMEs (varía por año y categoría). Te da visibilidad en el sitio oficial y acceso al badge Hot Sale.</li><li><strong>Requisitos técnicos:</strong> tu tienda tiene que tener certificado SSL (HTTPS), botón de arrepentimiento visible, y políticas de devolución publicadas.</li><li><strong>Stock declarado:</strong> tenés que poder respaldar las ofertas que publicás. Si ofrecés 50 unidades a precio promocional, tenés que tener 50 unidades.</li></ul><p><strong>Alternativa si no te inscribís oficialmente:</strong> muchas PyMEs hacen su propio \"Hot Sale\" con descuentos en las mismas fechas sin pagar la inscripción. No aparecés en hotsale.com.ar, pero aprovechás el tráfico orgánico que genera el evento. Es válido, siempre que no uses la marca \"Hot Sale\" en tu publicidad.</p>"
+      },
+      {
+        "heading": "Prepará tu infraestructura web (esto es lo que más se ignora)",
+        "body": "<p>El Hot Sale genera picos de tráfico brutales. Si tu tienda se cae, perdés ventas y reputación. Lo que tenés que hacer:</p><h3>Load testing</h3><p>Herramientas gratuitas para probar carga: <strong>k6.io</strong> (open source) o <strong>Loader.io</strong> (free tier: 10.000 requests). Simulá al menos 5x tu tráfico normal. Si tu tienda tarda más de 3 segundos en cargar bajo carga, tenés un problema.</p><h3>Si usás Tiendanube o Shopify</h3><p>La infraestructura la manejan ellos. Pero <strong>optimizá tus imágenes</strong> — fotos de producto pesadas son la causa #1 de tiendas lentas. Usá WebP, máximo 200KB por imagen. Herramienta gratis: Squoosh.app.</p><h3>Si usás WooCommerce</h3><p>Asegurate de tener: hosting con al menos 2GB RAM, CDN activo (Cloudflare gratis funciona), caché de página (WP Super Cache o LiteSpeed Cache), y base de datos optimizada. Considerá escalar tu hosting temporalmente para el evento.</p><h3>Checkout</h3><p>Probá el flujo de compra completo 1 semana antes. ¿Funciona Mercado Pago? ¿Las cuotas se muestran bien? ¿El cálculo de envío es correcto? Un checkout roto durante el Hot Sale te cuesta miles de pesos por hora.</p>"
+      },
+      {
+        "heading": "Estrategia de precios, stock y pasarela de pago",
+        "body": "<p><strong>Precios y descuentos:</strong></p><ul><li>Definí qué productos vas a poner en oferta. No pongas todo al 50% — elegí 5-10 productos estrella con descuento real y usá el resto del catálogo como complemento.</li><li>Recordá: por ley, el precio anterior tiene que ser real (publicado en los últimos 90 días). Las multas de Defensa del Consumidor por precios inflados antes del evento son cada vez más comunes.</li><li>Considerá bundles: \"comprá X + Y con 30% de descuento\" suele funcionar mejor que descuentos individuales.</li></ul><p><strong>Stock:</strong></p><ul><li>Revisá stock real vs stock en sistema. Si vendés en Mercado Libre + tienda propia, sincronizá inventario para no sobrevender.</li><li>Tené plan B para productos que se agoten: reemplazos, lista de espera, o \"avisame cuando vuelva\".</li></ul><p><strong>Mercado Pago:</strong></p><ul><li>Verificá que tu cuenta esté activa y sin restricciones. Si tenés reclamos pendientes, resolvelos antes del evento.</li><li>Definí cuotas: ¿ofrecés 3, 6, o 12 cuotas sin interés? Calculá el costo financiero. 6 cuotas sin interés = ~18% de costo para vos.</li><li>Activá todos los medios de pago: tarjeta, débito, transferencia, efectivo en puntos de pago.</li></ul>"
+      },
+      {
+        "heading": "Marketing pre-evento: email, retargeting y redes",
+        "body": "<p>El Hot Sale no se gana el día del evento — se gana en las 2-3 semanas previas.</p><h3>Email marketing (empezá 3 semanas antes)</h3><ul><li><strong>Semana -3:</strong> email de \"anticipate\" a tu base. \"Se viene el Hot Sale y tenemos sorpresas.\" Objetivo: generar expectativa.</li><li><strong>Semana -1:</strong> email con preview de ofertas. \"Estas son las ofertas que vas a encontrar.\" Incluí un CTA para agregar a favoritos.</li><li><strong>Día del evento:</strong> email a las 00:01 con link directo a las ofertas. Otro email a las 14hs con \"últimas horas\" o productos destacados.</li></ul><p>Herramientas gratuitas: <strong>Brevo</strong> (ex Sendinblue, 300 emails/día gratis), <strong>Mailchimp</strong> (500 contactos gratis).</p><h3>Retargeting (configurá 2 semanas antes)</h3><ul><li>Instalá el <strong>Pixel de Meta</strong> y el tag de <strong>Google Ads</strong> si no los tenés. Sin estos, no podés hacer retargeting.</li><li>Creá audiencias de: visitantes últimos 30 días, abandonos de carrito, compradores anteriores.</li><li>Presupuesto sugerido para retargeting durante Hot Sale: $50.000-$150.000 ARS por día según tu volumen. El ROAS suele ser 3-5x en estas fechas.</li></ul><h3>Redes sociales</h3><p>Publicá contenido de anticipación en Instagram y WhatsApp. Stories con cuenta regresiva, lista de difusión con ofertas exclusivas para seguidores. No necesitás gran presupuesto — la creatividad gana.</p>"
+      },
+      {
+        "heading": "Durante y después del Hot Sale: operación y seguimiento",
+        "body": "<p><strong>Durante el evento:</strong></p><ul><li>Tené a alguien monitoreando la tienda en tiempo real. Si algo se rompe, necesitás reaccionar en minutos, no en horas.</li><li>Respondé consultas rápido. Si tenés bot de WhatsApp, asegurate de que esté configurado con las ofertas actualizadas. Si no, tené respuestas predefinidas listas para copiar y pegar.</li><li>Actualizá stock en tiempo real. Si algo se agota, sacalo de la tienda antes de que alguien compre y tengas que cancelar.</li></ul><p><strong>Después del evento (las 48 horas más importantes):</strong></p><ul><li><strong>Email post-compra:</strong> confirmación + tiempo de envío estimado. Reducí la ansiedad del comprador.</li><li><strong>Despacho rápido:</strong> si prometiste 3-5 días, cumplí. La experiencia post-compra define si te vuelven a comprar.</li><li><strong>Retargeting a visitantes que no compraron:</strong> tenés 72 horas para recuperarlos con un descuento extra o envío gratis. Es el público más caliente que vas a tener en todo el año.</li><li><strong>Medí resultados:</strong> facturación total, ticket promedio, productos más vendidos, tasa de conversión, costo de adquisición. Esto es tu playbook para el próximo evento.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo es el Hot Sale 2026 en Argentina?",
+        "answer": "El Hot Sale 2026 se realiza en mayo (las fechas exactas las confirma la CACE ~2 meses antes). Suele durar 3 días, de lunes a miércoles. Preparate con al menos 3 semanas de anticipación."
+      },
+      {
+        "question": "¿Es obligatorio inscribirse en la CACE para participar?",
+        "answer": "No. La inscripción oficial te da presencia en hotsale.com.ar y el badge, pero podés hacer tus propias ofertas en las mismas fechas sin inscribirte. Lo que no podés es usar la marca \"Hot Sale\" en tu publicidad sin autorización."
+      },
+      {
+        "question": "¿Cuánto cuesta participar del Hot Sale?",
+        "answer": "La inscripción oficial para PyMEs arranca en ~$150.000 ARS (varía por año). Sumale presupuesto de publicidad ($50.000-$150.000/día recomendado para retargeting) y el costo de cuotas sin interés si las ofrecés (15-35% sobre el precio según cantidad de cuotas)."
+      },
+      {
+        "question": "¿Qué pasa si mi tienda se cae durante el Hot Sale?",
+        "answer": "Perdés ventas, reputación y presupuesto publicitario (los ads siguen corriendo aunque tu tienda esté caída). Hacé load testing 2 semanas antes. Si usás Tiendanube o Shopify, optimizá imágenes. Si usás WooCommerce, escalá el hosting temporalmente."
+      },
+      {
+        "question": "¿Conviene ofrecer cuotas sin interés en el Hot Sale?",
+        "answer": "Depende de tu margen. 3 cuotas sin interés cuesta ~8%, 6 cuotas ~18%, 12 cuotas ~30-35%. Si tu margen es del 40%, 6 cuotas sin interés funciona. 12 cuotas te deja casi sin ganancia. Calculá antes de activar."
+      }
+    ],
+    "ctaText": "¿Querés que tu tienda esté lista para el Hot Sale 2026? En SODI optimizamos tu ecommerce, configuramos retargeting y nos aseguramos de que no se te caiga nada cuando más importa."
+  }
+}

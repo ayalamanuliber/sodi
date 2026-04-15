@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-viveros",
+  "title": "Sistema de turnos para viveros: paisajismo, retiros de pedidos y workshops de plantas",
+  "metaTitle": "Sistema de Turnos para Viveros Argentina | SODI",
+  "metaDescription": "Sistemas de turnos para viveros en Argentina. Consultas de paisajismo, retiro de pedidos grandes, workshops de plantas y asesoramiento personalizado.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "viveros", "paisajismo", "workshops plantas", "asesoramiento verde"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-viveros", "automatizar-whatsapp-viveros", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>Un vivero no es un comercio donde el cliente entra, agarra algo y se va. Hay consultas de paisajismo que duran una hora, pedidos grandes que necesitan prepararse y cargarse, workshops de plantas que tienen cupo limitado y asesoramientos personalizados que requieren un especialista disponible. <strong>Gestionar todo eso por WhatsApp genera caos</strong>: clientes que llegan sin aviso, pedidos que no están listos y talleres que se sobrecargan.</p><p>Un sistema de turnos para viveros organiza cada tipo de atención, automatiza los recordatorios y permite que tus clientes agenden solos. En esta guía te mostramos las opciones disponibles, los costos y cómo elegir la mejor para tu vivero.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un vivero necesita un sistema de turnos",
+        "body": "<p>Los viveros, especialmente los que ofrecen servicios además de venta directa, tienen necesidades de agendamiento que no se resuelven con un \"venite cuando quieras\":</p><ul><li><strong>Consultas de paisajismo:</strong> un cliente quiere diseñar el jardín de su casa nueva. Necesita una reunión de 45-60 minutos con el paisajista. Si llega sin turno, el paisajista puede estar ocupado o no estar ese día.</li><li><strong>Retiro de pedidos grandes:</strong> alguien compró 20 arbustos, tierra y macetas. Hay que preparar todo, embolsar y tener listo para cargar. Si viene sin aviso, se genera una espera larga y se traba la atención a otros clientes.</li><li><strong>Workshops y talleres:</strong> taller de huerta orgánica, curso de kokedamas, charla de plantas de interior. Tienen cupo limitado, fecha fija y necesitan inscripción previa.</li><li><strong>Asesoramiento personalizado:</strong> un cliente trae fotos de su balcón y quiere que le recomienden las plantas ideales. Necesita 20-30 minutos con alguien que sepa.</li><li><strong>Entregas a domicilio:</strong> pedidos grandes que se entregan con flete. Hay que coordinar fecha, franja horaria y dirección.</li></ul><p>Sin un sistema, el equipo del vivero pasa más tiempo coordinando por WhatsApp que atendiendo clientes presenciales.</p>"
+      },
+      {
+        "heading": "Los tipos de turno que necesita un vivero",
+        "body": "<p>Cada tipo de atención tiene sus particularidades. Un buen sistema permite configurar:</p><ul><li><strong>Consulta de paisajismo (45-60 min):</strong> se agenda con el paisajista, incluye formulario previo donde el cliente describe el espacio (metros, orientación, fotos). Así el profesional llega preparado.</li><li><strong>Retiro de pedido (15-20 min):</strong> franjas horarias para pasar a buscar pedidos confirmados. El sistema solo habilita el turno de retiro cuando el pedido está preparado.</li><li><strong>Workshop/taller (variable, 90-180 min):</strong> eventos con fecha fija, cupo máximo, posibilidad de lista de espera. Incluye descripción, materiales incluidos y precio.</li><li><strong>Asesoramiento personalizado (20-30 min):</strong> el cliente elige el tema (interior, exterior, huerta, balcón) y se le asigna el especialista correspondiente.</li><li><strong>Visita al vivero con guía (30-45 min):</strong> para grupos o clientes que quieren recorrer el vivero con asistencia. Se agenda para no saturar la atención.</li></ul><p>La clave es que <strong>cada tipo de turno tiene duración, responsable y capacidad distintos</strong>. Un sistema genérico puede adaptarse, uno a medida lo resuelve mejor.</p>"
+      },
+      {
+        "heading": "Opciones SaaS vs desarrollo a medida",
+        "body": "<p>Estas son las opciones para tu vivero:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> podés crear cada tipo de atención como un \"evento\" distinto con su duración y calendario. Es la opción más práctica para arrancar. Link de reserva que compartís por WhatsApp, Instagram y tu <a href=\"/blog/pagina-web-para-viveros\">página web</a>.</li><li><strong>Calendly (USD 10-20/mes):</strong> similar a Cal.com, con formularios previos más completos (ideal para que el cliente suba fotos del espacio antes de la consulta de paisajismo) y recordatorios automáticos.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> permite gestionar workshops como \"clases grupales\" con cupo. Más completo, pero más complejo de configurar.</li></ul><p><strong>Sistema a medida:</strong> tiene sentido si tu vivero tiene e-commerce integrado y querés que el turno de retiro se genere automáticamente cuando el cliente compra online. O si manejás múltiples sedes y necesitás una agenda centralizada.</p><p>Para la mayoría de los viveros, <strong>Cal.com o Calendly resuelven el 80% de las necesidades</strong>. El sistema a medida se justifica cuando hay integración con tienda online o un volumen alto de workshops y consultas. Más info en nuestra <a href=\"/blog/como-crear-sistema-de-turnos-online\">guía para crear un sistema de turnos online</a>.</p>"
+      },
+      {
+        "heading": "Workshops y talleres: la funcionalidad estrella",
+        "body": "<p>Los workshops son una de las mejores herramientas de un vivero para generar comunidad, vender más y posicionarse como experto. Pero organizarlos manualmente es un dolor:</p><ul><li>Publicás el taller en Instagram</li><li>Te llueven mensajes de \"¿hay lugar?\", \"¿cuánto sale?\", \"¿qué incluye?\"</li><li>Respondés uno por uno</li><li>Anotás en una planilla quién confirmó</li><li>El día del taller, la mitad de los inscriptos no aparece</li></ul><p>Con un sistema de turnos, el flujo es:</p><ul><li>Creás el workshop con fecha, hora, cupo, precio, descripción y materiales incluidos</li><li>Compartís el link en redes y WhatsApp</li><li>El interesado se inscribe y paga (o reserva) online</li><li>El sistema controla el cupo automáticamente</li><li>Manda recordatorios 48h y 2h antes del taller</li><li>Si alguien cancela, el primero de la lista de espera recibe una notificación</li></ul><p>El resultado: <strong>más inscriptos, menos ausencias, cero trabajo administrativo</strong>. Y la <a href=\"/blog/automatizar-whatsapp-viveros\">automatización de WhatsApp</a> potencia todo esto con recordatorios y confirmaciones automáticas.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta y cómo elegir",
+        "body": "<p>Los costos en 2026:</p><ul><li><strong>Cal.com:</strong> gratis (plan básico) o USD 12/mes (plan pro con formularios y recordatorios)</li><li><strong>Calendly:</strong> USD 10-20/mes por usuario</li><li><strong>AgendaPro:</strong> USD 15-45/mes</li><li><strong>Sistema a medida (integrado con e-commerce):</strong> $800.000 - $2.500.000 ARS</li></ul><p>La decisión depende de tu operación:</p><ul><li><strong>Vivero chico (venta directa, algún workshop ocasional):</strong> Cal.com gratis. Armás los tipos de turno y listo.</li><li><strong>Vivero mediano (paisajismo, workshops regulares, delivery):</strong> Calendly con formularios. El cliente sube fotos del espacio antes de la consulta, lo que mejora el servicio.</li><li><strong>Vivero grande o cadena (e-commerce, múltiples sedes, workshops semanales):</strong> sistema a medida integrado con la tienda online y la gestión general.</li></ul><p>Lo más importante: <strong>que el cliente pueda agendar solo desde tu web o Instagram</strong>. Cada consulta que automatizás es un mensaje de WhatsApp menos para tu equipo.</p><p>Consultá nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos de turnos online</a>. Y si querés evaluar tu caso, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo gestionar workshops con cupo limitado desde el sistema de turnos?",
+        "answer": "Sí. Creás el taller con fecha, hora, cupo máximo y precio. El sistema controla las inscripciones, cierra cuando se llena, manda recordatorios y gestiona lista de espera si alguien cancela."
+      },
+      {
+        "question": "¿Cómo organizo los retiros de pedidos grandes?",
+        "answer": "Configurás slots de retiro por franja horaria. El turno de retiro se habilita cuando el pedido está preparado. Así el cliente viene a horario y su pedido está listo para cargar."
+      },
+      {
+        "question": "¿Puedo pedir fotos del espacio antes de una consulta de paisajismo?",
+        "answer": "Sí. Tanto Calendly como un sistema a medida permiten agregar formularios previos donde el cliente sube fotos, describe el espacio y detalla qué busca. El paisajista llega a la consulta preparado."
+      },
+      {
+        "question": "¿Se integra con Instagram para que agenden desde la bio?",
+        "answer": "Sí. El link de reserva se pone en la bio de Instagram, en las historias o en los botones de acción. El cliente toca el link y elige el tipo de turno directamente."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para un vivero?",
+        "answer": "Cal.com es gratis para lo básico. Calendly cuesta USD 10-20/mes. Un sistema a medida integrado con e-commerce va de $800.000 a $2.500.000 ARS. Para la mayoría de los viveros, Cal.com o Calendly alcanzan."
+      }
+    ],
+    "ctaText": "¿Querés organizar las consultas, talleres y retiros de tu vivero? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a implementar el sistema ideal."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-mantenimiento-pagina-web",
+  "title": "Cuánto cuesta el mantenimiento de una página web en Argentina en 2026: precios mensuales reales",
+  "metaTitle": "Mantenimiento web en Argentina 2026: precios reales",
+  "metaDescription": "Mantenimiento web básico: $25.000-$50.000 ARS/mes. Profesional: $80.000-$150.000 ARS/mes. Incluye hosting, SSL, actualizaciones y soporte técnico.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["mantenimiento web", "hosting argentina", "precios web", "soporte web", "SSL"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "como-elegir-agencia-web-argentina", "que-es-hosting-y-dominio", "wordpress-vs-desarrollo-a-medida"],
+  "content": {
+    "intro": "<p>Mantener una página web en Argentina cuesta entre <strong>$25.000 y $150.000 ARS por mes</strong> dependiendo del tipo de sitio y el nivel de soporte que necesités. Un plan básico (hosting, SSL, backups y actualizaciones mínimas) arranca en $25.000-$50.000 ARS/mes. Un plan profesional con soporte técnico, monitoreo de seguridad, actualizaciones de contenido y optimización de velocidad va de $80.000 a $150.000 ARS/mes.</p><p>El error más caro que cometen las PyMEs es creer que una vez que la web está online, no hay más gastos. La realidad es que un sitio sin mantenimiento se rompe, se hackea o se vuelve lento en menos de 6 meses. Esta guía te muestra exactamente qué necesitás pagar y qué podés hacer vos mismo.</p>",
+    "sections": [
+      {
+        "heading": "Desglose de costos fijos: hosting, dominio y SSL",
+        "body": "<p>El <strong>hosting</strong> es el costo base que no podés evitar. En Argentina, los precios en 2026 son:</p><p><strong>Hosting compartido:</strong> $5.000-$15.000 ARS/mes. Proveedores locales como Donweb o Banahosting. Suficiente para webs institucionales con menos de 5.000 visitas mensuales. Si usás WordPress, asegurate de que el plan incluya PHP 8.2+ y al menos 1GB de RAM.</p><p><strong>Hosting premium/VPS:</strong> $15.000-$40.000 ARS/mes. SiteGround, Cloudways o un VPS de DigitalOcean (desde USD 6/mes). Necesario si tu web tiene e-commerce, mucho tráfico o funcionalidades dinámicas. La diferencia en velocidad de carga es brutal: 1-2 segundos vs 4-6 en hosting barato.</p><p>El <strong>dominio .com.ar</strong> es gratuito a través de NIC Argentina (renovación cada 1 año). Un .com cuesta USD 10-15/año a través de Namecheap o Google Domains. Si tu agencia registró el dominio, pedí que lo transfieran a tu nombre. Esto no es negociable.</p><p>El <strong>certificado SSL</strong> básico es gratuito con Let's Encrypt (la mayoría de los hostings lo incluyen). Un SSL extendido (EV) para e-commerce cuesta USD 50-200/año, pero para la mayoría de las PyMEs el gratuito alcanza. Google penaliza sitios sin SSL desde hace años, así que esto no es opcional.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un plan de mantenimiento básico vs profesional",
+        "body": "<p><strong>Plan básico ($25.000-$50.000 ARS/mes):</strong> actualizaciones de WordPress, plugins y temas una vez por mes, backup semanal automático, monitoreo de uptime, renovación de SSL, soporte por email con respuesta en 24-48hs. Este plan es para webs institucionales que no cambian mucho su contenido. La mayoría de los freelancers y estudios chicos ofrecen algo así.</p><p><strong>Plan profesional ($80.000-$150.000 ARS/mes):</strong> todo lo anterior más: actualizaciones semanales, backup diario, monitoreo de seguridad con firewall (Wordfence o Sucuri), optimización de velocidad mensual, hasta 2-4 horas de modificaciones de contenido por mes, reportes de rendimiento, soporte prioritario con respuesta en 4-8hs. Este es el plan que necesitás si tu web genera leads o ventas.</p><p><strong>Plan enterprise ($150.000-$300.000+ ARS/mes):</strong> para e-commerce o webs con sistemas custom. Incluye monitoreo 24/7, staging para testear cambios, CDN dedicado, optimización de base de datos, auditorías de seguridad trimestrales y horas ilimitadas de modificaciones. Solo tiene sentido si facturás más de $5M/mes a través de tu web.</p><p>En dólares, estamos hablando de USD 20-40/mes el básico, USD 65-120/mes el profesional y USD 120-250+/mes el enterprise (al tipo de cambio abril 2026).</p>"
+      },
+      {
+        "heading": "Qué pasa si no le das mantenimiento a tu web",
+        "body": "<p>Lo vemos todas las semanas en SODI: PyMEs que pagaron $500.000+ por una web y en un año está rota. Los problemas más comunes sin mantenimiento:</p><p><strong>Hackeo:</strong> WordPress sin actualizar es el blanco favorito de los bots. Un plugin desactualizado con vulnerabilidad conocida tarda en promedio 72 horas en ser explotado. El costo de limpiar un sitio hackeado: $100.000-$300.000 ARS si se puede recuperar, o empezar de cero si no hay backup.</p><p><strong>Velocidad degradada:</strong> sin optimización regular, la base de datos se infla, las imágenes no se comprimen, el caché se corrompe. Una web que cargaba en 2 segundos pasa a cargar en 8. Google te baja del ranking y los usuarios se van. El <a href=\"/blog/que-es-seo-y-por-que-importa\">SEO</a> que habías ganado se pierde.</p><p><strong>Incompatibilidad:</strong> PHP se actualiza, los navegadores cambian, Google modifica sus requisitos. Sin actualizar plugins y temas, empezás a ver errores visuales, formularios que no envían y páginas que se rompen en celulares.</p><p><strong>Certificado SSL vencido:</strong> Chrome muestra un cartel rojo de \"Sitio no seguro\" y el 90% de los visitantes se va sin entrar. Hemos visto estudios jurídicos con el SSL vencido durante meses sin enterarse. Un desastre para la credibilidad.</p>"
+      },
+      {
+        "heading": "Qué podés hacer vos mismo y qué conviene tercerizar",
+        "body": "<p><strong>Hacelo vos mismo (gratis):</strong> actualizar contenido de textos e imágenes desde el panel de WordPress, publicar posts en el blog, responder formularios de contacto, revisar que el sitio cargue bien desde tu celular una vez por semana. No necesitás pagar a nadie por esto.</p><p><strong>Automatizable (costo mínimo):</strong> los backups pueden ser automáticos con plugins como UpdraftPlus (gratis) o BlogVault (USD 7/mes). El SSL con Let's Encrypt se renueva solo si tu hosting lo soporta. El monitoreo de uptime con UptimeRobot es gratuito para hasta 50 sitios.</p><p><strong>Tercerizá sí o sí:</strong> actualizaciones de WordPress core, plugins y temas (una actualización mal hecha puede tirar todo el sitio), configuración de seguridad y firewall, optimización de velocidad y base de datos, resolución de errores técnicos, migraciones de servidor.</p><p>Si tenés una web simple y ganas de aprender, podés manejar el mantenimiento vos con herramientas gratuitas y gastar solo en <a href=\"/blog/que-es-hosting-y-dominio\">hosting y dominio</a>. Pero si tu web genera plata o es la cara de tu negocio, el riesgo de romper algo no vale los $40.000/mes que te ahorrás.</p>"
+      },
+      {
+        "heading": "Cómo elegir un plan de mantenimiento sin que te sobren o te falten cosas",
+        "body": "<p>Primero, preguntate: <strong>¿cuánto te cuesta un día con la web caída?</strong> Si la respuesta es \"nada, mis clientes vienen por WhatsApp\", un plan básico de $25.000/mes alcanza. Si la respuesta es \"pierdo consultas y ventas\", necesitás el profesional.</p><p>Segundo, revisá qué tecnología usa tu web. Si es <a href=\"/blog/wordpress-vs-desarrollo-a-medida\">WordPress</a> con 15 plugins, necesitás más mantenimiento que un sitio estático hecho a medida con Next.js. Más plugins = más puntos de fallo = más horas de mantenimiento.</p><p>Tercero, compará lo que incluye cada plan y cuánto cuesta la hora extra. Algunos proveedores ofrecen planes baratos pero cobran $10.000-$20.000 ARS/hora por cualquier cosa fuera del plan. Pedí siempre el costo de la hora adicional por escrito.</p><p>Cuarto, verificá que el plan incluya <strong>backups con restauración</strong>, no solo backups. De nada sirve tener un backup si cuando lo necesitás descubrís que nadie sabe cómo restaurarlo o que el backup está corrupto.</p><p>En SODI ofrecemos un diagnóstico gratuito de tu web actual para decirte exactamente qué nivel de mantenimiento necesitás. Sin compromiso, sin verso. Si con un plan básico estás cubierto, te lo decimos.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta mantener una página web en Argentina por mes?",
+        "answer": "Entre $25.000 y $150.000 ARS/mes (USD 20-120). Un plan básico con hosting, SSL y actualizaciones cuesta $25.000-$50.000. Un plan profesional con soporte técnico, seguridad y modificaciones de contenido va de $80.000 a $150.000 ARS/mes."
+      },
+      {
+        "question": "¿Es obligatorio pagar mantenimiento web o puedo hacerlo yo?",
+        "answer": "Podés manejar muchas cosas vos mismo (contenido, backups automáticos, monitoreo gratuito). Pero las actualizaciones técnicas, seguridad y optimización de velocidad convienen tercerizarlas. Una actualización mal hecha puede tirar todo el sitio."
+      },
+      {
+        "question": "¿Cada cuánto hay que actualizar WordPress y los plugins?",
+        "answer": "Lo ideal es revisar actualizaciones cada semana y aplicarlas al menos cada 15 días. Las actualizaciones de seguridad críticas hay que aplicarlas en 24-48hs. Nunca dejes plugins sin actualizar más de un mes."
+      },
+      {
+        "question": "¿Qué pasa si no renuevo el hosting de mi página web?",
+        "answer": "Tu sitio se cae y deja de ser accesible. Dependiendo del proveedor, tenés entre 15 y 30 días de gracia antes de que borren tus archivos definitivamente. Si no tenés backup, perdés todo."
+      },
+      {
+        "question": "¿El mantenimiento web incluye cambios de diseño o contenido?",
+        "answer": "Depende del plan. Los básicos solo cubren actualizaciones técnicas. Los profesionales suelen incluir 2-4 horas mensuales de modificaciones de contenido. Cambios de diseño grandes se presupuestan aparte."
+      }
+    ],
+    "ctaText": "¿No sabés si tu web necesita mantenimiento básico o profesional? En SODI hacemos un diagnóstico gratuito de tu sitio y te decimos exactamente qué necesitás, sin compromiso."
+  }
+}

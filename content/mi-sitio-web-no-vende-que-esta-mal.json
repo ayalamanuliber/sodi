@@ -1,0 +1,61 @@
+{
+  "slug": "mi-sitio-web-no-vende-que-esta-mal",
+  "title": "Tu sitio web no vende: 10 cosas que probablemente están mal (y cómo diagnosticarlo gratis)",
+  "metaTitle": "Mi sitio web no vende: qué está mal | Checklist",
+  "metaDescription": "¿Tenés un sitio web pero no genera consultas ni ventas? Checklist de 10 puntos para diagnosticar qué falla y cuándo rediseñar vs optimizar.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["sitio web", "conversión", "ux", "pagespeed", "diseño web"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["como-elegir-agencia-web-argentina", "cuanto-cuesta-pagina-web-argentina", "como-conseguir-clientes-por-internet", "que-es-ux-y-por-que-importa"],
+  "content": {
+    "intro": "<p>Pagaste por un sitio web, lo pusiste online, y... nada. No te contactan, no te compran, no te llaman. Es como tener un local en una calle con tráfico pero con la persiana baja. <strong>El sitio existe, pero no funciona como herramienta de venta</strong>.</p><p>La buena noticia: en la mayoría de los casos no necesitás tirarlo a la basura y empezar de cero. Los problemas suelen ser específicos y diagnosticables. En esta guía te damos un checklist de 10 cosas que podés verificar vos mismo con herramientas gratuitas para entender qué está fallando.</p>",
+    "sections": [
+      {
+        "heading": "Los 5 problemas técnicos que espantan clientes",
+        "body": "<p>Antes de pensar en diseño o contenido, tu sitio tiene que funcionar. Estos son los problemas técnicos más comunes:</p><p><strong>1. Carga lento (más de 3 segundos)</strong></p><p>El 53% de los usuarios abandona un sitio que tarda más de 3 segundos en cargar. Entrá a <strong>PageSpeed Insights</strong> (pagespeed.web.dev) y poné la URL de tu sitio. Si el puntaje está debajo de 50 en móvil, tenés un problema serio. Causas comunes: imágenes sin comprimir, hosting barato, código mal optimizado.</p><p><strong>2. No se ve bien en celular</strong></p><p>El 70% del tráfico web en Argentina viene de celulares. Si tu sitio no es responsive (no se adapta a pantallas chicas), perdés a la mayoría de tus visitantes. Probalo en tu propio celular: ¿se lee bien? ¿Los botones se pueden tocar? ¿Tenés que hacer zoom?</p><p><strong>3. Tiene errores visibles</strong></p><p>Links rotos, imágenes que no cargan, formularios que no funcionan, páginas de error 404. Cada error es un cliente potencial que se va pensando que tu negocio es poco serio.</p><p><strong>4. No tiene certificado SSL (HTTPS)</strong></p><p>Si tu sitio muestra \"No es seguro\" en la barra del navegador, Google te penaliza en los resultados y los usuarios desconfían. El certificado SSL es gratuito con la mayoría de los hostings.</p><p><strong>5. El hosting se cae frecuentemente</strong></p><p>Si tu sitio está caído cuando un cliente intenta entrar, no solo perdés esa venta sino que Google registra la caída y te baja posiciones. Un hosting confiable en Argentina cuesta desde $5.000-$10.000/mes, no es lugar para ahorrar.</p>"
+      },
+      {
+        "heading": "Los 5 problemas de contenido y diseño que matan la conversión",
+        "body": "<p>Si tu sitio carga bien y funciona técnicamente pero no convierte, el problema es lo que dice (o no dice):</p><p><strong>6. No tiene un llamado a la acción claro (CTA)</strong></p><p>Si un visitante llega a tu sitio y no sabe qué hacer, se va. Necesitás un botón visible que diga claramente qué querés que haga: \"Pedí presupuesto\", \"Contactanos por WhatsApp\", \"Comprá ahora\". Y tiene que estar arriba, sin necesidad de scrollear.</p><p><strong>7. No genera confianza</strong></p><p>¿Tu sitio tiene testimonios o reseñas de clientes? ¿Muestra fotos reales de tu equipo o local? ¿Tiene tu dirección, CUIT, teléfono? La gente no le compra a un sitio web anónimo. Las señales de confianza son:</p><ul><li>Reseñas o testimonios reales</li><li>Fotos del equipo y del local</li><li>Datos de contacto completos</li><li>Logos de clientes o proveedores conocidos</li><li>Sellos de seguridad si vendés online</li></ul><p><strong>8. El texto no habla del cliente</strong></p><p>\"Somos líderes en...\" \"Nuestra empresa fue fundada en...\" A nadie le importa. Tu sitio tiene que hablar del PROBLEMA del cliente y de cómo vos lo solucionás. Menos \"nosotros somos\", más \"vos necesitás y nosotros te resolvemos\".</p><p><strong>9. No hay información de precios o presupuestos</strong></p><p>En Argentina, la gente quiere saber cuánto sale antes de llamar. Si tu competencia muestra precios y vos no, el cliente se queda con el que le dio la información. Al menos poné rangos o un \"desde $X\".</p><p><strong>10. Atraés tráfico equivocado</strong></p><p>Si tu publicidad o SEO trae gente que no es tu cliente ideal, vas a tener muchas visitas y pocas conversiones. Revisá de dónde viene tu tráfico en Google Analytics y si coincide con tu público objetivo.</p>"
+      },
+      {
+        "heading": "Cómo diagnosticar tu sitio en 30 minutos con herramientas gratuitas",
+        "body": "<p>No necesitás pagarle a nadie para saber qué está mal. Hacé este diagnóstico vos mismo:</p><ol><li><strong>PageSpeed Insights</strong> (pagespeed.web.dev): medí la velocidad de carga. Si el puntaje móvil está debajo de 50, tenés que optimizar.</li><li><strong>Google Search Console</strong> (search.google.com/search-console): registrá tu sitio y fijate si Google detecta errores de indexación, problemas de usabilidad móvil o acciones manuales (penalizaciones).</li><li><strong>Google Analytics</strong> (analytics.google.com): si ya lo tenés instalado, mirá cuántas visitas tenés por mes, de dónde vienen, cuánto tiempo se quedan, y cuáles páginas visitan. Si no lo tenés, instalalo ya.</li><li><strong>Test de optimización móvil de Google</strong>: buscá \"mobile friendly test\" en Google y probá tu URL. Te dice si tu sitio se ve bien en celular.</li><li><strong>Navegá tu propio sitio desde el celular</strong>: ¿podés encontrar el teléfono en menos de 5 segundos? ¿Sabés qué hace tu empresa en los primeros 3 segundos? ¿Hay un botón de contacto visible sin scrollear? Si la respuesta a alguna es no, ahí tenés el problema.</li></ol><p>Con estos 5 pasos en 30 minutos tenés un diagnóstico bastante completo de qué está fallando.</p>"
+      },
+      {
+        "heading": "¿Rediseñar o optimizar? Cómo decidir",
+        "body": "<p>No siempre necesitás un sitio nuevo. A veces alcanza con arreglar lo que ya tenés:</p><p><strong>Optimizá (no rediseñes) cuando:</strong></p><ul><li>El sitio se ve aceptable pero carga lento: optimizá imágenes, cambiá de hosting, limpiá el código.</li><li>Falta un botón de WhatsApp o formulario de contacto: es un cambio de 1 hora.</li><li>El contenido está desactualizado: actualizá textos, precios y fotos.</li><li>Falta SEO básico: optimizá títulos, meta descripciones y textos.</li></ul><p><strong>Rediseñá cuando:</strong></p><ul><li>El sitio tiene más de 5 años y se nota.</li><li>No es responsive (no se adapta a celular) y fue construido así desde el inicio.</li><li>La estructura de navegación es confusa y no se puede arreglar con parches.</li><li>Fue hecho con una tecnología obsoleta (Flash, tablas HTML, constructores abandonados).</li><li>Arreglar los problemas individuales cuesta más que hacerlo de nuevo.</li></ul><p><strong>La regla general</strong>: si podés arreglar los problemas principales con menos de $200.000 ARS de inversión, optimizá. Si la lista de arreglos es interminable y el sitio tiene problemas estructurales, rediseñá. Pero nunca rediseñes sin saber exactamente qué estaba mal en el anterior, o vas a repetir los mismos errores.</p>"
+      },
+      {
+        "heading": "El checklist final: 10 preguntas antes de gastar plata",
+        "body": "<p>Antes de contratar un rediseño, una agencia de marketing o una campaña de publicidad, respondé estas 10 preguntas:</p><ol><li>¿Mi sitio carga en menos de 3 segundos en celular?</li><li>¿Se ve bien en pantallas de todos los tamaños?</li><li>¿Tiene un botón de contacto (WhatsApp, teléfono, formulario) visible sin scrollear?</li><li>¿Un desconocido puede entender qué hago en los primeros 5 segundos?</li><li>¿Tiene testimonios, reseñas o alguna prueba de que soy confiable?</li><li>¿Muestra precios o al menos un rango?</li><li>¿El texto habla del problema del cliente o de mí mismo?</li><li>¿Sé cuánta gente visita mi sitio por mes?</li><li>¿Sé de dónde viene ese tráfico?</li><li>¿Respondo las consultas que me llegan en menos de 1 hora?</li></ol><p>Si respondiste \"no\" a más de 3, ya sabés por dónde empezar. <strong>No necesitás un sitio perfecto: necesitás un sitio que funcione</strong>. Que cargue rápido, que se entienda, que genere confianza y que tenga un camino claro para que el visitante se convierta en cliente.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo sé si mi sitio web es lento?",
+        "answer": "Entrá a pagespeed.web.dev y poné la URL de tu sitio. Si el puntaje en móvil está debajo de 50 (de 100), tu sitio es lento. Lo ideal es estar arriba de 70. También podés probarlo simplemente cronometrando cuánto tarda en cargar desde tu celular con datos móviles."
+      },
+      {
+        "question": "¿Cuánto cuesta arreglar un sitio web que no convierte?",
+        "answer": "Depende de qué hay que arreglar. Agregar un botón de WhatsApp puede costar $10.000-$30.000 ARS. Optimizar la velocidad, $30.000-$80.000. Un rediseño completo para PyME arranca en $300.000-$500.000 ARS. Siempre diagnosticá primero para no gastar de más."
+      },
+      {
+        "question": "¿Cada cuánto debería actualizar mi sitio web?",
+        "answer": "El contenido (textos, precios, fotos) debería revisarse cada 3-6 meses. La estructura y diseño, cada 2-3 años como mínimo. Si tu sitio tiene más de 5 años sin tocar, probablemente necesite un rediseño completo."
+      },
+      {
+        "question": "¿Puede ser que mi sitio esté bien y el problema sea otro?",
+        "answer": "Sí. Si tu sitio funciona técnicamente bien, tiene buen contenido y CTA claros pero no convierte, el problema puede ser tráfico insuficiente (nadie te visita) o tráfico equivocado (te visita gente que no es tu cliente). Revisá Google Analytics para entender de dónde viene tu tráfico."
+      },
+      {
+        "question": "¿Un sitio web bonito vende más que uno simple?",
+        "answer": "No necesariamente. Un sitio simple que carga rápido, se entiende claro y tiene un CTA visible puede vender más que uno con animaciones, efectos y diseño premium pero confuso. La estética importa para la confianza, pero la claridad y la velocidad importan más para la conversión."
+      }
+    ],
+    "ctaText": "¿Querés un diagnóstico profesional de tu sitio web con recomendaciones concretas? En SODI analizamos tu sitio y te decimos exactamente qué arreglar para que empiece a vender."
+  }
+}

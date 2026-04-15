@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-sistema-inventario-stock",
+  "title": "Cuánto cuesta un sistema de inventario y stock en Argentina 2026: desde Excel hasta software custom",
+  "metaTitle": "Sistema de inventario Argentina 2026: precios",
+  "metaDescription": "Un sistema de inventario en Argentina va desde gratis (Excel) hasta $4.000.000 ARS custom. SaaS como Colppy o Xubio cuestan $15.000-$50.000/mes.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["sistema inventario", "control stock", "gestión pymes", "software inventario", "precios sistema"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "excel-vs-sistema-de-gestion", "como-gestionar-stock-sin-excel", "cuanto-cuesta-erp-pymes-argentina"],
+  "content": {
+    "intro": "<p>Un <strong>sistema de inventario y stock</strong> en Argentina 2026 cuesta desde $0 (Excel o Google Sheets) hasta $4.000.000 ARS si necesitás un desarrollo a medida. El punto medio que usan la mayoría de las PyMEs es un SaaS argentino como Colppy, Xubio o Stock Manager, que cuesta entre $15.000 y $50.000 ARS/mes (USD 12-40).</p><p>Si manejás menos de 100 productos, probablemente Excel te alcance. Si manejás 500+, o tenés múltiples depósitos, puntos de venta o necesitás trazabilidad, vas a necesitar un sistema dedicado. La clave es no pagar de más por funcionalidades que no usás, ni quedarte corto cuando el descontrol de stock te está costando ventas.</p>",
+    "sections": [
+      {
+        "heading": "Las tres opciones de sistema de inventario y cuánto cuestan",
+        "body": "<p><strong>Excel / Google Sheets (gratis):</strong> funciona si tenés menos de 100 SKUs, un solo punto de venta y vos o alguien de tu equipo lo actualiza manualmente. El costo real no es la herramienta sino el tiempo: entre 5 y 15 horas mensuales de carga manual, y el riesgo de errores humanos que causan faltantes o sobre-stock.</p><p><strong>Software SaaS ($15.000-$50.000 ARS/mes):</strong> plataformas como Colppy ($18.000-$35.000/mes), Xubio ($15.000-$30.000/mes), Bind ERP ($25.000-$50.000/mes) o Odoo ($20.000-$45.000/mes). Incluyen control de stock en tiempo real, alertas de reposición, reportes automáticos, integración con facturación electrónica AFIP y en muchos casos e-commerce. En dólares: USD 12-40/mes.</p><p><strong>Desarrollo custom ($1.500.000-$4.000.000 ARS):</strong> un sistema a medida desarrollado por una agencia o equipo de desarrollo. Se justifica cuando tu operación tiene reglas de negocio muy específicas (trazabilidad por lotes, gestión de vencimientos, integración con maquinaria, múltiples depósitos con transferencias). El costo incluye desarrollo, testing y puesta en marcha. Plazo: 3-6 meses. En dólares: USD 1.200-3.200.</p>"
+      },
+      {
+        "heading": "Comparativa de software de inventario argentino",
+        "body": "<p><strong>Colppy:</strong> el más popular entre PyMEs argentinas. Gestión de stock con facturación electrónica integrada. Plan con stock desde $18.000 ARS/mes. Muy bueno para comercios minoristas y mayoristas. Interfaz simple, soporte local por chat y teléfono. Integra con Tiendanube y Mercado Libre.</p><p><strong>Xubio:</strong> competidor directo de Colppy, con foco en contabilidad + stock. Desde $15.000 ARS/mes. Buena opción si tu contador ya usa Xubio para la contabilidad y querés todo en un mismo sistema. Menos integraciones e-commerce que Colppy.</p><p><strong>Bind ERP:</strong> más completo pero más caro. Desde $25.000 ARS/mes. Incluye compras, ventas, stock, producción y contabilidad. Ideal si sos una PyME industrial o tenés procesos de manufactura. Curva de aprendizaje más alta.</p><p><strong>Odoo (versión Community):</strong> gratuito si lo instalás vos, pero necesitás alguien técnico para configurarlo. La versión cloud argentina arranca en $20.000/mes. Es el más flexible y escalable: si tu negocio crece, Odoo crece con vos. Pero la implementación inicial puede costar $300.000-$800.000 ARS en configuración y capacitación.</p><p><strong>Stock Manager / InventApp:</strong> opciones más simples, desde $8.000-$15.000 ARS/mes. Ideales si solo necesitás control de stock sin facturación ni integraciones complejas.</p>"
+      },
+      {
+        "heading": "Costos ocultos que tenés que considerar",
+        "body": "<p>La <strong>implementación y migración de datos</strong> es el costo que nadie presupuesta. Pasar tu stock actual de Excel a un sistema nuevo lleva entre 10 y 40 horas de trabajo dependiendo de cuántos productos tenés y qué tan desordenados están tus datos. Si lo hace un consultor, sumá $100.000-$300.000 ARS.</p><p>La <strong>capacitación del equipo</strong> puede costar $50.000-$150.000 ARS si contratás un implementador. Todos los que tocan el stock (vendedores, repositores, administración) tienen que saber usar el sistema. Si no lo aprenden bien, van a seguir usando Excel \"por las dudas\" y vas a tener doble trabajo.</p><p>Los <strong>lectores de código de barras</strong> arrancan en $25.000 ARS para uno básico USB y llegan a $150.000+ para uno inalámbrico industrial. Si manejás más de 200 productos, un lector de códigos se paga solo en el primer mes por la reducción de errores.</p><p>Las <strong>integraciones</strong> con otros sistemas (e-commerce, punto de venta, contabilidad) pueden costar $50.000-$200.000 ARS adicionales si no están incluidas de forma nativa. Antes de elegir un sistema, listá todos los sistemas con los que necesitás que hable.</p><p>El <strong>costo total del primer año</strong> para una PyME típica: software SaaS ($180.000-$600.000 ARS/año) + implementación ($100.000-$300.000) + hardware ($25.000-$150.000) = $305.000-$1.050.000 ARS. A partir del segundo año, solo pagás el SaaS.</p>"
+      },
+      {
+        "heading": "Cuándo conviene cada opción según tu tipo de negocio",
+        "body": "<p><strong>Excel alcanza si:</strong> tenés menos de 100 productos, un solo punto de venta, no vendés online y alguien se encarga de actualizarlo religiosamente. Típico: kiosco, almacén de barrio, profesional independiente que vende algunos productos.</p><p><strong>SaaS conviene si:</strong> manejás 100-5.000 productos, tenés 1-3 puntos de venta, vendés por Mercado Libre o Tiendanube, necesitás facturación electrónica integrada y querés reportes automáticos. Típico: local de ropa, ferretería, distribuidora chica, e-commerce PyME.</p><p><strong>Custom se justifica si:</strong> manejás 5.000+ productos, tenés más de 3 depósitos, necesitás trazabilidad por lotes o vencimientos, integrás con maquinaria o sistemas industriales, o tu operación tiene reglas de negocio que ningún SaaS cubre. Típico: laboratorio, industria alimenticia, distribuidora mayorista grande.</p><p>La regla de oro: <strong>empezá con lo más simple que funcione</strong>. Podés arrancar con un SaaS de $18.000/mes y migrar a algo custom cuando tu operación lo justifique. Lo que no podés hacer es arrancar con un desarrollo de $3.000.000 y descubrir a los 6 meses que necesitabas otra cosa.</p>"
+      },
+      {
+        "heading": "Señales de que tu sistema actual de stock te está costando plata",
+        "body": "<p>Si tenés <strong>diferencias de inventario mayores al 5%</strong> entre lo que dice el sistema y lo que hay físicamente, tu control de stock no funciona. En comercio minorista, la diferencia aceptable es 1-2%. Todo lo que supere eso es pérdida directa.</p><p>Si <strong>perdés ventas por faltantes</strong> que no detectaste a tiempo, necesitás un sistema con alertas automáticas de reposición. Cada venta perdida por faltante no solo es ingreso que no entra: es un cliente que se fue a la competencia.</p><p>Si tu equipo <strong>pasa más de 10 horas mensuales</strong> contando stock o actualizando planillas, el costo laboral de mantener el sistema manual ya supera lo que pagarías por un SaaS. Hacé la cuenta: 10 horas x costo hora empleado vs $25.000/mes de software.</p><p>Si <strong>no sabés cuáles son tus productos más rentables</strong>, cuánto stock muerto tenés, o cuál es tu rotación promedio, estás tomando decisiones de compra a ciegas. Un buen sistema de inventario te da esa visibilidad automáticamente.</p><p>Si alguna de estas situaciones te suena familiar, es momento de evaluar un upgrade. No tiene que ser caro: un SaaS de $18.000/mes puede resolver todos estos problemas en 30 días.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto sale un sistema de control de stock para PyMEs en Argentina?",
+        "answer": "Un sistema SaaS de control de stock cuesta entre $15.000 y $50.000 ARS/mes (USD 12-40) en Argentina 2026. Las opciones más populares son Colppy ($18.000-$35.000/mes), Xubio ($15.000-$30.000/mes) y Bind ERP ($25.000-$50.000/mes). Un sistema custom arranca en $1.500.000 ARS."
+      },
+      {
+        "question": "¿Puedo controlar el stock con Excel o Google Sheets?",
+        "answer": "Sí, si manejás menos de 100 productos y un solo punto de venta. Pero Excel no te avisa cuando se acaba un producto, no se sincroniza con tu e-commerce, y depende 100% de que alguien lo actualice manualmente. El costo oculto son los errores y el tiempo perdido."
+      },
+      {
+        "question": "¿Qué sistema de inventario se integra con Mercado Libre?",
+        "answer": "Colppy, Bind ERP, Odoo y varias soluciones especializadas como SkyHub o IntegrationHub se integran con Mercado Libre. La integración sincroniza stock automáticamente entre tu sistema y la publicación de ML, evitando que vendas algo que no tenés. Colppy es la opción más económica con esta integración."
+      },
+      {
+        "question": "¿Cuánto cuesta implementar un sistema de inventario desde cero?",
+        "answer": "La implementación (migración de datos, configuración y capacitación) cuesta entre $100.000 y $300.000 ARS adicionales al costo del software. Si tenés los datos ordenados y un equipo chico, puede ser menos. El proceso completo tarda 2-6 semanas dependiendo de la complejidad."
+      },
+      {
+        "question": "¿Necesito lector de código de barras para mi negocio?",
+        "answer": "Si manejás más de 200 productos, sí. Un lector USB básico cuesta $25.000 ARS y reduce los errores de carga en un 90%. Para depósitos o logística, un lector inalámbrico ($80.000-$150.000 ARS) te permite hacer inventarios físicos en una fracción del tiempo."
+      }
+    ],
+    "ctaText": "¿Necesitás un sistema de inventario a medida que se integre con tu web y tu e-commerce? En SODI desarrollamos soluciones de gestión de stock que hablan con todos tus canales de venta. Consultanos sin compromiso."
+  }
+}

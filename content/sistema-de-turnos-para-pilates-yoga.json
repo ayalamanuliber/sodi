@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-pilates-yoga",
+  "title": "Sistema de Turnos y Reservas para Estudios de Pilates y Yoga: Clases, Cupos y Packs",
+  "metaTitle": "Sistema de Turnos para Pilates y Yoga | SODI",
+  "metaDescription": "Comparativa de sistemas de reserva para estudios de pilates y yoga en Argentina. Reserva Clase, SigueFit, Gendu, costos y cómo elegir.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos pilates", "reservas yoga", "Reserva Clase", "SigueFit", "gestión de clases"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-estudios-pilates-yoga", "sistema-de-turnos-para-gimnasios", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>En un estudio de pilates o yoga, un turno no es una cita individual — es un lugar en una clase con cupo limitado. Si tu clase de reformer tiene 8 lugares y alguien quiere reservar el séptimo a las 11 de la noche, necesitás un sistema que lo permita sin que vos estés despierto confirmando por WhatsApp.</p><p>La gestión de reservas en estudios boutique tiene desafíos propios: clases con cupo, packs de clases, lista de espera, cancelaciones de último momento y alumnos que reservan y no van. En esta guía te cuento qué opciones tenés en Argentina, cuánto cuestan y cuál conviene según tu estudio.</p>",
+    "sections": [
+      {
+        "heading": "Por qué un estudio de pilates o yoga necesita un sistema de reservas específico",
+        "body": "<p>Un sistema de turnos genérico no entiende la lógica de un estudio boutique. Las diferencias son clave:</p><ul><li><strong>Clases grupales con cupo:</strong> no son turnos individuales. Cada clase tiene un límite de alumnos (6 en reformer, 15 en mat, 20 en yoga). El sistema tiene que controlar cupos en tiempo real y cerrar la reserva cuando se llena.</li><li><strong>Packs y créditos:</strong> tus alumnos no pagan por turno — compran packs de 4, 8 o clases ilimitadas. El sistema tiene que descontar clases del pack automáticamente al reservar.</li><li><strong>Lista de espera:</strong> cuando la clase se llena, el alumno se anota en espera. Si alguien cancela, el primero en la lista recibe notificación automática. Sin esto, el lugar queda vacío.</li><li><strong>Cancelaciones con política:</strong> si un alumno cancela menos de 2 horas antes, ¿pierde la clase del pack? Tu sistema tiene que aplicar tu política de cancelación automáticamente.</li><li><strong>Grilla semanal recurrente:</strong> tus clases se repiten cada semana. El sistema tiene que generar la grilla automáticamente, no cargar clase por clase cada semana.</li></ul><p>Un sistema genérico de <a href=\"/blog/como-crear-sistema-de-turnos-online\">turnos online</a> sirve para citas individuales. Para clases grupales necesitás algo pensado para esa lógica.</p>"
+      },
+      {
+        "heading": "Opciones de sistemas de reservas en Argentina",
+        "body": "<p>Estas son las plataformas que mejor resuelven la gestión de estudios de fitness boutique en Argentina:</p><p><strong>Reserva Clase:</strong> la más usada en estudios de pilates y yoga en Argentina. Fundada en 2015, está pensada específicamente para clases grupales. Gestión de cupos, packs, lista de espera, cobros automáticos, reportes de asistencia. Widget para embeber en tu web. Precio accesible para estudios medianos.</p><p><strong>SigueFit:</strong> plataforma argentina de gestión para centros de fitness. Reserva de clases, membresías, control de acceso, cobros con MercadoPago. Buena opción para estudios que están creciendo y necesitan más control operativo.</p><p><strong>TomoTurnos:</strong> sistema argentino de gestión de turnos más generalista pero adaptable a estudios. Funciona bien para clases grupales con cupo y tiene integración con WhatsApp para recordatorios.</p><p><strong>Gendu:</strong> plataforma latinoamericana de gestión deportiva. Reservas, pagos, comunicación con alumnos. Más robusta para centros con múltiples disciplinas y sedes.</p><p><strong>¿Desarrollo a medida?</strong> Solo tiene sentido si tenés más de 3 sedes o necesidades muy específicas que ninguna plataforma cubre. Para la gran mayoría de los estudios, un SaaS + <a href=\"/blog/pagina-web-para-estudios-pilates-yoga\">web a medida</a> es la combinación perfecta. Para entender los costos, revisá nuestra guía de <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta una app de turnos</a>.</p>"
+      },
+      {
+        "heading": "Funcionalidades que tu sistema de reservas debe tener",
+        "body": "<p>Al evaluar un sistema, verificá que tenga estas funcionalidades esenciales:</p><ul><li><strong>Reserva online 24/7:</strong> el alumno reserva desde el celular en cualquier momento. Sin esperar confirmación manual. El lugar se asigna instantáneamente.</li><li><strong>Control de cupos en tiempo real:</strong> cuando se llena, se cierra automáticamente y se habilita lista de espera. Sin riesgo de sobreocupar la clase.</li><li><strong>Gestión de packs y membresías:</strong> pack x4, x8, mensual ilimitado, clase suelta. Cada tipo con sus reglas (vencimiento, transferibilidad, congelamiento).</li><li><strong>Cobro automático:</strong> integración con MercadoPago para que el alumno compre su pack desde la web o la app y se acredite automáticamente.</li><li><strong>Recordatorios por WhatsApp:</strong> notificación el día anterior y/o 2 horas antes de la clase. Reduce ausencias y cancelaciones de último momento.</li><li><strong>Política de cancelación automática:</strong> definís las reglas (ej: cancelación gratis hasta 4hs antes, después se pierde la clase del pack) y el sistema las aplica sin intervención.</li><li><strong>Reportes de ocupación:</strong> qué clases están siempre llenas (necesitás abrir otro horario), cuáles tienen baja asistencia (repensar horario o disciplina), qué instructores tienen más demanda.</li><li><strong>App o web mobile:</strong> tus alumnos viven en el celular. El sistema tiene que funcionar perfecto en mobile, ya sea como app nativa o como web responsive.</li></ul>"
+      },
+      {
+        "heading": "Integración del sistema con tu web y redes",
+        "body": "<p>El sistema de reservas es el motor; tu web es la carrocería. Tienen que funcionar juntos:</p><p><strong>Widget en tu web:</strong> Reserva Clase, SigueFit y Gendu ofrecen widgets que podés embeber directamente en tu web. El alumno ve la grilla de clases y reserva sin salir de tu sitio. Es la integración más rápida de implementar.</p><p><strong>Integración nativa:</strong> la opción premium es que el sistema de reservas se integre vía API con tu web, manteniendo tu diseño y experiencia de usuario consistente. El alumno no nota que está usando un sistema externo.</p><p><strong>Instagram → Web → Reserva:</strong> el flujo ideal es: el alumno te descubre en Instagram → entra al link de tu bio → cae en tu web → ve la grilla → reserva su clase de prueba. Cada paso tiene que ser fluido y sin fricción.</p><p><strong>WhatsApp como complemento:</strong> el sistema envía recordatorios por WhatsApp automáticamente. También podés tener un bot básico que responde \"¿Querés reservar?\" con el link directo al sistema. Para profundizar, leé sobre <a href=\"/blog/como-crear-sistema-de-turnos-online\">cómo crear un sistema de turnos online</a>.</p><p><strong>Google Business Profile:</strong> tu ficha de Google debe tener link directo a tu web/sistema de reservas. Alguien que busca \"yoga cerca de mí\" y cae en tu ficha tiene que poder reservar clase de prueba en 2 clics.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un sistema de reservas para tu estudio",
+        "body": "<p>Los costos dependen de la plataforma y el tamaño de tu estudio:</p><ul><li><strong>Reserva Clase:</strong> planes desde USD 20-50/mes según cantidad de alumnos y funcionalidades. Incluye reservas, packs, cobros y reportes. Es la mejor relación costo-beneficio para estudios medianos.</li><li><strong>SigueFit:</strong> planes desde USD 25-60/mes. Incluye además control de acceso y funcionalidades más avanzadas de gestión.</li><li><strong>TomoTurnos:</strong> planes desde USD 15-30/mes. Más básico pero funcional para estudios chicos que necesitan resolver lo esencial.</li><li><strong>Gendu:</strong> planes desde USD 30-80/mes. Más completo, ideal para centros con varias disciplinas y sedes.</li></ul><p><strong>El cálculo que importa:</strong> ¿cuánto tiempo dedicás hoy a gestionar reservas por WhatsApp? Si vos o tu recepcionista pasan 2-3 horas diarias confirmando turnos, reagendando y manejando listas de espera manualmente, un sistema de USD 30/mes te devuelve ese tiempo para dar clases, crear contenido o simplemente vivir.</p><p>Además, la lista de espera automática llena los huecos que hoy quedan vacíos cuando alguien cancela. Un lugar vacío en tu clase de reformer de 8 personas es un 12.5% de la facturación de esa clase que perdés.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Reserva Clase funciona bien para estudios de pilates reformer?",
+        "answer": "Sí, es una de las plataformas más usadas para reformer en Argentina. Maneja cupos reducidos (6-10 lugares), packs específicos por disciplina, lista de espera y reserva 24/7. Está pensada para la lógica de clases boutique."
+      },
+      {
+        "question": "¿Puedo gestionar varios tipos de clases en el mismo sistema?",
+        "answer": "Sí. Todas las plataformas mencionadas permiten crear distintos tipos de clase (mat, reformer, yoga, meditación) con sus propios cupos, horarios e instructores. Cada tipo puede tener packs y precios independientes."
+      },
+      {
+        "question": "¿Qué pasa si un alumno reserva y no viene?",
+        "answer": "Configurás tu política de no-show en el sistema. Podés descontar la clase del pack, cobrar un cargo, o simplemente registrarlo. Los recordatorios automáticos por WhatsApp reducen los no-shows en un 30-40%."
+      },
+      {
+        "question": "¿El sistema se integra con MercadoPago?",
+        "answer": "Reserva Clase, SigueFit y Gendu integran con MercadoPago para cobro de packs y membresías. El alumno paga desde tu web o la app y el crédito se acredita automáticamente en su cuenta."
+      },
+      {
+        "question": "¿Necesito un sistema si solo tengo 3-4 clases por día?",
+        "answer": "Sí. Incluso con pocas clases, un sistema te ahorra 1-2 horas diarias de gestión manual, evita overbooking, aplica políticas de cancelación automáticas y te da datos sobre ocupación que necesitás para crecer."
+      }
+    ],
+    "ctaText": "¿Querés implementar un sistema de reservas en tu estudio? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te recomendamos la mejor opción."
+  }
+}

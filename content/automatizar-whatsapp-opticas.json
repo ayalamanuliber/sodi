@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-opticas",
+  "title": "Automatizar WhatsApp para ópticas: turnos, recordatorios y seguimiento de pacientes con bots",
+  "metaTitle": "Automatizar WhatsApp para Ópticas Argentina | SODI",
+  "metaDescription": "Cómo automatizar WhatsApp en tu óptica. Bots para turnos, recordatorios de control visual, aviso de lentes listos y fidelización de pacientes.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["ópticas", "WhatsApp Business", "automatización", "bots WhatsApp", "turnos online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-opticas", "sistema-de-turnos-para-opticas", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Tu óptica recibe decenas de mensajes por día: \"¿Están mis lentes?\", \"¿Puedo sacar turno?\", \"¿Trabajan con OSDE?\". Responder uno por uno consume horas que podrías dedicar a atender pacientes. Y si tardás en responder, <strong>el cliente se va a la óptica que le contesta primero</strong>.</p><p>Automatizar WhatsApp no significa perder el trato personalizado — significa <strong>responder instantáneamente las consultas repetitivas y dedicar tu tiempo a lo que realmente importa</strong>. En esta guía te mostramos qué flujos automatizar, qué herramientas usar y cómo implementarlo sin ser técnico. Si necesitás un sistema de turnos completo, mirá nuestra guía de <a href=\"/blog/sistema-de-turnos-para-opticas\">turnos para ópticas</a>.</p>",
+    "sections": [
+      {
+        "heading": "Flujos de automatización clave para ópticas",
+        "body": "<p>Estos son los flujos que más impacto generan en una óptica:</p><ul><li><strong>Agendamiento de turnos:</strong> el cliente escribe, el bot le muestra días y horarios disponibles, confirma el turno y envía recordatorio 24hs antes. Sin intervención humana.</li><li><strong>Aviso de lentes listos:</strong> cuando los lentes están para retirar, se dispara un mensaje automático con horarios de retiro. Sin tener que llamar uno por uno.</li><li><strong>Recordatorio de control anual:</strong> 11 meses después de la última visita, el paciente recibe un \"¿Hace cuánto no te controlás la vista?\". Recuperás pacientes que se olvidan.</li><li><strong>Consultas frecuentes:</strong> obras sociales que aceptás, horarios, dirección, si hacés lentes de contacto. Respuestas instantáneas a las preguntas que respondés 20 veces por día.</li><li><strong>Seguimiento post-venta:</strong> 7 días después de retirar los lentes: \"¿Cómo te sentís con tus lentes nuevos? ¿Alguna molestia?\" Genera confianza y detecta problemas temprano.</li></ul>"
+      },
+      {
+        "heading": "Herramientas para automatizar WhatsApp",
+        "body": "<p>Estas son las herramientas más usadas para ópticas en Argentina:</p><ul><li><strong>Aurora Inbox:</strong> plataforma argentina, ideal para negocios locales. Permite armar flujos de conversación sin código, integrar catálogo de productos y gestionar múltiples conversaciones desde un panel. Buena relación precio-funcionalidad.</li><li><strong>Whato:</strong> enfocado en automatización de WhatsApp para comercios. Flujos pre-armados para turnos, recordatorios y seguimiento. Interfaz simple que no requiere conocimientos técnicos.</li><li><strong>ManyChat:</strong> potente para flujos complejos y se integra con Instagram también. Tiene plantillas de agendamiento y e-commerce. Curva de aprendizaje un poco más alta pero muy versátil.</li><li><strong>ChatCompose:</strong> permite crear bots con IA conversacional. Ideal si querés que el bot responda preguntas abiertas sobre productos, precios y servicios de forma natural.</li></ul><p><strong>¿Cuál elegir?</strong> Si recién arrancás, Aurora Inbox o Whato por simplicidad. Si ya tenés experiencia y necesitás flujos avanzados, ManyChat. Si querés respuestas con IA, ChatCompose.</p>"
+      },
+      {
+        "heading": "Flujo de turnos automatizado paso a paso",
+        "body": "<p>El turno es la conversión principal de una óptica. Así se ve un flujo bien armado:</p><ol><li><strong>Disparo:</strong> el cliente escribe \"turno\" o hace click en el botón de tu bio de Instagram/web.</li><li><strong>Menú de servicios:</strong> \"¿Para qué necesitás turno? 1) Control de vista 2) Retiro de lentes 3) Lentes de contacto 4) Otro\".</li><li><strong>Selección de día y hora:</strong> el bot muestra los horarios disponibles de la semana. El cliente elige.</li><li><strong>Confirmación:</strong> \"Listo, tu turno es el martes 15/4 a las 10:30. Te vamos a mandar un recordatorio el lunes. ¿Necesitás algo más?\".</li><li><strong>Recordatorio automático:</strong> 24 horas antes: \"Hola [nombre], te recordamos tu turno mañana a las 10:30. Si necesitás reprogramar, escribinos\".</li><li><strong>Post-consulta:</strong> 2 horas después del turno: \"Gracias por visitarnos. Tus lentes van a estar en [X días]. Te avisamos cuando estén listos\".</li></ol><p>Este flujo elimina las llamadas telefónicas, reduce los turnos perdidos con el recordatorio y <strong>mejora la experiencia del paciente desde el primer contacto</strong>.</p>"
+      },
+      {
+        "heading": "Recordatorios y fidelización automática",
+        "body": "<p>Los recordatorios automáticos son donde una óptica recupera más ingresos perdidos:</p><ul><li><strong>Control anual de vista:</strong> programá un mensaje automático a los 11 meses de la última consulta. \"Hola [nombre], ya pasó casi un año de tu último control. ¿Querés agendar turno?\" — podés recuperar entre un 15% y 30% de pacientes que no volverían solos.</li><li><strong>Cambio de lentes:</strong> si sabés la antigüedad de los lentes del paciente, un mensaje a los 18-24 meses: \"Tus lentes ya tienen [X] meses. ¿Notás que ves distinto? Agendá un control\".</li><li><strong>Promociones por obra social:</strong> al inicio de año, cuando se renuevan las prestaciones: \"Tu obra social [X] ya habilitó la cobertura anual de lentes. ¿Querés aprovecharla?\".</li><li><strong>Cumpleaños:</strong> \"¡Feliz cumpleaños, [nombre]! Tenés 15% OFF en lentes de sol este mes\". Simple, personal y efectivo.</li><li><strong>Liquidaciones y nuevas colecciones:</strong> aviso masivo pero segmentado: lentes de sol en verano, colecciones nuevas a quien compró marcos en los últimos 2 años.</li></ul><p>La clave es <strong>segmentar</strong>: no le mandes la misma promo al que compró hace un mes que al que no viene hace 2 años.</p>"
+      },
+      {
+        "heading": "Implementación sin complicaciones",
+        "body": "<p>No necesitás ser programador ni contratar un equipo de IT:</p><ul><li><strong>Paso 1:</strong> elegí una herramienta (Aurora Inbox o Whato para empezar) y conectá tu número de WhatsApp Business.</li><li><strong>Paso 2:</strong> armá el flujo de turnos primero — es el que más impacto tiene. Probalo internamente antes de activarlo para clientes.</li><li><strong>Paso 3:</strong> configurá las respuestas automáticas para las 5 preguntas más frecuentes (obras sociales, horarios, dirección, tiempos de entrega, precios de control).</li><li><strong>Paso 4:</strong> cargá tu base de pacientes y programá los recordatorios de control anual.</li><li><strong>Paso 5:</strong> medí resultados: tasa de turnos agendados vs perdidos, mensajes respondidos automáticamente vs manualmente, pacientes recuperados por recordatorios.</li></ul><p><strong>Errores comunes:</strong> automatizar todo sin dejar opción de hablar con una persona, no actualizar los horarios disponibles, y no revisar las conversaciones que el bot no supo resolver.</p><p>¿Necesitás ayuda para implementar la automatización? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te armamos el plan.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta automatizar WhatsApp para una óptica?",
+        "answer": "Las herramientas arrancan desde USD 20-30/mes para planes básicos. Aurora Inbox y Whato tienen planes accesibles para comercios chicos. La inversión se recupera rápido al reducir horas dedicadas a responder consultas repetitivas."
+      },
+      {
+        "question": "¿Puedo automatizar y seguir respondiendo personalmente?",
+        "answer": "Sí, y es lo recomendado. El bot maneja las consultas repetitivas y turnos, pero si el paciente tiene una consulta específica o compleja, la conversación pasa a una persona real. Es un modelo híbrido."
+      },
+      {
+        "question": "¿Los pacientes se molestan con los mensajes automáticos?",
+        "answer": "No, si los mensajes son útiles y no excesivos. Un recordatorio de turno o de control anual se percibe como buen servicio, no como spam. La clave es no enviar más de 1-2 mensajes por mes a cada paciente."
+      },
+      {
+        "question": "¿Necesito la API de WhatsApp Business o alcanza con la app?",
+        "answer": "Para flujos básicos (respuestas rápidas, catálogo) alcanza la app gratuita de WhatsApp Business. Para automatización real con bots, recordatorios programados y mensajes masivos, necesitás una herramienta que use la API oficial."
+      },
+      {
+        "question": "¿Cómo mido si la automatización está funcionando?",
+        "answer": "Medí turnos agendados por WhatsApp vs antes, tasa de no-show (debería bajar con recordatorios), pacientes recuperados por recordatorio anual, y tiempo que tu equipo dedica a responder mensajes. En 30 días vas a ver la diferencia."
+      }
+    ],
+    "ctaText": "¿Querés automatizar WhatsApp en tu óptica y dejar de perder pacientes? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos los flujos."
+  }
+}

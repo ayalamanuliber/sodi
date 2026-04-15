@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-gestion-para-joyerias",
+  "title": "Sistema de gestión para joyerías: inventario de piezas únicas, reparaciones y trazabilidad",
+  "metaTitle": "Sistema de Gestión para Joyerías Argentina | SODI",
+  "metaDescription": "Sistemas de gestión para joyerías en Argentina. Inventario de piezas únicas, trazabilidad de materiales, reparaciones, historial de clientes y valuaciones.",
+  "silo": "sistema-por-rubro",
+  "siloLabel": "Sistemas por Rubro",
+  "tags": ["sistema de gestión", "joyerías", "inventario joyas", "trazabilidad materiales", "reparaciones joyería"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-joyerias", "tienda-online-para-joyerias", "cuanto-cuesta-sistema-de-gestion-pymes", "presencia-digital-ideal-joyeria"],
+  "content": {
+    "intro": "<p>Una joyería no es un comercio más. Cada pieza es única o tiene un valor alto, los materiales requieren trazabilidad, los clientes esperan un servicio personalizado y las reparaciones necesitan seguimiento detallado. <strong>Gestionar todo eso con cuadernos y Excel es un riesgo</strong> —tanto para tu negocio como para tus clientes.</p><p>Un <strong>sistema de gestión para joyerías</strong> te permite manejar inventario de piezas únicas, rastrear materiales (oro, plata, piedras), gestionar reparaciones y encargos, mantener el historial de cada cliente y generar valuaciones profesionales. En esta guía te contamos qué necesitás, cuánto cuesta y cómo elegir la mejor opción.</p>",
+    "sections": [
+      {
+        "heading": "El problema real: cómo operan hoy la mayoría de las joyerías argentinas",
+        "body": "<p>Las joyerías en Argentina tienen un nivel de complejidad operativa que muchos subestiman. No es solo vender productos —es gestionar piezas únicas con valores altos, materiales preciosos con cotización variable y servicios de reparación que pueden tardar semanas.</p><p>Los problemas más comunes:</p><ul><li><strong>Inventario incontrolable:</strong> cada pieza es distinta (peso, quilates, piedras, diseño). Un Excel no alcanza para catalogar correctamente 200 o 500 piezas con sus características y fotos.</li><li><strong>Materiales sin trazabilidad:</strong> comprás oro de 18k a un proveedor, lo usás para tres piezas distintas, pero no tenés registro de qué material fue a qué pieza. Si un cliente reclama, no podés rastrear.</li><li><strong>Reparaciones perdidas:</strong> un cliente trae un anillo para agrandar, se anota en un papel. Dos semanas después, nadie sabe en qué estado está la reparación ni quién la tiene.</li><li><strong>Historial de clientes inexistente:</strong> un cliente viene y dice \"quiero algo parecido a lo que compré hace un año\". Si no tenés registro, perdés una venta.</li><li><strong>Valuaciones informales:</strong> tasás \"de ojo\" sin un registro formal que respalde el valor declarado.</li></ul>"
+      },
+      {
+        "heading": "Qué tiene que hacer un sistema de gestión para joyerías",
+        "body": "<p>Un sistema para joyerías necesita funcionalidades que los sistemas genéricos no traen:</p><ul><li><strong>Inventario de piezas únicas:</strong> cada artículo con código único, fotos múltiples, descripción detallada (metal, quilates, peso, piedras, certificados). Categorías por tipo (anillos, cadenas, relojes, etc.) y filtros avanzados.</li><li><strong>Trazabilidad de materiales:</strong> registro de compra de materia prima (oro, plata, piedras) con proveedor, fecha, peso, pureza y costo. Vinculación de materiales a las piezas fabricadas.</li><li><strong>Gestión de reparaciones y encargos:</strong> ingreso del trabajo con fotos del estado inicial, presupuesto, fecha estimada de entrega, seguimiento de avance y notificación al cliente cuando está listo.</li><li><strong>Historial de clientes:</strong> qué compró, qué reparó, preferencias (estilo, presupuesto, materiales favoritos), fechas importantes (aniversarios, cumpleaños). Esto convierte al sistema en una herramienta de venta.</li><li><strong>Valuaciones formales:</strong> generación de certificados de valuación con todos los datos de la pieza, fotos y valor estimado. Firmado digitalmente si es necesario.</li><li><strong>Cotización de materiales:</strong> actualización del precio del gramo de oro, plata y piedras para calcular valores en tiempo real.</li></ul><p>Si tu sistema no distingue entre una cadena de oro 18k de 5g y otra de 7g, te va a traer problemas. El detalle importa en joyería.</p>"
+      },
+      {
+        "heading": "SaaS vs desarrollo a medida: qué conviene para tu joyería",
+        "body": "<p>La realidad es que <strong>no hay muchos SaaS específicos para joyerías en el mercado argentino</strong>. Los que existen son internacionales y no siempre se adaptan a la operación local.</p><p><strong>SaaS genérico adaptado:</strong> podés usar un sistema de inventario general y adaptarlo, pero te van a faltar funcionalidades clave como trazabilidad de materiales, gestión de reparaciones y valuaciones. Ventaja: costo mensual bajo. Desventaja: mucha adaptación manual.</p><p><strong>Sistema a medida:</strong> se diseña específicamente para tu joyería. Contempla el flujo completo desde la compra de materiales hasta la venta, pasando por fabricación, reparación y valuación. Se integra con tu <a href=\"/blog/pagina-web-para-joyerias\">página web</a> y tu <a href=\"/blog/tienda-online-para-joyerias\">tienda online</a>.</p><p>Para joyerías con catálogo importante (más de 100 piezas), taller de reparaciones activo y clientes recurrentes, <strong>el sistema a medida es prácticamente la única opción</strong> que cubre todo. Los SaaS genéricos te van a dejar a medio camino.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta un sistema de gestión para joyerías en Argentina",
+        "body": "<p>Los rangos en 2026:</p><ul><li><strong>SaaS genérico adaptado:</strong> $15.000 - $45.000 ARS/mes (limitado para el rubro)</li><li><strong>Sistema a medida básico:</strong> $2.000.000 - $4.500.000 ARS (inventario, clientes, reparaciones, facturación)</li><li><strong>Sistema a medida completo:</strong> $4.500.000 - $10.000.000 ARS (trazabilidad completa, valuaciones, integración con tienda online, reportes avanzados, app para mostrar catálogo en mostrador)</li></ul><p>En joyería, <strong>un error de inventario puede costar caro</strong>. Si perdés el rastro de una pieza de $500.000, ya pagaste una parte del sistema. El ROI de tener control real sobre piezas de alto valor es directo y medible.</p><p>Consultá nuestra <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">guía de costos de sistemas de gestión</a> para más contexto sobre la inversión.</p>"
+      },
+      {
+        "heading": "Implementación: cómo migrar sin perder el control de tu inventario",
+        "body": "<p>La migración en una joyería requiere cuidado especial porque estamos hablando de artículos de alto valor. Así se hace bien:</p><ul><li><strong>Inventario fotográfico completo:</strong> cada pieza se fotografía y se carga con todos sus datos. Es el paso que más tiempo lleva, pero es la base de todo lo demás.</li><li><strong>Carga de materiales y proveedores:</strong> historial de compras de materias primas, proveedores habituales, precios de referencia.</li><li><strong>Migración de historial de clientes:</strong> si tenés datos de clientes en cuadernos o Excel, se digitalizan. Las preferencias y fechas importantes se cargan para activar las alertas.</li><li><strong>Reparaciones en curso:</strong> todo trabajo que esté en proceso al momento de la implementación se carga con su estado actual.</li><li><strong>Validación cruzada:</strong> se cuenta físicamente el inventario y se cruza con lo cargado en el sistema. Diferencia cero es el objetivo.</li></ul><p>Una implementación típica lleva entre 4 y 8 semanas, dependiendo del tamaño del inventario. Lo que más tiempo lleva es la carga fotográfica y descriptiva de cada pieza.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo registrar piezas únicas con todas sus características en el sistema?",
+        "answer": "Sí. Cada pieza se carga con código único, fotos múltiples, tipo de metal, quilates, peso, piedras, certificados y cualquier detalle relevante. No es un inventario genérico de cantidades, sino un catálogo de piezas individuales."
+      },
+      {
+        "question": "¿Cómo funciona la trazabilidad de materiales?",
+        "answer": "Registrás la compra de materia prima con proveedor, peso, pureza y costo. Cuando fabricás una pieza, vinculás los materiales usados. Así podés rastrear de dónde vino el oro o las piedras de cualquier pieza vendida."
+      },
+      {
+        "question": "¿El sistema permite gestionar reparaciones con seguimiento?",
+        "answer": "Sí. Se carga la pieza con fotos del estado inicial, se asigna un presupuesto y fecha estimada, se registra el avance y se notifica al cliente automáticamente cuando está lista para retirar."
+      },
+      {
+        "question": "¿Puedo generar valuaciones formales desde el sistema?",
+        "answer": "Sí. El sistema genera certificados de valuación con los datos completos de la pieza, fotos, cotización de materiales al día de la tasación y valor estimado. Se pueden imprimir o enviar digitalmente."
+      },
+      {
+        "question": "¿Se integra con una tienda online para vender joyas por internet?",
+        "answer": "Sí. El sistema a medida se puede integrar con tu tienda online para sincronizar inventario, precios y disponibilidad. Cuando vendés una pieza en el local, se saca automáticamente de la web y viceversa."
+      }
+    ],
+    "ctaText": "¿Querés tener control total de tus piezas, materiales y reparaciones? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos un sistema a medida para tu joyería."
+  }
+}

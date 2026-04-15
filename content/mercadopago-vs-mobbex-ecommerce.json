@@ -1,0 +1,61 @@
+{
+  "slug": "mercadopago-vs-mobbex-ecommerce",
+  "title": "MercadoPago vs Mobbex para ecommerce en Argentina: cuál conviene para tu tienda online",
+  "metaTitle": "MercadoPago vs Mobbex: cuál conviene ecommerce",
+  "metaDescription": "MercadoPago cobra 4.99%+IVA, Mobbex ~3.5%. MercadoPago domina en adopción, Mobbex gana en API y comisiones. Cuál elegir según tu tienda. Comparativa 2026.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["mercadopago", "mobbex", "ecommerce", "pasarela de pago", "tienda online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "como-crear-tienda-online-argentina", "mercado-libre-vs-tienda-propia", "como-vender-por-internet-argentina"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> si usás Tiendanube o vendés por Mercado Libre, quedate con <strong>MercadoPago</strong> — la integración es nativa y tus clientes ya lo conocen. Si tenés un ecommerce custom o desarrollado a medida y querés comisiones más bajas, acreditación más rápida y una API más limpia, <strong>Mobbex</strong> es la mejor alternativa. No es una cuestión de cuál es mejor — es cuál se adapta a tu operación.</p><p>MercadoPago procesa el <strong>70%+ de los pagos online en Argentina</strong> y tiene la confianza del consumidor. Mobbex es el desafiante que creció fuerte ofreciendo comisiones más bajas (~3.5% vs 4.99%), acreditación en 24-48 hs y una integración técnica superior. Para PyMEs que mueven volumen, esa diferencia de comisión es plata real en el bolsillo.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa directa: MercadoPago vs Mobbex",
+        "body": "<table><thead><tr><th>Característica</th><th>MercadoPago</th><th>Mobbex</th></tr></thead><tbody><tr><td>Comisión por venta</td><td>4.99% + IVA</td><td>~3.5% + IVA (negociable por volumen)</td></tr><tr><td>Acreditación</td><td>Inmediata con MP / 2-14 días según medio</td><td>24-48 hs (más rápido que MP para mayoría)</td></tr><tr><td>Medios de pago</td><td>Todos: tarjetas, transferencia, efectivo, QR, cuotas</td><td>Todos: tarjetas, transferencia, efectivo, QR</td></tr><tr><td>Cuotas sin interés</td><td>Sí (absorbe el vendedor o comprador)</td><td>Sí (menor costo financiero)</td></tr><tr><td>Checkout</td><td>Redirect o modal (Checkout Pro / Bricks)</td><td>Embed o redirect (más personalizable)</td></tr><tr><td>API / documentación</td><td>Buena, pero compleja</td><td>Excelente, limpia, bien documentada</td></tr><tr><td>Integración Tiendanube</td><td>Nativa (un click)</td><td>Plugin disponible</td></tr><tr><td>Integración WooCommerce</td><td>Plugin oficial</td><td>Plugin oficial</td></tr><tr><td>Integración custom</td><td>SDK completo pero verbose</td><td>API REST simple, mejor DX</td></tr><tr><td>Soporte técnico</td><td>Lento, automatizado</td><td>Rápido, humano, personalizado</td></tr><tr><td>Confianza del comprador</td><td>Máxima — todos conocen MP</td><td>Menor — marca menos conocida</td></tr><tr><td>QR en local físico</td><td>Sí (Point + QR)</td><td>Sí (QR)</td></tr></tbody></table><p>Los números clave: en una venta de $100.000 ARS, MercadoPago se queda con $6.039 (4.99% + IVA). Mobbex se queda con $4.235 (~3.5% + IVA). <strong>Diferencia: $1.804 por venta</strong>. Si hacés 100 ventas por mes de ese promedio, son $180.400 ARS/mes que te ahorrás con Mobbex.</p>"
+      },
+      {
+        "heading": "MercadoPago: fortalezas y debilidades reales",
+        "body": "<p><strong>Por qué elegir MercadoPago:</strong></p><ul><li><strong>Confianza del consumidor:</strong> el argentino promedio conoce y confía en MercadoPago. Cuando ve el logo en tu checkout, se siente seguro. Esto reduce el abandono de carrito.</li><li><strong>Ecosistema completo:</strong> MercadoPago + Mercado Libre + Mercado Envíos + Mercado Crédito. Si vendés en ML, todo está integrado.</li><li><strong>Integración Tiendanube nativa:</strong> si usás Tiendanube (la plataforma ecommerce más popular en Argentina), MercadoPago se activa en un click. Sin código, sin configuración.</li><li><strong>QR y Point para locales físicos:</strong> si tenés local además de tienda online, MercadoPago unifica cobros online y presenciales.</li><li><strong>Cuotas:</strong> MercadoPago ofrece hasta 12 cuotas con todos los bancos. Para productos de ticket alto, esto es fundamental.</li></ul><p><strong>Debilidades reales de MercadoPago:</strong></p><ul><li><strong>Comisión alta:</strong> 4.99% + IVA es de las más altas del mercado. En volumen, se siente.</li><li><strong>Soporte técnico deficiente:</strong> si tenés un problema de integración, preparate para bots, tickets que tardan días y respuestas genéricas.</li><li><strong>Retención de fondos:</strong> MercadoPago puede retener pagos por \"revisión\" sin explicación clara. Para PyMEs con flujo de caja ajustado, esto es un problema serio.</li><li><strong>Acreditación lenta en algunos medios:</strong> tarjetas de crédito pueden demorar hasta 14 días hábiles en acreditarse si no tenés historial.</li><li><strong>API compleja:</strong> para desarrollo custom, la documentación es extensa pero confusa, y los SDKs tienen bugs conocidos que tardan en corregir.</li></ul>"
+      },
+      {
+        "heading": "Mobbex: la alternativa que crece fuerte",
+        "body": "<p><strong>Por qué elegir Mobbex:</strong></p><ul><li><strong>Comisiones más bajas:</strong> ~3.5% + IVA base, negociable si movés volumen. Algunas PyMEs logran 2.8-3.0%. Esa diferencia impacta directo en tu margen.</li><li><strong>Acreditación más rápida:</strong> 24-48 hs para la mayoría de los medios de pago. Tu plata llega antes que con MercadoPago.</li><li><strong>API superior:</strong> los desarrolladores que trabajan con ambas coinciden — la API de Mobbex es más limpia, mejor documentada y más fácil de integrar. Menos código, menos bugs.</li><li><strong>Soporte técnico real:</strong> hablás con personas, no con bots. Respuestas en horas, no en días. Para equipos de desarrollo, esto vale oro.</li><li><strong>Checkout personalizable:</strong> podés embeber el checkout directo en tu web sin redirect. El usuario no sale de tu tienda, lo que mejora la conversión.</li><li><strong>Suscripciones y pagos recurrentes:</strong> Mobbex tiene módulo nativo de suscripciones, ideal para SaaS, membresías, servicios recurrentes.</li></ul><p><strong>Debilidades de Mobbex:</strong></p><ul><li><strong>Menos conocido:</strong> tu cliente no va a ver \"Mobbex\" y decir \"ah, conozco\". Puede generar desconfianza en el checkout.</li><li><strong>Menos integración Tiendanube:</strong> funciona, pero no es tan plug-and-play como MercadoPago.</li><li><strong>Sin ecosistema tipo Mercado Libre:</strong> si vendés en ML, necesitás MercadoPago sí o sí.</li><li><strong>Menos opciones de cuotas bancarias:</strong> tiene cuotas, pero no con la misma amplitud de bancos que MP.</li></ul>"
+      },
+      {
+        "heading": "Cuál elegir según tu tipo de tienda",
+        "body": "<p>La decisión es más simple de lo que parece:</p><ul><li><strong>Tiendanube o Mercado Shops:</strong> MercadoPago. La integración nativa es imbatible y tus clientes ya lo conocen. Sí, la comisión es más alta, pero la fricción de checkout es mínima.</li><li><strong>Ecommerce custom (React, Next.js, Laravel, etc.):</strong> Mobbex. La API es superior, el checkout embebido convierte mejor, y las comisiones más bajas justifican el esfuerzo de integración.</li><li><strong>WooCommerce:</strong> cualquiera de las dos funciona bien. Si priorizás confianza del consumidor, MercadoPago. Si priorizás margen, Mobbex.</li><li><strong>SaaS o suscripciones:</strong> Mobbex. El módulo de pagos recurrentes es nativo y más flexible que el de MercadoPago.</li><li><strong>Local físico + online:</strong> MercadoPago. Point + QR + ecommerce unificado es muy conveniente.</li></ul><p><strong>La opción avanzada — usar ambos:</strong> si tu tienda mueve volumen, podés ofrecer MercadoPago como opción de pago (para la confianza del consumidor) y Mobbex como opción alternativa (con descuento por menor comisión). El cliente elige, vos ganás en ambos escenarios. Requiere desarrollo custom pero se paga solo.</p><p><strong>Dato clave:</strong> si tu ticket promedio es alto (+$50.000 ARS), la diferencia de comisión entre MP y Mobbex es significativa. En 100 ventas mensuales de $100.000, te ahorrás ~$180.000 ARS/mes con Mobbex. Eso es un empleado part-time.</p>"
+      },
+      {
+        "heading": "Cómo migrar de MercadoPago a Mobbex (o usar ambos)",
+        "body": "<p>Si ya estás con MercadoPago y querés evaluar Mobbex, este es el camino:</p><ol><li><strong>Abrí cuenta en Mobbex:</strong> el registro es online, necesitás CUIT, CBU y datos de la empresa. Aprobación en 24-72 hs.</li><li><strong>Hacé un test técnico:</strong> integrá Mobbex en un entorno de prueba (sandbox) para verificar que funciona con tu plataforma.</li><li><strong>Corré ambos en paralelo:</strong> ofrecé MercadoPago y Mobbex como opciones de pago durante 30 días. Compará conversión, acreditación y experiencia.</li><li><strong>Medí los números:</strong> ¿cuánto ahorraste en comisiones? ¿La conversión fue similar? ¿El soporte respondió cuando lo necesitaste?</li><li><strong>Decidí con datos:</strong> si Mobbex convierte igual o mejor y te ahorra comisión, migra el volumen principal. Si los clientes abandonan más el checkout de Mobbex, quedate con MP.</li></ol><p><strong>Errores comunes al elegir pasarela de pago:</strong></p><ul><li>Elegir solo por comisión sin considerar la confianza del consumidor</li><li>No testear el checkout como comprador — hacé una compra de prueba vos mismo</li><li>No tener en cuenta los tiempos de acreditación en tu flujo de caja</li><li>Ignorar el soporte técnico hasta que tenés un problema urgente</li><li>No leer la letra chica de retención de fondos y contracargos</li></ul><p>¿Necesitás ayuda integrando una pasarela de pago en tu tienda? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te recomendamos la mejor opción para tu caso.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cobra MercadoPago por cada venta?",
+        "answer": "MercadoPago cobra 4.99% + IVA por cada venta con acreditación inmediata. Eso equivale a ~6.04% efectivo. En una venta de $100.000 ARS, se queda con ~$6.039. Las comisiones varían según el plan y los plazos de acreditación que elijas."
+      },
+      {
+        "question": "¿Mobbex es seguro para cobrar online?",
+        "answer": "Sí. Mobbex es una empresa argentina regulada, certificada PCI DSS (el estándar de seguridad de la industria de pagos). Procesa pagos para miles de comercios en Argentina. La marca es menos conocida que MercadoPago, pero la seguridad es equivalente."
+      },
+      {
+        "question": "¿Puedo usar MercadoPago y Mobbex al mismo tiempo?",
+        "answer": "Sí, si tu tienda es custom o WooCommerce. Ofrecés ambas opciones en el checkout y el cliente elige. En Tiendanube es más limitado porque MercadoPago tiene integración preferencial. Usar ambos requiere desarrollo adicional pero maximiza conversión y ahorro."
+      },
+      {
+        "question": "¿Cuál tiene mejor integración con Tiendanube?",
+        "answer": "MercadoPago, sin duda. La integración es nativa y se activa en un click. Mobbex funciona con Tiendanube via plugin, pero requiere más configuración. Si tu plataforma es Tiendanube, MercadoPago es la opción natural."
+      },
+      {
+        "question": "¿Cuánto tarda en acreditarse el dinero con cada pasarela?",
+        "answer": "MercadoPago: inmediato si elegís acreditación instantánea (comisión más alta), o 2-14 días hábiles según el medio de pago. Mobbex: 24-48 hs para la mayoría de los medios. Mobbex gana en velocidad de acreditación para quienes necesitan flujo de caja rápido."
+      }
+    ],
+    "ctaText": "¿Necesitás integrar una pasarela de pago en tu tienda online? En SODI desarrollamos ecommerce con MercadoPago, Mobbex o ambos — optimizado para convertir y cobrar. <a href='/diagnostico'>Pedí tu diagnóstico gratuito</a>."
+  }
+}

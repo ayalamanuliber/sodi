@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-academias-idiomas",
+  "title": "Cómo automatizar WhatsApp para academias de idiomas: recordatorios, tareas y re-inscripción",
+  "metaTitle": "Automatizar WhatsApp Academias de Idiomas | SODI",
+  "metaDescription": "Automatizá tu academia de idiomas por WhatsApp: recordatorios de clase, entrega de tareas, notificaciones de nivel y campañas de re-inscripción.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["academias de idiomas", "WhatsApp Business", "automatización", "educación", "gestión de alumnos"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-academias-idiomas", "sistema-de-turnos-para-academias", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Las academias de idiomas en Argentina manejan una comunicación intensa: recordatorios de clase, envío de material, avisos de exámenes, cobro de cuotas, re-inscripciones. <strong>Todo eso pasa por WhatsApp, y todo lo maneja una secretaria desbordada</strong> o el profe entre clase y clase.</p><p>Automatizar WhatsApp en una academia no es un lujo: es la diferencia entre una operación prolija y un caos de mensajes sin responder. En esta guía te mostramos qué automatizar, cómo hacerlo y cuánto te ahorrás.</p>",
+    "sections": [
+      {
+        "heading": "Qué automatizar en una academia de idiomas",
+        "body": "<p>Estos son los flujos de comunicación que más tiempo consumen y <strong>mejor se prestan a la automatización</strong>:</p><ul><li><strong>Recordatorios de clase:</strong> \"Recordá que mañana tenés clase de inglés nivel B1 a las 18 hs.\" Mensaje automático 24 hs antes. Reduce ausencias hasta un 30%.</li><li><strong>Entrega de material y tareas:</strong> después de cada clase, el profe carga el material y el bot lo envía. \"Acá va el material de la clase de hoy + homework para la semana que viene.\"</li><li><strong>Notificaciones de nivel:</strong> \"Felicitaciones, aprobaste el examen de nivel A2. A partir del mes que viene arrancás B1.\" Mensaje automático al cargar la nota.</li><li><strong>Recordatorios de pago:</strong> \"Tu cuota de abril vence el 10. Podés pagar por transferencia a CBU [datos] o por MercadoPago [link].\" 5 días antes del vencimiento.</li><li><strong>Campañas de re-inscripción:</strong> un mes antes de que termine el cuatrimestre, campaña automática para renovar. \"El próximo cuatrimestre arranca el [fecha]. ¿Seguís? Respondé SI para reservar tu lugar.\"</li></ul><p>El recordatorio de clase es el <strong>quick win más grande</strong>: se configura en minutos y reduce las ausencias dramáticamente. Un alumno que no falta no abandona.</p>"
+      },
+      {
+        "heading": "Flujo de inscripción y onboarding de alumnos nuevos",
+        "body": "<p>El primer contacto es clave para <strong>convertir una consulta en inscripción</strong>:</p><ol><li><strong>Consulta inicial:</strong> \"Hola, bienvenido a [Academia]. ¿Qué idioma te interesa?\" → Inglés / Portugués / Francés / Italiano / Alemán / Otro.</li><li><strong>Nivel:</strong> \"¿Tenés conocimiento previo del idioma?\" → Empiezo de cero / Tengo algo de base / Nivel intermedio / Quiero perfeccionar.</li><li><strong>Disponibilidad:</strong> \"¿Qué días y horarios te quedan mejor?\" → opciones con los horarios disponibles.</li><li><strong>Presentación de opciones:</strong> \"Para tu nivel y horario, tenemos estas opciones: [Curso grupal - $X/mes] [Clases particulares - $X/hora]. ¿Querés más info de alguna?\"</li><li><strong>Derivación a humano:</strong> \"Genial, te contacta [nombre] para coordinar tu clase de prueba gratuita.\" → el asesor recibe todos los datos ya recopilados.</li></ol><p>Este flujo <strong>filtra y califica</strong> al alumno potencial. Cuando el asesor humano lo contacta, ya sabe qué idioma quiere, qué nivel tiene y cuándo puede. La conversión es mucho más alta que arrancar de cero.</p>"
+      },
+      {
+        "heading": "Material didáctico, tareas y seguimiento académico",
+        "body": "<p>WhatsApp como <strong>canal académico complementario</strong> es muy efectivo:</p><ul><li><strong>Material post-clase:</strong> el profesor sube el archivo (PDF, audio, video) al sistema y el bot lo envía al grupo o individualmente. \"Material de la clase 12 - Past Perfect. Incluye ejercicios para practicar.\"</li><li><strong>Recordatorio de homework:</strong> 2 días antes de la próxima clase: \"Recordá completar los ejercicios de Past Perfect antes del jueves. Si tenés dudas, escribinos.\"</li><li><strong>Mini quizzes por chat:</strong> \"Quick quiz: Complete the sentence - 'I ___ (already/finish) my homework when you called.' Respondé con la forma correcta.\" Gamificación que mantiene al alumno enganchado entre clases.</li><li><strong>Aviso de exámenes:</strong> \"Tu examen de nivel A2 es el [fecha]. Temas: Present Perfect, Conditionals, Vocabulary Unit 5-8. ¿Necesitás clase de repaso?\"</li><li><strong>Reporte de progreso:</strong> mensualmente, un resumen al alumno (o a los padres si es menor). \"Asistencia: 90%. Participación: alta. Áreas a mejorar: writing. Nota promedio: 8/10.\"</li></ul><p>Los mini quizzes por WhatsApp tienen un <strong>engagement altísimo</strong>. Es como un juego: el alumno responde rápido, recibe feedback inmediato y mantiene el idioma activo entre clases. Pocas academias lo hacen, y es un diferencial enorme.</p>"
+      },
+      {
+        "heading": "Cobro de cuotas y campañas de re-inscripción",
+        "body": "<p>El cobro y la retención son los <strong>dos temas financieros más importantes</strong> de una academia:</p><ul><li><strong>Aviso previo al vencimiento:</strong> 5 días antes: \"Tu cuota de [mes] de $X vence el [fecha]. Medios de pago: Transferencia CBU [datos] / MercadoPago [link] / Efectivo en secretaría.\"</li><li><strong>Día de vencimiento:</strong> \"Hoy vence tu cuota. ¿Ya la abonaste? Si necesitás otro medio de pago, escribinos.\"</li><li><strong>Mora amigable:</strong> 3 días después: \"Tu cuota está pendiente. Recordá que después del [fecha] se aplica recargo. ¿Necesitás que te facilitemos el pago?\" Tono empático, no amenazante.</li><li><strong>Campaña de re-inscripción (6 semanas antes):</strong> \"El próximo cuatrimestre arranca el [fecha]. Si renovás antes del [fecha], tenés 10% de descuento. ¿Seguís con nosotros?\"</li><li><strong>Recuperación de alumnos que no renuevan:</strong> \"Te extrañamos en [Academia]. ¿Sabías que tenemos nuevos horarios y modalidades? Vení a una clase de prueba gratuita.\" Un mes después de que no renovó.</li></ul><p>Las academias que envían <strong>recordatorios de pago automáticos</strong> reducen la morosidad en un 40%. Y las que hacen campaña de re-inscripción proactiva retienen un 25% más de alumnos que las que esperan a que el alumno se acuerde solo.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para academias",
+        "body": "<p>Según el tamaño de tu academia:</p><ul><li><strong>WhatsApp Business gratis:</strong> grupos por curso, respuestas rápidas, etiquetas por nivel e idioma. Para academias chicas con menos de 50 alumnos.</li><li><strong>Bots SaaS (desde USD 25/mes):</strong> recordatorios automáticos, flujo de inscripción, envío masivo de material. Para academias medianas.</li><li><strong>Desarrollo custom (desde USD 350 setup):</strong> integración con sistema de gestión académica, recordatorios de pago automáticos desde la facturación, reportes de progreso, mini quizzes. Para academias con múltiples sedes o más de 200 alumnos.</li></ul><p>El cálculo: si <strong>retener 10 alumnos más por cuatrimestre</strong> (que sin seguimiento automatizado abandonarían) te genera $X extra en cuotas, la inversión se recupera en el primer mes. Y los recordatorios de pago que reducen morosidad suman a ese retorno.</p><p>Combiná WhatsApp con una <a href=\"/blog/pagina-web-para-academias-idiomas\">web profesional</a> y un <a href=\"/blog/sistema-de-turnos-para-academias\">sistema de turnos</a> para una gestión integral. <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿No es mejor usar un campus virtual en vez de WhatsApp?",
+        "answer": "Son complementarios, no excluyentes. El campus virtual es para material extenso, foros y evaluaciones formales. WhatsApp es para lo inmediato: recordatorios, tareas rápidas, avisos, cobros. El alumno abre WhatsApp 50 veces al día; al campus entra cuando se acuerda."
+      },
+      {
+        "question": "¿Los grupos de WhatsApp no se vuelven un caos?",
+        "answer": "Depende de cómo los manejes. Usá grupos solo para comunicación unidireccional (avisos de la academia) y configurá que solo admins puedan escribir. Para dudas individuales, que escriban al número principal. Si usás bot, todo es uno a uno y más ordenado."
+      },
+      {
+        "question": "¿Puedo mandar audios y videos como material didáctico?",
+        "answer": "Sí, WhatsApp soporta audios, videos, PDFs e imágenes. Es ideal para material complementario: un audio de pronunciación, un video corto explicando gramática, un PDF con ejercicios. Para material pesado (videos largos, libros completos), mejor un link a Google Drive o tu campus."
+      },
+      {
+        "question": "¿Los recordatorios de pago no generan rechazo?",
+        "answer": "No si el tono es correcto. Informativo y empático, nunca amenazante. 'Recordatorio: tu cuota vence el viernes' es servicio, no presión. La mayoría de la gente agradece el recordatorio porque se olvida genuinamente. Siempre ofrecé facilidades si hay dificultad para pagar."
+      },
+      {
+        "question": "¿Cómo manejo padres y alumnos menores?",
+        "answer": "Creá dos canales: uno con el alumno (material, tareas, quizzes) y otro con los padres (pagos, reportes de progreso, avisos institucionales). El bot puede enviar el mismo reporte de progreso al alumno y al padre con diferentes tonos. Para menores, el consentimiento de los padres es obligatorio."
+      }
+    ],
+    "ctaText": "¿Tu academia pierde alumnos por falta de seguimiento? Pedí un diagnóstico gratuito y te mostramos cómo automatizar la comunicación con tus estudiantes."
+  }
+}

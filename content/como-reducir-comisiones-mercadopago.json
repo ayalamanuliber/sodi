@@ -1,0 +1,61 @@
+{
+  "slug": "como-reducir-comisiones-mercadopago",
+  "title": "Cómo reducir las comisiones de MercadoPago en tu negocio: guía práctica 2026",
+  "metaTitle": "Cómo reducir comisiones MercadoPago 2026",
+  "metaDescription": "MercadoPago cobra 4.99% + IVA pero podés bajarlo a ~3.5%. QR presencial, transferencias, loyalty level y alternativas. Guía paso a paso para PyMEs.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["mercadopago", "comisiones", "reducir costos", "pagos digitales", "pymes"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["mercadopago-vs-mobbex-ecommerce", "modo-vs-mercadopago-para-negocios", "como-cobrar-con-qr-en-mi-negocio", "cuanto-cuesta-tienda-online-argentina"],
+  "content": {
+    "intro": "<p>MercadoPago cobra <strong>4.99% + IVA</strong> por cada venta con acreditación inmediata. Eso es un 6.04% efectivo sobre cada transacción. Si facturás $3.000.000 ARS/mes, estás pagando $181.200 solo en comisiones. La buena noticia: hay formas concretas de bajar ese número sin cambiar de plataforma.</p><p>No existe un botón mágico para eliminar las comisiones, pero combinando el nivel de loyalty, los canales correctos de cobro y algunas alternativas estratégicas, podés reducir lo que pagás entre un 20% y un 50%. Te mostramos cómo, paso a paso, con números reales.</p>",
+    "sections": [
+      {
+        "heading": "Entendé la estructura de comisiones de MercadoPago",
+        "body": "<p>Antes de optimizar, tenés que entender qué te cobran y por qué. MercadoPago no cobra lo mismo por todo:</p><table><thead><tr><th>Canal de cobro</th><th>Comisión</th><th>Comisión efectiva (con IVA)</th></tr></thead><tbody><tr><td>Venta online (acreditación inmediata)</td><td>4.99% + IVA</td><td>~6.04%</td></tr><tr><td>Venta online (acreditación en 14 días)</td><td>3.99% + IVA</td><td>~4.83%</td></tr><tr><td>QR presencial</td><td>0.99% + IVA</td><td>~1.20%</td></tr><tr><td>Point (posnet)</td><td>0.99-3.79% + IVA</td><td>~1.20-4.59%</td></tr><tr><td>Transferencia entre cuentas MP</td><td>0%</td><td>0%</td></tr><tr><td>Link de pago</td><td>4.99% + IVA</td><td>~6.04%</td></tr></tbody></table><p><strong>El dato clave:</strong> la comisión de QR presencial (0.99%) es 5 veces menor que la de venta online (4.99%). Y las transferencias entre cuentas MercadoPago son gratis. Esa diferencia es la base de toda la estrategia de ahorro.</p>"
+      },
+      {
+        "heading": "5 formas concretas de bajar las comisiones",
+        "body": "<p><strong>1. Priorizá QR presencial sobre links de pago</strong></p><p>Si tenés local físico, cada venta que cobrás por QR en vez de link de pago te ahorra 4% de comisión. En una venta de $50.000, eso son $2.000. Imprimí tu QR, tené un cartel visible, y pedile al cliente que escanee. Es el cambio más simple y más impactante.</p><p><strong>2. Ofrecé transferencia bancaria como alternativa</strong></p><p>Si el cliente puede pagar por transferencia (ya sea desde MercadoPago, MODO o su banco), la comisión es 0%. Podés ofrecer un pequeño descuento del 3-5% por pago por transferencia — seguís ahorrando respecto a la comisión de MP y el cliente siente que gana.</p><p><strong>3. Subí tu nivel de loyalty</strong></p><p>MercadoPago tiene un sistema de niveles basado en volumen de ventas. A mayor volumen, menores comisiones. Los niveles se actualizan según tu facturación de los últimos 60 días. Los vendedores con nivel alto pueden acceder a comisiones de ~3.5% + IVA para ventas online. Revisá tu nivel en la sección \"Tu negocio\" de la app.</p><p><strong>4. Elegí acreditación diferida</strong></p><p>Si tu flujo de caja lo permite, elegí acreditación en 14 días en vez de inmediata. Pasás de 4.99% a 3.99% + IVA. En $3.000.000/mes de facturación online, eso son $36.300 menos de comisión por mes. El trade-off: esperás más para tener la plata.</p><p><strong>5. Combiná canales de cobro</strong></p><p>La estrategia más efectiva combina todo: QR para presencial (0.99%), transferencia para montos altos (0%), acreditación diferida para online (3.99%), y links de pago solo cuando no hay alternativa. Un negocio que cobra $5.000.000/mes puede pasar de $302.000 en comisiones a ~$180.000 con esta combinación.</p>"
+      },
+      {
+        "heading": "Alternativas a MercadoPago para pagar menos",
+        "body": "<p>Si las comisiones de MercadoPago siguen siendo demasiado altas después de optimizar, hay alternativas reales:</p><ul><li><strong>Mobbex:</strong> comisión base de ~3.5% + IVA, negociable por volumen. Buena API, acreditación en 24-48 hs. La mejor alternativa para ecommerce custom.</li><li><strong>MODO:</strong> QR presencial con comisiones de 0.6-0.8%. La plata cae directo en tu cuenta bancaria. No sirve para ecommerce online pero es ideal para locales.</li><li><strong>Transferencia directa (CBU/alias):</strong> comisión 0%. El cliente transfiere directo a tu cuenta. Desventaja: no hay cuotas ni protección al comprador.</li><li><strong>Payway (ex Decidir):</strong> comisiones negociables por volumen, desde 2.5% para grandes cuentas. Más orientada a empresas medianas-grandes.</li><li><strong>Ualá Bis:</strong> comisiones similares a MercadoPago pero con acreditación más rápida en algunos casos. Alternativa creciente.</li></ul><p><strong>Importante:</strong> cambiar de pasarela no siempre es la solución. Si vendés por Tiendanube y MercadoPago está integrado nativamente, la fricción de checkout es mínima y eso impacta en conversión. A veces es mejor optimizar dentro de MP que migrar y perder ventas.</p>"
+      },
+      {
+        "heading": "Calculá cuánto podés ahorrar",
+        "body": "<p>Hagamos números con un negocio que factura $5.000.000 ARS/mes:</p><p><strong>Escenario actual (todo por MercadoPago online, acreditación inmediata):</strong></p><ul><li>Comisión: 4.99% + IVA = 6.04%</li><li>Costo mensual: $302.000</li></ul><p><strong>Escenario optimizado (misma facturación, canales mixtos):</strong></p><ul><li>40% presencial QR ($2.000.000 × 1.20%): $24.000</li><li>20% transferencia ($1.000.000 × 0%): $0</li><li>30% online acreditación diferida ($1.500.000 × 4.83%): $72.450</li><li>10% links de pago ($500.000 × 6.04%): $30.200</li><li>Costo mensual: $126.650</li></ul><p><strong>Ahorro: $175.350/mes = $2.104.200/año.</strong> Esa plata es un sueldo completo que hoy se la estás regalando a MercadoPago.</p><p>Obviamente, no todos los negocios pueden distribuir así sus canales. Un ecommerce puro no tiene cobro presencial. Pero incluso pasando de acreditación inmediata a diferida ya ahorrás $36.300/mes en ese escenario.</p>"
+      },
+      {
+        "heading": "Errores comunes al intentar reducir comisiones",
+        "body": "<p>Cosas que vemos todo el tiempo en PyMEs argentinas:</p><ul><li><strong>Cobrar todo por links de pago:</strong> es la forma más cara de usar MercadoPago (4.99% + IVA). Si tenés local, pasate a QR. Si vendés por WhatsApp, ofrecé transferencia como primera opción.</li><li><strong>No saber cuánto pagás realmente:</strong> muchos dueños de negocio no miran el detalle de comisiones. Entrá a MercadoPago > Actividad > Detalles y fijate cuánto te descuentan por mes. El número te va a sorprender.</li><li><strong>Ignorar las transferencias:</strong> muchos clientes prefieren pagar por transferencia si les das la opción. Cuesta $0 de comisión y la acreditación es instantánea.</li><li><strong>Ofrecer cuotas sin necesidad:</strong> las cuotas sin interés las absorbe el vendedor (comisión extra de hasta 25-30% del monto). Solo ofrecé cuotas sin interés si tu margen lo permite y tu producto lo necesita.</li><li><strong>Cambiar de pasarela sin testear:</strong> antes de migrar a Mobbex u otra alternativa, hacé un test de 30 días en paralelo. Medí conversión, no solo comisión.</li></ul><p>¿Querés que analicemos tu estructura de pagos y te recomendemos cómo optimizarla? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te mostramos cuánto podés ahorrar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cobra MercadoPago de comisión en 2026?",
+        "answer": "La comisión estándar de MercadoPago para ventas online con acreditación inmediata es 4.99% + IVA (6.04% efectivo). Para QR presencial es 0.99% + IVA (1.20%). Para transferencias entre cuentas MP es 0%. Estos valores pueden variar según tu nivel de loyalty."
+      },
+      {
+        "question": "¿Se puede negociar la comisión de MercadoPago?",
+        "answer": "Directamente no, pero tu comisión baja automáticamente al subir de nivel de loyalty según tu volumen de ventas de los últimos 60 días. Los vendedores con mayor volumen pueden acceder a comisiones desde ~3.5% + IVA para ventas online."
+      },
+      {
+        "question": "¿Cuál es la forma más barata de cobrar con MercadoPago?",
+        "answer": "La transferencia entre cuentas MercadoPago es gratis (0%). Le sigue el QR presencial con 0.99% + IVA. La venta online con acreditación diferida a 14 días cobra 3.99% + IVA. La más cara es la venta online con acreditación inmediata: 4.99% + IVA."
+      },
+      {
+        "question": "¿Conviene ofrecer cuotas sin interés en MercadoPago?",
+        "answer": "Depende de tu margen. Las cuotas sin interés las absorbe el vendedor, con un costo financiero extra que puede llegar al 25-30% del monto según la cantidad de cuotas. Solo tiene sentido si tu producto tiene ticket alto y el margen lo permite."
+      },
+      {
+        "question": "¿Existe alguna pasarela de pago sin comisión en Argentina?",
+        "answer": "No existe pasarela con comisión cero para todos los medios de pago. Lo más cercano es cobrar por transferencia bancaria directa (0% de comisión) o usar MODO para QR presencial (0.6-0.8%). Para tarjetas de crédito y cuotas siempre vas a pagar comisión, la cuestión es cuánto."
+      }
+    ],
+    "ctaText": "¿Querés que analicemos tus comisiones y te armemos una estrategia de cobro optimizada? En SODI te ayudamos a configurar los canales de pago para que maximices tu margen sin perder ventas."
+  }
+}

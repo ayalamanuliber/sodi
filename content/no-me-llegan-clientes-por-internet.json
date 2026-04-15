@@ -1,0 +1,61 @@
+{
+  "slug": "no-me-llegan-clientes-por-internet",
+  "title": "No me llegan clientes por internet: diagnóstico real y qué arreglar primero",
+  "metaTitle": "No me llegan clientes por internet | Diagnóstico",
+  "metaDescription": "¿Tenés presencia online pero no te llegan clientes? Te mostramos cómo diagnosticar si el problema es tráfico, conversión o seguimiento, y qué arreglar primero.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["clientes", "marketing digital", "conversión", "embudo de ventas", "presencia digital"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["como-conseguir-clientes-por-internet", "como-mejorar-presencia-digital", "que-es-un-embudo-de-ventas", "cuanto-cuesta-marketing-digital-argentina"],
+  "content": {
+    "intro": "<p>Tenés un sitio web, publicás en redes, capaz hasta pagaste publicidad... y los clientes no llegan. O llegan cuentagotas. Es una de las frustraciones más comunes de las PyMEs argentinas: <strong>invertís tiempo y plata en \"estar online\" pero no se traduce en ventas</strong>.</p><p>El problema es que \"no me llegan clientes\" no es un diagnóstico, es un síntoma. Y como con cualquier síntoma, antes de tomar remedio necesitás saber qué lo causa. En esta guía te mostramos cómo diagnosticar exactamente dónde se te rompe el proceso y qué arreglar primero según tu presupuesto.</p>",
+    "sections": [
+      {
+        "heading": "El embudo que no sabías que tenés (y dónde se rompe)",
+        "body": "<p>Todo negocio online, lo sepa o no, tiene un embudo de 3 etapas:</p><ol><li><strong>Tráfico</strong>: gente que te encuentra (por Google, redes, publicidad, boca en boca).</li><li><strong>Conversión</strong>: de esa gente, cuánta te contacta, te consulta o te compra.</li><li><strong>Seguimiento</strong>: de los que te consultan, cuántos terminan siendo clientes.</li></ol><p>El error más común es asumir que el problema es uno solo. \"No me llegan clientes\" puede significar tres cosas muy distintas:</p><ul><li><strong>No tenés tráfico</strong>: nadie visita tu sitio o ve tus publicaciones.</li><li><strong>Tenés tráfico pero no convierte</strong>: la gente llega pero se va sin contactarte.</li><li><strong>Tenés consultas pero no cerrás</strong>: te escriben pero se pierden en el camino.</li></ul><p>Cada problema tiene una solución diferente, y gastar plata en la solución equivocada es tirar plata a la basura. Si tu problema es tráfico y vos rediseñás el sitio, no vas a ver diferencia. Si tu problema es conversión y vos metés más publicidad, traés más gente a un sitio que no funciona.</p>"
+      },
+      {
+        "heading": "Problema 1: No te encuentra nadie (falta de tráfico)",
+        "body": "<p>Si tu sitio tiene menos de 100 visitas por mes, tu problema principal es visibilidad. La gente no te está encontrando. Las causas más comunes:</p><ul><li><strong>No tenés SEO</strong>: tu sitio no aparece en Google para las búsquedas que hacen tus potenciales clientes. Sin posicionamiento orgánico, dependés 100% de publicidad o redes.</li><li><strong>Tus redes no generan tráfico al sitio</strong>: publicás contenido pero nunca mandás a la gente a tu web. Las redes solas no venden: son un puente hacia tu sitio.</li><li><strong>No invertís en publicidad (ni siquiera un poco)</strong>: si tu SEO es nulo y tus redes son nuevas, necesitás un empujón pago mientras construís tráfico orgánico.</li></ul><p><strong>Cómo medirlo</strong>: instalá Google Analytics en tu sitio (gratis). Si no sabés cuánta gente te visita, estás navegando a ciegas. Necesitás ese dato para saber si tu problema es tráfico o conversión.</p><p><strong>Solución rápida</strong>: creá o completá tu Google Business Profile. Es gratis, tarda 15 minutos, y para negocios locales es la fuente de tráfico más inmediata que existe.</p>"
+      },
+      {
+        "heading": "Problema 2: Te visitan pero no te contactan (falta de conversión)",
+        "body": "<p>Si tu sitio recibe visitas pero nadie te llama, te escribe o te compra, el problema es tu sitio web. Las razones más frecuentes:</p><ul><li><strong>No hay un llamado a la acción claro</strong>: el visitante llega y no sabe qué hacer. No hay botón de WhatsApp, no hay formulario visible, no hay teléfono. La gente no adivina: si no le decís qué hacer, se va.</li><li><strong>Tu sitio no genera confianza</strong>: sin fotos reales, sin reseñas, sin dirección, sin CUIT visible. La gente compara y elige al que le da más seguridad.</li><li><strong>Se ve mal en celular</strong>: el 70% de tus visitas son desde el teléfono. Si tu sitio no es responsive, perdés la mayoría de los potenciales clientes.</li><li><strong>Carga lento</strong>: si tarda más de 3 segundos, el 53% se va antes de ver nada. Podés medirlo gratis en PageSpeed Insights de Google.</li><li><strong>Atraés tráfico equivocado</strong>: si tu publicidad o contenido atrae gente que no es tu cliente ideal, las visitas no se convierten en consultas.</li></ul><p><strong>Solución inmediata</strong>: agregá un botón de WhatsApp flotante en tu sitio. Es el canal de contacto preferido en Argentina y puede duplicar tus consultas de la noche a la mañana.</p>"
+      },
+      {
+        "heading": "Problema 3: Te consultan pero no cerrás ventas (falta de seguimiento)",
+        "body": "<p>Este es el problema más invisible y más caro. Te escriben por WhatsApp, te llenan el formulario, te llaman... y vos respondés tarde, se te pierden conversaciones, o no hacés seguimiento.</p><p>En Argentina, <strong>el 60% de las consultas online se pierden por falta de respuesta rápida</strong>. Si tardás más de 1 hora en responder un mensaje de WhatsApp, la probabilidad de cerrar esa venta baja un 80%. Tu potencial cliente ya le escribió a tu competencia.</p><p>Las causas:</p><ul><li><strong>No tenés un sistema de gestión de consultas</strong>: todo te llega a tu WhatsApp personal mezclado con mensajes de tu familia.</li><li><strong>No hacés seguimiento</strong>: alguien preguntó, le pasaste presupuesto, y nunca más lo contactaste.</li><li><strong>No tenés respuestas automáticas</strong>: si alguien te escribe a las 23hs, no recibe ni un \"recibimos tu consulta, te respondemos mañana\".</li></ul><p><strong>Solución</strong>: como mínimo, usá WhatsApp Business (gratis) con respuestas rápidas y mensajes de ausencia configurados. Si manejás volumen, un CRM básico como el de HubSpot (gratis para empezar) te permite no perder ninguna consulta.</p>"
+      },
+      {
+        "heading": "Con poco presupuesto: qué arreglar primero",
+        "body": "<p>Si tu presupuesto es limitado (la realidad de la mayoría de las PyMEs argentinas), este es el orden de prioridad:</p><ol><li><strong>Si no sabés cuánto tráfico tenés</strong>: instalá Google Analytics antes de gastar un peso en cualquier otra cosa. No podés mejorar lo que no medís. Tiempo: 30 minutos. Costo: $0.</li><li><strong>Si tenés tráfico pero no convierte</strong>: arreglá tu sitio primero. Agregá botón de WhatsApp, mejorá la velocidad de carga, sumá señales de confianza (reseñas, fotos reales, CUIT). No metas más publicidad a un sitio roto.</li><li><strong>Si no tenés tráfico</strong>: empezá por Google Business Profile (gratis) + una campaña mínima de Google Ads ($50.000-$100.000 ARS/mes) mientras trabajás el SEO a largo plazo.</li><li><strong>Si tenés consultas pero no cerrás</strong>: configurá WhatsApp Business con respuestas rápidas y comprometete a responder en menos de 1 hora durante horario comercial.</li></ol><p><strong>El error más caro es hacer todo al mismo tiempo sin saber dónde está el problema</strong>. Diagnosticá primero, invertí después. Un buen diagnóstico de 1 hora te puede ahorrar meses de presupuesto mal gastado.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo sé si mi problema es tráfico o conversión?",
+        "answer": "Instalá Google Analytics en tu sitio (gratis). Si tenés menos de 100-200 visitas por mes, tu problema es tráfico. Si tenés más de 500 visitas y menos de 5 consultas, tu problema es conversión. Si tenés consultas pero no cerrás, tu problema es seguimiento."
+      },
+      {
+        "question": "¿Cuánto tengo que invertir en publicidad para empezar a ver resultados?",
+        "answer": "En Argentina, con $50.000-$100.000 ARS/mes en Google Ads podés empezar a generar consultas para un negocio local. Pero la publicidad sin un sitio que convierta es tirar plata. Primero asegurate de que tu sitio funciona bien, después invertí en tráfico."
+      },
+      {
+        "question": "¿Las redes sociales solas pueden traerme clientes?",
+        "answer": "Pueden, pero de forma limitada e inconsistente. Las redes son buenas para visibilidad y marca, pero el alcance orgánico cayó mucho. Un post de Instagram le llega al 5-10% de tus seguidores. Para flujo constante de clientes necesitás SEO + sitio web como base."
+      },
+      {
+        "question": "¿Conviene rediseñar mi sitio web o invertir en publicidad?",
+        "answer": "Depende de tu diagnóstico. Si tu sitio carga lento, se ve mal en celular o no tiene botón de contacto, rediseñar primero. Si tu sitio está bien pero nadie lo visita, invertí en tráfico (SEO + publicidad). Nunca metas más tráfico a un sitio que no convierte."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda en llegar el primer cliente por internet?",
+        "answer": "Con publicidad paga (Google Ads), podés recibir consultas desde la primera semana. Con SEO orgánico, calculá 3-6 meses para empezar a ver resultados consistentes. Con redes sociales, depende de tu constancia, pero no esperes resultados mágicos antes de 2-3 meses."
+      }
+    ],
+    "ctaText": "¿Querés saber exactamente dónde se te están escapando los clientes? En SODI hacemos un diagnóstico gratuito de tu embudo digital y te decimos qué arreglar primero."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "alternativas-a-mercadoshops-argentina",
+  "title": "MercadoShops cerró: las mejores alternativas para migrar tu tienda online en Argentina",
+  "metaTitle": "Alternativas a MercadoShops Argentina 2026",
+  "metaDescription": "MercadoShops cerró en 2025. Guía paso a paso para migrar a Tiendanube (desde $0), Shopify, WooCommerce o Empretienda sin perder productos ni ventas.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["mercadoshops", "tiendanube", "migración ecommerce", "tienda online", "alternativas"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "mercado-libre-vs-tienda-propia", "shopify-vs-tiendanube-argentina", "como-crear-tienda-online-argentina"],
+  "content": {
+    "intro": "<p>Si tenías tu tienda en <strong>MercadoShops</strong>, ya sabés: en 2025 Mercado Libre decidió cerrar la plataforma y dejar a miles de vendedores argentinos sin tienda de un día para otro. Lo que muchos no saben es que la migración no es solo \"subir los productos a otro lado\" — hay URLs que se pierden, SEO que se rompe, y configuraciones de pago que hay que rehacer desde cero.</p><p>Esta guía te explica las <strong>4 mejores alternativas</strong> disponibles en Argentina, cuánto cuesta cada una, y un paso a paso concreto para migrar sin perder ventas ni posicionamiento en Google.</p>",
+    "sections": [
+      {
+        "heading": "Por qué cerró MercadoShops y qué significa para tu negocio",
+        "body": "<p>Mercado Libre decidió discontinuar MercadoShops para concentrarse en su marketplace. La plataforma nunca logró competir con Tiendanube en funcionalidades ni con Shopify en escalabilidad. Para los vendedores, esto significa:</p><ul><li><strong>Tus URLs dejaron de existir:</strong> si tenías posicionamiento en Google, lo perdiste. Las redirecciones no se hicieron automáticamente.</li><li><strong>Los datos de clientes se pierden</strong> si no los exportaste antes del cierre.</li><li><strong>La integración con Mercado Pago sigue funcionando</strong> — la podés conectar a cualquier plataforma nueva.</li></ul><p>Si todavía no migraste, estás perdiendo ventas cada día que tu tienda está offline. La buena noticia: la migración se puede hacer en 2-5 días si elegís la plataforma correcta.</p>"
+      },
+      {
+        "heading": "Las 4 mejores alternativas a MercadoShops en Argentina",
+        "body": "<p>Evaluamos cada opción por costo, facilidad de migración y adaptación al mercado argentino:</p><h3>1. Tiendanube — La opción más lógica</h3><ul><li><strong>Precio:</strong> Plan Esencial gratis (2% comisión por venta). Plan Impulso: $32.999/mes (1%). Plan Escala: $75.999/mes (0.5%).</li><li><strong>Ventajas:</strong> integración nativa con Mercado Pago, Andreani, OCA. Templates profesionales. Soporte en español. La más usada en Argentina con +130.000 tiendas activas.</li><li><strong>Ideal para:</strong> el 80% de los negocios que venían de MercadoShops.</li></ul><h3>2. Empretienda — 100% argentina</h3><ul><li><strong>Precio:</strong> plan gratis disponible. Planes pagos desde $12.500/mes.</li><li><strong>Ventajas:</strong> interfaz simple, soporte local, buena integración con medios de pago argentinos.</li><li><strong>Ideal para:</strong> emprendedores que recién arrancan y quieren algo sencillo.</li></ul><h3>3. WooCommerce (WordPress)</h3><ul><li><strong>Precio:</strong> plugin gratis + hosting ($5.000-$15.000/mes) + setup ($200.000-$500.000 si contratás a un desarrollador).</li><li><strong>Ventajas:</strong> control total del código, miles de plugins, sin comisiones por venta.</li><li><strong>Ideal para:</strong> negocios con catálogos grandes o necesidades técnicas específicas.</li></ul><h3>4. Shopify</h3><ul><li><strong>Precio:</strong> desde USD 29/mes + 2% comisión si no usás Shopify Payments.</li><li><strong>Ventajas:</strong> la plataforma más potente en funcionalidades, apps y escalabilidad.</li><li><strong>Ideal para:</strong> negocios que venden al exterior o necesitan funcionalidades avanzadas. Ojo: todo en dólares.</li></ul>"
+      },
+      {
+        "heading": "Paso a paso: cómo migrar desde MercadoShops",
+        "body": "<p>Seguí este orden para no perder nada importante:</p><h3>Paso 1: Exportá tus datos</h3><ul><li><strong>Productos:</strong> si todavía tenés acceso al panel, exportá el CSV con productos, precios, stock y fotos. Si no, usá las fotos que tengas guardadas y rearmá el catálogo manualmente.</li><li><strong>Clientes:</strong> exportá la base de emails. Es tu activo más valioso.</li><li><strong>Historial de ventas:</strong> descargá los reportes para tener registro contable.</li></ul><h3>Paso 2: Elegí tu nueva plataforma y cargá productos</h3><p>Tiendanube permite importar productos por CSV. El formato es distinto al de MercadoShops, así que vas a tener que adaptar las columnas. Tiendanube tiene una guía de importación en su centro de ayuda.</p><h3>Paso 3: Configurá pagos y envíos</h3><p>Conectá tu cuenta de Mercado Pago existente — toma 5 minutos. Configurá los métodos de envío (Andreani, OCA, retiro en punto). Si vendías con envío gratis arriba de cierto monto, volvé a configurar esa regla.</p><h3>Paso 4: Redirigí tus URLs (crítico para SEO)</h3><p>Si tu vieja tienda tenía tráfico de Google, necesitás <strong>redirecciones 301</strong> desde las URLs antiguas a las nuevas. En Tiendanube podés configurarlas manualmente. Si no hacés esto, perdés todo el posicionamiento.</p>"
+      },
+      {
+        "heading": "Qué se rompe en la migración y cómo evitarlo",
+        "body": "<p>Los problemas más comunes que vemos en migraciones desde MercadoShops:</p><ul><li><strong>Pérdida de SEO:</strong> las URLs cambian, Google deja de mandar tráfico. Solución: redirecciones 301 + reenviar sitemap a Google Search Console.</li><li><strong>Fotos de baja calidad:</strong> MercadoShops comprimía las imágenes. Si solo tenés las de la plataforma, van a verse pixeladas en la nueva tienda. Solución: sacá fotos nuevas de tus productos principales.</li><li><strong>Descripciones genéricas:</strong> muchos vendedores en MercadoShops usaban descripciones mínimas porque el marketplace no las premiaba. En tu tienda propia, las descripciones son clave para vender y para SEO. Reescribilas.</li><li><strong>Configuración de cuotas:</strong> en MercadoShops las cuotas se manejaban distinto. En tu nueva plataforma, revisá bien qué cuotas ofrecés y cuánto te cuesta la financiación.</li><li><strong>Botón de arrepentimiento:</strong> tu nueva tienda necesita un botón de arrepentimiento visible (Resolución 424/2020). MercadoShops lo incluía automáticamente, ahora lo tenés que agregar vos.</li></ul>"
+      },
+      {
+        "heading": "Comparativa rápida: cuál elegir según tu caso",
+        "body": "<p>Para simplificarte la decisión:</p><ul><li><strong>Tenés menos de 50 productos y vendés solo en Argentina:</strong> Tiendanube plan gratuito. Arrancá hoy, pagás solo comisión por venta.</li><li><strong>Sos emprendedor/a y querés algo ultra simple:</strong> Empretienda. Menos funcionalidades pero más fácil de usar.</li><li><strong>Tenés +500 productos o necesitás integraciones con sistemas de gestión:</strong> WooCommerce con un desarrollador. Más inversión inicial, pero sin comisiones ni limitaciones.</li><li><strong>Vendés al exterior o necesitás funcionalidades avanzadas (suscripciones, bundles, A/B testing):</strong> Shopify. Pagás en dólares pero tenés la plataforma más completa.</li></ul><p>Si no sabés cuál te conviene o tu migración es compleja, en SODI te ayudamos a evaluar la mejor opción y ejecutar la migración sin que pierdas ventas. <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿MercadoShops cerró definitivamente?",
+        "answer": "Sí. Mercado Libre discontinuó MercadoShops en 2025. Las tiendas ya no están activas y no hay plan de reapertura. Necesitás migrar a otra plataforma para seguir vendiendo online."
+      },
+      {
+        "question": "¿Puedo seguir vendiendo en Mercado Libre y tener tienda propia?",
+        "answer": "Sí, y es lo recomendable. Mercado Libre como canal de ventas (marketplace) sigue funcionando. Tener tu tienda propia te da control sobre precios, datos de clientes, y márgenes. Tiendanube incluso permite sincronizar stock con Mercado Libre."
+      },
+      {
+        "question": "¿Cuánto tarda migrar de MercadoShops a Tiendanube?",
+        "answer": "Con un catálogo de menos de 100 productos, 2-3 días haciendo el trabajo vos. Con +500 productos o integraciones complejas, 1-2 semanas con ayuda profesional. Lo más lento es la carga de productos y la optimización de descripciones."
+      },
+      {
+        "question": "¿Pierdo mi posicionamiento en Google al migrar?",
+        "answer": "Si no hacés redirecciones 301 desde las URLs viejas a las nuevas, sí. Con redirecciones correctas y reenvío del sitemap a Search Console, recuperás el tráfico en 2-4 semanas. Sin redirecciones, Google puede tardar meses en reindexar."
+      },
+      {
+        "question": "¿Cuál es la alternativa más barata a MercadoShops?",
+        "answer": "Tiendanube plan Esencial es gratis (pagás 2% de comisión por venta) y Empretienda también tiene plan gratuito. Si tu volumen es bajo, podés arrancar sin costo fijo mensual y escalar cuando lo necesites."
+      }
+    ],
+    "ctaText": "¿Necesitás migrar tu tienda desde MercadoShops? En SODI te ayudamos a elegir la plataforma, migrar tus productos y configurar todo para que no pierdas ni un día de ventas."
+  }
+}

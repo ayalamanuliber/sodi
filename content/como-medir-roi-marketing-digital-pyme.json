@@ -1,0 +1,61 @@
+{
+  "slug": "como-medir-roi-marketing-digital-pyme",
+  "title": "Cómo medir el ROI de tu marketing digital: guía para PyMEs que no quieren tirar plata",
+  "metaTitle": "Cómo medir ROI de marketing digital para PyMEs 2026",
+  "metaDescription": "Aprendé a medir qué te da resultado y qué no. GA4, UTMs, seguimiento de conversiones y las métricas que importan para PyMEs argentinas.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["ROI marketing digital", "Google Analytics", "métricas", "conversiones", "PyMEs Argentina"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["como-medir-resultados-marketing-digital", "cuanto-cuesta-marketing-digital-argentina", "google-ads-vs-facebook-ads-argentina", "que-es-un-embudo-de-ventas"],
+  "content": {
+    "intro": "<p>La mayoría de las PyMEs argentinas gastan en marketing digital <strong>sin saber qué les funciona</strong>. Pagan Google Ads, un community manager, SEO, y cuando les preguntás \"¿cuántos clientes te trajo cada canal?\", no tienen idea. Eso es como tener un negocio sin hacer la caja todos los días.</p><p>Medir el ROI no es complicado ni requiere ser analista de datos. Necesitás 3 cosas: <strong>Google Analytics 4 bien configurado, UTMs en tus links y un sistema simple de seguimiento de conversiones</strong>. Con eso ya sabés exactamente de dónde viene cada peso que facturás en digital. En esta guía te explico cómo armar todo desde cero.</p>",
+    "sections": [
+      {
+        "heading": "Qué es el ROI en marketing digital y cómo se calcula",
+        "body": "<p>La fórmula es simple: <strong>ROI = (Ingresos generados - Inversión) / Inversión x 100</strong>.</p><p>Si invertiste $100.000 en Google Ads y generaste $350.000 en ventas atribuibles a esos ads, tu ROI es: (350.000 - 100.000) / 100.000 x 100 = <strong>250%</strong>. Por cada peso invertido, volvieron $3.50.</p><p>Pero ojo: el ROI no es solo plata. Para muchas PyMEs, el objetivo inmediato no es ventas directas sino <strong>leads</strong> (consultas, formularios, mensajes de WhatsApp). En ese caso medís el <strong>costo por lead (CPL)</strong>: inversión total / cantidad de leads generados.</p><p>Ejemplo real: gastás $80.000 en Facebook Ads y te llegan 40 consultas por WhatsApp. Tu CPL es $2.000. Si tu ticket promedio es $50.000 y cerrás 1 de cada 5 consultas, esas 40 consultas son 8 ventas = $400.000. ROI de 400%.</p><p><strong>El número que tenés que saber sí o sí:</strong> ¿cuánto podés pagar para adquirir un cliente y seguir siendo rentable? Si tu margen neto es $20.000 por venta, podés gastar hasta $19.999 en adquirir ese cliente y todavía ganás. Ese es tu <strong>costo de adquisición de cliente (CAC) máximo</strong>.</p>"
+      },
+      {
+        "heading": "Google Analytics 4: lo mínimo que tenés que configurar",
+        "body": "<p>GA4 es gratuito y es la herramienta estándar para medir tráfico y conversiones. No necesitás dominar todo — con estas 4 configuraciones ya tenés lo esencial:</p><h3>1. Instalá el código de seguimiento</h3><p>Si tu web fue hecha en WordPress, instalá el plugin \"Site Kit by Google\" y conectá GA4 en 5 minutos. Si tenés web custom, pedile a tu desarrollador que agregue el tag de GA4 en el header.</p><h3>2. Configurá eventos de conversión</h3><p>En GA4, los \"eventos\" son acciones del usuario. Marcá como conversiones las que importan: envío de formulario de contacto, clic en botón de WhatsApp, compra completada, llamada telefónica.</p><h3>3. Activá la medición mejorada</h3><p>GA4 tiene \"Enhanced Measurement\" que trackea automáticamente scrolls, clics salientes, búsquedas internas y reproducción de video. Activalo en Administración → Flujos de datos → tu web.</p><h3>4. Conectá con Google Search Console</h3><p>Vinculá GA4 con Search Console para ver qué búsquedas llevan gente a tu web. Gratis y te toma 2 minutos. Vas a Administración → Vinculaciones de productos → Search Console.</p><p>Con estas 4 cosas, ya podés responder: <strong>¿cuánta gente llega a mi web, de dónde vienen y qué hacen cuando llegan?</strong> Eso es el 80% de lo que necesita una PyME.</p>"
+      },
+      {
+        "heading": "UTMs: cómo saber exactamente de dónde viene cada visita",
+        "body": "<p>Los <strong>parámetros UTM</strong> son etiquetas que le agregás a tus links para identificar de dónde viene el tráfico. Son indispensables cuando hacés campañas en múltiples canales.</p><h3>Cómo funcionan:</h3><p>En vez de compartir <code>tusitio.com.ar/contacto</code>, compartís <code>tusitio.com.ar/contacto?utm_source=instagram&utm_medium=bio&utm_campaign=abril2026</code>. Eso le dice a GA4: \"esta visita vino de Instagram, del link en la bio, de la campaña de abril\".</p><h3>Los 3 parámetros que necesitás usar siempre:</h3><ul><li><strong>utm_source:</strong> de dónde viene (google, instagram, facebook, email, whatsapp)</li><li><strong>utm_medium:</strong> qué tipo de medio (cpc, organic, social, email)</li><li><strong>utm_campaign:</strong> nombre de la campaña (promo-abril, lanzamiento-nuevo, etc.)</li></ul><h3>Generador gratuito:</h3><p>Usá el <strong>Campaign URL Builder de Google</strong> (buscalo así en Google). Completás los campos y te genera el link con UTMs listo para copiar.</p><h3>Reglas de oro:</h3><ul><li>Siempre en minúscula y sin espacios (usá guiones)</li><li>Sé consistente: si usás \"instagram\" una vez, no pongas \"ig\" la siguiente</li><li>Hacé una planilla con todos tus UTMs para no perder el control</li></ul><p>Con UTMs en todos tus links externos, en GA4 podés ver exactamente qué campaña, qué red social y qué publicación específica te trajo cada venta o consulta.</p>"
+      },
+      {
+        "heading": "Las métricas que importan (y las que te distraen)",
+        "body": "<p>No todas las métricas valen lo mismo. Estas son las que <strong>realmente importan</strong> para una PyME:</p><h3>Métricas de negocio (las que mirás sí o sí):</h3><ul><li><strong>Conversiones:</strong> formularios enviados, WhatsApp clicks, ventas completadas</li><li><strong>Costo por lead (CPL):</strong> cuánto gastás para conseguir cada consulta</li><li><strong>Costo de adquisición de cliente (CAC):</strong> cuánto gastás para cerrar cada venta</li><li><strong>Tasa de conversión:</strong> % de visitantes que realizan la acción deseada (2-5% es normal para webs de PyMEs)</li></ul><h3>Métricas de salud (revisá semanalmente):</h3><ul><li><strong>Tráfico por fuente:</strong> de dónde viene la gente (Google, redes, directo)</li><li><strong>Páginas más visitadas:</strong> qué contenido atrae más</li><li><strong>Tasa de rebote:</strong> % de gente que se va sin interactuar (más de 70% es preocupante)</li></ul><h3>Métricas vanidosas (no te obsesiones):</h3><ul><li><strong>Likes y seguidores:</strong> no pagan facturas. 500 seguidores que compran valen más que 50.000 que solo miran.</li><li><strong>Impresiones:</strong> que te hayan visto no significa que les interese.</li><li><strong>Visitas totales:</strong> sin contexto de conversión, son solo un número.</li></ul><p>Regla práctica: si una métrica no te ayuda a tomar una <strong>decisión de negocio</strong>, no la mires todos los días. Revisá métricas vanidosas una vez al mes como contexto, pero las de negocio mirá semanalmente.</p>"
+      },
+      {
+        "heading": "Cuándo parar y cuándo escalar una campaña de marketing",
+        "body": "<p>La ventaja del marketing digital sobre el tradicional es que podés <strong>tomar decisiones basadas en datos</strong>, no en intuición. Así se decide:</p><h3>Pará una campaña cuando:</h3><ul><li>El CPL supera tu CAC máximo después de 2 semanas de optimización</li><li>La tasa de conversión es menor al 1% después de 500+ visitas a la landing</li><li>Generás leads pero ninguno cierra (problema de calidad, no de cantidad)</li><li>Gastaste más del 20% de tu presupuesto mensual sin una sola conversión</li></ul><h3>Escalá una campaña cuando:</h3><ul><li>El CPL está por debajo de tu CAC máximo de forma consistente (mínimo 2 semanas)</li><li>La tasa de conversión es estable o creciendo</li><li>Los leads que llegan son de buena calidad (se convierten en ventas)</li><li>Tenés capacidad operativa para atender más clientes</li></ul><h3>Regla del 70/30:</h3><p>Destiná el <strong>70% de tu presupuesto</strong> a lo que ya sabés que funciona y el <strong>30% a experimentar</strong>. Si un experimento funciona, movelo al 70%. Si no, cortalo sin culpa.</p><p>Revisá tus números <strong>cada viernes</strong>. 15 minutos mirando GA4, tus costos de ads y tu planilla de leads alcanza para tomar decisiones inteligentes. Si necesitás entender mejor cuánto invertir, mirá nuestra guía de <a href=\"/blog/cuanto-cuesta-marketing-digital-argentina\">cuánto cuesta el marketing digital en Argentina</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto debería invertir en marketing digital una PyME?",
+        "answer": "La regla general es entre 5% y 15% de tu facturación. Si recién empezás en digital, arrancá con el mínimo viable ($50.000-$100.000 ARS/mes en ads) para testear, medí resultados y escalá lo que funciona. Nunca inviertas más de lo que podés medir."
+      },
+      {
+        "question": "¿Google Analytics 4 es gratuito?",
+        "answer": "Sí, 100% gratuito. Existe una versión paga (GA4 360) para empresas grandes, pero la versión estándar tiene todo lo que necesita una PyME: seguimiento de tráfico, eventos, conversiones, informes y conexión con Google Ads."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda en verse el ROI del marketing digital?",
+        "answer": "Depende del canal. Google Ads puede generar leads en las primeras 48 horas. SEO tarda 3-6 meses en mostrar resultados. Redes sociales orgánico, 2-4 meses para tracción. Lo ideal es combinar canales de resultado rápido con estrategias de largo plazo."
+      },
+      {
+        "question": "¿Cómo mido las ventas que vienen de WhatsApp?",
+        "answer": "Usá un link de WhatsApp con UTMs para trackear los clics en GA4. Además, llevá una planilla simple donde registres cada consulta de WhatsApp con la fuente (de dónde vino). Es manual pero efectivo hasta que tengas un CRM."
+      },
+      {
+        "question": "¿Qué tasa de conversión es buena para una web de PyME?",
+        "answer": "Entre 2% y 5% es lo normal para webs de servicios (de visitantes a consultas). Ecommerce suele ser 1-3%. Si estás por debajo del 1%, hay un problema en tu web (velocidad, diseño, mensaje, formulario). Si estás arriba del 5%, estás muy bien."
+      }
+    ],
+    "ctaText": "¿Querés saber si tu marketing digital está dando resultados? Pedí un diagnóstico gratuito y te mostramos exactamente qué te funciona y qué no."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-academias-idiomas",
+  "title": "Sistema de turnos para academias de idiomas: clases grupales, niveles y recuperatorios",
+  "metaTitle": "Sistema de Turnos para Academias de Idiomas | SODI",
+  "metaDescription": "Sistemas de turnos para academias de idiomas en Argentina. Clases grupales por nivel, recuperatorios, pruebas de nivel, cupos limitados y recordatorios.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "academias de idiomas", "clases grupales", "reserva de clases", "gestión académica"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-academias-idiomas", "automatizar-whatsapp-academias-idiomas", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>Una academia de idiomas no maneja turnos simples. Tenés <strong>clases grupales con cupos limitados, niveles que no se pueden mezclar, recuperatorios que hay que encajar, pruebas de nivel para alumnos nuevos</strong> y horarios que cambian según el cuatrimestre. Gestionar todo eso por WhatsApp o con una planilla compartida es caótico.</p><p>Un sistema de turnos online resuelve esa complejidad: los alumnos reservan sus clases y recuperatorios solos, los cupos se controlan automáticamente y vos dejás de ser una centralita de mensajes. En esta guía te mostramos las opciones, los costos y cómo elegir el sistema ideal para tu academia.</p>",
+    "sections": [
+      {
+        "heading": "Por qué una academia de idiomas necesita un sistema de turnos específico",
+        "body": "<p>Las academias de idiomas tienen particularidades que un sistema de turnos genérico no contempla:</p><ul><li><strong>Clases grupales con cupo:</strong> cada clase tiene un máximo de alumnos (generalmente 6-12). El sistema tiene que bloquear la reserva cuando se llena el cupo, no permitir que se inscriba uno más.</li><li><strong>Niveles y horarios cruzados:</strong> un alumno de B1 no puede anotarse en una clase de A2. El sistema filtra automáticamente las clases disponibles según el nivel del alumno.</li><li><strong>Recuperatorios:</strong> un alumno que faltó el martes quiere recuperar el jueves, pero solo si hay lugar en un grupo de su mismo nivel. Sin sistema, esto es un ida y vuelta de mensajes interminable.</li><li><strong>Pruebas de nivel:</strong> los alumnos nuevos necesitan agendar una prueba de nivel antes de inscribirse a un curso. Es un tipo de turno distinto, individual y con disponibilidad propia.</li><li><strong>Ausencias que cuestan:</strong> un alumno que no viene ocupa un lugar que otro podría haber usado. Los recordatorios automáticos <strong>reducen las faltas entre un 30% y 50%</strong>.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para academias de idiomas",
+        "body": "<p>Las plataformas SaaS permiten arrancar rápido sin desarrollo:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> open source, permite configurar tipos de evento con duración y múltiples calendarios. Funciona para agendar pruebas de nivel y clases individuales. Para clases grupales con cupo necesitás el plan pago o personalizarlo.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> pensado para servicios, pero se puede adaptar. Permite configurar clases como \"servicios grupales\" con cupo máximo. Le falta la lógica de niveles nativa.</li><li><strong>Calendly (USD 10-20/mes):</strong> sirve para agendar pruebas de nivel y consultas, pero no maneja clases grupales con cupos ni niveles. Es limitado para academias.</li></ul><p><strong>El problema con todos los SaaS genéricos:</strong> ninguno entiende nativamente la relación entre nivel del alumno y clases disponibles. Tenés que hacer workarounds (links separados por nivel, formularios previos) que complican la experiencia del alumno y la gestión tuya.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo tiene sentido",
+        "body": "<p>Un sistema a medida para academias de idiomas conviene cuando:</p><ul><li><strong>Tenés más de 50 alumnos activos:</strong> a esa escala, gestionar niveles, recuperatorios y cupos manualmente es insostenible.</li><li><strong>Ofrecés múltiples idiomas:</strong> inglés, portugués, francés, italiano — cada uno con sus niveles y horarios. La complejidad se multiplica.</li><li><strong>Necesitás portal para alumnos:</strong> que cada alumno entre, vea sus clases, reserve recuperatorios, descargue material y vea su progreso. Eso ningún SaaS te lo da out of the box.</li><li><strong>Querés integrar pagos:</strong> el alumno paga la cuota mensual o el paquete de clases online, y el sistema habilita la reserva automáticamente.</li></ul><p><strong>Costo estimado:</strong> entre $1.200.000 y $3.500.000 ARS para un sistema con agenda por nivel, cupos, recuperatorios, recordatorios y panel de alumnos. Más contexto en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de costos de sistemas de turnos</a>.</p><p>Para academias chicas (20-30 alumnos, un solo idioma), un Cal.com bien configurado puede funcionar. Para academias medianas o grandes, el sistema a medida es la opción que realmente resuelve.</p>"
+      },
+      {
+        "heading": "Integración con WhatsApp y recordatorios automáticos",
+        "body": "<p>Tus alumnos viven en WhatsApp. Tu sistema de turnos tiene que estar ahí:</p><ul><li><strong>Recordatorio de clase:</strong> \"Hola Martín, te recordamos tu clase de inglés B1 mañana miércoles a las 18:00. Grupo con 4 alumnos. ¿Asistís?\"</li><li><strong>Aviso de cupo disponible:</strong> si un alumno cancela, el sistema puede avisar automáticamente a quienes tienen recuperatorio pendiente: \"Se liberó un lugar en la clase de B1 del jueves a las 19:00. ¿Querés reservar?\"</li><li><strong>Confirmación de inscripción:</strong> cuando un alumno nuevo se inscribe y aprueba la prueba de nivel, recibe por WhatsApp su nivel asignado y el link para elegir horario.</li><li><strong>Recordatorio de pago:</strong> \"Tu cuota de abril vence el 10. Podés pagar desde este link.\"</li></ul><p>La <a href=\"/blog/automatizar-whatsapp-academias-idiomas\">automatización de WhatsApp para academias</a> complementa el sistema de turnos y reduce enormemente la carga administrativa.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema ideal para tu academia",
+        "body": "<p>La decisión depende de tu escala y complejidad:</p><ul><li><strong>Academia chica (1 idioma, hasta 30 alumnos):</strong> Cal.com con links separados por nivel + Google Calendar compartido. Simple, económico.</li><li><strong>Academia mediana (1-2 idiomas, 30-100 alumnos):</strong> AgendaPro con configuración de grupos + automatización de WhatsApp. Funcional pero con limitaciones en la lógica de niveles.</li><li><strong>Academia grande (múltiples idiomas, 100+ alumnos):</strong> sistema a medida con portal de alumnos, gestión de niveles, recuperatorios y pagos integrados.</li></ul><p>Lo más importante: <strong>que los alumnos puedan reservar y reprogramar solos</strong>. Cada mensaje de WhatsApp que evitás contestar es tiempo que podés usar para dar clases o gestionar tu academia.</p><p>Si no sabés qué te conviene, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong> y te recomendamos la opción ideal para tu academia.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo limitar las clases disponibles según el nivel del alumno?",
+        "answer": "Con un sistema a medida, sí. Cada alumno tiene un nivel asignado y solo ve las clases disponibles de su nivel. Con SaaS genéricos hay que hacer workarounds con links separados por nivel."
+      },
+      {
+        "question": "¿Cómo gestiono los recuperatorios de clases?",
+        "answer": "El sistema muestra las clases del nivel del alumno que tienen cupo disponible. El alumno elige cuándo recuperar, se registra la asistencia y se descuenta de su saldo de recuperatorios si tiene límite."
+      },
+      {
+        "question": "¿Puedo agendar pruebas de nivel para alumnos nuevos?",
+        "answer": "Sí. La prueba de nivel se configura como un tipo de turno separado, con horarios y duración propios. El alumno la agenda desde la web y, una vez aprobada, se le asigna nivel para reservar clases."
+      },
+      {
+        "question": "¿El sistema controla automáticamente los cupos de cada clase?",
+        "answer": "Sí. Configurás el cupo máximo por clase y el sistema bloquea nuevas reservas cuando se llena. Si alguien cancela, el lugar se libera automáticamente."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para una academia de idiomas?",
+        "answer": "SaaS: entre USD 10 y USD 45/mes con limitaciones para el rubro. Sistema a medida: entre $1.200.000 y $3.500.000 ARS según funcionalidades (portal de alumnos, pagos, múltiples idiomas)."
+      }
+    ],
+    "ctaText": "¿Querés que tus alumnos reserven solos y dejar de ser una centralita de WhatsApp? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir el sistema ideal para tu academia."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-pilates-yoga",
+  "title": "Cómo automatizar WhatsApp para estudios de pilates y yoga: clases, packs y retención",
+  "metaTitle": "Automatizar WhatsApp Pilates y Yoga | SODI",
+  "metaDescription": "Automatizá recordatorios de clase, cambios de horario, saldo de packs y lista de espera en tu estudio de pilates o yoga por WhatsApp.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["pilates", "yoga", "WhatsApp Business", "automatización", "gestión de clases"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-estudios-pilates-yoga", "sistema-de-turnos-para-pilates-yoga", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Si tenés un estudio de pilates o yoga, sabés que <strong>tu celular no para nunca</strong>. Alumnas preguntando horarios, cancelando a último momento, consultando cuántas clases les quedan del pack, pidiendo recuperar una clase. Y vos respondiendo entre clase y clase, a las 22:00, los domingos.</p><p>Automatizar WhatsApp no significa perder el toque personal que caracteriza a tu estudio. Significa que <strong>los mensajes repetitivos se mandan solos</strong> y vos te enfocás en lo que importa: dar buenas clases y hacer crecer tu comunidad.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en un estudio de pilates o yoga",
+        "body": "<p>Estos mensajes representan el <strong>80% del volumen de WhatsApp</strong> de un estudio y se automatizan perfecto:</p><ul><li><strong>Recordatorio de clase:</strong> \"Mañana tenés clase de Pilates Mat a las 9:00. ¿Venís? Respondé SI o NO.\" → enviado automáticamente 12-24 horas antes.</li><li><strong>Cambios de horario o suspensiones:</strong> \"Atención: la clase de yoga de mañana a las 18:00 se pasa a las 19:00\" → aviso masivo a todas las inscriptas.</li><li><strong>Saldo de pack:</strong> \"Te quedan 3 clases de tu pack de 8. ¿Querés renovar? Te paso las opciones.\" → automático cuando quedan pocas clases.</li><li><strong>Lista de espera:</strong> \"Se liberó un lugar en Pilates Reformer de las 10:00 del jueves. ¿Lo querés? Respondé SI para reservar.\" → automático cuando alguien cancela.</li><li><strong>Bienvenida a nuevos alumnos:</strong> nombre de la profe, qué traer, cómo llegar, qué esperar en la primera clase.</li></ul><p>Cada uno de estos mensajes, si los mandás manual, te lleva entre 1 y 5 minutos. Multiplicá eso por 15-20 alumnas por día y entendés el problema.</p>"
+      },
+      {
+        "heading": "Flujo de recordatorio y confirmación de clase",
+        "body": "<p>El flujo que más impacto tiene es el de <strong>recordatorio con confirmación</strong>. Reduce inasistencias y libera lugares para la lista de espera:</p><ol><li>24 horas antes: \"Hola [nombre], mañana tenés [tipo de clase] a las [hora] con [profe]. ¿Venís? Respondé SI o NO.\"</li><li>Si responde SI → se confirma la reserva. \"Genial, te esperamos mañana.\"</li><li>Si responde NO → se libera el lugar. \"Listo, cancelamos tu lugar. ¿Querés agendar otra clase esta semana?\"</li><li>Si no responde → recordatorio 3 horas antes: \"Recordatorio: tu clase de [tipo] es hoy a las [hora]. Si no podés venir, avisanos así le damos el lugar a alguien de la lista de espera.\"</li><li>Si se libera lugar → automáticamente le avisa a la primera persona en lista de espera.</li></ol><p>Este flujo solo reduce las <strong>inasistencias sin aviso del 25% al 8-10%</strong>. En un estudio con clases de 6-8 personas, cada ausencia impacta fuerte en los ingresos y en la experiencia de las alumnas que quedaron afuera.</p>"
+      },
+      {
+        "heading": "Gestión de packs y renovaciones",
+        "body": "<p>Los packs de clases son el modelo de negocio más común en pilates y yoga. WhatsApp automatizado los gestiona sin esfuerzo:</p><p><strong>Secuencia de saldo:</strong></p><ul><li>Cuando quedan 3 clases: \"Te quedan 3 clases de tu pack. Recordá que tenés [X] días para usarlas.\"</li><li>Cuando queda 1 clase: \"Esta es tu última clase del pack. ¿Querés renovar? Pack de 4: $[precio] | Pack de 8: $[precio] | Pack de 12: $[precio]. Respondé con el que querés.\"</li><li>Cuando se termina: \"Tu pack terminó. Renová acá: [link de pago]. Si renovás esta semana, te bonificamos 1 clase extra.\"</li></ul><p><strong>Secuencia de vencimiento:</strong></p><ul><li>5 días antes: \"Tu pack vence el [fecha]. Te quedan [X] clases sin usar. Agendá para no perderlas.\"</li><li>Día del vencimiento: \"Tu pack venció hoy. ¿Querés renovar o extender? Escribinos.\"</li></ul><p>Los estudios que automatizan estas secuencias aumentan la <strong>tasa de renovación entre un 15% y 25%</strong>. Sin automatización, la alumna se olvida, el pack vence y a veces ni se entera.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para estudios",
+        "body": "<p>Las opciones más usadas en estudios de pilates y yoga argentinos:</p><ul><li><strong>WhatsApp Business (gratis):</strong> respuestas rápidas, listas de difusión. Suficiente para estudios de menos de 30 alumnas activas.</li><li><strong>Calendly o <a href=\"/blog/sistema-de-turnos-para-pilates-yoga\">sistema de turnos propio</a> + WhatsApp:</strong> la alumna reserva clase online y recibe confirmación y recordatorios por WhatsApp.</li><li><strong>Bots con Wati o ChatCompose (desde USD 25/mes):</strong> flujos de confirmación de clase, saldo de pack, lista de espera automática.</li><li><strong>Desarrollo custom con API (desde USD 300 setup):</strong> integración completa con tu sistema de gestión de alumnos y pagos.</li></ul><p>El ROI es directo: si con el sistema de recordatorios evitás <strong>5 inasistencias por semana</strong> que ahora ocupan alumnas de lista de espera, y cada clase vale $5.000, son $100.000 mensuales extra de facturación. Sin contar las renovaciones que no se pierden por olvido.</p>"
+      },
+      {
+        "heading": "Comunicación de comunidad y retención",
+        "body": "<p>Los estudios de pilates y yoga que mejor retienen son los que <strong>construyen comunidad</strong>. WhatsApp te ayuda:</p><ul><li><strong>Tips semanales:</strong> \"Tip de la semana: si te duele la espalda baja después de clase, probá esta elongación\" con foto o video corto de la profe.</li><li><strong>Novedades y workshops:</strong> \"Este sábado: Workshop de Inversiones con [profe invitada]. Cupos limitados. ¿Te anotás?\"</li><li><strong>Cumpleaños:</strong> \"¡Feliz cumple [nombre]! Te regalamos 1 clase extra este mes.\"</li><li><strong>Encuestas rápidas:</strong> \"¿Te gustaría que agreguemos un horario a las 7:00? Respondé SI o NO.\"</li><li><strong>Motivación:</strong> frases, videos cortos, desafíos mensuales. \"Reto de abril: vení 3 veces por semana y te bonificamos una clase.\"</li></ul><p>Cada interacción fortalece el vínculo. Una alumna que se siente parte de una comunidad <strong>cancela un 40% menos</strong> que una que solo viene a hacer ejercicio.</p><p>¿Querés ver cómo mejorar la comunicación de tu estudio? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿El bot reemplaza la atención personal del estudio?",
+        "answer": "No. El bot maneja los mensajes repetitivos (horarios, saldo, recordatorios) y libera tiempo para que vos o tu recepcionista se enfoquen en la atención personalizada que valoran tus alumnas."
+      },
+      {
+        "question": "¿Cómo manejo la lista de espera por WhatsApp?",
+        "answer": "Cuando alguien cancela una clase, el bot le avisa automáticamente a la primera persona en la lista de espera. Si acepta, se confirma su lugar. Si no responde en X minutos, pasa a la siguiente. Todo automático."
+      },
+      {
+        "question": "¿Funciona para estudios chicos de 20-30 alumnas?",
+        "answer": "Sí. WhatsApp Business gratuito con respuestas rápidas y listas de difusión alcanza para estudios chicos. Cuando crecés a 50+ alumnas, un bot con flujos automáticos se vuelve imprescindible."
+      }
+    ],
+    "ctaText": "¿Tu estudio pierde alumnas por falta de comunicación? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos un sistema de WhatsApp que retenga y fidelice."
+  }
+}

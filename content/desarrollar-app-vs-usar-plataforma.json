@@ -1,0 +1,61 @@
+{
+  "slug": "desarrollar-app-vs-usar-plataforma",
+  "title": "¿Desarrollar una app a medida o usar una plataforma existente? Guía para PyMEs argentinas 2026",
+  "metaTitle": "App a medida vs plataforma existente Argentina 2026",
+  "metaDescription": "El 90% de las PyMEs debería usar plataformas existentes primero. App a medida solo cuando los límites de la plataforma te cuestan plata. Precios reales.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["app a medida", "desarrollo de software", "plataformas SaaS", "software PyMEs", "transformación digital"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-app-movil-argentina", "software-a-medida-vs-estandar", "cuanto-cuesta-software-a-medida-argentina", "odoo-vs-sistema-a-medida-argentina"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> El 90% de las PyMEs argentinas debería usar plataformas existentes antes de pensar en desarrollo a medida. Un CRM como HubSpot, un e-commerce como Tiendanube o un gestor como Notion resuelven la mayoría de las necesidades por una fracción del costo. Solo desarrollá a medida cuando las limitaciones de la plataforma te estén costando plata real.</p><p>Una app a medida cuesta entre $2.000.000 y $15.000.000+ ARS en Argentina (o $3.000-$30.000+ USD). Una plataforma SaaS cuesta $0-$100 USD/mes. La matemática es clara: si una plataforma resuelve el 80% de lo que necesitás, gastá los $2 millones en marketing y ventas, no en código.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa: desarrollo a medida vs plataforma existente",
+        "body": "<table><thead><tr><th>Criterio</th><th>App a medida</th><th>Plataforma existente (SaaS)</th></tr></thead><tbody><tr><td><strong>Costo inicial</strong></td><td>$2.000.000-$15.000.000+ ARS</td><td>$0-$100 USD/mes (sin costo inicial)</td></tr><tr><td><strong>Tiempo de implementación</strong></td><td>3-12 meses</td><td>1 día a 2 semanas</td></tr><tr><td><strong>Mantenimiento mensual</strong></td><td>$200.000-$800.000 ARS/mes</td><td>Incluido en la suscripción</td></tr><tr><td><strong>Personalización</strong></td><td>100% — hacés lo que querés</td><td>Limitada a lo que ofrece la plataforma</td></tr><tr><td><strong>Escalabilidad</strong></td><td>Depende de cómo se construyó</td><td>Manejada por el proveedor</td></tr><tr><td><strong>Actualizaciones</strong></td><td>Las pagás vos</td><td>Incluidas automáticamente</td></tr><tr><td><strong>Soporte</strong></td><td>Depende del developer/agencia</td><td>Equipo dedicado 24/7</td></tr><tr><td><strong>Riesgo</strong></td><td>Alto — puede fallar el proyecto</td><td>Bajo — la plataforma ya funciona</td></tr><tr><td><strong>Propiedad</strong></td><td>100% tuyo</td><td>Dependés del proveedor</td></tr><tr><td><strong>Ideal para</strong></td><td>Procesos únicos que no existen en el mercado</td><td>Necesidades estándar del 90% de las PyMEs</td></tr></tbody></table><p>La pregunta no es \"¿cuál es mejor?\" sino \"¿cuándo conviene cada uno?\". Y la respuesta es casi siempre: plataforma primero, desarrollo a medida después y solo si es necesario.</p>"
+      },
+      {
+        "heading": "Cuándo usar una plataforma existente (la mayoría de los casos)",
+        "body": "<p>Si tu necesidad encaja en alguna de estas categorías, ya existe una plataforma que la resuelve:</p><ul><li><strong>CRM / Gestión comercial:</strong> HubSpot, Zoho, Pipedrive. Gratis a $50 USD/mes.</li><li><strong>E-commerce:</strong> Tiendanube, Shopify, WooCommerce. $0-$50 USD/mes.</li><li><strong>Gestión de proyectos:</strong> Asana, Trello, Notion. Gratis a $10 USD/usuario.</li><li><strong>Facturación:</strong> Xero, Colppy, Contabilium. Desde $5.000 ARS/mes.</li><li><strong>Reservas / Turnos:</strong> Calendly, SimplyBook. Gratis a $15 USD/mes.</li><li><strong>Email marketing:</strong> Brevo, Mailchimp, Doppler. Gratis a $20 USD/mes.</li><li><strong>Comunicación interna:</strong> Slack, Google Workspace, Microsoft Teams. Gratis a $7 USD/usuario.</li></ul><p>Cada una de estas plataformas tiene un equipo de decenas o cientos de ingenieros mejorándola constantemente. Tu app a medida va a tener 1-3 developers que también están atendiendo otros proyectos. La calidad y estabilidad de una plataforma madura es casi imposible de igualar con un desarrollo propio de PyME.</p>"
+      },
+      {
+        "heading": "Cuándo sí conviene desarrollar a medida",
+        "body": "<p>Desarrollar a medida tiene sentido en casos puntuales:</p><ul><li><strong>Tu proceso es realmente único.</strong> No \"creemos que somos especiales\" sino que genuinamente no existe plataforma que resuelva tu flujo de trabajo. Ejemplo: un sistema de logística con reglas de ruteo específicas de tu industria.</li><li><strong>Las limitaciones de la plataforma te cuestan plata.</strong> Si la plataforma no puede hacer X, y por no hacer X perdés $500.000/mes en ventas o eficiencia, el desarrollo a medida se justifica financieramente.</li><li><strong>Necesitás integrar múltiples sistemas.</strong> Si tu operación requiere que 4-5 herramientas se comuniquen de formas que no están soportadas nativamente, una capa de integración a medida puede ser la solución.</li><li><strong>Tu app ES tu producto.</strong> Si vas a vender el software como servicio (SaaS), obviamente necesitás desarrollo propio.</li></ul><p>Antes de decidirte por un desarrollo a medida, hacé esta prueba: usá la plataforma existente durante 3 meses. Anotá cada vez que la plataforma no te deja hacer algo que necesitás. Si después de 3 meses la lista tiene 2-3 items, probablemente haya workarounds. Si tiene 15+ items que impactan tu facturación, ahí sí evaluá el desarrollo a medida.</p>"
+      },
+      {
+        "heading": "Los riesgos reales del desarrollo a medida que nadie te cuenta",
+        "body": "<p>El 70% de los proyectos de software a medida fracasan o se exceden en presupuesto y tiempo. Estos son los riesgos que tenés que conocer:</p><ul><li><strong>Scope creep:</strong> \"Agreguemos esta función más\" x 50 = presupuesto duplicado y 6 meses de atraso. Sin un alcance definido y firmado, el proyecto se va de las manos.</li><li><strong>Dependencia del developer:</strong> si el programador se va, ¿quién mantiene el código? ¿Está documentado? ¿Otro developer puede entenderlo? La realidad: casi nunca.</li><li><strong>Costo de mantenimiento perpetuo:</strong> tu app necesita actualizaciones de seguridad, corrección de bugs, adaptación a nuevos dispositivos. Calculá $200.000-$800.000 ARS/mes solo en mantenimiento.</li><li><strong>No hay soporte 24/7:</strong> si tu app se cae un sábado a las 3 AM, ¿tu developer responde? Una plataforma SaaS tiene equipo de guardia. Tu developer tiene vida propia.</li><li><strong>El costo real siempre es mayor:</strong> multiplicá el presupuesto inicial por 2x y el timeline por 1.5x. Eso es lo que realmente va a costar. Siempre.</li></ul><p>Esto no significa que el desarrollo a medida sea malo — significa que es una inversión seria que requiere planificación, presupuesto holgado y expectativas realistas.</p>"
+      },
+      {
+        "heading": "La estrategia inteligente: plataforma primero, medida después",
+        "body": "<p>El camino más eficiente para una PyME argentina es este:</p><ol><li><strong>Arrancá con plataformas existentes.</strong> Usá las versiones gratuitas. Aprendé qué necesitás realmente con uso real, no con suposiciones.</li><li><strong>Conectá plataformas con herramientas de integración.</strong> Zapier, Make o n8n permiten conectar plataformas entre sí sin código. CRM → Email → Facturación → WhatsApp, todo automático.</li><li><strong>Identificá los límites reales.</strong> Después de 6-12 meses de uso, vas a saber exactamente qué te falta. Esa claridad es invaluable para definir un desarrollo a medida eficiente.</li><li><strong>Desarrollá solo lo que las plataformas no resuelven.</strong> En vez de reemplazar todo con una app custom, desarrollá solo el módulo específico que necesitás y conectalo con las plataformas que ya funcionan.</li></ol><p>Este enfoque te ahorra millones de pesos, meses de desarrollo y el riesgo de construir algo que no era lo que necesitabas. Fijate nuestra guía sobre <a href=\"/blog/software-a-medida-vs-estandar\">software a medida vs estándar</a> para profundizar en esta decisión.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta una app a medida en Argentina en 2026?",
+        "answer": "Una app móvil simple cuesta $2.000.000-$5.000.000 ARS ($3.000-$5.000 USD). Una app web de complejidad media $5.000.000-$10.000.000 ARS ($5.000-$15.000 USD). Sistemas complejos superan los $15.000.000 ARS ($20.000-$30.000+ USD). A eso sumale mantenimiento mensual de $200.000-$800.000 ARS."
+      },
+      {
+        "question": "¿Puedo empezar con una plataforma y migrar a una app a medida después?",
+        "answer": "Sí, y es lo que recomendamos. Usá la plataforma para validar tu proceso y entender qué necesitás realmente. Cuando migrés, ya tenés datos reales de uso que hacen el desarrollo más eficiente. La mayoría de las plataformas permiten exportar tus datos."
+      },
+      {
+        "question": "¿Las plataformas SaaS son seguras para datos de mi empresa?",
+        "answer": "Plataformas como HubSpot, Shopify o Google Workspace tienen equipos de seguridad más grandes que cualquier desarrollo propio de PyME. Cumplen estándares internacionales (SOC 2, ISO 27001). Tu app a medida, salvo que inviertas específicamente en seguridad, probablemente sea menos segura."
+      },
+      {
+        "question": "¿Qué pasa si la plataforma cierra o sube los precios?",
+        "answer": "Es el riesgo principal de depender de terceros. Mitigalo así: elegí plataformas grandes y establecidas, asegurate de poder exportar tus datos en cualquier momento, y no uses plataformas que no permiten exportación. Si la plataforma cierra, migrás a otra — es más fácil que mantener una app a medida."
+      },
+      {
+        "question": "¿Puedo conectar múltiples plataformas sin programar?",
+        "answer": "Sí. Herramientas como Zapier ($0-$20 USD/mes), Make (ex Integromat, $0-$9 USD/mes) o n8n (gratuito, open source) permiten conectar 3.000+ plataformas sin escribir código. CRM → email → WhatsApp → facturación, todo automático con reglas que vos definís."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás una app a medida o te alcanza con plataformas existentes? En SODI te ayudamos a evaluar tu operación y recomendar la mejor ruta. Pedí tu diagnóstico gratuito."
+  }
+}

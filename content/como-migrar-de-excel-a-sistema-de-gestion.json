@@ -1,0 +1,61 @@
+{
+  "slug": "como-migrar-de-excel-a-sistema-de-gestion",
+  "title": "Cómo migrar de Excel a un sistema de gestión sin perder datos ni la paciencia",
+  "metaTitle": "Cómo migrar de Excel a sistema de gestión 2026",
+  "metaDescription": "Paso a paso para dejar Excel sin caos: limpieza de datos, elección de sistema, capacitación del equipo y período de marcha en paralelo.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["sistema de gestión", "migración Excel", "automatización", "PyMEs Argentina", "operaciones"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["como-dejar-de-depender-de-excel", "excel-vs-sistema-de-gestion", "cuanto-cuesta-sistema-de-gestion-pymes", "como-ordenar-operacion-interna-pyme"],
+  "content": {
+    "intro": "<p>Tenés 47 archivos de Excel con nombres como \"stock_FINAL_v3_DEFINITIVO.xlsx\". Los fórmulas se rompen, dos personas no pueden editar al mismo tiempo, y la última vez que alguien borró una fila sin querer perdiste datos de un mes entero. Suena familiar, ¿no?</p><p>Migrar de Excel a un sistema de gestión <strong>es la decisión operativa más importante</strong> que puede tomar una PyME. Pero si lo hacés mal — sin limpiar datos, sin capacitar al equipo, sin un período de transición — vas a terminar peor que antes. En esta guía te doy el proceso paso a paso para hacer la migración sin perder datos, sin frenar tu operación y sin que tu equipo te odie en el proceso.</p>",
+    "sections": [
+      {
+        "heading": "Las señales de que ya no podés seguir con Excel",
+        "body": "<p>Excel es una herramienta brillante, pero tiene un límite. Si estás experimentando alguno de estos síntomas, ya lo pasaste:</p><ul><li><strong>Más de 2 personas</strong> necesitan editar los mismos datos al mismo tiempo</li><li>Tenés <strong>múltiples versiones</strong> del mismo archivo y no sabés cuál es la correcta</li><li><strong>Las fórmulas se rompen</strong> cuando alguien agrega o borra filas</li><li>Pasás <strong>más de 1 hora por día</strong> copiando datos entre planillas</li><li>No podés generar <strong>reportes confiables</strong> sin armar todo manualmente</li><li>Perdiste datos por <strong>errores humanos</strong> (borrar celdas, sobreescribir archivos)</li><li>Tu archivo de clientes o stock supera las <strong>5.000 filas</strong> y todo funciona lento</li></ul><p>Si marcaste 3 o más, necesitás un sistema. No es un lujo — es una necesidad operativa. Cada hora que tu equipo pierde peleando con Excel es plata que estás perdiendo.</p><p>La buena noticia: un sistema de gestión no tiene que ser caro ni complejo. Hay opciones argentinas desde $15.000/mes que resuelven el 80% de los problemas que tenés con Excel.</p>"
+      },
+      {
+        "heading": "Paso 1: Limpieza de datos antes de migrar",
+        "body": "<p>El error #1 en migraciones es <strong>llevar basura de Excel al sistema nuevo</strong>. Si tus datos están sucios, el sistema nuevo los organiza mejor pero siguen siendo datos sucios. Antes de migrar:</p><h3>Auditoría de datos (2-3 días)</h3><ul><li><strong>Eliminá duplicados:</strong> usá la función \"Quitar duplicados\" de Excel. Revisá clientes con nombres parecidos (\"Juan Pérez\" y \"Perez, Juan\").</li><li><strong>Completá campos vacíos:</strong> si tenés clientes sin email, sin teléfono o sin dirección, completá lo que puedas ahora. Es más fácil en Excel que en un sistema nuevo.</li><li><strong>Estandarizá formatos:</strong> fechas en un solo formato (DD/MM/YYYY), teléfonos con código de área, precios sin signos de pesos ni puntos de miles.</li><li><strong>Eliminá datos obsoletos:</strong> clientes que no compraron en 3+ años, productos descontinuados, proveedores que ya no usás.</li></ul><h3>Estructura de la información</h3><p>Definí qué datos necesitás en el nuevo sistema: <strong>clientes</strong> (nombre, contacto, historial), <strong>productos/servicios</strong> (nombre, precio, categoría), <strong>proveedores</strong>, <strong>movimientos de stock</strong>. Armá un Excel limpio por cada entidad.</p><p>Este paso es el más tedioso pero el más importante. Dedicale tiempo ahora y ahorrás semanas de dolor después.</p>"
+      },
+      {
+        "heading": "Paso 2: Elegir el sistema correcto para tu PyME",
+        "body": "<p>No todos los sistemas sirven para todos los negocios. Estas son las opciones más populares en Argentina para PyMEs y cuándo elegir cada una:</p><h3>Para comercios y retail:</h3><ul><li><strong>Alegra:</strong> facturación + inventario + contabilidad. Desde $12.000/mes. Buena relación precio-funcionalidad.</li><li><strong>Xubio:</strong> argentino, integrado con AFIP. Desde $15.000/mes. Ideal si necesitás facturación electrónica.</li></ul><h3>Para servicios y profesionales:</h3><ul><li><strong>Notion o Monday.com:</strong> para gestión de proyectos y clientes. Versión gratis disponible.</li><li><strong>HubSpot CRM (gratis):</strong> si tu foco es seguimiento comercial y ventas.</li></ul><h3>Para ecommerce:</h3><ul><li><strong>Tiendanube:</strong> incluye gestión de stock y pedidos integrada.</li><li><strong>Odoo:</strong> ERP completo con módulo ecommerce. Versión community gratis.</li></ul><h3>Criterios de selección:</h3><ul><li>¿Se integra con AFIP para facturación electrónica?</li><li>¿Permite importar datos desde Excel/CSV?</li><li>¿Tiene app móvil para consultar desde cualquier lugar?</li><li>¿Cuántos usuarios incluye el plan?</li><li>¿Ofrece soporte en español y en horario argentino?</li></ul><p>Consejo clave: <strong>probá al menos 2-3 opciones</strong> con sus versiones de prueba gratuita antes de comprometerte. Cargá datos reales y hacé las operaciones que hacés todos los días. Si en 15 minutos no le encontrás la vuelta, tu equipo tampoco.</p>"
+      },
+      {
+        "heading": "Paso 3: Migración y período de marcha en paralelo",
+        "body": "<p>Ya limpiaste los datos y elegiste el sistema. Ahora viene la migración real:</p><h3>Importación de datos (1-2 días)</h3><p>La mayoría de los sistemas permiten importar CSV o Excel. Importá en este orden: 1) Clientes/Contactos, 2) Productos/Servicios, 3) Proveedores, 4) Historial de ventas (si el sistema lo permite).</p><p>Después de importar, <strong>verificá un 10% de los registros manualmente</strong>. Abrí clientes al azar y comprobá que los datos estén completos y correctos.</p><h3>Marcha en paralelo (2-4 semanas)</h3><p>Este es el paso que todos quieren saltear y es el que te salva de desastres. Durante 2 a 4 semanas, <strong>usá el sistema nuevo Y Excel simultáneamente</strong>:</p><ul><li>Semana 1-2: cargá todo en el sistema nuevo, pero seguí manteniendo Excel como backup.</li><li>Al final de cada semana, compará los números del sistema con los de Excel. Si coinciden, vas bien.</li><li>Semana 3-4: usá el sistema como fuente principal, Excel solo como verificación.</li><li>Semana 5: cortá Excel definitivamente.</li></ul><p>Sí, es el doble de trabajo durante un mes. Pero es infinitamente mejor que descubrir 3 meses después que el sistema calculó mal el stock porque importaste datos con errores.</p>"
+      },
+      {
+        "heading": "Paso 4: Capacitación del equipo (la clave del éxito)",
+        "body": "<p>El 60% de las migraciones fallan no por problemas técnicos sino por <strong>resistencia del equipo</strong>. \"Yo en Excel lo hacía en 2 segundos\" es la frase que más vas a escuchar las primeras semanas. Así lo manejás:</p><h3>Capacitación por etapas:</h3><ul><li><strong>Sesión 1 (1 hora):</strong> operaciones básicas — dar de alta un cliente, cargar una venta, consultar stock. Nada más.</li><li><strong>Sesión 2 (semana 2, 1 hora):</strong> funciones intermedias — reportes, búsquedas avanzadas, edición de registros.</li><li><strong>Sesión 3 (semana 3, 30 min):</strong> dudas y trucos avanzados una vez que ya lo están usando.</li></ul><h3>Reglas de convivencia:</h3><ul><li>Designá un <strong>\"embajador\" del sistema</strong> en cada área — la persona que primero lo domina y ayuda a los demás.</li><li>Creá un <strong>documento de 1 página</strong> con las 5 operaciones que más se usan, paso a paso con capturas.</li><li>Prohibí volver a Excel salvo en el período de marcha en paralelo. Si permitís que \"por hoy lo cargo en Excel\", la migración fracasa.</li></ul><p>Sé honesto con tu equipo: <strong>las primeras 2 semanas van a ser más lentos</strong>. Es normal. A partir de la semana 3 van a ser igual de rápidos que en Excel, y a partir del mes 2, más rápidos. La clave es no aflojar en las primeras semanas difíciles. Si necesitás evaluar opciones de sistemas, mirá nuestra <a href=\"/blog/excel-vs-sistema-de-gestion\">comparativa de Excel vs sistema de gestión</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto tiempo lleva migrar de Excel a un sistema de gestión?",
+        "answer": "El proceso completo lleva entre 4 y 8 semanas: 1 semana de limpieza de datos, 1-2 días de importación, 2-4 semanas de marcha en paralelo y 2 semanas de estabilización. La limpieza previa es lo que más varía según el estado de tus datos."
+      },
+      {
+        "question": "¿Puedo perder datos durante la migración?",
+        "answer": "Si hacés backup de tus archivos de Excel antes de empezar y seguís el período de marcha en paralelo, no. Nunca borres los Excel originales hasta que estés 100% seguro de que todo está correcto en el sistema nuevo (mínimo 2 meses después)."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de gestión para PyME en Argentina?",
+        "answer": "Desde $12.000 hasta $60.000 ARS/mes dependiendo de la complejidad. Sistemas básicos de facturación + stock arrancan en $12.000-$20.000. ERPs completos con múltiples módulos, $30.000-$60.000. Hay opciones gratuitas como Odoo Community o HubSpot CRM."
+      },
+      {
+        "question": "¿Y si mi equipo no quiere dejar Excel?",
+        "answer": "Es el desafío más común. Hacé la capacitación por etapas, mostrá los beneficios concretos (menos errores, datos en tiempo real, reportes automáticos), y designá embajadores internos. Prohibí el uso de Excel después del período de transición — si das opción, nadie migra."
+      },
+      {
+        "question": "¿Necesito un técnico para hacer la migración?",
+        "answer": "Para la mayoría de los sistemas modernos, no. La importación desde CSV/Excel es guiada y la configuración inicial es intuitiva. Si tu operación es compleja (múltiples sucursales, integraciones con ecommerce), ahí sí conviene un implementador que suele costar $50.000-$150.000 por única vez."
+      }
+    ],
+    "ctaText": "¿Querés migrar de Excel sin dolores de cabeza? Pedí un diagnóstico gratuito y te recomendamos el sistema ideal para tu PyME con un plan de migración incluido."
+  }
+}

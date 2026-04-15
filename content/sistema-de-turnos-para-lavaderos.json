@@ -1,0 +1,65 @@
+{
+  "slug": "sistema-de-turnos-para-lavaderos",
+  "title": "Sistema de Turnos para Lavaderos de Autos: Reservas, Servicios y Notificaciones",
+  "metaTitle": "Sistema de Turnos para Lavaderos de Autos | SODI",
+  "metaDescription": "Comparativa de sistemas de turnos para lavaderos. Reservas por franja horaria, tipos de servicio, duración estimada y notificaciones. Costos.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "lavaderos de autos", "reservas lavadero", "car wash", "notificaciones"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-lavaderos-de-autos", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online", "automatizar-whatsapp-empresas-de-servicios"],
+  "content": {
+    "intro": "<p>Si tenés un lavadero de autos en Argentina, conocés la escena: sábado a la mañana, cola de 20 autos, clientes esperando una hora y media sin saber cuánto falta. Algunos se van. Otros se quejan. Y vos no podés hacer mucho porque no tenés forma de regular el flujo.</p><p>Un <strong>sistema de turnos online para tu lavadero</strong> cambia todo: el cliente reserva franja horaria, elige tipo de servicio, sabe cuánto tarda y recibe aviso cuando el auto está listo. Vos controlás el flujo, reducís las colas y el cliente no pierde tiempo esperando.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu lavadero necesita turnos online",
+        "body": "<p>El lavadero de autos tiene un problema estructural: <strong>la demanda se concentra</strong> en sábados y domingos por la mañana. El resto de la semana tenés capacidad ociosa. Un sistema de turnos online ayuda a distribuir esa demanda.</p><ul><li><strong>Reducción de colas:</strong> si el cliente tiene turno a las 10:00, llega a las 10:00. No hay 15 autos esperando a las 9:30. La experiencia mejora drásticamente.</li><li><strong>Mejor aprovechamiento entre semana:</strong> el cliente que trabaja puede reservar lunes o martes, sabiendo que su auto está listo a las 18:00 cuando sale del trabajo. Sin sistema de turnos, ese cliente solo viene el sábado.</li><li><strong>Selección de servicio por adelantado:</strong> lavado simple, completo, pulido, tapizado. El sistema asigna la duración correcta y vos sabés qué preparar antes de que llegue el auto.</li><li><strong>Notificación de auto listo:</strong> el cliente deja el auto, se va a hacer otra cosa y recibe un WhatsApp cuando está listo. No espera sentado una hora. Eso es experiencia premium.</li></ul><p>¿Ya tenés <a href=\"/blog/pagina-web-para-lavaderos-de-autos\">web para tu lavadero</a>? Los turnos online son el complemento perfecto.</p>"
+      },
+      {
+        "heading": "Opciones SaaS para lavaderos",
+        "body": "<p>Las plataformas SaaS te permiten arrancar rápido:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> flexible y gratuito. Configurás tipos de servicio (lavado simple 30 min, completo 60 min, premium 90 min) con duración y precio. Múltiples calendarios si tenés más de un box de lavado. Link de reserva compartible por WhatsApp y redes.</li><li><strong>Reservo (USD 10-25/mes):</strong> plataforma argentina. Agenda online, selección de servicio, recordatorios y reportes. Buena integración local.</li><li><strong>Setmore (gratis hasta 4 empleados):</strong> plan gratuito generoso. Agenda por servicio, confirmaciones automáticas, integración con Google Calendar.</li></ul><p><strong>Para lavaderos, Cal.com es la mejor opción calidad-precio</strong> porque es gratis, configurable y permite múltiples \"recursos\" (boxes de lavado). Si necesitás algo más robusto, Reservo es una buena alternativa argentina.</p>"
+      },
+      {
+        "heading": "Tipos de servicio y gestión de duración",
+        "body": "<p>Cada servicio de lavadero tiene una duración diferente. El sistema de turnos tiene que manejar esto correctamente para no generar superposiciones:</p><ul><li><strong>Lavado exterior simple:</strong> 20-30 minutos. Jabón, enjuague, secado. El servicio más rápido y frecuente.</li><li><strong>Lavado completo (exterior + interior):</strong> 45-60 minutos. Suma aspirado, limpieza de tablero, vidrios internos.</li><li><strong>Lavado premium / detailing:</strong> 90-120 minutos. Pulido, encerado, limpieza profunda de tapizado, acondicionamiento de cueros.</li><li><strong>Servicios adicionales:</strong> pulido de ópticas, impermeabilización de tapizado, desinfección con ozono. Suman tiempo al turno base.</li></ul><p>El sistema debe permitir que el cliente <strong>arme su combo</strong>: \"Lavado completo + pulido de ópticas\" y que la duración se calcule automáticamente. Así evitás que un turno de 30 minutos bloquee un slot de 90.</p><p>También es útil tener <strong>capacidad por franja</strong>: si tenés 3 boxes de lavado, el sistema puede aceptar 3 turnos simultáneos de lavado simple pero solo 1 de detailing (si necesita un box dedicado).</p>"
+      },
+      {
+        "heading": "Notificaciones que mejoran la experiencia",
+        "body": "<p>Las notificaciones son el diferencial de un lavadero con sistema de turnos vs uno sin sistema:</p><ul><li><strong>Confirmación de reserva:</strong> WhatsApp automático con día, hora, tipo de servicio y precio estimado.</li><li><strong>Recordatorio:</strong> mensaje 2 horas antes: \"Te recordamos tu turno de lavado completo hoy a las 14:00. ¿Confirmás?\"</li><li><strong>Auto en proceso:</strong> \"Tu auto ya está siendo lavado. Duración estimada: 45 minutos.\"</li><li><strong>Auto listo:</strong> \"Tu auto ya está listo para retirar. Te esperamos.\" Con foto del auto limpio.</li></ul><p>Esa secuencia de mensajes transforma la experiencia. El cliente no tiene que preguntar \"¿ya está?\", no tiene que esperar sentado, no tiene que llamar. <strong>Todo fluye solo.</strong></p><p>La integración con WhatsApp Business se puede hacer con herramientas simples. Consultá nuestra guía de <a href=\"/blog/automatizar-whatsapp-empresas-de-servicios\">automatización de WhatsApp para empresas de servicios</a>.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo tiene sentido",
+        "body": "<p>Un desarrollo a medida para tu lavadero vale la pena si:</p><ul><li><strong>Tenés más de una sucursal:</strong> gestión centralizada, reportes por sede, clientes que reservan en cualquier sucursal.</li><li><strong>Manejás suscripciones:</strong> plan mensual de lavados ilimitados o X lavados por mes. El sistema controla la cantidad de lavados usados y los renueva automáticamente.</li><li><strong>Querés programa de fidelización:</strong> \"10 lavados = 1 gratis\", acumulación de puntos, descuentos por frecuencia.</li><li><strong>Necesitás gestión de stock:</strong> productos de limpieza, control de insumos por servicio realizado.</li></ul><p><strong>Costo estimado:</strong> entre $600.000 y $1.800.000 ARS. Para un lavadero individual con 1-3 boxes, el SaaS gratuito es más que suficiente.</p><p>Más detalles en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de precios de sistemas de turnos</a>.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto para tu lavadero",
+        "body": "<p>Tres preguntas clave:</p><ul><li><strong>¿Cuántos boxes de lavado tenés?</strong> 1-2 → Cal.com gratis. 3+ o con servicios diferenciados por box → Reservo o desarrollo a medida.</li><li><strong>¿Ofrecés suscripciones mensuales?</strong> Si vendés planes de lavado mensual, necesitás un sistema que controle los usos. Eso requiere desarrollo a medida.</li><li><strong>¿Querés mandar foto del auto listo?</strong> Si la respuesta es sí (y debería serlo), necesitás integración con WhatsApp Business que permita enviar imágenes. Los SaaS generalmente mandan solo texto.</li></ul><p>Nuestra recomendación: <strong>empezá con Cal.com gratis</strong>, configurá tus servicios con duración, compartí el link de reserva por WhatsApp e Instagram y medí el impacto. Si funciona (y va a funcionar), evaluá escalar.</p><p>¿Querés que te ayudemos? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te armamos la solución ideal para tu lavadero.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Un sistema de turnos funciona para un lavadero de autos?",
+        "answer": "Funciona muy bien. Reduce colas los fines de semana, distribuye demanda entre semana y mejora la experiencia del cliente con notificaciones. El cliente reserva franja horaria, elige servicio y sabe cuánto tarda."
+      },
+      {
+        "question": "¿Cómo manejo turnos para distintos tipos de servicio?",
+        "answer": "Cada tipo de servicio se configura con su duración: lavado simple 30 min, completo 60 min, premium 90 min. El sistema bloquea el tiempo correcto. Si el cliente elige servicios adicionales, la duración se suma automáticamente."
+      },
+      {
+        "question": "¿Puedo enviar foto del auto listo por WhatsApp?",
+        "answer": "Con integración de WhatsApp Business API sí. Tu equipo toma la foto, la sube al sistema y se envía automáticamente al cliente. Es un toque premium que genera fidelización y boca a boca."
+      },
+      {
+        "question": "¿Cuánto cuesta implementar turnos online en mi lavadero?",
+        "answer": "Gratis con Cal.com o Setmore. Entre USD 10 y USD 25/mes con Reservo. Desarrollo a medida: entre $600.000 y $1.800.000 ARS según funcionalidades."
+      },
+      {
+        "question": "¿Los clientes van a usar el sistema o van a seguir viniendo sin turno?",
+        "answer": "Al principio conviven ambos. Pero cuando el cliente sin turno espera 40 minutos y el que reservó entra directo, el boca a boca hace el trabajo. En 2-3 meses, el 50-60% de tus clientes reserva online."
+      }
+    ],
+    "ctaText": "¿Querés un sistema de turnos que elimine las colas, organice tu operación y mejore la experiencia del cliente? En SODI diseñamos soluciones de turnos para lavaderos con notificaciones automáticas. <a href=\"/diagnostico\">Hacé tu diagnóstico gratuito</a>."
+  }
+}

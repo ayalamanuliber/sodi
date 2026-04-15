@@ -1,0 +1,61 @@
+{
+  "slug": "como-cobrar-con-qr-en-mi-negocio",
+  "title": "Querés cobrar con QR pero no sabés por dónde empezar: guía completa para negocios argentinos",
+  "metaTitle": "Cómo cobrar con QR en mi negocio | Argentina 2026",
+  "metaDescription": "Compará MercadoPago, MODO, Naranja X y más. Comisiones, tiempos de acreditación y cómo configurar cobro con QR paso a paso en tu negocio.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["cobrar con qr", "mercadopago", "modo", "medios de pago", "negocio"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["como-vender-por-internet-argentina", "mercadopago-vs-mobbex-ecommerce", "como-digitalizar-mi-empresa", "como-crear-tienda-online-argentina"],
+  "content": {
+    "intro": "<p>Tus clientes te piden pagar con QR y vos seguís con el cartelito de \"solo efectivo\" o peleándote con el posnet. O capaz ya tenés MercadoPago pero no sabés si es la mejor opción o si estás pagando comisiones de más. <strong>Cobrar con QR en Argentina dejó de ser opcional: es lo que tus clientes esperan</strong>.</p><p>En esta guía te explicamos todas las opciones de cobro con QR disponibles en Argentina, comparamos comisiones y tiempos de acreditación, y te mostramos paso a paso cómo configurar el que más te conviene según tu tipo de negocio.</p>",
+    "sections": [
+      {
+        "heading": "Las opciones de QR en Argentina: cuáles son y en qué se diferencian",
+        "body": "<p>En 2026, las principales opciones para cobrar con QR en Argentina son:</p><ul><li><strong>MercadoPago QR</strong>: el más usado por lejos. Tus clientes pagan desde la app de MercadoPago o MercadoLibre. Funciona con dinero en cuenta, tarjetas de crédito/débito y créditos de MercadoLibre.</li><li><strong>MODO</strong>: la billetera de los bancos. El cliente escanea tu QR desde la app de su banco (Galicia, Macro, BBVA, Santander, etc.) y paga directo desde su cuenta bancaria.</li><li><strong>Naranja X</strong>: la billetera de Naranja. Funciona con tarjeta Naranja y saldo en la app. Popular en el interior del país.</li><li><strong>QR interoperable (Transferencias 3.0)</strong>: por regulación del Banco Central, los QR en Argentina son interoperables. Esto significa que un QR de MercadoPago puede ser escaneado desde MODO y viceversa, aunque no siempre funciona perfectamente en la práctica.</li><li><strong>QR de tu banco</strong>: muchos bancos ofrecen su propio QR para comercios. La comisión suele ser menor pero el alcance es limitado a clientes de ese banco o de MODO.</li></ul><p><strong>¿Cuál elegir?</strong> Si tenés que elegir uno solo, empezá con MercadoPago. Es el que más gente tiene instalado y el más fácil de configurar. Después podés sumar MODO para captar clientes que prefieren pagar desde la app del banco.</p>"
+      },
+      {
+        "heading": "Comisiones y tiempos de acreditación: la comparación real",
+        "body": "<p>Esto es lo que más importa y donde más confusión hay. Los números actualizados a 2026:</p><p><strong>MercadoPago QR:</strong></p><ul><li>Comisión por venta con QR: <strong>0,8% a 3,99%</strong> dependiendo del medio de pago del cliente (débito, crédito, saldo en cuenta).</li><li>Si el cliente paga con saldo de MercadoPago: comisión más baja (~0,8%).</li><li>Si paga con tarjeta de crédito: comisión más alta (~3,99%) + se puede ofrecer cuotas (con costo adicional).</li><li>Acreditación: <strong>inmediata</strong> en tu cuenta de MercadoPago. Transferir a tu banco tarda 1-2 días hábiles.</li></ul><p><strong>MODO:</strong></p><ul><li>Comisión: <strong>0,8%</strong> (débito inmediato desde cuenta bancaria).</li><li>Acreditación: <strong>inmediata o dentro de 24hs hábiles</strong> según el banco.</li><li>Ventaja: el dinero va directo a tu cuenta bancaria, no a una billetera intermedia.</li></ul><p><strong>Naranja X:</strong></p><ul><li>Comisión: similar a MercadoPago, varía según el plan.</li><li>Acreditación: 1-2 días hábiles.</li></ul><p><strong>Tip clave</strong>: prestá atención a la diferencia entre el dinero acreditado en la billetera virtual y el dinero en tu cuenta bancaria. Con MercadoPago, la plata llega rápido a tu cuenta de MP, pero transferirla al banco tiene un delay. Con MODO, va directo al banco.</p>"
+      },
+      {
+        "heading": "Cómo configurar MercadoPago QR paso a paso",
+        "body": "<p>Como MercadoPago es el más popular, te mostramos cómo configurarlo:</p><ol><li><strong>Descargá la app de MercadoPago</strong> y creá una cuenta (o logueate si ya tenés).</li><li>Entrá a <strong>\"Tu negocio\"</strong> dentro de la app y completá los datos de tu comercio (nombre, rubro, dirección).</li><li>MercadoPago te genera un <strong>QR estático</strong>: es una imagen que podés imprimir y pegar en tu mostrador. El cliente la escanea, ingresa el monto y paga.</li><li>Opcionalmente, podés usar el <strong>QR dinámico</strong>: vos cargás el monto desde tu app y el cliente solo tiene que confirmar. Es más rápido y evita errores de tipeo.</li><li>Imprimí tu QR y ponelo en un lugar visible: mostrador, caja, mesa (si sos gastronomía).</li></ol><p><strong>Para comercios con más volumen:</strong></p><ul><li>Podés integrar el QR con tu sistema de facturación o POS a través de la API de MercadoPago.</li><li>El dispositivo Point Smart de MercadoPago funciona como posnet + QR + impresora de tickets.</li><li>Si tenés varios puntos de venta, podés generar un QR diferente para cada uno y trackear las ventas por separado.</li></ul><p>Configurar el QR básico te lleva literalmente 10 minutos. No hay excusa para no tenerlo.</p>"
+      },
+      {
+        "heading": "Integración con tu sistema de facturación y POS",
+        "body": "<p>Cobrar con QR es solo la mitad del trabajo. La otra mitad es que esas ventas se registren correctamente en tu sistema:</p><ul><li><strong>Si usás un sistema de gestión</strong> (como Xubio, Colppy, Tango): verificá si tiene integración con MercadoPago. Muchos sistemas argentinos ya la tienen, y permite que las ventas por QR se registren automáticamente.</li><li><strong>Si usás planilla de Excel</strong>: MercadoPago te deja exportar los movimientos a CSV. No es automático pero al menos tenés el registro.</li><li><strong>Si hacés factura electrónica por ARCA</strong>: el cobro por QR no genera factura automáticamente. Seguís teniendo que emitir la factura por separado, a menos que uses un sistema integrado que haga ambas cosas.</li></ul><p><strong>El caso ideal</strong>: un sistema de gestión que conecte con MercadoPago, emita la factura electrónica y registre el cobro, todo en un solo flujo. Esto es lo que usan los comercios más organizados y lo que nosotros recomendamos implementar.</p><p>Si hoy estás anotando en un cuaderno y facturando a mano, sumar QR es una buena oportunidad para también digitalizar tu gestión de ventas.</p>"
+      },
+      {
+        "heading": "Tips para sacarle el máximo jugo al cobro con QR",
+        "body": "<p>Más allá de la configuración, estos tips hacen la diferencia en el día a día:</p><ul><li><strong>Ofrecé cuotas sin interés cuando puedas</strong>: MercadoPago te permite ofrecer cuotas absorbiendo vos el costo financiero. En productos de ticket alto (más de $50.000), las cuotas pueden ser la diferencia entre cerrar o perder la venta.</li><li><strong>Poné el QR en un lugar visible y bien iluminado</strong>: suena obvio pero muchos comercios lo tienen escondido atrás de la caja. Que el cliente lo vea sin preguntar.</li><li><strong>Capacitá a tu equipo</strong>: que todos sepan cómo funciona, cómo verificar que el pago se acreditó, qué hacer si falla. Un \"esperá que llamo al encargado\" mata la experiencia.</li><li><strong>No descartes el efectivo</strong>: en Argentina, un porcentaje importante de transacciones sigue siendo en efectivo. No pongas \"solo QR\" a menos que sea tu modelo de negocio. Sumá opciones, no reemplaces.</li><li><strong>Controlá tu liquidación semanalmente</strong>: revisá que los montos acreditados coincidan con lo que vendiste. Los errores pasan, y si no los detectás temprano, se acumulan.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo cobrar con QR siendo monotributista?",
+        "answer": "Sí, totalmente. MercadoPago, MODO y las demás opciones están disponibles para monotributistas. Solo necesitás una cuenta asociada a tu CUIT y mantener tus obligaciones fiscales al día."
+      },
+      {
+        "question": "¿Qué pasa si el cliente dice que pagó pero a mí no me aparece?",
+        "answer": "Primero pedile al cliente que te muestre el comprobante de pago en su app. Si el pago fue exitoso, debería aparecer en tu cuenta en minutos. Si no aparece, puede ser un problema de conectividad. Nunca entregues el producto o servicio sin confirmar la acreditación."
+      },
+      {
+        "question": "¿Puedo cobrar con QR sin tener internet en el local?",
+        "answer": "Necesitás conexión a internet (WiFi o datos móviles) tanto vos como el cliente para procesar un pago con QR. Sin internet, no funciona. Si tu local tiene mala señal, asegurate de tener un buen WiFi o considerá un plan de datos con buena cobertura."
+      },
+      {
+        "question": "¿El QR interoperable funciona bien en la práctica?",
+        "answer": "Mejoró mucho, pero no es perfecto. Lo más confiable es que el cliente use la misma app que tu QR (ej: pagar QR de MercadoPago desde la app de MercadoPago). La interoperabilidad con MODO funciona en la mayoría de los casos pero puede haber fricciones."
+      },
+      {
+        "question": "¿Cuánto me cuesta empezar a cobrar con QR?",
+        "answer": "El QR de MercadoPago es gratis de configurar: solo pagás la comisión por venta (0,8% a 3,99%). MODO también es gratuito para darse de alta. El único costo si querés un dispositivo físico es el Point de MercadoPago (consultá el precio actual en su web)."
+      }
+    ],
+    "ctaText": "¿Querés integrar cobro con QR en tu negocio y que se conecte con tu facturación? En SODI te armamos la solución completa. Consultanos."
+  }
+}

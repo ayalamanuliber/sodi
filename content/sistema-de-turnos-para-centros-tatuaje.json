@@ -1,0 +1,65 @@
+{
+  "slug": "sistema-de-turnos-para-centros-tatuaje",
+  "title": "Sistema de Turnos para Centros de Tatuaje: Reservas por Artista, Duración Variable y Señas",
+  "metaTitle": "Sistema de Turnos para Centros de Tatuaje | SODI",
+  "metaDescription": "Comparativa de sistemas de turnos para estudios de tatuaje. Booking por artista, duración según tamaño, depósitos online y consultas previas.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "tatuajes", "booking tatuaje", "reservas tatuador", "estudio de tatuaje"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-centros-tatuaje", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online", "sistema-de-turnos-para-peluquerias"],
+  "content": {
+    "intro": "<p>Si tenés un estudio de tatuaje, sabés que gestionar turnos es un quilombo: cada artista tiene su propia agenda, cada tatuaje tiene duración distinta, hay consultas previas que no son sesiones, clientes que pagan seña y después no vienen, y todo se maneja por DM de Instagram. <strong>Un sistema de turnos online ordena todo eso.</strong></p><p>Un sistema de booking para estudios de tatuaje permite reservas por artista, duración variable según el tamaño del trabajo, cobro de seña online, diferenciación entre consulta y sesión, y seguimiento de piezas que llevan varias sesiones. Te cuento las opciones y los costos.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu estudio de tatuaje necesita un sistema de turnos",
+        "body": "<p>El tatuaje tiene particularidades que hacen que los DM de Instagram sean un sistema caótico:</p><ul><li><strong>Duración variable:</strong> un tatuaje chico lleva 1 hora, uno mediano 3-4 horas, una pieza grande puede ser una sesión de 6-8 horas. El sistema tiene que manejar esa variabilidad sin superposiciones.</li><li><strong>Múltiples artistas:</strong> cada tatuador tiene su estilo, su agenda, sus días de trabajo. El cliente elige artista y el sistema le muestra solo la disponibilidad de ese artista.</li><li><strong>Consulta vs sesión:</strong> muchos clientes primero quieren una consulta para hablar del diseño, ver presupuesto y recién después agendar la sesión. Son dos tipos de turno distintos.</li><li><strong>Señas y cancelaciones:</strong> en tatuaje es estándar pedir seña para confirmar el turno. Si el cliente no paga, el turno no se confirma. Si cancela fuera de plazo, la seña no se devuelve. Todo esto se puede automatizar.</li><li><strong>Piezas multisesión:</strong> una manga o una espalda completa llevan varias sesiones. El sistema tiene que permitir agendar la siguiente sesión al terminar la actual.</li></ul><p>Si ya tenés <a href=\"/blog/pagina-web-para-centros-tatuaje\">web para tu estudio</a>, el sistema de booking es el complemento que cierra el circuito.</p>"
+      },
+      {
+        "heading": "Opciones SaaS para estudios de tatuaje",
+        "body": "<p>Las plataformas SaaS te permiten profesionalizar tu booking sin desarrollar nada:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> muy flexible. Creás un calendario por artista, tipos de evento (consulta 30 min, sesión chica 2h, sesión mediana 4h, sesión larga 6h) y el cliente reserva desde un link. Integra con Google Calendar y acepta pagos con Stripe para señas.</li><li><strong>TattooPlan (desde USD 20/mes):</strong> plataforma específica para estudios de tatuaje. Gestión de artistas, portfolio integrado, pagos de depósito, formulario de consentimiento digital, calendario por artista.</li><li><strong>Setmore (gratis hasta 4 empleados):</strong> plan gratuito generoso. Agenda por profesional, tipos de servicio con duración, confirmaciones automáticas. No tiene funciones específicas de tatuaje pero es funcional y gratis.</li></ul><p><strong>Si tu estudio tiene 1-2 artistas, Cal.com gratis es perfecto.</strong> Si tenés más artistas o querés funciones específicas del rubro (consentimiento digital, portfolio integrado), TattooPlan vale la pena.</p>"
+      },
+      {
+        "heading": "Duración variable y gestión de sesiones",
+        "body": "<p>El principal desafío técnico del booking en tatuaje es la <strong>duración variable</strong>. No es como una peluquería donde un corte siempre dura 30 minutos. En tatuaje, el mismo tipo de sesión puede durar entre 1 y 8 horas.</p><p><strong>¿Cómo resolverlo?</strong></p><ul><li><strong>Categorías de duración:</strong> en vez de que el cliente ponga las horas, le das opciones: \"Pieza chica (1-2 horas)\", \"Pieza mediana (3-4 horas)\", \"Sesión larga (5-6 horas)\", \"Sesión full day (7-8 horas)\". Cada categoría bloquea el tiempo correspondiente.</li><li><strong>Consulta previa obligatoria para piezas grandes:</strong> para sesiones de más de 4 horas, podés configurar que primero se agende una consulta. En la consulta definís la duración exacta y agendás la sesión con el tiempo correcto.</li><li><strong>Sesiones de seguimiento:</strong> para piezas multisesión (manga, espalda), el artista agenda la siguiente sesión al terminar la actual. El sistema guarda el historial de sesiones por pieza.</li></ul><p>La clave es que el cliente no tenga que adivinar cuánto dura. <strong>El sistema lo guía</strong> y el artista ajusta después de la consulta si es necesario.</p>"
+      },
+      {
+        "heading": "Señas, pagos y política de cancelación",
+        "body": "<p>La seña es parte fundamental del negocio del tatuaje. El sistema de turnos tiene que manejar el flujo de pagos:</p><ul><li><strong>Seña al reservar:</strong> el cliente paga un monto fijo (ej: $10.000 - $20.000) o un porcentaje (ej: 20% del presupuesto) al confirmar el turno. Sin seña, el turno queda en \"pendiente\" y no bloquea la agenda.</li><li><strong>Pasarela de pago:</strong> MercadoPago es la opción natural en Argentina. También Stripe para pagos con tarjeta internacional. El pago se procesa automáticamente al reservar.</li><li><strong>Política de cancelación automática:</strong> \"Cancelación con más de 48 horas: se reprograma sin costo. Cancelación con menos de 48 horas: se pierde la seña.\" El sistema aplica la política automáticamente.</li><li><strong>Recordatorios con confirmación:</strong> mensaje 48 horas antes: \"Tenés turno el viernes a las 14:00 con [artista]. ¿Confirmás? Recordá que cancelaciones con menos de 48 horas pierden la seña.\"</li></ul><p>Este flujo <strong>reduce los no-shows drásticamente</strong>. El cliente que pagó seña viene. Y si no viene, al menos cobraste algo por el tiempo reservado.</p>"
+      },
+      {
+        "heading": "Consulta inicial vs sesión de tatuaje",
+        "body": "<p>Diferenciar entre consulta y sesión es clave para un estudio de tatuaje profesional:</p><p><strong>Consulta inicial (15-30 minutos):</strong></p><ul><li>El cliente explica qué quiere, muestra referencias.</li><li>El artista evalúa tamaño, ubicación, complejidad.</li><li>Se define presupuesto y cantidad de sesiones.</li><li>No tiene costo o tiene un costo mínimo que se descuenta del tatuaje.</li></ul><p><strong>Sesión de tatuaje (1-8 horas):</strong></p><ul><li>Se agenda después de la consulta (para piezas medianas/grandes) o directamente (para piezas chicas).</li><li>Requiere seña confirmada.</li><li>El artista necesita el turno previo libre para preparar el diseño y el setup.</li></ul><p>El sistema tiene que manejar estos dos flujos de forma separada. La consulta es un tipo de turno corto, sin seña obligatoria. La sesión es un turno largo, con seña y con tiempo de preparación previo.</p><p>Mirá nuestra guía de <a href=\"/blog/como-crear-sistema-de-turnos-online\">cómo crear un sistema de turnos online</a> para más detalles técnicos.</p>"
+      },
+      {
+        "heading": "Cómo elegir el sistema correcto para tu estudio",
+        "body": "<p>Tres preguntas para decidir:</p><ul><li><strong>¿Cuántos artistas tenés?</strong> 1-2 → Cal.com gratis. 3-5 → TattooPlan o Cal.com Pro. Más de 5 → evaluá desarrollo a medida.</li><li><strong>¿Necesitás cobrar señas online?</strong> Si sí, necesitás integración con pasarela de pago. Cal.com integra Stripe, TattooPlan integra varias opciones. En desarrollo a medida, MercadoPago es lo más práctico en Argentina.</li><li><strong>¿Hacés piezas multisesión?</strong> Si la mayoría de tu trabajo son piezas grandes que llevan 3-5 sesiones, necesitás un sistema que maneje el seguimiento por pieza. Eso es más fácil con desarrollo a medida.</li></ul><p><strong>Costo de desarrollo a medida:</strong> entre $800.000 y $2.500.000 ARS dependiendo de la complejidad. Incluye booking por artista, señas online, portfolio integrado, consentimiento digital y panel de gestión.</p><p>Nuestra recomendación: <strong>arrancá con Cal.com</strong>, un calendario por artista, tipos de turno con duración y link de pago para señas. Validá que funciona y después escalá. Si no sabés por dónde empezar, <strong><a href=\"/diagnostico\">pedí tu diagnóstico gratuito</a></strong>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo cobrar señas online con un sistema de turnos?",
+        "answer": "Sí. Cal.com integra con Stripe para cobrar al reservar. TattooPlan tiene su propio sistema de pagos. En desarrollo a medida, se integra con MercadoPago que es lo más usado en Argentina. El turno se confirma solo cuando se acredita el pago."
+      },
+      {
+        "question": "¿Cómo manejo las duraciones variables de los tatuajes?",
+        "answer": "Con categorías predefinidas: pieza chica (1-2h), mediana (3-4h), sesión larga (5-6h), full day (7-8h). Para piezas grandes, la consulta previa permite definir la duración exacta. El sistema bloquea el tiempo correcto en la agenda."
+      },
+      {
+        "question": "¿Puedo diferenciar entre consulta inicial y sesión?",
+        "answer": "Sí, son dos tipos de turno distintos. La consulta es corta (15-30 min), generalmente sin seña. La sesión es larga, con seña obligatoria. El cliente elige qué tipo de turno quiere al reservar."
+      },
+      {
+        "question": "¿Los artistas pueden gestionar su propia agenda?",
+        "answer": "Sí, cada artista tiene acceso a su calendario, puede bloquear días, marcar vacaciones y ver sus reservas. El dueño del estudio tiene visión global de todas las agendas."
+      },
+      {
+        "question": "¿Un sistema de turnos reemplaza los DM de Instagram?",
+        "answer": "Para la reserva, sí. El cliente hace todo desde el sistema: elige artista, tipo de turno, paga seña y recibe confirmación. Los DM quedan para consultas generales, envío de referencias y comunicación directa con el artista."
+      }
+    ],
+    "ctaText": "¿Querés un sistema de booking que ordene las agendas de tus artistas, cobre señas automáticamente y profesionalice tu estudio? En SODI diseñamos soluciones de turnos para estudios de tatuaje. <a href=\"/diagnostico\">Hacé tu diagnóstico gratuito</a>."
+  }
+}

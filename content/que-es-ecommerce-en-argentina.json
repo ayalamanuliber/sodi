@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-ecommerce-en-argentina",
+  "title": "Qué es el Ecommerce en Argentina: Tipos, Mercado y Plataformas",
+  "metaTitle": "Qué es el Ecommerce en Argentina | SODI",
+  "metaDescription": "Guía introductoria al ecommerce en Argentina. Tipos (B2C, B2B, marketplace vs propia), tamaño del mercado, plataformas y cómo arrancar.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["ecommerce argentina", "tienda online", "marketplace", "B2C", "plataformas ecommerce"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "como-crear-tienda-online-argentina", "mercado-libre-vs-tienda-propia", "como-vender-por-internet-argentina"],
+  "content": {
+    "intro": "<p>Ecommerce es simplemente vender productos o servicios por internet. Suena obvio, pero el mercado argentino de comercio electrónico ya supera los USD 25.000 millones anuales y crece a dos dígitos cada año. Si tenés un negocio y no estás vendiendo online, estás perdiendo una parte enorme del mercado.</p><p>En esta guía te explicamos los distintos tipos de ecommerce, cómo está el mercado argentino hoy, las diferencias entre vender en un marketplace y tener tu propia tienda, y qué plataformas existen para que arranques.</p>",
+    "sections": [
+      {
+        "heading": "Tipos de ecommerce: B2C, B2B, C2C y D2C",
+        "body": "<p>No todo el ecommerce es igual. Según quién le vende a quién, hay distintos modelos:</p><p><strong>B2C (Business to Consumer):</strong> Empresa le vende al consumidor final. Es el modelo más conocido. Ejemplos: una tienda de ropa que vende por su web, Mercado Libre, Tiendanube. Si tenés un local y querés vender online, este es tu modelo.</p><p><strong>B2B (Business to Business):</strong> Empresa le vende a otra empresa. Proveedores, distribuidores, mayoristas. Funciona diferente: los pedidos son más grandes, los precios se negocian, hay crédito comercial. Ejemplos: un fabricante de insumos industriales que recibe pedidos por su portal web.</p><p><strong>C2C (Consumer to Consumer):</strong> Personas vendiéndole a personas. Mercado Libre en su versión más básica, Facebook Marketplace, Vinted. Si vendés cosas usadas por internet, hacés C2C.</p><p><strong>D2C (Direct to Consumer):</strong> La marca vende directo al consumidor sin intermediarios. Es la tendencia que más crece. En vez de vender solo por Mercado Libre, la marca tiene su propia tienda online. Beneficio: más margen, más control sobre la experiencia del cliente, datos propios.</p><p>Para la mayoría de las PyMEs argentinas, el camino es empezar en B2C (idealmente D2C con tienda propia) y complementar con presencia en marketplaces.</p>"
+      },
+      {
+        "heading": "El mercado del ecommerce en Argentina: números reales",
+        "body": "<p>Argentina es uno de los mercados de ecommerce más grandes de Latinoamérica. Algunos datos clave:</p><ul><li><strong>Facturación anual:</strong> más de USD 25.000 millones (y creciendo)</li><li><strong>Compradores online:</strong> más de 25 millones de argentinos compraron online en el último año</li><li><strong>Crecimiento:</strong> entre 20-30% anual en los últimos años, impulsado por la adopción post-pandemia y la mejora en logística</li><li><strong>Mobile:</strong> más del 70% de las compras se hacen desde celulares</li><li><strong>Medios de pago:</strong> Mercado Pago domina, seguido por tarjetas de crédito y transferencias bancarias</li><li><strong>Categorías líderes:</strong> electrónica, indumentaria, alimentos y bebidas, hogar, belleza</li></ul><p>Lo interesante es que todavía hay mucho espacio para crecer. En países como Brasil o México, el ecommerce representa un porcentaje mayor del comercio total. Argentina tiene margen de crecimiento enorme, especialmente fuera de CABA y GBA donde la adopción es menor.</p><p>Los eventos como Hot Sale, Cyber Monday y Black Friday concentran picos de venta pero el comercio electrónico cotidiano es lo que realmente mueve la aguja a lo largo del año.</p>"
+      },
+      {
+        "heading": "Marketplace vs tienda propia: ventajas y desventajas",
+        "body": "<p>Esta es la decisión más importante cuando empezás a vender online:</p><p><strong>Marketplace (Mercado Libre, Amazon, etc.):</strong></p><ul><li>Ventajas: tráfico ya existente (millones de compradores), confianza del comprador, logística integrada (Mercado Envíos), no necesitás un sitio web</li><li>Desventajas: comisiones altas (12-30% del precio de venta en Mercado Libre), competís por precio contra todos, no tenés datos del cliente, dependés de las reglas de la plataforma</li><li>Ideal para: empezar rápido, validar productos, llegar a volumen</li></ul><p><strong>Tienda propia (Tiendanube, WooCommerce, Shopify, etc.):</strong></p><ul><li>Ventajas: cero comisiones por venta (pagás solo la pasarela de pagos), controlás la experiencia, construís tu base de datos, hacés remarketing, fortalecés tu marca</li><li>Desventajas: tenés que generar tu propio tráfico (publicidad, SEO, redes), necesitás invertir en la tienda y su mantenimiento</li><li>Ideal para: construir marca a largo plazo, mejorar márgenes, independencia</li></ul><p><strong>La respuesta correcta:</strong> no es una u otra, son las dos. Usá Mercado Libre para captar volumen y tráfico. Usá tu tienda propia para construir marca, retener clientes y tener mejores márgenes. Con el tiempo, el objetivo es que tu tienda propia crezca en participación.</p>"
+      },
+      {
+        "heading": "Plataformas de ecommerce para Argentina",
+        "body": "<p>Si decidís tener tu tienda propia, estas son las plataformas más usadas en Argentina:</p><p><strong>Tiendanube:</strong></p><ul><li>La más popular en Argentina y Latinoamérica</li><li>Integración nativa con Mercado Pago, Correo Argentino, Andreani</li><li>Planes desde gratis (con limitaciones) hasta $30.000+ ARS/mes</li><li>Fácil de usar, no necesitás saber programar</li><li>Ideal para: la mayoría de las PyMEs argentinas</li></ul><p><strong>WooCommerce (WordPress):</strong></p><ul><li>Plugin gratuito sobre WordPress</li><li>Máxima flexibilidad y personalización</li><li>Necesitás hosting propio y algo de conocimiento técnico (o alguien que lo maneje)</li><li>Ideal para: negocios que necesitan funcionalidades a medida</li></ul><p><strong>Shopify:</strong></p><ul><li>Plataforma internacional muy robusta</li><li>Precios en dólares (desde USD 29/mes + comisiones)</li><li>Excelente para escalar internacionalmente</li><li>Ideal para: marcas que quieren vender también al exterior</li></ul><p><strong>Empretienda:</strong></p><ul><li>Alternativa argentina económica</li><li>Planes desde precios muy accesibles</li><li>Funcionalidades básicas pero suficientes para empezar</li><li>Ideal para: emprendedores con presupuesto muy limitado</li></ul>"
+      },
+      {
+        "heading": "Medios de pago y logística en Argentina",
+        "body": "<p>Dos pilares fundamentales del ecommerce argentino:</p><p><strong>Medios de pago:</strong></p><ul><li><strong>Mercado Pago:</strong> El líder absoluto. Acepta tarjetas, transferencias, efectivo (Rapipago/Pago Fácil) y billetera virtual. Comisión: alrededor del 4-5% + IVA por transacción. Ofrece cuotas sin interés que el vendedor puede absorber.</li><li><strong>Modo:</strong> La billetera digital de los bancos argentinos. Crece rápido y tiene menor comisión que Mercado Pago para algunos rubros.</li><li><strong>Tarjetas de crédito directo:</strong> A través de gateways como Decidir o PayU. Comisiones similares a Mercado Pago pero con más control.</li><li><strong>Transferencia bancaria:</strong> Sin comisión pero sin protección al comprador. Usala como complemento, no como único medio.</li></ul><p><strong>Logística:</strong></p><ul><li><strong>Mercado Envíos:</strong> Si vendés en Mercado Libre, la logística está resuelta. Para tienda propia, podés usar Mercado Envíos Flex.</li><li><strong>Andreani, OCA, Correo Argentino:</strong> Los operadores clásicos. Cada uno tiene sus zonas fuertes. Compará tarifas porque varían mucho según destino y peso.</li><li><strong>Envío por moto/cadete:</strong> Para CABA y GBA, servicios como Pedidos Ya Envíos o cadetes propios para entrega en el día.</li><li><strong>Retiro en punto de entrega:</strong> Cada vez más popular. Redes como Pick It o puntos de correo permiten que el comprador retire cuando quiera.</li></ul>"
+      },
+      {
+        "heading": "Cómo arrancar con tu ecommerce: primeros pasos",
+        "body": "<p>Si todavía no vendés online, estos son los pasos concretos para empezar:</p><ol><li><strong>Definí tu modelo:</strong> ¿Vas a vender en marketplace, tienda propia o ambos? Para la mayoría, la respuesta es ambos.</li><li><strong>Elegí tu plataforma:</strong> Si sos PyME argentina y querés algo rápido, Tiendanube. Si necesitás algo a medida, WooCommerce con un desarrollador.</li><li><strong>Armá tu catálogo:</strong> Fotos de calidad (un celular bueno con buena luz alcanza), descripciones completas con medidas/materiales/beneficios, precios claros.</li><li><strong>Configurá medios de pago:</strong> Mercado Pago como mínimo. Sumá transferencia y si podés, cuotas sin interés.</li><li><strong>Definí tu logística:</strong> Precios de envío, zonas de cobertura, tiempos de entrega. Sé realista y transparente.</li><li><strong>Lanzá y promocioná:</strong> No alcanza con abrir la tienda. Necesitás tráfico: redes sociales, Google Ads, WhatsApp Business, SEO.</li></ol><p>El error más común es querer que todo sea perfecto antes de lanzar. Arrancá con 10-20 productos, probá, aprendé de los primeros clientes y mejorá sobre la marcha. La tienda perfecta no existe; la que vende es la que está online.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Es obligatorio tener CUIT para vender online?",
+        "answer": "Si vendés de forma regular, sí. Necesitás estar inscripto como monotributista o responsable inscripto, tener CUIT y emitir factura. Plataformas como Mercado Libre y Tiendanube te piden datos fiscales. Consultá con tu contador para la categoría correcta."
+      },
+      {
+        "question": "¿Cuánto cuesta tener una tienda online en Argentina?",
+        "answer": "Desde gratis (plan básico de Tiendanube o WooCommerce en hosting compartido) hasta $50.000-100.000 ARS/mes para tiendas profesionales con diseño a medida. El costo promedio de una PyME es entre $10.000 y $40.000 ARS/mes incluyendo plataforma y hosting."
+      },
+      {
+        "question": "¿Conviene más vender en Mercado Libre o en mi propia tienda?",
+        "answer": "No es uno u otro: conviene estar en ambos. Mercado Libre te da volumen y tráfico inmediato pero con comisiones altas. Tu tienda propia te da mejores márgenes y control. Con el tiempo, enfocate en crecer tu tienda propia."
+      },
+      {
+        "question": "¿Cuánto puedo esperar vender en mi primer mes?",
+        "answer": "Depende mucho de tu producto y de cuánto inviertas en marketing. Una tienda nueva sin publicidad puede hacer 5-15 ventas en el primer mes. Con publicidad activa en Google y Meta, podés multiplicar eso por 3-5. Las expectativas realistas son que los primeros 3 meses son de aprendizaje y ajuste."
+      }
+    ],
+    "ctaText": "¿Querés arrancar a vender online con una tienda profesional? En SODI diseñamos y desarrollamos tu ecommerce a medida, integrado con los medios de pago y logística que necesitás. Hablemos."
+  }
+}

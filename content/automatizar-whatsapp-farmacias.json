@@ -1,0 +1,53 @@
+{
+  "slug": "automatizar-whatsapp-farmacias",
+  "title": "Cómo automatizar WhatsApp para farmacias: pedidos, recordatorios y fidelización",
+  "metaTitle": "Automatizar WhatsApp para Farmacias | SODI",
+  "metaDescription": "Automatizá pedidos, recordatorios de medicación, confirmaciones y promociones de tu farmacia por WhatsApp. Más ventas, menos mostrador.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["farmacias", "WhatsApp Business", "pedidos online", "recordatorio medicación", "delivery farmacia"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-farmacias", "presencia-digital-ideal-farmacia", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Tu farmacia recibe los mismos mensajes de WhatsApp todos los días: \"¿Tenés [medicamento]?\", \"¿Hasta qué hora están?\", \"¿Hacen delivery?\". Y alguien del equipo para de atender el mostrador para responder. <strong>Cada mensaje que contestás manual es tiempo que le sacás a la atención presencial.</strong></p><p>Automatizar WhatsApp para tu farmacia no es solo responder más rápido — es abrir un <strong>canal de pedidos, recordatorios de medicación y fidelización</strong> que funciona 24/7 sin que nadie tenga que estar pendiente del celular.</p>",
+    "sections": [
+      {
+        "heading": "Qué mensajes automatizar en una farmacia",
+        "body": "<p>Estos son los mensajes que representan el <strong>85% del volumen de WhatsApp</strong> de una farmacia y se automatizan perfecto:</p><ul><li><strong>Disponibilidad de productos:</strong> \"¿Tenés [medicamento]?\" → bot consulta si está en catálogo y responde disponibilidad, o deriva a un farmacéutico.</li><li><strong>Horarios y guardias:</strong> \"¿Hasta qué hora están?\" / \"¿Están de guardia?\" → respuesta automática con horarios actualizados.</li><li><strong>Confirmación de pedidos:</strong> cliente manda foto de receta → bot confirma recepción: \"Recibimos tu receta. Te confirmamos disponibilidad y precio en [X] minutos.\"</li><li><strong>Pedido listo para retirar:</strong> \"Tu pedido está listo. Podés retirarlo hasta las [hora] o te lo mandamos por delivery ($[precio]).\"</li><li><strong>Recordatorio de medicación crónica:</strong> \"Hola [nombre], se acerca la fecha de renovar tu [medicamento]. ¿Te lo preparamos?\"</li></ul><p>Automatizar estos mensajes libera entre <strong>2 y 3 horas diarias</strong> de atención al celular que tu equipo puede usar en el mostrador.</p>"
+      },
+      {
+        "heading": "Flujo de pedidos por WhatsApp",
+        "body": "<p>El flujo de pedidos es el que más impacto tiene en la facturación de una farmacia:</p><ol><li>\"Hola, bienvenido/a a Farmacia [nombre]. ¿Qué necesitás?\" → opciones: Hacer un pedido / Consultar disponibilidad / Horarios / Hablar con un farmacéutico.</li><li>Si elige \"Hacer un pedido\" → \"Mandanos la foto de tu receta o escribí lo que necesitás.\"</li><li>Cliente manda foto de receta → \"Recibimos tu receta. Te confirmamos disponibilidad y total en los próximos minutos.\"</li><li>Farmacéutico revisa y el sistema envía: \"Tu pedido está listo: [detalle + precio]. ¿Retirás en local o preferís delivery?\"</li><li>Si elige delivery → \"Ingresá tu dirección. Costo de envío: $[precio]. Te llega en [X] minutos.\"</li><li>Confirmación: \"Tu pedido sale en camino. Te avisamos cuando esté llegando.\"</li></ol><p>Este flujo convierte una <strong>consulta de WhatsApp en una venta en menos de 5 minutos</strong>. Las farmacias que implementan pedidos por WhatsApp reportan un aumento del <strong>20-30% en facturación</strong> — especialmente de clientes que antes no venían porque les quedaba lejos o no tenían tiempo.</p>"
+      },
+      {
+        "heading": "Recordatorios de medicación crónica",
+        "body": "<p>Este es el diferenciador que <strong>ninguna cadena grande hace bien</strong> y que una farmacia de barrio puede aprovechar:</p><ul><li><strong>Base de clientes crónicos:</strong> armá una lista de clientes que compran el mismo medicamento todos los meses (hipertensión, diabetes, tiroides, anticonceptivos).</li><li><strong>Recordatorio mensual:</strong> \"Hola [nombre], se acerca la fecha de tu [medicamento]. ¿Te lo preparamos para retirar o te lo mandamos?\"</li><li><strong>Alerta de receta:</strong> \"Tu receta vence el [fecha]. Recordá sacar turno con tu médico para renovarla.\"</li><li><strong>Seguimiento:</strong> si no responde en 3 días: \"¿Pudiste renovar tu medicación? Si necesitás ayuda, escribinos.\"</li></ul><p>Esta secuencia genera una <strong>fidelización brutal</strong>. El cliente siente que su farmacia se preocupa por su salud, no solo por venderle. Y vos asegurás una venta recurrente todos los meses sin depender de que se acuerde de venir.</p><p>Farmacias que implementan recordatorios de medicación crónica retienen al <strong>90%+ de estos clientes</strong> vs. el 60-70% sin recordatorio.</p>"
+      },
+      {
+        "heading": "Promociones y fidelización por WhatsApp",
+        "body": "<p>WhatsApp es el canal perfecto para promociones de farmacia porque llega directo y se lee:</p><ul><li><strong>Ofertas semanales:</strong> \"Esta semana 20% off en toda la línea de protección solar. Pedí por acá o pasá por el local.\"</li><li><strong>Promociones por segmento:</strong> a clientes que compran dermis → ofertas de dermis. A clientes con hijos → ofertas de pañales y pediatría. Segmentar es clave.</li><li><strong>Programa de puntos:</strong> \"Sumaste 150 puntos este mes. Con 200 te ganás un [producto]. ¿Querés ver tu saldo?\"</li><li><strong>Fechas especiales:</strong> Día de la Madre, vuelta al cole, temporada de gripe → campañas específicas por WhatsApp.</li><li><strong>Cross-selling inteligente:</strong> si compró protector solar → sugerir after-sun. Si compró antigripal → sugerir vitamina C. El bot puede hacer estas sugerencias automáticamente.</li></ul><p>La clave es <strong>no saturar</strong>. Máximo 2-3 mensajes promocionales por semana. Si mandás más, te silencian o bloquean.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para farmacias",
+        "body": "<p>Las opciones más usadas en farmacias argentinas:</p><ul><li><strong>WhatsApp Business (gratis):</strong> catálogo de productos, respuestas rápidas, listas de difusión. Suficiente para farmacias que reciben menos de 20 pedidos por día.</li><li><strong>Bots con Wati o Botmaker (desde USD 25/mes):</strong> flujos de pedido, recordatorios automáticos, segmentación de clientes.</li><li><strong>Integración con sistema de gestión (desde USD 400 setup):</strong> stock en tiempo real, pedidos que se cargan solos al sistema, facturación automática.</li></ul><p>El ROI: si con delivery y pedidos por WhatsApp sumás <strong>10 pedidos diarios de $8.000 promedio</strong>, son $1.600.000 extra por mes en facturación. El costo del bot ni se siente.</p><p>Combiná WhatsApp con una <a href=\"/blog/pagina-web-para-farmacias\">página web de farmacia</a> que muestre tu catálogo y el circuito se completa: el cliente encuentra tu farmacia en Google, ve tus productos en la web y te escribe por WhatsApp para pedir.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Se pueden vender medicamentos con receta por WhatsApp?",
+        "answer": "Podés recibir la foto de la receta y preparar el pedido, pero la entrega debe cumplir con la normativa vigente. El farmacéutico siempre tiene que validar la receta. Consultá la regulación de tu jurisdicción para delivery de medicamentos."
+      },
+      {
+        "question": "¿Cuántos pedidos por día justifican automatizar?",
+        "answer": "Si recibís más de 10-15 consultas diarias por WhatsApp, la automatización ya se justifica. Si hacés delivery, el flujo de pedidos automatizado es imprescindible desde el primer día."
+      },
+      {
+        "question": "¿El recordatorio de medicación crónica es legal?",
+        "answer": "Sí, siempre que el cliente haya dado su consentimiento para recibir mensajes. Es un servicio de valor agregado, no publicidad. Pedí consentimiento explícito al momento de la primera compra."
+      }
+    ],
+    "ctaText": "¿Tu farmacia pierde ventas por no responder a tiempo? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos un sistema de pedidos y fidelización por WhatsApp."
+  }
+}

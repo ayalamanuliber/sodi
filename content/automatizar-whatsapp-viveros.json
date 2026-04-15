@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-viveros",
+  "title": "Cómo automatizar WhatsApp para viveros: alertas de stock, tips de cuidado y fidelización",
+  "metaTitle": "Automatizar WhatsApp para Viveros | SODI",
+  "metaDescription": "Automatizá tu vivero por WhatsApp: alertas de disponibilidad estacional, tips de cuidado post-compra, delivery y programa de fidelización.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["viveros", "WhatsApp Business", "automatización", "plantas", "fidelización"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-viveros", "redes-sociales-para-viveros", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Los viveros tienen un problema que pocos rubros tienen: <strong>el producto necesita cuidado después de la compra</strong>. Un cliente compra un helecho, se le muere en dos semanas y no vuelve nunca más pensando que \"no tiene mano para las plantas\". Pero si le hubieras mandado un mensaje con tips de cuidado, capaz lo salvaba.</p><p>WhatsApp automatizado en un vivero no es solo para vender: es para <strong>educar, fidelizar y generar recompra</strong>. Alertas de stock estacional, recordatorios de riego, tips post-compra y programas de puntos. Todo desde el canal donde tu cliente ya vive.</p>",
+    "sections": [
+      {
+        "heading": "Qué automatizar en un vivero por WhatsApp",
+        "body": "<p>Un vivero tiene flujos de comunicación que se repiten constantemente. Estos son los que más conviene <strong>automatizar</strong>:</p><ul><li><strong>Consulta de disponibilidad:</strong> \"¿Tenés monstera?\" → el bot responde si hay stock, precio y foto. El 40% de los mensajes que recibe un vivero son consultas de stock.</li><li><strong>Tips de cuidado post-compra:</strong> al día siguiente de la compra, mandás un mensaje con cuidados específicos de la planta que se llevó. \"Tu Potus necesita luz indirecta y riego cada 5-7 días.\"</li><li><strong>Alertas de temporada:</strong> \"Llegaron los rosales de primavera\" o \"Últimas unidades de azaleas\". Mensajes masivos segmentados por interés.</li><li><strong>Delivery y retiro:</strong> confirmación de pedido, estado del envío, aviso de que está listo para retirar.</li><li><strong>Programa de fidelización:</strong> \"Llevás 5 compras, en la próxima tenés 20% off.\" Seguimiento automático.</li></ul><p>La consulta de disponibilidad automatizada sola te <strong>ahorra horas por semana</strong>. En vez de responder 30 veces \"sí, tenemos\" o \"no, se agotó\", el bot lo resuelve al instante.</p>"
+      },
+      {
+        "heading": "Tips de cuidado automatizados: la clave de la fidelización",
+        "body": "<p>Este es el diferencial que transforma un vivero común en uno que <strong>genera clientes de por vida</strong>:</p><ul><li><strong>Mensaje de bienvenida post-compra:</strong> \"Gracias por tu compra. Te vamos a mandar tips para que tu [planta] dure muchos años. ¿Querés recibirlos?\" Opt-in para no ser invasivo.</li><li><strong>Serie de cuidados (día 1, semana 1, mes 1):</strong> \"Día 1: no la riegues hoy, dejala adaptarse al nuevo ambiente.\" → \"Semana 1: revisá si la tierra está seca antes de regar.\" → \"Mes 1: si notás hojas amarillas, puede ser exceso de riego.\"</li><li><strong>Tips estacionales:</strong> en invierno: \"Tus plantas de interior necesitan menos riego. Reducí la frecuencia a la mitad.\" En verano: \"Con el calor, regá temprano a la mañana o después de las 18 hs.\"</li><li><strong>Alerta de plagas comunes:</strong> \"En esta época es común la cochinilla. Revisá el envés de las hojas y contactanos si ves manchas blancas.\"</li></ul><p>Un cliente que recibe tips de cuidado <strong>tiene 3 veces más probabilidad de volver a comprar</strong>. La planta sobrevive, el cliente se siente exitoso y asocia esa experiencia con tu vivero. Es el ciclo perfecto de retención.</p>"
+      },
+      {
+        "heading": "Alertas de disponibilidad y campañas estacionales",
+        "body": "<p>Los viveros trabajan con <strong>stock estacional y limitado</strong>. WhatsApp automatizado te permite aprovechar esa urgencia natural:</p><ul><li><strong>Lista de espera por especie:</strong> \"La monstera variegata se agotó. ¿Querés que te avisemos cuando llegue?\" → Cuando llega, el bot notifica automáticamente a todos los que se anotaron.</li><li><strong>Campañas de primavera:</strong> \"Arrancó la temporada de rosales. Este año tenemos 12 variedades. ¿Querés ver el catálogo?\" → Catálogo con fotos y precios por WhatsApp.</li><li><strong>Alertas de stock limitado:</strong> \"Llegaron 20 calatheas ornata. Se agotan rápido. Reservá la tuya respondiendo este mensaje.\"</li><li><strong>Combos estacionales:</strong> \"Combo balcón de invierno: 3 plantas resistentes al frío + macetas + sustrato por $X. Solo esta semana.\"</li></ul><p>La clave de estas campañas es la <strong>segmentación</strong>. No le mandés alertas de cactus a alguien que solo compra plantas de interior. Etiquetá a tus clientes por tipo de planta preferida y enviá mensajes relevantes.</p>"
+      },
+      {
+        "heading": "Delivery, pedidos y programa de fidelización",
+        "body": "<p>Automatizar la <strong>operación de delivery</strong> por WhatsApp simplifica todo el proceso:</p><ul><li><strong>Pedido por catálogo:</strong> el cliente ve el catálogo en WhatsApp (o en tu web), elige y confirma. El bot le muestra opciones de entrega y pago.</li><li><strong>Confirmación automática:</strong> \"Tu pedido #123 fue confirmado. Incluye: 1 Monstera, 1 maceta cerámica, sustrato. Total: $X. Delivery: jueves entre 10 y 14 hs.\"</li><li><strong>Aviso de envío:</strong> \"Tu pedido está en camino. Estimado de llegada: 12:30 hs. El repartidor es Juan, tel: [número].\"</li><li><strong>Post-entrega:</strong> \"¿Llegó todo bien? Recordá: no la riegues hoy, dejala descansar del viaje. Mañana te mandamos los tips de cuidado.\"</li><li><strong>Programa de puntos:</strong> \"Acumulás 1 punto por cada $1.000 de compra. Con 10 puntos tenés un 20% de descuento. Hoy llevás 7 puntos.\"</li></ul><p>El programa de fidelización por WhatsApp funciona mejor que las tarjetas físicas porque el cliente <strong>siempre tiene el celular encima</strong>. No pierde la tarjeta, no se olvida. El bot le recuerda cuántos puntos tiene.</p>"
+      },
+      {
+        "heading": "Herramientas y costos para implementar en tu vivero",
+        "body": "<p>Opciones según el tamaño de tu vivero:</p><ul><li><strong>WhatsApp Business gratis:</strong> catálogo de productos, respuestas rápidas (\"Sí, tenemos stock\", \"Nuestros horarios son...\"), etiquetas por tipo de cliente. Suficiente para viveros chicos.</li><li><strong>Bots SaaS (Cliengo, Botmaker, desde USD 25/mes):</strong> flujos automatizados de consulta, catálogo interactivo, alertas masivas. Para viveros medianos con delivery.</li><li><strong>Desarrollo custom (desde USD 250 setup):</strong> integración con sistema de stock, programa de fidelización personalizado, CRM con historial de compras. Para viveros grandes o cadenas.</li></ul><p>El ROI es claro: si automatizar te <strong>ahorra 2 horas diarias</strong> de responder \"¿tenés tal planta?\" y genera un 15% más de recompra con los tips de cuidado, se paga solo en el primer mes.</p><p>Combiná WhatsApp con una <a href=\"/blog/pagina-web-para-viveros\">web profesional</a> y <a href=\"/blog/redes-sociales-para-viveros\">redes sociales bien armadas</a> para un ecosistema digital completo. <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Los tips de cuidado automatizados no son invasivos?",
+        "answer": "No si pedís permiso primero. Mandá un mensaje post-compra preguntando '¿Querés recibir tips de cuidado para tu planta?' con opción de responder Sí o No. La mayoría dice que sí porque les da valor real. Y siempre ofrecé la opción de dejar de recibir mensajes."
+      },
+      {
+        "question": "¿Cómo segmento a mis clientes por tipo de planta?",
+        "answer": "Usá las etiquetas de WhatsApp Business: 'Interior', 'Exterior', 'Suculentas', 'Huerta', 'Jardín'. Cada vez que alguien compra, etiquetalo. Así cuando lleguen suculentas nuevas, le avisás solo a los que compran suculentas."
+      },
+      {
+        "question": "¿Puedo enviar catálogos con fotos por WhatsApp?",
+        "answer": "Sí. WhatsApp Business permite crear catálogos con fotos, descripciones y precios. También podés enviar PDFs o links a tu web. Lo más efectivo es un carrusel de fotos con las novedades de la semana y un botón para consultar."
+      },
+      {
+        "question": "¿Funciona para viveros que no hacen delivery?",
+        "answer": "Absolutamente. Las alertas de stock, tips de cuidado y programa de fidelización funcionan igual para viveros que solo venden en el local. El delivery es un extra, no un requisito. El mayor valor está en la fidelización post-compra."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva implementar todo esto?",
+        "answer": "Con WhatsApp Business gratis, en una tarde tenés respuestas rápidas y catálogo armado. Un bot básico con flujos automatizados se configura en 1-2 semanas. Un sistema completo con CRM e integración de stock, 3-4 semanas. Empezá por lo gratis y escalá."
+      }
+    ],
+    "ctaText": "¿Querés que tu vivero venda más y fidelice clientes por WhatsApp? Pedí un diagnóstico gratuito y te mostramos cómo automatizar tu comunicación."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-panaderias",
+  "title": "Automatizar WhatsApp para panaderías: pedidos, encargos y fidelización con bots",
+  "metaTitle": "Automatizar WhatsApp para Panaderías Argentina | SODI",
+  "metaDescription": "Cómo automatizar WhatsApp en tu panadería. Bots para pedidos, encargos de tortas, confirmaciones de delivery y fidelización de clientes.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["panaderías", "WhatsApp Business", "automatización", "bots WhatsApp", "pedidos online"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-panaderias-confiterias", "presencia-digital-ideal-panaderia", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Tu panadería recibe pedidos por WhatsApp todo el día: \"¿Tenés facturas?\", \"¿Puedo encargar una torta para el sábado?\", \"¿Hasta qué hora hacen delivery?\", \"¿Cuánto sale una docena de medialunas?\". <strong>Responder cada mensaje a mano mientras atendés el mostrador es insostenible</strong> — y cada mensaje sin responder es un pedido que no se concreta.</p><p>Automatizar WhatsApp en tu panadería significa que los pedidos entren solos, los encargos se confirmen al instante y vos te dediques a lo que mejor hacés: hornear. En esta guía te mostramos cómo hacerlo paso a paso. Si todavía no tenés presencia digital, arrancá por tu <a href=\"/blog/pagina-web-para-panaderias-confiterias\">página web para panaderías</a>.</p>",
+    "sections": [
+      {
+        "heading": "Flujos de automatización esenciales para panaderías",
+        "body": "<p>Estos son los flujos que más diferencia hacen en el día a día de una panadería:</p><ul><li><strong>Pedidos del día:</strong> el cliente escribe, el bot muestra el menú del día (facturas, panes, medialunas, sándwiches), el cliente elige y confirma. Vos recibís el pedido armado y listo.</li><li><strong>Encargos de tortas y productos especiales:</strong> el bot guía al cliente: \"¿Para cuántas personas? ¿Qué relleno? ¿Con decoración? ¿Para qué fecha?\". Recopila todo y te lo pasa organizado.</li><li><strong>Confirmación de pedido y delivery:</strong> automáticamente: \"Tu pedido fue recibido. Lo tenemos listo para las [hora]. ¿Retirás o te lo llevamos?\". Y cuando sale el delivery: \"Tu pedido va en camino\".</li><li><strong>Consultas frecuentes:</strong> horarios, dirección, si hacen envíos, medios de pago, si tienen productos sin TACC. Respuestas instantáneas.</li><li><strong>Promos y novedades:</strong> mensaje semanal a tu base: \"Esta semana tenemos pan de campo recién horneado y budín de limón. ¿Te guardamos?\".</li></ul>"
+      },
+      {
+        "heading": "Herramientas recomendadas",
+        "body": "<p>Las mejores opciones para panaderías argentinas:</p><ul><li><strong>Aurora Inbox:</strong> plataforma argentina con flujos visuales. Podés armar menús interactivos, recibir pedidos organizados y gestionar todo desde un panel. Ideal para panaderías que quieren arrancar rápido.</li><li><strong>Whato:</strong> tiene plantillas específicas para negocios gastronómicos. Menú digital, pedidos automatizados y confirmaciones. Lo configurás en horas.</li><li><strong>ManyChat:</strong> más completo para flujos con múltiples opciones. Si tenés un catálogo grande (panadería + confitería + catering), ManyChat te permite armar caminos de decisión complejos.</li><li><strong>ChatCompose:</strong> con IA conversacional que entiende pedidos escritos de forma natural. El cliente puede escribir \"mandame 2 docenas de facturas y una tarta de frutillas\" y el bot lo entiende.</li></ul><p><strong>¿Cuál elegir?</strong> Para la mayoría de las panaderías, Aurora Inbox o Whato son suficientes y fáciles. Si manejás muchos productos y combinaciones, ManyChat. Si querés que el bot entienda lenguaje natural, ChatCompose.</p>"
+      },
+      {
+        "heading": "Flujo de pedidos automatizado",
+        "body": "<p>Así funciona un sistema de pedidos bien armado:</p><ol><li><strong>Saludo + menú:</strong> \"¡Hola! Bienvenido a [tu panadería]. ¿Qué te gustaría pedir? 1) Facturas y medialunas 2) Panes 3) Tortas y tartas 4) Sándwiches 5) Encargo especial\".</li><li><strong>Selección y cantidad:</strong> el cliente elige categoría y el bot muestra opciones con precio: \"Medialunas de manteca: $X la docena. ¿Cuántas docenas?\".</li><li><strong>Resumen del pedido:</strong> \"Tu pedido: 2 docenas de medialunas ($X) + 1 pan integral ($X). Total: $X. ¿Confirmás?\".</li><li><strong>Retiro o delivery:</strong> \"¿Retirás en el local o te lo llevamos? Delivery disponible en un radio de 3 km con costo de $X\".</li><li><strong>Confirmación:</strong> \"¡Listo! Tu pedido está confirmado para las [hora]. Te avisamos cuando esté listo/en camino\".</li><li><strong>Aviso de listo:</strong> cuando sale del horno o sale el delivery, se dispara el aviso automático.</li></ol><p>Resultado: <strong>pedidos organizados, sin errores de interpretación, sin perder clientes por demora en responder</strong>.</p>"
+      },
+      {
+        "heading": "Fidelización y marketing automático",
+        "body": "<p>WhatsApp es tu mejor herramienta de fidelización si lo usás con criterio:</p><ul><li><strong>Mensaje de \"recién salido del horno\":</strong> todos los días a las 7 AM a tus mejores clientes: \"Recién salieron las medialunas. ¿Te guardamos?\" — genera pedidos inmediatos.</li><li><strong>Promo de día fijo:</strong> \"Todos los miércoles, 2x1 en facturas para clientes de WhatsApp\". Fideliza y genera expectativa semanal.</li><li><strong>Encargos para fechas:</strong> 10 días antes de cada fecha especial (Pascua, Navidad, Día de la Madre): \"¿Ya encargaste tu rosca/pan dulce/torta? Los cupos se completan rápido\".</li><li><strong>Programa de puntos simple:</strong> \"Cada 10 pedidos por WhatsApp, te regalamos una docena de facturas\". El bot lleva la cuenta automáticamente.</li><li><strong>Encuesta de satisfacción:</strong> después de cada delivery: \"¿Cómo llegó tu pedido? 1) Excelente 2) Bien 3) Podría mejorar\". Feedback instantáneo.</li></ul><p><strong>Importante:</strong> no mandes más de 1 mensaje diario a tu lista. El \"recién salido del horno\" matutino funciona porque es útil. Si le sumás 3 promos más, te bloquean.</p>"
+      },
+      {
+        "heading": "Cómo implementarlo en tu panadería",
+        "body": "<p>Plan de implementación en 1 semana:</p><ul><li><strong>Día 1-2:</strong> elegí la herramienta y conectá tu WhatsApp Business. Armá tu menú digital con precios actualizados y fotos.</li><li><strong>Día 3-4:</strong> configurá el flujo de pedidos. Probalo vos mismo y con 2-3 clientes de confianza. Ajustá lo que haga falta.</li><li><strong>Día 5:</strong> agregá respuestas automáticas para las preguntas frecuentes (horarios, delivery, medios de pago, productos sin TACC).</li><li><strong>Día 6-7:</strong> activalo para todos tus clientes. Publicá en redes: \"Ahora podés pedir por WhatsApp y te lo tenemos listo\".</li></ul><p><strong>Errores a evitar:</strong></p><ul><li>No actualizar el menú cuando se acaba algo — el cliente pide y no hay.</li><li>No tener opción de hablar con una persona para pedidos especiales.</li><li>Poner demasiadas opciones en el menú — simplificá: los 10-15 productos más vendidos.</li><li>No confirmar tiempos de preparación claros.</li></ul><p>¿Querés que te ayudemos a implementarlo? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y arrancamos.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta automatizar WhatsApp para una panadería?",
+        "answer": "Las herramientas arrancan desde USD 20-30/mes. Considerando que un solo pedido extra por día ya cubre la suscripción mensual, la inversión se paga sola en los primeros días."
+      },
+      {
+        "question": "¿Los clientes van a usar el bot o van a preferir hablar con una persona?",
+        "answer": "La mayoría se adapta rápido, especialmente para pedidos simples. Para encargos especiales (tortas personalizadas, catering), la opción de hablar con alguien tiene que estar siempre disponible."
+      },
+      {
+        "question": "¿Cómo manejo el menú si los productos cambian todos los días?",
+        "answer": "Las herramientas permiten actualizar el menú rápidamente. Podés tener una base fija (facturas, panes, medialunas) y una sección de 'especial del día' que actualizás cada mañana en 2 minutos."
+      },
+      {
+        "question": "¿Puedo recibir pedidos fuera de horario?",
+        "answer": "Sí, y es una de las mayores ventajas. El bot recibe pedidos a cualquier hora y los tenés organizados cuando abrís a las 5 AM. El cliente programa para qué hora los necesita."
+      },
+      {
+        "question": "¿Cómo evito que los mensajes de promo se sientan como spam?",
+        "answer": "Mandá solo contenido útil (producto del día, promo real) y máximo 1 mensaje diario. Dá siempre opción de dejar de recibir mensajes. Si el contenido es relevante y no excesivo, los clientes lo valoran."
+      }
+    ],
+    "ctaText": "¿Querés que tu panadería reciba pedidos automáticos por WhatsApp? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y armamos tus flujos."
+  }
+}

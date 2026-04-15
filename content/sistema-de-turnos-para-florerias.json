@@ -1,0 +1,72 @@
+{
+  "slug": "sistema-de-turnos-para-florerias",
+  "title": "Sistema de turnos para florerías: organizá entregas, consultas y eventos",
+  "metaTitle": "Sistema de Turnos para Florerías Argentina 2026",
+  "metaDescription": "Sistemas de turnos para florerías. Franjas de entrega, consultas de arreglos personalizados y citas para eventos (bodas, fiestas). Opciones y costos.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": [
+    "turnos online",
+    "florerías",
+    "entregas programadas",
+    "arreglos florales",
+    "eventos bodas"
+  ],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": [
+    "pagina-web-para-florerias",
+    "cuanto-cuesta-app-de-turnos",
+    "como-crear-sistema-de-turnos-online",
+    "automatizar-whatsapp-ecommerce"
+  ],
+  "content": {
+    "intro": "<p>Si tenés una florería en Argentina, sabés que el negocio tiene picos intensos y momentos de calma: <strong>Día de la Madre, San Valentín, temporada de casamientos, y después semanas tranquilas</strong>. Gestionar las entregas, las consultas para arreglos personalizados y la planificación de eventos florales por WhatsApp es un caos, especialmente en los picos de demanda.</p><p>Un <strong>sistema de turnos para florerías</strong> te organiza las franjas de entrega, las citas de consulta para arreglos a medida y las reuniones de planificación de eventos. Menos llamadas, menos errores, más ventas. En esta guía te mostramos las opciones, costos y cómo implementar uno.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu florería necesita un sistema de turnos",
+        "body": "<p>Las florerías tienen necesidades de gestión de tiempo que muchos no ven:</p><ul><li><strong>Franjas de entrega saturadas:</strong> Todos quieren la entrega \"a la mañana\" o \"entre 10 y 12\". Sin un sistema que limite las entregas por franja, te comprometés a más de lo que podés cumplir.</li><li><strong>Consultas para arreglos personalizados:</strong> Una novia quiere ver opciones de centros de mesa. Un corporativo quiere arreglos semanales para su oficina. Estas consultas necesitan tiempo dedicado que no podés dar entre cliente y cliente.</li><li><strong>Planificación de eventos:</strong> Casamientos, cumpleaños de 15, fiestas corporativas. Requieren una reunión previa para definir arreglos, presupuesto y logística. Eso necesita una cita programada.</li><li><strong>Picos estacionales:</strong> Día de la Madre, San Valentín, Día de la Primavera. En esas fechas, recibís 10x más pedidos. Sin un sistema, prometés entregas que no podés cumplir.</li><li><strong>Retiro en local:</strong> El cliente compra online y quiere retirar a una hora específica. Si no gestionás los retiros, se acumulan todos al mismo horario.</li></ul>"
+      },
+      {
+        "heading": "Opciones SaaS para florerías",
+        "body": "<p>No existen SaaS diseñados exclusivamente para florerías, pero combinando herramientas se arma una solución completa:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> Perfecto para consultas y reuniones de planificación de eventos. Creá tipos de cita: \"consulta arreglos personalizados\" (30 min), \"planificación floral para eventos\" (60 min), \"retiro de pedido en local\" (15 min). Gratis y profesional.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> Más completo. Permite gestionar diferentes tipos de servicios, enviar recordatorios por WhatsApp y cobrar señas. Buena opción si tenés varios servicios de consulta.</li><li><strong>Calendly (USD 10-30/mes):</strong> Ideal para la parte de consultas y planificación. El cliente elige el tipo de reunión, la fecha y recibe toda la información previa automáticamente.</li></ul><p>Para las <strong>franjas de entrega</strong>, necesitás integrar el sistema de turnos con tu tienda online o manejarlo con un formulario donde el cliente elige franja al comprar. Esto puede requerir configuración adicional o una <a href=\"/blog/como-crear-sistema-de-turnos-online\">solución a medida</a>.</p>"
+      },
+      {
+        "heading": "Gestión de entregas por franjas horarias",
+        "body": "<p>La entrega es el servicio más crítico de una florería, y necesita gestión inteligente:</p><ul><li><strong>Definí franjas de entrega:</strong> Mañana (9-12), mediodía (12-14), tarde (14-18). Cada franja con un límite máximo de entregas según tu capacidad logística.</li><li><strong>Zonas de entrega:</strong> No es lo mismo entregar en tu barrio que cruzar la ciudad. Definí zonas con costos y tiempos de entrega diferenciados.</li><li><strong>Límites en fechas especiales:</strong> Para Día de la Madre o San Valentín, reducí las franjas disponibles o aumentá el precio de entrega para gestionar la demanda.</li><li><strong>Confirmación y seguimiento:</strong> \"Tu pedido de rosas está en camino. Estimamos llegar entre las 10 y las 12.\" Un mensaje automático que genera confianza y reduce las llamadas de \"¿cuándo llega?\".</li><li><strong>Coordinación con el destinatario:</strong> En regalos sorpresa, necesitás confirmar que alguien va a estar para recibir. El sistema puede enviar un mensaje discreto al destinatario.</li></ul><p>Esta gestión <strong>evita que prometas más entregas de las que podés cumplir</strong> y mejora la experiencia del cliente.</p>"
+      },
+      {
+        "heading": "Consultas de eventos: bodas, fiestas y corporativos",
+        "body": "<p>Los eventos son la venta de mayor ticket para una florería, y necesitan un proceso de reserva profesional:</p><ul><li><strong>Consulta inicial (gratuita o con seña):</strong> El cliente reserva una cita de 45-60 minutos para hablar de su evento. Definís fecha, estilo, presupuesto, flores preferidas, cantidades.</li><li><strong>Formulario previo:</strong> Antes de la cita, el sistema envía un formulario: ¿qué tipo de evento? ¿cuántos invitados? ¿qué estilo buscás? ¿tenés fotos de referencia? Así llegás preparada a la reunión.</li><li><strong>Presupuesto post-cita:</strong> Después de la reunión, enviás el presupuesto por email. Si el cliente acepta, pagá la seña online para confirmar la fecha.</li><li><strong>Seguimiento:</strong> Recordatorio de cita de seguimiento (2 meses antes del evento para ajustar detalles), confirmación final (1 semana antes).</li></ul><p>Un flujo así <strong>profesionaliza tu servicio de eventos</strong> y te diferencia de la competencia que maneja todo por WhatsApp sin estructura.</p>"
+      },
+      {
+        "heading": "Cómo implementar turnos en tu florería",
+        "body": "<p>La implementación es sencilla si separás los flujos:</p><ul><li><strong>Flujo 1 — Entregas:</strong> Configurá franjas horarias en tu tienda online o formulario de pedido. Limitá entregas por franja. Para fechas especiales, ajustá límites con anticipación.</li><li><strong>Flujo 2 — Consultas personalizadas:</strong> Creá un link de Cal.com o Calendly con tipos de cita (arreglo personalizado, evento, corporativo). Publicalo en tu web y redes.</li><li><strong>Flujo 3 — Retiros en local:</strong> Agregá un tipo de turno \"retiro de pedido\" con franjas de 15 minutos para evitar acumulación.</li><li><strong>Automatizá recordatorios:</strong> Confirmación de cita + recordatorio 24 horas antes + formulario previo para eventos. Todo automático.</li><li><strong>Publicá en todos los canales:</strong> <a href=\"/blog/pagina-web-para-florerías\">Página web</a>, Instagram, Google Maps, WhatsApp Business. El link de reserva tiene que ser accesible desde cualquier lugar.</li></ul><p>En una semana podés tener los tres flujos funcionando. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y te ayudamos a armarlo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo limitar la cantidad de entregas por franja horaria?",
+        "answer": "Sí. Definís un máximo de entregas por franja (mañana, mediodía, tarde) y cuando se completa, esa franja deja de estar disponible para nuevos pedidos."
+      },
+      {
+        "question": "¿El sistema sirve para gestionar consultas de eventos?",
+        "answer": "Sí. Creás un tipo de cita específico para planificación de eventos (bodas, corporativos, fiestas) con duración de 45-60 minutos y formulario previo para que el cliente llegue preparado."
+      },
+      {
+        "question": "¿Puedo cobrar seña para las consultas de eventos?",
+        "answer": "Sí. Con AgendaPro y Calendly podés integrar Mercado Pago o tarjeta para cobrar una seña al momento de la reserva, asegurando el compromiso del cliente."
+      },
+      {
+        "question": "¿Cómo manejo los picos de demanda en fechas especiales?",
+        "answer": "Configurá las franjas con anticipación para fechas como Día de la Madre o San Valentín. Reducí la capacidad por franja, aumentá precios de entrega o cerrá la reserva cuando se completa."
+      },
+      {
+        "question": "¿Puedo gestionar retiros en local con el mismo sistema?",
+        "answer": "Sí. Agregás un tipo de turno de retiro con franjas cortas (15 min) para que los clientes elijan su horario y no se acumulen todos al mismo tiempo."
+      }
+    ],
+    "ctaText": "¿Querés organizar entregas, consultas y eventos en tu florería? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te ayudamos a elegir el sistema ideal."
+  }
+}

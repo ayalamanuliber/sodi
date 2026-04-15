@@ -1,0 +1,61 @@
+{
+  "slug": "que-es-google-ads-para-pymes",
+  "title": "Qué es Google Ads y Cómo Funciona para PyMEs",
+  "metaTitle": "Qué es Google Ads para PyMEs Argentinas | SODI",
+  "metaDescription": "Explicación simple de cómo funciona Google Ads. Tipos de campaña, sistema de pujas, quality score y contexto argentino para PyMEs que quieren empezar.",
+  "silo": "conceptos",
+  "siloLabel": "Conceptos",
+  "tags": ["Google Ads", "publicidad online", "marketing digital", "PyMEs argentina", "SEM"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-publicidad-google-ads-argentina", "google-ads-vs-facebook-ads-argentina", "que-es-marketing-digital-para-pymes", "que-es-seo-y-por-que-importa"],
+  "content": {
+    "intro": "<p>Google Ads es la plataforma de publicidad de Google. Cuando buscás algo en Google y ves resultados con la etiqueta \"Patrocinado\" arriba de todo, esos son anuncios de Google Ads. Alguien pagó para aparecer ahí cuando vos buscaste esa palabra.</p><p>Para PyMEs argentinas, Google Ads es una de las formas más directas de conseguir clientes: tu anuncio aparece justo cuando alguien está buscando lo que vos vendés. Pero si no entendés cómo funciona, podés terminar gastando plata sin resultados. En esta guía te explicamos todo en simple.</p>",
+    "sections": [
+      {
+        "heading": "Cómo funciona Google Ads en términos simples",
+        "body": "<p>Google Ads funciona como una subasta. Así es el proceso:</p><ol><li><strong>Elegís palabras clave:</strong> Son las búsquedas por las que querés aparecer. Por ejemplo, si tenés una cerrajería, podrías elegir \"cerrajero urgente CABA\" o \"cambio de cerradura zona norte\".</li><li><strong>Creás un anuncio:</strong> Un título, una descripción y un link a tu sitio web. Es lo que ve la persona cuando busca.</li><li><strong>Definís cuánto estás dispuesto a pagar:</strong> Ponés un máximo por cada clic en tu anuncio. Esto se llama \"puja\" o \"bid\".</li><li><strong>Google hace la subasta:</strong> Cada vez que alguien busca tu palabra clave, Google compara tu anuncio con los de la competencia y decide quién aparece y en qué posición.</li><li><strong>Solo pagás cuando alguien hace clic:</strong> Si tu anuncio aparece pero nadie hace clic, no pagás nada. Esto se llama modelo CPC (Costo Por Clic).</li></ol><p>La clave: no siempre gana el que más paga. Google también mide la <strong>calidad</strong> de tu anuncio y de tu sitio web. Un anuncio relevante con una puja media puede ganarle a un anuncio malo con puja alta.</p>"
+      },
+      {
+        "heading": "Tipos de campaña: Search vs Display",
+        "body": "<p>Google Ads tiene varios tipos de campaña, pero los dos principales para PyMEs son:</p><p><strong>Search (Búsqueda):</strong></p><ul><li>Tus anuncios aparecen en los resultados de búsqueda de Google</li><li>El usuario está activamente buscando algo (tiene intención de compra)</li><li>Formato: texto (título + descripción + link)</li><li>Mejor para: servicios locales, productos con demanda activa, urgencias</li><li>Ejemplo: \"abogado laboralista buenos aires\" muestra tu anuncio de estudio jurídico</li></ul><p><strong>Display (Red de Display):</strong></p><ul><li>Tus anuncios aparecen como banners en otros sitios web (Infobae, Clarín, blogs, apps)</li><li>El usuario no está buscando, pero le mostrás tu anuncio basándote en sus intereses</li><li>Formato: imágenes, banners, videos</li><li>Mejor para: branding, remarketing (mostrarle tu producto a alguien que ya visitó tu sitio)</li><li>CPC más barato pero conversión más baja que Search</li></ul><p><strong>Para empezar:</strong> casi siempre conviene arrancar con Search. Tiene mejor retorno porque llegás a gente que ya está buscando lo que ofrecés. Display sumalo después para remarketing.</p>"
+      },
+      {
+        "heading": "Quality Score: por qué la calidad importa más que el presupuesto",
+        "body": "<p>El <strong>Quality Score</strong> (Puntaje de Calidad) es una nota del 1 al 10 que Google le da a cada palabra clave de tu cuenta. Mide tres cosas:</p><ul><li><strong>Relevancia del anuncio:</strong> ¿Tu anuncio tiene que ver con lo que el usuario buscó? Si alguien busca \"tortas de cumpleaños\" y tu anuncio dice \"Pastelería artesanal - Tortas de cumpleaños a medida\", es relevante. Si dice \"Somos los mejores\" sin mencionar tortas, no.</li><li><strong>Experiencia de la página de destino:</strong> ¿La página a la que lleva tu anuncio es rápida, mobile-friendly y tiene contenido relacionado con la búsqueda? Si mandás a tu home genérica en vez de a la página de tortas, tu Quality Score baja.</li><li><strong>CTR esperado (tasa de clics):</strong> Google estima cuánta gente va a hacer clic en tu anuncio vs los de la competencia. Un anuncio con CTR alto sube su Quality Score.</li></ul><p><strong>Por qué importa:</strong> un Quality Score alto reduce el costo por clic. Literalmente pagás menos por cada visita. Una empresa con Quality Score de 8 puede pagar la mitad que una con Quality Score de 4 por la misma posición.</p><p>Moraleja: antes de aumentar presupuesto, mejorá tus anuncios y tu sitio web. Es más rentable.</p>"
+      },
+      {
+        "heading": "Google Ads en el contexto argentino",
+        "body": "<p>Hay particularidades del mercado argentino que tenés que considerar:</p><p><strong>Los costos se pagan en pesos (con tipo de cambio):</strong> Google cobra en dólares pero factura en pesos argentinos al tipo de cambio oficial más impuestos. El costo real es el monto en dólares + IVA (21%) + impuesto PAIS + retención de ganancias. En total, un dólar de Google Ads puede costarte hasta un 60-75% más en pesos de lo que dice la plataforma.</p><p><strong>Costos por clic en Argentina:</strong> Depende del rubro. Algunos ejemplos aproximados:</p><ul><li>Servicios legales: $500-2.000 ARS por clic</li><li>Ecommerce general: $100-500 ARS por clic</li><li>Gastronomía: $50-200 ARS por clic</li><li>Tecnología/software: $300-1.500 ARS por clic</li></ul><p><strong>Presupuesto mínimo recomendado:</strong> para que una campaña de Search tenga datos suficientes para optimizarse, necesitás al menos $5.000-10.000 ARS diarios. Con menos, no vas a juntar suficientes clics para sacar conclusiones.</p><p><strong>Facturación:</strong> Google emite factura de exportación. Para tu contabilidad argentina, consultá con tu contador cómo registrarla correctamente. Muchas PyMEs usan tarjeta de crédito internacional o Mercado Pago para pagar.</p>"
+      },
+      {
+        "heading": "Cuánto invertir y qué esperar",
+        "body": "<p>La pregunta que todos hacen: \"¿Cuánto tengo que gastar?\" La respuesta honesta es que depende de tu rubro, tu zona y tu competencia. Pero hay una forma de pensarlo:</p><p><strong>Hacé el cálculo inverso:</strong></p><ol><li>¿Cuánto ganás por cada cliente nuevo? (margen, no facturación)</li><li>¿Cuántos clics necesitás para conseguir un cliente? (esto es tu tasa de conversión)</li><li>¿Cuánto cuesta cada clic en tu rubro?</li></ol><p>Ejemplo: si ganás $50.000 por cliente, necesitás 20 clics para una venta (5% de conversión) y cada clic cuesta $300, tu costo por cliente es $6.000. Eso te deja $44.000 de margen. Negocio rentable.</p><p><strong>Expectativas realistas:</strong></p><ul><li>Los primeros 30 días son de aprendizaje. No esperes resultados espectaculares al inicio.</li><li>Google necesita datos para optimizar. Dejá las campañas correr al menos 2-3 semanas antes de hacer cambios drásticos.</li><li>El retorno no es inmediato como en redes sociales. Pero los leads de Google suelen ser de mayor calidad porque el usuario ya tiene intención de compra.</li></ul><p>Si invertís de forma inteligente y tu sitio está bien armado, Google Ads puede ser el canal más rentable de adquisición de clientes para tu PyME.</p>"
+      },
+      {
+        "heading": "Errores comunes que cometen las PyMEs en Google Ads",
+        "body": "<p>Estos errores los vemos todo el tiempo y hacen que las PyMEs quemen presupuesto sin resultados:</p><ul><li><strong>No usar palabras clave negativas:</strong> Si vendés zapatos de cuero y no excluís \"gratis\", \"usados\" o \"como hacer\", vas a pagar por clics de gente que no va a comprar nunca.</li><li><strong>Mandar todo al home:</strong> Cada anuncio debería llevar a una página específica relacionada con la búsqueda. No a tu página principal genérica.</li><li><strong>No medir conversiones:</strong> Si no tenés configurado el seguimiento de conversiones, no sabés qué campaña funciona y cuál no. Es como manejar con los ojos cerrados.</li><li><strong>Abandonar demasiado rápido:</strong> \"Gasté $20.000 en una semana y no vendí nada, Google Ads no sirve.\" Con $20.000 no tenés datos suficientes para concluir nada. Dale tiempo.</li><li><strong>No revisar los términos de búsqueda:</strong> Google puede mostrar tu anuncio en búsquedas que no esperabas. Revisá semanalmente por qué búsquedas apareciste y excluí las que no sirven.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Google Ads sirve para negocios chicos?",
+        "answer": "Sí, es una de las mejores herramientas para negocios chicos porque solo pagás cuando alguien hace clic. Podés empezar con presupuestos bajos y escalar cuando ves resultados. La clave es segmentar bien para no desperdiciar clics."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre Google Ads y SEO?",
+        "answer": "Google Ads te da resultados inmediatos pero pagás por cada clic. SEO es posicionamiento orgánico: tarda más (meses) pero los clics son gratis. Lo ideal es combinar ambos: Ads para resultados a corto plazo y SEO para largo plazo."
+      },
+      {
+        "question": "¿Puedo manejar Google Ads yo mismo o necesito un especialista?",
+        "answer": "Podés arrancar solo con campañas simples. Pero si invertís más de $30.000-50.000 ARS por mes, un especialista o agencia que cobre un fee de gestión probablemente te ahorre más de lo que cuesta, optimizando tus campañas."
+      },
+      {
+        "question": "¿Cuánto tarda en funcionar Google Ads?",
+        "answer": "Los anuncios se activan en horas. Pero para que una campaña esté bien optimizada y dé resultados consistentes, necesitás al menos 4-6 semanas de datos. Los primeros días son de ajuste y aprendizaje del algoritmo."
+      }
+    ],
+    "ctaText": "¿Querés empezar con Google Ads y no sabés por dónde arrancar? En SODI te armamos y gestionamos tus campañas para que cada peso invertido te traiga clientes reales. Consultanos."
+  }
+}

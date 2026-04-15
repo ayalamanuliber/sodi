@@ -1,0 +1,61 @@
+{
+  "slug": "odoo-vs-sistema-a-medida-argentina",
+  "title": "Odoo vs sistema a medida en Argentina: cuándo conviene cada uno para tu PyME",
+  "metaTitle": "Odoo vs sistema a medida Argentina: comparativa",
+  "metaDescription": "Odoo Community es gratis, Enterprise USD 24.90/user/mes. Un sistema a medida cuesta $5M-15M ARS. Odoo alcanza para el 80% de las PyMEs. Guía completa.",
+  "silo": "comparativas",
+  "siloLabel": "Comparativas",
+  "tags": ["odoo", "sistema a medida", "erp", "gestión empresarial", "software para pymes"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-erp-pymes-argentina", "software-a-medida-vs-estandar", "cuanto-cuesta-sistema-de-gestion-pymes", "excel-vs-sistema-de-gestion"],
+  "content": {
+    "intro": "<p><strong>Veredicto:</strong> Odoo es la mejor opción para el <strong>80% de las PyMEs argentinas</strong>. Es modular, flexible, tiene versión gratuita y una comunidad enorme. Solo tiene sentido invertir en un sistema 100% a medida cuando Odoo genuinamente <strong>no puede hacer lo que necesitás</strong> — y eso pasa mucho menos de lo que la gente cree.</p><p>La tentación de \"quiero algo hecho exactamente para mí\" es comprensible, pero un sistema a medida cuesta entre $5.000.000 y $15.000.000 ARS, tarda 3-6 meses en desarrollarse y después necesita mantenimiento permanente. Odoo Community es gratis, Enterprise sale USD 24.90 por usuario por mes, y podés tenerlo funcionando en semanas. Los números no mienten.</p>",
+    "sections": [
+      {
+        "heading": "Comparativa completa: Odoo vs desarrollo a medida",
+        "body": "<table><thead><tr><th>Aspecto</th><th>Odoo Community/Enterprise</th><th>Sistema 100% a medida</th></tr></thead><tbody><tr><td>Costo inicial</td><td>$0 (Community) / USD 24.90/user/mes (Enterprise)</td><td>$5.000.000-$15.000.000 ARS</td></tr><tr><td>Tiempo de implementación</td><td>2-8 semanas</td><td>3-6 meses (mínimo)</td></tr><tr><td>Módulos disponibles</td><td>30+ nativos (ventas, stock, contabilidad, RRHH, CRM, etc.)</td><td>Solo lo que se desarrolle</td></tr><tr><td>Personalización</td><td>Alta (módulos custom, configuración)</td><td>Total (100% a tu medida)</td></tr><tr><td>Facturación AFIP</td><td>Sí, con módulo de localización argentina</td><td>Requiere desarrollo específico</td></tr><tr><td>Mantenimiento</td><td>Comunidad + partner (o vos mismo)</td><td>Dependés del desarrollador</td></tr><tr><td>Actualizaciones</td><td>Automáticas / versionadas</td><td>Manuales (y costosas)</td></tr><tr><td>Escalabilidad</td><td>Probada (empresas de 5 a 5.000 empleados)</td><td>Depende de la arquitectura</td></tr><tr><td>Riesgo</td><td>Bajo (producto probado)</td><td>Alto (puede fallar el proyecto)</td></tr><tr><td>Soporte en Argentina</td><td>Partners oficiales Odoo en CABA, Córdoba, Rosario</td><td>Depende de quién lo desarrolle</td></tr></tbody></table><p>El punto clave: Odoo ya resolvió el 80% de los problemas que una PyME tiene. Inventar la rueda de cero es carísimo y riesgoso cuando ya existe una solución probada por <strong>12 millones de usuarios en el mundo</strong>.</p>"
+      },
+      {
+        "heading": "Qué puede hacer Odoo para una PyME argentina",
+        "body": "<p>Odoo no es solo un ERP — es una <strong>plataforma completa de gestión</strong> con más de 30 módulos nativos:</p><ul><li><strong>Ventas y CRM:</strong> seguimiento de oportunidades, presupuestos, pipeline de ventas</li><li><strong>Inventario y stock:</strong> gestión de almacenes, movimientos, reportes de stock mínimo</li><li><strong>Contabilidad:</strong> plan de cuentas argentino, conciliación bancaria, reportes fiscales</li><li><strong>Facturación electrónica:</strong> integración con AFIP para factura electrónica A, B, C (con módulo de localización argentina)</li><li><strong>Compras:</strong> órdenes de compra, proveedores, licitaciones</li><li><strong>RRHH:</strong> legajos, licencias, recibos de sueldo, asistencia</li><li><strong>Punto de venta:</strong> POS para comercios físicos</li><li><strong>Ecommerce:</strong> tienda online integrada con stock y facturación</li><li><strong>Proyectos:</strong> gestión de tareas, timesheets, planificación</li></ul><p><strong>La localización argentina de Odoo</strong> incluye plan de cuentas local, tipos de responsabilidad fiscal (Responsable Inscripto, Monotributo, etc.), integración con AFIP vía web services, y reportes impositivos. No es perfecto, pero cubre el 90% de lo que una PyME necesita.</p><p><strong>Costo real de Odoo en Argentina:</strong></p><ul><li>Odoo Community (gratis): $0 — ideal para arrancar</li><li>Odoo Enterprise: USD 24.90/usuario/mes (~$25.000 ARS/usuario/mes)</li><li>Implementación con partner argentino: $1.000.000-$5.000.000 ARS según complejidad</li><li>Odoo.sh (hosting oficial): desde USD 32/mes</li></ul>"
+      },
+      {
+        "heading": "Cuándo SÍ necesitás un sistema a medida",
+        "body": "<p>Hay casos legítimos donde Odoo (o cualquier ERP estándar) no alcanza. Necesitás desarrollo a medida cuando:</p><ul><li><strong>Tu proceso de negocio es único:</strong> si tu empresa tiene un flujo operativo que no existe en ningún otro rubro (logística especial, workflow regulatorio específico), Odoo no lo va a cubrir</li><li><strong>Necesitás integraciones muy específicas:</strong> conectar con sistemas legacy, APIs propietarias de tu industria, hardware industrial (IoT)</li><li><strong>El volumen de datos es masivo:</strong> si procesás millones de transacciones diarias, necesitás una arquitectura optimizada para tu caso</li><li><strong>Regulaciones específicas:</strong> farmacéuticas, financieras, salud — donde los requisitos regulatorios son tan estrictos que ningún ERP genérico los cumple</li><li><strong>Ya probaste Odoo y no alcanza:</strong> este es el punto clave — <strong>probá Odoo primero</strong></li></ul><p><strong>Costos reales de desarrollo a medida en Argentina:</strong></p><ul><li>Sistema básico (1-2 módulos): $3.000.000-$5.000.000 ARS — 2-3 meses</li><li>Sistema mediano (3-5 módulos): $5.000.000-$10.000.000 ARS — 3-5 meses</li><li>Sistema complejo (ERP completo): $10.000.000-$20.000.000+ ARS — 6-12 meses</li><li>Mantenimiento mensual: $200.000-$800.000 ARS/mes</li></ul><p>Ojo: estos costos son solo de desarrollo. Sumale hosting ($20.000-$100.000 ARS/mes), soporte, actualizaciones y los inevitables cambios de scope que siempre aparecen.</p>"
+      },
+      {
+        "heading": "La opción híbrida: Odoo + módulos custom",
+        "body": "<p>La mejor estrategia para muchas PyMEs argentinas es la <strong>opción híbrida</strong>: usar Odoo como base y desarrollar módulos custom solo para lo que Odoo no cubre.</p><ul><li><strong>Base Odoo:</strong> contabilidad, ventas, stock, CRM, RRHH — todo lo estándar que ya funciona</li><li><strong>Módulos custom:</strong> se desarrollan como extensiones de Odoo para cubrir procesos específicos de tu negocio</li><li><strong>Integraciones:</strong> conectar Odoo con MercadoPago, AFIP, Andreani, tu banco, tu ecommerce</li></ul><p><strong>Ventajas del enfoque híbrido:</strong></p><ul><li>Costo 60-70% menor que desarrollo 100% a medida</li><li>Tiempo de implementación 50% menor (la base ya existe)</li><li>Actualizaciones automáticas para los módulos estándar</li><li>Comunidad global que mantiene y mejora el core</li><li>Si necesitás cambiar de proveedor, otro partner Odoo puede continuar</li></ul><p><strong>Ejemplo real — distribuidora en zona oeste de Buenos Aires:</strong> necesitaban gestión de rutas de reparto que Odoo no tiene nativo. En vez de hacer un sistema de cero, implementaron Odoo para ventas, stock y facturación, y desarrollaron un módulo custom de rutas que se integra con el stock de Odoo. Costo total: $3.500.000 ARS (vs $12.000.000+ que hubiera costado todo a medida). Implementación: 6 semanas.</p>"
+      },
+      {
+        "heading": "Cómo elegir: guía práctica para PyMEs argentinas",
+        "body": "<p>Seguí este flujo de decisión:</p><ol><li><strong>¿Tu problema es que usás Excel para todo?</strong> → Odoo Community (gratis). No gastés un peso hasta que lo pruebes.</li><li><strong>¿Necesitás facturación electrónica AFIP?</strong> → Odoo Enterprise con localización argentina. Funciona bien y es mucho más barato que un desarrollo custom.</li><li><strong>¿Tu proceso de negocio es estándar?</strong> (vendés, comprás, facturás, manejás stock) → Odoo te sobra. No necesitás nada a medida.</li><li><strong>¿Tenés un proceso específico que Odoo no cubre?</strong> → Odoo + módulo custom. No tires todo Odoo, extendelo.</li><li><strong>¿Tu negocio es tan único que nada estándar sirve?</strong> → Desarrollo a medida, pero presupuestá bien y elegí un proveedor con experiencia.</li></ol><p><strong>Errores comunes que vemos en PyMEs argentinas:</strong></p><ul><li>Pedir desarrollo a medida sin haber probado Odoo (o cualquier ERP) — desperdician millones</li><li>Elegir Odoo pero intentar implementarlo sin partner — terminan con un sistema mal configurado</li><li>Subestimar el costo de mantenimiento de un sistema a medida — el desarrollo es el 40%, el mantenimiento es el 60%</li><li>Querer replicar exactamente lo que hacían en Excel — el sistema tiene que mejorar tu proceso, no copiarlo</li></ul><p>¿No sabés qué te conviene? <a href=\"/diagnostico\">Pedí un diagnóstico gratuito</a> y te decimos si Odoo te alcanza o necesitás algo custom.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Odoo sirve para facturación electrónica AFIP?",
+        "answer": "Sí. Con el módulo de localización argentina, Odoo se conecta con los web services de AFIP para emitir facturas electrónicas A, B y C. Funciona con Responsable Inscripto y Monotributo. Necesitás certificado digital de AFIP y configuración inicial."
+      },
+      {
+        "question": "¿Cuánto cuesta implementar Odoo en Argentina?",
+        "answer": "Odoo Community es gratis. Enterprise cuesta USD 24.90/usuario/mes. La implementación con un partner argentino cuesta entre $1.000.000 y $5.000.000 ARS según la cantidad de módulos y la complejidad. El hosting en Odoo.sh arranca en USD 32/mes."
+      },
+      {
+        "question": "¿Un sistema a medida es mejor que Odoo?",
+        "answer": "No necesariamente. Un sistema a medida hace exactamente lo que vos necesitás, pero cuesta 3-10x más, tarda más en implementarse y dependés 100% del proveedor que lo hizo. Odoo cubre el 80% de las necesidades de una PyME y tiene comunidad global de soporte."
+      },
+      {
+        "question": "¿Puedo migrar de Odoo a un sistema a medida después?",
+        "answer": "Sí, Odoo permite exportar todos tus datos. Muchas PyMEs arrancan con Odoo, validan sus procesos, y si realmente necesitan algo custom, migran con datos limpios y procesos ya definidos. Es la estrategia más inteligente: primero probá lo estándar."
+      },
+      {
+        "question": "¿Cuánto tarda implementar Odoo vs un sistema a medida?",
+        "answer": "Odoo básico (ventas + stock + facturación): 2-4 semanas. Odoo completo con customización: 4-8 semanas. Sistema a medida básico: 2-3 meses. Sistema a medida complejo: 6-12 meses. La diferencia es enorme en tiempo y costo de oportunidad."
+      }
+    ],
+    "ctaText": "¿Querés saber si Odoo te alcanza o necesitás desarrollo a medida? En SODI implementamos Odoo y desarrollamos sistemas custom para PyMEs argentinas. <a href='/diagnostico'>Pedí tu diagnóstico gratuito</a> y te damos una recomendación honesta."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "google-ads-para-ecommerce-argentina",
+  "title": "Publicidad en Google para e-commerce: cuánto invertir y qué resultados esperar en Argentina",
+  "metaTitle": "Google Ads para E-commerce Argentina 2026 | Guía Completa",
+  "metaDescription": "Google Ads para e-commerce en Argentina: CPC de $0.30-2 USD, Shopping + Performance Max. ROAS de 3-5x con Tiendanube y MercadoPago. Guía completa 2026.",
+  "silo": "google-ads-por-rubro",
+  "siloLabel": "Google Ads por Rubro",
+  "tags": ["Google Ads", "publicidad online", "e-commerce", "SEM", "marketing digital"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-publicidad-google-ads-argentina", "cuanto-cuesta-tienda-online-argentina", "shopify-vs-tiendanube-argentina", "como-vender-por-internet-argentina"],
+  "content": {
+    "intro": "<p>Si tenés una tienda online en Argentina, Google Ads es probablemente el canal de adquisición con mayor potencial de escala. A diferencia de las redes sociales donde \"interrumpís\" a alguien, en Google aparecés justo cuando la persona está buscando tu producto. Con un <strong>CPC de $0.30 a $2 USD</strong> dependiendo del producto y la competencia, el costo de adquisición puede ser muy favorable.</p><p>La clave en e-commerce es que Google Ads no es un solo tipo de campaña: tenés Shopping (con fotos y precios), Search, Performance Max y remarketing. Cada uno cumple un rol distinto en el embudo de ventas. Con campañas maduras, podés esperar un <strong>ROAS de 3x a 5x</strong> (facturás 3-5 pesos por cada peso invertido). En esta guía te explico cómo armar la estrategia completa para tu tienda.</p>",
+    "sections": [
+      {
+        "heading": "CPC y costos de Google Ads para tiendas online en Argentina",
+        "body": "<p>El costo por clic en e-commerce varía enormemente según la categoría de producto:</p><ul><li><strong>Indumentaria y moda:</strong> $0.30-0.80 USD/clic. Alto volumen, mucha competencia con marcas grandes.</li><li><strong>Electrónica y tecnología:</strong> $0.50-2 USD/clic. CPC más alto pero ticket promedio también.</li><li><strong>Cosmética y cuidado personal:</strong> $0.40-1.20 USD/clic. Buena relación CPC/ticket.</li><li><strong>Hogar y decoración:</strong> $0.30-0.80 USD/clic. Menor competencia, buen margen.</li><li><strong>Suplementos deportivos:</strong> $0.50-1.50 USD/clic. Nicho con compradores recurrentes.</li><li><strong>Productos para mascotas:</strong> $0.30-0.70 USD/clic. En crecimiento, buena oportunidad.</li></ul><p>El factor que más impacta el CPC no es solo la categoría, sino <strong>qué tan genérica es tu keyword</strong>. \"Zapatillas running\" es carísimo; \"zapatillas running mujer talle 38 negras\" es mucho más barato y convierte mejor.</p>"
+      },
+      {
+        "heading": "Tipos de campaña esenciales para e-commerce",
+        "body": "<p>En e-commerce no podés usar un solo tipo de campaña. Necesitás un mix:</p><p><strong>1. Google Shopping:</strong> es la estrella de e-commerce. Muestra tus productos con foto, precio y nombre de tu tienda directo en los resultados de búsqueda. Requiere configurar <strong>Google Merchant Center</strong> y conectar tu feed de productos. Si usás Tiendanube, la integración es directa. Con Shopify también, pero verificá que los precios en ARS estén bien sincronizados.</p><p><strong>2. Search:</strong> para keywords de alta intención que Shopping no cubre bien. Por ejemplo: \"comprar [producto] online Argentina\", \"[producto] precio\", \"[marca] tienda oficial\".</p><p><strong>3. Performance Max:</strong> combina Shopping, Search, Display, YouTube y Gmail en una sola campaña automatizada. Google optimiza automáticamente dónde mostrar tus anuncios para maximizar conversiones. Es ideal cuando ya tenés datos de conversión (mínimo 30-50 ventas en los últimos 30 días).</p><p><strong>4. Remarketing dinámico:</strong> le muestra al usuario exactamente los productos que vio en tu tienda. Si alguien puso unas zapatillas en el carrito y no compró, le aparece un anuncio con esas zapatillas. La tasa de conversión del remarketing es <strong>3-5 veces mayor</strong> que la de campañas nuevas.</p>"
+      },
+      {
+        "heading": "Cómo integrar Tiendanube y MercadoPago con Google Ads",
+        "body": "<p>Si tu tienda está en Tiendanube (la plataforma más usada en Argentina), la integración con Google Ads tiene algunos pasos clave:</p><ul><li><strong>Google Merchant Center:</strong> Tiendanube tiene integración nativa. Activala desde el panel de administración. Tu catálogo de productos se sincroniza automáticamente con precios, stock y fotos.</li><li><strong>Feed de productos:</strong> revisá que todos los productos tengan título descriptivo, foto de buena calidad, precio correcto en ARS y stock actualizado. Productos sin foto o sin stock se rechazan.</li><li><strong>Tracking de conversiones:</strong> instalá el tag de Google Ads en la página de confirmación de compra. Con Tiendanube podés hacerlo desde la sección de scripts o con Google Tag Manager.</li><li><strong>MercadoPago:</strong> la buena noticia es que no necesitás hacer nada especial. El tracking se dispara cuando el usuario llega a la página de confirmación, independientemente del medio de pago.</li></ul><p>Si usás Shopify, WooCommerce o desarrollo propio, los pasos son similares pero la configuración del feed puede requerir plugins o desarrollo custom.</p>"
+      },
+      {
+        "heading": "ROAS esperado y cómo calcularlo",
+        "body": "<p>El ROAS (Return On Ad Spend) es la métrica que manda en e-commerce. Se calcula dividiendo la facturación generada por Google Ads entre la inversión publicitaria. Un ROAS de 3x significa que por cada $1 invertido, facturás $3.</p><p>Los benchmarks de ROAS para e-commerce en Argentina:</p><ul><li><strong>Campañas nuevas (mes 1-2):</strong> ROAS 1.5-2.5x. Estás en fase de aprendizaje.</li><li><strong>Campañas en optimización (mes 3-6):</strong> ROAS 2.5-4x. Ya tenés datos para tomar decisiones.</li><li><strong>Campañas maduras (6+ meses):</strong> ROAS 3-5x. Objetivo saludable para la mayoría de rubros.</li><li><strong>Campañas excelentes:</strong> ROAS 5-8x. Posible en nichos con poca competencia o productos de alto margen.</li></ul><p>Ojo: ROAS no es lo mismo que ganancia. Si tu margen bruto es del 40%, un ROAS de 3x significa que de cada $3 facturados, $1.20 es margen bruto y $1 fue el costo publicitario. Tu ganancia neta sobre la inversión publicitaria es de $0.20 por peso invertido. Por eso, <strong>el ROAS mínimo rentable depende de tu margen</strong>. Hacé las cuentas con tus números reales antes de escalar.</p>"
+      },
+      {
+        "heading": "Errores que destruyen el ROAS en e-commerce",
+        "body": "<p>El error número uno es <strong>lanzar Performance Max sin datos de conversión</strong>. Performance Max necesita señales para optimizar. Si lo activás con 0 ventas, va a gastar tu presupuesto en Display y YouTube mostrando anuncios a gente que no va a comprar. Empezá con Shopping manual, juntá 30-50 conversiones y después migra a Performance Max.</p><p>Otros errores que vemos constantemente:</p><ul><li><strong>Feed de productos mal optimizado:</strong> títulos genéricos como \"Remera azul\" en lugar de \"Remera algodón mujer azul talle S-XL\". Google usa el título del feed para decidir cuándo mostrar tu producto. Más detalle = mejores resultados.</li><li><strong>No excluir productos sin margen:</strong> si tenés productos con margen del 10%, no los metas en Shopping. Priorizá los de mayor margen.</li><li><strong>Ignorar el remarketing de carrito abandonado:</strong> entre el 60% y 80% de los carritos se abandonan. No hacer remarketing a esos usuarios es dejar plata sobre la mesa.</li><li><strong>No segmentar por dispositivo:</strong> en Argentina, más del 70% del tráfico e-commerce es mobile. Si tu tienda no carga rápido en celular, estás tirando el 70% de tu inversión.</li><li><strong>Competir por precio contra MercadoLibre:</strong> no intentes ganarle a ML en productos commodities. Diferenciá tu tienda por experiencia, atención o nicho.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto tengo que invertir en Google Ads para mi tienda online?",
+        "answer": "Depende de tu catálogo y margen, pero un punto de partida razonable es $100.000-$200.000 ARS por mes. Con eso podés testear Shopping y Search, juntar datos de conversión y empezar a optimizar. Escalá una vez que tu ROAS sea consistentemente superior a 3x."
+      },
+      {
+        "question": "¿Google Shopping funciona con Tiendanube?",
+        "answer": "Sí, Tiendanube tiene integración nativa con Google Merchant Center. Podés sincronizar tu catálogo de productos automáticamente. Solo asegurate de que cada producto tenga buen título, foto de calidad, precio correcto y stock actualizado."
+      },
+      {
+        "question": "¿Qué ROAS es bueno para e-commerce en Argentina?",
+        "answer": "Un ROAS de 3x a 5x es el rango saludable para la mayoría de tiendas. Pero lo que importa es tu margen: si tu margen bruto es del 50%, un ROAS de 2.5x ya es rentable. Si tu margen es del 25%, necesitás al menos 4x para no perder plata."
+      },
+      {
+        "question": "¿Es mejor Google Ads o MercadoLibre Ads para vender online?",
+        "answer": "MercadoLibre Ads te da acceso a su audiencia masiva pero quedás atado a su plataforma y comisiones. Google Ads lleva tráfico a TU tienda, donde controlás la experiencia y construís base de clientes. Lo ideal es tener presencia en ambos."
+      },
+      {
+        "question": "¿Cuánto tarda Google Ads en generar ventas para mi e-commerce?",
+        "answer": "Las primeras ventas pueden llegar en la primera semana si tu feed de productos está bien armado. Pero para que las campañas se optimicen y alcancen un ROAS estable, necesitás entre 60 y 90 días con inversión constante y al menos 30-50 conversiones mensuales."
+      }
+    ],
+    "ctaText": "¿Querés que tu tienda online venda más con Google Ads? En SODI configuramos Shopping, Performance Max y remarketing para e-commerce argentinos con Tiendanube, Shopify o desarrollo propio. Consultanos."
+  }
+}

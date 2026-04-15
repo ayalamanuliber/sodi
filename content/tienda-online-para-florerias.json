@@ -1,0 +1,72 @@
+{
+  "slug": "tienda-online-para-florerias",
+  "title": "Tienda online para florerías: vendé arreglos florales por internet en Argentina",
+  "metaTitle": "Tienda Online para Florerías en Argentina 2026",
+  "metaDescription": "Tienda online para florerías: delivery programado, catálogo por ocasión, suscripción de flores semanales y envío en el día. Guía con costos 2026.",
+  "silo": "ecommerce-por-rubro",
+  "siloLabel": "Ecommerce por Rubro",
+  "tags": [
+    "tienda online",
+    "florerías",
+    "ecommerce",
+    "delivery flores",
+    "vender online"
+  ],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": [
+    "pagina-web-para-florerias",
+    "cuanto-cuesta-tienda-online-argentina",
+    "como-vender-por-internet-argentina",
+    "automatizar-whatsapp-florerias"
+  ],
+  "content": {
+    "intro": "<p>Las <strong>florerías en Argentina</strong> tienen un problema que otros rubros no: vendés un producto perecedero donde el timing lo es todo. Un arreglo que llega tarde a un cumpleaños no vale nada. Por eso, tu tienda online no puede ser un catálogo genérico — necesita <strong>delivery programado, selección por ocasión y logística en el día</strong>.</p><p>En 2026 las opciones son: <strong>Tiendanube</strong> (desde $0/mes, rápida de armar), <strong>WooCommerce</strong> (ideal para suscripciones de flores semanales) o <strong>desarrollo custom</strong> (desde $900.000 ARS, para florerías con múltiples sucursales y logística propia). Te contamos qué conviene según tu florería, cuánto cuesta y qué funcionalidades son innegociables.</p>",
+    "sections": [
+      {
+        "heading": "Plataformas para vender flores online en Argentina",
+        "body": "<p>No todas las plataformas manejan bien las particularidades de una florería. Esto necesitás evaluar:</p><p><strong>Tiendanube</strong> ($0-$49.900 ARS/mes): la más rápida para salir. Armás tu catálogo con fotos lindas, integrás MercadoPago y empezás a vender. Funciona para florerías que hacen delivery en zona acotada (CABA, una ciudad). Limitación principal: no tiene sistema nativo de programación de entregas por franjas horarias — lo resolvés con campos personalizados en el checkout o WhatsApp para coordinar.</p><p><strong>WooCommerce</strong> ($350.000-$700.000 ARS desarrollo + $15.000-$25.000 ARS/mes hosting): la mejor opción si querés <strong>suscripción de flores semanales</strong> y selección de franjas horarias de entrega. Plugins como WooCommerce Bookings te permiten que el cliente elija día y horario de entrega. WooCommerce Subscriptions maneja la suscripción recurrente. Ideal para florerías medianas con ambición de crecer.</p><p><strong>Desarrollo custom</strong> ($900.000-$1.800.000 ARS): para cadenas de florerías o florerías grandes con logística propia. Sistema de entregas con zonas, franjas horarias y capacidad máxima por franja, panel para el repartidor, integración con Google Maps para optimizar rutas. Se justifica si hacés más de 30 entregas diarias.</p><p>Recomendación: florería de barrio o una sola sucursal, Tiendanube. Florería con delivery propio y suscripciones, WooCommerce. Cadena o franquicia, custom.</p>"
+      },
+      {
+        "heading": "Catálogo por ocasión: la clave para vender más",
+        "body": "<p>El error más común de las florerías online es organizar el catálogo por tipo de flor (rosas, tulipanes, lilium). El cliente no busca eso — busca <strong>\"flores para cumpleaños\"</strong>, <strong>\"arreglo para aniversario\"</strong> o <strong>\"coronas fúnebres\"</strong>. Tu catálogo tiene que hablar el idioma del cliente, no del florista.</p><p>Categorías que convierten:</p><ul><li><strong>Por ocasión</strong>: cumpleaños, aniversario, nacimiento, agradecimiento, condolencias, amor, \"perdón\", graduación, día de la madre/padre/secretaria.</li><li><strong>Por precio</strong>: rangos claros ($15.000-$25.000, $25.000-$50.000, $50.000+). Muchos clientes tienen un presupuesto fijo.</li><li><strong>Suscripciones</strong>: flores semanales para oficinas, flores quincenales para el hogar. Un producto recurrente que te da ingreso predecible.</li><li><strong>Regalos combo</strong>: flores + chocolates, flores + peluche, flores + vino. El ticket promedio sube 40-60% con combos.</li></ul><p>Cada producto necesita: <strong>foto real</strong> (no stock), descripción corta, qué incluye (cantidad de tallos, tipo de base/florero), y si el diseño puede variar según disponibilidad (fundamental en flores — poné la aclaración).</p><p>Tip: los <strong>arreglos más vendidos</strong> van en la home. No hagas que el cliente busque. Mostrá 6-8 best sellers arriba de todo y un botón de WhatsApp para pedidos personalizados.</p>"
+      },
+      {
+        "heading": "Delivery programado y envío en el día: cómo implementarlo",
+        "body": "<p>El <strong>envío en el día (same-day delivery)</strong> es lo que diferencia a una florería online de una tienda genérica. El 70% de las compras de flores son para entregar <em>hoy</em> o <em>mañana</em>. Si no ofrecés eso, perdés la venta.</p><p>Cómo implementar delivery programado según tu plataforma:</p><p><strong>En Tiendanube</strong>: usá un campo personalizado en el checkout para que el cliente escriba fecha y franja horaria deseada. Es manual (vos coordinás), pero funciona para volúmenes bajos (hasta 10-15 entregas/día). Alternativa: un botón de WhatsApp que diga \"Coordiná tu entrega\" y cerrás por chat.</p><p><strong>En WooCommerce</strong>: plugin de delivery date picker ($50.000-$80.000 ARS implementar). El cliente ve un calendario, elige fecha, y selecciona franja horaria (mañana 9-12, tarde 14-18, noche 18-21). Podés limitar capacidad por franja para no sobrepasar tu logística. Es la mejor experiencia para el cliente.</p><p><strong>En custom</strong>: sistema completo con zonas de delivery, tiempos estimados según zona, capacidad dinámica, y panel para el repartidor con ruta optimizada.</p><p><strong>Costos de delivery propio</strong>: moto o bicicleta con canasto reforzado. CABA: costo promedio $3.000-$6.000 ARS por entrega (combustible + tiempo). GBA: $5.000-$10.000 ARS. Interior: tercerizá con cadetería local. Ofrecé <strong>envío gratis superando cierto monto</strong> (ej: gratis arriba de $30.000 ARS) para subir el ticket promedio.</p><p>Clave: definí un <strong>horario de corte</strong> para same-day delivery (ej: pedidos antes de las 14 hs se entregan hoy). Comunicalo bien en tu sitio para evitar frustraciones.</p>"
+      },
+      {
+        "heading": "Suscripción de flores semanales: ingreso recurrente",
+        "body": "<p>La <strong>suscripción de flores</strong> es el modelo que te saca de la montaña rusa de ventas por fechas especiales. En vez de facturar todo en Día de la Madre y después tener semanas flojas, generás un ingreso base predecible todos los meses.</p><p>Modelos de suscripción que funcionan en Argentina:</p><ul><li><strong>Flores semanales para empresas/oficinas</strong>: arreglo fresco cada semana para recepción o sala de reuniones. Precio: $18.000-$35.000 ARS/semana según tamaño. Los corporativos son los mejores clientes: pagan puntual y no cancelan.</li><li><strong>Flores quincenales para el hogar</strong>: ramo de temporada cada 15 días. Precio: $12.000-$22.000 ARS/entrega. Apuntá a un público que valore tener flores frescas siempre.</li><li><strong>Caja sorpresa mensual</strong>: selección del florista con flores de estación. $25.000-$45.000 ARS/mes. Incluí una tarjeta con el nombre de cada flor y tips de cuidado.</li></ul><p>Implementación técnica: en WooCommerce usá WooCommerce Subscriptions (~USD 199/año) o Rebill para pagos recurrentes. En Tiendanube, la suscripción se maneja más artesanalmente: cobrás con link de MercadoPago recurrente y gestionás las entregas manualmente.</p><p>Números reales: con <strong>20 suscriptores corporativos a $25.000 ARS/semana</strong> generás $2.000.000 ARS/mes de ingreso fijo. El costo de las flores para la florería es 25-35% del precio de venta, así que el margen es muy bueno. La clave es la <strong>retención</strong>: un buen servicio (puntualidad, frescura, variedad) retiene al 90% de los suscriptores.</p>"
+      },
+      {
+        "heading": "Fechas especiales: cómo preparar tu tienda para picos de demanda",
+        "body": "<p>El negocio de flores tiene <strong>picos brutales</strong>: Día de la Madre, San Valentín, Día de la Secretaria y fin de año concentran el 40-50% de la facturación anual. Tu tienda tiene que estar lista para absorber esos picos sin colapsar.</p><p>Checklist para fechas especiales:</p><ul><li><strong>Landing especial</strong>: una página dedicada (\"Flores para el Día de la Madre 2026\") con los arreglos temáticos. Esto además posiciona en Google para esa búsqueda estacional.</li><li><strong>Anticipación de pedidos</strong>: abrí la preventa 15-20 días antes. Ofrecé un 10% de descuento por compra anticipada. Esto te permite planificar stock y logística.</li><li><strong>Capacidad de entrega</strong>: en Día de la Madre podés recibir 5x tu volumen normal. Tené repartidores extra comprometidos con anticipación. Definí franjas horarias más acotadas para no prometer lo que no podés cumplir.</li><li><strong>Horario de corte ajustado</strong>: para same-day en fechas pico, cerrá pedidos más temprano (ej: 11 AM en vez de 14 hs).</li><li><strong>Productos estandarizados</strong>: en picos de demanda, reducí la cantidad de opciones. 5-6 arreglos definidos que tu equipo pueda armar en serie, en vez de 30 opciones que generan cuellos de botella.</li></ul><p><strong>Campañas de tráfico</strong>: Google Ads con palabras clave estacionales (\"enviar flores día de la madre CABA\") + Instagram/Facebook Ads con fotos de los arreglos 10 días antes. Presupuesto recomendado: $50.000-$150.000 ARS por fecha especial, dependiendo de tu zona. El retorno suele ser 4-8x en estas fechas.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Cuánto cuesta armar una tienda online para mi florería?",
+        "answer": "Con Tiendanube arrancás desde $0/mes (plan gratuito) y en un fin de semana tenés la tienda lista. Si querés delivery programado y suscripciones, WooCommerce cuesta $350.000-$700.000 ARS de desarrollo. Desarrollo custom para cadenas de florerías: desde $900.000 ARS. A eso sumale fotos profesionales de tus arreglos ($30.000-$60.000 ARS la sesión)."
+      },
+      {
+        "question": "Cómo manejo la disponibilidad si las flores son estacionales?",
+        "answer": "Aclaralo en cada producto con una leyenda tipo 'El arreglo puede variar según disponibilidad de temporada, manteniendo el estilo y paleta de colores'. En tu panel, desactivá productos cuando no tenés stock de esas flores. Y usá categorías de 'Flores de temporada' que rotás cada mes. Los clientes entienden — lo que no perdonan es que les prometas algo y llegue diferente sin aviso."
+      },
+      {
+        "question": "Conviene vender en MercadoLibre además de mi tienda?",
+        "answer": "Para flores frescas con delivery, MercadoLibre no es ideal: los tiempos de envío estándar no sirven para un producto perecedero. Sí podés usar MercadoLibre para vender productos complementarios (floreros, kits de jardinería, plantas de interior) que no son urgentes. Para flores frescas, tu tienda propia + WhatsApp + Instagram son mejores canales."
+      },
+      {
+        "question": "Necesito fotos profesionales o puedo sacar con el celular?",
+        "answer": "Las flores se venden por la foto — es el producto más visual que existe. Invertí en una sesión profesional para tus 10-15 arreglos principales ($30.000-$60.000 ARS). Después, para arreglos nuevos o de temporada, podés sacar con celular si tenés buena luz natural y fondo blanco o neutro. Tip: sacá las fotos apenas armaste el arreglo, cuando las flores están perfectas."
+      },
+      {
+        "question": "Cómo hago para que el arreglo llegue en buenas condiciones?",
+        "answer": "Packaging correcto: base firme (caja o bolsa con soporte), papel celofán para proteger los pétalos, y bolsa con agua en la base si el recorrido es largo. Para ramos, un tubo de agua en el tallo. El repartidor tiene que trasladarlos en posición vertical, nunca acostados. En verano, evitá entregas entre las 12 y las 16 hs — el calor marchita las flores en minutos dentro de un vehículo."
+      }
+    ],
+    "ctaText": "¿Querés vender arreglos florales online con delivery programado? Pedí tu diagnóstico gratuito y te armamos la tienda ideal para tu florería."
+  }
+}

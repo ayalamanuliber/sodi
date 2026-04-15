@@ -1,0 +1,61 @@
+{
+  "slug": "sistema-de-turnos-para-escribanias",
+  "title": "Sistema de turnos para escribanías: organizá tu agenda y preparación de trámites",
+  "metaTitle": "Sistema de Turnos para Escribanías Argentina 2026",
+  "metaDescription": "Sistemas de turnos para escribanías. Opciones SaaS, gratuitas y a medida. Costos, recordatorios de documentación y cómo elegir el ideal.",
+  "silo": "turnos-por-rubro",
+  "siloLabel": "Turnos por Rubro",
+  "tags": ["turnos online", "escribanías", "agenda escribano", "reservas online", "trámites notariales"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-escribanias", "presencia-digital-ideal-escribania", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
+  "content": {
+    "intro": "<p>Si tenés una escribanía en Argentina, sabés que la agenda es un rompecabezas: <strong>escrituras que requieren preparación previa, poderes que se firman en 20 minutos, certificaciones que llegan sin aviso, y clientes que aparecen sin la documentación necesaria</strong>. Todo eso gestionado por teléfono y WhatsApp, con la secretaria haciendo malabares.</p><p>Un <strong>sistema de turnos para escribanías</strong> no solo organiza la agenda — permite que el cliente sepa qué documentación traer antes de venir, reduce las visitas improductivas y te libera de la gestión telefónica. En esta guía te mostramos las opciones, costos y cómo implementar uno.</p>",
+    "sections": [
+      {
+        "heading": "Por qué tu escribanía necesita turnos online",
+        "body": "<p>Las escribanías tienen necesidades de agenda muy particulares:</p><ul><li><strong>Trámites con preparación previa:</strong> Una escritura de compraventa requiere informes de dominio, libre deuda, certificaciones. Si el cliente llega sin los papeles, perdiste el turno.</li><li><strong>Duración variable:</strong> Una certificación de firma toma 10 minutos. Una escritura compleja puede llevar 2 horas. El sistema tiene que manejar esta variación.</li><li><strong>Múltiples partes:</strong> En una escritura participan comprador, vendedor, inmobiliaria, banco. Coordinar a todos por teléfono es un desgaste innecesario.</li><li><strong>Documentación requerida:</strong> Cada trámite necesita documentos específicos. Si el cliente los trae incompletos, todo se retrasa.</li><li><strong>Seguimiento post-turno:</strong> Después de la firma hay inscripciones, trámites registrales, entrega de testimonios. El cliente quiere saber en qué estado está.</li></ul><p>Un sistema de turnos bien configurado resuelve todo esto y <strong>reduce un 50% las llamadas a la escribanía</strong>.</p>"
+      },
+      {
+        "heading": "Opciones SaaS para escribanías",
+        "body": "<p>No existen SaaS diseñados exclusivamente para escribanías, pero las opciones genéricas se adaptan bien:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> Podés crear tipos de turno distintos (escritura, poder, certificación, consulta) con duraciones diferentes. Incluí en la descripción de cada tipo la documentación que el cliente debe traer. Gratis y funcional.</li><li><strong>AgendaPro (USD 15-45/mes):</strong> Más robusto. Permite asignar turnos por escribano, enviar recordatorios con información personalizada (documentos necesarios), y gestionar una agenda más compleja.</li><li><strong>Calendly (USD 10-30/mes):</strong> Simple y profesional. Permite crear workflows donde después de la reserva se envía un email automático con la lista de documentación requerida.</li></ul><p>La clave en escribanías no es solo el turno — <strong>es el mensaje previo con la documentación requerida</strong>. Cualquier sistema que permita enviar información personalizada después de la reserva sirve.</p>"
+      },
+      {
+        "heading": "Desarrollo a medida: cuándo tiene sentido",
+        "body": "<p>Un sistema a medida para escribanía se justifica cuando:</p><ul><li><strong>Volumen alto de escrituras:</strong> Si firmás 20+ escrituras por mes y necesitás un pipeline donde cada una tenga su estado (documentación pendiente, informes solicitados, para firma, firmada, en inscripción).</li><li><strong>Coordinación de múltiples partes:</strong> Un sistema donde compradores, vendedores, inmobiliarias y bancos puedan ver el estado de su trámite y subir documentación.</li><li><strong>Integración con gestión interna:</strong> Si querés que el turno dispare automáticamente la solicitud de informes al Registro de la Propiedad, libre deuda municipal, etc.</li><li><strong>Portal del cliente:</strong> Donde cada cliente vea sus trámites activos, suba documentos y consulte el estado sin llamar a la escribanía.</li></ul><p><strong>Costo estimado:</strong> entre $1.500.000 y $4.000.000 ARS. Para una escribanía con 1-2 escribanos y flujo moderado, es excesivo. Arrancá con un SaaS. Más en <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta un sistema de turnos</a>.</p>"
+      },
+      {
+        "heading": "Recordatorios de documentación: la clave",
+        "body": "<p>El diferencial de un sistema de turnos en escribanías es la <strong>comunicación previa automatizada</strong>:</p><ul><li><strong>Para escrituras:</strong> \"Hola Juan, te confirmamos tu turno el viernes 18 a las 10:00 para la firma de escritura. Recordá traer: DNI original, boleto de compraventa, libre deuda de expensas, último impuesto inmobiliario pago.\"</li><li><strong>Para poderes:</strong> \"Tu turno para otorgamiento de poder es el martes a las 15:00. Necesitás traer: DNI original del poderdante, datos completos del apoderado (nombre, DNI, domicilio).\"</li><li><strong>Para certificaciones:</strong> \"Tu turno para certificación de firma es el lunes a las 11:30. Traé DNI original y el documento a certificar.\"</li><li><strong>Recordatorio 24 horas antes:</strong> Un segundo mensaje reiterando la documentación reduce al mínimo las visitas incompletas.</li></ul><p>Este flujo automático <strong>elimina el 80% de las llamadas tipo \"¿qué tengo que llevar?\"</strong> y reduce las cancelaciones de último momento.</p>"
+      },
+      {
+        "heading": "Cómo implementar turnos en tu escribanía",
+        "body": "<p>La implementación es sencilla si seguís estos pasos:</p><ul><li><strong>Definí tus tipos de trámite:</strong> Escritura de compraventa, hipoteca, poder general, poder especial, certificación de firma, constitución de sociedad, consulta general. Cada uno con su duración estimada.</li><li><strong>Armá la lista de documentación por trámite:</strong> Este es el paso más importante. Para cada tipo de turno, listá exactamente qué documentos necesita el cliente.</li><li><strong>Configurá el sistema:</strong> Creá cada tipo de turno con su duración, horarios disponibles y mensaje automático con la documentación.</li><li><strong>Publicá el link de turnos:</strong> En tu <a href=\"/blog/pagina-web-para-escribanias\">página web</a>, firma de email, WhatsApp Business y Google Maps.</li><li><strong>Educá a tus clientes:</strong> Las primeras semanas, cuando llamen para pedir turno, dirigilos al link. En un mes, la mayoría va a reservar solo.</li></ul><p>En una semana podés tener todo funcionando. <a href=\"/diagnostico\">Agendá un diagnóstico gratuito</a> y te ayudamos a configurarlo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo enviar la lista de documentación requerida automáticamente?",
+        "answer": "Sí. Al reservar un turno, el sistema envía automáticamente por email o WhatsApp la documentación que el cliente necesita traer según el tipo de trámite."
+      },
+      {
+        "question": "¿Puedo manejar turnos con múltiples participantes?",
+        "answer": "Con los SaaS genéricos, el turno se crea para una de las partes y vos coordinás el resto. Con un sistema a medida, podés invitar a todas las partes y confirmar asistencia de cada una."
+      },
+      {
+        "question": "¿Cuánto cuesta un sistema de turnos para escribanía?",
+        "answer": "Cal.com es gratis. Calendly: USD 10-30/mes. AgendaPro: USD 15-45/mes. Desarrollo a medida: $1.500.000 a $4.000.000 ARS."
+      },
+      {
+        "question": "¿El sistema puede diferenciar turnos por escribano?",
+        "answer": "Sí. Tanto AgendaPro como Cal.com permiten crear agendas separadas por profesional, cada uno con sus propios horarios y tipos de turno."
+      },
+      {
+        "question": "¿Puedo bloquear horarios para trámites internos?",
+        "answer": "Sí. Podés marcar bloques de tiempo como no disponibles para atención al público, reservándolos para trabajo interno, redacción de escrituras o gestiones registrales."
+      }
+    ],
+    "ctaText": "¿Querés organizar la agenda de tu escribanía y que tus clientes lleguen con toda la documentación? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>."
+  }
+}

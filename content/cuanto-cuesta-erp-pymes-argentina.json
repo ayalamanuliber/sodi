@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-erp-pymes-argentina",
+  "title": "Cuánto cuesta un ERP para PyMEs en Argentina en 2026: Odoo, Tango, Calipso y desarrollo custom",
+  "metaTitle": "Cuánto cuesta ERP para PyMEs en Argentina 2026",
+  "metaDescription": "Odoo Community gratis. Odoo Enterprise USD 24.90/usuario/mes. Tango desde $50.000 ARS/mes. ERP custom: $5.000.000-$15.000.000 ARS.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["ERP Argentina", "ERP PyMEs", "Odoo Argentina", "Tango Gestión", "sistema de gestión empresarial"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-software-a-medida-argentina", "cuanto-cuesta-sistema-de-gestion-pymes", "software-a-medida-vs-estandar", "como-dejar-de-depender-de-excel"],
+  "content": {
+    "intro": "<p>Un <strong>ERP para PyMEs en Argentina</strong> puede costar desde $0 (Odoo Community es open source y gratuito) hasta $15.000.000 ARS si necesitás un desarrollo completamente a medida. Odoo Enterprise sale <strong>USD 24.90/usuario/mes</strong>, los ERP argentinos como Tango Gestión arrancan en $50.000 ARS/mes, y un ERP custom parte de $5.000.000 ARS.</p><p>La pregunta no es solo cuánto cuesta, sino si realmente necesitás un ERP. Muchas PyMEs saltan de <a href=\"/blog/como-dejar-de-depender-de-excel\">Excel</a> directamente a un ERP complejo y terminan usando el 10% de las funcionalidades. Acá te explicamos cuánto sale cada opción y cuándo tiene sentido cada una.</p>",
+    "sections": [
+      {
+        "heading": "Odoo: el ERP open source más usado en Argentina",
+        "body": "<p><strong>Odoo Community</strong> es la versión gratuita y open source de Odoo. Incluye módulos de ventas, compras, inventario, contabilidad, CRM, y manufactura. Podés descargarlo, instalarlo en tu servidor, y usarlo sin pagar licencia. El costo real: hosting (USD 20-50/mes para un VPS), implementación (configuración, personalización, migración de datos) y mantenimiento.</p><p><strong>Odoo Enterprise:</strong> USD 24.90/usuario/mes (facturado anualmente). Suma sobre Community: interfaz mejorada, hosting en la nube de Odoo, soporte oficial, módulos premium (marketing, firma electrónica, RRHH avanzado), y actualizaciones automáticas.</p><p>Para una PyME con 5 usuarios: Odoo Enterprise cuesta <strong>USD 124.50/mes</strong> (unos $125.000 ARS). Con 10 usuarios: USD 249/mes. El precio escala linealmente por usuario.</p><p><strong>Implementación de Odoo:</strong> acá está el costo que muchos ignoran. Configurar Odoo para tu empresa (localización argentina, plan de cuentas, flujos de trabajo, migración de datos desde Excel u otro sistema) cuesta entre <strong>$1.000.000 y $5.000.000 ARS</strong> dependiendo de la complejidad. Un implementador certificado en Argentina cobra USD 50-100/hora.</p><p>La localización argentina de Odoo (facturación electrónica ARCA, IVA, percepciones, retenciones) existe pero requiere módulos adicionales que no siempre vienen en Community. Verificá que tu implementador tenga experiencia con la localización AR.</p>"
+      },
+      {
+        "heading": "ERP argentinos: Tango Gestión, Calipso y alternativas locales",
+        "body": "<p>Los ERP desarrollados en Argentina tienen una ventaja clave: vienen con la <strong>localización fiscal argentina preconfigurada</strong>. Facturación electrónica ARCA, liquidación de IVA, percepciones y retenciones de IIBB, SIRE, todo listo.</p><p><strong>Tango Gestión (Axoft):</strong> el ERP argentino más conocido. Desde $50.000 ARS/mes para la versión cloud (SaaS). La versión on-premise (licencia perpetua) arranca en $500.000-$1.500.000 ARS más mantenimiento anual del 20%. Módulos disponibles: ventas, compras, stock, contabilidad, sueldos, producción. Fuerte en manufactura y distribución.</p><p><strong>Calipso:</strong> ERP argentino orientado a PyMEs medianas y grandes. Precios desde $80.000 ARS/mes en su versión cloud. Fuerte en logística, distribución y comercio exterior. Implementación costosa ($3.000.000-$8.000.000 ARS).</p><p><strong>Bejerman:</strong> otro clásico argentino, más orientado a contabilidad y administración. Desde $40.000 ARS/mes. Interfaz anticuada pero funcional y con localización argentina impecable.</p><p>La desventaja de los ERP argentinos: interfaces menos modernas que Odoo, menor flexibilidad para personalizar, y ecosistema de partners más chico. La ventaja: sabés que la parte fiscal funciona bien porque fue pensada para Argentina desde el día uno.</p>"
+      },
+      {
+        "heading": "ERP custom (desarrollo a medida): cuándo y cuánto",
+        "body": "<p>Un <strong>ERP a medida</strong> es un sistema desarrollado específicamente para tu empresa. Costo: <strong>$5.000.000-$15.000.000 ARS</strong> para un ERP funcional con los módulos básicos (ventas, compras, stock, facturación). El rango alto incluye módulos de producción, logística, RRHH y BI (business intelligence).</p><p><strong>Tiempo de desarrollo:</strong> 4-12 meses dependiendo del alcance. Un ERP no se hace en 2 meses — si alguien te promete eso, va a entregar algo incompleto.</p><p><strong>Mantenimiento anual:</strong> 15-25% del costo de desarrollo. Un ERP de $10.000.000 requiere $1.500.000-$2.500.000 ARS/año en mantenimiento, actualizaciones, corrección de bugs y nuevas funcionalidades.</p><p>¿Cuándo tiene sentido un ERP custom? Cuando tu operación tiene flujos de trabajo <strong>únicos</strong> que ningún ERP estándar cubre, cuando necesitás integrar sistemas legacy que no tienen API, o cuando tu volumen de operaciones justifica la inversión (facturación mayor a $50.000.000/mes).</p><p>Para la enorme mayoría de las PyMEs argentinas, un <a href=\"/blog/software-a-medida-vs-estandar\">software estándar</a> (Odoo, Tango) con personalización es más eficiente que un desarrollo from scratch. El 80% de los procesos empresariales son iguales en todas las empresas — no reinventes la rueda.</p>"
+      },
+      {
+        "heading": "ERP vs sistema de gestión simple: no todo el mundo necesita un ERP",
+        "body": "<p>Un ERP integra <strong>toda</strong> la operación de tu empresa: ventas, compras, stock, contabilidad, RRHH, producción, logística. Si tu PyME tiene 5 empleados y vende servicios, un ERP completo es como usar un avión para ir al supermercado.</p><p><strong>Si facturás menos de $10.000.000/mes y tenés menos de 10 empleados:</strong> probablemente necesitás un <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistema de gestión simple</a>, no un ERP. Un CRM + facturación electrónica + herramienta de stock te cuesta $10.000-$30.000 ARS/mes y cubre el 90% de tus necesidades.</p><p><strong>Si facturás $10.000.000-$50.000.000/mes y tenés 10-50 empleados:</strong> un ERP SaaS como Odoo Enterprise o Tango cloud tiene sentido. La complejidad operativa justifica la inversión.</p><p><strong>Si facturás más de $50.000.000/mes o tenés más de 50 empleados:</strong> necesitás un ERP robusto con implementación profesional. Odoo Enterprise con partner certificado o Tango Gestión completo.</p><p>El error más caro: comprar un ERP de $3.000.000 y usarlo como si fuera un Excel glorificado porque nadie lo configuró bien ni capacitó al equipo. La herramienta no sirve de nada si la gente no la usa. La <strong>implementación y capacitación</strong> son más importantes que la elección del software.</p>"
+      },
+      {
+        "heading": "Costos ocultos de implementar un ERP que nadie te cuenta",
+        "body": "<p>El precio de licencia es solo el 20-30% del costo total de un ERP. Los costos que las PyMEs subestiman:</p><p><strong>Migración de datos:</strong> pasar tus datos de Excel, otro sistema, o peor aún, de papel, al ERP nuevo. Cuesta entre $200.000 y $1.000.000 ARS dependiendo del volumen y la calidad de los datos actuales. Datos sucios = migración cara.</p><p><strong>Capacitación:</strong> cada usuario necesita 8-20 horas de capacitación. Con 10 usuarios, son 80-200 horas de capacitación. Costo: $300.000-$800.000 ARS si la hace el implementador. Si no capacitás bien, la gente va a seguir usando Excel \"porque es más fácil\".</p><p><strong>Personalización:</strong> todo ERP requiere ajustes. Reportes específicos, campos custom, flujos de aprobación, integraciones con sistemas existentes. Presupuestá un 30-50% adicional sobre el costo de implementación para personalizaciones.</p><p><strong>Pérdida de productividad temporal:</strong> los primeros 1-3 meses con un ERP nuevo, tu equipo va a ser MENOS productivo que antes. Es normal. La curva de aprendizaje existe. Planificá la implementación en un período de baja actividad si podés.</p><p><strong>Costo total real (TCO) primer año:</strong> licencia + implementación + migración + capacitación + personalizaciones. Para Odoo Enterprise con 10 usuarios: USD 3.000 (licencia) + $2.000.000-$4.000.000 (implementación) + $500.000-$1.000.000 (migración + capacitación). Total primer año: $3.000.000-$6.000.000 ARS. Para Tango: sumá un 20-30% más.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta un ERP para PyMEs en Argentina?",
+        "answer": "Odoo Community es gratis (pero pagás implementación y hosting). Odoo Enterprise: USD 24.90/usuario/mes. Tango Gestión cloud: desde $50.000 ARS/mes. ERP custom: $5.000.000-$15.000.000 ARS. El costo total del primer año (con implementación) va de $1.500.000 a $8.000.000 ARS."
+      },
+      {
+        "question": "¿Qué ERP conviene para una PyME argentina?",
+        "answer": "Si querés flexibilidad y precio competitivo: Odoo Enterprise (USD 24.90/usuario/mes). Si la localización fiscal es prioridad y no querés complicarte: Tango Gestión (desde $50.000 ARS/mes). Si tenés presupuesto cero y un técnico que lo instale: Odoo Community (gratis)."
+      },
+      {
+        "question": "¿Cuánto demora implementar un ERP?",
+        "answer": "Un ERP SaaS con configuración básica: 1-3 meses. Un ERP con personalización media: 3-6 meses. Un ERP custom desde cero: 6-12 meses. La implementación incluye relevamiento, configuración, migración de datos, personalizaciones y capacitación."
+      },
+      {
+        "question": "¿Mi PyME realmente necesita un ERP?",
+        "answer": "Si facturás menos de $10.000.000/mes y tenés menos de 10 empleados, probablemente NO. Un sistema de gestión simple (CRM + facturación + stock) te cuesta $10.000-$30.000 ARS/mes y cubre el 90% de tus necesidades. El ERP tiene sentido cuando la complejidad operativa justifica la inversión."
+      },
+      {
+        "question": "¿Odoo funciona bien con la facturación electrónica de ARCA?",
+        "answer": "Sí, pero necesitás módulos de localización argentina (no vienen por defecto en Community). La localización incluye facturación ARCA, IVA, percepciones y retenciones de IIBB. Asegurate de que tu implementador tenga experiencia con localización AR — configurarla mal genera problemas fiscales."
+      }
+    ],
+    "ctaText": "¿No sabés si necesitás un ERP o un sistema más simple? En SODI analizamos tu operación y te recomendamos la herramienta justa para tu tamaño. Pedí tu diagnóstico gratuito."
+  }
+}

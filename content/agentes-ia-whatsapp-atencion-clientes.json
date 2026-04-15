@@ -1,0 +1,61 @@
+{
+  "slug": "agentes-ia-whatsapp-atencion-clientes",
+  "title": "Agentes de IA en WhatsApp: Atención al Cliente Automatizada",
+  "metaTitle": "Agentes IA en WhatsApp para Atención al Cliente | SODI",
+  "metaDescription": "Qué son los agentes de IA para WhatsApp, qué pueden hacer, cuánto cuestan y qué herramientas usar. Comparativa con chatbots simples para PyMEs argentinas.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": ["agentes IA", "WhatsApp Business", "chatbot inteligente", "atención al cliente", "automatización"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["inteligencia-artificial-para-pymes-argentina", "cuanto-cuesta-chatbot-ia-argentina", "chatbot-ia-vs-atencion-humana-argentina", "como-automatizar-atencion-al-cliente"],
+  "content": {
+    "intro": "<p>Tus clientes te escriben por WhatsApp a las 11 de la noche, los fines de semana y mientras estás en reuniones. Y cada mensaje sin responder es una venta potencial que se enfría. Los agentes de IA para WhatsApp resuelven exactamente este problema: atienden consultas, toman pedidos y agendan turnos de forma automática, 24/7, con respuestas que suenan humanas.</p><p>Pero no todos los \"bots\" son iguales. En esta guía te explicamos la diferencia entre un chatbot simple y un agente de IA real, qué pueden hacer hoy en día, cuánto cuestan y qué herramientas son las mejores para PyMEs argentinas.</p>",
+    "sections": [
+      {
+        "heading": "Qué es un agente de IA para WhatsApp (y qué no es)",
+        "body": "<p>Primero, la diferencia clave. Un <strong>chatbot simple</strong> funciona con reglas predefinidas: \"Si el cliente dice X, respondé Y\". Es un árbol de decisiones. Funciona bien para preguntas muy repetitivas, pero se rompe en cuanto alguien pregunta algo fuera del guion.</p><p>Un <strong>agente de IA</strong> es otra cosa. Usa modelos de lenguaje (como GPT o Claude) para entender el contexto de la conversación y generar respuestas naturales. Puede:</p><ul><li>Entender preguntas formuladas de diferentes maneras</li><li>Mantener el hilo de una conversación larga</li><li>Acceder a tu base de datos de productos, precios y disponibilidad</li><li>Tomar decisiones (como ofrecer un descuento si detecta que el cliente está por irse)</li><li>Escalar a un humano cuando detecta que no puede resolver algo</li></ul><p>La diferencia práctica es que un chatbot simple necesita que programes cada posible interacción. Un agente de IA aprende de tu información y se adapta.</p>"
+      },
+      {
+        "heading": "Qué pueden hacer los agentes de IA hoy",
+        "body": "<p>Los casos de uso más comunes y probados para PyMEs argentinas:</p><p><strong>Responder preguntas frecuentes:</strong> Horarios, ubicación, formas de pago, tiempos de envío, políticas de devolución. El agente accede a un documento con toda tu información y responde al instante. Esto solo ya libera el 60-70% de las consultas repetitivas.</p><p><strong>Tomar pedidos:</strong> El agente puede mostrar el catálogo, recomendar productos, armar el pedido y enviar un link de pago. Todo dentro de WhatsApp, sin que el cliente tenga que abrir otra app.</p><p><strong>Agendar turnos y citas:</strong> Se conecta con Google Calendar o tu sistema de turnos y ofrece horarios disponibles. El cliente elige, confirma y recibe un recordatorio automático.</p><p><strong>Calificar leads:</strong> Hace preguntas clave (presupuesto, necesidad, urgencia) y clasifica al contacto antes de pasárselo a tu equipo de ventas. Tu vendedor recibe un lead ya filtrado con toda la info relevante.</p><p><strong>Seguimiento post-venta:</strong> Envía actualizaciones de envío, pide reseñas, ofrece productos complementarios. Todo automático y personalizado según lo que compró el cliente.</p>"
+      },
+      {
+        "heading": "Herramientas recomendadas para PyMEs argentinas",
+        "body": "<p>Hay muchas opciones, pero estas son las que mejor funcionan en el contexto argentino:</p><p><strong>Aurora Inbox (desde USD 50/mes):</strong> Plataforma argentina que se integra directo con la API de WhatsApp Business. Tiene un builder visual para crear flujos y permite conectar modelos de IA para respuestas inteligentes. Soporte en español y facturación local.</p><p><strong>Whato (desde USD 79/mes):</strong> Especializada en agentes de IA para WhatsApp. Configurás el agente con tus documentos (catálogo, FAQ, políticas) y empieza a responder. Tiene integración con Mercado Pago y Google Calendar. Ideal si querés algo listo para usar sin programar.</p><p><strong>BotConversa (desde USD 99/mes):</strong> Más completa, permite crear flujos complejos combinando reglas con IA. Tiene CRM integrado, etiquetas automáticas y reportes detallados. Mejor para equipos de ventas que manejan volumen alto.</p><p><strong>Comparación rápida:</strong></p><ul><li><strong>Para arrancar con poco presupuesto:</strong> Aurora Inbox</li><li><strong>Para atención + ventas automatizadas:</strong> Whato</li><li><strong>Para equipos de ventas con CRM:</strong> BotConversa</li></ul><p>Todas requieren tener un número de WhatsApp Business con la API habilitada. Si todavía usás WhatsApp Business normal (la app), el primer paso es migrar a la API.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta implementar un agente de IA en WhatsApp",
+        "body": "<p>Los costos se dividen en tres partes:</p><p><strong>1. Plataforma (USD 50-250/mes):</strong> Es el software que conecta la IA con WhatsApp. Los precios varían según cantidad de conversaciones, funcionalidades y si incluyen CRM.</p><p><strong>2. API de WhatsApp Business:</strong> Meta cobra por conversación. Las primeras 1.000 conversaciones de servicio al mes son gratis. Después, alrededor de USD 0.05 por conversación iniciada por el negocio y USD 0.03 por conversación iniciada por el cliente (precios para Argentina, pueden variar).</p><p><strong>3. Configuración inicial:</strong> Depende de la complejidad. Un agente básico (FAQ + catálogo) lo podés tener listo en una semana. Uno con integraciones complejas (CRM, sistemas de stock, múltiples flujos) puede tomar 2-4 semanas.</p><p><strong>Inversión típica para una PyME:</strong></p><ul><li>Setup inicial: $150.000-500.000 ARS (si lo terciarizás)</li><li>Costo mensual: USD 80-150/mes (plataforma + API)</li><li>ROI esperado: si respondés 100 consultas diarias y el agente resuelve el 70%, estás ahorrando el equivalente a un empleado part-time</li></ul>"
+      },
+      {
+        "heading": "Agente de IA vs chatbot simple: cuándo usar cada uno",
+        "body": "<p>No siempre necesitás un agente de IA. A veces un chatbot simple es suficiente (y más barato):</p><p><strong>Usá un chatbot simple cuando:</strong></p><ul><li>Tus consultas son muy repetitivas y predecibles (menos de 10 tipos de preguntas)</li><li>No necesitás respuestas personalizadas</li><li>Tu presupuesto es muy limitado (menos de USD 50/mes)</li><li>Solo necesitás derivar consultas a diferentes áreas</li></ul><p><strong>Usá un agente de IA cuando:</strong></p><ul><li>Tus clientes hacen preguntas variadas y complejas</li><li>Vendés productos y querés que el agente recomiende y cierre ventas</li><li>Necesitás atención 24/7 con calidad consistente</li><li>Querés integrar con tu CRM, calendario o sistema de stock</li><li>El volumen de consultas justifica la inversión</li></ul><p>La recomendación general: si recibís más de 30 consultas diarias por WhatsApp y un porcentaje alto son repetitivas, un agente de IA se paga solo en el primer mes.</p>"
+      },
+      {
+        "heading": "Cómo implementarlo paso a paso",
+        "body": "<p>Si decidiste avanzar, estos son los pasos concretos:</p><ol><li><strong>Migrá a la API de WhatsApp Business:</strong> Necesitás un número verificado y una cuenta de Meta Business. Tu proveedor de plataforma (Aurora, Whato, etc.) te guía en el proceso.</li><li><strong>Documentá tu negocio:</strong> Armá un documento con toda la información que el agente necesita: productos, precios, horarios, políticas, preguntas frecuentes, flujos de venta. Cuanto más completo, mejor responde el agente.</li><li><strong>Configurá los flujos principales:</strong> Empezá con 3 flujos: FAQ, toma de pedidos y derivación a humano. No intentes automatizar todo de entrada.</li><li><strong>Probá internamente:</strong> Durante 1-2 semanas, probá el agente con tu equipo. Detectá las preguntas que no sabe responder y ajustá.</li><li><strong>Lanzá con supervisión:</strong> Las primeras 2 semanas con clientes reales, tené a alguien monitoreando las conversaciones. El agente va a cometer errores y necesitás corregirlo rápido.</li><li><strong>Iterá y mejorá:</strong> Revisá semanalmente las conversaciones donde el agente falló. Agregá información, ajustá respuestas y expandí los flujos gradualmente.</li></ol>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Los clientes se dan cuenta de que hablan con un bot?",
+        "answer": "Con los agentes de IA modernos, muchos clientes no se dan cuenta. Pero es buena práctica avisarlo al inicio de la conversación. La transparencia genera confianza y además es un requisito legal en muchos contextos."
+      },
+      {
+        "question": "¿Puedo usar un agente de IA con WhatsApp Business normal (la app)?",
+        "answer": "No. Los agentes de IA requieren la API de WhatsApp Business, no la app. La app tiene funciones básicas de respuestas rápidas, pero no permite integrar IA real. La migración a la API es un paso necesario."
+      },
+      {
+        "question": "¿Qué pasa cuando el agente no sabe responder algo?",
+        "answer": "Un agente bien configurado detecta cuando no puede resolver una consulta y la escala automáticamente a un humano. El cliente recibe un mensaje tipo 'Te paso con un asesor que te va a ayudar mejor con esto' y la conversación se transfiere."
+      },
+      {
+        "question": "¿Cuánto tarda en estar funcionando?",
+        "answer": "Un agente básico con FAQ y catálogo puede estar listo en 5-7 días. Uno con integraciones complejas (CRM, calendario, sistema de stock) puede tomar 2-4 semanas. La clave es empezar simple e ir sumando funcionalidades."
+      }
+    ],
+    "ctaText": "¿Querés implementar un agente de IA en tu WhatsApp Business? En SODI te ayudamos a elegir la herramienta correcta, configurar los flujos y dejarlo funcionando. Contactanos."
+  }
+}

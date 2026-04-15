@@ -1,0 +1,61 @@
+{
+  "slug": "pagina-web-para-clinicas-medicas",
+  "title": "Página Web para Clínicas Médicas en Argentina: Turnos, Especialidades y Gestión Online",
+  "metaTitle": "Página Web para Clínicas Médicas Argentina | 2026",
+  "metaDescription": "Tu clínica necesita web con turnos online, perfiles de médicos, especialidades, mapa y emergencias. Qué incluir, costos y errores comunes.",
+  "silo": "web-por-rubro",
+  "siloLabel": "Web por Rubro",
+  "tags": ["clínicas médicas", "turnos online", "web para clínicas", "salud digital", "especialidades médicas"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": ["pagina-web-para-consultorios-medicos", "cuanto-cuesta-pagina-web-para-medicos", "sistema-de-turnos-para-consultorios-medicos", "como-conseguir-clientes-por-internet"],
+  "content": {
+    "intro": "<p>Una clínica médica no es un consultorio. Tenés múltiples profesionales, varias especialidades, guardias, laboratorio, estudios complementarios. Pero cuando alguien busca <strong>\"clínica médica en [tu ciudad]\"</strong> y cae en una web desactualizada con un PDF de especialidades de 2019, la confianza se destruye antes de empezar.</p><p>Tu clínica necesita una <strong>web profesional que refleje su escala</strong>: turnos online por especialidad, perfiles de cada médico, información de emergencias y mapa interactivo. En esta guía te cuento exactamente qué debe tener, qué errores evitar y cuánto cuesta implementarlo en Argentina.</p>",
+    "sections": [
+      {
+        "heading": "Por qué una clínica médica necesita web propia (y no alcanza con un directorio)",
+        "body": "<p>Un <a href=\"/blog/pagina-web-para-consultorios-medicos\">consultorio con un médico</a> puede sobrevivir con un perfil en Google Maps y WhatsApp. Una clínica, no. La complejidad operativa exige un canal digital propio.</p><p><strong>Escala de información:</strong> tenés 10, 20 o 50 profesionales con distintas especialidades, horarios y coberturas. Ningún directorio genérico muestra eso bien. Tu web tiene que permitir que el paciente filtre por especialidad, encuentre al profesional que necesita y saque turno en menos de 2 minutos.</p><p><strong>Reputación institucional:</strong> una clínica compite por convenios con obras sociales, prepagas y empresas. El primer lugar donde evalúan tu seriedad es tu presencia digital. Una web profesional no es cosmética — es tu carta de presentación ante decisores que manejan miles de afiliados.</p><p><strong>Volumen de turnos:</strong> si manejás 200 turnos diarios por teléfono, necesitás 3-4 personas solo para atender llamados. Un sistema de turnos online absorbe el 60-70% de esa demanda y libera al equipo para atención presencial.</p><p>Las clínicas que no digitalizan su canal de turnos pierden pacientes todos los días. No porque sean malas clínicas, sino porque <strong>el paciente se cansa de llamar y elegir al que le facilite la vida</strong>.</p>"
+      },
+      {
+        "heading": "Qué debe incluir la web de una clínica médica",
+        "body": "<p>La web de una clínica tiene requerimientos muy distintos a los de un consultorio individual:</p><ul><li><strong>Buscador de profesionales:</strong> el paciente necesita encontrar al especialista correcto rápido. Filtros por especialidad, obra social aceptada, día de atención y sede. Cada médico con su perfil: foto, matrícula, formación y horarios de atención.</li><li><strong>Sistema de turnos online multi-profesional:</strong> turnos por especialidad con disponibilidad en tiempo real. El paciente elige especialidad → médico → día → horario. Confirmación automática por WhatsApp. Este es el corazón de la web. Si necesitás profundizar, leé nuestra guía de <a href=\"/blog/sistema-de-turnos-para-consultorios-medicos\">sistemas de turnos para consultorios</a>.</li><li><strong>Páginas por especialidad:</strong> cada especialidad con su página propia. No un listado genérico, sino contenido que explique qué problemas trata, qué estudios incluye y cuándo consultar. Esto además mejora tu SEO para búsquedas como \"traumatología en [ciudad]\".</li><li><strong>Información de emergencias y guardia:</strong> teléfono de emergencia visible en toda la web, horarios de guardia, especialidades de guardia disponibles. Si tu clínica tiene guardia 24hs, eso debe ser lo primero que vea alguien en una urgencia.</li><li><strong>Mapa interactivo y acceso:</strong> ubicación con Google Maps, indicaciones de acceso, estacionamiento, transporte público cercano. Para clínicas con varias sedes, selector de ubicación prominente.</li><li><strong>Obras sociales y prepagas:</strong> listado completo y actualizado de coberturas aceptadas. Filtrable, no un PDF para descargar.</li><li><strong>Portal de resultados:</strong> acceso seguro para que el paciente vea resultados de estudios online, sin tener que ir a buscarlos físicamente.</li></ul><p>En <strong>SODI</strong> desarrollamos webs para clínicas que integran toda esta complejidad en una experiencia simple para el paciente.</p>"
+      },
+      {
+        "heading": "Errores que le cuestan pacientes a las clínicas",
+        "body": "<p>Estos son los errores más comunes que vemos en clínicas argentinas:</p><p><strong>1. Web estática tipo \"folleto digital\".</strong> Muchas clínicas tienen una web hecha hace 5 años que muestra la fachada del edificio y un listado de especialidades. Sin turnos online, sin perfiles de médicos, sin nada interactivo. En 2026, eso es como tener un cartel en la puerta y nada más.</p><p><strong>2. Sistema de turnos desconectado de la web.</strong> Algunas clínicas tienen sistema de turnos (como JIZEN o Medilink) pero no lo integran a su web. El paciente entra a la web, no encuentra cómo sacar turno, y termina llamando por teléfono. La integración entre tu software de gestión y tu web es clave.</p><p><strong>3. No tener información de emergencias accesible.</strong> Si tu clínica tiene guardia, el número de emergencias y los horarios tienen que estar visibles en los primeros 3 segundos de carga. Una persona en urgencia no va a navegar 4 páginas para encontrar un teléfono.</p><p><strong>4. Obras sociales en un PDF desactualizado.</strong> El paciente necesita saber si aceptás su cobertura ANTES de llamar. Un PDF que hay que descargar y que está desactualizado es peor que no tener la información.</p><p><strong>5. No ser mobile-first.</strong> Más del 80% de las búsquedas de salud se hacen desde el celular. Si tu web muestra tablas ilegibles y botones diminutos en el teléfono, estás perdiendo la mayoría de tus visitas.</p>"
+      },
+      {
+        "heading": "Cuánto cuesta una web profesional para clínicas en Argentina",
+        "body": "<p>La inversión varía según la escala de la clínica:</p><ul><li><strong>Web institucional con turnos online:</strong> desde USD 2.500 a USD 5.000. Incluye diseño responsive, buscador de profesionales, sistema de turnos integrado, páginas por especialidad, obras sociales, mapa y WhatsApp. Es la base que toda clínica necesita.</li><li><strong>Web con portal de pacientes:</strong> desde USD 5.000 a USD 10.000. Suma acceso a resultados de estudios, historial de turnos del paciente, gestión de coberturas y notificaciones personalizadas.</li><li><strong>Web integrada con sistema de gestión clínica:</strong> desde USD 8.000 a USD 15.000. Integración con JIZEN, Medilink u otro HIS. Los turnos web se sincronizan directamente con la agenda médica interna, sin doble carga. Ideal para clínicas con más de 20 profesionales.</li></ul><p>Hacé esta cuenta: si tu recepción dedica 4 personas full-time a gestionar turnos telefónicos, y un sistema online reduce eso a 1-2 personas, estás ahorrando entre $500.000 y $1.000.000 ARS mensuales en sueldos. La web se paga sola en 2-3 meses.</p><p>Para una referencia general de costos, consultá nuestra guía de <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">cuánto cuesta una página web en Argentina</a>.</p>"
+      },
+      {
+        "heading": "Integración con software de gestión clínica: JIZEN, Medilink y más",
+        "body": "<p>La mayoría de las clínicas en Argentina ya usan algún software de gestión interna. La clave es que tu web se comunique con ese sistema:</p><p><strong>JIZEN:</strong> uno de los sistemas más usados en clínicas argentinas. Gestiona turnos, historia clínica, facturación a obras sociales y estudios. Tu web puede integrarse vía API para que los turnos online caigan directamente en la agenda de JIZEN, sin que la recepción los cargue manualmente.</p><p><strong>Medilink:</strong> fuerte en gestión de coberturas y facturación. La integración permite validar en tiempo real si el paciente tiene cobertura activa antes de confirmar el turno.</p><p><strong>Google Business Profile:</strong> tu ficha de Google tiene que estar impecable. Fotos actualizadas, horarios de cada sede, link directo a la web para turnos. Para búsquedas tipo \"clínica cerca de mí\", Google Maps es el primer contacto.</p><p><strong>WhatsApp Business:</strong> confirmación automática de turnos, recordatorios 24hs antes, y <a href=\"/blog/automatizar-whatsapp-consultorios\">automatizaciones de WhatsApp</a> para responder fuera de horario. Las clínicas que implementan recordatorios reducen ausencias en un 30-50%.</p><p>En <strong>SODI</strong> nos especializamos en que tu web no sea una isla digital sino el centro de un ecosistema conectado con toda tu operación clínica.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la diferencia entre una web para clínica y una para consultorio?",
+        "answer": "La escala y complejidad. Un consultorio tiene 1-3 profesionales; una clínica tiene múltiples especialidades, decenas de médicos, guardias y laboratorio. La web de una clínica necesita buscador de profesionales, filtros por especialidad, sistema de turnos multi-doctor e información de emergencias."
+      },
+      {
+        "question": "¿Se puede integrar JIZEN o Medilink con la web de la clínica?",
+        "answer": "Sí. Ambos sistemas ofrecen integraciones vía API que permiten sincronizar la agenda de turnos, validar coberturas y mostrar disponibilidad en tiempo real en tu web. En SODI implementamos estas integraciones."
+      },
+      {
+        "question": "¿Cuánto tarda en implementarse la web de una clínica?",
+        "answer": "Una web institucional con turnos online: entre 4 y 8 semanas. Si incluye integración con sistema de gestión clínica y portal de pacientes, puede llevar entre 8 y 12 semanas. Depende de la complejidad de la clínica y las integraciones necesarias."
+      },
+      {
+        "question": "¿Necesitamos mostrar los precios de las consultas en la web?",
+        "answer": "No es obligatorio, pero sí recomendamos mostrar si la consulta tiene costo para particulares y qué obras sociales/prepagas cubrís. La transparencia en coberturas reduce consultas innecesarias al teléfono y mejora la experiencia del paciente."
+      },
+      {
+        "question": "¿La web puede mostrar resultados de estudios online?",
+        "answer": "Sí. Se puede implementar un portal seguro donde el paciente acceda con DNI y clave para ver sus resultados de laboratorio, imágenes y otros estudios. Esto requiere integración con el sistema de laboratorio y protocolos de seguridad para datos de salud."
+      }
+    ],
+    "ctaText": "¿Tu clínica necesita una web profesional con turnos online? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y te armamos una propuesta a medida."
+  }
+}

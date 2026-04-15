@@ -1,0 +1,61 @@
+{
+  "slug": "automatizar-whatsapp-florerias",
+  "title": "Automatizar WhatsApp para florerías: pedidos, delivery y fechas especiales con bots",
+  "metaTitle": "Automatizar WhatsApp para Florerías Argentina | SODI",
+  "metaDescription": "Cómo automatizar WhatsApp en tu florería. Bots para pedidos, catálogo de arreglos, delivery con dedicatoria y campañas de fechas especiales.",
+  "silo": "whatsapp-por-rubro",
+  "siloLabel": "WhatsApp por Rubro",
+  "tags": ["florerías", "WhatsApp Business", "automatización", "bots WhatsApp", "delivery flores"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": ["pagina-web-para-florerias", "como-vender-por-internet-argentina", "whatsapp-manual-vs-bot-automatico", "cuanto-cuesta-bot-whatsapp-empresas"],
+  "content": {
+    "intro": "<p>Las florerías tienen picos brutales de demanda: Día de la Madre, San Valentín, aniversarios, cumpleaños. En esos días, tu WhatsApp explota con pedidos y <strong>responder manualmente a cada uno mientras armás arreglos es imposible</strong>. Y el resto del año, cada mensaje que tardás en contestar es un cliente que le compra a otro.</p><p>Automatizar WhatsApp en tu florería significa que los pedidos entren organizados, las dedicatorias se recopilen solas, el delivery se confirme al instante y vos te dediques a crear arreglos, no a tipear. En esta guía te mostramos cómo hacerlo. Si querés vender online, mirá nuestra guía de <a href=\"/blog/como-vender-por-internet-argentina\">cómo vender por internet en Argentina</a>.</p>",
+    "sections": [
+      {
+        "heading": "Flujos de automatización clave para florerías",
+        "body": "<p>Estos son los flujos que transforman la operación de una florería:</p><ul><li><strong>Catálogo de arreglos:</strong> el cliente escribe y ve tus opciones organizadas por categoría (ramos, arreglos florales, centros de mesa, plantas, cajas con flores) con foto, descripción y precio. Tu vidriera digital disponible 24/7.</li><li><strong>Pedido con dedicatoria:</strong> el bot recopila: qué arreglo, para quién, dirección de envío, fecha y hora de entrega, dedicatoria, medio de pago. Te llega todo organizado, sin idas y vueltas.</li><li><strong>Confirmaciones de envío:</strong> cuando el delivery sale: \"Tu arreglo va en camino hacia [dirección]. Llega en aproximadamente [X] minutos\". Y al destinatario (opcional): \"Tenés una sorpresa esperándote\".</li><li><strong>Consultas frecuentes:</strong> zonas de delivery, horarios, medios de pago, si hacen suscripciones semanales, si trabajan con empresas. Respuestas al instante.</li><li><strong>Campañas de fechas especiales:</strong> avisos automáticos 10-15 días antes de fechas clave para que los clientes encarguen con tiempo.</li></ul>"
+      },
+      {
+        "heading": "Herramientas recomendadas para florerías",
+        "body": "<p>Las opciones que mejor funcionan para este rubro:</p><ul><li><strong>Aurora Inbox:</strong> plataforma argentina con flujos visuales. Armás el catálogo con fotos, configurás el proceso de pedido y gestionás todo desde un panel. Simple y efectiva para arrancar.</li><li><strong>Whato:</strong> tiene plantillas de e-commerce adaptables a florerías. Catálogo, carrito de compra y confirmación de pedido. Se implementa rápido.</li><li><strong>ManyChat:</strong> la más completa para flujos con múltiples variables (tipo de arreglo + dedicatoria + dirección + horario). Se integra con Instagram, lo que es clave para florerías donde muchos pedidos vienen de stories.</li><li><strong>ChatCompose:</strong> con IA que entiende pedidos naturales. El cliente escribe \"quiero mandarle flores a mi mamá el domingo, algo lindo por unos 15 mil pesos\" y el bot interpreta y sugiere opciones.</li></ul><p><strong>¿Cuál elegir?</strong> ManyChat si recibís muchos pedidos desde Instagram (la integración es clave). Aurora Inbox si querés algo simple y local. ChatCompose si te interesa que el bot entienda pedidos en lenguaje natural.</p>"
+      },
+      {
+        "heading": "Flujo de pedido completo automatizado",
+        "body": "<p>Así se ve un pedido de flores sin intervención humana hasta el armado:</p><ol><li><strong>Bienvenida:</strong> \"¡Hola! Bienvenido a [tu florería]. ¿Qué te gustaría? 1) Ver catálogo 2) Hacer un pedido 3) Consultar un envío 4) Hablar con alguien\".</li><li><strong>Catálogo visual:</strong> \"¿Qué estás buscando? 1) Ramos 2) Arreglos florales 3) Cajas de flores 4) Plantas 5) Combos con chocolate/peluche\". Cada opción muestra fotos y precios.</li><li><strong>Selección:</strong> el cliente elige, el bot confirma: \"Elegiste [nombre del arreglo] por $[precio]. ¿Querés agregarte algo? Bombones ($X), globo ($X), peluche ($X)\".</li><li><strong>Datos de envío:</strong> \"¿A dónde lo enviamos? Escribí la dirección completa. ¿Para qué día y horario?\".</li><li><strong>Dedicatoria:</strong> \"¿Querés incluir una tarjeta? Escribí tu mensaje y lo incluimos con el arreglo\".</li><li><strong>Confirmación y pago:</strong> resumen completo con total, opciones de pago (transferencia, tarjeta, efectivo al delivery) y confirmación.</li><li><strong>Seguimiento:</strong> notificación cuando el arreglo está listo, cuando sale el delivery y confirmación de entrega.</li></ol><p>El resultado: <strong>pedidos completos sin errores, con toda la info que necesitás para armar y enviar</strong>.</p>"
+      },
+      {
+        "heading": "Campañas de fechas especiales",
+        "body": "<p>Las fechas especiales son el 60-70% de la facturación de una florería. La automatización acá es donde más impacta:</p><ul><li><strong>Día de la Madre (tercer domingo de octubre):</strong> 15 días antes arrancá con: \"El regalo que nunca falla. Encargá el arreglo para mamá y olvidate — nosotros lo entregamos a la hora que digas\". Enviá recordatorios a 10 días, 5 días y 2 días.</li><li><strong>San Valentín (14 de febrero):</strong> \"No dejes para último momento lo que podés resolver ahora. Elegí tu arreglo y reservá el delivery\". La urgencia acá vende sola.</li><li><strong>Día del Amigo, cumpleaños, condolencias:</strong> flujos diferenciados: el tono para condolencias no es el mismo que para cumpleaños. Tené mensajes adaptados.</li><li><strong>Suscripciones semanales:</strong> para empresas y oficinas: \"¿Querés flores frescas en tu oficina cada semana? Te armamos un plan a medida con descuento mensual\".</li><li><strong>Recuperación de clientes:</strong> a quien compró hace más de 3 meses: \"Hace mucho que no nos escribís. ¿Necesitás flores para alguien especial? Tenemos 10% OFF para vos\".</li></ul><p><strong>Tip:</strong> armá los flujos de fechas especiales con 30 días de anticipación. Cuando llega la fecha, solo los activás.</p>"
+      },
+      {
+        "heading": "Implementación en 5 pasos",
+        "body": "<p>Así arrancás sin complicarte:</p><ul><li><strong>Paso 1:</strong> fotografiá tus 15-20 arreglos más pedidos con buena luz y fondo limpio. Estas fotos son la base de tu catálogo.</li><li><strong>Paso 2:</strong> elegí la herramienta (ManyChat si usás mucho Instagram, Aurora Inbox si preferís simplicidad) y conectá tu WhatsApp Business.</li><li><strong>Paso 3:</strong> armá el flujo de pedido completo: catálogo → selección → datos de envío → dedicatoria → pago → confirmación.</li><li><strong>Paso 4:</strong> configurá las respuestas automáticas para consultas frecuentes (zonas de delivery, horarios, medios de pago).</li><li><strong>Paso 5:</strong> programá las campañas para las próximas 3 fechas especiales del calendario.</li></ul><p><strong>Errores comunes:</strong></p><ul><li>No actualizar precios y disponibilidad — sobre todo en fechas pico cuando hay faltantes.</li><li>No limitar los horarios de delivery — prometé solo lo que podés cumplir.</li><li>Olvidarse de pedir la dedicatoria — es parte fundamental del producto en una florería.</li><li>No tener alternativa humana para pedidos complejos o arreglos a medida.</li></ul><p>¿Querés que te ayudemos? <strong><a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a></strong> y te armamos el sistema completo.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta automatizar WhatsApp para una florería?",
+        "answer": "Las herramientas arrancan desde USD 20-30/mes. En fechas especiales, un solo pedido extra que entra gracias al bot ya paga varios meses de suscripción. Es una inversión que se recupera inmediatamente."
+      },
+      {
+        "question": "¿El bot puede manejar la demanda de Día de la Madre o San Valentín?",
+        "answer": "Sí, y ahí es donde más brilla. Mientras vos armás arreglos, el bot recibe pedidos, recopila datos de envío y dedicatorias, y confirma. Sin bot, en esos picos perdés pedidos por no poder responder a tiempo."
+      },
+      {
+        "question": "¿Cómo manejo las fotos si mis arreglos son todos distintos?",
+        "answer": "Mostrá arreglos 'tipo' por rango de precio: 'Ramo mediano (6-8 tallos, $X)', 'Arreglo premium ($X)'. El cliente elige el estilo y rango, vos armás con las flores disponibles. Funciona muy bien."
+      },
+      {
+        "question": "¿Puedo notificar al destinatario que le llegan flores?",
+        "answer": "Sí, podés configurar un mensaje opcional al destinatario: 'Tenés una sorpresa esperándote'. Muchos clientes lo valoran como un detalle extra. Siempre pedí el dato al comprador: algunos prefieren que sea sorpresa total."
+      },
+      {
+        "question": "¿Cómo evito problemas con los envíos?",
+        "answer": "Definí zonas de cobertura claras en el bot, confirmá disponibilidad de horario antes de aceptar el pedido, y enviá tracking cuando el delivery sale. Si hay algún problema, que el bot escale a una persona inmediatamente."
+      }
+    ],
+    "ctaText": "¿Querés que tu florería reciba pedidos automáticos y no pierda ninguna venta? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a> y armamos tus flujos."
+  }
+}

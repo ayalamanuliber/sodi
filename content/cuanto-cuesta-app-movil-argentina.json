@@ -1,0 +1,61 @@
+{
+  "slug": "cuanto-cuesta-app-movil-argentina",
+  "title": "Cuánto cuesta desarrollar una app móvil en Argentina en 2026: precios por complejidad",
+  "metaTitle": "Cuánto cuesta una app móvil en Argentina 2026",
+  "metaDescription": "App simple: USD 3.000-5.000. App media: USD 8.000-15.000. App compleja: USD 20.000-50.000+. Precios reales del mercado argentino 2026.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": ["app móvil", "desarrollo mobile", "precios app argentina", "react native", "flutter"],
+  "datePublished": "2026-04-14",
+  "dateModified": "2026-04-14",
+  "readingTime": "9 min lectura",
+  "relatedSlugs": ["cuanto-cuesta-software-a-medida-argentina", "software-a-medida-vs-estandar", "cuanto-cuesta-sistema-interno-empresa", "contratar-programador-vs-agencia"],
+  "content": {
+    "intro": "<p>Desarrollar una app móvil en Argentina en 2026 cuesta entre <strong>USD 3.000 y USD 50.000+</strong> dependiendo de la complejidad. Una app simple (catálogo, turnos, formulario) arranca en USD 3.000-5.000. Una app de complejidad media con backend propio, login, notificaciones push y panel admin va de USD 8.000 a 15.000. Una app compleja con pagos integrados, geolocalización, chat en tiempo real o IA cuesta USD 20.000-50.000+.</p><p>Antes de cotizar, la pregunta real es: <strong>¿necesitás una app o te alcanza con una web responsive?</strong> El 70% de las PyMEs argentinas que piden presupuesto de app en realidad resuelven su problema con una Progressive Web App (PWA) por la mitad del precio. Te explicamos cuándo sí y cuándo no vale la pena.</p>",
+    "sections": [
+      {
+        "heading": "App nativa vs híbrida vs PWA: precios y diferencias reales",
+        "body": "<p><strong>App nativa (iOS + Android por separado):</strong> se desarrolla en Swift/Kotlin, una versión para cada sistema operativo. Es la más cara porque hay que mantener dos códigos. Costo: multiplicá por 1.5-2x el precio de una app híbrida. Solo tiene sentido si necesitás acceso intensivo a hardware (cámara avanzada, Bluetooth, sensores) o rendimiento extremo (juegos, edición de video).</p><p><strong>App híbrida (React Native / Flutter):</strong> un solo código que funciona en iOS y Android. Es el estándar del mercado argentino en 2026. El 80% de las apps para PyMEs se hacen así. Costo: USD 3.000-15.000 para la mayoría de los casos. Flutter viene ganando terreno porque Google lo empuja fuerte y la experiencia de usuario es prácticamente nativa.</p><p><strong>Progressive Web App (PWA):</strong> es una web que se comporta como app. Se instala desde el navegador, funciona offline, envía notificaciones. No pasa por las tiendas (App Store/Play Store). Costo: USD 1.500-5.000. Ideal para catálogos, sistemas de turnos, portales de clientes. MercadoLibre, Twitter y Starbucks usan PWA.</p><p>La recomendación honesta: si no necesitás estar en las tiendas y tu funcionalidad es básica, arrancá con PWA. Si necesitás notificaciones push nativas, pagos in-app o presencia en las stores, andá con híbrida en Flutter o React Native.</p>"
+      },
+      {
+        "heading": "Rangos de precio por tipo de app en Argentina",
+        "body": "<p><strong>App simple (USD 3.000-5.000):</strong> 4-8 pantallas, diseño con template personalizado, catálogo de productos/servicios, formulario de contacto, integración con WhatsApp, notificaciones push básicas, panel admin simple. Ejemplos: app de menú de restaurante, catálogo de inmobiliaria, sistema de turnos básico. Plazo: 4-8 semanas.</p><p><strong>App media (USD 8.000-15.000):</strong> 10-20 pantallas, diseño custom, registro y login de usuarios, backend propio con API, base de datos, notificaciones segmentadas, integración con <strong>MercadoPago</strong>, panel de administración completo, analytics. Ejemplos: marketplace básico, app de delivery local, sistema de reservas con pagos. Plazo: 8-16 semanas.</p><p><strong>App compleja (USD 20.000-50.000+):</strong> funcionalidades avanzadas como chat en tiempo real, geolocalización con mapas, integración con IA (chatbot, reconocimiento de imagen), sistema de puntos/gamification, múltiples roles de usuario, integraciones con sistemas externos (ERP, CRM). Ejemplos: app tipo Uber/Rappi a escala local, red social de nicho, plataforma de telemedicina. Plazo: 4-8 meses.</p><p>Estos precios son para agencias y estudios argentinos. Freelancers pueden cobrar 30-40% menos, pero el riesgo de abandono del proyecto es alto en apps medianas y complejas. Para un <a href=\"/blog/contratar-programador-vs-agencia\">análisis detallado de freelancer vs agencia</a>, mirá nuestra guía.</p>"
+      },
+      {
+        "heading": "Costos ocultos que inflan el presupuesto de una app",
+        "body": "<p><strong>Cuenta de desarrollador:</strong> Apple cobra USD 99/año para publicar en App Store. Google cobra USD 25 único para Play Store. No son negociables.</p><p><strong>Servidor/backend:</strong> tu app necesita un servidor donde almacenar datos. Firebase (Google) tiene plan gratuito hasta cierto uso, después arranca en USD 25-100/mes. Un backend propio en AWS o DigitalOcean cuesta USD 10-50/mes para apps chicas, USD 50-200/mes para medianas.</p><p><strong>Actualizaciones obligatorias:</strong> Apple y Google actualizan sus requisitos mínimos cada año. Si no adaptás tu app, la bajan de la tienda. Presupuestá USD 500-2.000/año en actualizaciones de compatibilidad.</p><p><strong>Mantenimiento correctivo:</strong> bugs, cambios de API de terceros (MercadoPago actualiza su SDK, Google Maps cambia precios), nuevos modelos de celular con pantallas raras. Mínimo USD 100-300/mes de retainer para tener a alguien disponible.</p><p><strong>Diseño UX/UI:</strong> muchos presupuestos low-cost no incluyen diseño profesional. Un diseño de interfaces hecho por un UX designer suma USD 1.000-3.000 al proyecto, pero la diferencia en usabilidad es enorme. No escatimes acá.</p><p>Regla general: al costo de desarrollo inicial, sumale un <strong>20-30% anual</strong> en mantenimiento y costos operativos.</p>"
+      },
+      {
+        "heading": "Cuándo conviene una app y cuándo es tirar plata",
+        "body": "<p><strong>Sí necesitás una app si:</strong> tu servicio requiere uso diario o semanal por parte del usuario (delivery, fitness, turnos recurrentes), necesitás funcionalidades nativas (GPS en tiempo real, cámara, notificaciones push avanzadas), tu competencia tiene app y tus clientes la esperan, o tenés un modelo de negocio que depende de la retención mobile.</p><p><strong>No necesitás una app si:</strong> querés \"tener presencia\" (para eso es una web), tu interacción con clientes es esporádica (menos de 1 vez por mes), tu presupuesto total es menor a USD 3.000 (vas a obtener algo mediocre), o tu público es mayor de 55 años y prefiere WhatsApp.</p><p>La verdad incómoda: <strong>el 60% de las apps de PyMEs argentinas tienen menos de 100 descargas</strong>. No porque sean malas, sino porque nadie las necesita. Antes de desarrollar, validá la demanda. Hacé una landing page, ofrecé el servicio manual por WhatsApp, medí cuánta gente lo usa. Si tenés tracción, ahí sí invertí en app.</p><p>Una alternativa inteligente es arrancar con un <a href=\"/blog/cuanto-cuesta-software-a-medida-argentina\">sistema web a medida</a> que funcione en celular y, solo si el uso lo justifica, migrar a app nativa después.</p>"
+      },
+      {
+        "heading": "Cómo presupuestar una app sin que te sobrevenda features",
+        "body": "<p>Paso 1: definí tu <strong>MVP (Mínimo Producto Viable)</strong>. Listá las 3-5 funcionalidades esenciales, no las 20 que te gustarían. Una app con 5 features bien hechas le gana siempre a una con 20 mediocres.</p><p>Paso 2: pedí presupuesto del MVP y de las fases siguientes por separado. Una buena agencia te va a proponer un roadmap con versión 1.0 (MVP), 1.1 (mejoras post-feedback) y 2.0 (features avanzadas). Si te quieren vender todo junto, desconfiá.</p><p>Paso 3: preguntá por el <strong>stack tecnológico</strong>. En 2026, para híbridas el estándar es Flutter o React Native. Si te proponen Ionic o Cordova, están usando tecnología de hace 5 años. Si te proponen nativa para ambas plataformas sin justificación, te están cobrando de más.</p><p>Paso 4: exigí un <strong>prototipo navegable</strong> antes de empezar a programar. Herramientas como Figma permiten simular toda la app sin código. Esto te cuesta USD 500-1.500 y te ahorra USD 5.000+ en cambios durante el desarrollo.</p><p>Paso 5: definí de entrada quién es dueño del código fuente. El código tiene que ser tuyo. Si la agencia se queda con el código y la relación termina mal, perdiste toda la inversión. Pedilo por contrato.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta hacer una app en Argentina en 2026?",
+        "answer": "Entre USD 3.000 para una app simple y USD 50.000+ para una compleja. La mayoría de las apps para PyMEs caen en el rango de USD 5.000-15.000 usando tecnología híbrida (Flutter o React Native)."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva desarrollar una app móvil?",
+        "answer": "Una app simple tarda 4-8 semanas. Una de complejidad media, 8-16 semanas. Una app compleja puede llevar 4-8 meses. Sumale 2-4 semanas para el proceso de aprobación en App Store y Play Store."
+      },
+      {
+        "question": "¿Es mejor hacer una app nativa o híbrida?",
+        "answer": "Para el 90% de las PyMEs, híbrida con Flutter o React Native. Cuesta 40-50% menos que nativa, se mantiene un solo código y la experiencia de usuario es prácticamente igual. Solo elegí nativa si necesitás rendimiento extremo o acceso avanzado a hardware."
+      },
+      {
+        "question": "¿Cuánto cuesta mantener una app por mes?",
+        "answer": "Entre USD 100 y 500/mes dependiendo de la complejidad. Incluye servidor (USD 10-100/mes), actualizaciones de compatibilidad, corrección de bugs y soporte técnico. Más USD 99/año de Apple y USD 25 único de Google."
+      },
+      {
+        "question": "¿Necesito una app o me alcanza con una página web responsive?",
+        "answer": "Si tu usuario interactúa con tu servicio menos de 1 vez por mes y no necesitás GPS, cámara o notificaciones push, una web responsive o PWA te resuelve el problema por la mitad del costo. Validá la demanda antes de invertir en app."
+      }
+    ],
+    "ctaText": "¿Necesitás una app o te alcanza con una web responsive? En SODI te hacemos un diagnóstico gratuito para definir la solución más rentable para tu negocio."
+  }
+}
