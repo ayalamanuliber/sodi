@@ -18,7 +18,7 @@ export default async function PagoAprobadoPage({
         </div>
         <h1 className="mt-6 font-heading text-4xl font-extrabold">Pago aprobado</h1>
         <p className="mt-4 text-base leading-relaxed text-s-sub sm:text-lg">
-          El cobro quedó confirmado. Ahora validamos el pago y te habilitamos la descarga del archivo.
+          El pago se acreditó correctamente. Ahora te habilitamos la descarga del archivo.
         </p>
         <PaymentSuccessClient paymentId={paymentId} />
       </div>

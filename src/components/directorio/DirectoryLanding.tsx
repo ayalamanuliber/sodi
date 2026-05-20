@@ -23,7 +23,7 @@ const plans: Plan[] = [
     oldPrice: 39800,
     price: 19900,
     description: "Para arrancar con una base chica y empezar a probar.",
-    cta: "Comprar Pack Inicial",
+    cta: "Elegir Inicial",
     features: [
       "5.000 registros seleccionados",
       "Rubros y provincias listas para filtrar",
@@ -37,8 +37,8 @@ const plans: Plan[] = [
     records: "12.000",
     oldPrice: 69800,
     price: 34900,
-    description: "La opcion mas equilibrada para vender y escalar sin pasarte.",
-    cta: "Comprar Pack PRO",
+    description: "La opcion mas equilibrada para salir a vender con volumen.",
+    cta: "Elegir PRO",
     highlighted: true,
     features: [
       "12.000 registros completos",
@@ -54,7 +54,8 @@ const plans: Plan[] = [
     oldPrice: 99800,
     price: 49900,
     description: "La base completa para cubrir todo Argentina de una sola vez.",
-    cta: "Comprar Pack Completo",
+    cta: "Elegir Completo",
+    highlighted: false,
     features: [
       "21.151 registros nacionales",
       "340 rubros comerciales",
@@ -68,22 +69,22 @@ const faqs = [
   {
     question: "Que recibo exactamente despues de comprar?",
     answer:
-      "Recibis la base en Excel y CSV, lista para descargar y usar. La idea es que entres, pagues y te la lleves sin tener que esperar a nadie.",
+      "Recibís un archivo listo para descargar en Excel y CSV. Pagás, se aprueba la compra y accedés al archivo sin esperar una respuesta manual.",
   },
   {
     question: "Los registros traen mail, telefono o las dos cosas?",
     answer:
-      "Cada registro trae al menos un punto de contacto: mail o telefono. En muchos casos vienen los dos, pero no hace falta que estén ambos para que el registro sirva.",
+      "Cada registro trae al menos un punto de contacto: mail o teléfono. En muchos casos vienen los dos. Si un dato no está, el otro igual te sirve para trabajar la base.",
   },
   {
     question: "Es suscripcion o pago unico?",
     answer:
-      "Pago unico. Compras una vez, descargas la base y la usas cuando quieras.",
+      "Es pago único. Comprás una vez, descargás el archivo y lo usás cuando quieras.",
   },
   {
-    question: "Que falta para que quede operativa al 100%?",
+    question: "Es segura la compra?",
     answer:
-      "Solo conectar el medio de pago real y automatizar la entrega del archivo despues de la compra.",
+      "Sí. El cobro se hace con Mercado Pago y la descarga se habilita sólo después de validar que el pago fue aprobado.",
   },
 ];
 
@@ -305,16 +306,16 @@ export function DirectoryLanding() {
               </div>
 
               <h1 className="mx-auto max-w-4xl font-heading text-[2.45rem] font-extrabold tracking-[-0.05em] text-white sm:text-5xl lg:mx-0 lg:text-[5.4rem] lg:leading-[0.96]">
-                Una base lista para salir a vender.
+                Dejá de buscar
+                <span className="block text-s-accent">empresas una por una.</span>
               </h1>
 
               <p className="mx-auto mt-4 max-w-3xl text-lg font-semibold text-white/88 sm:text-xl lg:mx-0 lg:text-2xl">
-                Comprás, descargás y empezás a contactar empresas argentinas el mismo día.
+                Armá tu base comercial en minutos.
               </p>
 
               <p className="mx-auto mt-4 max-w-2xl text-[15px] leading-relaxed text-s-sub sm:text-base lg:mx-0 lg:text-lg">
-                Directorio comercial con empresas, comercios y profesionales de Argentina.
-                Viene ordenado por rubro y provincia para que puedas filtrar rápido y empezar a trabajarla enseguida.
+                Comprás, descargás y empezás a contactar empresas argentinas el mismo día. La base viene ordenada por rubro, provincia y ciudad para filtrar rápido y salir a vender.
               </p>
 
               <div className="mx-auto mt-7 grid max-w-xl grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4 lg:mx-0">
@@ -332,17 +333,17 @@ export function DirectoryLanding() {
 
               <div className="mx-auto mt-7 flex w-full max-w-md flex-col gap-3 sm:max-w-none sm:flex-row lg:mx-0">
                 <a href="#precios" className="btn-primary w-full px-6 py-4 text-center text-base font-black sm:w-auto sm:min-w-[250px] sm:px-8 sm:text-lg">
-                  Ver opciones y comprar
+                  Ver planes y comprar
                 </a>
                 <a href="#incluye" className="btn-secondary w-full px-6 py-4 text-center font-bold sm:w-auto sm:min-w-[190px] sm:px-8">
-                  Ver que incluye
+                  Ver qué incluye
                 </a>
               </div>
 
               <div className="mx-auto mt-5 flex max-w-md flex-col gap-2 text-xs text-s-sub sm:max-w-none sm:flex-row sm:flex-wrap sm:justify-center sm:gap-5 lg:mx-0 lg:justify-start">
                 <span><span className="mr-1 text-s-accent">✓</span>Excel / CSV</span>
-                <span><span className="mr-1 text-s-accent">✓</span>Pago unico</span>
-                <span><span className="mr-1 text-s-accent">✓</span>Mail o telefono por registro</span>
+                <span><span className="mr-1 text-s-accent">✓</span>Pago único</span>
+                <span><span className="mr-1 text-s-accent">✓</span>Mail o teléfono por registro</span>
               </div>
             </div>
 
@@ -363,11 +364,11 @@ export function DirectoryLanding() {
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
                   <div className="rounded-2xl border border-white/8 bg-white/[0.03] px-4 py-4 text-center sm:text-left">
                     <div className="text-sm font-bold text-white">Cada registro trae contacto usable</div>
-                    <div className="mt-1 text-sm text-s-sub">Siempre hay mail o telefono. En muchos casos, vienen los dos.</div>
+                    <div className="mt-1 text-sm text-s-sub">Siempre hay mail o teléfono. En muchos casos, también WhatsApp.</div>
                   </div>
                   <div className="rounded-2xl border border-s-accent/15 bg-s-accent/8 px-4 py-4 text-center sm:text-left">
-                    <div className="text-sm font-bold text-white">Compra simple</div>
-                    <div className="mt-1 text-sm text-s-sub">La idea es que la gente entre, pague, descargue y arranque sin pedir ayuda.</div>
+                    <div className="text-sm font-bold text-white">Entrega inmediata</div>
+                    <div className="mt-1 text-sm text-s-sub">Pagás, se valida la compra y descargás el archivo listo para usar.</div>
                   </div>
                 </div>
               </div>
@@ -376,12 +377,13 @@ export function DirectoryLanding() {
         </section>
 
         <section className="border-b border-white/6 bg-s-surface/40 py-8">
-          <div className="mx-auto grid max-w-7xl grid-cols-1 gap-3 px-4 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
+          <div className="mx-auto grid max-w-7xl grid-cols-1 gap-3 px-4 sm:grid-cols-2 sm:px-6 lg:grid-cols-5 lg:px-8">
             {[
               { text: "21.151 registros comerciales", icon: "database" as const },
               { text: "340 rubros del mercado argentino", icon: "filter" as const },
-              { text: "Mail o telefono como contacto minimo", icon: "mail" as const },
-              { text: "Compra simple y descarga inmediata", icon: "download" as const },
+              { text: "Excel / CSV / Sheets", icon: "download" as const },
+              { text: "3.364 con WhatsApp", icon: "message" as const },
+              { text: "Entrega inmediata", icon: "clock" as const },
             ].map((item) => (
               <div key={item.text} className="rounded-2xl border border-white/6 bg-white/[0.03] px-4 py-4 text-center text-sm font-semibold text-white/86">
                 <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-2xl border border-s-accent/15 bg-s-accent/10 text-s-accent">
@@ -391,16 +393,19 @@ export function DirectoryLanding() {
               </div>
             ))}
           </div>
+          <p className="mx-auto mt-4 max-w-5xl px-4 text-center text-sm text-s-sub sm:px-6 lg:px-8">
+            <span className="font-semibold text-s-accent">Teléfonos + WhatsApp</span> cuando están disponibles. Todos los registros incluyen al menos mail o teléfono como punto de contacto.
+          </p>
         </section>
 
         <section id="beneficios" className="py-14 sm:py-16 lg:py-24">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto mb-14 max-w-3xl text-center">
               <h2 className="font-heading text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl">
-                Una compra simple para un producto concreto.
+                Lo que comprás se entiende en segundos.
               </h2>
               <p className="mt-4 text-base text-s-sub sm:text-lg">
-                La propuesta va al grano: entrás, entendés qué estás comprando, elegís una opcion y seguís.
+                No hay demos, llamadas ni vueltas raras. Ves la base, elegís una opción y la descargás.
               </p>
             </div>
 
@@ -408,22 +413,22 @@ export function DirectoryLanding() {
               {[
                 {
                   title: "La base ya viene armada",
-                  text: "No estás comprando un servicio raro ni algo para que te expliquen por llamada. Entrás y ves de una qué te llevás.",
+                  text: "No estás comprando un servicio para armar después. Ya viene lista para filtrar y trabajar.",
                   icon: "database" as const,
                 },
                 {
                   title: "La compra es directa",
-                  text: "Oferta clara, contenido claro, precio claro y boton de compra. Sin vueltas.",
+                  text: "Oferta clara, precios claros y botón de compra directo. Sin marearte.",
                   icon: "download" as const,
                 },
                 {
-                  title: "Se entiende rapido",
-                  text: "La persona entra, mira qué incluye, ve las opciones y decide sin marearse con tecnicismos.",
+                  title: "Pensada para tráfico frío",
+                  text: "La persona entra, entiende el valor del producto y decide rápido sin tener que leer de más.",
                   icon: "shield" as const,
                 },
                 {
                   title: "Lista para autoservicio",
-                  text: "Queda preparada para cobrar y entregar la base sin depender de demos, llamadas ni seguimiento manual.",
+                  text: "La compra se aprueba y la descarga se habilita sin depender de una respuesta manual.",
                   icon: "check" as const,
                 },
               ].map((item) => (
@@ -445,10 +450,10 @@ export function DirectoryLanding() {
               <div className="text-center lg:text-left">
                 <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-s-accent">Que incluye la compra</p>
                 <h2 className="mt-4 font-heading text-3xl font-extrabold tracking-[-0.05em] text-white sm:text-5xl">
-                  Todo lo necesario para usarla sin soporte.
+                  Todo lo necesario para empezar a trabajarla.
                 </h2>
                 <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-s-sub sm:text-lg lg:mx-0">
-                  Nada de pantallas de más ni vueltas raras. El producto es una base comercial lista para descargar, filtrar y trabajar.
+                  Te llevás un archivo ordenado, descargable y listo para filtrar por rubro, ciudad o provincia según cómo quieras trabajarlo.
                 </p>
               </div>
 
@@ -456,9 +461,9 @@ export function DirectoryLanding() {
                 {[
                   "Archivo Excel y CSV listo para descargar",
                   "Registros segmentados por rubro y provincia",
-                  "Cada registro trae mail o telefono",
+                  "Cada registro trae mail o teléfono",
                   "Muchos registros incluyen ambas cosas",
-                  "Queda lista para conectar pago y entrega automatica",
+                  "Descarga habilitada después del pago aprobado",
                 ].map((item, index) => (
                   <div key={item} className="flex items-center gap-3 rounded-2xl border border-white/6 bg-white/[0.03] px-4 py-4 sm:px-5">
                     <span className="text-s-accent"><SectionIcon type={index === 0 ? "download" : index === 1 ? "filter" : index === 2 ? "mail" : index === 3 ? "message" : "shield"} /></span>
@@ -483,7 +488,7 @@ export function DirectoryLanding() {
                 {
                   step: "3",
                   title: "Lo trabajás",
-                  text: "Filtrás la base y empezás a contactar por mail, telefono o WhatsApp.",
+                  text: "Filtrás la base y empezás a contactar por mail, teléfono o WhatsApp cuando esté disponible.",
                 },
               ].map((item) => (
                 <div key={item.step} className="rounded-[26px] border border-white/6 bg-black/20 px-5 py-6 text-center sm:px-6">
@@ -509,7 +514,7 @@ export function DirectoryLanding() {
                 Elegí una de las 3 opciones
               </h2>
               <p className="mt-4 text-base text-s-sub sm:text-lg">
-                Las 3 opciones venden lo mismo: cambia la cantidad de registros que te llevás.
+                Las 3 incluyen la misma lógica: cambia la cantidad de registros que te llevás.
               </p>
             </div>
 
@@ -524,13 +529,13 @@ export function DirectoryLanding() {
                   }`}
                 >
                   {plan.highlighted && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-s-accent px-5 py-1.5 text-[11px] font-black uppercase tracking-[0.22em] text-black">
+                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-[#f3c623] px-5 py-1.5 text-[11px] font-black uppercase tracking-[0.12em] text-black">
                       Mas elegido
                     </div>
                   )}
 
                   <div>
-                    <div className="mx-auto w-max rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-s-sub lg:mx-0">
+                    <div className={`mx-auto w-max rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] lg:mx-0 ${plan.name === "Pack Completo" ? "bg-white text-black" : "bg-white/[0.04] text-s-sub"}`}>
                       {plan.tag}
                     </div>
 
@@ -571,6 +576,47 @@ export function DirectoryLanding() {
                   </button>
                 </article>
               ))}
+            </div>
+
+            <div className="mx-auto mt-8 max-w-5xl">
+              <a href="#precios" className="btn-primary block w-full px-6 py-5 text-center text-xl font-black tracking-[0.04em]">
+                Ver planes y comprar
+              </a>
+            </div>
+
+            <div className="mx-auto mt-6 grid max-w-5xl gap-4 lg:grid-cols-[1.1fr_1.2fr_1fr]">
+              <div className="rounded-[24px] border border-white/8 bg-white/[0.03] p-5">
+                <div className="flex items-start gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-s-accent/15 bg-s-accent/10 text-s-accent">
+                    <SectionIcon type="shield" />
+                  </div>
+                  <div>
+                    <p className="text-base font-bold text-white">Compra segura</p>
+                    <p className="mt-1 text-sm text-s-sub">Tus datos y tu compra viajan protegidos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-[24px] border border-white/8 bg-white/[0.03] p-5">
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#009ee3] text-lg font-black text-white">
+                    mp
+                  </div>
+                  <div>
+                    <p className="text-base font-bold text-white">Mercado Pago</p>
+                    <p className="mt-1 text-sm text-s-sub">Pagá con Mercado Pago y otros medios habilitados en Argentina.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-[24px] border border-white/8 bg-white/[0.03] p-5">
+                <div className="grid grid-cols-2 gap-3 text-sm font-semibold text-white">
+                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Tarjetas</div>
+                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Débito</div>
+                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Crédito</div>
+                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Transferencia</div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -662,9 +708,9 @@ export function DirectoryLanding() {
             {checkoutState === "form" && (
               <>
                 <div className="border-b border-white/8 bg-s-muted/55 px-6 py-6">
-                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-s-accent">Estas comprando</p>
+                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-s-accent">Estás comprando</p>
                   <h3 className="mt-2 font-heading text-3xl font-extrabold text-white">{selectedPlan.name}</h3>
-                  <p className="mt-2 text-sm text-s-sub">Vas a salir directo al checkout oficial de Mercado Pago.</p>
+                  <p className="mt-2 text-sm text-s-sub">Vas a salir directo al checkout oficial de Mercado Pago para completar la compra.</p>
                 </div>
 
                 <div className="space-y-5 px-6 py-6">
@@ -674,9 +720,16 @@ export function DirectoryLanding() {
                   </div>
 
                   <div className="rounded-2xl border border-s-accent/25 bg-s-accent/8 px-4 py-4">
-                    <div className="font-bold text-white">Mercado Pago</div>
-                    <div className="mt-1 text-xs leading-relaxed text-s-sub">
-                      Checkout oficial para cobrar con tarjeta, saldo o los medios que Mercado Pago habilite en Argentina.
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#009ee3] text-sm font-black text-white">
+                        mp
+                      </div>
+                      <div>
+                        <div className="font-bold text-white">Compra segura con Mercado Pago</div>
+                        <div className="mt-1 text-xs leading-relaxed text-s-sub">
+                          Podés pagar con tarjeta, débito, crédito o los medios que Mercado Pago tenga habilitados.
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -708,7 +761,7 @@ export function DirectoryLanding() {
                   </button>
 
                   <p className="text-center text-[11px] text-s-dim">
-                    Falta terminar la entrega automática del archivo después del pago.
+                    Después del pago aprobado se habilita la descarga del archivo.
                   </p>
                 </div>
               </>
