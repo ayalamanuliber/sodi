@@ -1,18 +1,7 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import { BentoCard } from "./BentoCard";
-import { allServices, formatPrice, type ServiceLine } from "@/lib/diagnostico";
-
-const tabs: { slug: string; short: string }[] = [
-  { slug: "presencia-online", short: "Web" },
-  { slug: "redes-sociales", short: "Redes" },
-  { slug: "pack-digital", short: "Pack Digital" },
-  { slug: "automatizacion", short: "Automatización" },
-  { slug: "sistemas-internos", short: "Sistemas" },
-  { slug: "solucion-integral", short: "Integral" },
-];
 
 const serviceCards = [
   {

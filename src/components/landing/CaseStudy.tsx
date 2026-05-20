@@ -83,7 +83,7 @@ export function CaseStudy() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z" />
                 </svg>
                 <p className="text-[14px] md:text-[15px] text-white/90 leading-relaxed mb-4 italic">
-                  "SODI transformó nuestra presencia digital por completo. En tres semanas pasamos de no tener nada a tener una infraestructura profesional a la altura de lo que CAEDE representa para la industria de la construcción en Argentina."
+                  &ldquo;SODI transformó nuestra presencia digital por completo. En tres semanas pasamos de no tener nada a tener una infraestructura profesional a la altura de lo que CAEDE representa para la industria de la construcción en Argentina.&rdquo;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-s-orange/30 to-s-orange/10 border border-s-orange/30 flex items-center justify-center text-[13px] font-bold text-s-orange">
