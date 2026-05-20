@@ -1,0 +1,29 @@
+{
+  "inicial": {
+    "name": "Pack Inicial",
+    "row_count": 5000,
+    "price_ars": 19900,
+    "zip_path": "/Users/manuayala/projects/sodi/private/directorio/inicial.zip",
+    "csv_path": "/Users/manuayala/projects/sodi/private/directorio/inicial.csv",
+    "xlsx_path": "/Users/manuayala/projects/sodi/private/directorio/inicial.xlsx",
+    "zip_size_bytes": 1041873
+  },
+  "pro": {
+    "name": "Pack PRO",
+    "row_count": 12000,
+    "price_ars": 34900,
+    "zip_path": "/Users/manuayala/projects/sodi/private/directorio/pro.zip",
+    "csv_path": "/Users/manuayala/projects/sodi/private/directorio/pro.csv",
+    "xlsx_path": "/Users/manuayala/projects/sodi/private/directorio/pro.xlsx",
+    "zip_size_bytes": 2211510
+  },
+  "completo": {
+    "name": "Pack Completo",
+    "row_count": 21151,
+    "price_ars": 49900,
+    "zip_path": "/Users/manuayala/projects/sodi/private/directorio/completo.zip",
+    "csv_path": "/Users/manuayala/projects/sodi/private/directorio/completo.csv",
+    "xlsx_path": "/Users/manuayala/projects/sodi/private/directorio/completo.xlsx",
+    "zip_size_bytes": 3394446
+  }
+}

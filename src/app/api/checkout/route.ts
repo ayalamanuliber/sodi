@@ -75,9 +75,9 @@ export async function POST(request: NextRequest) {
           email: buyerEmail,
         },
         back_urls: {
-          success: `${siteUrl}/directorio-comercial-argentino/pago-aprobado`,
-          pending: `${siteUrl}/directorio-comercial-argentino/pago-pendiente`,
-          failure: `${siteUrl}/directorio-comercial-argentino/pago-error`,
+          success: `${siteUrl}/directorio/pago-aprobado`,
+          pending: `${siteUrl}/directorio/pago-pendiente`,
+          failure: `${siteUrl}/directorio/pago-error`,
         },
         auto_return: "approved",
         external_reference: externalReference,
