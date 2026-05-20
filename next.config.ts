@@ -28,6 +28,10 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  outputFileTracingIncludes: {
+    "/api/directorio/download": ["./private/directorio/**/*"],
+    "/api/directorio/confirm": ["./private/directorio/**/*"],
+  },
   async headers() {
     return [
       {
