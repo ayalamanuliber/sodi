@@ -15,6 +15,7 @@ type DeliveryManifestItem = {
   csv_path: string;
   xlsx_path: string;
   zip_size_bytes: number;
+  public_path?: string;
 };
 
 type DeliveryManifest = Record<string, DeliveryManifestItem>;

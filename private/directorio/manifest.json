@@ -6,7 +6,8 @@
     "zip_path": "/Users/manuayala/projects/sodi/private/directorio/inicial.zip",
     "csv_path": "/Users/manuayala/projects/sodi/private/directorio/inicial.csv",
     "xlsx_path": "/Users/manuayala/projects/sodi/private/directorio/inicial.xlsx",
-    "zip_size_bytes": 1041873
+    "zip_size_bytes": 1041873,
+    "public_path": "/directorio-entregas/dca-inicial-8ec92f8d52d334c4.zip"
   },
   "pro": {
     "name": "Pack PRO",
@@ -15,7 +16,8 @@
     "zip_path": "/Users/manuayala/projects/sodi/private/directorio/pro.zip",
     "csv_path": "/Users/manuayala/projects/sodi/private/directorio/pro.csv",
     "xlsx_path": "/Users/manuayala/projects/sodi/private/directorio/pro.xlsx",
-    "zip_size_bytes": 2211510
+    "zip_size_bytes": 2211510,
+    "public_path": "/directorio-entregas/dca-pro-f1c9832f89994200.zip"
   },
   "completo": {
     "name": "Pack Completo",
@@ -24,6 +26,7 @@
     "zip_path": "/Users/manuayala/projects/sodi/private/directorio/completo.zip",
     "csv_path": "/Users/manuayala/projects/sodi/private/directorio/completo.csv",
     "xlsx_path": "/Users/manuayala/projects/sodi/private/directorio/completo.xlsx",
-    "zip_size_bytes": 3394446
+    "zip_size_bytes": 3394446,
+    "public_path": "/directorio-entregas/dca-completo-dc9a69552644e835.zip"
   }
 }
