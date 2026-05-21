@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Sora, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
+import { MetaPixel } from "@/components/analytics/MetaPixel";
 import "./globals.css";
 
 const sora = Sora({
@@ -145,6 +146,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-BXSWHC7WLX');`}
         </Script>
+        <MetaPixel />
 
         <div className="noise" />
         {children}

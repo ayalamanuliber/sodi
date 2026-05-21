@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { trackMetaEvent } from "@/components/analytics/MetaPixel";
 
 type Plan = {
   name: string;
@@ -112,10 +113,29 @@ export function DirectoryLanding() {
     return () => window.clearInterval(timer);
   }, []);
 
+  useEffect(() => {
+    trackMetaEvent("ViewContent", {
+      content_name: "Directorio Comercial Argentino",
+      content_category: "Lead Database",
+      content_ids: ["directorio-comercial-argentino"],
+      content_type: "product",
+      currency: "ARS",
+      value: 34900,
+    });
+  }, []);
+
   const minutes = Math.floor(countdown / 60);
   const seconds = countdown % 60;
 
   function openCheckout(plan: Plan) {
+    trackMetaEvent("InitiateCheckout", {
+      content_name: plan.name,
+      content_ids: [plan.displayName.toLowerCase()],
+      content_type: "product",
+      currency: "ARS",
+      value: plan.price,
+      num_items: 1,
+    });
     setSelectedPlan(plan);
     setBuyerName("");
     setBuyerEmail("");

@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { trackMetaEvent } from "@/components/analytics/MetaPixel";
 
 type State =
   | { status: "loading" }
@@ -9,6 +10,7 @@ type State =
   | { status: "ready"; packName: string; rowCount: number; downloadUrl: string };
 
 export function PaymentSuccessClient({ paymentId }: { paymentId?: string }) {
+  const purchaseTracked = useRef(false);
   const [state, setState] = useState<State>(
     paymentId ? { status: "loading" } : { status: "error", message: "No encontramos el identificador del pago." },
   );
@@ -46,6 +48,25 @@ export function PaymentSuccessClient({ paymentId }: { paymentId?: string }) {
 
     void run();
   }, [paymentId]);
+
+  useEffect(() => {
+    if (state.status !== "ready" || purchaseTracked.current) return;
+
+    purchaseTracked.current = true;
+    trackMetaEvent("Purchase", {
+      content_name: state.packName,
+      content_ids: [state.packName.toLowerCase().replace(/\s+/g, "-")],
+      content_type: "product",
+      currency: "ARS",
+      value:
+        state.packName === "Pack Inicial"
+          ? 19900
+          : state.packName === "Pack PRO"
+            ? 34900
+            : 49900,
+      num_items: 1,
+    });
+  }, [state]);
 
   if (state.status === "loading") {
     return (
