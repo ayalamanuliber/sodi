@@ -193,6 +193,52 @@ h1, h2, h3, h4, .font-heading {
 }
 .btn-primary:hover::after { left: 150% }
 
+@keyframes hero-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes soft-float {
+  0%, 100% { transform: translateY(0) }
+  50% { transform: translateY(-6px) }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    box-shadow:
+      0 0 0 1px rgba(0,255,163,0.5),
+      0 8px 20px -6px rgba(0,255,163,0.4),
+      inset 0 1px 1px rgba(255,255,255,0.6);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(0,255,163,0.75),
+      0 14px 34px -8px rgba(0,255,163,0.55),
+      inset 0 1px 1px rgba(255,255,255,0.75);
+  }
+}
+
+.hero-enter {
+  opacity: 0;
+  animation: hero-enter 0.75s var(--easing) forwards;
+}
+
+.hero-enter-delay { animation-delay: 120ms }
+
+.soft-float {
+  animation: soft-float 5.2s ease-in-out infinite;
+}
+
+.pulse-soft {
+  animation: pulse-soft 2.8s ease-in-out infinite;
+}
+
 .btn-secondary {
   background: rgba(255,255,255,0.03);
   color: #fff;

@@ -85,7 +85,7 @@ export function PaymentSuccessClient({ paymentId }: { paymentId?: string }) {
           Descargar archivo
         </a>
         <Link href="/directorio" className="btn-secondary px-6 py-4 text-sm font-bold">
-          Volver al sitio
+          Volver al directorio
         </Link>
       </div>
     </div>
