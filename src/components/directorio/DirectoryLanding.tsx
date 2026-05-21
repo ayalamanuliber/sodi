@@ -92,17 +92,6 @@ const faqs = [
   },
 ];
 
-const socialProofNames = [
-  "Martin de Rosario",
-  "Sofia de Cordoba",
-  "Diego de CABA",
-  "Agustina de Mendoza",
-  "Nicolas de La Plata",
-  "Carla de Santa Fe",
-];
-
-const socialProofProducts = ["Pack Inicial", "Pack PRO", "Pack Completo"];
-
 function formatARS(value: number) {
   return new Intl.NumberFormat("es-AR").format(value);
 }
@@ -110,9 +99,6 @@ function formatARS(value: number) {
 export function DirectoryLanding() {
   const [countdown, setCountdown] = useState(14 * 60 + 32);
   const [faqOpen, setFaqOpen] = useState<number | null>(0);
-  const [toastVisible, setToastVisible] = useState(false);
-  const [toastName, setToastName] = useState(socialProofNames[0]);
-  const [toastProduct, setToastProduct] = useState(socialProofProducts[0]);
   const [selectedPlan, setSelectedPlan] = useState<Plan | null>(null);
   const [buyerName, setBuyerName] = useState("");
   const [buyerEmail, setBuyerEmail] = useState("");
@@ -124,23 +110,6 @@ export function DirectoryLanding() {
       setCountdown((current) => (current <= 0 ? 15 * 60 : current - 1));
     }, 1000);
     return () => window.clearInterval(timer);
-  }, []);
-
-  useEffect(() => {
-    const showToast = () => {
-      setToastName(socialProofNames[Math.floor(Math.random() * socialProofNames.length)]);
-      setToastProduct(socialProofProducts[Math.floor(Math.random() * socialProofProducts.length)]);
-      setToastVisible(true);
-      window.setTimeout(() => setToastVisible(false), 6000);
-    };
-
-    const initial = window.setTimeout(showToast, 4000);
-    const loop = window.setInterval(showToast, 25000);
-
-    return () => {
-      window.clearTimeout(initial);
-      window.clearInterval(loop);
-    };
   }, []);
 
   const minutes = Math.floor(countdown / 60);
@@ -588,43 +557,39 @@ export function DirectoryLanding() {
               </a>
             </div>
 
-            <div className="mx-auto mt-6 grid max-w-5xl gap-4 lg:grid-cols-[1.1fr_1.2fr_1fr]">
-              <div className="rounded-[24px] border border-white/8 bg-white/[0.03] p-5">
-                <div className="flex items-start gap-3">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-s-accent/15 bg-s-accent/10 text-s-accent">
+            <div className="mx-auto mt-6 max-w-5xl rounded-[28px] border border-white/8 bg-[linear-gradient(180deg,rgba(10,10,14,0.96),rgba(7,7,10,0.98))] p-5 shadow-[0_20px_60px_rgba(0,0,0,0.28)] sm:p-6">
+              <div className="grid gap-5 lg:grid-cols-[1.05fr_1.15fr_1fr] lg:items-center">
+                <div className="flex items-center gap-4 border-b border-white/8 pb-5 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-5">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-s-accent/20 bg-s-accent/10 text-s-accent">
                     <SectionIcon type="shield" />
                   </div>
                   <div>
-                    <p className="text-base font-bold text-white">Compra segura</p>
-                    <p className="mt-1 text-sm text-s-sub">Tu pago se procesa de forma protegida y la descarga se habilita después de validar la compra.</p>
+                    <p className="text-xl font-bold text-white">Compra segura</p>
+                    <p className="mt-1 text-sm leading-relaxed text-s-sub">Pagás de forma protegida y la descarga se habilita apenas el pago queda aprobado.</p>
                   </div>
                 </div>
-              </div>
 
-              <div className="rounded-[24px] border border-white/8 bg-white/[0.03] p-5">
-                <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white p-2 shadow-[0_8px_20px_rgba(0,0,0,0.18)]">
+                <div className="flex items-center gap-4 border-b border-white/8 pb-5 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-5">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-white p-2 shadow-[0_10px_24px_rgba(0,0,0,0.22)]">
                     <Image
                       src="/brands/mercadopago.svg"
                       alt="Mercado Pago"
-                      width={40}
-                      height={40}
-                      className="h-8 w-8 object-contain"
+                      width={44}
+                      height={44}
+                      className="h-10 w-10 object-contain"
                     />
                   </div>
                   <div>
-                    <p className="text-base font-bold text-white">Mercado Pago</p>
-                    <p className="mt-1 text-sm text-s-sub">Pagá con Mercado Pago y con los medios habilitados en Argentina para tu cuenta.</p>
+                    <p className="text-xl font-bold text-white">Mercado Pago</p>
+                    <p className="mt-1 text-sm leading-relaxed text-s-sub">Pagá con tarjeta, débito, crédito o con los medios que Mercado Pago tenga habilitados para vos.</p>
                   </div>
                 </div>
-              </div>
 
-              <div className="rounded-[24px] border border-white/8 bg-white/[0.03] p-5">
                 <div className="grid grid-cols-2 gap-3 text-sm font-semibold text-white">
-                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Tarjetas</div>
-                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Débito</div>
-                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Crédito</div>
-                  <div className="rounded-xl border border-white/8 bg-black/20 px-3 py-3 text-center">Transferencia</div>
+                  <div className="rounded-xl border border-white/8 bg-black/25 px-3 py-3 text-center">Tarjetas</div>
+                  <div className="rounded-xl border border-white/8 bg-black/25 px-3 py-3 text-center">Débito</div>
+                  <div className="rounded-xl border border-white/8 bg-black/25 px-3 py-3 text-center">Crédito</div>
+                  <div className="rounded-xl border border-white/8 bg-black/25 px-3 py-3 text-center">Transferencia</div>
                 </div>
               </div>
             </div>
@@ -686,27 +651,6 @@ export function DirectoryLanding() {
           </div>
         </footer>
       </main>
-
-      <div
-        className={`fixed bottom-4 left-4 z-40 hidden max-w-xs rounded-2xl border border-white/8 bg-[#090a0f]/94 px-4 py-3 shadow-2xl backdrop-blur-xl transition-transform duration-500 md:block md:max-w-sm ${
-          toastVisible ? "translate-y-0" : "translate-y-32"
-        }`}
-      >
-        <div className="flex items-center gap-3">
-          <div className="rounded-full bg-s-accent/12 p-2 text-s-accent">
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
-              <path d="M6 6h15l-1.5 9h-12Z" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M6 6 4 3H2" strokeLinecap="round" />
-              <circle cx="9" cy="20" r="1.5" />
-              <circle cx="18" cy="20" r="1.5" />
-            </svg>
-          </div>
-          <div>
-            <p className="text-[11px] text-s-sub">{toastName} acaba de elegir:</p>
-            <p className="text-sm font-bold text-white">{toastProduct}</p>
-          </div>
-        </div>
-      </div>
 
       {selectedPlan && (
         <div className="fixed inset-0 z-[120] flex items-center justify-center bg-black/75 p-3 sm:p-4 backdrop-blur-sm">
