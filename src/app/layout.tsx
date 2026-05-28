@@ -67,7 +67,7 @@ const siteSchema = {
       sameAs: ["https://www.instagram.com/sodi.ar"],
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+54-11-5721-0923",
+        telephone: "+54-11-3869-6958",
         contactType: "sales",
         availableLanguage: "Spanish",
       },
@@ -104,7 +104,7 @@ const siteSchema = {
       "@id": "https://sodi.com.ar/#service",
       name: "SODI",
       url: "https://sodi.com.ar",
-      telephone: "+54-11-5721-0923",
+      telephone: "+54-11-3869-6958",
       email: "hola@sodi.com.ar",
       areaServed: {
         "@type": "Country",
@@ -152,7 +152,7 @@ gtag('config', 'G-BXSWHC7WLX');`}
         {children}
         {/* WA Float */}
         <a
-          href="https://wa.me/5491157210923?text=Hola%20SODI,%20quiero%20un%20diagnóstico%20para%20mi%20empresa."
+          href="https://wa.me/5491138696958?text=Hola%20SODI,%20quiero%20un%20diagnóstico%20para%20mi%20empresa."
           target="_blank"
           rel="noopener noreferrer"
           className="wa-btn"

@@ -573,5 +573,5 @@ export function buildWhatsAppMessage(answers: Answers, result: PackResult): stri
 }
 
 export function buildWhatsAppURL(message: string): string {
-  return `https://wa.me/5491157210923?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/5491138696958?text=${encodeURIComponent(message)}`;
 }

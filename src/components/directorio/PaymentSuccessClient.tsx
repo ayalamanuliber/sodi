@@ -85,7 +85,7 @@ export function PaymentSuccessClient({ paymentId }: { paymentId?: string }) {
           <Link href="/directorio" className="btn-primary px-6 py-4 text-sm font-black">
             Volver al sitio
           </Link>
-          <a href="https://wa.me/5491157210923?text=Hola,%20pague%20la%20base%20y%20necesito%20ayuda%20con%20la%20descarga." className="btn-secondary px-6 py-4 text-sm font-bold">
+          <a href="https://wa.me/5491138696958?text=Hola,%20pague%20la%20base%20y%20necesito%20ayuda%20con%20la%20descarga." className="btn-secondary px-6 py-4 text-sm font-bold">
             Pedir ayuda por WhatsApp
           </a>
         </div>

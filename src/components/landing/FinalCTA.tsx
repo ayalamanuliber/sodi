@@ -27,7 +27,7 @@ export function FinalCTA() {
             Hacer diagnóstico guiado
           </Link>
           <a
-            href="https://wa.me/5491157210923"
+            href="https://wa.me/5491138696958"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary w-full sm:w-auto px-8 md:px-12 py-5 md:py-6 rounded-full text-base md:text-lg flex items-center justify-center gap-3"
@@ -40,7 +40,7 @@ export function FinalCTA() {
         </div>
 
         <p className="mt-6 md:mt-8 text-s-dim text-[11px] md:text-sm">
-          <a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a> · hola@sodi.com.ar
+          <a href="tel:+541138696958" className="hover:text-white transition-colors">11 3869-6958</a> · hola@sodi.com.ar
         </p>
       </div>
     </section>

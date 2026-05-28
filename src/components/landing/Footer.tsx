@@ -29,11 +29,11 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6 md:mb-8 tracking-[0.15em] uppercase text-xs">Contacto</h4>
             <ul className="space-y-3 md:space-y-4 text-sm md:text-base text-gray-500 font-medium">
               <li>
-                <a href="https://wa.me/5491157210923" target="_blank" rel="noopener noreferrer" className="hover:text-s-accent transition-colors">
+                <a href="https://wa.me/5491138696958" target="_blank" rel="noopener noreferrer" className="hover:text-s-accent transition-colors">
                   WhatsApp
                 </a>
               </li>
-              <li><a href="tel:+541157210923" className="hover:text-white transition-colors">11 5721-0923</a></li>
+              <li><a href="tel:+541138696958" className="hover:text-white transition-colors">11 3869-6958</a></li>
               <li><a href="mailto:hola@sodi.com.ar" className="hover:text-white transition-colors">hola@sodi.com.ar</a></li>
               <li>Buenos Aires, AR</li>
             </ul>
