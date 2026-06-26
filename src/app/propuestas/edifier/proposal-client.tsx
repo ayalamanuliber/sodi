@@ -197,7 +197,7 @@ export function EdifierProposalClient() {
 
         <section className="proposal-section">
           <div className="section-label">02 · Objetivo del primer mes</div>
-          <h2>Ordenar, probar y medir.</h2>
+          <h2>Primer mes: ordenar, probar y medir.</h2>
           <p>
             El primer mes funciona como una etapa inicial. No se promete un ROAS específico sin analizar datos internos, historial, presupuesto y campañas actuales.
           </p>
@@ -312,8 +312,9 @@ export function EdifierProposalClient() {
               </p>
             </div>
             <div className="pricing-amount">
-              <span>Primer mes</span>
+              <span>Primer mes inicial</span>
               <strong>$500.000 ARS</strong>
+              <small>Primer mes de trabajo</small>
             </div>
           </div>
 
@@ -356,8 +357,8 @@ export function EdifierProposalClient() {
               El objetivo no es publicar más. Es que más gente entienda qué EDIFIER comprar y llegue con más intención a Mercado Libre, web o local.
             </strong>
           </div>
-          <a className="proposal-cta" href="mailto:hola@sodi.com.ar?subject=Propuesta%20EDIFIER%20Argentina">
-            Aceptar propuesta / Coordinar inicio
+          <a className="proposal-cta" href="https://wa.me/5491138696958" target="_blank" rel="noopener noreferrer">
+            Coordinar inicio
             <Arrow />
           </a>
         </footer>
@@ -813,6 +814,16 @@ const proposalStyles = `
     font-size: 34px;
     letter-spacing: -0.045em;
     line-height: 1.05;
+  }
+
+  .pricing-amount small {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin-top: 10px;
+    text-transform: uppercase;
   }
 
   .pricing-columns {
