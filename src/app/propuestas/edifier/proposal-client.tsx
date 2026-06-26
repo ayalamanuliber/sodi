@@ -110,7 +110,7 @@ function LockScreen({ onUnlock }: { onUnlock: () => void }) {
             }}
             inputMode="numeric"
             autoComplete="off"
-            placeholder="2026"
+            placeholder="••••"
           />
           {error && <span className="lock-error">{error}</span>}
           <button type="submit">
