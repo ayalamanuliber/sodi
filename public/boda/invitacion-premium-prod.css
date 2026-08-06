@@ -2225,3 +2225,9 @@ body.is-open .hero__image {
     transform: none;
   }
 }
+
+/* Force hide SODI agency global floating WhatsApp button on wedding invitation */
+.wa-btn {
+  display: none !important;
+}
+

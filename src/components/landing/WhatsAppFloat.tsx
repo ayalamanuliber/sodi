@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { trackEvent } from "@/components/analytics/tracking";
 
@@ -8,10 +9,18 @@ const DIRECTORIO_MESSAGE = "Hola SODI, quiero saber más sobre el directorio.";
 
 export function WhatsAppFloat() {
   const pathname = usePathname();
-  if (pathname?.startsWith("/boda")) {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
+  if (!pathname || pathname.startsWith("/boda") || pathname.includes("/boda")) {
     return null;
   }
-  const isDirectorio = pathname?.startsWith("/directorio");
+
+  const isDirectorio = pathname.startsWith("/directorio");
   const message = isDirectorio ? DIRECTORIO_MESSAGE : DEFAULT_MESSAGE;
 
   return (
