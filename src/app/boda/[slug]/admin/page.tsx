@@ -80,34 +80,25 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
 
   const loadGuests = async () => {
     setLoading(true);
-
-    // 1. Try loading from localStorage first
-    let localData: Guest[] = [];
-    if (typeof window !== 'undefined') {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) {
-        try {
-          localData = JSON.parse(stored);
-        } catch (e) {}
-      }
-    }
-
-    // 2. Fetch from API to merge
     try {
-      const res = await fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}`);
+      const res = await fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}&t=${Date.now()}`);
       const data = await res.json();
       if (data.success && Array.isArray(data.guests)) {
-        // Merge server and local data by ID
-        const mergedMap = new Map<string, Guest>();
-        localData.forEach(g => mergedMap.set(g.id, g));
-        data.guests.forEach((g: Guest) => mergedMap.set(g.id, g));
-        const mergedList = Array.from(mergedMap.values());
-        saveLocalGuests(mergedList);
-      } else if (localData.length > 0) {
-        setGuests(localData);
+        setGuests(data.guests);
+        if (typeof window !== 'undefined') {
+          try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
+          } catch (e) {}
+        }
       }
     } catch (e) {
-      if (localData.length > 0) setGuests(localData);
+      console.error('Error loading guests:', e);
+      if (typeof window !== 'undefined') {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored) {
+          try { setGuests(JSON.parse(stored)); } catch (err) {}
+        }
+      }
     } finally {
       setLoading(false);
     }
@@ -118,39 +109,8 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     if (!newNombre.trim()) return;
     setAdding(true);
 
-    const idSlug = newNombre
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/(^-|-$)/g, '');
-
-    let uniqueId = idSlug;
-    let counter = 1;
-    while (guests.some(g => g.id === uniqueId)) {
-      uniqueId = `${idSlug}-${counter}`;
-      counter++;
-    }
-
-    const newGuest: Guest = {
-      id: uniqueId,
-      nombre: newNombre.trim(),
-      pases: parseInt(String(newPases), 10) || 1,
-      telefono: newTelefono.trim(),
-      estado: 'pendiente',
-      enviado: false,
-      enviadoEn: null,
-      creadoEn: new Date().toISOString(),
-      vistoEn: null,
-      respuesta: null
-    };
-
-    const updated = [newGuest, ...guests];
-    saveLocalGuests(updated);
-
-    // Sync with API
     try {
-      await fetch('/api/boda/invitados', {
+      const res = await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -161,8 +121,17 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           telefono: newTelefono
         })
       });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.guests)) {
+        setGuests(data.guests);
+        if (typeof window !== 'undefined') {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
+        }
+      } else {
+        await loadGuests();
+      }
     } catch (e) {
-      console.warn('API sync skipped, saved locally:', e);
+      alert('Ocurrió un error al guardar la invitación.');
     } finally {
       setNewNombre('');
       setNewPases(2);
@@ -183,29 +152,36 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       }
       return g;
     });
-
-    saveLocalGuests(updated);
+    setGuests(updated);
 
     try {
-      await fetch('/api/boda/invitados', {
+      const res = await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ slug, action: 'toggleEnviado', id, enviado: !currentEnviado })
       });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.guests)) {
+        setGuests(data.guests);
+      }
     } catch (e) {}
   };
 
   const handleDelete = async (id: string, nombre: string) => {
     if (!confirm(`¿Eliminar la invitación de "${nombre}"?`)) return;
     const updated = guests.filter(g => g.id !== id);
-    saveLocalGuests(updated);
+    setGuests(updated);
 
     try {
-      await fetch('/api/boda/invitados', {
+      const res = await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ slug, action: 'delete', id })
       });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.guests)) {
+        setGuests(data.guests);
+      }
     } catch (e) {}
   };
 

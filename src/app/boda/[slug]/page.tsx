@@ -17,6 +17,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
   const [guest, setGuest] = useState<GuestData | null>(null);
   const [code, setCode] = useState<string>('');
+  const [loadingGuest, setLoadingGuest] = useState(false);
   const [openingClosed, setOpeningClosed] = useState(false);
   const [musicPlaying, setMusicPlaying] = useState(false);
   const [searchModalOpen, setSearchModalOpen] = useState(false);
@@ -46,14 +47,30 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const STORAGE_KEY = `sodi_boda_guests_${slug}`;
+  // Audio Event Listeners for 100% sync
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    const onPlay = () => setMusicPlaying(true);
+    const onPause = () => setMusicPlaying(false);
+
+    audio.addEventListener('play', onPlay);
+    audio.addEventListener('pause', onPause);
+
+    return () => {
+      audio.removeEventListener('play', onPlay);
+      audio.removeEventListener('pause', onPause);
+    };
+  }, []);
 
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const c = searchParams.get('i') || searchParams.get('inv') || searchParams.get('code') || '';
     if (c) {
       setCode(c);
-      fetchGuest(c);
+      setLoadingGuest(true);
+      fetchGuest(c).finally(() => setLoadingGuest(false));
     }
   }, [slug]);
 
@@ -66,22 +83,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         setGuest(data.guest);
         setRsvpName(data.guest.nombre);
         setPasesConfirmados(data.guest.pases);
-        setIntegrantes([data.guest.nombre, ...Array(data.guest.pases - 1).fill('')]);
-
-        // Update local storage so admin panel on same browser updates instantly
-        if (typeof window !== 'undefined') {
-          try {
-            const stored = localStorage.getItem(STORAGE_KEY);
-            if (stored) {
-              const list: any[] = JSON.parse(stored);
-              const idx = list.findIndex(g => g.id.toLowerCase() === c.toLowerCase());
-              if (idx !== -1) {
-                list[idx].vistoEn = data.guest.vistoEn || new Date().toISOString();
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
-              }
-            }
-          } catch (e) {}
-        }
+        setIntegrantes([data.guest.nombre, ...Array(Math.max(0, data.guest.pases - 1)).fill('')]);
         return true;
       } else {
         setSearchError('No encontramos tu invitación con ese código o apellido.');
@@ -119,17 +121,17 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
   const toggleMusic = () => {
     if (!audioRef.current) return;
-    if (musicPlaying) {
+    if (audioRef.current.paused) {
+      audioRef.current.play().then(() => setMusicPlaying(true)).catch(console.error);
+    } else {
       audioRef.current.pause();
       setMusicPlaying(false);
-    } else {
-      audioRef.current.play().then(() => setMusicPlaying(true)).catch(console.error);
     }
   };
 
   const handleOpenEnvelope = () => {
     setOpeningClosed(true);
-    if (audioRef.current && !musicPlaying) {
+    if (audioRef.current && audioRef.current.paused) {
       audioRef.current.play().then(() => setMusicPlaying(true)).catch(() => {});
     }
   };
@@ -137,7 +139,9 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   const handleSearchGuest = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!searchInput.trim()) return;
+    setSubmitting(true);
     const success = await fetchGuest(searchInput.trim());
+    setSubmitting(false);
     if (success) {
       setSearchModalOpen(false);
     }
@@ -184,31 +188,6 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       });
       setSubmitted(true);
 
-      // Also update local storage if available
-      if (typeof window !== 'undefined' && (guest?.id || code)) {
-        try {
-          const stored = localStorage.getItem(STORAGE_KEY);
-          if (stored) {
-            const list: any[] = JSON.parse(stored);
-            const targetId = guest?.id || code;
-            const idx = list.findIndex(g => g.id.toLowerCase() === targetId.toLowerCase());
-            if (idx !== -1) {
-              list[idx].estado = attendance;
-              list[idx].respuesta = {
-                asistencia: attendance,
-                pasesConfirmados: attendance === 'confirmado' ? pasesConfirmados : 0,
-                integrantes: filteredIntegrantes,
-                menu,
-                notas: notes,
-                cancion: song,
-                fechaRespuesta: new Date().toISOString()
-              };
-              localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
-            }
-          }
-        } catch (e) {}
-      }
-
       const pasesMsg = attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir';
       const nombresMsg = attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${filteredIntegrantes.join(', ')}` : '';
       const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${pasesMsg}${nombresMsg}\n• Menú: ${menu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
@@ -233,7 +212,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Italianno&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="/boda/invitacion-premium-prod.css?v=20260805" />
+      <link rel="stylesheet" href="/boda/invitacion-premium-prod.css?v=20260806" />
       <Script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" strategy="afterInteractive" />
 
       {/* Audio Element */}
@@ -246,7 +225,11 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           <div className="opening__ambient opening__ambient--right"></div>
           <div className="envelope-scene">
             <p className="opening__eyebrow">
-              {guest ? `Especialmente para ${guest.nombre}` : 'Una invitación especial'}
+              {loadingGuest
+                ? 'Cargando tu invitación...'
+                : guest
+                ? `Especialmente para ${guest.nombre}`
+                : 'Una invitación especial'}
             </p>
             <div className="envelope">
               <div className="envelope__back"></div>
@@ -254,7 +237,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 <span className="monogram">M · G</span>
                 <h1>Invitación de boda</h1>
                 <p>13 de noviembre de 2026</p>
-                {guest && <p style={{ fontSize: '0.85rem', color: '#8b6f4e', marginTop: '4px' }}>{guest.pases} pases reservados</p>}
+                {guest && <p style={{ fontSize: '0.85rem', color: 'var(--champagne)', marginTop: '4px', fontWeight: '500' }}>{guest.pases} pases reservados</p>}
               </div>
               <div className="envelope__front"></div>
               <button className="wax-seal" onClick={handleOpenEnvelope} type="button" aria-label="Abrir invitación">
@@ -262,19 +245,18 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               </button>
             </div>
             <button className="opening__action" onClick={handleOpenEnvelope} type="button">
-              <span>Abrir invitación</span>
+              <span>{loadingGuest ? 'Preparando...' : 'Abrir invitación'}</span>
             </button>
           </div>
         </div>
       )}
 
-      {/* Site Header with Clean Integrated Audio Button */}
+      {/* Site Header with Integrated Audio Button */}
       <header className="site-header" id="siteHeader">
         <a className="site-header__brand" href="#hero">
           <span>M · G</span>
         </a>
         <div className="site-header__actions" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {/* Header Music Button - Clean and unobtrusive */}
           <button
             onClick={toggleMusic}
             type="button"
@@ -282,17 +264,18 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               display: 'inline-flex',
               alignItems: 'center',
               gap: '6px',
-              backgroundColor: musicPlaying ? '#355844' : '#ffffff',
-              color: musicPlaying ? '#ffffff' : '#355844',
-              border: '1.5px solid #355844',
-              padding: '6px 12px',
+              backgroundColor: musicPlaying ? 'var(--wine)' : '#ffffff',
+              color: musicPlaying ? '#ffffff' : 'var(--wine)',
+              border: '1.5px solid var(--wine)',
+              padding: '6px 14px',
               borderRadius: '20px',
               fontWeight: '600',
               fontSize: '0.8rem',
-              cursor: 'pointer'
+              cursor: 'pointer',
+              transition: 'all 200ms ease'
             }}
           >
-            <span>{musicPlaying ? '🔊 Música' : '🎵 Música'}</span>
+            <span>{musicPlaying ? '🔊 Pausar Música' : '🎵 Reproducir Música'}</span>
           </button>
 
           <a href="#rsvp" className="header-rsvp">Confirmar</a>
@@ -434,16 +417,18 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             <h2>Confirmar asistencia</h2>
             <p className="rsvp__deadline">Confirmar antes del 13 de octubre de 2026</p>
             {guest && (
-              <div style={{ backgroundColor: '#fff', padding: '12px', borderRadius: '8px', marginBottom: '16px', borderLeft: '4px solid #8b6f4e' }}>
-                <strong>Invitación para: {guest.nombre}</strong> ({guest.pases} pases máximos permitidos)
+              <div style={{ backgroundColor: 'var(--paper)', padding: '16px', borderRadius: '4px', marginBottom: '20px', borderLeft: '4px solid var(--champagne)', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
+                <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--ink)' }}>
+                  <strong>Invitación para: {guest.nombre}</strong> ({guest.pases} {guest.pases === 1 ? 'pase reservado' : 'pases reservados'})
+                </p>
               </div>
             )}
           </div>
 
           {submitted ? (
-            <div style={{ padding: '30px', textAlign: 'center', backgroundColor: '#e8f5e9', borderRadius: '12px', color: '#2e7d32' }}>
-              <h3>¡Gracias por confirmar tu asistencia! 🎉</h3>
-              <p>Tu respuesta fue registrada y enviada por WhatsApp.</p>
+            <div style={{ padding: '36px 24px', textAlign: 'center', backgroundColor: 'var(--paper)', borderRadius: '4px', border: '1px solid var(--champagne-light)', color: 'var(--wine-dark)' }}>
+              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '2rem', marginBottom: '8px' }}>¡Gracias por confirmar tu asistencia! 🎉</h3>
+              <p style={{ fontSize: '0.95rem' }}>Tu respuesta fue registrada y enviada por WhatsApp.</p>
             </div>
           ) : guest ? (
             <form className="rsvp-form" onSubmit={handleRsvpSubmit}>
@@ -528,25 +513,22 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               </button>
             </form>
           ) : (
-            <div style={{ padding: '30px', textAlign: 'center', backgroundColor: '#ffffff', borderRadius: '12px', border: '1px solid #e5dfd3', maxWidth: '500px', margin: '0 auto', boxShadow: '0 4px 12px rgba(0,0,0,0.04)' }}>
-              <p style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.35rem', color: '#1a251e', marginBottom: '20px', lineHeight: '1.4' }}>
-                Para confirmar tu asistencia, por favor buscá tu nombre en la lista oficial de invitados.
+            <div style={{ padding: '40px 24px', textAlign: 'center', backgroundColor: 'var(--paper)', borderRadius: '4px', border: '1px solid rgba(182, 151, 99, 0.4)', maxWidth: '520px', margin: '0 auto', boxShadow: '0 10px 30px rgba(0,0,0,0.03)' }}>
+              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '1.8rem', color: 'var(--ink)', marginBottom: '12px', fontWeight: '400' }}>
+                Buscá tu tarjeta de invitación
+              </h3>
+              <p style={{ fontSize: '0.9rem', color: 'var(--ink-soft)', marginBottom: '24px', lineHeight: '1.5' }}>
+                Ingresá tu apellido o el código asignado para acceder a tu invitación personalizada y confirmar tu asistencia.
               </p>
               <button
                 type="button"
                 className="button button--champagne"
                 onClick={() => setSearchModalOpen(true)}
-                style={{ width: '100%', padding: '14px', borderRadius: '8px', fontSize: '0.95rem', fontWeight: '700' }}
+                style={{ width: '100%' }}
               >
-                🔍 Buscar mi invitación
+                🔍 Encontrar mi invitación
               </button>
             </div>
-          )}
-
-          {!guest && (
-            <p style={{ marginTop: '20px', textAlign: 'center', fontSize: '0.9rem' }}>
-              ¿Buscás tu invitación personalizada? <button type="button" onClick={() => setSearchModalOpen(true)} style={{ background: 'none', border: 'none', color: '#8b6f4e', textDecoration: 'underline', cursor: 'pointer' }}>Ingresá tu código o apellido</button>
-            </p>
           )}
         </section>
 
@@ -562,7 +544,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         </section>
       </main>
 
-      {/* Floating RSVP Button - Clean and unobstructed at bottom */}
+      {/* Floating RSVP Button */}
       <a href="#rsvp" className="floating-rsvp">
         Confirmar asistencia
       </a>
@@ -604,19 +586,20 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             </div>
             <button className="icon-button" onClick={() => setPlaylistOpen(false)} type="button">✕</button>
           </div>
-          <div style={{ padding: '16px 0' }}>
-            <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.9rem' }}>Canción y Artista:</label>
-            <input
-              type="text"
-              value={song}
-              onChange={(e) => setSong(e.target.value)}
-              placeholder="Ej: Ed Sheeran - Perfect"
-              style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid #ccc' }}
-            />
+          <div style={{ padding: '20px 0' }}>
+            <div className="field field--full" style={{ marginBottom: '16px' }}>
+              <label style={{ display: 'block', marginBottom: '8px' }}>Canción y Artista:</label>
+              <input
+                type="text"
+                value={song}
+                onChange={(e) => setSong(e.target.value)}
+                placeholder="Ej: Ed Sheeran - Perfect"
+              />
+            </div>
             <button
               type="button"
               className="button button--wine"
-              style={{ marginTop: '12px', width: '100%' }}
+              style={{ width: '100%' }}
               onClick={() => { setPlaylistOpen(false); alert('¡Canción guardada para sugerir en tu RSVP!'); }}
             >
               Guardar Sugerencia
@@ -625,28 +608,35 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         </dialog>
       )}
 
-      {/* Search Code Modal */}
+      {/* Search Code Modal - Completely Aligned with Theme */}
       {searchModalOpen && (
         <dialog className="modal" open>
           <div className="modal__header">
             <div>
-              <p className="eyebrow">Buscar mi invitación</p>
-              <h2>Ingresá tu código o apellido</h2>
+              <p className="eyebrow">Ingreso Personalizado</p>
+              <h2>Buscar mi invitación</h2>
             </div>
             <button className="icon-button" onClick={() => { setSearchModalOpen(false); setSearchError(''); }} type="button">✕</button>
           </div>
-          <form onSubmit={handleSearchGuest} style={{ padding: '16px 0' }}>
-            <input
-              type="text"
-              value={searchInput}
-              onChange={(e) => setSearchInput(e.target.value)}
-              placeholder="Ej: fam-perez o Carlos"
-              style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1.5px solid #203a2c', color: '#111111', fontSize: '1rem', fontWeight: '500', marginBottom: '12px' }}
-              required
-            />
-            {searchError && <p style={{ color: '#c62828', fontSize: '0.85rem', marginBottom: '12px', fontWeight: '500' }}>{searchError}</p>}
-            <button type="submit" className="button button--wine" style={{ width: '100%' }}>
-              Buscar Invitación
+          <form onSubmit={handleSearchGuest} style={{ padding: '20px 0' }}>
+            <div className="field field--full" style={{ marginBottom: '16px' }}>
+              <label htmlFor="modalSearchInput">Apellido o código de invitación</label>
+              <input
+                id="modalSearchInput"
+                type="text"
+                value={searchInput}
+                onChange={(e) => setSearchInput(e.target.value)}
+                placeholder="Ej: Pérez o fam-perez"
+                required
+              />
+            </div>
+            {searchError && (
+              <p style={{ color: '#c62828', fontSize: '0.88rem', marginBottom: '16px', fontWeight: '500' }}>
+                {searchError}
+              </p>
+            )}
+            <button type="submit" className="button button--wine" style={{ width: '100%' }} disabled={submitting}>
+              {submitting ? 'Buscando...' : 'Acceder a mi Invitación'}
             </button>
           </form>
         </dialog>
