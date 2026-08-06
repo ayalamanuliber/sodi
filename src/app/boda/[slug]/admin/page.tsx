@@ -328,6 +328,32 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         </div>
       </div>
 
+      {/* Friendly Guide for Mirta */}
+      <div style={{
+        backgroundColor: '#ecfdf5',
+        border: '1px solid #a7f3d0',
+        borderRadius: '12px',
+        padding: '18px 24px',
+        marginBottom: '24px',
+        display: 'flex',
+        gap: '16px',
+        alignItems: 'flex-start',
+        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -2px rgba(0, 0, 0, 0.02)'
+      }}>
+        <span style={{ fontSize: '1.6rem', marginTop: '2px' }}>💡</span>
+        <div style={{ fontSize: '0.9rem', color: '#065f46', lineHeight: '1.6' }}>
+          <strong style={{ color: '#064e3b', fontSize: '1rem', display: 'block', marginBottom: '6px' }}>
+            ¡Guía rápida de ayuda para enviar tus invitaciones!
+          </strong>
+          <ul style={{ margin: '0', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+            <li><strong>Paso 1 (Crear):</strong> Escribí el nombre y teléfono del invitado arriba, elegí su tipo de pase y color, y hacé clic en el botón verde <strong>Crear Invitación</strong>.</li>
+            <li><strong>Paso 2 (Enviar):</strong> Buscá al invitado abajo en la lista y tocá el botón verde <strong>📲 WhatsApp</strong>. Se abrirá WhatsApp con todo el mensaje ya escrito y su invitación lista para enviar.</li>
+            <li><strong>Paso 3 (Copiar):</strong> Si preferís mandárselo por otra red social, hacé clic en <strong>📋 Copiar Link</strong> y pegalo donde quieras.</li>
+            <li><strong>Paso 4 (Registro):</strong> Cuando envíes una invitación, el sistema automáticamente lo marcará como <span style={{ color: '#0369a1', fontWeight: 'bold' }}>🟢 Enviado</span> para que lleves el control perfecto de a quiénes ya les mandaste.</li>
+          </ul>
+        </div>
+      </div>
+
       {/* Add New Guest Form */}
       <section style={styles.card}>
         <h2 style={styles.cardTitle}>✨ Agregar Nueva Invitación</h2>
@@ -486,35 +512,22 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                 {filteredGuests.map(guest => (
                   <tr key={guest.id} style={styles.tr}>
                     <td style={styles.td}>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-                          <strong style={{ color: '#0f172a', fontSize: '1rem' }}>{guest.nombre}</strong>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                        <strong style={{ color: '#0f172a', fontSize: '1rem', fontWeight: '700' }}>{guest.nombre}</strong>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#64748b', flexWrap: 'nowrap', whiteSpace: 'nowrap' }}>
                           <span style={{
-                            fontSize: '0.65rem',
-                            fontWeight: '700',
-                            padding: '2px 6px',
-                            borderRadius: '4px',
-                            textTransform: 'uppercase',
-                            backgroundColor: guest.tipo === 'solo-after' ? '#e0f2fe' : guest.tipo === 'solo-ceremonia' ? '#ffedd5' : '#f3e8ff',
-                            color: guest.tipo === 'solo-after' ? '#0369a1' : guest.tipo === 'solo-ceremonia' ? '#c2410c' : '#7e22ce',
-                            whiteSpace: 'nowrap'
+                            fontWeight: '600',
+                            color: guest.tipo === 'solo-after' ? '#0284c7' : guest.tipo === 'solo-ceremonia' ? '#ea580c' : '#7c3aed'
                           }}>
                             {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Civil' : 'Pase Completo'}
                           </span>
-                          <span style={{
-                            fontSize: '0.65rem',
-                            fontWeight: '700',
-                            padding: '2px 6px',
-                            borderRadius: '4px',
-                            textTransform: 'uppercase',
-                            backgroundColor: guest.estilo === 'esmeralda' ? '#dcfce7' : guest.estilo === 'borgoña' ? '#fee2e2' : '#fef9c3',
-                            color: guest.estilo === 'esmeralda' ? '#15803d' : guest.estilo === 'borgoña' ? '#b91c1c' : '#a16207',
-                            whiteSpace: 'nowrap'
-                          }}>
-                            🎨 {guest.estilo === 'esmeralda' ? 'Esmeralda' : guest.estilo === 'borgoña' ? 'Borgoña' : 'Champagne'}
+                          <span>•</span>
+                          <span style={{ fontWeight: '500' }}>
+                            Estilo {guest.estilo === 'esmeralda' ? 'Esmeralda' : guest.estilo === 'borgoña' ? 'Borgoña' : 'Champagne'}
                           </span>
+                          <span>•</span>
+                          <code style={{ fontSize: '0.75rem', backgroundColor: '#f1f5f9', padding: '1px 4px', borderRadius: '4px' }}>?i={guest.id}</code>
                         </div>
-                        <div style={{ color: '#64748b', fontSize: '0.78rem' }}>ID Link: <code>?i={guest.id}</code></div>
                       </div>
                     </td>
                     <td style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
@@ -847,45 +860,65 @@ const styles: Record<string, React.CSSProperties> = {
     color: '#0f172a'
   },
   badgeEnviado: {
-    backgroundColor: '#e3f2fd',
-    color: '#0288d1',
-    padding: '6px 10px',
+    backgroundColor: '#e0f2fe',
+    color: '#0369a1',
+    padding: '6px 12px',
     borderRadius: '12px',
     fontSize: '0.8rem',
-    fontWeight: '700'
+    fontWeight: '700',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '4px',
+    whiteSpace: 'nowrap'
   },
   badgeSinEnviar: {
-    backgroundColor: '#f5f5f5',
-    color: '#777777',
-    padding: '6px 10px',
+    backgroundColor: '#f1f5f9',
+    color: '#475569',
+    padding: '6px 12px',
     borderRadius: '12px',
     fontSize: '0.8rem',
     fontWeight: '600',
-    border: '1px solid #ddd'
+    border: '1px solid #e2e8f0',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '4px',
+    whiteSpace: 'nowrap'
   },
   badgeSuccess: {
     backgroundColor: '#d1e7dd',
     color: '#0f5132',
     padding: '6px 12px',
     borderRadius: '12px',
-    fontSize: '0.85rem',
-    fontWeight: '700'
+    fontSize: '0.82rem',
+    fontWeight: '700',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '4px',
+    whiteSpace: 'nowrap'
   },
   badgeDanger: {
     backgroundColor: '#f8d7da',
     color: '#842029',
     padding: '6px 12px',
     borderRadius: '12px',
-    fontSize: '0.85rem',
-    fontWeight: '700'
+    fontSize: '0.82rem',
+    fontWeight: '700',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '4px',
+    whiteSpace: 'nowrap'
   },
   badgeWarning: {
     backgroundColor: '#fff3cd',
     color: '#664d03',
     padding: '6px 12px',
     borderRadius: '12px',
-    fontSize: '0.85rem',
-    fontWeight: '700'
+    fontSize: '0.82rem',
+    fontWeight: '700',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '4px',
+    whiteSpace: 'nowrap'
   },
   buttonWhatsapp: {
     backgroundColor: '#25D366',
