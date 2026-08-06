@@ -2,32 +2,41 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-const DATA_FILE = path.join(process.cwd(), 'src', 'data', 'boda-invitados.json');
+const DATA_DIR = path.join(process.cwd(), 'src', 'data', 'bodas');
+const DEFAULT_SLUG = 'mirta-y-guillermo';
 
-let memoryStore: any[] | null = null;
+const memoryStores: Record<string, any[]> = {};
 
-function readGuests() {
+function getFilePath(slug: string) {
+  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
+  return path.join(DATA_DIR, `invitados-${safeSlug}.json`);
+}
+
+function readGuests(slug: string) {
+  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
+  const filePath = getFilePath(safeSlug);
   try {
-    if (fs.existsSync(DATA_FILE)) {
-      const data = fs.readFileSync(DATA_FILE, 'utf8');
+    if (fs.existsSync(filePath)) {
+      const data = fs.readFileSync(filePath, 'utf8');
       const parsed = JSON.parse(data);
-      if (!memoryStore) memoryStore = parsed;
+      memoryStores[safeSlug] = parsed;
       return parsed;
     }
   } catch (e) {
-    console.error('Error reading guests file:', e);
+    console.error(`Error reading guests for ${safeSlug}:`, e);
   }
-  return memoryStore || [];
+  return memoryStores[safeSlug] || [];
 }
 
-function writeGuests(guests: any[]) {
-  memoryStore = guests;
+function writeGuests(slug: string, guests: any[]) {
+  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
+  memoryStores[safeSlug] = guests;
   try {
-    const dir = path.dirname(DATA_FILE);
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
+    if (!fs.existsSync(DATA_DIR)) {
+      fs.mkdirSync(DATA_DIR, { recursive: true });
     }
-    fs.writeFileSync(DATA_FILE, JSON.stringify(guests, null, 2), 'utf8');
+    const filePath = getFilePath(safeSlug);
+    fs.writeFileSync(filePath, JSON.stringify(guests, null, 2), 'utf8');
   } catch (e) {
     console.warn('Filesystem write skipped (read-only environment):', e);
   }
@@ -36,9 +45,10 @@ function writeGuests(guests: any[]) {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
+    const slug = body.slug || DEFAULT_SLUG;
     const { code, asistencia, pasesConfirmados, integrantes, menu, notas, cancion } = body;
 
-    const guests = readGuests();
+    const guests = readGuests(slug);
     let guest = code ? guests.find((g: any) => g.id.toLowerCase() === code.toLowerCase()) : null;
 
     const responseData = {
@@ -55,7 +65,6 @@ export async function POST(request: Request) {
       guest.estado = responseData.asistencia;
       guest.respuesta = responseData;
     } else {
-      // Create ad-hoc entry if guest searched by name
       const nombreInvitado = body.nombre || 'Invitado Web';
       guest = {
         id: 'web-' + Date.now(),
@@ -70,7 +79,7 @@ export async function POST(request: Request) {
       guests.unshift(guest);
     }
 
-    writeGuests(guests);
+    writeGuests(slug, guests);
 
     return NextResponse.json({
       success: true,
@@ -78,7 +87,6 @@ export async function POST(request: Request) {
       guest
     });
   } catch (e: any) {
-    console.error('Error processing RSVP:', e);
     return NextResponse.json({ success: false, error: e.message }, { status: 500 });
   }
 }

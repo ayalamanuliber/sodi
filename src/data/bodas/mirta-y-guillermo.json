@@ -1,0 +1,46 @@
+{
+  "slug": "mirta-y-guillermo",
+  "couple": "Mirta & Guillermo",
+  "monogram": "M | G",
+  "dateISO": "2026-11-13T20:30:00-03:00",
+  "dateLabel": "Viernes 13 de noviembre de 2026",
+  "rsvpDeadlineISO": "2026-10-13",
+  "rsvpDeadlineLabel": "Confirmar antes del 13 de octubre de 2026",
+  "invitationPolicy": "Esta invitación es personal y válida únicamente para las personas indicadas.",
+  "intro": "Hay momentos que merecen celebrarse con quienes forman parte de nuestra historia.",
+  "storyQuote": "Una historia compartida, una noche para celebrar.",
+  "heroImage": "/boda/assets/couple-portada.png",
+  "storyImage": "/boda/assets/couple-current.jpg",
+  "closingImage": "/boda/assets/couple-garden.jpg",
+  "gallery": [
+    "/boda/assets/couple-hero.jpg",
+    "/boda/assets/couple-mono.jpg",
+    "/boda/assets/couple-current.jpg",
+    "/boda/assets/table-candle.jpg"
+  ],
+  "song": {
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "src": "/boda/assets/perfect-ed-sheeran.mp3"
+  },
+  "ceremony": {
+    "name": "Parroquia Santuario Nuestra Señora de la Medalla Milagrosa",
+    "time": "20:30 hs",
+    "duration": "Duración aproximada: 30 minutos",
+    "address": "Curapaligüe 1185, Parque Chacabuco, CABA",
+    "mapsUrl": "https://maps.google.com/?q=Curapalig%C3%BCe+1185,+Parque+Chacabuco,+CABA"
+  },
+  "party": {
+    "name": "Recepciones Craigmhor",
+    "time": "21:30 hs",
+    "address": "Francisco Bilbao 2390, CABA",
+    "mapsUrl": "https://maps.google.com/?q=Recepciones+Craigmhor,+Francisco+Bilbao+2390,+CABA"
+  },
+  "dressCode": "Formal elegante",
+  "dressCodeNote": "Azul marino reservado para el novio",
+  "gifts": {
+    "alias": "boda.mirta.guille",
+    "cbu": "0070012345678901234567"
+  },
+  "whatsappPhone": "5491162337552"
+}
