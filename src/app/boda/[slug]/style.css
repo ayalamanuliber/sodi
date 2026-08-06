@@ -1080,7 +1080,7 @@ body.is-open .hero__image {
 
 .countdown__image {
   object-fit: cover;
-  object-position: center 28%;
+  object-position: center 18%;
   filter: grayscale(1);
 }
 
@@ -1516,7 +1516,7 @@ body.is-open .hero__image {
 
 .closing > img {
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 62%;
 }
 
 .closing__shade {
@@ -2167,7 +2167,7 @@ body.is-open .hero__image {
   }
 
   .closing > img {
-    object-position: 46% center;
+    object-position: center 62%;
   }
 
   .closing__content h2 {
