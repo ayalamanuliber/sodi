@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fam-perez",
+    "nombre": "Familia Pérez",
+    "pases": 3,
+    "telefono": "",
+    "estado": "pendiente",
+    "creadoEn": "2026-08-05T22:30:00.000Z",
+    "vistoEn": null,
+    "respuesta": null
+  },
+  {
+    "id": "tio-carlos",
+    "nombre": "Tío Carlos y Acompañante",
+    "pases": 2,
+    "telefono": "",
+    "estado": "pendiente",
+    "creadoEn": "2026-08-05T22:30:00.000Z",
+    "vistoEn": null,
+    "respuesta": null
+  },
+  {
+    "id": "valeria-gomez",
+    "nombre": "Valeria Gómez",
+    "pases": 1,
+    "telefono": "",
+    "estado": "pendiente",
+    "creadoEn": "2026-08-05T22:30:00.000Z",
+    "vistoEn": null,
+    "respuesta": null
+  }
+]
