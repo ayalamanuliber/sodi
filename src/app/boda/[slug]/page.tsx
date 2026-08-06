@@ -47,7 +47,23 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   const [hours, setHours] = useState('00');
   const [minutes, setMinutes] = useState('00');
 
+  const [showFloatingButton, setShowFloatingButton] = useState(false);
+
   const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  // Scroll listener to hide/show floating RSVP button
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowFloatingButton(true);
+      } else {
+        setShowFloatingButton(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Initial check
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Audio Event Listeners for 100% sync
   useEffect(() => {
@@ -629,7 +645,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       </main>
 
       {/* Floating RSVP Button */}
-      <a href="#rsvp" className="floating-rsvp">
+      <a href="#rsvp" className={`floating-rsvp ${!showFloatingButton ? 'is-hidden' : ''}`}>
         Confirmar asistencia
       </a>
 
