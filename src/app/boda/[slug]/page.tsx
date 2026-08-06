@@ -44,6 +44,8 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  const STORAGE_KEY = `sodi_boda_guests_${slug}`;
+
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const c = searchParams.get('i') || searchParams.get('inv') || searchParams.get('code') || '';
@@ -61,6 +63,21 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         setGuest(data.guest);
         setRsvpName(data.guest.nombre);
         setPasesConfirmados(data.guest.pases);
+
+        // Update local storage so admin panel on same browser updates instantly
+        if (typeof window !== 'undefined') {
+          try {
+            const stored = localStorage.getItem(STORAGE_KEY);
+            if (stored) {
+              const list: any[] = JSON.parse(stored);
+              const idx = list.findIndex(g => g.id.toLowerCase() === c.toLowerCase());
+              if (idx !== -1) {
+                list[idx].vistoEn = data.guest.vistoEn || new Date().toISOString();
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+              }
+            }
+          } catch (e) {}
+        }
       }
     } catch (e) {
       console.error('Error loading guest data:', e);
@@ -138,6 +155,31 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       });
       setSubmitted(true);
 
+      // Also update local storage if available
+      if (typeof window !== 'undefined' && (guest?.id || code)) {
+        try {
+          const stored = localStorage.getItem(STORAGE_KEY);
+          if (stored) {
+            const list: any[] = JSON.parse(stored);
+            const targetId = guest?.id || code;
+            const idx = list.findIndex(g => g.id.toLowerCase() === targetId.toLowerCase());
+            if (idx !== -1) {
+              list[idx].estado = attendance;
+              list[idx].respuesta = {
+                asistencia: attendance,
+                pasesConfirmados: attendance === 'confirmado' ? pasesConfirmados : 0,
+                integrantes: [rsvpName],
+                menu,
+                notas: notes,
+                cancion: song,
+                fechaRespuesta: new Date().toISOString()
+              };
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+            }
+          }
+        } catch (e) {}
+      }
+
       const pasesMsg = attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir';
       const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Invitado: ${rsvpName}\n• Asistencia: ${pasesMsg}\n• Menú: ${menu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
       const waUrl = `https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(msg)}`;
@@ -196,13 +238,13 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         </div>
       )}
 
-      {/* Site Header */}
+      {/* Site Header with Clean Integrated Audio Button */}
       <header className="site-header" id="siteHeader">
         <a className="site-header__brand" href="#hero">
           <span>M · G</span>
         </a>
-        <div className="site-header__actions" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          {/* Prominent Music Control Button */}
+        <div className="site-header__actions" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          {/* Header Music Button - Clean and unobtrusive */}
           <button
             onClick={toggleMusic}
             type="button"
@@ -210,18 +252,17 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               display: 'inline-flex',
               alignItems: 'center',
               gap: '6px',
-              backgroundColor: musicPlaying ? '#355844' : '#fff',
-              color: musicPlaying ? '#fff' : '#355844',
-              border: '1px solid #355844',
-              padding: '6px 14px',
+              backgroundColor: musicPlaying ? '#355844' : '#ffffff',
+              color: musicPlaying ? '#ffffff' : '#355844',
+              border: '1.5px solid #355844',
+              padding: '6px 12px',
               borderRadius: '20px',
               fontWeight: '600',
-              fontSize: '0.85rem',
-              cursor: 'pointer',
-              boxShadow: '0 2px 6px rgba(0,0,0,0.08)'
+              fontSize: '0.8rem',
+              cursor: 'pointer'
             }}
           >
-            <span>{musicPlaying ? '🔊 Pausar Música' : '🎵 Sonido / Música'}</span>
+            <span>{musicPlaying ? '🔊 Música' : '🎵 Música'}</span>
           </button>
 
           <a href="#rsvp" className="header-rsvp">Confirmar</a>
@@ -468,33 +509,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         </section>
       </main>
 
-      {/* Floating Audio Control at Bottom Left */}
-      <button
-        onClick={toggleMusic}
-        type="button"
-        style={{
-          position: 'fixed',
-          bottom: '24px',
-          left: '24px',
-          zIndex: 99,
-          backgroundColor: musicPlaying ? '#355844' : '#fff',
-          color: musicPlaying ? '#fff' : '#355844',
-          border: '1px solid #355844',
-          borderRadius: '50px',
-          padding: '10px 18px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px',
-          boxShadow: '0 4px 15px rgba(0,0,0,0.15)',
-          cursor: 'pointer',
-          fontWeight: '600',
-          fontSize: '0.85rem'
-        }}
-      >
-        <span>{musicPlaying ? '🔊 Música On (Pausar)' : '🎵 Reproducir Música'}</span>
-      </button>
-
-      {/* Floating RSVP Button */}
+      {/* Floating RSVP Button - Clean and unobstructed at bottom */}
       <a href="#rsvp" className="floating-rsvp">
         Confirmar asistencia
       </a>
