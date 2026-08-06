@@ -192,7 +192,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       const nombresMsg = attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${filteredIntegrantes.join(', ')}` : '';
       const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${pasesMsg}${nombresMsg}\n• Menú: ${menu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
       const waUrl = `https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(msg)}`;
-      window.open(waUrl, '_blank');
+      window.location.href = waUrl;
     } catch (e) {
       alert('Ocurrió un error al enviar tu confirmación.');
     } finally {
@@ -426,9 +426,22 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           </div>
 
           {submitted ? (
-            <div style={{ padding: '36px 24px', textAlign: 'center', backgroundColor: 'var(--paper)', borderRadius: '4px', border: '1px solid var(--champagne-light)', color: 'var(--wine-dark)' }}>
-              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '2rem', marginBottom: '8px' }}>¡Gracias por confirmar tu asistencia! 🎉</h3>
-              <p style={{ fontSize: '0.95rem' }}>Tu respuesta fue registrada y enviada por WhatsApp.</p>
+            <div style={{ padding: '36px 24px', textAlign: 'center', backgroundColor: 'var(--paper)', borderRadius: '4px', border: '1px solid var(--champagne-light)', color: 'var(--wine-dark)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px' }}>
+              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '2rem', marginBottom: '8px', lineHeight: '1.2' }}>¡Asistencia Registrada! 🎉</h3>
+              <p style={{ fontSize: '0.95rem', color: 'var(--ink-soft)', maxWidth: '400px', margin: '0 auto', lineHeight: '1.5' }}>
+                Tu respuesta fue guardada con éxito en la lista oficial. Si tu navegador no te redirigió automáticamente, tocá el botón de abajo para enviarle la confirmación a Mirta por WhatsApp:
+              </p>
+              <a
+                href={`https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(
+                  `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir'}${attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${integrantes.filter(Boolean).join(', ')}` : ''}${menu ? `\n• Menú: ${menu}` : ''}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--wine"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none', width: '100%', maxWidth: '320px', justifyContent: 'center', padding: '14px' }}
+              >
+                💬 Enviar Mensaje a Mirta
+              </a>
             </div>
           ) : guest ? (
             <form className="rsvp-form" onSubmit={handleRsvpSubmit}>
