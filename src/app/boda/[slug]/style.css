@@ -1046,6 +1046,10 @@ body.is-open .hero__image {
   grid-row: 2;
 }
 
+.gallery__item--detail img {
+  object-position: center 15%;
+}
+
 .gallery__item--dinner {
   grid-column: 3;
   grid-row: 1 / 3;
@@ -1076,7 +1080,7 @@ body.is-open .hero__image {
 
 .countdown__image {
   object-fit: cover;
-  object-position: center 40%;
+  object-position: center 28%;
   filter: grayscale(1);
 }
 
@@ -1146,7 +1150,7 @@ body.is-open .hero__image {
   display: grid;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .detail {
@@ -1512,7 +1516,7 @@ body.is-open .hero__image {
 
 .closing > img {
   object-fit: cover;
-  object-position: center 46%;
+  object-position: center 22%;
 }
 
 .closing__shade {
