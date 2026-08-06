@@ -42,6 +42,21 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   const [playlistOpen, setPlaylistOpen] = useState(false);
   const [copyToast, setCopyToast] = useState('');
 
+  // Map Modal State
+  const [mapOpen, setMapOpen] = useState(false);
+  const [mapTitle, setMapTitle] = useState('');
+  const [mapIframeSrc, setMapIframeSrc] = useState('');
+  const [mapAddress, setMapAddress] = useState('');
+  const [mapExternalUrl, setMapExternalUrl] = useState('');
+
+  const openMap = (title: string, iframeSrc: string, address: string, extUrl: string) => {
+    setMapTitle(title);
+    setMapIframeSrc(iframeSrc);
+    setMapAddress(address);
+    setMapExternalUrl(extUrl);
+    setMapOpen(true);
+  };
+
   // Countdown
   const [days, setDays] = useState('00');
   const [hours, setHours] = useState('00');
@@ -393,9 +408,19 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 <h3>Parroquia Santuario Nuestra Señora de la Medalla Milagrosa</h3>
                 <p className="event__time">20:30 hs</p>
                 <p className="event__address">Curapaligüe 1185, Parque Chacabuco, CABA</p>
-                <a className="text-link" href="https://maps.google.com/?q=Curapalig%C3%BCe+1185,+Parque+Chacabuco,+CABA" target="_blank" rel="noopener noreferrer">
-                  📍 Abrir ubicación en Google Maps
-                </a>
+                <button
+                  type="button"
+                  className="text-link"
+                  style={{ background: 'none', border: 'none', cursor: 'pointer', outline: 'none' }}
+                  onClick={() => openMap(
+                    'Parroquia Medalla Milagrosa',
+                    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.684518731776!2d-58.4485542!3d-34.6373752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3ca2e01df7%3A0xcb13e9a597a7e376!2sSantuario%20Nuestra%20Se%C3%B1ora%20de%20la%20Medalla%20Milagrosa!5e0!3m2!1ses-419!2sar!4v1722971234567!5m2!1ses-419!2sar',
+                    'Curapaligüe 1185, Parque Chacabuco, CABA',
+                    'https://maps.google.com/?q=Curapalig%C3%BCe+1185,+Parque+Chacabuco,+CABA'
+                  )}
+                >
+                  📍 Ver mapa e indicaciones
+                </button>
               </article>
             )}
 
@@ -408,9 +433,19 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 <h3>Recepciones Craigmhor</h3>
                 <p className="event__time">{guest?.tipo === 'solo-after' ? '23:30 hs' : '21:30 hs'}</p>
                 <p className="event__address">Francisco Bilbao 2390, CABA</p>
-                <a className="text-link" href="https://maps.google.com/?q=Recepciones+Craigmhor,+Francisco+Bilbao+2390,+CABA" target="_blank" rel="noopener noreferrer">
-                  📍 Abrir ubicación en Google Maps
-                </a>
+                <button
+                  type="button"
+                  className="text-link"
+                  style={{ background: 'none', border: 'none', cursor: 'pointer', outline: 'none' }}
+                  onClick={() => openMap(
+                    'Recepciones Craigmhor',
+                    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7237893121516!2d-58.455243!3d-34.6363659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca37719661cb%3A0xc3f8e5b6db7607ea!2sRecepciones%20Craigmhor!5e0!3m2!1ses-419!2sar!4v1722971234568!5m2!1ses-419!2sar',
+                    'Francisco Bilbao 2390, CABA',
+                    'https://maps.google.com/?q=Recepciones+Craigmhor,+Francisco+Bilbao+2390,+CABA'
+                  )}
+                >
+                  📍 Ver mapa e indicaciones
+                </button>
               </article>
             )}
           </div>
@@ -739,6 +774,55 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               {submitting ? 'Buscando...' : 'Acceder a mi Invitación'}
             </button>
           </form>
+        </dialog>
+      )}
+
+      {/* Interactive Map Modal with Custom Styled Map and GPS link */}
+      {mapOpen && (
+        <dialog className="modal" open style={{ maxWidth: '600px', width: '95%', maxHeight: '90vh', overflowY: 'auto' }}>
+          <div className="modal__header">
+            <div>
+              <p className="eyebrow">Ubicación del evento</p>
+              <h2 style={{ fontFamily: 'var(--serif)', fontSize: '1.8rem', fontWeight: 400, color: 'var(--ink)' }}>{mapTitle}</h2>
+            </div>
+            <button className="icon-button" onClick={() => setMapOpen(false)} type="button">✕</button>
+          </div>
+          <div style={{ padding: '16px 0 0' }}>
+            <p className="modal__lead" style={{ marginBottom: '16px', fontSize: '0.9rem', color: 'var(--ink-soft)' }}>
+              📍 <strong>Dirección:</strong> {mapAddress}
+            </p>
+            <div style={{ width: '100%', height: '320px', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(182, 151, 99, 0.3)', marginBottom: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
+              <iframe
+                src={mapIframeSrc}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={mapTitle}
+              ></iframe>
+            </div>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <a
+                href={mapExternalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--wine"
+                style={{ flex: '1 1 200px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', textDecoration: 'none', padding: '12px', fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}
+              >
+                🗺️ Abrir en Google Maps / GPS
+              </a>
+              <button
+                type="button"
+                className="button button--champagne"
+                onClick={() => setMapOpen(false)}
+                style={{ flex: '1 1 100px', padding: '12px', fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
         </dialog>
       )}
     </>
