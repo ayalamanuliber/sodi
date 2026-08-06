@@ -384,7 +384,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         {/* Story */}
         <section className="story section-shell" id="story">
           <figure className="story__media">
-            <img src="/boda/assets/mama-2.jpg" alt="Mirta y Guillermo" loading="lazy" />
+            <img src="/boda/assets/mama-2.jpg?v=20260806_v5" alt="Mirta y Guillermo" loading="lazy" />
           </figure>
           <div className="story__copy">
             <span className="section-number">01</span>
@@ -459,23 +459,23 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           </div>
           <div className="gallery__grid">
             <figure className="gallery__item gallery__item--portrait">
-              <img src="/boda/assets/mama-3.jpg" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-3.jpg?v=20260806_v5" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--wide gallery__item--mono">
-              <img src="/boda/assets/mama-4.jpg" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-4.jpg?v=20260806_v5" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--detail">
-              <img src="/boda/assets/mama-5.jpg" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-5.jpg?v=20260806_v5" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--dinner">
-              <img src="/boda/assets/mama-6.jpg" alt="Mesa" loading="lazy" />
+              <img src="/boda/assets/mama-6.jpg?v=20260806_v5" alt="Mesa" loading="lazy" />
             </figure>
           </div>
         </section>
 
         {/* Countdown */}
         <section className="countdown">
-          <img className="countdown__image" src="/boda/assets/mama-7.jpg" alt="" loading="lazy" />
+          <img className="countdown__image" src="/boda/assets/mama-7.jpg?v=20260806_v5" alt="" loading="lazy" />
           <div className="countdown__shade"></div>
           <div className="countdown__content">
             <p className="eyebrow">Faltan</p>
@@ -669,7 +669,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
         {/* Closing */}
         <section className="closing">
-          <img src="/boda/assets/mama-8.jpg" alt="Mirta y Guillermo" loading="lazy" />
+          <img src="/boda/assets/mama-8.jpg?v=20260806_v5" alt="Mirta y Guillermo" loading="lazy" />
           <div className="closing__shade"></div>
           <div className="closing__content">
             <p className="eyebrow">Mirta & Guillermo</p>
