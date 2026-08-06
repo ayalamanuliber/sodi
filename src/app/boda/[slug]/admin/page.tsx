@@ -8,6 +8,8 @@ interface Guest {
   pases: number;
   telefono: string;
   estado: 'pendiente' | 'confirmado' | 'rechazado';
+  enviado?: boolean;
+  enviadoEn?: string | null;
   creadoEn: string;
   vistoEn: string | null;
   respuesta?: {
@@ -29,7 +31,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   const [passwordInput, setPasswordInput] = useState('');
   const [guests, setGuests] = useState<Guest[]>([]);
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState<'todos' | 'confirmados' | 'pendientes' | 'rechazados'>('todos');
+  const [filter, setFilter] = useState<'todos' | 'confirmados' | 'pendientes' | 'rechazados' | 'sin-enviar'>('todos');
 
   // Form
   const [newNombre, setNewNombre] = useState('');
@@ -100,6 +102,22 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     }
   };
 
+  const handleToggleEnviado = async (id: string, currentEnviado: boolean) => {
+    try {
+      const res = await fetch('/api/boda/invitados', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, action: 'toggleEnviado', id, enviado: !currentEnviado })
+      });
+      const data = await res.json();
+      if (data.success) {
+        setGuests(data.guests);
+      }
+    } catch (e) {
+      console.error('Error toggling enviado:', e);
+    }
+  };
+
   const handleDelete = async (id: string, nombre: string) => {
     if (!confirm(`¿Eliminar la invitación de "${nombre}"?`)) return;
     try {
@@ -122,8 +140,14 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     const link = `${baseUrl}/boda/${slug}?i=${guest.id}`;
     const pasesText = guest.pases === 1 ? '1 pase' : `${guest.pases} pases`;
     const message = `¡Hola ${guest.nombre}! 💒 Nos encantaría que nos acompañes en nuestro casamiento. En este enlace podés ver la tarjeta de invitación y confirmar tus ${pasesText}:\n\n${link}`;
-    const phoneParam = guest.telefono ? `phone=${encodeURIComponent(guest.telefono)}&` : '';
+    const phoneParam = guest.telefono ? `phone=${encodeURIComponent(guest.telefono.replace(/[^0-9]/g, ''))}&` : '';
     return `https://api.whatsapp.com/send?${phoneParam}text=${encodeURIComponent(message)}`;
+  };
+
+  const handleWhatsAppClick = (guest: Guest) => {
+    if (!guest.enviado) {
+      handleToggleEnviado(guest.id, false);
+    }
   };
 
   const copyLink = (guest: Guest) => {
@@ -134,10 +158,11 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   };
 
   const exportCSV = () => {
-    const headers = ['Nombre', 'Pases Asignados', 'Estado', 'Pases Confirmados', 'Integrantes', 'Menú', 'Notas', 'Canción', 'Visto', 'Fecha Respuesta'];
+    const headers = ['Nombre', 'Pases Asignados', 'Enviado', 'Estado', 'Pases Confirmados', 'Integrantes', 'Menú', 'Notas', 'Canción', 'Visto', 'Fecha Respuesta'];
     const rows = guests.map(g => [
       `"${g.nombre}"`,
       g.pases,
+      g.enviado ? 'Sí' : 'No',
       g.estado,
       g.respuesta ? g.respuesta.pasesConfirmados : '',
       `"${(g.respuesta?.integrantes || []).join(', ')}"`,
@@ -158,7 +183,9 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     document.body.removeChild(link);
   };
 
-  const totalInvitados = guests.reduce((sum, g) => sum + g.pases, 0);
+  const totalInvitaciones = guests.length;
+  const totalPases = guests.reduce((sum, g) => sum + g.pases, 0);
+  const totalEnviados = guests.filter(g => g.enviado).length;
   const confirmados = guests.filter(g => g.estado === 'confirmado').reduce((sum, g) => sum + (g.respuesta?.pasesConfirmados || g.pases), 0);
   const rechazados = guests.filter(g => g.estado === 'rechazado').length;
   const pendientes = guests.filter(g => g.estado === 'pendiente').length;
@@ -167,6 +194,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     if (filter === 'confirmados') return g.estado === 'confirmado';
     if (filter === 'pendientes') return g.estado === 'pendiente';
     if (filter === 'rechazados') return g.estado === 'rechazado';
+    if (filter === 'sin-enviar') return !g.enviado;
     return true;
   });
 
@@ -174,18 +202,19 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     return (
       <div style={styles.loginContainer}>
         <div style={styles.loginCard}>
-          <h1 style={styles.title}>Panel Admin · Boda</h1>
-          <p style={styles.subtitle}>Gestión de Evento: {slug}</p>
+          <div style={styles.loginIcon}>🔐</div>
+          <h1 style={styles.loginTitle}>Panel de Control · Boda</h1>
+          <p style={styles.loginSubtitle}>Gestión de Invitados: <strong>{slug}</strong></p>
           <form onSubmit={handleLogin} style={styles.form}>
             <input
               type="password"
-              placeholder="Contraseña (mirta2026)"
+              placeholder="Ingresá la contraseña (mirta2026)"
               value={passwordInput}
               onChange={(e) => setPasswordInput(e.target.value)}
-              style={styles.input}
+              style={styles.inputDarkText}
               required
             />
-            <button type="submit" style={styles.buttonPrimary}>Ingresar</button>
+            <button type="submit" style={styles.buttonPrimaryBlock}>Ingresar al Panel</button>
           </form>
         </div>
       </div>
@@ -196,63 +225,65 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     <div style={styles.container}>
       <header style={styles.header}>
         <div>
-          <span style={styles.badge}>Panel de Gestión · SODI Bodas</span>
-          <h1 style={styles.mainHeading}>Administración de Invitados ({slug})</h1>
+          <span style={styles.badge}>SODI Bodas · Control de Invitados</span>
+          <h1 style={styles.mainHeading}>Administración de Invitaciones</h1>
         </div>
-        <div style={{ display: 'flex', gap: '10px' }}>
-          <button onClick={exportCSV} style={styles.buttonOutline}>📥 Exportar Excel</button>
-          <button onClick={() => { sessionStorage.removeItem(`admin_boda_${slug}_auth`); setAuthenticated(false); }} style={styles.buttonDanger}>Salir</button>
+        <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+          <button onClick={exportCSV} style={styles.buttonOutlineHeader}>📥 Exportar Excel</button>
+          <button onClick={() => { sessionStorage.removeItem(`admin_boda_${slug}_auth`); setAuthenticated(false); }} style={styles.buttonDangerHeader}>Cerrar Sesión</button>
         </div>
       </header>
 
+      {/* Metrics Row */}
       <div style={styles.metricsGrid}>
         <div style={styles.metricCard}>
-          <span style={styles.metricLabel}>Total Pases Asignados</span>
-          <span style={styles.metricValue}>{totalInvitados}</span>
+          <span style={styles.metricLabel}>Total Invitaciones</span>
+          <span style={styles.metricValue}>{totalInvitaciones} <small style={{ fontSize: '1rem', color: '#555' }}>({totalPases} pases)</small></span>
+        </div>
+        <div style={{ ...styles.metricCard, borderLeft: '4px solid #0288d1' }}>
+          <span style={styles.metricLabel}>Enviadas por WhatsApp</span>
+          <span style={{ ...styles.metricValue, color: '#0288d1' }}>{totalEnviados} / {totalInvitaciones}</span>
         </div>
         <div style={{ ...styles.metricCard, borderLeft: '4px solid #2e7d32' }}>
           <span style={styles.metricLabel}>Pases Confirmados</span>
           <span style={{ ...styles.metricValue, color: '#2e7d32' }}>{confirmados}</span>
         </div>
-        <div style={{ ...styles.metricCard, borderLeft: '4px solid #c62828' }}>
-          <span style={styles.metricLabel}>Rechazados</span>
-          <span style={{ ...styles.metricValue, color: '#c62828' }}>{rechazados}</span>
-        </div>
         <div style={{ ...styles.metricCard, borderLeft: '4px solid #f57c00' }}>
-          <span style={styles.metricLabel}>Pendientes</span>
+          <span style={styles.metricLabel}>Pendientes de Respuesta</span>
           <span style={{ ...styles.metricValue, color: '#f57c00' }}>{pendientes}</span>
         </div>
       </div>
 
+      {/* Add New Guest Form */}
       <section style={styles.card}>
         <h2 style={styles.cardTitle}>✨ Agregar Nueva Invitación</h2>
         <form onSubmit={handleAddGuest} style={styles.addForm}>
           <input
             type="text"
-            placeholder="Nombre / Familia"
+            placeholder="Nombre de Persona / Familia (ej: Familia Pérez)"
             value={newNombre}
             onChange={(e) => setNewNombre(e.target.value)}
-            style={styles.inputFlex}
+            style={styles.inputFlexDark}
             required
           />
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <label style={{ fontSize: '0.9rem', color: '#555' }}>Pases:</label>
+            <label style={{ fontSize: '0.9rem', color: '#111', fontWeight: '600' }}>Pases:</label>
             <input
               type="number"
               min="1"
               max="10"
               value={newPases}
               onChange={(e) => setNewPases(parseInt(e.target.value, 10) || 1)}
-              style={styles.inputSmall}
+              style={styles.inputSmallDark}
               required
             />
           </div>
           <input
             type="text"
-            placeholder="Teléfono (opcional)"
+            placeholder="Teléfono (ej: 5491162337552)"
             value={newTelefono}
             onChange={(e) => setNewTelefono(e.target.value)}
-            style={styles.inputFlex}
+            style={styles.inputFlexDark}
           />
           <button type="submit" disabled={adding} style={styles.buttonPrimary}>
             {adding ? 'Guardando...' : '➕ Crear e Invitación'}
@@ -260,26 +291,48 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         </form>
       </section>
 
+      {/* Filter Tabs */}
       <div style={styles.tabRow}>
-        {(['todos', 'confirmados', 'pendientes', 'rechazados'] as const).map(tab => (
-          <button
-            key={tab}
-            onClick={() => setFilter(tab)}
-            style={{
-              ...styles.tabButton,
-              ...(filter === tab ? styles.tabButtonActive : {})
-            }}
-          >
-            {tab.charAt(0).toUpperCase() + tab.slice(1)}
-          </button>
-        ))}
+        {(['todos', 'sin-enviar', 'confirmados', 'pendientes', 'rechazados'] as const).map(tab => {
+          const tabStateMap: Record<string, (g: Guest) => boolean> = {
+            todos: () => true,
+            'sin-enviar': (g) => !g.enviado,
+            confirmados: (g) => g.estado === 'confirmado',
+            pendientes: (g) => g.estado === 'pendiente',
+            rechazados: (g) => g.estado === 'rechazado'
+          };
+          const count = guests.filter(tabStateMap[tab]).length;
+          const labelMap: Record<string, string> = {
+            todos: 'Todos',
+            'sin-enviar': 'Sin Enviar',
+            confirmados: 'Confirmados',
+            pendientes: 'Pendientes',
+            rechazados: 'Rechazados'
+          };
+          return (
+            <button
+              key={tab}
+              onClick={() => setFilter(tab)}
+              style={{
+                ...styles.tabButton,
+                ...(filter === tab ? styles.tabButtonActive : {})
+              }}
+            >
+              {labelMap[tab]} ({count})
+            </button>
+          );
+        })}
       </div>
 
+      {/* Guest Table */}
       <section style={styles.card}>
         {loading ? (
-          <p style={{ padding: '20px', textAlign: 'center' }}>Cargando lista...</p>
+          <p style={{ padding: '24px', textAlign: 'center', color: '#111', fontWeight: '600' }}>Cargando lista de invitados...</p>
         ) : filteredGuests.length === 0 ? (
-          <p style={{ padding: '20px', textAlign: 'center', color: '#777' }}>No hay invitados en esta lista.</p>
+          <div style={{ padding: '40px', textAlign: 'center', color: '#444' }}>
+            <p style={{ fontSize: '1.1rem', fontWeight: '600', color: '#111', marginBottom: '6px' }}>No hay invitaciones registradas en esta sección.</p>
+            <p style={{ fontSize: '0.9rem', color: '#555' }}>Agregá un invitado arriba para generar su link único y enviárselo por WhatsApp.</p>
+          </div>
         ) : (
           <div style={{ overflowX: 'auto' }}>
             <table style={styles.table}>
@@ -287,44 +340,72 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                 <tr>
                   <th style={styles.th}>Invitado / Familia</th>
                   <th style={styles.th}>Pases</th>
-                  <th style={styles.th}>Estado</th>
-                  <th style={styles.th}>Visto</th>
+                  <th style={styles.th}>¿Enviado?</th>
+                  <th style={styles.th}>Estado RSVP</th>
+                  <th style={styles.th}>Apertura</th>
                   <th style={styles.th}>Detalle Respuesta</th>
-                  <th style={styles.th}>Acciones</th>
+                  <th style={styles.th}>Acciones de Envío</th>
                 </tr>
               </thead>
               <tbody>
                 {filteredGuests.map(guest => (
                   <tr key={guest.id} style={styles.tr}>
                     <td style={styles.td}>
-                      <strong>{guest.nombre}</strong>
+                      <strong style={{ color: '#111', fontSize: '1rem' }}>{guest.nombre}</strong>
                       <br />
-                      <small style={{ color: '#888' }}>ID: {guest.id}</small>
+                      <span style={{ color: '#555', fontSize: '0.8rem' }}>ID Link: ?i={guest.id}</span>
                     </td>
-                    <td style={styles.td}>{guest.pases}</td>
+                    <td style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
+                    <td style={styles.td}>
+                      <button
+                        onClick={() => handleToggleEnviado(guest.id, !!guest.enviado)}
+                        style={{
+                          background: 'none',
+                          border: 'none',
+                          cursor: 'pointer',
+                          padding: '0'
+                        }}
+                        title="Toca para cambiar estado de envío"
+                      >
+                        {guest.enviado ? (
+                          <span style={styles.badgeEnviado}>🟢 Enviado</span>
+                        ) : (
+                          <span style={styles.badgeSinEnviar}>⚪ Pendiente</span>
+                        )}
+                      </button>
+                    </td>
                     <td style={styles.td}>
                       {guest.estado === 'confirmado' && <span style={styles.badgeSuccess}>✅ Confirmado</span>}
                       {guest.estado === 'rechazado' && <span style={styles.badgeDanger}>❌ No Asiste</span>}
                       {guest.estado === 'pendiente' && <span style={styles.badgeWarning}>⏳ Pendiente</span>}
                     </td>
                     <td style={styles.td}>
-                      {guest.vistoEn ? <span style={{ color: '#2e7d32' }}>👁️ Visto</span> : <span style={{ color: '#aaa' }}>Sin abrir</span>}
+                      {guest.vistoEn ? <span style={{ color: '#1b5e20', fontWeight: '600' }}>👁️ Abierto</span> : <span style={{ color: '#777' }}>Sin abrir</span>}
                     </td>
                     <td style={styles.td}>
                       {guest.respuesta ? (
-                        <div style={{ fontSize: '0.85rem' }}>
-                          <div><strong>Asisten:</strong> {guest.respuesta.pasesConfirmados} de {guest.pases}</div>
-                          <div><strong>Menú:</strong> {guest.respuesta.menu}</div>
-                          {guest.respuesta.notas && <div><strong>Notas:</strong> {guest.respuesta.notas}</div>}
-                          {guest.respuesta.cancion && <div><strong>🎵 Canción:</strong> {guest.respuesta.cancion}</div>}
+                        <div style={{ fontSize: '0.85rem', color: '#222' }}>
+                          <div><strong style={{ color: '#111' }}>Asisten:</strong> {guest.respuesta.pasesConfirmados} de {guest.pases} pases</div>
+                          {guest.respuesta.integrantes.length > 0 && (
+                            <div><strong style={{ color: '#111' }}>Nombres:</strong> {guest.respuesta.integrantes.join(', ')}</div>
+                          )}
+                          <div><strong style={{ color: '#111' }}>Menú:</strong> {guest.respuesta.menu}</div>
+                          {guest.respuesta.notas && <div><strong style={{ color: '#111' }}>Notas:</strong> {guest.respuesta.notas}</div>}
+                          {guest.respuesta.cancion && <div><strong style={{ color: '#111' }}>🎵 Canción:</strong> {guest.respuesta.cancion}</div>}
                         </div>
                       ) : (
-                        <span style={{ color: '#999', fontSize: '0.85rem' }}>Sin respuesta</span>
+                        <span style={{ color: '#666', fontSize: '0.85rem' }}>Aún no respondió</span>
                       )}
                     </td>
                     <td style={styles.td}>
                       <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                        <a href={getWhatsAppLink(guest)} target="_blank" rel="noopener noreferrer" style={styles.buttonWhatsapp}>
+                        <a
+                          href={getWhatsAppLink(guest)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => handleWhatsAppClick(guest)}
+                          style={styles.buttonWhatsapp}
+                        >
                           📲 WhatsApp
                         </a>
                         <button onClick={() => copyLink(guest)} style={styles.buttonSmall}>📋 Copiar Link</button>
@@ -343,36 +424,304 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
 }
 
 const styles: Record<string, React.CSSProperties> = {
-  loginContainer: { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f4f1ea', fontFamily: 'system-ui, sans-serif' },
-  loginCard: { backgroundColor: '#fff', padding: '40px', borderRadius: '16px', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', textAlign: 'center', maxWidth: '420px', width: '90%' },
-  container: { padding: '30px 20px', maxWidth: '1200px', margin: '0 auto', fontFamily: 'system-ui, sans-serif', backgroundColor: '#faf8f5', minHeight: '100vh' },
-  header: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px', flexWrap: 'wrap', gap: '12px' },
-  badge: { fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px', color: '#8b6f4e', fontWeight: '600' },
-  mainHeading: { margin: '4px 0 0 0', fontSize: '1.8rem', color: '#2c3e35' },
-  metricsGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginBottom: '24px' },
-  metricCard: { backgroundColor: '#fff', padding: '20px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' },
-  metricLabel: { fontSize: '0.85rem', color: '#666', fontWeight: '500' },
-  metricValue: { fontSize: '2rem', fontWeight: '700', marginTop: '4px', color: '#2c3e35' },
-  card: { backgroundColor: '#fff', borderRadius: '14px', padding: '24px', boxShadow: '0 2px 12px rgba(0,0,0,0.04)', marginBottom: '24px' },
-  cardTitle: { margin: '0 0 16px 0', fontSize: '1.2rem', color: '#2c3e35' },
-  addForm: { display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'center' },
-  input: { width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '1rem', marginBottom: '12px' },
-  inputFlex: { flex: '1 1 200px', padding: '10px 14px', borderRadius: '8px', border: '1px solid #d0c8b8', fontSize: '0.95rem' },
-  inputSmall: { width: '70px', padding: '10px', borderRadius: '8px', border: '1px solid #d0c8b8', fontSize: '0.95rem' },
-  buttonPrimary: { backgroundColor: '#355844', color: '#fff', border: 'none', padding: '11px 20px', borderRadius: '8px', fontWeight: '600', cursor: 'pointer' },
-  buttonOutline: { backgroundColor: 'transparent', color: '#355844', border: '1px solid #355844', padding: '8px 16px', borderRadius: '8px', fontWeight: '600', cursor: 'pointer' },
-  buttonDanger: { backgroundColor: '#fee2e2', color: '#991b1b', border: 'none', padding: '8px 16px', borderRadius: '8px', fontWeight: '600', cursor: 'pointer' },
-  tabRow: { display: 'flex', gap: '8px', marginBottom: '16px' },
-  tabButton: { padding: '8px 16px', borderRadius: '20px', border: '1px solid #d0c8b8', backgroundColor: '#fff', cursor: 'pointer', fontSize: '0.9rem', color: '#555' },
-  tabButtonActive: { backgroundColor: '#355844', color: '#fff', borderColor: '#355844' },
-  table: { width: '100%', borderCollapse: 'collapse', textAlign: 'left' },
-  th: { borderBottom: '2px solid #eee', padding: '12px', fontSize: '0.85rem', color: '#666', textTransform: 'uppercase' },
-  tr: { borderBottom: '1px solid #f0ede6' },
-  td: { padding: '12px', verticalAlign: 'top', fontSize: '0.95rem' },
-  badgeSuccess: { backgroundColor: '#e8f5e9', color: '#2e7d32', padding: '4px 10px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: '600' },
-  badgeDanger: { backgroundColor: '#ffebee', color: '#c62828', padding: '4px 10px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: '600' },
-  badgeWarning: { backgroundColor: '#fff3e0', color: '#ef6c00', padding: '4px 10px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: '600' },
-  buttonWhatsapp: { backgroundColor: '#25D366', color: '#fff', textDecoration: 'none', padding: '6px 12px', borderRadius: '6px', fontSize: '0.85rem', fontWeight: '600', display: 'inline-flex', alignItems: 'center' },
-  buttonSmall: { backgroundColor: '#f0ede6', border: '1px solid #d0c8b8', padding: '6px 10px', borderRadius: '6px', fontSize: '0.85rem', cursor: 'pointer' },
-  buttonSmallDanger: { backgroundColor: '#fee2e2', color: '#991b1b', border: 'none', padding: '6px 10px', borderRadius: '6px', cursor: 'pointer' }
+  loginContainer: {
+    minHeight: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f4f1ea',
+    fontFamily: 'system-ui, -apple-system, sans-serif'
+  },
+  loginCard: {
+    backgroundColor: '#ffffff',
+    padding: '40px',
+    borderRadius: '16px',
+    boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
+    textAlign: 'center',
+    maxWidth: '420px',
+    width: '90%',
+    border: '1px solid #e0d8c8'
+  },
+  loginIcon: {
+    fontSize: '2.5rem',
+    marginBottom: '12px'
+  },
+  loginTitle: {
+    margin: '0 0 6px 0',
+    fontSize: '1.6rem',
+    color: '#1a251e',
+    fontWeight: '700'
+  },
+  loginSubtitle: {
+    margin: '0 0 24px 0',
+    fontSize: '0.95rem',
+    color: '#333333'
+  },
+  form: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '12px'
+  },
+  inputDarkText: {
+    width: '100%',
+    padding: '14px 16px',
+    borderRadius: '8px',
+    border: '1.5px solid #203a2c',
+    fontSize: '1rem',
+    color: '#111111',
+    backgroundColor: '#ffffff',
+    fontWeight: '500'
+  },
+  buttonPrimaryBlock: {
+    width: '100%',
+    backgroundColor: '#355844',
+    color: '#ffffff',
+    border: 'none',
+    padding: '14px',
+    borderRadius: '8px',
+    fontWeight: '700',
+    fontSize: '1rem',
+    cursor: 'pointer'
+  },
+  container: {
+    padding: '30px 20px',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    fontFamily: 'system-ui, -apple-system, sans-serif',
+    backgroundColor: '#faf8f5',
+    minHeight: '100vh',
+    color: '#111111'
+  },
+  header: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: '24px',
+    flexWrap: 'wrap',
+    gap: '16px'
+  },
+  badge: {
+    fontSize: '0.85rem',
+    textTransform: 'uppercase',
+    letterSpacing: '1px',
+    color: '#355844',
+    fontWeight: '700'
+  },
+  mainHeading: {
+    margin: '4px 0 0 0',
+    fontSize: '1.8rem',
+    color: '#1a251e',
+    fontWeight: '800'
+  },
+  buttonOutlineHeader: {
+    backgroundColor: '#ffffff',
+    color: '#355844',
+    border: '1.5px solid #355844',
+    padding: '10px 16px',
+    borderRadius: '8px',
+    fontWeight: '700',
+    cursor: 'pointer',
+    fontSize: '0.9rem'
+  },
+  buttonDangerHeader: {
+    backgroundColor: '#fee2e2',
+    color: '#991b1b',
+    border: '1px solid #f87171',
+    padding: '10px 16px',
+    borderRadius: '8px',
+    fontWeight: '700',
+    cursor: 'pointer',
+    fontSize: '0.9rem'
+  },
+  metricsGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+    gap: '16px',
+    marginBottom: '24px'
+  },
+  metricCard: {
+    backgroundColor: '#ffffff',
+    padding: '20px',
+    borderRadius: '12px',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+    display: 'flex',
+    flexDirection: 'column',
+    border: '1px solid #e5dfd3'
+  },
+  metricLabel: {
+    fontSize: '0.85rem',
+    color: '#444444',
+    fontWeight: '600'
+  },
+  metricValue: {
+    fontSize: '2.2rem',
+    fontWeight: '800',
+    marginTop: '4px',
+    color: '#1a251e'
+  },
+  card: {
+    backgroundColor: '#ffffff',
+    borderRadius: '14px',
+    padding: '24px',
+    boxShadow: '0 2px 12px rgba(0,0,0,0.06)',
+    marginBottom: '24px',
+    border: '1px solid #e5dfd3'
+  },
+  cardTitle: {
+    margin: '0 0 16px 0',
+    fontSize: '1.25rem',
+    color: '#1a251e',
+    fontWeight: '700'
+  },
+  addForm: {
+    display: 'flex',
+    gap: '12px',
+    flexWrap: 'wrap',
+    alignItems: 'center'
+  },
+  inputFlexDark: {
+    flex: '1 1 220px',
+    padding: '12px 14px',
+    borderRadius: '8px',
+    border: '1.5px solid #bbb',
+    fontSize: '0.95rem',
+    color: '#111111',
+    backgroundColor: '#ffffff',
+    fontWeight: '500'
+  },
+  inputSmallDark: {
+    width: '70px',
+    padding: '12px',
+    borderRadius: '8px',
+    border: '1.5px solid #bbb',
+    fontSize: '0.95rem',
+    color: '#111111',
+    backgroundColor: '#ffffff',
+    fontWeight: '700',
+    textAlign: 'center'
+  },
+  buttonPrimary: {
+    backgroundColor: '#355844',
+    color: '#ffffff',
+    border: 'none',
+    padding: '12px 20px',
+    borderRadius: '8px',
+    fontWeight: '700',
+    cursor: 'pointer',
+    fontSize: '0.95rem'
+  },
+  tabRow: {
+    display: 'flex',
+    gap: '8px',
+    marginBottom: '16px',
+    flexWrap: 'wrap'
+  },
+  tabButton: {
+    padding: '8px 16px',
+    borderRadius: '20px',
+    border: '1.5px solid #ccc',
+    backgroundColor: '#ffffff',
+    cursor: 'pointer',
+    fontSize: '0.9rem',
+    color: '#333333',
+    fontWeight: '600'
+  },
+  tabButtonActive: {
+    backgroundColor: '#355844',
+    color: '#ffffff',
+    borderColor: '#355844'
+  },
+  table: {
+    width: '100%',
+    borderCollapse: 'collapse',
+    textAlign: 'left'
+  },
+  th: {
+    borderBottom: '2px solid #ddd',
+    padding: '12px',
+    fontSize: '0.85rem',
+    color: '#222222',
+    textTransform: 'uppercase',
+    fontWeight: '700',
+    letterSpacing: '0.5px'
+  },
+  tr: {
+    borderBottom: '1px solid #eeeeee'
+  },
+  td: {
+    padding: '14px 12px',
+    verticalAlign: 'top',
+    fontSize: '0.95rem',
+    color: '#111111'
+  },
+  badgeEnviado: {
+    backgroundColor: '#e3f2fd',
+    color: '#0288d1',
+    padding: '6px 10px',
+    borderRadius: '12px',
+    fontSize: '0.8rem',
+    fontWeight: '700'
+  },
+  badgeSinEnviar: {
+    backgroundColor: '#f5f5f5',
+    color: '#777777',
+    padding: '6px 10px',
+    borderRadius: '12px',
+    fontSize: '0.8rem',
+    fontWeight: '600',
+    border: '1px solid #ddd'
+  },
+  badgeSuccess: {
+    backgroundColor: '#d1e7dd',
+    color: '#0f5132',
+    padding: '6px 12px',
+    borderRadius: '12px',
+    fontSize: '0.85rem',
+    fontWeight: '700'
+  },
+  badgeDanger: {
+    backgroundColor: '#f8d7da',
+    color: '#842029',
+    padding: '6px 12px',
+    borderRadius: '12px',
+    fontSize: '0.85rem',
+    fontWeight: '700'
+  },
+  badgeWarning: {
+    backgroundColor: '#fff3cd',
+    color: '#664d03',
+    padding: '6px 12px',
+    borderRadius: '12px',
+    fontSize: '0.85rem',
+    fontWeight: '700'
+  },
+  buttonWhatsapp: {
+    backgroundColor: '#25D366',
+    color: '#ffffff',
+    textDecoration: 'none',
+    padding: '8px 14px',
+    borderRadius: '6px',
+    fontSize: '0.85rem',
+    fontWeight: '700',
+    display: 'inline-flex',
+    alignItems: 'center'
+  },
+  buttonSmall: {
+    backgroundColor: '#f0ede6',
+    border: '1px solid #ccc',
+    color: '#111',
+    padding: '8px 12px',
+    borderRadius: '6px',
+    fontSize: '0.85rem',
+    fontWeight: '600',
+    cursor: 'pointer'
+  },
+  buttonSmallDanger: {
+    backgroundColor: '#fee2e2',
+    color: '#991b1b',
+    border: 'none',
+    padding: '8px 12px',
+    borderRadius: '6px',
+    cursor: 'pointer'
+  }
 };

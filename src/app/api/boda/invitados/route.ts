@@ -27,30 +27,8 @@ function readGuests(slug: string) {
     console.error(`Error reading guests for ${safeSlug}:`, e);
   }
 
-  // Fallback initial sample data if file doesn't exist yet
   if (!memoryStores[safeSlug]) {
-    memoryStores[safeSlug] = [
-      {
-        id: "fam-perez",
-        nombre: "Familia Pérez",
-        pases: 3,
-        telefono: "",
-        estado: "pendiente",
-        creadoEn: new Date().toISOString(),
-        vistoEn: null,
-        respuesta: null
-      },
-      {
-        id: "tio-carlos",
-        nombre: "Tío Carlos y Acompañante",
-        pases: 2,
-        telefono: "",
-        estado: "pendiente",
-        creadoEn: new Date().toISOString(),
-        vistoEn: null,
-        respuesta: null
-      }
-    ];
+    memoryStores[safeSlug] = [];
   }
   return memoryStores[safeSlug];
 }
@@ -123,6 +101,8 @@ export async function POST(request: Request) {
         pases: parseInt(pases, 10) || 1,
         telefono: (telefono || '').trim(),
         estado: 'pendiente',
+        enviado: false,
+        enviadoEn: null,
         creadoEn: new Date().toISOString(),
         vistoEn: null,
         respuesta: null
@@ -132,6 +112,19 @@ export async function POST(request: Request) {
       writeGuests(slug, guests);
 
       return NextResponse.json({ success: true, guest: newGuest, guests });
+    }
+
+    if (body.action === 'toggleEnviado') {
+      const { id, enviado } = body;
+      const guest = guests.find((g: any) => g.id === id);
+      if (guest) {
+        guest.enviado = typeof enviado === 'boolean' ? enviado : !guest.enviado;
+        if (guest.enviado && !guest.enviadoEn) {
+          guest.enviadoEn = new Date().toISOString();
+        }
+        writeGuests(slug, guests);
+      }
+      return NextResponse.json({ success: true, guests });
     }
 
     if (body.action === 'delete') {
