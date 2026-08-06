@@ -12,6 +12,8 @@ interface Guest {
   enviadoEn?: string | null;
   creadoEn: string;
   vistoEn: string | null;
+  tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
+  estilo?: 'oro' | 'esmeralda' | 'borgoña';
   respuesta?: {
     asistencia: string;
     pasesConfirmados: number;
@@ -38,6 +40,8 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   const [newNombre, setNewNombre] = useState('');
   const [newPases, setNewPases] = useState(2);
   const [newTelefono, setNewTelefono] = useState('');
+  const [newTipo, setNewTipo] = useState<'completo' | 'solo-after' | 'solo-ceremonia'>('completo');
+  const [newEstilo, setNewEstilo] = useState<'oro' | 'esmeralda' | 'borgoña'>('oro');
   const [adding, setAdding] = useState(false);
 
   const STORAGE_KEY = `sodi_boda_guests_${slug}`;
@@ -118,7 +122,9 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           action: 'add',
           nombre: newNombre,
           pases: newPases,
-          telefono: newTelefono
+          telefono: newTelefono,
+          tipo: newTipo,
+          estilo: newEstilo
         })
       });
       const data = await res.json();
@@ -136,6 +142,8 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       setNewNombre('');
       setNewPases(2);
       setNewTelefono('');
+      setNewTipo('completo');
+      setNewEstilo('oro');
       setAdding(false);
     }
   };
@@ -189,7 +197,16 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://sodi.com.ar';
     const link = `${baseUrl}/boda/${slug}?i=${guest.id}`;
     const pasesText = guest.pases === 1 ? '1 pase' : `${guest.pases} pases`;
-    const message = `¡Hola ${guest.nombre}! 💒 Nos encantaría que nos acompañes en nuestro casamiento. En este enlace podés ver la tarjeta de invitación y confirmar tus ${pasesText}:\n\n${link}`;
+    
+    let message = '';
+    if (guest.tipo === 'solo-after') {
+      message = `¡Hola ${guest.nombre}! 🥳 Queremos celebrar a lo grande en nuestro casamiento y nos encantaría que vengas a bailar, brindar y festejar con nosotros a partir del after-party (23:30hs). En este enlace podés ver la tarjeta digital y confirmar tus ${pasesText}:\n\n${link}`;
+    } else if (guest.tipo === 'solo-ceremonia') {
+      message = `¡Hola ${guest.nombre}! 💒 Nos encantaría de corazón que nos acompañes en la ceremonia civil de nuestro casamiento. En este enlace podés ver la tarjeta con toda la información y confirmar tu asistencia:\n\n${link}`;
+    } else {
+      message = `¡Hola ${guest.nombre}! 💒 Nos encantaría que nos acompañes en nuestro casamiento (Ceremonia y Fiesta). En este enlace podés ver la tarjeta de invitación premium y confirmar tus ${pasesText}:\n\n${link}`;
+    }
+
     const phoneParam = guest.telefono ? `phone=${encodeURIComponent(guest.telefono.replace(/[^0-9]/g, ''))}&` : '';
     return `https://api.whatsapp.com/send?${phoneParam}text=${encodeURIComponent(message)}`;
   };
@@ -314,35 +331,66 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       {/* Add New Guest Form */}
       <section style={styles.card}>
         <h2 style={styles.cardTitle}>✨ Agregar Nueva Invitación</h2>
-        <form onSubmit={handleAddGuest} style={styles.addForm}>
-          <input
-            type="text"
-            placeholder="Nombre de Persona / Familia (ej: Familia Pérez)"
-            value={newNombre}
-            onChange={(e) => setNewNombre(e.target.value)}
-            style={styles.inputFlexDark}
-            required
-          />
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <label style={{ fontSize: '0.9rem', color: '#111', fontWeight: '600' }}>Pases:</label>
+        <form onSubmit={handleAddGuest} style={{ ...styles.addForm, display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
             <input
-              type="number"
-              min="1"
-              max="10"
-              value={newPases}
-              onChange={(e) => setNewPases(parseInt(e.target.value, 10) || 1)}
-              style={styles.inputSmallDark}
+              type="text"
+              placeholder="Nombre de Persona / Familia (ej: Familia Pérez)"
+              value={newNombre}
+              onChange={(e) => setNewNombre(e.target.value)}
+              style={{ ...styles.inputFlexDark, flex: '2 1 300px' }}
               required
             />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', minWidth: '100px' }}>
+              <label style={{ fontSize: '0.9rem', color: '#111', fontWeight: '600' }}>Pases:</label>
+              <input
+                type="number"
+                min="1"
+                max="10"
+                value={newPases}
+                onChange={(e) => setNewPases(parseInt(e.target.value, 10) || 1)}
+                style={styles.inputSmallDark}
+                required
+              />
+            </div>
+            <input
+              type="text"
+              placeholder="Teléfono (ej: 5491162337552)"
+              value={newTelefono}
+              onChange={(e) => setNewTelefono(e.target.value)}
+              style={{ ...styles.inputFlexDark, flex: '1 1 200px' }}
+            />
           </div>
-          <input
-            type="text"
-            placeholder="Teléfono (ej: 5491162337552)"
-            value={newTelefono}
-            onChange={(e) => setNewTelefono(e.target.value)}
-            style={styles.inputFlexDark}
-          />
-          <button type="submit" disabled={adding} style={styles.buttonPrimary}>
+
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 200px', gap: '4px' }}>
+              <label style={{ fontSize: '0.82rem', color: '#555', fontWeight: '600' }}>Tipo de Invitación / Pase:</label>
+              <select
+                value={newTipo}
+                onChange={(e) => setNewTipo(e.target.value as any)}
+                style={{ ...styles.inputFlexDark, width: '100%', padding: '10px' }}
+              >
+                <option value="completo">Completo (Ceremonia + Fiesta)</option>
+                <option value="solo-after">Solo After-Party (Baile/Trasnochados)</option>
+                <option value="solo-ceremonia">Solo Ceremonia (Iglesia/Civil)</option>
+              </select>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 200px', gap: '4px' }}>
+              <label style={{ fontSize: '0.82rem', color: '#555', fontWeight: '600' }}>Paleta de Estilo Visual (A/B/C):</label>
+              <select
+                value={newEstilo}
+                onChange={(e) => setNewEstilo(e.target.value as any)}
+                style={{ ...styles.inputFlexDark, width: '100%', padding: '10px' }}
+              >
+                <option value="oro">Opción A: Champagne y Oro Clásico</option>
+                <option value="esmeralda">Opción B: Esmeralda y Champagne</option>
+                <option value="borgoña">Opción C: Borgoña y Blanco Lino</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" disabled={adding} style={{ ...styles.buttonPrimary, width: '100%', marginTop: '8px' }}>
             {adding ? 'Guardando...' : '➕ Crear Invitación'}
           </button>
         </form>
@@ -408,9 +456,32 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                 {filteredGuests.map(guest => (
                   <tr key={guest.id} style={styles.tr}>
                     <td style={styles.td}>
-                      <strong style={{ color: '#111', fontSize: '1rem' }}>{guest.nombre}</strong>
-                      <br />
-                      <span style={{ color: '#555', fontSize: '0.8rem' }}>ID Link: ?i={guest.id}</span>
+                      <strong style={{ color: '#111', fontSize: '1.05rem' }}>{guest.nombre}</strong>
+                      <div style={{ color: '#555', fontSize: '0.8rem', marginTop: '2px' }}>ID Link: <code>?i={guest.id}</code></div>
+                      <div style={{ display: 'flex', gap: '4px', marginTop: '6px' }}>
+                        <span style={{
+                          fontSize: '0.7rem',
+                          fontWeight: '700',
+                          padding: '2px 6px',
+                          borderRadius: '12px',
+                          textTransform: 'uppercase',
+                          backgroundColor: guest.tipo === 'solo-after' ? '#e8f0fe' : guest.tipo === 'solo-ceremonia' ? '#fdf2e9' : '#f3e8ff',
+                          color: guest.tipo === 'solo-after' ? '#1a73e8' : guest.tipo === 'solo-ceremonia' ? '#d56d12' : '#7b1fa2'
+                        }}>
+                          {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Civil' : 'Pase Completo'}
+                        </span>
+                        <span style={{
+                          fontSize: '0.7rem',
+                          fontWeight: '700',
+                          padding: '2px 6px',
+                          borderRadius: '12px',
+                          textTransform: 'uppercase',
+                          backgroundColor: guest.estilo === 'esmeralda' ? '#e6f4ea' : guest.estilo === 'borgoña' ? '#fce8e6' : '#fff8e1',
+                          color: guest.estilo === 'esmeralda' ? '#137333' : guest.estilo === 'borgoña' ? '#c5221f' : '#b06000'
+                        }}>
+                          🎨 {guest.estilo === 'esmeralda' ? 'Esmeralda' : guest.estilo === 'borgoña' ? 'Borgoña' : 'Champagne'}
+                        </span>
+                      </div>
                     </td>
                     <td style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
                     <td style={styles.td}>

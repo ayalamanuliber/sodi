@@ -97,7 +97,7 @@ export async function POST(request: Request) {
     const guests = await fetchGuestsFromCloud(slug);
 
     if (body.action === 'add') {
-      const { nombre, pases, telefono } = body;
+      const { nombre, pases, telefono, tipo, estilo } = body;
       if (!nombre || !pases) {
         return NextResponse.json({ success: false, message: 'Nombre y pases requeridos' }, { status: 400 });
       }
@@ -126,6 +126,8 @@ export async function POST(request: Request) {
         enviadoEn: null,
         creadoEn: new Date().toISOString(),
         vistoEn: null,
+        tipo: tipo || 'completo',
+        estilo: estilo || 'oro',
         respuesta: null
       };
 

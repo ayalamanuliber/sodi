@@ -8,6 +8,8 @@ interface GuestData {
   nombre: string;
   pases: number;
   estado: string;
+  tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
+  estilo?: 'oro' | 'esmeralda' | 'borgoña';
   respuesta?: any;
 }
 
@@ -194,7 +196,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       asistencia: attendance,
       pasesConfirmados: attendance === 'confirmado' ? pasesConfirmados : 0,
       integrantes: filteredIntegrantes,
-      menu,
+      menu: resolvedMenu,
       notas: notes,
       cancion: song
     };
@@ -209,7 +211,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
       const pasesMsg = attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir';
       const nombresMsg = attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${filteredIntegrantes.join(', ')}` : '';
-      const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${pasesMsg}${nombresMsg}\n• Menú: ${menu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
+      const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${pasesMsg}${nombresMsg}\n• Menú: ${resolvedMenu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
       const waUrl = `https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(msg)}`;
       window.location.href = waUrl;
     } catch (e) {
@@ -225,8 +227,34 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
     setTimeout(() => setCopyToast(''), 3000);
   };
 
+  const resolvedMenu = guest?.tipo === 'solo-after' ? 'Solo After-Party (Bebidas)' : menu;
+
   return (
     <>
+      {/* Dynamic Style Overrides based on guest.estilo setting */}
+      {guest?.estilo === 'borgoña' && (
+        <style dangerouslySetInnerHTML={{ __html: `
+          :root {
+            --wine: #800020 !important;
+            --wine-dark: #4a0012 !important;
+            --ivory: #faf7f8 !important;
+            --ivory-deep: #ebdbe0 !important;
+            --champagne: #b58b48 !important;
+            --champagne-light: #dec7a1 !important;
+          }
+        `}} />
+      )}
+      {guest?.estilo === 'esmeralda' && (
+        <style dangerouslySetInnerHTML={{ __html: `
+          :root {
+            --wine: #137333 !important;
+            --wine-dark: #094720 !important;
+            --ivory: #f4fcf7 !important;
+            --ivory-deep: #dbeef3 !important;
+          }
+        `}} />
+      )}
+
       {/* Google Fonts */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -342,27 +370,33 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             <h2>El día que elegimos</h2>
           </div>
           <div className="events__grid">
-            <article className="event">
-              <span className="event__index">I</span>
-              <p className="event__type">Ceremonia</p>
-              <h3>Parroquia Santuario Nuestra Señora de la Medalla Milagrosa</h3>
-              <p className="event__time">20:30 hs</p>
-              <p className="event__address">Curapaligüe 1185, Parque Chacabuco, CABA</p>
-              <a className="text-link" href="https://maps.google.com/?q=Curapalig%C3%BCe+1185,+Parque+Chacabuco,+CABA" target="_blank" rel="noopener noreferrer">
-                📍 Abrir ubicación en Google Maps
-              </a>
-            </article>
-            <div className="events__divider">❀</div>
-            <article className="event">
-              <span className="event__index">II</span>
-              <p className="event__type">Celebración</p>
-              <h3>Recepciones Craigmhor</h3>
-              <p className="event__time">21:30 hs</p>
-              <p className="event__address">Francisco Bilbao 2390, CABA</p>
-              <a className="text-link" href="https://maps.google.com/?q=Recepciones+Craigmhor,+Francisco+Bilbao+2390,+CABA" target="_blank" rel="noopener noreferrer">
-                📍 Abrir ubicación en Google Maps
-              </a>
-            </article>
+            {(!guest || guest.tipo === 'completo' || guest.tipo === 'solo-ceremonia') && (
+              <article className="event">
+                <span className="event__index">I</span>
+                <p className="event__type">Ceremonia</p>
+                <h3>Parroquia Santuario Nuestra Señora de la Medalla Milagrosa</h3>
+                <p className="event__time">20:30 hs</p>
+                <p className="event__address">Curapaligüe 1185, Parque Chacabuco, CABA</p>
+                <a className="text-link" href="https://maps.google.com/?q=Curapalig%C3%BCe+1185,+Parque+Chacabuco,+CABA" target="_blank" rel="noopener noreferrer">
+                  📍 Abrir ubicación en Google Maps
+                </a>
+              </article>
+            )}
+
+            {(!guest || guest.tipo === 'completo') && <div className="events__divider">❀</div>}
+
+            {(!guest || guest.tipo === 'completo' || guest.tipo === 'solo-after') && (
+              <article className="event" style={guest?.tipo === 'solo-after' ? { gridColumn: '1 / -1', margin: '0 auto', maxWidth: '500px' } : {}}>
+                <span className="event__index">{guest?.tipo === 'solo-after' ? 'I' : 'II'}</span>
+                <p className="event__type">Celebración & After-Party</p>
+                <h3>Recepciones Craigmhor</h3>
+                <p className="event__time">{guest?.tipo === 'solo-after' ? '23:30 hs' : '21:30 hs'}</p>
+                <p className="event__address">Francisco Bilbao 2390, CABA</p>
+                <a className="text-link" href="https://maps.google.com/?q=Recepciones+Craigmhor,+Francisco+Bilbao+2390,+CABA" target="_blank" rel="noopener noreferrer">
+                  📍 Abrir ubicación en Google Maps
+                </a>
+              </article>
+            )}
           </div>
         </section>
 
@@ -452,7 +486,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               </p>
               <a
                 href={`https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(
-                  `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir'}${attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${integrantes.filter(Boolean).join(', ')}` : ''}${menu ? `\n• Menú: ${menu}` : ''}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`
+                  `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir'}${attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${integrantes.filter(Boolean).join(', ')}` : ''}${resolvedMenu ? `\n• Menú: ${resolvedMenu}` : ''}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -539,15 +573,17 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                     </div>
                   ))}
 
-                  <div className="field field--full">
-                    <label htmlFor="rsvpMenu">Preferencia de menú</label>
-                    <select id="rsvpMenu" value={menu} onChange={(e) => setMenu(e.target.value)}>
-                      <option>Tradicional</option>
-                      <option>Vegetariano</option>
-                      <option>Vegano</option>
-                      <option>Sin TACC</option>
-                    </select>
-                  </div>
+                  {guest?.tipo !== 'solo-after' && (
+                    <div className="field field--full">
+                      <label htmlFor="rsvpMenu">Preferencia de menú</label>
+                      <select id="rsvpMenu" value={menu} onChange={(e) => setMenu(e.target.value)}>
+                        <option>Tradicional</option>
+                        <option>Vegetariano</option>
+                        <option>Vegano</option>
+                        <option>Sin TACC</option>
+                      </select>
+                    </div>
+                  )}
 
                   <div className="field field--full">
                     <label htmlFor="rsvpNotes">Alergias o comentarios</label>
