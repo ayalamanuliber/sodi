@@ -401,7 +401,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             <h2>El día que elegimos</h2>
           </div>
           <div className="events__grid">
-            {(!guest || guest.tipo === 'completo' || guest.tipo === 'solo-ceremonia') && (
+            {(!guest || !guest.tipo || guest.tipo === 'completo' || guest.tipo === 'solo-ceremonia') && (
               <article className="event">
                 <span className="event__index">I</span>
                 <p className="event__type">Ceremonia</p>
@@ -424,10 +424,10 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               </article>
             )}
 
-            {(!guest || guest.tipo === 'completo') && <div className="events__divider">❀</div>}
+            {(!guest || !guest.tipo || guest.tipo === 'completo') && <div className="events__divider">❀</div>}
 
-            {(!guest || guest.tipo === 'completo' || guest.tipo === 'solo-after') && (
-              <article className="event" style={guest?.tipo === 'solo-after' ? { gridColumn: '1 / -1', margin: '0 auto', maxWidth: '500px' } : {}}>
+            {(!guest || !guest.tipo || guest.tipo === 'completo' || guest.tipo === 'solo-after') && (
+              <article className="event" style={(!guest?.tipo || guest?.tipo === 'solo-after') ? { gridColumn: '1 / -1', margin: '0 auto', maxWidth: '500px' } : {}}>
                 <span className="event__index">{guest?.tipo === 'solo-after' ? 'I' : 'II'}</span>
                 <p className="event__type">Celebración & After-Party</p>
                 <h3>Recepciones Craigmhor</h3>
