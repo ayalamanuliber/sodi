@@ -7,43 +7,64 @@ const DEFAULT_SLUG = 'mirta-y-guillermo';
 
 const memoryStores: Record<string, any[]> = {};
 
-function getFilePath(slug: string) {
+function getWeddingConfig(slug: string) {
   const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  return path.join(DATA_DIR, `invitados-${safeSlug}.json`);
-}
-
-function readGuests(slug: string) {
-  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  const filePath = getFilePath(safeSlug);
-
+  const configPath = path.join(DATA_DIR, `${safeSlug}.json`);
   try {
-    if (fs.existsSync(filePath)) {
-      const data = fs.readFileSync(filePath, 'utf8');
-      const parsed = JSON.parse(data);
-      memoryStores[safeSlug] = parsed;
-      return parsed;
+    if (fs.existsSync(configPath)) {
+      const data = fs.readFileSync(configPath, 'utf8');
+      return JSON.parse(data);
     }
   } catch (e) {
-    console.error(`Error reading guests for ${safeSlug}:`, e);
+    console.error('Error reading wedding config:', e);
   }
-
-  if (!memoryStores[safeSlug]) {
-    memoryStores[safeSlug] = [];
-  }
-  return memoryStores[safeSlug];
+  return null;
 }
 
-function writeGuests(slug: string, guests: any[]) {
+async function fetchGuestsFromCloud(slug: string) {
+  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
+  const config = getWeddingConfig(safeSlug);
+  const blobId = config?.jsonBlobId;
+
+  if (blobId) {
+    try {
+      const res = await fetch(`https://jsonblob.com/api/jsonBlob/${blobId}`, {
+        cache: 'no-store'
+      });
+      if (res.ok) {
+        const guests = await res.json();
+        if (Array.isArray(guests)) {
+          memoryStores[safeSlug] = guests;
+          return guests;
+        }
+      }
+    } catch (e) {
+      console.error('Error reading from JSONBlob:', e);
+    }
+  }
+
+  return memoryStores[safeSlug] || [];
+}
+
+async function saveGuestsToCloud(slug: string, guests: any[]) {
   const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
   memoryStores[safeSlug] = guests;
-  try {
-    if (!fs.existsSync(DATA_DIR)) {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
+
+  const config = getWeddingConfig(safeSlug);
+  const blobId = config?.jsonBlobId;
+
+  if (blobId) {
+    try {
+      await fetch(`https://jsonblob.com/api/jsonBlob/${blobId}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(guests)
+      });
+    } catch (e) {
+      console.error('Error writing to JSONBlob:', e);
     }
-    const filePath = getFilePath(safeSlug);
-    fs.writeFileSync(filePath, JSON.stringify(guests, null, 2), 'utf8');
-  } catch (e) {
-    console.warn('Filesystem write skipped (read-only environment):', e);
   }
 }
 
@@ -52,14 +73,14 @@ export async function GET(request: Request) {
   const slug = searchParams.get('slug') || DEFAULT_SLUG;
   const code = searchParams.get('code');
 
-  const guests = readGuests(slug);
+  const guests = await fetchGuestsFromCloud(slug);
 
   if (code) {
     const found = guests.find((g: any) => g.id.toLowerCase() === code.toLowerCase());
     if (found) {
       if (!found.vistoEn) {
         found.vistoEn = new Date().toISOString();
-        writeGuests(slug, guests);
+        await saveGuestsToCloud(slug, guests);
       }
       return NextResponse.json({ success: true, guest: found });
     }
@@ -73,7 +94,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const slug = body.slug || DEFAULT_SLUG;
-    const guests = readGuests(slug);
+    const guests = await fetchGuestsFromCloud(slug);
 
     if (body.action === 'add') {
       const { nombre, pases, telefono } = body;
@@ -109,7 +130,7 @@ export async function POST(request: Request) {
       };
 
       guests.unshift(newGuest);
-      writeGuests(slug, guests);
+      await saveGuestsToCloud(slug, guests);
 
       return NextResponse.json({ success: true, guest: newGuest, guests });
     }
@@ -122,7 +143,7 @@ export async function POST(request: Request) {
         if (guest.enviado && !guest.enviadoEn) {
           guest.enviadoEn = new Date().toISOString();
         }
-        writeGuests(slug, guests);
+        await saveGuestsToCloud(slug, guests);
       }
       return NextResponse.json({ success: true, guests });
     }
@@ -130,7 +151,7 @@ export async function POST(request: Request) {
     if (body.action === 'delete') {
       const { id } = body;
       const filtered = guests.filter((g: any) => g.id !== id);
-      writeGuests(slug, filtered);
+      await saveGuestsToCloud(slug, filtered);
       return NextResponse.json({ success: true, guests: filtered });
     }
 

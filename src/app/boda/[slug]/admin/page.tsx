@@ -276,8 +276,11 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     return (
       <div style={styles.loginContainer}>
         <div style={styles.loginCard}>
-          <div style={styles.loginIcon}>🔐</div>
-          <h1 style={styles.loginTitle}>Panel de Control · Boda</h1>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', marginBottom: '18px' }}>
+            <span style={{ fontSize: '1.5rem', fontWeight: '900', letterSpacing: '2px', color: '#1a251e', border: '2px solid #1a251e', padding: '2px 10px', borderRadius: '4px', fontFamily: 'system-ui, sans-serif' }}>SODI</span>
+            <span style={{ fontSize: '1.3rem', fontWeight: '500', color: '#8b6f4e', letterSpacing: '1px', fontFamily: 'Georgia, serif' }}>BODAS</span>
+          </div>
+          <h1 style={styles.loginTitle}>Panel de Control</h1>
           <p style={styles.loginSubtitle}>Gestión de Invitados: <strong>{slug}</strong></p>
           <form onSubmit={handleLogin} style={styles.form}>
             <input
@@ -300,7 +303,10 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     <div style={styles.container}>
       <header style={styles.header}>
         <div>
-          <span style={styles.badge}>SODI Bodas · Control de Invitados</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+            <span style={{ fontSize: '1.1rem', fontWeight: '900', letterSpacing: '1px', color: '#ffffff', backgroundColor: '#1a251e', padding: '1px 6px', borderRadius: '3px' }}>SODI</span>
+            <span style={{ fontSize: '1rem', fontWeight: '600', color: '#8b6f4e', letterSpacing: '0.5px' }}>BODAS</span>
+          </div>
           <h1 style={styles.mainHeading}>Administración de Invitaciones</h1>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>

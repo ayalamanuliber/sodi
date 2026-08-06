@@ -21,9 +21,11 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   const [musicPlaying, setMusicPlaying] = useState(false);
   const [searchModalOpen, setSearchModalOpen] = useState(false);
   const [searchInput, setSearchInput] = useState('');
+  const [searchError, setSearchError] = useState('');
 
   // Form State
   const [rsvpName, setRsvpName] = useState('');
+  const [integrantes, setIntegrantes] = useState<string[]>(['']);
   const [attendance, setAttendance] = useState<'confirmado' | 'no'>('confirmado');
   const [pasesConfirmados, setPasesConfirmados] = useState(1);
   const [menu, setMenu] = useState('Tradicional');
@@ -56,6 +58,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   }, [slug]);
 
   const fetchGuest = async (c: string) => {
+    setSearchError('');
     try {
       const res = await fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}&code=${encodeURIComponent(c)}`);
       const data = await res.json();
@@ -63,6 +66,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         setGuest(data.guest);
         setRsvpName(data.guest.nombre);
         setPasesConfirmados(data.guest.pases);
+        setIntegrantes([data.guest.nombre, ...Array(data.guest.pases - 1).fill('')]);
 
         // Update local storage so admin panel on same browser updates instantly
         if (typeof window !== 'undefined') {
@@ -78,9 +82,15 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             }
           } catch (e) {}
         }
+        return true;
+      } else {
+        setSearchError('No encontramos tu invitación con ese código o apellido.');
+        return false;
       }
     } catch (e) {
       console.error('Error loading guest data:', e);
+      setSearchError('Ocurrió un error al buscar la invitación.');
+      return false;
     }
   };
 
@@ -124,16 +134,35 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
     }
   };
 
-  const handleSearchGuest = (e: React.FormEvent) => {
+  const handleSearchGuest = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!searchInput.trim()) return;
-    fetchGuest(searchInput.trim());
-    setSearchModalOpen(false);
+    const success = await fetchGuest(searchInput.trim());
+    if (success) {
+      setSearchModalOpen(false);
+    }
+  };
+
+  const handlePasesChange = (count: number) => {
+    setPasesConfirmados(count);
+    setIntegrantes(prev => {
+      const next = [...prev];
+      if (next.length < count) {
+        while (next.length < count) {
+          next.push('');
+        }
+      } else if (next.length > count) {
+        next.splice(count);
+      }
+      return next;
+    });
   };
 
   const handleRsvpSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
+
+    const filteredIntegrantes = attendance === 'confirmado' ? integrantes.filter(Boolean) : [];
 
     const payload = {
       slug,
@@ -141,7 +170,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       nombre: rsvpName,
       asistencia: attendance,
       pasesConfirmados: attendance === 'confirmado' ? pasesConfirmados : 0,
-      integrantes: [rsvpName],
+      integrantes: filteredIntegrantes,
       menu,
       notas: notes,
       cancion: song
@@ -168,7 +197,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               list[idx].respuesta = {
                 asistencia: attendance,
                 pasesConfirmados: attendance === 'confirmado' ? pasesConfirmados : 0,
-                integrantes: [rsvpName],
+                integrantes: filteredIntegrantes,
                 menu,
                 notas: notes,
                 cancion: song,
@@ -181,7 +210,8 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       }
 
       const pasesMsg = attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir';
-      const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Invitado: ${rsvpName}\n• Asistencia: ${pasesMsg}\n• Menú: ${menu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
+      const nombresMsg = attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${filteredIntegrantes.join(', ')}` : '';
+      const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${pasesMsg}${nombresMsg}\n• Menú: ${menu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
       const waUrl = `https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(msg)}`;
       window.open(waUrl, '_blank');
     } catch (e) {
@@ -413,21 +443,10 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           {submitted ? (
             <div style={{ padding: '30px', textAlign: 'center', backgroundColor: '#e8f5e9', borderRadius: '12px', color: '#2e7d32' }}>
               <h3>¡Gracias por confirmar tu asistencia! 🎉</h3>
-              <p>Tu respuesta fue registrada y enviada a Mirta por WhatsApp.</p>
+              <p>Tu respuesta fue registrada y enviada por WhatsApp.</p>
             </div>
-          ) : (
+          ) : guest ? (
             <form className="rsvp-form" onSubmit={handleRsvpSubmit}>
-              <div className="field field--full">
-                <label htmlFor="rsvpName">Nombre y apellido</label>
-                <input
-                  id="rsvpName"
-                  name="name"
-                  value={rsvpName}
-                  onChange={(e) => setRsvpName(e.target.value)}
-                  required
-                />
-              </div>
-
               <fieldset className="attendance field--full">
                 <legend>¿Vas a acompañarnos?</legend>
                 <label>
@@ -455,17 +474,37 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               {attendance === 'confirmado' && (
                 <>
                   <div className="field field--full">
-                    <label htmlFor="pasesConfirmados">Cantidad de personas asistiendo (Máximo {guest ? guest.pases : 10}):</label>
+                    <label htmlFor="pasesConfirmados">Cantidad de personas asistiendo (Máximo {guest.pases}):</label>
                     <select
                       id="pasesConfirmados"
                       value={pasesConfirmados}
-                      onChange={(e) => setPasesConfirmados(parseInt(e.target.value, 10))}
+                      onChange={(e) => handlePasesChange(parseInt(e.target.value, 10))}
                     >
-                      {Array.from({ length: guest ? guest.pases : 10 }, (_, i) => i + 1).map(n => (
+                      {Array.from({ length: guest.pases }, (_, i) => i + 1).map(n => (
                         <option key={n} value={n}>{n} {n === 1 ? 'persona' : 'personas'}</option>
                       ))}
                     </select>
                   </div>
+
+                  {/* Dynamic Integrantes Names Input */}
+                  {Array.from({ length: pasesConfirmados }).map((_, idx) => (
+                    <div className="field field--full" key={idx}>
+                      <label htmlFor={`integrante-${idx}`}>
+                        {idx === 0 ? 'Nombre del invitado' : `Nombre del acompañante ${idx + 1}`}
+                      </label>
+                      <input
+                        id={`integrante-${idx}`}
+                        value={integrantes[idx] || ''}
+                        onChange={(e) => {
+                          const copy = [...integrantes];
+                          copy[idx] = e.target.value;
+                          setIntegrantes(copy);
+                        }}
+                        placeholder={idx === 0 ? "Tu nombre completo" : "Nombre completo del acompañante"}
+                        required
+                      />
+                    </div>
+                  ))}
 
                   <div className="field field--full">
                     <label htmlFor="rsvpMenu">Preferencia de menú</label>
@@ -488,6 +527,20 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 {submitting ? 'Enviando...' : 'Confirmar y Enviar por WhatsApp'}
               </button>
             </form>
+          ) : (
+            <div style={{ padding: '30px', textAlign: 'center', backgroundColor: '#ffffff', borderRadius: '12px', border: '1px solid #e5dfd3', maxWidth: '500px', margin: '0 auto', boxShadow: '0 4px 12px rgba(0,0,0,0.04)' }}>
+              <p style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.35rem', color: '#1a251e', marginBottom: '20px', lineHeight: '1.4' }}>
+                Para confirmar tu asistencia, por favor buscá tu nombre en la lista oficial de invitados.
+              </p>
+              <button
+                type="button"
+                className="button button--champagne"
+                onClick={() => setSearchModalOpen(true)}
+                style={{ width: '100%', padding: '14px', borderRadius: '8px', fontSize: '0.95rem', fontWeight: '700' }}
+              >
+                🔍 Buscar mi invitación
+              </button>
+            </div>
           )}
 
           {!guest && (
@@ -580,7 +633,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               <p className="eyebrow">Buscar mi invitación</p>
               <h2>Ingresá tu código o apellido</h2>
             </div>
-            <button className="icon-button" onClick={() => setSearchModalOpen(false)} type="button">✕</button>
+            <button className="icon-button" onClick={() => { setSearchModalOpen(false); setSearchError(''); }} type="button">✕</button>
           </div>
           <form onSubmit={handleSearchGuest} style={{ padding: '16px 0' }}>
             <input
@@ -588,9 +641,10 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               value={searchInput}
               onChange={(e) => setSearchInput(e.target.value)}
               placeholder="Ej: fam-perez o Carlos"
-              style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid #ccc', marginBottom: '12px' }}
+              style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1.5px solid #203a2c', color: '#111111', fontSize: '1rem', fontWeight: '500', marginBottom: '12px' }}
               required
             />
+            {searchError && <p style={{ color: '#c62828', fontSize: '0.85rem', marginBottom: '12px', fontWeight: '500' }}>{searchError}</p>}
             <button type="submit" className="button button--wine" style={{ width: '100%' }}>
               Buscar Invitación
             </button>

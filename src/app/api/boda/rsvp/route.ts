@@ -7,38 +7,64 @@ const DEFAULT_SLUG = 'mirta-y-guillermo';
 
 const memoryStores: Record<string, any[]> = {};
 
-function getFilePath(slug: string) {
+function getWeddingConfig(slug: string) {
   const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  return path.join(DATA_DIR, `invitados-${safeSlug}.json`);
-}
-
-function readGuests(slug: string) {
-  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  const filePath = getFilePath(safeSlug);
+  const configPath = path.join(DATA_DIR, `${safeSlug}.json`);
   try {
-    if (fs.existsSync(filePath)) {
-      const data = fs.readFileSync(filePath, 'utf8');
-      const parsed = JSON.parse(data);
-      memoryStores[safeSlug] = parsed;
-      return parsed;
+    if (fs.existsSync(configPath)) {
+      const data = fs.readFileSync(configPath, 'utf8');
+      return JSON.parse(data);
     }
   } catch (e) {
-    console.error(`Error reading guests for ${safeSlug}:`, e);
+    console.error('Error reading wedding config:', e);
   }
+  return null;
+}
+
+async function fetchGuestsFromCloud(slug: string) {
+  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
+  const config = getWeddingConfig(safeSlug);
+  const blobId = config?.jsonBlobId;
+
+  if (blobId) {
+    try {
+      const res = await fetch(`https://jsonblob.com/api/jsonBlob/${blobId}`, {
+        cache: 'no-store'
+      });
+      if (res.ok) {
+        const guests = await res.json();
+        if (Array.isArray(guests)) {
+          memoryStores[safeSlug] = guests;
+          return guests;
+        }
+      }
+    } catch (e) {
+      console.error('Error reading from JSONBlob:', e);
+    }
+  }
+
   return memoryStores[safeSlug] || [];
 }
 
-function writeGuests(slug: string, guests: any[]) {
+async function saveGuestsToCloud(slug: string, guests: any[]) {
   const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
   memoryStores[safeSlug] = guests;
-  try {
-    if (!fs.existsSync(DATA_DIR)) {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
+
+  const config = getWeddingConfig(safeSlug);
+  const blobId = config?.jsonBlobId;
+
+  if (blobId) {
+    try {
+      await fetch(`https://jsonblob.com/api/jsonBlob/${blobId}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(guests)
+      });
+    } catch (e) {
+      console.error('Error writing to JSONBlob:', e);
     }
-    const filePath = getFilePath(safeSlug);
-    fs.writeFileSync(filePath, JSON.stringify(guests, null, 2), 'utf8');
-  } catch (e) {
-    console.warn('Filesystem write skipped (read-only environment):', e);
   }
 }
 
@@ -48,7 +74,7 @@ export async function POST(request: Request) {
     const slug = body.slug || DEFAULT_SLUG;
     const { code, asistencia, pasesConfirmados, integrantes, menu, notas, cancion } = body;
 
-    const guests = readGuests(slug);
+    const guests = await fetchGuestsFromCloud(slug);
     let guest = code ? guests.find((g: any) => g.id.toLowerCase() === code.toLowerCase()) : null;
 
     const responseData = {
@@ -56,6 +82,7 @@ export async function POST(request: Request) {
       pasesConfirmados: parseInt(pasesConfirmados, 10) || 0,
       integrantes: Array.isArray(integrantes) ? integrantes : [],
       menu: menu || 'Tradicional',
+      notes: notas || '', // Map to notas / notes securely
       notas: notas || '',
       cancion: cancion || '',
       fechaRespuesta: new Date().toISOString()
@@ -79,7 +106,7 @@ export async function POST(request: Request) {
       guests.unshift(guest);
     }
 
-    writeGuests(slug, guests);
+    await saveGuestsToCloud(slug, guests);
 
     return NextResponse.json({
       success: true,
