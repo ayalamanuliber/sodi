@@ -486,31 +486,35 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                 {filteredGuests.map(guest => (
                   <tr key={guest.id} style={styles.tr}>
                     <td style={styles.td}>
-                      <strong style={{ color: '#111', fontSize: '1.05rem' }}>{guest.nombre}</strong>
-                      <div style={{ color: '#555', fontSize: '0.8rem', marginTop: '2px' }}>ID Link: <code>?i={guest.id}</code></div>
-                      <div style={{ display: 'flex', gap: '4px', marginTop: '6px' }}>
-                        <span style={{
-                          fontSize: '0.7rem',
-                          fontWeight: '700',
-                          padding: '2px 6px',
-                          borderRadius: '12px',
-                          textTransform: 'uppercase',
-                          backgroundColor: guest.tipo === 'solo-after' ? '#e8f0fe' : guest.tipo === 'solo-ceremonia' ? '#fdf2e9' : '#f3e8ff',
-                          color: guest.tipo === 'solo-after' ? '#1a73e8' : guest.tipo === 'solo-ceremonia' ? '#d56d12' : '#7b1fa2'
-                        }}>
-                          {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Civil' : 'Pase Completo'}
-                        </span>
-                        <span style={{
-                          fontSize: '0.7rem',
-                          fontWeight: '700',
-                          padding: '2px 6px',
-                          borderRadius: '12px',
-                          textTransform: 'uppercase',
-                          backgroundColor: guest.estilo === 'esmeralda' ? '#e6f4ea' : guest.estilo === 'borgoña' ? '#fce8e6' : '#fff8e1',
-                          color: guest.estilo === 'esmeralda' ? '#137333' : guest.estilo === 'borgoña' ? '#c5221f' : '#b06000'
-                        }}>
-                          🎨 {guest.estilo === 'esmeralda' ? 'Esmeralda' : guest.estilo === 'borgoña' ? 'Borgoña' : 'Champagne'}
-                        </span>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                          <strong style={{ color: '#0f172a', fontSize: '1rem' }}>{guest.nombre}</strong>
+                          <span style={{
+                            fontSize: '0.65rem',
+                            fontWeight: '700',
+                            padding: '2px 6px',
+                            borderRadius: '4px',
+                            textTransform: 'uppercase',
+                            backgroundColor: guest.tipo === 'solo-after' ? '#e0f2fe' : guest.tipo === 'solo-ceremonia' ? '#ffedd5' : '#f3e8ff',
+                            color: guest.tipo === 'solo-after' ? '#0369a1' : guest.tipo === 'solo-ceremonia' ? '#c2410c' : '#7e22ce',
+                            whiteSpace: 'nowrap'
+                          }}>
+                            {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Civil' : 'Pase Completo'}
+                          </span>
+                          <span style={{
+                            fontSize: '0.65rem',
+                            fontWeight: '700',
+                            padding: '2px 6px',
+                            borderRadius: '4px',
+                            textTransform: 'uppercase',
+                            backgroundColor: guest.estilo === 'esmeralda' ? '#dcfce7' : guest.estilo === 'borgoña' ? '#fee2e2' : '#fef9c3',
+                            color: guest.estilo === 'esmeralda' ? '#15803d' : guest.estilo === 'borgoña' ? '#b91c1c' : '#a16207',
+                            whiteSpace: 'nowrap'
+                          }}>
+                            🎨 {guest.estilo === 'esmeralda' ? 'Esmeralda' : guest.estilo === 'borgoña' ? 'Borgoña' : 'Champagne'}
+                          </span>
+                        </div>
+                        <div style={{ color: '#64748b', fontSize: '0.78rem' }}>ID Link: <code>?i={guest.id}</code></div>
                       </div>
                     </td>
                     <td style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
@@ -555,19 +559,19 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                         <span style={{ color: '#666', fontSize: '0.85rem' }}>Aún no respondió</span>
                       )}
                     </td>
-                    <td style={styles.td}>
-                      <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
+                    <td style={{ ...styles.td, whiteSpace: 'nowrap' }}>
+                      <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'nowrap' }}>
                         <a
                           href={getWhatsAppLink(guest)}
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={() => handleWhatsAppClick(guest)}
-                          style={styles.buttonWhatsapp}
+                          style={{ ...styles.buttonWhatsapp, whiteSpace: 'nowrap' }}
                         >
                           📲 WhatsApp
                         </a>
-                        <button onClick={() => copyLink(guest)} style={styles.buttonSmall}>📋 Copiar Link</button>
-                        <button onClick={() => handleDelete(guest.id, guest.nombre)} style={styles.buttonSmallDanger}>🗑️</button>
+                        <button onClick={() => copyLink(guest)} style={{ ...styles.buttonSmall, whiteSpace: 'nowrap' }}>📋 Copiar Link</button>
+                        <button onClick={() => handleDelete(guest.id, guest.nombre)} style={styles.buttonSmallDanger} title="Eliminar Invitación">🗑️</button>
                       </div>
                     </td>
                   </tr>
@@ -804,17 +808,19 @@ const styles: Record<string, React.CSSProperties> = {
   tabButton: {
     padding: '8px 16px',
     borderRadius: '20px',
-    border: '1.5px solid #ccc',
+    border: '1px solid #cbd5e1',
     backgroundColor: '#ffffff',
     cursor: 'pointer',
-    fontSize: '0.9rem',
-    color: '#333333',
-    fontWeight: '600'
+    fontSize: '0.85rem',
+    color: '#475569',
+    fontWeight: '600',
+    transition: 'all 0.2s ease'
   },
   tabButtonActive: {
-    backgroundColor: '#355844',
+    backgroundColor: '#0f766e',
     color: '#ffffff',
-    borderColor: '#355844'
+    borderColor: '#0f766e',
+    boxShadow: '0 2px 4px rgba(15, 118, 110, 0.15)'
   },
   table: {
     width: '100%',
@@ -822,22 +828,23 @@ const styles: Record<string, React.CSSProperties> = {
     textAlign: 'left'
   },
   th: {
-    borderBottom: '2px solid #ddd',
-    padding: '12px',
-    fontSize: '0.85rem',
-    color: '#222222',
+    borderBottom: '2px solid #cbd5e1',
+    padding: '12px 14px',
+    fontSize: '0.8rem',
+    color: '#475569',
     textTransform: 'uppercase',
     fontWeight: '700',
-    letterSpacing: '0.5px'
+    letterSpacing: '0.5px',
+    verticalAlign: 'middle'
   },
   tr: {
     borderBottom: '1px solid #eeeeee'
   },
   td: {
-    padding: '14px 12px',
-    verticalAlign: 'top',
-    fontSize: '0.95rem',
-    color: '#111111'
+    padding: '12px 14px',
+    verticalAlign: 'middle',
+    fontSize: '0.92rem',
+    color: '#0f172a'
   },
   badgeEnviado: {
     backgroundColor: '#e3f2fd',
