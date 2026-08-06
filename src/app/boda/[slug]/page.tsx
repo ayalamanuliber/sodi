@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef, use } from 'react';
 import Script from 'next/script';
+import './style.css';
 
 interface GuestData {
   id: string;
@@ -290,7 +291,6 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Italianno&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="/boda/invitacion-premium-prod.css?v=20260806_wsp_fix_v3" />
       <Script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" strategy="afterInteractive" />
 
       {/* Audio Element */}
@@ -363,7 +363,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       <main id="mainContent">
         {/* Hero */}
         <section className="hero" id="hero">
-          <img className="hero__image" src="/boda/assets/mama-1.jpg" alt="Mirta y Guillermo" />
+          <img className="hero__image" src="/boda/assets/couple-portada.png" alt="Mirta y Guillermo" />
           <div className="hero__shade"></div>
           <div className="hero__content">
             {guest ? (
