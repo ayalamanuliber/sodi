@@ -82,8 +82,27 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       if (data.success && data.guest) {
         setGuest(data.guest);
         setRsvpName(data.guest.nombre);
-        setPasesConfirmados(data.guest.pases);
-        setIntegrantes([data.guest.nombre, ...Array(Math.max(0, data.guest.pases - 1)).fill('')]);
+        
+        // If guest has already confirmed/responded previously, load their choices
+        if (data.guest.respuesta) {
+          const resp = data.guest.respuesta;
+          setAttendance(resp.asistencia || 'confirmado');
+          setPasesConfirmados(resp.pasesConfirmados ?? data.guest.pases);
+          
+          if (Array.isArray(resp.integrantes) && resp.integrantes.length > 0) {
+            setIntegrantes(resp.integrantes);
+          } else {
+            setIntegrantes([data.guest.nombre, ...Array(Math.max(0, data.guest.pases - 1)).fill('')]);
+          }
+          
+          setMenu(resp.menu || 'Tradicional');
+          setNotes(resp.notas || resp.notes || '');
+          setSong(resp.cancion || '');
+          setSubmitted(true);
+        } else {
+          setPasesConfirmados(data.guest.pases);
+          setIntegrantes([data.guest.nombre, ...Array(Math.max(0, data.guest.pases - 1)).fill('')]);
+        }
         return true;
       } else {
         setSearchError('No encontramos tu invitación con ese código o apellido.');
@@ -442,6 +461,22 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               >
                 💬 Enviar Mensaje a Mirta
               </a>
+              <button
+                type="button"
+                onClick={() => setSubmitted(false)}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  color: 'var(--champagne)',
+                  fontSize: '0.88rem',
+                  fontWeight: '600',
+                  textDecoration: 'underline',
+                  cursor: 'pointer',
+                  marginTop: '8px'
+                }}
+              >
+                ✏️ Modificar o corregir mis datos
+              </button>
             </div>
           ) : guest ? (
             <form className="rsvp-form" onSubmit={handleRsvpSubmit}>
