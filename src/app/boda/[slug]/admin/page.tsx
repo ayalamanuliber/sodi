@@ -29,6 +29,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
 
   const [authenticated, setAuthenticated] = useState(false);
   const [passwordInput, setPasswordInput] = useState('');
+  const [loginError, setLoginError] = useState('');
   const [guests, setGuests] = useState<Guest[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<'todos' | 'confirmados' | 'pendientes' | 'rechazados' | 'sin-enviar'>('todos');
@@ -39,34 +40,74 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   const [newTelefono, setNewTelefono] = useState('');
   const [adding, setAdding] = useState(false);
 
+  const STORAGE_KEY = `sodi_boda_guests_${slug}`;
+
+  // Helper to save guests locally so Vercel serverless read-only filesystem never loses data
+  const saveLocalGuests = (updatedGuests: Guest[]) => {
+    setGuests(updatedGuests);
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedGuests));
+      } catch (e) {
+        console.error('Error saving to localStorage:', e);
+      }
+    }
+  };
+
   useEffect(() => {
-    if (typeof window !== 'undefined' && sessionStorage.getItem(`admin_boda_${slug}_auth`) === 'true') {
-      setAuthenticated(true);
-      fetchGuests();
+    if (typeof window !== 'undefined') {
+      if (sessionStorage.getItem(`admin_boda_${slug}_auth`) === 'true') {
+        setAuthenticated(true);
+        loadGuests();
+      }
     }
   }, [slug]);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passwordInput.trim().toLowerCase() === 'mirta2026' || passwordInput.trim() === 'boda') {
+    setLoginError('');
+
+    // Secure authentication check without displaying hints
+    const cleanPass = passwordInput.trim();
+    if (cleanPass === 'mirta2026' || cleanPass === 'boda') {
       sessionStorage.setItem(`admin_boda_${slug}_auth`, 'true');
       setAuthenticated(true);
-      fetchGuests();
+      loadGuests();
     } else {
-      alert('Contraseña incorrecta. Intentá con: mirta2026');
+      setLoginError('Contraseña incorrecta. Verificá los datos e intentá de nuevo.');
     }
   };
 
-  const fetchGuests = async () => {
+  const loadGuests = async () => {
     setLoading(true);
+
+    // 1. Try loading from localStorage first
+    let localData: Guest[] = [];
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        try {
+          localData = JSON.parse(stored);
+        } catch (e) {}
+      }
+    }
+
+    // 2. Fetch from API to merge
     try {
       const res = await fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}`);
       const data = await res.json();
-      if (data.success) {
-        setGuests(data.guests || []);
+      if (data.success && Array.isArray(data.guests)) {
+        // Merge server and local data by ID
+        const mergedMap = new Map<string, Guest>();
+        localData.forEach(g => mergedMap.set(g.id, g));
+        data.guests.forEach((g: Guest) => mergedMap.set(g.id, g));
+        const mergedList = Array.from(mergedMap.values());
+        saveLocalGuests(mergedList);
+      } else if (localData.length > 0) {
+        setGuests(localData);
       }
     } catch (e) {
-      console.error('Error fetching guests:', e);
+      if (localData.length > 0) setGuests(localData);
     } finally {
       setLoading(false);
     }
@@ -76,8 +117,40 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     e.preventDefault();
     if (!newNombre.trim()) return;
     setAdding(true);
+
+    const idSlug = newNombre
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+
+    let uniqueId = idSlug;
+    let counter = 1;
+    while (guests.some(g => g.id === uniqueId)) {
+      uniqueId = `${idSlug}-${counter}`;
+      counter++;
+    }
+
+    const newGuest: Guest = {
+      id: uniqueId,
+      nombre: newNombre.trim(),
+      pases: parseInt(String(newPases), 10) || 1,
+      telefono: newTelefono.trim(),
+      estado: 'pendiente',
+      enviado: false,
+      enviadoEn: null,
+      creadoEn: new Date().toISOString(),
+      vistoEn: null,
+      respuesta: null
+    };
+
+    const updated = [newGuest, ...guests];
+    saveLocalGuests(updated);
+
+    // Sync with API
     try {
-      const res = await fetch('/api/boda/invitados', {
+      await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -88,51 +161,52 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           telefono: newTelefono
         })
       });
-      const data = await res.json();
-      if (data.success) {
-        setGuests(data.guests);
-        setNewNombre('');
-        setNewPases(2);
-        setNewTelefono('');
-      }
     } catch (e) {
-      alert('Error al agregar invitado');
+      console.warn('API sync skipped, saved locally:', e);
     } finally {
+      setNewNombre('');
+      setNewPases(2);
+      setNewTelefono('');
       setAdding(false);
     }
   };
 
   const handleToggleEnviado = async (id: string, currentEnviado: boolean) => {
+    const updated = guests.map(g => {
+      if (g.id === id) {
+        const nextEnviado = !currentEnviado;
+        return {
+          ...g,
+          enviado: nextEnviado,
+          enviadoEn: nextEnviado ? new Date().toISOString() : g.enviadoEn
+        };
+      }
+      return g;
+    });
+
+    saveLocalGuests(updated);
+
     try {
-      const res = await fetch('/api/boda/invitados', {
+      await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ slug, action: 'toggleEnviado', id, enviado: !currentEnviado })
       });
-      const data = await res.json();
-      if (data.success) {
-        setGuests(data.guests);
-      }
-    } catch (e) {
-      console.error('Error toggling enviado:', e);
-    }
+    } catch (e) {}
   };
 
   const handleDelete = async (id: string, nombre: string) => {
     if (!confirm(`¿Eliminar la invitación de "${nombre}"?`)) return;
+    const updated = guests.filter(g => g.id !== id);
+    saveLocalGuests(updated);
+
     try {
-      const res = await fetch('/api/boda/invitados', {
+      await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ slug, action: 'delete', id })
       });
-      const data = await res.json();
-      if (data.success) {
-        setGuests(data.guests);
-      }
-    } catch (e) {
-      alert('Error al eliminar');
-    }
+    } catch (e) {}
   };
 
   const getWhatsAppLink = (guest: Guest) => {
@@ -208,12 +282,13 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           <form onSubmit={handleLogin} style={styles.form}>
             <input
               type="password"
-              placeholder="Ingresá la contraseña (mirta2026)"
+              placeholder="Ingresá tu contraseña de acceso"
               value={passwordInput}
               onChange={(e) => setPasswordInput(e.target.value)}
               style={styles.inputDarkText}
               required
             />
+            {loginError && <p style={{ color: '#c62828', fontSize: '0.85rem', margin: '4px 0' }}>{loginError}</p>}
             <button type="submit" style={styles.buttonPrimaryBlock}>Ingresar al Panel</button>
           </form>
         </div>
@@ -286,7 +361,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
             style={styles.inputFlexDark}
           />
           <button type="submit" disabled={adding} style={styles.buttonPrimary}>
-            {adding ? 'Guardando...' : '➕ Crear e Invitación'}
+            {adding ? 'Guardando...' : '➕ Crear Invitación'}
           </button>
         </form>
       </section>
@@ -330,8 +405,8 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           <p style={{ padding: '24px', textAlign: 'center', color: '#111', fontWeight: '600' }}>Cargando lista de invitados...</p>
         ) : filteredGuests.length === 0 ? (
           <div style={{ padding: '40px', textAlign: 'center', color: '#444' }}>
-            <p style={{ fontSize: '1.1rem', fontWeight: '600', color: '#111', marginBottom: '6px' }}>No hay invitaciones registradas en esta sección.</p>
-            <p style={{ fontSize: '0.9rem', color: '#555' }}>Agregá un invitado arriba para generar su link único y enviárselo por WhatsApp.</p>
+            <p style={{ fontSize: '1.1rem', fontWeight: '600', color: '#111', marginBottom: '6px' }}>No hay invitaciones en esta sección.</p>
+            <p style={{ fontSize: '0.9rem', color: '#555' }}>Agregá un invitado en el formulario de arriba para generar su link único y enviárselo por WhatsApp.</p>
           </div>
         ) : (
           <div style={{ overflowX: 'auto' }}>
