@@ -363,7 +363,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       <main id="mainContent">
         {/* Hero */}
         <section className="hero" id="hero">
-          <img className="hero__image" src="/boda/assets/couple-portada.png" alt="Mirta y Guillermo" />
+          <img className="hero__image" src="/boda/assets/mama-1.jpg" alt="Mirta y Guillermo" />
           <div className="hero__shade"></div>
           <div className="hero__content">
             {guest ? (
@@ -384,7 +384,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         {/* Story */}
         <section className="story section-shell" id="story">
           <figure className="story__media">
-            <img src="/boda/assets/couple-current.jpg" alt="Mirta y Guillermo" loading="lazy" />
+            <img src="/boda/assets/mama-2.jpg" alt="Mirta y Guillermo" loading="lazy" />
           </figure>
           <div className="story__copy">
             <span className="section-number">01</span>
@@ -427,7 +427,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             {(!guest || !guest.tipo || guest.tipo === 'completo') && <div className="events__divider">❀</div>}
 
             {(!guest || !guest.tipo || guest.tipo === 'completo' || guest.tipo === 'solo-after') && (
-              <article className="event" style={(!guest?.tipo || guest?.tipo === 'solo-after') ? { gridColumn: '1 / -1', margin: '0 auto', maxWidth: '500px' } : {}}>
+              <article className="event" style={guest?.tipo === 'solo-after' ? { gridColumn: '1 / -1', margin: '0 auto', maxWidth: '500px' } : {}}>
                 <span className="event__index">{guest?.tipo === 'solo-after' ? 'I' : 'II'}</span>
                 <p className="event__type">Celebración & After-Party</p>
                 <h3>Recepciones Craigmhor</h3>
@@ -459,23 +459,23 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           </div>
           <div className="gallery__grid">
             <figure className="gallery__item gallery__item--portrait">
-              <img src="/boda/assets/couple-hero.jpg" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-3.jpg" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--wide gallery__item--mono">
-              <img src="/boda/assets/couple-mono.jpg" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-4.jpg" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--detail">
-              <img src="/boda/assets/couple-current.jpg" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-5.jpg" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--dinner">
-              <img src="/boda/assets/table-candle.jpg" alt="Mesa" loading="lazy" />
+              <img src="/boda/assets/mama-6.jpg" alt="Mesa" loading="lazy" />
             </figure>
           </div>
         </section>
 
         {/* Countdown */}
         <section className="countdown">
-          <img className="countdown__image" src="/boda/assets/couple-mono.jpg" alt="" loading="lazy" />
+          <img className="countdown__image" src="/boda/assets/mama-7.jpg" alt="" loading="lazy" />
           <div className="countdown__shade"></div>
           <div className="countdown__content">
             <p className="eyebrow">Faltan</p>
@@ -669,7 +669,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
         {/* Closing */}
         <section className="closing">
-          <img src="/boda/assets/couple-garden.jpg" alt="Mirta y Guillermo" loading="lazy" />
+          <img src="/boda/assets/mama-8.jpg" alt="Mirta y Guillermo" loading="lazy" />
           <div className="closing__shade"></div>
           <div className="closing__content">
             <p className="eyebrow">Mirta & Guillermo</p>
@@ -686,95 +686,185 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
       {/* Gifts Modal */}
       {giftsOpen && (
-        <dialog className="modal" open>
-          <div className="modal__header">
-            <div>
-              <p className="eyebrow">Mesa de regalos</p>
-              <h2>El mejor regalo es compartir</h2>
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 99999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '16px',
+            backgroundColor: 'rgba(20, 16, 12, 0.72)',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
+          }}
+          onClick={() => setGiftsOpen(false)}
+        >
+          <div 
+            className="modal"
+            style={{
+              maxWidth: '620px',
+              width: '100%',
+              maxHeight: '90vh',
+              overflowY: 'auto',
+              margin: 'auto',
+              animation: 'dialogIn 220ms ease both',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modal__header">
+              <div>
+                <p className="eyebrow">Mesa de regalos</p>
+                <h2>El mejor regalo es compartir</h2>
+              </div>
+              <button className="icon-button" onClick={() => setGiftsOpen(false)} type="button">✕</button>
             </div>
-            <button className="icon-button" onClick={() => setGiftsOpen(false)} type="button">✕</button>
+            <p className="modal__lead">Tu presencia es lo más importante. Si deseás hacernos un regalo, podés usar estos datos.</p>
+            <div className="bank-data">
+              <div>
+                <span>Alias</span>
+                <strong>boda.mirta.guille</strong>
+                <button type="button" onClick={() => copyToClipboard('boda.mirta.guille', 'Alias')}>Copiar</button>
+              </div>
+              <div>
+                <span>CBU</span>
+                <strong>0070012345678901234567</strong>
+                <button type="button" onClick={() => copyToClipboard('0070012345678901234567', 'CBU')}>Copiar</button>
+              </div>
+            </div>
+            {copyToast && <p style={{ color: '#2e7d32', marginTop: '10px', fontSize: '0.9rem' }}>{copyToast}</p>}
           </div>
-          <p className="modal__lead">Tu presencia es lo más importante. Si deseás hacernos un regalo, podés usar estos datos.</p>
-          <div className="bank-data">
-            <div>
-              <span>Alias</span>
-              <strong>boda.mirta.guille</strong>
-              <button type="button" onClick={() => copyToClipboard('boda.mirta.guille', 'Alias')}>Copiar</button>
-            </div>
-            <div>
-              <span>CBU</span>
-              <strong>0070012345678901234567</strong>
-              <button type="button" onClick={() => copyToClipboard('0070012345678901234567', 'CBU')}>Copiar</button>
-            </div>
-          </div>
-          {copyToast && <p style={{ color: '#2e7d32', marginTop: '10px', fontSize: '0.9rem' }}>{copyToast}</p>}
-        </dialog>
+        </div>
       )}
 
       {/* Playlist Modal */}
       {playlistOpen && (
-        <dialog className="modal" open>
-          <div className="modal__header">
-            <div>
-              <p className="eyebrow">Playlist colaborativa</p>
-              <h2>¿Qué canción no puede faltar?</h2>
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 99999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '16px',
+            backgroundColor: 'rgba(20, 16, 12, 0.72)',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
+          }}
+          onClick={() => setPlaylistOpen(false)}
+        >
+          <div 
+            className="modal"
+            style={{
+              maxWidth: '620px',
+              width: '100%',
+              maxHeight: '90vh',
+              overflowY: 'auto',
+              margin: 'auto',
+              animation: 'dialogIn 220ms ease both',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modal__header">
+              <div>
+                <p className="eyebrow">Playlist colaborativa</p>
+                <h2>¿Qué canción no puede faltar?</h2>
+              </div>
+              <button className="icon-button" onClick={() => setPlaylistOpen(false)} type="button">✕</button>
             </div>
-            <button className="icon-button" onClick={() => setPlaylistOpen(false)} type="button">✕</button>
-          </div>
-          <div style={{ padding: '20px 0' }}>
-            <div className="field field--full" style={{ marginBottom: '16px' }}>
-              <label style={{ display: 'block', marginBottom: '8px' }}>Canción y Artista:</label>
-              <input
-                type="text"
-                value={song}
-                onChange={(e) => setSong(e.target.value)}
-                placeholder="Ej: Ed Sheeran - Perfect"
-              />
+            <div style={{ padding: '20px 0' }}>
+              <div className="field field--full" style={{ marginBottom: '16px' }}>
+                <label style={{ display: 'block', marginBottom: '8px' }}>Canción y Artista:</label>
+                <input
+                  type="text"
+                  value={song}
+                  onChange={(e) => setSong(e.target.value)}
+                  placeholder="Ej: Ed Sheeran - Perfect"
+                />
+              </div>
+              <button
+                type="button"
+                className="button button--wine"
+                style={{ width: '100%' }}
+                onClick={() => { setPlaylistOpen(false); alert('¡Canción guardada para sugerir en tu RSVP!'); }}
+              >
+                Guardar Sugerencia
+              </button>
             </div>
-            <button
-              type="button"
-              className="button button--wine"
-              style={{ width: '100%' }}
-              onClick={() => { setPlaylistOpen(false); alert('¡Canción guardada para sugerir en tu RSVP!'); }}
-            >
-              Guardar Sugerencia
-            </button>
           </div>
-        </dialog>
+        </div>
       )}
 
       {/* Search Code Modal - Completely Aligned with Theme */}
       {searchModalOpen && (
-        <dialog className="modal" open>
-          <div className="modal__header">
-            <div>
-              <p className="eyebrow">Ingreso Personalizado</p>
-              <h2>Buscar mi invitación</h2>
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 99999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '16px',
+            backgroundColor: 'rgba(20, 16, 12, 0.72)',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
+          }}
+          onClick={() => { setSearchModalOpen(false); setSearchError(''); }}
+        >
+          <div 
+            className="modal"
+            style={{
+              maxWidth: '620px',
+              width: '100%',
+              maxHeight: '90vh',
+              overflowY: 'auto',
+              margin: 'auto',
+              animation: 'dialogIn 220ms ease both',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modal__header">
+              <div>
+                <p className="eyebrow">Ingreso Personalizado</p>
+                <h2>Buscar mi invitación</h2>
+              </div>
+              <button className="icon-button" onClick={() => { setSearchModalOpen(false); setSearchError(''); }} type="button">✕</button>
             </div>
-            <button className="icon-button" onClick={() => { setSearchModalOpen(false); setSearchError(''); }} type="button">✕</button>
+            <form onSubmit={handleSearchGuest} style={{ padding: '20px 0' }}>
+              <div className="field field--full" style={{ marginBottom: '16px' }}>
+                <label htmlFor="modalSearchInput">Apellido o código de invitación</label>
+                <input
+                  id="modalSearchInput"
+                  type="text"
+                  value={searchInput}
+                  onChange={(e) => setSearchInput(e.target.value)}
+                  placeholder="Ej: Pérez o fam-perez"
+                  required
+                />
+              </div>
+              {searchError && (
+                <p style={{ color: '#c62828', fontSize: '0.88rem', marginBottom: '16px', fontWeight: '500' }}>
+                  {searchError}
+                </p>
+              )}
+              <button type="submit" className="button button--wine" style={{ width: '100%' }} disabled={submitting}>
+                {submitting ? 'Buscando...' : 'Acceder a mi Invitación'}
+              </button>
+            </form>
           </div>
-          <form onSubmit={handleSearchGuest} style={{ padding: '20px 0' }}>
-            <div className="field field--full" style={{ marginBottom: '16px' }}>
-              <label htmlFor="modalSearchInput">Apellido o código de invitación</label>
-              <input
-                id="modalSearchInput"
-                type="text"
-                value={searchInput}
-                onChange={(e) => setSearchInput(e.target.value)}
-                placeholder="Ej: Pérez o fam-perez"
-                required
-              />
-            </div>
-            {searchError && (
-              <p style={{ color: '#c62828', fontSize: '0.88rem', marginBottom: '16px', fontWeight: '500' }}>
-                {searchError}
-              </p>
-            )}
-            <button type="submit" className="button button--wine" style={{ width: '100%' }} disabled={submitting}>
-              {submitting ? 'Buscando...' : 'Acceder a mi Invitación'}
-            </button>
-          </form>
-        </dialog>
+        </div>
       )}
 
       {/* Interactive Map Modal with Custom Styled Map and GPS link */}
