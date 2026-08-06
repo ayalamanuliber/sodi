@@ -779,51 +779,81 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
       {/* Interactive Map Modal with Custom Styled Map and GPS link */}
       {mapOpen && (
-        <dialog className="modal" open style={{ maxWidth: '600px', width: '95%', maxHeight: '90vh', overflowY: 'auto' }}>
-          <div className="modal__header">
-            <div>
-              <p className="eyebrow">Ubicación del evento</p>
-              <h2 style={{ fontFamily: 'var(--serif)', fontSize: '1.8rem', fontWeight: 400, color: 'var(--ink)' }}>{mapTitle}</h2>
+        <div 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 99999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '16px',
+            backgroundColor: 'rgba(20, 16, 12, 0.72)',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
+          }}
+          onClick={() => setMapOpen(false)}
+        >
+          <div 
+            className="modal"
+            style={{
+              maxWidth: '600px',
+              width: '100%',
+              maxHeight: '90vh',
+              overflowY: 'auto',
+              margin: 'auto',
+              animation: 'dialogIn 220ms ease both',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modal__header">
+              <div>
+                <p className="eyebrow">Ubicación del evento</p>
+                <h2 style={{ fontFamily: 'var(--serif)', fontSize: '1.8rem', fontWeight: 400, color: 'var(--ink)' }}>{mapTitle}</h2>
+              </div>
+              <button className="icon-button" onClick={() => setMapOpen(false)} type="button">✕</button>
             </div>
-            <button className="icon-button" onClick={() => setMapOpen(false)} type="button">✕</button>
+            <div style={{ padding: '16px 0 0' }}>
+              <p className="modal__lead" style={{ marginBottom: '16px', fontSize: '0.9rem', color: 'var(--ink-soft)' }}>
+                📍 <strong>Dirección:</strong> {mapAddress}
+              </p>
+              <div style={{ width: '100%', height: '320px', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(182, 151, 99, 0.3)', marginBottom: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
+                <iframe
+                  src={mapIframeSrc}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={false}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title={mapTitle}
+                ></iframe>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                <a
+                  href={mapExternalUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button button--wine"
+                  style={{ flex: '1 1 200px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', textDecoration: 'none', padding: '12px', fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}
+                >
+                  🗺️ Abrir en Google Maps / GPS
+                </a>
+                <button
+                  type="button"
+                  className="button button--champagne"
+                  onClick={() => setMapOpen(false)}
+                  style={{ flex: '1 1 100px', padding: '12px', fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
           </div>
-          <div style={{ padding: '16px 0 0' }}>
-            <p className="modal__lead" style={{ marginBottom: '16px', fontSize: '0.9rem', color: 'var(--ink-soft)' }}>
-              📍 <strong>Dirección:</strong> {mapAddress}
-            </p>
-            <div style={{ width: '100%', height: '320px', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(182, 151, 99, 0.3)', marginBottom: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
-              <iframe
-                src={mapIframeSrc}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title={mapTitle}
-              ></iframe>
-            </div>
-            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-              <a
-                href={mapExternalUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button button--wine"
-                style={{ flex: '1 1 200px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', textDecoration: 'none', padding: '12px', fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}
-              >
-                🗺️ Abrir en Google Maps / GPS
-              </a>
-              <button
-                type="button"
-                className="button button--champagne"
-                onClick={() => setMapOpen(false)}
-                style={{ flex: '1 1 100px', padding: '12px', fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}
-              >
-                Cerrar
-              </button>
-            </div>
-          </div>
-        </dialog>
+        </div>
       )}
     </>
   );
