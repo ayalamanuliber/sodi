@@ -364,11 +364,26 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
 
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
             <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 200px', gap: '4px' }}>
-              <label style={{ fontSize: '0.82rem', color: '#555', fontWeight: '600' }}>Tipo de Invitación / Pase:</label>
+              <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Tipo de Invitación / Pase:</label>
               <select
                 value={newTipo}
                 onChange={(e) => setNewTipo(e.target.value as any)}
-                style={{ ...styles.inputFlexDark, width: '100%', padding: '10px' }}
+                style={{
+                  height: '46px',
+                  padding: '0 14px',
+                  borderRadius: '8px',
+                  border: '1.5px solid #cbd5e1',
+                  fontSize: '0.95rem',
+                  color: '#1e293b',
+                  backgroundColor: '#ffffff',
+                  fontWeight: '500',
+                  width: '100%',
+                  cursor: 'pointer',
+                  outline: 'none',
+                  boxShadow: 'none',
+                  display: 'block',
+                  appearance: 'auto'
+                }}
               >
                 <option value="completo">Completo (Ceremonia + Fiesta)</option>
                 <option value="solo-after">Solo After-Party (Baile/Trasnochados)</option>
@@ -377,11 +392,26 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 200px', gap: '4px' }}>
-              <label style={{ fontSize: '0.82rem', color: '#555', fontWeight: '600' }}>Paleta de Estilo Visual (A/B/C):</label>
+              <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Paleta de Estilo Visual (A/B/C):</label>
               <select
                 value={newEstilo}
                 onChange={(e) => setNewEstilo(e.target.value as any)}
-                style={{ ...styles.inputFlexDark, width: '100%', padding: '10px' }}
+                style={{
+                  height: '46px',
+                  padding: '0 14px',
+                  borderRadius: '8px',
+                  border: '1.5px solid #cbd5e1',
+                  fontSize: '0.95rem',
+                  color: '#1e293b',
+                  backgroundColor: '#ffffff',
+                  fontWeight: '500',
+                  width: '100%',
+                  cursor: 'pointer',
+                  outline: 'none',
+                  boxShadow: 'none',
+                  display: 'block',
+                  appearance: 'auto'
+                }}
               >
                 <option value="oro">Opción A: Champagne y Oro Clásico</option>
                 <option value="esmeralda">Opción B: Esmeralda y Champagne</option>
@@ -613,43 +643,52 @@ const styles: Record<string, React.CSSProperties> = {
   },
   container: {
     padding: '30px 20px',
-    maxWidth: '1200px',
+    maxWidth: '1240px',
     margin: '0 auto',
     fontFamily: 'system-ui, -apple-system, sans-serif',
-    backgroundColor: '#faf8f5',
+    backgroundColor: '#f8fafc',
     minHeight: '100vh',
-    color: '#111111'
+    color: '#0f172a'
   },
   header: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: '24px',
+    marginBottom: '28px',
     flexWrap: 'wrap',
     gap: '16px'
   },
   badge: {
-    fontSize: '0.85rem',
+    fontSize: '0.8rem',
     textTransform: 'uppercase',
     letterSpacing: '1px',
-    color: '#355844',
-    fontWeight: '700'
+    color: '#0f766e',
+    fontWeight: '700',
+    backgroundColor: '#ccfbf1',
+    padding: '4px 10px',
+    borderRadius: '6px',
+    display: 'inline-block'
   },
   mainHeading: {
-    margin: '4px 0 0 0',
-    fontSize: '1.8rem',
-    color: '#1a251e',
-    fontWeight: '800'
+    margin: '8px 0 0 0',
+    fontSize: '2rem',
+    color: '#0f172a',
+    fontWeight: '800',
+    letterSpacing: '-0.5px'
   },
   buttonOutlineHeader: {
     backgroundColor: '#ffffff',
-    color: '#355844',
-    border: '1.5px solid #355844',
-    padding: '10px 16px',
+    color: '#0f172a',
+    border: '1px solid #cbd5e1',
+    padding: '10px 18px',
     borderRadius: '8px',
-    fontWeight: '700',
+    fontWeight: '600',
     cursor: 'pointer',
-    fontSize: '0.9rem'
+    fontSize: '0.9rem',
+    boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '8px'
   },
   buttonDangerHeader: {
     backgroundColor: '#fee2e2',
@@ -663,42 +702,47 @@ const styles: Record<string, React.CSSProperties> = {
   },
   metricsGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-    gap: '16px',
-    marginBottom: '24px'
+    gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+    gap: '20px',
+    marginBottom: '28px'
   },
   metricCard: {
     backgroundColor: '#ffffff',
-    padding: '20px',
+    padding: '24px',
     borderRadius: '12px',
-    boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05)',
     display: 'flex',
     flexDirection: 'column',
-    border: '1px solid #e5dfd3'
+    border: '1px solid #e2e8f0',
+    position: 'relative',
+    overflow: 'hidden'
   },
   metricLabel: {
     fontSize: '0.85rem',
-    color: '#444444',
-    fontWeight: '600'
+    color: '#64748b',
+    fontWeight: '600',
+    textTransform: 'uppercase',
+    letterSpacing: '0.5px'
   },
   metricValue: {
     fontSize: '2.2rem',
     fontWeight: '800',
-    marginTop: '4px',
-    color: '#1a251e'
+    marginTop: '6px',
+    color: '#0f172a',
+    letterSpacing: '-0.5px'
   },
   card: {
     backgroundColor: '#ffffff',
-    borderRadius: '14px',
-    padding: '24px',
-    boxShadow: '0 2px 12px rgba(0,0,0,0.06)',
-    marginBottom: '24px',
-    border: '1px solid #e5dfd3'
+    borderRadius: '16px',
+    padding: '28px',
+    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -4px rgba(0, 0, 0, 0.04)',
+    marginBottom: '28px',
+    border: '1px solid #e2e8f0'
   },
   cardTitle: {
-    margin: '0 0 16px 0',
-    fontSize: '1.25rem',
-    color: '#1a251e',
+    margin: '0 0 20px 0',
+    fontSize: '1.3rem',
+    color: '#0f172a',
     fontWeight: '700'
   },
   addForm: {
@@ -709,34 +753,47 @@ const styles: Record<string, React.CSSProperties> = {
   },
   inputFlexDark: {
     flex: '1 1 220px',
-    padding: '12px 14px',
+    height: '46px',
+    padding: '0 16px',
     borderRadius: '8px',
-    border: '1.5px solid #bbb',
+    border: '1.5px solid #cbd5e1',
     fontSize: '0.95rem',
-    color: '#111111',
+    color: '#0f172a',
     backgroundColor: '#ffffff',
-    fontWeight: '500'
+    fontWeight: '500',
+    outline: 'none',
+    boxShadow: 'none',
+    boxSizing: 'border-box'
   },
   inputSmallDark: {
     width: '70px',
-    padding: '12px',
+    height: '46px',
+    padding: '0 8px',
     borderRadius: '8px',
-    border: '1.5px solid #bbb',
+    border: '1.5px solid #cbd5e1',
     fontSize: '0.95rem',
-    color: '#111111',
+    color: '#0f172a',
     backgroundColor: '#ffffff',
     fontWeight: '700',
-    textAlign: 'center'
+    textAlign: 'center',
+    outline: 'none',
+    boxSizing: 'border-box'
   },
   buttonPrimary: {
-    backgroundColor: '#355844',
+    backgroundColor: '#0f766e',
     color: '#ffffff',
     border: 'none',
     padding: '12px 20px',
     borderRadius: '8px',
     fontWeight: '700',
     cursor: 'pointer',
-    fontSize: '0.95rem'
+    fontSize: '0.95rem',
+    height: '46px',
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    transition: 'background-color 0.2s',
+    boxShadow: '0 4px 6px -1px rgba(15, 118, 110, 0.1), 0 2px 4px -2px rgba(15, 118, 110, 0.1)'
   },
   tabRow: {
     display: 'flex',
