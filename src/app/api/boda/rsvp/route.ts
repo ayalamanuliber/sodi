@@ -1,119 +1,55 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-
-const DATA_DIR = path.join(process.cwd(), 'src', 'data', 'bodas');
-const DEFAULT_SLUG = 'mirta-y-guillermo';
-
-const memoryStores: Record<string, any[]> = {};
-
-function getWeddingConfig(slug: string) {
-  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  const configPath = path.join(DATA_DIR, `${safeSlug}.json`);
-  try {
-    if (fs.existsSync(configPath)) {
-      const data = fs.readFileSync(configPath, 'utf8');
-      return JSON.parse(data);
-    }
-  } catch (e) {
-    console.error('Error reading wedding config:', e);
-  }
-  return null;
-}
-
-async function fetchGuestsFromCloud(slug: string) {
-  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  const config = getWeddingConfig(safeSlug);
-  const blobId = config?.jsonBlobId;
-
-  if (blobId) {
-    try {
-      const res = await fetch(`https://jsonblob.com/api/jsonBlob/${blobId}`, {
-        cache: 'no-store'
-      });
-      if (res.ok) {
-        const guests = await res.json();
-        if (Array.isArray(guests)) {
-          memoryStores[safeSlug] = guests;
-          return guests;
-        }
-      }
-    } catch (e) {
-      console.error('Error reading from JSONBlob:', e);
-    }
-  }
-
-  return memoryStores[safeSlug] || [];
-}
-
-async function saveGuestsToCloud(slug: string, guests: any[]) {
-  const safeSlug = (slug || DEFAULT_SLUG).replace(/[^a-z0-9-]/g, '');
-  memoryStores[safeSlug] = guests;
-
-  const config = getWeddingConfig(safeSlug);
-  const blobId = config?.jsonBlobId;
-
-  if (blobId) {
-    try {
-      await fetch(`https://jsonblob.com/api/jsonBlob/${blobId}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(guests)
-      });
-    } catch (e) {
-      console.error('Error writing to JSONBlob:', e);
-    }
-  }
-}
+import {
+  DEFAULT_WEDDING_SLUG,
+  fetchWeddingGuests,
+  saveWeddingGuests,
+  type WeddingResponse,
+} from '@/lib/boda-store';
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const slug = body.slug || DEFAULT_SLUG;
-    const { code, asistencia, pasesConfirmados, integrantes, menu, notas, cancion } = body;
+    const slug = typeof body.slug === 'string' && body.slug ? body.slug : DEFAULT_WEDDING_SLUG;
+    const code = typeof body.code === 'string' ? body.code.trim() : '';
+    const { guests, etag } = await fetchWeddingGuests(slug);
+    const guest = guests.find((item) => item.id.toLowerCase() === code.toLowerCase());
 
-    const guests = await fetchGuestsFromCloud(slug);
-    let guest = code ? guests.find((g: any) => g.id.toLowerCase() === code.toLowerCase()) : null;
-
-    const responseData = {
-      asistencia: asistencia === 'confirmado' ? 'confirmado' : 'rechazado',
-      pasesConfirmados: parseInt(pasesConfirmados, 10) || 0,
-      integrantes: Array.isArray(integrantes) ? integrantes : [],
-      menu: menu || 'Tradicional',
-      notes: notas || '', // Map to notas / notes securely
-      notas: notas || '',
-      cancion: cancion || '',
-      fechaRespuesta: new Date().toISOString()
-    };
-
-    if (guest) {
-      guest.estado = responseData.asistencia;
-      guest.respuesta = responseData;
-    } else {
-      const nombreInvitado = body.nombre || 'Invitado Web';
-      guest = {
-        id: 'web-' + Date.now(),
-        nombre: nombreInvitado,
-        pases: parseInt(pasesConfirmados, 10) || 1,
-        telefono: '',
-        estado: responseData.asistencia,
-        creadoEn: new Date().toISOString(),
-        vistoEn: new Date().toISOString(),
-        respuesta: responseData
-      };
-      guests.unshift(guest);
+    if (!guest) {
+      return NextResponse.json({ success: false, message: 'Invitación no encontrada' }, { status: 404 });
     }
 
-    await saveGuestsToCloud(slug, guests);
+    const asistencia = body.asistencia === 'confirmado' ? 'confirmado' : 'rechazado';
+    const requestedPasses = Number.parseInt(String(body.pasesConfirmados), 10) || 0;
+    const pasesConfirmados = asistencia === 'confirmado' ? requestedPasses : 0;
+    const integrantes = asistencia === 'confirmado' && Array.isArray(body.integrantes)
+      ? body.integrantes.map((name: unknown) => String(name).trim()).filter(Boolean)
+      : [];
 
-    return NextResponse.json({
-      success: true,
-      message: 'RSVP guardado correctamente',
-      guest
-    });
-  } catch (e: any) {
-    return NextResponse.json({ success: false, error: e.message }, { status: 500 });
+    if (asistencia === 'confirmado' && (
+      pasesConfirmados < 1
+      || pasesConfirmados > guest.pases
+      || integrantes.length !== pasesConfirmados
+    )) {
+      return NextResponse.json({ success: false, message: 'La cantidad de asistentes no es válida' }, { status: 400 });
+    }
+
+    const responseData: WeddingResponse = {
+      asistencia,
+      pasesConfirmados,
+      integrantes,
+      menu: typeof body.menu === 'string' ? body.menu.slice(0, 80) : 'Tradicional',
+      notas: typeof body.notas === 'string' ? body.notas.trim().slice(0, 600) : '',
+      cancion: typeof body.cancion === 'string' ? body.cancion.trim().slice(0, 160) : '',
+      fechaRespuesta: new Date().toISOString(),
+    };
+
+    guest.estado = asistencia;
+    guest.respuesta = responseData;
+    await saveWeddingGuests(slug, guests, etag);
+
+    return NextResponse.json({ success: true, message: 'RSVP guardado correctamente' });
+  } catch (error) {
+    console.error('Wedding RSVP failed:', error);
+    return NextResponse.json({ success: false, message: 'No se pudo guardar la confirmación' }, { status: 503 });
   }
 }

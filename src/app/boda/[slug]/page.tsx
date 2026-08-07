@@ -11,7 +11,15 @@ interface GuestData {
   estado: string;
   tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
   estilo?: 'oro' | 'esmeralda' | 'borgoña';
-  respuesta?: any;
+  respuesta?: {
+    asistencia?: 'confirmado' | 'rechazado';
+    pasesConfirmados?: number;
+    integrantes?: string[];
+    menu?: string;
+    notas?: string;
+    notes?: string;
+    cancion?: string;
+  } | null;
 }
 
 export default function DynamicBodaPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -247,11 +255,15 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
     };
 
     try {
-      await fetch('/api/boda/rsvp', {
+      const response = await fetch('/api/boda/rsvp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
+      const result = await response.json();
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || 'No se pudo guardar la confirmación');
+      }
       setSubmitted(true);
 
       const pasesMsg = attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir';

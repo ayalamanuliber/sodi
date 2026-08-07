@@ -46,63 +46,65 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
 
   const STORAGE_KEY = `sodi_boda_guests_${slug}`;
 
-  // Helper to save guests locally so Vercel serverless read-only filesystem never loses data
-  const saveLocalGuests = (updatedGuests: Guest[]) => {
-    setGuests(updatedGuests);
-    if (typeof window !== 'undefined') {
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedGuests));
-      } catch (e) {
-        console.error('Error saving to localStorage:', e);
+  useEffect(() => {
+    loadGuests();
+  }, [slug]);
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoginError('');
+    setLoading(true);
+
+    try {
+      const response = await fetch('/api/boda/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: passwordInput }),
+      });
+
+      if (!response.ok) {
+        setLoginError('Contraseña incorrecta. Verificá los datos e intentá de nuevo.');
+        return;
       }
+
+      setAuthenticated(true);
+      setPasswordInput('');
+      await loadGuests();
+    } catch {
+      setLoginError('No se pudo acceder al panel. Intentá nuevamente.');
+    } finally {
+      setLoading(false);
     }
   };
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      if (sessionStorage.getItem(`admin_boda_${slug}_auth`) === 'true') {
-        setAuthenticated(true);
-        loadGuests();
-      }
-    }
-  }, [slug]);
-
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoginError('');
-
-    // Secure authentication check without displaying hints
-    const cleanPass = passwordInput.trim();
-    if (cleanPass === 'mirta2026' || cleanPass === 'boda') {
-      sessionStorage.setItem(`admin_boda_${slug}_auth`, 'true');
-      setAuthenticated(true);
-      loadGuests();
-    } else {
-      setLoginError('Contraseña incorrecta. Verificá los datos e intentá de nuevo.');
-    }
+  const handleLogout = async () => {
+    await fetch('/api/boda/admin/logout', { method: 'POST' });
+    setAuthenticated(false);
+    setGuests([]);
   };
 
   const loadGuests = async () => {
     setLoading(true);
     try {
       const res = await fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}&t=${Date.now()}`);
+      if (res.status === 401) {
+        setAuthenticated(false);
+        return;
+      }
+
       const data = await res.json();
-      if (data.success && Array.isArray(data.guests)) {
-        setGuests(data.guests);
-        if (typeof window !== 'undefined') {
-          try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
-          } catch (e) {}
-        }
+      if (!res.ok || !data.success || !Array.isArray(data.guests)) {
+        throw new Error(data.message || 'No se pudo cargar la lista');
+      }
+
+      setAuthenticated(true);
+      setGuests(data.guests);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
       }
     } catch (e) {
       console.error('Error loading guests:', e);
-      if (typeof window !== 'undefined') {
-        const stored = localStorage.getItem(STORAGE_KEY);
-        if (stored) {
-          try { setGuests(JSON.parse(stored)); } catch (err) {}
-        }
-      }
+      setLoginError('No se pudo cargar la lista de invitados. Intentá nuevamente.');
     } finally {
       setLoading(false);
     }
@@ -128,13 +130,13 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         })
       });
       const data = await res.json();
-      if (data.success && Array.isArray(data.guests)) {
+      if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
         if (typeof window !== 'undefined') {
           localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
         }
       } else {
-        await loadGuests();
+        throw new Error(data.message || 'No se pudo guardar la invitación');
       }
     } catch (e) {
       alert('Ocurrió un error al guardar la invitación.');
@@ -169,10 +171,14 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         body: JSON.stringify({ slug, action: 'toggleEnviado', id, enviado: !currentEnviado })
       });
       const data = await res.json();
-      if (data.success && Array.isArray(data.guests)) {
+      if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
+      } else {
+        await loadGuests();
       }
-    } catch (e) {}
+    } catch (e) {
+      await loadGuests();
+    }
   };
 
   const handleDelete = async (id: string, nombre: string) => {
@@ -187,10 +193,14 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         body: JSON.stringify({ slug, action: 'delete', id })
       });
       const data = await res.json();
-      if (data.success && Array.isArray(data.guests)) {
+      if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
+      } else {
+        await loadGuests();
       }
-    } catch (e) {}
+    } catch (e) {
+      await loadGuests();
+    }
   };
 
   const getWhatsAppLink = (guest: Guest) => {
@@ -304,7 +314,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
           <button onClick={exportCSV} style={styles.buttonOutlineHeader}>📥 Exportar Excel</button>
-          <button onClick={() => { sessionStorage.removeItem(`admin_boda_${slug}_auth`); setAuthenticated(false); }} style={styles.buttonDangerHeader}>Cerrar Sesión</button>
+          <button onClick={handleLogout} style={styles.buttonDangerHeader}>Cerrar Sesión</button>
         </div>
       </header>
 
@@ -393,7 +403,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
               <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Tipo de Invitación / Pase:</label>
               <select
                 value={newTipo}
-                onChange={(e) => setNewTipo(e.target.value as any)}
+                onChange={(e) => setNewTipo(e.target.value as 'completo' | 'solo-after' | 'solo-ceremonia')}
                 style={{
                   height: '46px',
                   padding: '0 14px',
