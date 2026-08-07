@@ -388,7 +388,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
       <main id="mainContent">
         {/* Hero */}
         <section className="hero" id="hero">
-          <img className="hero__image" src="/boda/assets/couple-portada.png" alt="Mirta y Guillermo" />
+          <img className="hero__image" src="/boda/assets/portada.jpg" alt="Mirta y Guillermo" />
           <div className="hero__shade"></div>
           <div className="hero__content">
             {guest ? (

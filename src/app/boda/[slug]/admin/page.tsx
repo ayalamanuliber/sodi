@@ -313,6 +313,14 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           <h1 style={styles.mainHeading}>Administración de Invitaciones</h1>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+          <a
+            href={`/boda/${slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ ...styles.buttonOutlineHeader, textDecoration: 'none' }}
+          >
+            👁️ Vista previa
+          </a>
           <button onClick={exportCSV} style={styles.buttonOutlineHeader}>📥 Exportar Excel</button>
           <button onClick={handleLogout} style={styles.buttonDangerHeader}>Cerrar Sesión</button>
         </div>
@@ -552,6 +560,29 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                     </td>
                     <td style={{ ...styles.td, whiteSpace: 'nowrap' }}>
                       <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'nowrap' }}>
+                        <a
+                          href={`/boda/${slug}?i=${encodeURIComponent(guest.id)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{
+                            backgroundColor: '#e8f0eb',
+                            border: '1px solid #9fb7a7',
+                            color: '#1a4930',
+                            padding: '8px',
+                            borderRadius: '50%',
+                            width: '38px',
+                            height: '38px',
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '1.1rem',
+                            textDecoration: 'none',
+                          }}
+                          title={`Ver la invitación de ${guest.nombre}`}
+                          aria-label={`Ver la invitación de ${guest.nombre}`}
+                        >
+                          👁️
+                        </a>
                         <a
                           href={getWhatsAppLink(guest)}
                           target="_blank"

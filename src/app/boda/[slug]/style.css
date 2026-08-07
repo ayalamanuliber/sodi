@@ -570,6 +570,16 @@ body.is-open .site-header {
   background: var(--ink);
 }
 
+.hero::before {
+  position: absolute;
+  inset: -28px;
+  content: "";
+  background: url("/boda/assets/portada.jpg") center 34% / cover;
+  filter: blur(20px) saturate(0.82);
+  opacity: 0.62;
+  transform: scale(1.06);
+}
+
 .hero__image,
 .hero__shade {
   position: absolute;
@@ -579,8 +589,8 @@ body.is-open .site-header {
 }
 
 .hero__image {
-  object-fit: cover;
-  object-position: center 44%;
+  object-fit: contain;
+  object-position: right center;
   transform: scale(1.03);
   transition: transform 8s cubic-bezier(0.2, 0.6, 0.3, 1);
 }
@@ -1994,7 +2004,8 @@ body.is-open .hero__image {
   }
 
   .hero__image {
-    object-position: 58% center;
+    object-fit: cover;
+    object-position: center 32%;
   }
 
   .hero__shade {
@@ -2233,4 +2244,3 @@ body.is-open .hero__image {
 .wa-btn {
   display: none !important;
 }
-
