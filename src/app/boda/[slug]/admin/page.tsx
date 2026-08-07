@@ -389,7 +389,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           </div>
 
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 200px', gap: '4px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 100%', gap: '4px' }}>
               <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Tipo de Invitación / Pase:</label>
               <select
                 value={newTipo}
@@ -414,34 +414,6 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                 <option value="completo">Completo (Ceremonia + Fiesta)</option>
                 <option value="solo-after">Solo After-Party (Baile/Trasnochados)</option>
                 <option value="solo-ceremonia">Solo Ceremonia (Iglesia/Civil)</option>
-              </select>
-            </div>
-
-            <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 200px', gap: '4px' }}>
-              <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Paleta de Estilo Visual (A/B/C):</label>
-              <select
-                value={newEstilo}
-                onChange={(e) => setNewEstilo(e.target.value as any)}
-                style={{
-                  height: '46px',
-                  padding: '0 14px',
-                  borderRadius: '8px',
-                  border: '1.5px solid #cbd5e1',
-                  fontSize: '0.95rem',
-                  color: '#1e293b',
-                  backgroundColor: '#ffffff',
-                  fontWeight: '500',
-                  width: '100%',
-                  cursor: 'pointer',
-                  outline: 'none',
-                  boxShadow: 'none',
-                  display: 'block',
-                  appearance: 'auto'
-                }}
-              >
-                <option value="oro">Opción A: Champagne y Oro Clásico</option>
-                <option value="esmeralda">Opción B: Esmeralda y Champagne</option>
-                <option value="borgoña">Opción C: Borgoña y Blanco Lino</option>
               </select>
             </div>
           </div>
@@ -520,10 +492,6 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                             color: guest.tipo === 'solo-after' ? '#0284c7' : guest.tipo === 'solo-ceremonia' ? '#ea580c' : '#7c3aed'
                           }}>
                             {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Civil' : 'Pase Completo'}
-                          </span>
-                          <span>•</span>
-                          <span style={{ fontWeight: '500' }}>
-                            Estilo {guest.estilo === 'esmeralda' ? 'Esmeralda' : guest.estilo === 'borgoña' ? 'Borgoña' : 'Champagne'}
                           </span>
                           <span>•</span>
                           <code style={{ fontSize: '0.75rem', backgroundColor: '#f1f5f9', padding: '1px 4px', borderRadius: '4px' }}>?i={guest.id}</code>
