@@ -727,13 +727,13 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             <div className="bank-data">
               <div>
                 <span>Alias</span>
-                <strong>boda.mirta.guille</strong>
-                <button type="button" onClick={() => copyToClipboard('boda.mirta.guille', 'Alias')}>Copiar</button>
+                <strong>nuestrabodamyg2026</strong>
+                <button type="button" onClick={() => copyToClipboard('nuestrabodamyg2026', 'Alias')}>Copiar</button>
               </div>
               <div>
                 <span>CBU</span>
-                <strong>0070012345678901234567</strong>
-                <button type="button" onClick={() => copyToClipboard('0070012345678901234567', 'CBU')}>Copiar</button>
+                <strong>0070358920000001201413</strong>
+                <button type="button" onClick={() => copyToClipboard('0070358920000001201413', 'CBU')}>Copiar</button>
               </div>
             </div>
             {copyToast && <p style={{ color: '#2e7d32', marginTop: '10px', fontSize: '0.9rem' }}>{copyToast}</p>}
