@@ -496,7 +496,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           <div className="details__grid">
             <article className="detail detail--dress">
               <h3>Dress code</h3>
-              <p>Formal elegante</p>
+              <p>Elegante</p>
               <div className="dress-code-note">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span className="dress-code-swatch" style={{ backgroundColor: '#14213d' }}></span>
