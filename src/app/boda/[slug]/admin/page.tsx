@@ -514,7 +514,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                     <td style={styles.td}>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
                         <strong style={{ color: '#0f172a', fontSize: '1rem', fontWeight: '700' }}>{guest.nombre}</strong>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#64748b', flexWrap: 'nowrap', whiteSpace: 'nowrap' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#64748b', flexWrap: 'wrap' }}>
                           <span style={{
                             fontWeight: '600',
                             color: guest.tipo === 'solo-after' ? '#0284c7' : guest.tipo === 'solo-ceremonia' ? '#ea580c' : '#7c3aed'
@@ -579,12 +579,68 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={() => handleWhatsAppClick(guest)}
-                          style={{ ...styles.buttonWhatsapp, whiteSpace: 'nowrap' }}
+                          style={{
+                            backgroundColor: '#25D366',
+                            color: '#ffffff',
+                            textDecoration: 'none',
+                            padding: '8px',
+                            borderRadius: '50%',
+                            width: '38px',
+                            height: '38px',
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '1.25rem',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                            border: 'none'
+                          }}
+                          title="Enviar invitación por WhatsApp (📲)"
                         >
-                          📲 WhatsApp
+                          📲
                         </a>
-                        <button onClick={() => copyLink(guest)} style={{ ...styles.buttonSmall, whiteSpace: 'nowrap' }}>📋 Copiar Link</button>
-                        <button onClick={() => handleDelete(guest.id, guest.nombre)} style={styles.buttonSmallDanger} title="Eliminar Invitación">🗑️</button>
+                        <button
+                          onClick={() => copyLink(guest)}
+                          style={{
+                            backgroundColor: '#f1f5f9',
+                            border: '1px solid #cbd5e1',
+                            color: '#1e293b',
+                            padding: '8px',
+                            borderRadius: '50%',
+                            width: '38px',
+                            height: '38px',
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '1.1rem',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+                          }}
+                          title="Copiar link de invitación (🔗)"
+                        >
+                          🔗
+                        </button>
+                        <button
+                          onClick={() => handleDelete(guest.id, guest.nombre)}
+                          style={{
+                            backgroundColor: '#fee2e2',
+                            color: '#991b1b',
+                            border: 'none',
+                            padding: '8px',
+                            borderRadius: '50%',
+                            width: '38px',
+                            height: '38px',
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '1.1rem',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+                          }}
+                          title="Eliminar invitación (🗑️)"
+                        >
+                          🗑️
+                        </button>
                       </div>
                     </td>
                   </tr>
