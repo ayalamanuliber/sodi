@@ -70,13 +70,26 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   // Scroll listener to hide/show floating RSVP button
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowFloatingButton(true);
+      const rsvpSection = document.getElementById('rsvp');
+      if (rsvpSection) {
+        const rsvpRect = rsvpSection.getBoundingClientRect();
+        // Se oculta si el formulario de RSVP ya entró en la pantalla visible
+        const isRsvpInView = rsvpRect.top < window.innerHeight - 120;
+        
+        if (window.scrollY > 300 && !isRsvpInView) {
+          setShowFloatingButton(true);
+        } else {
+          setShowFloatingButton(false);
+        }
       } else {
-        setShowFloatingButton(false);
+        if (window.scrollY > 300) {
+          setShowFloatingButton(true);
+        } else {
+          setShowFloatingButton(false);
+        }
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll(); // Initial check
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
