@@ -498,8 +498,14 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               <h3>Dress code</h3>
               <p>Formal elegante</p>
               <div className="dress-code-note">
-                <span className="dress-code-swatch" style={{ backgroundColor: '#14213d' }}></span>
-                <span>Azul marino reservado para el novio</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span className="dress-code-swatch" style={{ backgroundColor: '#14213d' }}></span>
+                  <span>Azul marino reservado para el novio</span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span className="dress-code-swatch" style={{ background: 'linear-gradient(135deg, #ffffff 50%, #fffbf0 50%)', border: '1px solid #d4c5b3' }}></span>
+                  <span>Blanco, marfil y pasteles reservados para la novia</span>
+                </div>
               </div>
             </article>
             <button className="detail detail--button" onClick={() => setGiftsOpen(true)} type="button">

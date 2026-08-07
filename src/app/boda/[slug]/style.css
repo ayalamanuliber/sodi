@@ -1197,17 +1197,16 @@ body.is-open .hero__image {
 
 .dress-code-note {
   display: flex;
-  max-width: 155px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 8px;
   margin-top: 16px;
   color: var(--ink-soft);
-  font-size: 0.56rem;
+  font-size: 0.7rem;
   font-weight: 500;
-  line-height: 1.35;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 .dress-code-swatch {
