@@ -11,6 +11,7 @@ interface GuestData {
   estado: string;
   tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
   estilo?: 'oro' | 'esmeralda' | 'borgoña';
+  cancionSugerida?: string;
   respuesta?: {
     asistencia?: 'confirmado' | 'rechazado';
     pasesConfirmados?: number;
@@ -49,6 +50,8 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   // Modals
   const [giftsOpen, setGiftsOpen] = useState(false);
   const [playlistOpen, setPlaylistOpen] = useState(false);
+  const [songSubmitting, setSongSubmitting] = useState(false);
+  const [songStatus, setSongStatus] = useState('');
   const [copyToast, setCopyToast] = useState('');
 
   // Map Modal State
@@ -152,9 +155,10 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           
           setMenu(resp.menu || 'Tradicional');
           setNotes(resp.notas || resp.notes || '');
-          setSong(resp.cancion || '');
+          setSong(resp.cancion || data.guest.cancionSugerida || '');
           setSubmitted(true);
         } else {
+          setSong(data.guest.cancionSugerida || '');
           setPasesConfirmados(data.guest.pases);
           setIntegrantes([data.guest.nombre, ...Array(Math.max(0, data.guest.pases - 1)).fill('')]);
         }
@@ -286,6 +290,36 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
   const resolvedMenu = guest?.tipo === 'solo-after' ? 'Solo After-Party (Bebidas)' : menu;
 
+  const handleSongSuggestion = async () => {
+    setSongStatus('');
+    if (!guest?.id) {
+      setSongStatus('Abrí tu invitación personalizada para enviar una canción.');
+      return;
+    }
+    if (song.trim().length < 2) {
+      setSongStatus('Escribí el nombre de la canción y el artista.');
+      return;
+    }
+
+    setSongSubmitting(true);
+    try {
+      const response = await fetch('/api/boda/cancion', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, code: guest.id, cancion: song }),
+      });
+      const result = await response.json();
+      if (!response.ok || !result.success) throw new Error(result.message);
+      setSongStatus('¡Gracias! Tu canción fue enviada a Mirta y Guillermo.');
+    } catch (error) {
+      setSongStatus(error instanceof Error && error.message
+        ? error.message
+        : 'No pudimos enviar la canción. Intentá nuevamente.');
+    } finally {
+      setSongSubmitting(false);
+    }
+  };
+
   return (
     <>
       {/* Dynamic Style Overrides based on guest.estilo setting */}
@@ -392,7 +426,9 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           <div className="hero__shade"></div>
           <div className="hero__content">
             {guest ? (
-              <p className="hero__kicker">¡Hola {guest.nombre}! Tienen {guest.pases} pases reservados</p>
+              <p className="hero__kicker">
+                ¡Hola {guest.nombre}! {guest.pases === 1 ? 'Tenés 1 pase reservado' : `Tienen ${guest.pases} pases reservados`}
+              </p>
             ) : (
               <p className="hero__kicker">Nos casamos</p>
             )}
@@ -490,7 +526,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
               <img src="/boda/assets/mama-4.jpg?v=20260806_v5" alt="Recuerdo" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--detail">
-              <img src="/boda/assets/mama-5.jpg?v=20260806_v5" alt="Recuerdo" loading="lazy" />
+              <img src="/boda/assets/mama-1.jpg?v=20260807_v1" alt="Mirta y Guillermo junto al mar" loading="lazy" />
             </figure>
             <figure className="gallery__item gallery__item--dinner">
               <img src="/boda/assets/mama-6.jpg?v=20260806_v5" alt="Mesa" loading="lazy" />
@@ -561,10 +597,11 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           </div>
 
           {submitted ? (
-            <div style={{ padding: '36px 24px', textAlign: 'center', backgroundColor: 'var(--paper)', borderRadius: '4px', border: '1px solid var(--champagne-light)', color: 'var(--wine-dark)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px' }}>
-              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '2rem', marginBottom: '8px', lineHeight: '1.2' }}>¡Asistencia Registrada! 🎉</h3>
-              <p style={{ fontSize: '0.95rem', color: 'var(--ink-soft)', maxWidth: '400px', margin: '0 auto', lineHeight: '1.5' }}>
-                Tu respuesta fue guardada con éxito en la lista oficial. Si tu navegador no te redirigió automáticamente, tocá el botón de abajo para enviarle la confirmación a Mirta por WhatsApp:
+            <div className="rsvp-success">
+              <span className="rsvp-success__mark" aria-hidden="true">✓</span>
+              <h3>¡Gracias por confirmar!</h3>
+              <p>
+                Mirta y Guillermo ya recibieron tu respuesta. Nos alegra mucho compartir este momento con vos.
               </p>
               <a
                 href={`https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(
@@ -575,7 +612,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 className="button button--wine"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none', width: '100%', maxWidth: '320px', justifyContent: 'center', padding: '14px' }}
               >
-                💬 Enviar Mensaje a Mirta
+                Avisar también por WhatsApp
               </a>
               <button
                 type="button"
@@ -591,7 +628,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                   marginTop: '8px'
                 }}
               >
-                ✏️ Modificar o corregir mis datos
+                Necesito modificar mi respuesta
               </button>
             </div>
           ) : guest ? (
@@ -700,7 +737,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
         {/* Closing */}
         <section className="closing">
-          <img src="/boda/assets/mama-8.jpg?v=20260806_v5" alt="Mirta y Guillermo" loading="lazy" />
+          <img src="/boda/assets/mama-1.jpg?v=20260807_v1" alt="Mirta y Guillermo" loading="lazy" />
           <div className="closing__shade"></div>
           <div className="closing__content">
             <p className="eyebrow">Mirta & Guillermo</p>
@@ -813,21 +850,28 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
             </div>
             <div style={{ padding: '20px 0' }}>
               <div className="field field--full" style={{ marginBottom: '16px' }}>
-                <label style={{ display: 'block', marginBottom: '8px' }}>Canción y Artista:</label>
+                <label htmlFor="songSuggestion" style={{ display: 'block', marginBottom: '8px' }}>Canción y artista</label>
                 <input
+                  id="songSuggestion"
                   type="text"
                   value={song}
-                  onChange={(e) => setSong(e.target.value)}
+                  onChange={(e) => { setSong(e.target.value); setSongStatus(''); }}
                   placeholder="Ej: Ed Sheeran - Perfect"
                 />
               </div>
+              {songStatus && (
+                <p className={`song-status${songStatus.startsWith('¡Gracias!') ? ' song-status--success' : ''}`} role="status">
+                  {songStatus}
+                </p>
+              )}
               <button
                 type="button"
                 className="button button--wine"
                 style={{ width: '100%' }}
-                onClick={() => { setPlaylistOpen(false); alert('¡Canción guardada para sugerir en tu RSVP!'); }}
+                onClick={handleSongSuggestion}
+                disabled={songSubmitting}
               >
-                Guardar Sugerencia
+                {songSubmitting ? 'Enviando...' : songStatus.startsWith('¡Gracias!') ? 'Canción enviada' : 'Enviar a Mirta y Guillermo'}
               </button>
             </div>
           </div>

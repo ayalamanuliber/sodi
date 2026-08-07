@@ -39,7 +39,9 @@ export async function POST(request: Request) {
       integrantes,
       menu: typeof body.menu === 'string' ? body.menu.slice(0, 80) : 'Tradicional',
       notas: typeof body.notas === 'string' ? body.notas.trim().slice(0, 600) : '',
-      cancion: typeof body.cancion === 'string' ? body.cancion.trim().slice(0, 160) : '',
+      cancion: typeof body.cancion === 'string' && body.cancion.trim()
+        ? body.cancion.trim().slice(0, 160)
+        : guest.cancionSugerida || '',
       fechaRespuesta: new Date().toISOString(),
     };
 

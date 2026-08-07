@@ -14,6 +14,7 @@ interface Guest {
   vistoEn: string | null;
   tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
   estilo?: 'oro' | 'esmeralda' | 'borgoña';
+  cancionSugerida?: string;
   respuesta?: {
     asistencia: string;
     pasesConfirmados: number;
@@ -245,7 +246,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       `"${(g.respuesta?.integrantes || []).join(', ')}"`,
       `"${g.respuesta?.menu || ''}"`,
       `"${g.respuesta?.notas || ''}"`,
-      `"${g.respuesta?.cancion || ''}"`,
+      `"${g.respuesta?.cancion || g.cancionSugerida || ''}"`,
       g.vistoEn ? new Date(g.vistoEn).toLocaleString('es-AR') : 'No',
       g.respuesta?.fechaRespuesta ? new Date(g.respuesta.fechaRespuesta).toLocaleString('es-AR') : ''
     ]);
@@ -552,7 +553,12 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                           )}
                           <div><strong style={{ color: '#111' }}>Menú:</strong> {guest.respuesta.menu}</div>
                           {guest.respuesta.notas && <div><strong style={{ color: '#111' }}>Notas:</strong> {guest.respuesta.notas}</div>}
-                          {guest.respuesta.cancion && <div><strong style={{ color: '#111' }}>🎵 Canción:</strong> {guest.respuesta.cancion}</div>}
+                          {(guest.respuesta.cancion || guest.cancionSugerida) && <div><strong style={{ color: '#111' }}>🎵 Canción:</strong> {guest.respuesta.cancion || guest.cancionSugerida}</div>}
+                        </div>
+                      ) : guest.cancionSugerida ? (
+                        <div style={{ fontSize: '0.85rem', color: '#222' }}>
+                          <div><strong style={{ color: '#111' }}>🎵 Canción sugerida:</strong> {guest.cancionSugerida}</div>
+                          <span style={{ color: '#666' }}>Aún no respondió la invitación</span>
                         </div>
                       ) : (
                         <span style={{ color: '#666', fontSize: '0.85rem' }}>Aún no respondió</span>

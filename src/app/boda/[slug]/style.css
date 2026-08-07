@@ -564,20 +564,14 @@ body.is-open .site-header {
   display: grid;
   height: min(900px, 91svh);
   min-height: 680px;
-  align-items: end;
+  align-items: center;
   overflow: hidden;
   color: #fff;
-  background: var(--ink);
+  background: #17231c;
 }
 
 .hero::before {
-  position: absolute;
-  inset: -28px;
-  content: "";
-  background: url("/boda/assets/portada.jpg") center 34% / cover;
-  filter: blur(20px) saturate(0.82);
-  opacity: 0.62;
-  transform: scale(1.06);
+  display: none;
 }
 
 .hero__image,
@@ -589,9 +583,12 @@ body.is-open .site-header {
 }
 
 .hero__image {
-  object-fit: contain;
-  object-position: right center;
-  transform: scale(1.03);
+  right: 0;
+  left: auto;
+  width: 53%;
+  object-fit: cover;
+  object-position: center 36%;
+  transform: scale(1.015);
   transition: transform 8s cubic-bezier(0.2, 0.6, 0.3, 1);
 }
 
@@ -601,8 +598,8 @@ body.is-open .hero__image {
 
 .hero__shade {
   background:
-    linear-gradient(90deg, rgba(17, 16, 14, 0.84) 0%, rgba(17, 16, 14, 0.44) 42%, rgba(17, 16, 14, 0.05) 74%),
-    linear-gradient(0deg, rgba(17, 16, 14, 0.48) 0%, transparent 42%);
+    linear-gradient(90deg, #17231c 0%, #17231c 39%, rgba(23, 35, 28, 0.88) 49%, rgba(23, 35, 28, 0.08) 68%),
+    linear-gradient(0deg, rgba(10, 16, 12, 0.46) 0%, transparent 38%);
 }
 
 .hero__content {
@@ -610,7 +607,7 @@ body.is-open .hero__image {
   z-index: 2;
   width: var(--page);
   margin: 0 auto;
-  padding: calc(var(--header-height) + 40px) 0 92px;
+  padding: calc(var(--header-height) + 34px) 0 48px;
 }
 
 .hero__kicker {
@@ -622,9 +619,9 @@ body.is-open .hero__image {
 }
 
 .hero h1 {
-  max-width: 720px;
+  max-width: 620px;
   font-family: var(--script);
-  font-size: clamp(5.8rem, 11vw, 10.5rem);
+  font-size: clamp(6.2rem, 8.5vw, 9.2rem);
   font-weight: 400;
   line-height: 0.84;
 }
@@ -689,13 +686,15 @@ body.is-open .hero__image {
 /* Story */
 .story {
   display: grid;
-  min-height: 650px;
+  width: min(1320px, calc(100vw - 64px));
+  min-height: 680px;
+  margin-block: 72px;
   grid-template-columns: 1.05fr 0.95fr;
   background: var(--wine);
 }
 
 .story__media {
-  min-height: 650px;
+  min-height: 680px;
   overflow: hidden;
 }
 
@@ -712,7 +711,7 @@ body.is-open .hero__image {
   max-width: 660px;
   justify-content: center;
   flex-direction: column;
-  padding: 84px clamp(40px, 8vw, 120px);
+  padding: 76px clamp(44px, 6vw, 92px);
   color: var(--ivory);
 }
 
@@ -723,7 +722,7 @@ body.is-open .hero__image {
 
 .story__copy h2 {
   font-family: var(--script);
-  font-size: clamp(4.2rem, 6.8vw, 7rem);
+  font-size: clamp(4rem, 5.6vw, 6.2rem);
   font-style: normal;
   font-weight: 400;
   line-height: 0.88;
@@ -759,12 +758,12 @@ body.is-open .hero__image {
 
 /* Events */
 .events {
-  padding-block: 120px;
+  padding-block: 102px 112px;
 }
 
 .events__grid {
   display: grid;
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   grid-template-columns: 1fr 80px 1fr;
 }
@@ -797,7 +796,7 @@ body.is-open .hero__image {
 
 .event h3 {
   font-family: var(--serif);
-  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  font-size: clamp(2rem, 2.8vw, 2.85rem);
   font-weight: 400;
   line-height: 1.1;
 }
@@ -990,7 +989,7 @@ body.is-open .hero__image {
 
 /* Gallery */
 .gallery {
-  padding: 120px 0 0;
+  padding: 104px 0 0;
   background: var(--ivory);
 }
 
@@ -1014,9 +1013,9 @@ body.is-open .hero__image {
 .gallery__grid {
   display: grid;
   width: 100%;
-  height: min(900px, 74vw);
-  min-height: 620px;
-  max-height: 940px;
+  height: min(820px, 66vw);
+  min-height: 580px;
+  max-height: 820px;
   grid-template-columns: 1.06fr 0.92fr 0.78fr;
   grid-template-rows: 1fr 0.78fr;
   gap: 4px;
@@ -1057,7 +1056,7 @@ body.is-open .hero__image {
 }
 
 .gallery__item--detail img {
-  object-position: center 15%;
+  object-position: center 48%;
 }
 
 .gallery__item--dinner {
@@ -1073,7 +1072,7 @@ body.is-open .hero__image {
 .countdown {
   position: relative;
   display: grid;
-  min-height: 490px;
+  min-height: 430px;
   place-items: center;
   overflow: hidden;
   color: #fff;
@@ -1090,12 +1089,12 @@ body.is-open .hero__image {
 
 .countdown__image {
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center 48%;
   filter: grayscale(1);
 }
 
 .countdown__shade {
-  background: rgba(12, 12, 11, 0.72);
+  background: rgba(12, 12, 11, 0.61);
 }
 
 .countdown__content {
@@ -1153,7 +1152,8 @@ body.is-open .hero__image {
 
 /* Details */
 .details {
-  padding-block: 110px;
+  width: min(1240px, calc(100vw - 64px));
+  padding-block: 104px;
 }
 
 .details__grid {
@@ -1165,7 +1165,7 @@ body.is-open .hero__image {
 
 .detail {
   display: flex;
-  min-height: 190px;
+  min-height: 230px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -1189,18 +1189,18 @@ body.is-open .hero__image {
 }
 
 .detail h3 {
-  font-size: 0.64rem;
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
 .detail p {
-  max-width: 130px;
+  max-width: 190px;
   margin-top: 9px;
   color: var(--ink-soft);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: 1.24rem;
   font-style: italic;
   line-height: 1.2;
 }
@@ -1268,9 +1268,9 @@ body.is-open .hero__image {
 .rsvp {
   position: relative;
   display: grid;
-  padding: 120px max(24px, calc((100vw - 1180px) / 2));
-  grid-template-columns: 0.76fr 1.24fr;
-  gap: 100px;
+  padding: 112px max(32px, calc((100vw - 1240px) / 2));
+  grid-template-columns: minmax(330px, 0.82fr) minmax(480px, 1.18fr);
+  gap: 88px;
   overflow: hidden;
   background: #f2eee6;
 }
@@ -1504,6 +1504,49 @@ body.is-open .hero__image {
   text-align: center;
 }
 
+.rsvp-success {
+  display: flex;
+  min-height: 380px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  padding: 48px 44px;
+  border: 1px solid var(--champagne-light);
+  border-radius: 4px;
+  color: var(--wine-dark);
+  background: var(--paper);
+  box-shadow: 0 18px 52px rgba(32, 58, 44, 0.08);
+  text-align: center;
+}
+
+.rsvp-success__mark {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px solid var(--champagne);
+  border-radius: 50%;
+  color: var(--wine);
+  font-family: var(--serif);
+  font-size: 1.55rem;
+}
+
+.rsvp-success h3 {
+  font-family: var(--serif);
+  font-size: clamp(2.25rem, 3.6vw, 3.4rem);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.rsvp-success > p {
+  max-width: 480px;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  line-height: 1.55;
+}
+
 /* Closing */
 .closing {
   position: relative;
@@ -1525,7 +1568,7 @@ body.is-open .hero__image {
 
 .closing > img {
   object-fit: cover;
-  object-position: center 62%;
+  object-position: center 50%;
 }
 
 .closing__shade {
@@ -1723,6 +1766,23 @@ body.is-open .hero__image {
   font-size: 0.72rem;
 }
 
+.song-status {
+  margin: -2px 0 16px;
+  color: #8a3f36;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.song-status--success {
+  padding: 12px 14px;
+  border: 1px solid rgba(53, 88, 68, 0.24);
+  color: var(--wine-dark);
+  background: rgba(53, 88, 68, 0.07);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+}
+
 .floating-rsvp {
   position: fixed;
   right: 18px;
@@ -1823,7 +1883,22 @@ body.is-open .hero__image {
     font-size: clamp(4.6rem, 14vw, 7.8rem);
   }
 
+  .hero__image {
+    right: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 32%;
+  }
+
+  .hero__shade {
+    background:
+      linear-gradient(0deg, rgba(17, 16, 14, 0.84) 0%, rgba(17, 16, 14, 0.34) 60%, rgba(17, 16, 14, 0.1) 100%);
+  }
+
   .story {
+    width: 100%;
+    margin-block: 0;
     grid-template-columns: 1fr;
   }
 
@@ -2004,6 +2079,9 @@ body.is-open .hero__image {
   }
 
   .hero__image {
+    right: 0;
+    left: 0;
+    width: 100%;
     object-fit: cover;
     object-position: center 32%;
   }
@@ -2134,6 +2212,7 @@ body.is-open .hero__image {
   }
 
   .details {
+    width: var(--page);
     padding-block: 78px;
   }
 
@@ -2149,6 +2228,11 @@ body.is-open .hero__image {
   .rsvp {
     padding: 78px 16px 98px;
     gap: 44px;
+  }
+
+  .rsvp-success {
+    min-height: 340px;
+    padding: 38px 22px;
   }
 
   .rsvp__intro {

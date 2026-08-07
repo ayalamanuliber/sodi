@@ -22,6 +22,7 @@ export interface WeddingGuest {
   vistoEn: string | null;
   tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
   estilo?: 'oro' | 'esmeralda' | 'borgoña';
+  cancionSugerida?: string;
   respuesta?: WeddingResponse | null;
 }
 
