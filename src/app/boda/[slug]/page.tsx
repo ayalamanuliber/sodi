@@ -737,7 +737,8 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
 
         {/* Closing */}
         <section className="closing">
-          <img src="/boda/assets/mama-1.jpg?v=20260807_v1" alt="Mirta y Guillermo" loading="lazy" />
+          <img className="closing__backdrop" src="/boda/assets/mama-8.jpg?v=20260807_v2" alt="" aria-hidden="true" loading="lazy" />
+          <img className="closing__image" src="/boda/assets/mama-8.jpg?v=20260807_v2" alt="Mirta y Guillermo" loading="lazy" />
           <div className="closing__shade"></div>
           <div className="closing__content">
             <p className="eyebrow">Mirta & Guillermo</p>
@@ -869,7 +870,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 className="button button--wine"
                 style={{ width: '100%' }}
                 onClick={handleSongSuggestion}
-                disabled={songSubmitting}
+                disabled={songSubmitting || songStatus.startsWith('¡Gracias!')}
               >
                 {songSubmitting ? 'Enviando...' : songStatus.startsWith('¡Gracias!') ? 'Canción enviada' : 'Enviar a Mirta y Guillermo'}
               </button>

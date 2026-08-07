@@ -23,6 +23,10 @@ export async function POST(request: Request) {
       return NextResponse.json({ success: false, message: 'Invitación no encontrada' }, { status: 404 });
     }
 
+    if (guest.cancionSugerida === cancion && (!guest.respuesta || guest.respuesta.cancion === cancion)) {
+      return NextResponse.json({ success: true, alreadySaved: true, message: 'Canción ya recibida' });
+    }
+
     guest.cancionSugerida = cancion;
     if (guest.respuesta) guest.respuesta.cancion = cancion;
     await saveWeddingGuests(slug, guests, etag);

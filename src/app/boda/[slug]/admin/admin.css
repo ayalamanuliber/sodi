@@ -1,0 +1,188 @@
+.wedding-admin__notice {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  z-index: 1000;
+  max-width: calc(100vw - 32px);
+  padding: 11px 16px;
+  border: 1px solid #9fb7a7;
+  border-radius: 6px;
+  color: #173c2a;
+  background: #f3faf5;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+  font-size: 0.88rem;
+  font-weight: 650;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 760px) {
+  .wedding-admin {
+    padding: 18px 12px 88px !important;
+  }
+
+  .wedding-admin__header {
+    align-items: flex-start !important;
+    margin-bottom: 20px !important;
+  }
+
+  .wedding-admin__header h1 {
+    font-size: 1.55rem !important;
+    letter-spacing: 0 !important;
+  }
+
+  .wedding-admin__header-actions {
+    display: grid !important;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px !important;
+  }
+
+  .wedding-admin__header-actions > * {
+    min-height: 44px;
+    justify-content: center;
+    padding: 9px 10px !important;
+    text-align: center;
+  }
+
+  .wedding-admin__header-actions > :last-child {
+    grid-column: 1 / -1;
+  }
+
+  .wedding-admin__metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .wedding-admin__metric {
+    min-height: 126px;
+    padding: 15px !important;
+  }
+
+  .wedding-admin__metric > :first-child {
+    font-size: 0.7rem !important;
+  }
+
+  .wedding-admin__metric > :last-child {
+    font-size: 1.75rem !important;
+  }
+
+  .wedding-admin__guide {
+    display: block !important;
+    padding: 15px 16px !important;
+    margin-bottom: 18px !important;
+    border-radius: 8px !important;
+  }
+
+  .wedding-admin__guide > span {
+    display: none;
+  }
+
+  .wedding-admin__card {
+    padding: 17px !important;
+    margin-bottom: 18px !important;
+    border-radius: 10px !important;
+  }
+
+  .wedding-admin__form-row {
+    display: grid !important;
+    grid-template-columns: 1fr;
+  }
+
+  .wedding-admin__form-row > * {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .wedding-admin__tabs {
+    flex-wrap: nowrap !important;
+    padding-bottom: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .wedding-admin__tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .wedding-admin__tabs button {
+    flex: 0 0 auto;
+  }
+
+  .wedding-admin__guest-list {
+    padding: 10px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  .wedding-admin__table-wrap {
+    overflow: visible !important;
+  }
+
+  .wedding-admin__table,
+  .wedding-admin__table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .wedding-admin__table thead {
+    display: none;
+  }
+
+  .wedding-admin__guest-row {
+    display: block;
+    padding: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #dce4e0 !important;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+  }
+
+  .wedding-admin__guest-row td {
+    display: grid;
+    min-height: 42px;
+    align-items: start;
+    padding: 9px 0 !important;
+    border-bottom: 1px solid #eef2f0;
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 10px;
+    white-space: normal !important;
+  }
+
+  .wedding-admin__guest-row td::before {
+    color: #64748b;
+    content: attr(data-label);
+    font-size: 0.7rem;
+    font-weight: 750;
+    text-transform: uppercase;
+  }
+
+  .wedding-admin__guest-row td:first-child {
+    grid-template-columns: 1fr;
+  }
+
+  .wedding-admin__guest-row td:first-child::before {
+    display: none;
+  }
+
+  .wedding-admin__guest-row td:last-child {
+    align-items: center;
+    border-bottom: 0;
+  }
+
+  .wedding-admin__guest-actions {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .wedding-admin__metrics {
+    grid-template-columns: 1fr !important;
+  }
+
+  .wedding-admin__metric {
+    min-height: 0;
+  }
+}

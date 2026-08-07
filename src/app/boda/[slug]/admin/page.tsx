@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, use } from 'react';
+import './admin.css';
 
 interface Guest {
   id: string;
@@ -44,8 +45,12 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   const [newTipo, setNewTipo] = useState<'completo' | 'solo-after' | 'solo-ceremonia'>('completo');
   const [newEstilo, setNewEstilo] = useState<'oro' | 'esmeralda' | 'borgoña'>('oro');
   const [adding, setAdding] = useState(false);
+  const [notice, setNotice] = useState('');
 
-  const STORAGE_KEY = `sodi_boda_guests_${slug}`;
+  const showNotice = (message: string) => {
+    setNotice(message);
+    window.setTimeout(() => setNotice(''), 3200);
+  };
 
   useEffect(() => {
     loadGuests();
@@ -100,9 +105,6 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
 
       setAuthenticated(true);
       setGuests(data.guests);
-      if (typeof window !== 'undefined') {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
-      }
     } catch (e) {
       console.error('Error loading guests:', e);
       setLoginError('No se pudo cargar la lista de invitados. Intentá nuevamente.');
@@ -133,20 +135,18 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       const data = await res.json();
       if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
-        if (typeof window !== 'undefined') {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(data.guests));
-        }
+        setNewNombre('');
+        setNewPases(2);
+        setNewTelefono('');
+        setNewTipo('completo');
+        setNewEstilo('oro');
+        showNotice(`Invitación creada para ${newNombre.trim()}.`);
       } else {
         throw new Error(data.message || 'No se pudo guardar la invitación');
       }
-    } catch (e) {
-      alert('Ocurrió un error al guardar la invitación.');
+    } catch (error) {
+      showNotice(error instanceof Error ? error.message : 'No se pudo guardar la invitación.');
     } finally {
-      setNewNombre('');
-      setNewPases(2);
-      setNewTelefono('');
-      setNewTipo('completo');
-      setNewEstilo('oro');
       setAdding(false);
     }
   };
@@ -177,8 +177,9 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       } else {
         await loadGuests();
       }
-    } catch (e) {
+    } catch {
       await loadGuests();
+      showNotice('No se pudo actualizar el estado de envío.');
     }
   };
 
@@ -199,8 +200,9 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       } else {
         await loadGuests();
       }
-    } catch (e) {
+    } catch {
       await loadGuests();
+      showNotice('No se pudo eliminar la invitación.');
     }
   };
 
@@ -213,7 +215,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     if (guest.tipo === 'solo-after') {
       message = `¡Hola ${guest.nombre}! 🥳 Queremos celebrar a lo grande en nuestro casamiento y nos encantaría que vengas a bailar, brindar y festejar con nosotros a partir del after-party (23:30hs). En este enlace podés ver la tarjeta digital y confirmar tus ${pasesText}:\n\n${link}`;
     } else if (guest.tipo === 'solo-ceremonia') {
-      message = `¡Hola ${guest.nombre}! 💒 Nos encantaría de corazón que nos acompañes en la ceremonia civil de nuestro casamiento. En este enlace podés ver la tarjeta con toda la información y confirmar tu asistencia:\n\n${link}`;
+      message = `¡Hola ${guest.nombre}! 💒 Nos encantaría de corazón que nos acompañes en la ceremonia religiosa de nuestro casamiento. En este enlace podés ver la tarjeta con toda la información y confirmar tu asistencia:\n\n${link}`;
     } else {
       message = `¡Hola ${guest.nombre}! 💒 Nos encantaría que nos acompañes en nuestro casamiento (Ceremonia y Fiesta). En este enlace podés ver la tarjeta de invitación premium y confirmar tus ${pasesText}:\n\n${link}`;
     }
@@ -228,25 +230,30 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     }
   };
 
-  const copyLink = (guest: Guest) => {
+  const copyLink = async (guest: Guest) => {
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://sodi.com.ar';
     const link = `${baseUrl}/boda/${slug}?i=${guest.id}`;
-    navigator.clipboard.writeText(link);
-    alert(`¡Link copiado para ${guest.nombre}!\n${link}`);
+    try {
+      await navigator.clipboard.writeText(link);
+      showNotice(`Link de ${guest.nombre} copiado.`);
+    } catch {
+      showNotice('No se pudo copiar el link.');
+    }
   };
 
   const exportCSV = () => {
+    const csvCell = (value: unknown) => `"${String(value ?? '').replaceAll('"', '""')}"`;
     const headers = ['Nombre', 'Pases Asignados', 'Enviado', 'Estado', 'Pases Confirmados', 'Integrantes', 'Menú', 'Notas', 'Canción', 'Visto', 'Fecha Respuesta'];
     const rows = guests.map(g => [
-      `"${g.nombre}"`,
+      csvCell(g.nombre),
       g.pases,
       g.enviado ? 'Sí' : 'No',
       g.estado,
       g.respuesta ? g.respuesta.pasesConfirmados : '',
-      `"${(g.respuesta?.integrantes || []).join(', ')}"`,
-      `"${g.respuesta?.menu || ''}"`,
-      `"${g.respuesta?.notas || ''}"`,
-      `"${g.respuesta?.cancion || g.cancionSugerida || ''}"`,
+      csvCell((g.respuesta?.integrantes || []).join(', ')),
+      csvCell(g.respuesta?.menu),
+      csvCell(g.respuesta?.notas),
+      csvCell(g.respuesta?.cancion || g.cancionSugerida),
       g.vistoEn ? new Date(g.vistoEn).toLocaleString('es-AR') : 'No',
       g.respuesta?.fechaRespuesta ? new Date(g.respuesta.fechaRespuesta).toLocaleString('es-AR') : ''
     ]);
@@ -265,7 +272,6 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   const totalPases = guests.reduce((sum, g) => sum + g.pases, 0);
   const totalEnviados = guests.filter(g => g.enviado).length;
   const confirmados = guests.filter(g => g.estado === 'confirmado').reduce((sum, g) => sum + (g.respuesta?.pasesConfirmados || g.pases), 0);
-  const rechazados = guests.filter(g => g.estado === 'rechazado').length;
   const pendientes = guests.filter(g => g.estado === 'pendiente').length;
 
   const filteredGuests = guests.filter(g => {
@@ -304,8 +310,9 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   }
 
   return (
-    <div style={styles.container}>
-      <header style={styles.header}>
+    <div className="wedding-admin" style={styles.container}>
+      {notice && <div className="wedding-admin__notice" role="status">{notice}</div>}
+      <header className="wedding-admin__header" style={styles.header}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
             <span style={{ fontSize: '1.1rem', fontWeight: '900', letterSpacing: '1px', color: '#ffffff', backgroundColor: '#1a251e', padding: '1px 6px', borderRadius: '3px' }}>SODI</span>
@@ -313,7 +320,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           </div>
           <h1 style={styles.mainHeading}>Administración de Invitaciones</h1>
         </div>
-        <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+        <div className="wedding-admin__header-actions" style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
           <a
             href={`/boda/${slug}`}
             target="_blank"
@@ -322,33 +329,33 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           >
             👁️ Vista previa
           </a>
-          <button onClick={exportCSV} style={styles.buttonOutlineHeader}>📥 Exportar Excel</button>
+          <button onClick={exportCSV} style={styles.buttonOutlineHeader}>📥 Descargar lista</button>
           <button onClick={handleLogout} style={styles.buttonDangerHeader}>Cerrar Sesión</button>
         </div>
       </header>
 
       {/* Metrics Row */}
-      <div style={styles.metricsGrid}>
-        <div style={styles.metricCard}>
+      <div className="wedding-admin__metrics" style={styles.metricsGrid}>
+        <div className="wedding-admin__metric" style={styles.metricCard}>
           <span style={styles.metricLabel}>Total Invitaciones</span>
           <span style={styles.metricValue}>{totalInvitaciones} <small style={{ fontSize: '1rem', color: '#555' }}>({totalPases} pases)</small></span>
         </div>
-        <div style={{ ...styles.metricCard, borderLeft: '4px solid #0288d1' }}>
+        <div className="wedding-admin__metric" style={{ ...styles.metricCard, borderLeft: '4px solid #0288d1' }}>
           <span style={styles.metricLabel}>Enviadas por WhatsApp</span>
           <span style={{ ...styles.metricValue, color: '#0288d1' }}>{totalEnviados} / {totalInvitaciones}</span>
         </div>
-        <div style={{ ...styles.metricCard, borderLeft: '4px solid #2e7d32' }}>
+        <div className="wedding-admin__metric" style={{ ...styles.metricCard, borderLeft: '4px solid #2e7d32' }}>
           <span style={styles.metricLabel}>Pases Confirmados</span>
           <span style={{ ...styles.metricValue, color: '#2e7d32' }}>{confirmados}</span>
         </div>
-        <div style={{ ...styles.metricCard, borderLeft: '4px solid #f57c00' }}>
+        <div className="wedding-admin__metric" style={{ ...styles.metricCard, borderLeft: '4px solid #f57c00' }}>
           <span style={styles.metricLabel}>Pendientes de Respuesta</span>
           <span style={{ ...styles.metricValue, color: '#f57c00' }}>{pendientes}</span>
         </div>
       </div>
 
       {/* Friendly Guide for Mirta */}
-      <div style={{
+      <div className="wedding-admin__guide" style={{
         backgroundColor: '#ecfdf5',
         border: '1px solid #a7f3d0',
         borderRadius: '12px',
@@ -359,25 +366,18 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         alignItems: 'flex-start',
         boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -2px rgba(0, 0, 0, 0.02)'
       }}>
-        <span style={{ fontSize: '1.6rem', marginTop: '2px' }}>💡</span>
-        <div style={{ fontSize: '0.9rem', color: '#065f46', lineHeight: '1.6' }}>
-          <strong style={{ color: '#064e3b', fontSize: '1rem', display: 'block', marginBottom: '6px' }}>
-            ¡Guía rápida de ayuda para enviar tus invitaciones!
-          </strong>
-          <ul style={{ margin: '0', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-            <li><strong>Paso 1 (Crear):</strong> Escribí el nombre y teléfono del invitado arriba, elegí su tipo de pase y color, y hacé clic en el botón verde <strong>Crear Invitación</strong>.</li>
-            <li><strong>Paso 2 (Enviar):</strong> Buscá al invitado abajo en la lista y tocá el botón verde <strong>📲 WhatsApp</strong>. Se abrirá WhatsApp con todo el mensaje ya escrito y su invitación lista para enviar.</li>
-            <li><strong>Paso 3 (Copiar):</strong> Si preferís mandárselo por otra red social, hacé clic en <strong>📋 Copiar Link</strong> y pegalo donde quieras.</li>
-            <li><strong>Paso 4 (Registro):</strong> Cuando envíes una invitación, el sistema automáticamente lo marcará como <span style={{ color: '#0369a1', fontWeight: 'bold' }}>🟢 Enviado</span> para que lleves el control perfecto de a quiénes ya les mandaste.</li>
-          </ul>
+        <span style={{ fontSize: '1.4rem' }}>💡</span>
+        <div style={{ fontSize: '0.9rem', color: '#065f46', lineHeight: '1.5' }}>
+          <strong style={{ color: '#064e3b', fontSize: '1rem' }}>Cómo usar el panel:</strong>{' '}
+          creá la invitación, abrila para revisarla y enviala por WhatsApp. También podés copiar el link o corregir el estado de envío desde la lista.
         </div>
       </div>
 
       {/* Add New Guest Form */}
-      <section style={styles.card}>
+      <section className="wedding-admin__card" style={styles.card}>
         <h2 style={styles.cardTitle}>✨ Agregar Nueva Invitación</h2>
         <form onSubmit={handleAddGuest} style={{ ...styles.addForm, display: 'flex', flexDirection: 'column', gap: '12px' }}>
-          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
+          <div className="wedding-admin__form-row" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
             <input
               type="text"
               placeholder="Nombre de Persona / Familia (ej: Familia Pérez)"
@@ -407,7 +407,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
             />
           </div>
 
-          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
+          <div className="wedding-admin__form-row" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
             <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 100%', gap: '4px' }}>
               <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Tipo de Invitación / Pase:</label>
               <select
@@ -432,7 +432,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
               >
                 <option value="completo">Completo (Ceremonia + Fiesta)</option>
                 <option value="solo-after">Solo After-Party (Baile/Trasnochados)</option>
-                <option value="solo-ceremonia">Solo Ceremonia (Iglesia/Civil)</option>
+                <option value="solo-ceremonia">Solo Ceremonia (Iglesia)</option>
               </select>
             </div>
           </div>
@@ -444,7 +444,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       </section>
 
       {/* Filter Tabs */}
-      <div style={styles.tabRow}>
+      <div className="wedding-admin__tabs" style={styles.tabRow}>
         {(['todos', 'sin-enviar', 'confirmados', 'pendientes', 'rechazados'] as const).map(tab => {
           const tabStateMap: Record<string, (g: Guest) => boolean> = {
             todos: () => true,
@@ -477,7 +477,7 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
       </div>
 
       {/* Guest Table */}
-      <section style={styles.card}>
+      <section className="wedding-admin__card wedding-admin__guest-list" style={styles.card}>
         {loading ? (
           <p style={{ padding: '24px', textAlign: 'center', color: '#111', fontWeight: '600' }}>Cargando lista de invitados...</p>
         ) : filteredGuests.length === 0 ? (
@@ -486,23 +486,23 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
             <p style={{ fontSize: '0.9rem', color: '#555' }}>Agregá un invitado en el formulario de arriba para generar su link único y enviárselo por WhatsApp.</p>
           </div>
         ) : (
-          <div style={{ overflowX: 'auto' }}>
-            <table style={styles.table}>
+          <div className="wedding-admin__table-wrap" style={{ overflowX: 'auto' }}>
+            <table className="wedding-admin__table" style={styles.table}>
               <thead>
                 <tr>
                   <th style={styles.th}>Invitado / Familia</th>
                   <th style={styles.th}>Pases</th>
                   <th style={styles.th}>¿Enviado?</th>
-                  <th style={styles.th}>Estado RSVP</th>
+                  <th style={styles.th}>Confirmación</th>
                   <th style={styles.th}>Apertura</th>
-                  <th style={styles.th}>Detalle Respuesta</th>
-                  <th style={styles.th}>Acciones de Envío</th>
+                  <th style={styles.th}>Respuesta</th>
+                  <th style={styles.th}>Acciones</th>
                 </tr>
               </thead>
               <tbody>
                 {filteredGuests.map(guest => (
-                  <tr key={guest.id} style={styles.tr}>
-                    <td style={styles.td}>
+                  <tr className="wedding-admin__guest-row" key={guest.id} style={styles.tr}>
+                    <td data-label="Invitado" style={styles.td}>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
                         <strong style={{ color: '#0f172a', fontSize: '1rem', fontWeight: '700' }}>{guest.nombre}</strong>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#64748b', flexWrap: 'wrap' }}>
@@ -510,15 +510,15 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                             fontWeight: '600',
                             color: guest.tipo === 'solo-after' ? '#0284c7' : guest.tipo === 'solo-ceremonia' ? '#ea580c' : '#7c3aed'
                           }}>
-                            {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Civil' : 'Pase Completo'}
+                            {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Ceremonia' : 'Pase Completo'}
                           </span>
                           <span>•</span>
                           <code style={{ fontSize: '0.75rem', backgroundColor: '#f1f5f9', padding: '1px 4px', borderRadius: '4px' }}>?i={guest.id}</code>
                         </div>
                       </div>
                     </td>
-                    <td style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
-                    <td style={styles.td}>
+                    <td data-label="Pases" style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
+                    <td data-label="Envío" style={styles.td}>
                       <button
                         onClick={() => handleToggleEnviado(guest.id, !!guest.enviado)}
                         style={{
@@ -536,15 +536,15 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                         )}
                       </button>
                     </td>
-                    <td style={styles.td}>
+                    <td data-label="Confirmación" style={styles.td}>
                       {guest.estado === 'confirmado' && <span style={styles.badgeSuccess}>✅ Confirmado</span>}
                       {guest.estado === 'rechazado' && <span style={styles.badgeDanger}>❌ No Asiste</span>}
                       {guest.estado === 'pendiente' && <span style={styles.badgeWarning}>⏳ Pendiente</span>}
                     </td>
-                    <td style={styles.td}>
+                    <td data-label="Apertura" style={styles.td}>
                       {guest.vistoEn ? <span style={{ color: '#1b5e20', fontWeight: '600' }}>👁️ Abierto</span> : <span style={{ color: '#777' }}>Sin abrir</span>}
                     </td>
-                    <td style={styles.td}>
+                    <td data-label="Respuesta" style={styles.td}>
                       {guest.respuesta ? (
                         <div style={{ fontSize: '0.85rem', color: '#222' }}>
                           <div><strong style={{ color: '#111' }}>Asisten:</strong> {guest.respuesta.pasesConfirmados} de {guest.pases} pases</div>
@@ -564,8 +564,8 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                         <span style={{ color: '#666', fontSize: '0.85rem' }}>Aún no respondió</span>
                       )}
                     </td>
-                    <td style={{ ...styles.td, whiteSpace: 'nowrap' }}>
-                      <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'nowrap' }}>
+                    <td data-label="Acciones" style={{ ...styles.td, whiteSpace: 'nowrap' }}>
+                      <div className="wedding-admin__guest-actions" style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'nowrap' }}>
                         <a
                           href={`/boda/${slug}?i=${encodeURIComponent(guest.id)}`}
                           target="_blank"

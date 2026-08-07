@@ -585,9 +585,9 @@ body.is-open .site-header {
 .hero__image {
   right: 0;
   left: auto;
-  width: 53%;
+  width: 50%;
   object-fit: cover;
-  object-position: center 36%;
+  object-position: center 8%;
   transform: scale(1.015);
   transition: transform 8s cubic-bezier(0.2, 0.6, 0.3, 1);
 }
@@ -1566,12 +1566,25 @@ body.is-open .hero__image {
   height: 100%;
 }
 
-.closing > img {
+.closing__backdrop,
+.closing__image {
   object-fit: cover;
   object-position: center 50%;
 }
 
+.closing__backdrop {
+  transform: scale(1.04);
+  filter: blur(12px) saturate(0.78);
+}
+
+.closing__image {
+  z-index: 1;
+  padding-block: 24px;
+  object-fit: contain;
+}
+
 .closing__shade {
+  z-index: 2;
   background:
     linear-gradient(90deg, rgba(12, 12, 11, 0.15), rgba(12, 12, 11, 0.82)),
     linear-gradient(0deg, rgba(12, 12, 11, 0.32), transparent);
@@ -1579,7 +1592,7 @@ body.is-open .hero__image {
 
 .closing__content {
   position: relative;
-  z-index: 1;
+  z-index: 3;
   width: min(560px, calc(100% - 48px));
   margin-right: max(24px, calc((100vw - 1180px) / 2));
   margin-left: auto;
@@ -1903,7 +1916,9 @@ body.is-open .hero__image {
   }
 
   .story__media {
-    min-height: 560px;
+    height: 460px;
+    max-height: 460px;
+    min-height: 0;
   }
 
   .story__copy {
@@ -2132,7 +2147,13 @@ body.is-open .hero__image {
   }
 
   .story__media {
-    min-height: 440px;
+    height: 380px;
+    max-height: 380px;
+    min-height: 0;
+  }
+
+  .story__media img {
+    object-position: center 68%;
   }
 
   .story__copy {
@@ -2195,7 +2216,7 @@ body.is-open .hero__image {
   }
 
   .countdown {
-    min-height: 400px;
+    min-height: 310px;
   }
 
   .countdown__numbers {
@@ -2203,7 +2224,7 @@ body.is-open .hero__image {
   }
 
   .countdown__numbers strong {
-    font-size: clamp(3.6rem, 18vw, 5.2rem);
+    font-size: clamp(3.1rem, 16vw, 4.45rem);
   }
 
   .countdown__numbers span {
@@ -2257,11 +2278,21 @@ body.is-open .hero__image {
   }
 
   .closing {
-    min-height: 610px;
+    min-height: 500px;
   }
 
-  .closing > img {
-    object-position: center 62%;
+  .closing__backdrop {
+    object-position: center;
+  }
+
+  .closing__image {
+    padding: 28px 0;
+    object-position: center;
+    filter: saturate(0.86) brightness(0.84);
+  }
+
+  .closing__shade {
+    background: rgba(12, 12, 11, 0.48);
   }
 
   .closing__content h2 {
@@ -2269,10 +2300,18 @@ body.is-open .hero__image {
   }
 
   .floating-rsvp {
-    right: 12px;
+    right: auto;
     bottom: 12px;
-    left: 12px;
+    left: 50%;
     display: flex;
+    width: max-content;
+    max-width: calc(100% - 32px);
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  .floating-rsvp.is-hidden {
+    transform: translate(-50%, 20px);
   }
 
   .modal {
