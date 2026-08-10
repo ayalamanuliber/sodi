@@ -5,10 +5,6 @@ export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 export default function OpenGraphImage() {
-  const siteUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : 'http://localhost:3012';
-
   return new ImageResponse(
     (
       <div
@@ -30,7 +26,7 @@ export default function OpenGraphImage() {
           }}
         >
           <img
-            src={`${siteUrl}/boda/assets/portada.jpg`}
+            src="https://www.sodi.com.ar/boda/assets/portada.jpg"
             alt=""
             width="648"
             height="1036"
