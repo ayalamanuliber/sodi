@@ -1,4 +1,4 @@
-import { get, put } from '@vercel/blob';
+import { BlobPreconditionFailedError, get, put } from '@vercel/blob';
 
 export interface WeddingResponse {
   asistencia: 'confirmado' | 'rechazado';
@@ -58,4 +58,52 @@ export async function saveWeddingGuests(slug: string, guests: WeddingGuest[], et
     cacheControlMaxAge: 60,
     ...(etag ? { ifMatch: etag } : {}),
   });
+}
+
+export class WeddingGuestMutationError extends Error {
+  readonly status: number;
+
+  constructor(message: string, status: number) {
+    super(message);
+    this.name = 'WeddingGuestMutationError';
+    this.status = status;
+  }
+}
+
+type WeddingGuestMutationResult<T> = {
+  result: T;
+  changed?: boolean;
+};
+
+export async function mutateWeddingGuests<T>(
+  slug: string,
+  mutate: (guests: WeddingGuest[]) => WeddingGuestMutationResult<T> | Promise<WeddingGuestMutationResult<T>>,
+) {
+  const maxAttempts = 12;
+
+  for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+    const { guests, etag } = await fetchWeddingGuests(slug);
+    const mutation = await mutate(guests);
+
+    if (mutation.changed === false) {
+      return { guests, result: mutation.result };
+    }
+
+    try {
+      await saveWeddingGuests(slug, guests, etag);
+      return { guests, result: mutation.result };
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : '';
+      const isConflict = error instanceof BlobPreconditionFailedError
+        || errorMessage.includes('ETag mismatch')
+        || errorMessage.includes('conflicting operation');
+
+      if (!isConflict || attempt === maxAttempts - 1) throw error;
+
+      const retryDelay = Math.min(75 * (2 ** attempt), 1_000) + Math.floor(Math.random() * 250);
+      await new Promise((resolve) => setTimeout(resolve, retryDelay));
+    }
+  }
+
+  throw new Error('Wedding guest mutation exhausted all retries');
 }

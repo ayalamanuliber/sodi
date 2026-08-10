@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import {
   DEFAULT_WEDDING_SLUG,
-  fetchWeddingGuests,
-  saveWeddingGuests,
+  mutateWeddingGuests,
+  WeddingGuestMutationError,
 } from '@/lib/boda-store';
 
 export async function POST(request: Request) {
@@ -16,23 +16,28 @@ export async function POST(request: Request) {
       return NextResponse.json({ success: false, message: 'Escribí el nombre de la canción y el artista.' }, { status: 400 });
     }
 
-    const { guests, etag } = await fetchWeddingGuests(slug);
-    const guest = guests.find((item) => item.id.toLowerCase() === code.toLowerCase());
+    const updated = await mutateWeddingGuests(slug, (guests) => {
+      const guest = guests.find((item) => item.id.toLowerCase() === code.toLowerCase());
+      if (!guest) throw new WeddingGuestMutationError('Invitación no encontrada', 404);
 
-    if (!guest) {
-      return NextResponse.json({ success: false, message: 'Invitación no encontrada' }, { status: 404 });
-    }
+      if (guest.cancionSugerida === cancion && (!guest.respuesta || guest.respuesta.cancion === cancion)) {
+        return { result: { alreadySaved: true }, changed: false };
+      }
 
-    if (guest.cancionSugerida === cancion && (!guest.respuesta || guest.respuesta.cancion === cancion)) {
+      guest.cancionSugerida = cancion;
+      if (guest.respuesta) guest.respuesta.cancion = cancion;
+      return { result: { alreadySaved: false } };
+    });
+
+    if (updated.result.alreadySaved) {
       return NextResponse.json({ success: true, alreadySaved: true, message: 'Canción ya recibida' });
     }
 
-    guest.cancionSugerida = cancion;
-    if (guest.respuesta) guest.respuesta.cancion = cancion;
-    await saveWeddingGuests(slug, guests, etag);
-
     return NextResponse.json({ success: true, message: 'Canción enviada a Mirta y Guillermo' });
   } catch (error) {
+    if (error instanceof WeddingGuestMutationError) {
+      return NextResponse.json({ success: false, message: error.message }, { status: error.status });
+    }
     console.error('Wedding song suggestion failed:', error);
     return NextResponse.json({ success: false, message: 'No pudimos enviar la canción. Intentá nuevamente.' }, { status: 503 });
   }

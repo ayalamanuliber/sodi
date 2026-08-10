@@ -4,7 +4,8 @@ import { isWeddingAdminAuthenticated } from '@/lib/boda-auth';
 import {
   DEFAULT_WEDDING_SLUG,
   fetchWeddingGuests,
-  saveWeddingGuests,
+  mutateWeddingGuests,
+  WeddingGuestMutationError,
   type WeddingGuest,
 } from '@/lib/boda-store';
 
@@ -25,7 +26,7 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const slug = normalizeSlug(searchParams.get('slug'));
     const code = searchParams.get('code')?.trim();
-    const { guests, etag } = await fetchWeddingGuests(slug);
+    const { guests } = await fetchWeddingGuests(slug);
 
     if (code) {
       const found = guests.find((guest) => guest.id.toLowerCase() === code.toLowerCase());
@@ -34,8 +35,15 @@ export async function GET(request: Request) {
       }
 
       if (!found.vistoEn) {
-        found.vistoEn = new Date().toISOString();
-        await saveWeddingGuests(slug, guests, etag);
+        const viewedAt = new Date().toISOString();
+        const updated = await mutateWeddingGuests(slug, (currentGuests) => {
+          const currentGuest = currentGuests.find((guest) => guest.id.toLowerCase() === code.toLowerCase());
+          if (!currentGuest) throw new WeddingGuestMutationError('Invitación no encontrada', 404);
+          if (currentGuest.vistoEn) return { result: currentGuest, changed: false };
+          currentGuest.vistoEn = viewedAt;
+          return { result: currentGuest };
+        });
+        return NextResponse.json({ success: true, guest: publicGuest(updated.result) });
       }
       return NextResponse.json({ success: true, guest: publicGuest(found) });
     }
@@ -46,6 +54,9 @@ export async function GET(request: Request) {
 
     return NextResponse.json({ success: true, guests });
   } catch (error) {
+    if (error instanceof WeddingGuestMutationError) {
+      return NextResponse.json({ success: false, message: error.message }, { status: error.status });
+    }
     console.error('Wedding guests GET failed:', error);
     return NextResponse.json({ success: false, message: 'No se pudo acceder a la lista' }, { status: 503 });
   }
@@ -59,7 +70,6 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const slug = normalizeSlug(body.slug);
-    const { guests, etag } = await fetchWeddingGuests(slug);
 
     if (body.action === 'add') {
       const nombre = typeof body.nombre === 'string' ? body.nombre.trim() : '';
@@ -90,32 +100,39 @@ export async function POST(request: Request) {
         respuesta: null,
       };
 
-      guests.unshift(newGuest);
-      await saveWeddingGuests(slug, guests, etag);
-      return NextResponse.json({ success: true, guest: newGuest, guests });
+      const updated = await mutateWeddingGuests(slug, (guests) => {
+        guests.unshift(newGuest);
+        return { result: newGuest };
+      });
+      return NextResponse.json({ success: true, guest: updated.result, guests: updated.guests });
     }
 
     if (body.action === 'toggleEnviado') {
-      const guest = guests.find((item) => item.id === body.id);
-      if (!guest) return NextResponse.json({ success: false, message: 'Invitado no encontrado' }, { status: 404 });
-
-      guest.enviado = typeof body.enviado === 'boolean' ? body.enviado : !guest.enviado;
-      guest.enviadoEn = guest.enviado ? (guest.enviadoEn || new Date().toISOString()) : null;
-      await saveWeddingGuests(slug, guests, etag);
-      return NextResponse.json({ success: true, guests });
+      const updated = await mutateWeddingGuests(slug, (guests) => {
+        const guest = guests.find((item) => item.id === body.id);
+        if (!guest) throw new WeddingGuestMutationError('Invitado no encontrado', 404);
+        guest.enviado = typeof body.enviado === 'boolean' ? body.enviado : !guest.enviado;
+        guest.enviadoEn = guest.enviado ? (guest.enviadoEn || new Date().toISOString()) : null;
+        return { result: guest };
+      });
+      return NextResponse.json({ success: true, guests: updated.guests });
     }
 
     if (body.action === 'delete') {
-      const filtered = guests.filter((guest) => guest.id !== body.id);
-      if (filtered.length === guests.length) {
-        return NextResponse.json({ success: false, message: 'Invitado no encontrado' }, { status: 404 });
-      }
-      await saveWeddingGuests(slug, filtered, etag);
-      return NextResponse.json({ success: true, guests: filtered });
+      const updated = await mutateWeddingGuests(slug, (guests) => {
+        const index = guests.findIndex((guest) => guest.id === body.id);
+        if (index === -1) throw new WeddingGuestMutationError('Invitado no encontrado', 404);
+        guests.splice(index, 1);
+        return { result: null };
+      });
+      return NextResponse.json({ success: true, guests: updated.guests });
     }
 
     return NextResponse.json({ success: false, message: 'Acción no válida' }, { status: 400 });
   } catch (error) {
+    if (error instanceof WeddingGuestMutationError) {
+      return NextResponse.json({ success: false, message: error.message }, { status: error.status });
+    }
     console.error('Wedding guests POST failed:', error);
     return NextResponse.json({ success: false, message: 'No se pudo guardar el cambio' }, { status: 503 });
   }

@@ -42,8 +42,6 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
   const [newNombre, setNewNombre] = useState('');
   const [newPases, setNewPases] = useState(2);
   const [newTelefono, setNewTelefono] = useState('');
-  const [newTipo, setNewTipo] = useState<'completo' | 'solo-after' | 'solo-ceremonia'>('completo');
-  const [newEstilo, setNewEstilo] = useState<'oro' | 'esmeralda' | 'borgoña'>('oro');
   const [adding, setAdding] = useState(false);
   const [notice, setNotice] = useState('');
 
@@ -128,18 +126,21 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
           nombre: newNombre,
           pases: newPases,
           telefono: newTelefono,
-          tipo: newTipo,
-          estilo: newEstilo
+          tipo: 'completo',
+          estilo: 'oro'
         })
       });
       const data = await res.json();
+      if (res.status === 401) {
+        setAuthenticated(false);
+        setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
+        return;
+      }
       if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
         setNewNombre('');
         setNewPases(2);
         setNewTelefono('');
-        setNewTipo('completo');
-        setNewEstilo('oro');
         showNotice(`Invitación creada para ${newNombre.trim()}.`);
       } else {
         throw new Error(data.message || 'No se pudo guardar la invitación');
@@ -172,6 +173,11 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         body: JSON.stringify({ slug, action: 'toggleEnviado', id, enviado: !currentEnviado })
       });
       const data = await res.json();
+      if (res.status === 401) {
+        setAuthenticated(false);
+        setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
+        return;
+      }
       if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
       } else {
@@ -195,6 +201,11 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         body: JSON.stringify({ slug, action: 'delete', id })
       });
       const data = await res.json();
+      if (res.status === 401) {
+        setAuthenticated(false);
+        setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
+        return;
+      }
       if (res.ok && data.success && Array.isArray(data.guests)) {
         setGuests(data.guests);
       } else {
@@ -405,36 +416,6 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
               onChange={(e) => setNewTelefono(e.target.value)}
               style={{ ...styles.inputFlexDark, flex: '1 1 200px' }}
             />
-          </div>
-
-          <div className="wedding-admin__form-row" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', flex: '1 1 100%', gap: '4px' }}>
-              <label style={{ fontSize: '0.8rem', color: '#475569', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Tipo de Invitación / Pase:</label>
-              <select
-                value={newTipo}
-                onChange={(e) => setNewTipo(e.target.value as 'completo' | 'solo-after' | 'solo-ceremonia')}
-                style={{
-                  height: '46px',
-                  padding: '0 14px',
-                  borderRadius: '8px',
-                  border: '1.5px solid #cbd5e1',
-                  fontSize: '0.95rem',
-                  color: '#1e293b',
-                  backgroundColor: '#ffffff',
-                  fontWeight: '500',
-                  width: '100%',
-                  cursor: 'pointer',
-                  outline: 'none',
-                  boxShadow: 'none',
-                  display: 'block',
-                  appearance: 'auto'
-                }}
-              >
-                <option value="completo">Completo (Ceremonia + Fiesta)</option>
-                <option value="solo-after">Solo After-Party (Baile/Trasnochados)</option>
-                <option value="solo-ceremonia">Solo Ceremonia (Iglesia)</option>
-              </select>
-            </div>
           </div>
 
           <button type="submit" disabled={adding} style={{ ...styles.buttonPrimary, width: '100%', marginTop: '8px' }}>
