@@ -1418,6 +1418,20 @@ body.is-open .hero__image {
   background: rgba(255, 255, 255, 0.52);
 }
 
+.rsvp-decline-note {
+  padding: 18px;
+  border-left: 2px solid var(--champagne);
+  background: rgba(255, 253, 248, 0.62);
+}
+
+.rsvp-decline-note p {
+  margin-bottom: 16px;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
 .field input:focus,
 .field select:focus {
   border-color: var(--wine);

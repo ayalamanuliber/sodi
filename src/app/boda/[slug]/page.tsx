@@ -39,7 +39,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   // Form State
   const [rsvpName, setRsvpName] = useState('');
   const [integrantes, setIntegrantes] = useState<string[]>(['']);
-  const [attendance, setAttendance] = useState<'confirmado' | 'no'>('confirmado');
+  const [attendance, setAttendance] = useState<'confirmado' | 'rechazado'>('confirmado');
   const [pasesConfirmados, setPasesConfirmados] = useState(1);
   const [menu, setMenu] = useState('Tradicional');
   const [notes, setNotes] = useState('');
@@ -144,7 +144,7 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         // If guest has already confirmed/responded previously, load their choices
         if (data.guest.respuesta) {
           const resp = data.guest.respuesta;
-          setAttendance(resp.asistencia || 'confirmado');
+          setAttendance(resp.asistencia === 'rechazado' ? 'rechazado' : 'confirmado');
           setPasesConfirmados(resp.pasesConfirmados ?? data.guest.pases);
           
           if (Array.isArray(resp.integrantes) && resp.integrantes.length > 0) {
@@ -269,12 +269,6 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
         throw new Error(result.message || 'No se pudo guardar la confirmación');
       }
       setSubmitted(true);
-
-      const pasesMsg = attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir';
-      const nombresMsg = attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${filteredIntegrantes.join(', ')}` : '';
-      const msg = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${pasesMsg}${nombresMsg}\n• Menú: ${resolvedMenu}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`;
-      const waUrl = `https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(msg)}`;
-      window.location.href = waUrl;
     } catch (e) {
       alert('Ocurrió un error al enviar tu confirmación.');
     } finally {
@@ -289,6 +283,8 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
   };
 
   const resolvedMenu = guest?.tipo === 'solo-after' ? 'Solo After-Party (Bebidas)' : menu;
+
+  const whatsappRsvpMessage = `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No podré asistir'}${attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${integrantes.filter(Boolean).join(', ')}\n• Menú: ${resolvedMenu}` : ''}${notes ? `\n• Comentario: ${notes}` : ''}${attendance === 'confirmado' && song ? `\n• Canción sugerida: ${song}` : ''}`;
 
   const handleSongSuggestion = async () => {
     setSongStatus('');
@@ -604,13 +600,15 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           {submitted ? (
             <div className="rsvp-success">
               <span className="rsvp-success__mark" aria-hidden="true">✓</span>
-              <h3>¡Gracias por confirmar!</h3>
+              <h3>{attendance === 'confirmado' ? '¡Asistencia confirmada!' : 'Respuesta registrada'}</h3>
               <p>
-                Mirta y Guillermo ya recibieron tu respuesta. Nos alegra mucho compartir este momento con vos.
+                {attendance === 'confirmado'
+                  ? 'Mirta y Guillermo ya recibieron tu respuesta. Nos alegra mucho compartir este momento con vos.'
+                  : 'Gracias por avisarnos con tiempo. Mirta y Guillermo ya recibieron tu respuesta y lamentan que no puedas acompañarlos.'}
               </p>
               <a
                 href={`https://api.whatsapp.com/send?phone=5491162337552&text=${encodeURIComponent(
-                  `¡Hola Mirta! Confirmación de asistencia para la boda:\n\n• Grupo/Invitación: ${guest?.nombre || rsvpName}\n• Asistencia: ${attendance === 'confirmado' ? `Sí, confirmo (${pasesConfirmados} pases)` : 'No puedo asistir'}${attendance === 'confirmado' ? `\n• Nombres de los asistentes: ${integrantes.filter(Boolean).join(', ')}` : ''}${resolvedMenu ? `\n• Menú: ${resolvedMenu}` : ''}${notes ? `\n• Comentario: ${notes}` : ''}${song ? `\n• Canción sugerida: ${song}` : ''}`
+                  whatsappRsvpMessage
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -654,11 +652,11 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                   <input
                     type="radio"
                     name="attendance"
-                    value="no"
-                    checked={attendance === 'no'}
-                    onChange={() => setAttendance('no')}
+                    value="rechazado"
+                    checked={attendance === 'rechazado'}
+                    onChange={() => setAttendance('rechazado')}
                   />
-                  <span>No puedo asistir</span>
+                  <span>No podré asistir</span>
                 </label>
               </fieldset>
 
@@ -716,8 +714,25 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
                 </>
               )}
 
+              {attendance === 'rechazado' && (
+                <div className="field field--full rsvp-decline-note">
+                  <p>Tu respuesta se guardará ahora mismo. No hace falta esperar hasta la fecha límite.</p>
+                  <label htmlFor="rsvpDeclineNotes">Mensaje para Mirta y Guillermo</label>
+                  <input
+                    id="rsvpDeclineNotes"
+                    value={notes}
+                    onChange={(e) => setNotes(e.target.value)}
+                    placeholder="Opcional"
+                  />
+                </div>
+              )}
+
               <button className="button button--wine field--full" type="submit" disabled={submitting}>
-                {submitting ? 'Enviando...' : 'Confirmar y Enviar por WhatsApp'}
+                {submitting
+                  ? 'Guardando respuesta...'
+                  : attendance === 'confirmado'
+                    ? 'Confirmar asistencia'
+                    : 'Confirmar que no podré asistir'}
               </button>
             </form>
           ) : (

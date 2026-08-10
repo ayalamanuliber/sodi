@@ -547,11 +547,17 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
                     <td data-label="Respuesta" style={styles.td}>
                       {guest.respuesta ? (
                         <div style={{ fontSize: '0.85rem', color: '#222' }}>
-                          <div><strong style={{ color: '#111' }}>Asisten:</strong> {guest.respuesta.pasesConfirmados} de {guest.pases} pases</div>
-                          {guest.respuesta.integrantes.length > 0 && (
-                            <div><strong style={{ color: '#111' }}>Nombres:</strong> {guest.respuesta.integrantes.join(', ')}</div>
+                          {guest.estado === 'rechazado' ? (
+                            <div><strong style={{ color: '#8b2f2f' }}>No asistirá</strong></div>
+                          ) : (
+                            <>
+                              <div><strong style={{ color: '#111' }}>Asisten:</strong> {guest.respuesta.pasesConfirmados} de {guest.pases} pases</div>
+                              {guest.respuesta.integrantes.length > 0 && (
+                                <div><strong style={{ color: '#111' }}>Nombres:</strong> {guest.respuesta.integrantes.join(', ')}</div>
+                              )}
+                              <div><strong style={{ color: '#111' }}>Menú:</strong> {guest.respuesta.menu}</div>
+                            </>
                           )}
-                          <div><strong style={{ color: '#111' }}>Menú:</strong> {guest.respuesta.menu}</div>
                           {guest.respuesta.notas && <div><strong style={{ color: '#111' }}>Notas:</strong> {guest.respuesta.notas}</div>}
                           {(guest.respuesta.cancion || guest.cancionSugerida) && <div><strong style={{ color: '#111' }}>🎵 Canción:</strong> {guest.respuesta.cancion || guest.cancionSugerida}</div>}
                         </div>
