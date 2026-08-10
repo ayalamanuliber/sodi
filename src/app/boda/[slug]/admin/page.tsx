@@ -45,6 +45,7 @@ const navItems: Array<{ id: View; label: string; icon: React.ElementType }> = [
   { id: 'invitacion', label: 'Invitación', icon: Mail },
   { id: 'configuracion', label: 'Configuración', icon: Settings },
 ];
+const mobileNavItems = navItems.filter((item) => item.id !== 'invitacion');
 
 function statusLabel(guest: Guest) {
   if (guest.estado === 'confirmado') return 'Asiste';
@@ -350,7 +351,11 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
     </main>
   );
 
-  const selectView = (next: View) => { setView(next); setSidebarOpen(false); };
+  const selectView = (next: View) => {
+    if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
+    setView(next);
+    setSidebarOpen(false);
+  };
 
   return (
     <div className="wa-shell">
@@ -431,7 +436,7 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
         )}
       </main>
 
-      <nav className="wa-mobile-nav" aria-label="Navegación móvil">{navItems.slice(0, 4).map((item) => <button key={item.id} className={view === item.id ? 'is-active' : ''} onClick={() => selectView(item.id)}><item.icon /><span>{item.label}</span></button>)}</nav>
+      <nav className="wa-mobile-nav" aria-label="Navegación móvil">{mobileNavItems.map((item) => <button key={item.id} className={view === item.id ? 'is-active' : ''} onClick={() => selectView(item.id)}><item.icon /><span>{item.label}</span></button>)}</nav>
       <button className="wa-mobile-add" onClick={() => setCreateOpen(true)} aria-label="Crear invitación"><Plus /></button>
 
       {createOpen && <div className="wa-modal" role="dialog" aria-modal="true" aria-labelledby="create-title"><section className="wa-modal__card"><button className="wa-modal__close" onClick={() => setCreateOpen(false)} aria-label="Cerrar"><X /></button><p className="wa-eyebrow">Agregar invitados</p><h2 id="create-title">Crear invitaciones</h2><div className="wa-segmented"><button className={createMode === 'single' ? 'is-active' : ''} onClick={() => setCreateMode('single')}><UserPlus />Una invitación</button><button className={createMode === 'bulk' ? 'is-active' : ''} onClick={() => setCreateMode('bulk')}><ListChecks />Crear varias</button></div><form onSubmit={handleCreate}>{createMode === 'single' ? <div className="wa-form-grid"><label className="is-wide">Nombre o familia<input value={newName} onChange={(event) => setNewName(event.target.value)} placeholder="Ej: Familia Pérez" required /></label><label>Lugares<input type="number" min="1" max="20" value={newPasses} onChange={(event) => setNewPasses(Number(event.target.value) || 1)} required /></label><label>WhatsApp<input value={newPhone} onChange={(event) => setNewPhone(event.target.value)} placeholder="Ej: 1162337552" inputMode="tel" /></label></div> : <><label>Una invitación por línea</label><textarea value={bulkText} onChange={(event) => setBulkText(event.target.value)} rows={8} placeholder={'Familia Pérez - 4 - 1155551234\nJulieta Gómez - 2 - 1166667890\nMartín López - 1'} required /><div className="wa-bulk-summary"><ClipboardList /><span><strong>{bulkText.split('\n').filter((line) => line.trim()).length} invitaciones</strong><small>Formato: nombre - lugares - teléfono</small></span></div></>}<button className="wa-button wa-button--primary wa-button--block" disabled={saving}>{saving ? 'Creando invitaciones…' : createMode === 'single' ? 'Crear invitación' : 'Crear todas las invitaciones'}</button></form></section></div>}
