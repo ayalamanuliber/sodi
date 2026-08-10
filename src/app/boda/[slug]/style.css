@@ -761,6 +761,38 @@ body.is-open .hero__image {
   padding-block: 102px 112px;
 }
 
+.events__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 28px;
+  color: var(--wine);
+}
+
+.events__date::before,
+.events__date::after {
+  width: 54px;
+  height: 1px;
+  content: "";
+  background: var(--champagne);
+}
+
+.events__date span {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.events__date strong {
+  font-family: var(--serif);
+  font-size: 2.15rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
 .events__grid {
   display: grid;
   max-width: 1080px;
@@ -2045,6 +2077,25 @@ body.is-open .hero__image {
 
   .section-heading {
     margin-bottom: 44px;
+  }
+
+  .events__date {
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .events__date::before,
+  .events__date::after {
+    width: 24px;
+  }
+
+  .events__date span {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+  }
+
+  .events__date strong {
+    font-size: 1.85rem;
   }
 
   .opening__eyebrow {

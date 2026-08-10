@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: '/boda/mirta-y-guillermo',
     images: [
       {
-        url: '/boda/assets/portada.jpg',
-        width: 992,
-        height: 1586,
-        alt: 'Mirta y Guillermo',
+        url: '/boda/mirta-y-guillermo/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Invitación al casamiento de Mirta y Guillermo',
       },
     ],
   },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Mirta & Guillermo',
     description: 'Nos casamos. Viernes 13 de noviembre de 2026.',
-    images: ['/boda/assets/portada.jpg'],
+    images: ['/boda/mirta-y-guillermo/opengraph-image'],
   },
 };
 

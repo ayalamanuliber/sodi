@@ -460,6 +460,11 @@ export default function DynamicBodaPage({ params }: { params: Promise<{ slug: st
           <div className="section-heading">
             <p className="eyebrow">Dónde y cuándo</p>
             <h2>El día que elegimos</h2>
+            <div className="events__date" aria-label="Viernes 13 de noviembre de 2026">
+              <span>Viernes</span>
+              <strong>13</strong>
+              <span>Noviembre · 2026</span>
+            </div>
           </div>
           <div className="events__grid">
             {(!guest || !guest.tipo || guest.tipo === 'completo' || guest.tipo === 'solo-ceremonia') && (
