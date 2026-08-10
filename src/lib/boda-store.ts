@@ -79,7 +79,7 @@ export async function mutateWeddingGuests<T>(
   slug: string,
   mutate: (guests: WeddingGuest[]) => WeddingGuestMutationResult<T> | Promise<WeddingGuestMutationResult<T>>,
 ) {
-  const maxAttempts = 12;
+  const maxAttempts = 4;
 
   for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
     const { guests, etag } = await fetchWeddingGuests(slug);
@@ -100,7 +100,7 @@ export async function mutateWeddingGuests<T>(
 
       if (!isConflict || attempt === maxAttempts - 1) throw error;
 
-      const retryDelay = Math.min(75 * (2 ** attempt), 1_000) + Math.floor(Math.random() * 250);
+      const retryDelay = Math.min(75 * (2 ** attempt), 350) + Math.floor(Math.random() * 100);
       await new Promise((resolve) => setTimeout(resolve, retryDelay));
     }
   }

@@ -115,11 +115,14 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
     e.preventDefault();
     if (!newNombre.trim()) return;
     setAdding(true);
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => controller.abort(), 12_000);
 
     try {
       const res = await fetch('/api/boda/invitados', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
         body: JSON.stringify({
           slug,
           action: 'add',
@@ -146,8 +149,15 @@ export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slu
         throw new Error(data.message || 'No se pudo guardar la invitación');
       }
     } catch (error) {
-      showNotice(error instanceof Error ? error.message : 'No se pudo guardar la invitación.');
+      if (error instanceof DOMException && error.name === 'AbortError') {
+        showNotice('La conexión tardó demasiado. Recargá la lista para comprobar el estado antes de intentar nuevamente.');
+      } else if (error instanceof TypeError) {
+        showNotice('Se interrumpió la conexión. Recargá la lista para comprobar el estado antes de intentar nuevamente.');
+      } else {
+        showNotice(error instanceof Error ? error.message : 'No se pudo guardar la invitación.');
+      }
     } finally {
+      window.clearTimeout(timeoutId);
       setAdding(false);
     }
   };
