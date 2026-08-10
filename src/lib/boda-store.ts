@@ -28,6 +28,7 @@ export interface WeddingGuest {
 
 export interface WeddingSettings {
   whatsappMessage: string;
+  guestGoal: number;
   updatedAt: string | null;
 }
 
@@ -80,7 +81,7 @@ export async function fetchWeddingSettings(slug: string): Promise<WeddingSetting
     useCache: false,
   });
 
-  if (!result) return { whatsappMessage: DEFAULT_WHATSAPP_MESSAGE, updatedAt: null };
+  if (!result) return { whatsappMessage: DEFAULT_WHATSAPP_MESSAGE, guestGoal: 0, updatedAt: null };
   if (result.statusCode !== 200) throw new Error('Wedding settings storage returned no content');
 
   const settings: unknown = await new Response(result.stream).json();
@@ -90,6 +91,9 @@ export async function fetchWeddingSettings(slug: string): Promise<WeddingSetting
     whatsappMessage: typeof stored.whatsappMessage === 'string' && stored.whatsappMessage.trim()
       ? stored.whatsappMessage
       : DEFAULT_WHATSAPP_MESSAGE,
+    guestGoal: Number.isInteger(stored.guestGoal) && Number(stored.guestGoal) > 0
+      ? Number(stored.guestGoal)
+      : 0,
     updatedAt: typeof stored.updatedAt === 'string' ? stored.updatedAt : null,
   };
 }

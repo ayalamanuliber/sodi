@@ -3,7 +3,7 @@
 import React, { use, useCallback, useMemo, useRef, useState, useEffect } from 'react';
 import {
   Activity, Bell, Check, CheckCircle2, ChevronRight, ClipboardList, Copy, Download,
-  Eye, FileUp, Gift, Home, Link2, ListChecks, LogOut, Mail, Menu, MessageCircle,
+  Eye, FileUp, Gift, Headphones, Home, Link2, ListChecks, LogOut, Mail, Menu, MessageCircle,
   MoreHorizontal, Music2, Pencil, Plus, RefreshCw, Search, Send, Settings, Share2,
   Sparkles, Trash2, UserPlus, Users, Utensils, X,
 } from 'lucide-react';
@@ -35,6 +35,7 @@ interface Guest {
 }
 
 const DEFAULT_MESSAGE = 'Hola, {nombre}. Nos encantaría que nos acompañes en nuestro casamiento. Reservamos {pases} para vos.\n\nEn este enlace podés ver la invitación y confirmar tu asistencia:\n{enlace}';
+const SODI_SUPPORT_WHATSAPP = 'https://wa.me/5491138696958?text=Hola%20SODI%2C%20necesito%20ayuda%20con%20mi%20panel%20de%20invitaciones.';
 
 const navItems: Array<{ id: View; label: string; icon: React.ElementType }> = [
   { id: 'resumen', label: 'Resumen', icon: Home },
@@ -99,6 +100,8 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
   const [messageTemplate, setMessageTemplate] = useState(DEFAULT_MESSAGE);
   const [defaultMessage, setDefaultMessage] = useState(DEFAULT_MESSAGE);
   const [messageSaving, setMessageSaving] = useState(false);
+  const [guestGoal, setGuestGoal] = useState(0);
+  const [goalSaving, setGoalSaving] = useState(false);
   const [pendingSentGuest, setPendingSentGuest] = useState<Guest | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const messageRef = useRef<HTMLTextAreaElement>(null);
@@ -130,6 +133,7 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
       if (settingsResponse.ok && settingsData.success) {
         setMessageTemplate(settingsData.settings.whatsappMessage);
         setDefaultMessage(settingsData.defaultMessage || DEFAULT_MESSAGE);
+        setGuestGoal(settingsData.settings.guestGoal || 0);
       }
       setAuthenticated(true);
       setLoginError('');
@@ -185,7 +189,8 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
         showNotice(`Invitación creada para ${newName.trim()}.`);
       } else {
         const parsed = bulkText.split('\n').map((line) => line.trim()).filter(Boolean).map((line) => {
-          const [nombre = '', pases = '2', telefono = ''] = line.split('|').map((part) => part.trim());
+          const separator = line.includes('|') ? /\s*\|\s*/ : /\s+-\s+/;
+          const [nombre = '', pases = '2', telefono = ''] = line.split(separator).map((part) => part.trim());
           return { nombre, pases: Number.parseInt(pases, 10) || 2, telefono };
         });
         const result = await mutateGuests({ action: 'addMany', guests: parsed });
@@ -253,6 +258,22 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
       showNotice('Mensaje de WhatsApp guardado.');
     } catch (error) { showNotice(error instanceof Error ? error.message : 'No se pudo guardar el mensaje.'); }
     finally { setMessageSaving(false); }
+  };
+
+  const saveGuestGoal = async () => {
+    setGoalSaving(true);
+    try {
+      const response = await fetch('/api/boda/configuracion', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, guestGoal }),
+      });
+      const data = await response.json();
+      if (response.status === 401) return expireSession();
+      if (!response.ok || !data.success) throw new Error(data.message || 'No se pudo guardar el cupo');
+      setGuestGoal(data.settings.guestGoal);
+      showNotice('Cupo total guardado.');
+    } catch (error) { showNotice(error instanceof Error ? error.message : 'No se pudo guardar el cupo.'); }
+    finally { setGoalSaving(false); }
   };
 
   const insertVariable = (variable: string) => {
@@ -340,6 +361,7 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
         <nav aria-label="Navegación principal">
           {navItems.map((item) => <button key={item.id} className={view === item.id ? 'is-active' : ''} onClick={() => selectView(item.id)}><item.icon size={19} />{item.label}</button>)}
         </nav>
+        <a className="wa-sidebar__support" href={SODI_SUPPORT_WHATSAPP} target="_blank" rel="noreferrer"><Headphones size={18} /><span><strong>Soporte SODI</strong><small>Ayuda y sugerencias</small></span></a>
         <div className="wa-sidebar__profile"><span>M</span><div><strong>Mirta</strong><small>Administradora</small></div><MoreHorizontal size={18} /></div>
       </aside>
 
@@ -366,14 +388,15 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
 
               <section className="wa-metrics">
                 <article><span className="wa-metric-icon wa-metric-icon--rose"><Mail /></span><div><strong>{guests.length}</strong><span>invitaciones creadas</span></div></article>
-                <article><span className="wa-metric-icon"><Users /></span><div><strong>{stats.passes}</strong><span>lugares asignados</span></div></article>
+                <article><span className="wa-metric-icon"><Users /></span><div><strong>{stats.passes}{guestGoal ? ` / ${guestGoal}` : ''}</strong><span>{guestGoal ? 'lugares planificados' : 'lugares asignados'}</span>{!guestGoal && <button className="wa-metric-link" onClick={() => setView('configuracion')}>Definir cupo total</button>}</div></article>
                 <article><span className="wa-metric-icon wa-metric-icon--green"><CheckCircle2 /></span><div><strong>{stats.confirmed}</strong><span>personas confirmadas</span></div></article>
                 <article><span className="wa-metric-icon wa-metric-icon--gold"><Activity /></span><div><strong>{stats.pending}</strong><span>respuestas pendientes</span></div></article>
               </section>
 
               <div className="wa-dashboard-grid">
-                <section className="wa-panel wa-distribution"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Lugares</p><h2>Distribución de invitados</h2></div><span>{stats.passes} asignados</span></div>
+                <section className="wa-panel wa-distribution"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Lugares</p><h2>Distribución de invitados</h2></div><span>{guestGoal ? `${stats.passes} de ${guestGoal}` : `${stats.passes} asignados`}</span></div>
                   {stats.passes ? <><div className="wa-distribution__bar"><span style={{ width: `${stats.confirmed / stats.passes * 100}%` }} /><span style={{ width: `${stats.declined / stats.passes * 100}%` }} /><span style={{ width: `${stats.awaitingPasses / stats.passes * 100}%` }} /></div><div className="wa-legend"><span><i className="is-confirmed" />{stats.confirmed} confirmados</span><span><i className="is-declined" />{stats.declined} no asistirán</span><span><i className="is-pending" />{stats.awaitingPasses} esperando</span></div></> : <div className="wa-empty-inline">Creá la primera invitación para ver la distribución.</div>}
+                  {guestGoal > 0 && <button className="wa-capacity-note" onClick={() => setView('configuracion')}>{stats.passes <= guestGoal ? `Quedan ${guestGoal - stats.passes} lugares por asignar` : `El cupo está superado por ${stats.passes - guestGoal}`}</button>}
                 </section>
 
                 <section className="wa-panel wa-next-step"><p className="wa-eyebrow">Tu próximo paso</p><Sparkles size={26} /><h2>{stats.unsent ? `Hay ${stats.unsent} invitaciones listas para enviar` : stats.pending ? 'Todas enviadas: esperemos las respuestas' : '¡La lista está al día!'}</h2><p>Podés detenerte y continuar cuando quieras.</p>{nextGuest ? <button className="wa-button wa-button--primary wa-button--block" onClick={() => openWhatsApp(nextGuest)}><MessageCircle size={18} />Enviar siguiente por WhatsApp</button> : <button className="wa-button wa-button--outline wa-button--block" onClick={() => setCreateOpen(true)}><Plus size={18} />Crear invitación</button>}</section>
@@ -403,7 +426,7 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
 
             {view === 'invitacion' && <section className="wa-view"><div className="wa-view__heading"><div><p className="wa-eyebrow">Vista pública</p><h2>La invitación de Mirta & Guillermo</h2><p>Esta vista no contiene datos personales y podés compartirla como demostración.</p></div><div><button className="wa-button wa-button--outline" onClick={shareDemo}><Share2 size={18} />Compartir demo</button><a className="wa-button wa-button--primary" href={`/boda/${slug}`} target="_blank" rel="noreferrer"><Eye size={18} />Abrir completa</a></div></div><div className="wa-preview-frame"><iframe src={`/boda/${slug}`} title="Vista previa de la invitación" /></div></section>}
 
-            {view === 'configuracion' && <section className="wa-view"><div className="wa-view__heading"><div><p className="wa-eyebrow">Personalización</p><h2>Mensaje de WhatsApp</h2><p>Escribilo con tus palabras. El nombre, los lugares y el enlace se completan solos.</p></div></div><div className="wa-message-editor"><section className="wa-panel"><label htmlFor="message-template">Mensaje predeterminado</label><div className="wa-variable-row"><span>Insertar:</span>{['{nombre}', '{pases}', '{enlace}'].map((variable) => <button key={variable} onClick={() => insertVariable(variable)}>{variable.replace(/[{}]/g, '')}</button>)}</div><textarea id="message-template" ref={messageRef} value={messageTemplate} onChange={(event) => setMessageTemplate(event.target.value)} rows={10} /><div className="wa-editor-actions"><button className="wa-button wa-button--primary" onClick={saveMessage} disabled={messageSaving}><Check size={18} />{messageSaving ? 'Guardando…' : 'Guardar mensaje'}</button><button className="wa-button wa-button--quiet" onClick={() => setMessageTemplate(defaultMessage)}><RefreshCw size={17} />Restaurar original</button></div><p className="wa-editor-help"><Link2 size={16} />El enlace personal está protegido: el mensaje no se guarda si falta la variable “enlace”.</p></section><section className="wa-panel wa-message-preview"><p className="wa-eyebrow">Vista previa</p><h3>{sampleGuest.nombre}</h3><div>{buildMessage(messageTemplate, sampleGuest, `${publicOrigin}/boda/${slug}?i=...`)}</div></section></div><section className="wa-panel wa-account-panel"><div><Settings /><span><strong>Herramientas del panel</strong><small>Exportá una copia o cerrá tu sesión de forma segura.</small></span></div><div><button className="wa-button wa-button--outline" onClick={exportCSV}><Download size={18} />Descargar lista</button><button className="wa-button wa-button--danger" onClick={logout}><LogOut size={18} />Cerrar sesión</button></div></section></section>}
+            {view === 'configuracion' && <section className="wa-view"><div className="wa-view__heading"><div><p className="wa-eyebrow">Personalización</p><h2>Preferencias del panel</h2><p>Definí el cupo de invitados y el mensaje que se completa automáticamente al enviar.</p></div></div><div className="wa-settings-grid"><section className="wa-panel wa-goal-setting"><span className="wa-setting-icon"><Users /></span><div><p className="wa-eyebrow">Planificación</p><h3>Cupo total de invitados</h3><p>La cantidad máxima de personas que pensás invitar.</p></div><label><span>Personas</span><input type="number" min="1" max="2000" value={guestGoal || ''} onChange={(event) => setGuestGoal(Number(event.target.value) || 0)} placeholder="Ej: 100" inputMode="numeric" /></label><button className="wa-button wa-button--primary" onClick={saveGuestGoal} disabled={goalSaving || guestGoal < 1}><Check size={18} />{goalSaving ? 'Guardando…' : 'Guardar cupo'}</button></section><section className="wa-panel wa-support-panel"><span className="wa-setting-icon"><Headphones /></span><div><p className="wa-eyebrow">Estamos para ayudarte</p><h3>Soporte SODI</h3><p>¿Tenés una duda o una sugerencia para mejorar el panel?</p></div><div><a className="wa-button wa-button--outline" href={SODI_SUPPORT_WHATSAPP} target="_blank" rel="noreferrer"><MessageCircle size={18} />WhatsApp</a><a className="wa-button wa-button--quiet" href="mailto:contacto@sodi.com.ar"><Mail size={18} />contacto@sodi.com.ar</a></div></section></div><div className="wa-section-heading"><p className="wa-eyebrow">Mensaje de invitación</p><h2>WhatsApp personalizado</h2><p>Escribilo con tus palabras. El nombre, los lugares y el enlace se completan solos.</p></div><div className="wa-message-editor"><section className="wa-panel"><label htmlFor="message-template">Mensaje predeterminado</label><div className="wa-variable-row"><span>Insertar:</span>{['{nombre}', '{pases}', '{enlace}'].map((variable) => <button key={variable} onClick={() => insertVariable(variable)}>{variable.replace(/[{}]/g, '')}</button>)}</div><textarea id="message-template" ref={messageRef} value={messageTemplate} onChange={(event) => setMessageTemplate(event.target.value)} rows={10} /><div className="wa-editor-actions"><button className="wa-button wa-button--primary" onClick={saveMessage} disabled={messageSaving}><Check size={18} />{messageSaving ? 'Guardando…' : 'Guardar mensaje'}</button><button className="wa-button wa-button--quiet" onClick={() => setMessageTemplate(defaultMessage)}><RefreshCw size={17} />Restaurar original</button></div><p className="wa-editor-help"><Link2 size={16} />El enlace personal está protegido: el mensaje no se guarda si falta la variable “enlace”.</p></section><section className="wa-panel wa-message-preview"><p className="wa-eyebrow">Vista previa</p><h3>{sampleGuest.nombre}</h3><div>{buildMessage(messageTemplate, sampleGuest, `${publicOrigin}/boda/${slug}?i=...`)}</div></section></div><section className="wa-panel wa-account-panel"><div><Settings /><span><strong>Herramientas del panel</strong><small>Exportá una copia o cerrá tu sesión de forma segura.</small></span></div><div><button className="wa-button wa-button--outline" onClick={exportCSV}><Download size={18} />Descargar lista</button><button className="wa-button wa-button--danger" onClick={logout}><LogOut size={18} />Cerrar sesión</button></div></section></section>}
           </div>
         )}
       </main>
@@ -411,7 +434,7 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
       <nav className="wa-mobile-nav" aria-label="Navegación móvil">{navItems.slice(0, 4).map((item) => <button key={item.id} className={view === item.id ? 'is-active' : ''} onClick={() => selectView(item.id)}><item.icon /><span>{item.label}</span></button>)}</nav>
       <button className="wa-mobile-add" onClick={() => setCreateOpen(true)} aria-label="Crear invitación"><Plus /></button>
 
-      {createOpen && <div className="wa-modal" role="dialog" aria-modal="true" aria-labelledby="create-title"><section className="wa-modal__card"><button className="wa-modal__close" onClick={() => setCreateOpen(false)} aria-label="Cerrar"><X /></button><p className="wa-eyebrow">Agregar invitados</p><h2 id="create-title">Crear invitaciones</h2><div className="wa-segmented"><button className={createMode === 'single' ? 'is-active' : ''} onClick={() => setCreateMode('single')}><UserPlus />Una invitación</button><button className={createMode === 'bulk' ? 'is-active' : ''} onClick={() => setCreateMode('bulk')}><ListChecks />Crear varias</button></div><form onSubmit={handleCreate}>{createMode === 'single' ? <div className="wa-form-grid"><label className="is-wide">Nombre o familia<input value={newName} onChange={(event) => setNewName(event.target.value)} placeholder="Ej: Familia Pérez" required /></label><label>Lugares<input type="number" min="1" max="20" value={newPasses} onChange={(event) => setNewPasses(Number(event.target.value) || 1)} required /></label><label>WhatsApp<input value={newPhone} onChange={(event) => setNewPhone(event.target.value)} placeholder="Ej: 1162337552" inputMode="tel" /></label></div> : <><label>Una invitación por línea</label><textarea value={bulkText} onChange={(event) => setBulkText(event.target.value)} rows={8} placeholder={'Familia Pérez | 4 | 1155551234\nJulieta Gómez | 2 | 1166667890\nMartín López | 1'} required /><div className="wa-bulk-summary"><ClipboardList /><span><strong>{bulkText.split('\n').filter((line) => line.trim()).length} invitaciones</strong><small>Formato: nombre | lugares | teléfono</small></span></div></>}<button className="wa-button wa-button--primary wa-button--block" disabled={saving}>{saving ? 'Creando invitaciones…' : createMode === 'single' ? 'Crear invitación' : 'Crear todas las invitaciones'}</button></form></section></div>}
+      {createOpen && <div className="wa-modal" role="dialog" aria-modal="true" aria-labelledby="create-title"><section className="wa-modal__card"><button className="wa-modal__close" onClick={() => setCreateOpen(false)} aria-label="Cerrar"><X /></button><p className="wa-eyebrow">Agregar invitados</p><h2 id="create-title">Crear invitaciones</h2><div className="wa-segmented"><button className={createMode === 'single' ? 'is-active' : ''} onClick={() => setCreateMode('single')}><UserPlus />Una invitación</button><button className={createMode === 'bulk' ? 'is-active' : ''} onClick={() => setCreateMode('bulk')}><ListChecks />Crear varias</button></div><form onSubmit={handleCreate}>{createMode === 'single' ? <div className="wa-form-grid"><label className="is-wide">Nombre o familia<input value={newName} onChange={(event) => setNewName(event.target.value)} placeholder="Ej: Familia Pérez" required /></label><label>Lugares<input type="number" min="1" max="20" value={newPasses} onChange={(event) => setNewPasses(Number(event.target.value) || 1)} required /></label><label>WhatsApp<input value={newPhone} onChange={(event) => setNewPhone(event.target.value)} placeholder="Ej: 1162337552" inputMode="tel" /></label></div> : <><label>Una invitación por línea</label><textarea value={bulkText} onChange={(event) => setBulkText(event.target.value)} rows={8} placeholder={'Familia Pérez - 4 - 1155551234\nJulieta Gómez - 2 - 1166667890\nMartín López - 1'} required /><div className="wa-bulk-summary"><ClipboardList /><span><strong>{bulkText.split('\n').filter((line) => line.trim()).length} invitaciones</strong><small>Formato: nombre - lugares - teléfono</small></span></div></>}<button className="wa-button wa-button--primary wa-button--block" disabled={saving}>{saving ? 'Creando invitaciones…' : createMode === 'single' ? 'Crear invitación' : 'Crear todas las invitaciones'}</button></form></section></div>}
 
       {pendingSentGuest && <div className="wa-modal" role="dialog" aria-modal="true"><section className="wa-modal__card wa-confirm-send"><span className="wa-confirm-send__icon"><MessageCircle /></span><p className="wa-eyebrow">Seguimiento</p><h2>¿Pudiste enviarle la invitación a {pendingSentGuest.nombre}?</h2><p>WhatsApp no nos avisa si finalmente tocaste “Enviar”. Confirmalo para mantener la lista al día.</p><div><button className="wa-button wa-button--primary" onClick={async () => { await handleToggleSent(pendingSentGuest, true); setPendingSentGuest(null); }}><Check size={18} />Sí, fue enviada</button><button className="wa-button wa-button--quiet" onClick={() => setPendingSentGuest(null)}>Todavía no</button></div></section></div>}
     </div>
