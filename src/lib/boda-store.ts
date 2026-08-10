@@ -47,7 +47,10 @@ export async function fetchWeddingGuests(slug: string) {
 
   const guests: unknown = await new Response(result.stream).json();
   if (!Array.isArray(guests)) throw new Error('Wedding guest storage returned invalid data');
-  return { guests: guests as WeddingGuest[], etag: result.blob.etag };
+  // Private Blob reads can return a weak ETag (`W/"..."`), while `ifMatch`
+  // requires the equivalent strong ETag value.
+  const etag = result.blob.etag?.replace(/^W\//, '');
+  return { guests: guests as WeddingGuest[], etag };
 }
 
 export async function saveWeddingGuests(slug: string, guests: WeddingGuest[], etag?: string) {
