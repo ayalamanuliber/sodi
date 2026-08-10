@@ -26,6 +26,13 @@ export interface WeddingGuest {
   respuesta?: WeddingResponse | null;
 }
 
+export interface WeddingSettings {
+  whatsappMessage: string;
+  updatedAt: string | null;
+}
+
+export const DEFAULT_WHATSAPP_MESSAGE = 'Hola, {nombre}. Nos encantaría que nos acompañes en nuestro casamiento. Reservamos {pases} para vos.\n\nEn este enlace podés ver la invitación y confirmar tu asistencia:\n{enlace}';
+
 export const DEFAULT_WEDDING_SLUG = 'mirta-y-guillermo';
 
 function safeSlug(slug: string) {
@@ -34,6 +41,10 @@ function safeSlug(slug: string) {
 
 function guestPath(slug: string) {
   return `weddings/${safeSlug(slug)}/guests.json`;
+}
+
+function settingsPath(slug: string) {
+  return `weddings/${safeSlug(slug)}/settings.json`;
 }
 
 export async function fetchWeddingGuests(slug: string) {
@@ -60,6 +71,35 @@ export async function saveWeddingGuests(slug: string, guests: WeddingGuest[], et
     contentType: 'application/json',
     cacheControlMaxAge: 60,
     ...(etag ? { ifMatch: etag } : {}),
+  });
+}
+
+export async function fetchWeddingSettings(slug: string): Promise<WeddingSettings> {
+  const result = await get(settingsPath(slug), {
+    access: 'private',
+    useCache: false,
+  });
+
+  if (!result) return { whatsappMessage: DEFAULT_WHATSAPP_MESSAGE, updatedAt: null };
+  if (result.statusCode !== 200) throw new Error('Wedding settings storage returned no content');
+
+  const settings: unknown = await new Response(result.stream).json();
+  if (!settings || typeof settings !== 'object') throw new Error('Wedding settings storage returned invalid data');
+  const stored = settings as Partial<WeddingSettings>;
+  return {
+    whatsappMessage: typeof stored.whatsappMessage === 'string' && stored.whatsappMessage.trim()
+      ? stored.whatsappMessage
+      : DEFAULT_WHATSAPP_MESSAGE,
+    updatedAt: typeof stored.updatedAt === 'string' ? stored.updatedAt : null,
+  };
+}
+
+export async function saveWeddingSettings(slug: string, settings: WeddingSettings) {
+  await put(settingsPath(slug), JSON.stringify(settings), {
+    access: 'private',
+    allowOverwrite: true,
+    contentType: 'application/json',
+    cacheControlMaxAge: 60,
   });
 }
 

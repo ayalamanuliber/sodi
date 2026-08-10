@@ -21,6 +21,36 @@ function publicGuest(guest: WeddingGuest) {
   return safeGuest;
 }
 
+function createGuest(input: Record<string, unknown>): WeddingGuest {
+  const nombre = typeof input.nombre === 'string' ? input.nombre.trim() : '';
+  const pases = Number.parseInt(String(input.pases), 10);
+  if (!nombre || !Number.isInteger(pases) || pases < 1 || pases > 20) {
+    throw new WeddingGuestMutationError('Nombre o pases inválidos', 400);
+  }
+
+  const idSlug = nombre
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '') || 'invitacion';
+
+  return {
+    id: `${idSlug}-${randomBytes(6).toString('hex')}`,
+    nombre,
+    pases,
+    telefono: typeof input.telefono === 'string' ? input.telefono.trim() : '',
+    estado: 'pendiente',
+    enviado: false,
+    enviadoEn: null,
+    creadoEn: new Date().toISOString(),
+    vistoEn: null,
+    tipo: 'completo',
+    estilo: 'oro',
+    respuesta: null,
+  };
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -72,39 +102,28 @@ export async function POST(request: Request) {
     const slug = normalizeSlug(body.slug);
 
     if (body.action === 'add') {
-      const nombre = typeof body.nombre === 'string' ? body.nombre.trim() : '';
-      const pases = Number.parseInt(String(body.pases), 10);
-      if (!nombre || !Number.isInteger(pases) || pases < 1 || pases > 20) {
-        return NextResponse.json({ success: false, message: 'Nombre o pases inválidos' }, { status: 400 });
-      }
-
-      const idSlug = nombre
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/(^-|-$)/g, '') || 'invitacion';
-
-      const newGuest: WeddingGuest = {
-        id: `${idSlug}-${randomBytes(6).toString('hex')}`,
-        nombre,
-        pases,
-        telefono: typeof body.telefono === 'string' ? body.telefono.trim() : '',
-        estado: 'pendiente',
-        enviado: false,
-        enviadoEn: null,
-        creadoEn: new Date().toISOString(),
-        vistoEn: null,
-        tipo: body.tipo || 'completo',
-        estilo: body.estilo || 'oro',
-        respuesta: null,
-      };
+      const newGuest = createGuest(body);
 
       const updated = await mutateWeddingGuests(slug, (guests) => {
         guests.unshift(newGuest);
         return { result: newGuest };
       });
       return NextResponse.json({ success: true, guest: updated.result, guests: updated.guests });
+    }
+
+    if (body.action === 'addMany') {
+      if (!Array.isArray(body.guests) || body.guests.length < 1 || body.guests.length > 100) {
+        return NextResponse.json({ success: false, message: 'La lista debe tener entre 1 y 100 invitaciones' }, { status: 400 });
+      }
+
+      const newGuests = body.guests.map((guest: unknown) => createGuest(
+        guest && typeof guest === 'object' ? guest as Record<string, unknown> : {},
+      ));
+      const updated = await mutateWeddingGuests(slug, (guests) => {
+        guests.unshift(...newGuests);
+        return { result: newGuests };
+      });
+      return NextResponse.json({ success: true, added: updated.result.length, guests: updated.guests });
     }
 
     if (body.action === 'toggleEnviado') {

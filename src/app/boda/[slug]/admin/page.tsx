@@ -1,7 +1,16 @@
 'use client';
 
-import React, { useState, useEffect, use } from 'react';
+import React, { use, useCallback, useMemo, useRef, useState, useEffect } from 'react';
+import {
+  Activity, Bell, Check, CheckCircle2, ChevronRight, ClipboardList, Copy, Download,
+  Eye, FileUp, Gift, Home, Link2, ListChecks, LogOut, Mail, Menu, MessageCircle,
+  MoreHorizontal, Music2, Pencil, Plus, RefreshCw, Search, Send, Settings, Share2,
+  Sparkles, Trash2, UserPlus, Users, Utensils, X,
+} from 'lucide-react';
 import './admin.css';
+
+type View = 'resumen' | 'invitados' | 'envios' | 'respuestas' | 'invitacion' | 'configuracion';
+type Filter = 'todos' | 'sin-enviar' | 'confirmados' | 'pendientes' | 'rechazados';
 
 interface Guest {
   id: string;
@@ -13,8 +22,6 @@ interface Guest {
   enviadoEn?: string | null;
   creadoEn: string;
   vistoEn: string | null;
-  tipo?: 'completo' | 'solo-after' | 'solo-ceremonia';
-  estilo?: 'oro' | 'esmeralda' | 'borgoña';
   cancionSugerida?: string;
   respuesta?: {
     asistencia: string;
@@ -27,994 +34,391 @@ interface Guest {
   } | null;
 }
 
-export default function DynamicAdminBodaPage({ params }: { params: Promise<{ slug: string }> }) {
-  const resolvedParams = use(params);
-  const slug = resolvedParams.slug || 'mirta-y-guillermo';
+const DEFAULT_MESSAGE = 'Hola, {nombre}. Nos encantaría que nos acompañes en nuestro casamiento. Reservamos {pases} para vos.\n\nEn este enlace podés ver la invitación y confirmar tu asistencia:\n{enlace}';
 
-  const [authenticated, setAuthenticated] = useState(false);
-  const [passwordInput, setPasswordInput] = useState('');
-  const [loginError, setLoginError] = useState('');
-  const [guests, setGuests] = useState<Guest[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState<'todos' | 'confirmados' | 'pendientes' | 'rechazados' | 'sin-enviar'>('todos');
+const navItems: Array<{ id: View; label: string; icon: React.ElementType }> = [
+  { id: 'resumen', label: 'Resumen', icon: Home },
+  { id: 'invitados', label: 'Invitados', icon: Users },
+  { id: 'envios', label: 'Envíos', icon: Send },
+  { id: 'respuestas', label: 'Respuestas', icon: MessageCircle },
+  { id: 'invitacion', label: 'Invitación', icon: Mail },
+  { id: 'configuracion', label: 'Configuración', icon: Settings },
+];
 
-  // Form
-  const [newNombre, setNewNombre] = useState('');
-  const [newPases, setNewPases] = useState(2);
-  const [newTelefono, setNewTelefono] = useState('');
-  const [adding, setAdding] = useState(false);
-  const [notice, setNotice] = useState('');
+function statusLabel(guest: Guest) {
+  if (guest.estado === 'confirmado') return 'Asiste';
+  if (guest.estado === 'rechazado') return 'No asiste';
+  if (guest.enviado) return 'Esperando respuesta';
+  return 'Por enviar';
+}
 
-  const showNotice = (message: string) => {
-    setNotice(message);
-    window.setTimeout(() => setNotice(''), 3200);
-  };
+function formatPases(count: number) {
+  return count === 1 ? '1 lugar' : `${count} lugares`;
+}
 
-  useEffect(() => {
-    loadGuests();
-  }, [slug]);
+function buildMessage(template: string, guest: Guest, link: string) {
+  return template
+    .replaceAll('{nombre}', guest.nombre)
+    .replaceAll('{pases}', formatPases(guest.pases))
+    .replaceAll('{enlace}', link);
+}
 
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoginError('');
-    setLoading(true);
-
-    try {
-      const response = await fetch('/api/boda/admin/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password: passwordInput }),
-      });
-
-      if (!response.ok) {
-        setLoginError('Contraseña incorrecta. Verificá los datos e intentá de nuevo.');
-        return;
-      }
-
-      setAuthenticated(true);
-      setPasswordInput('');
-      await loadGuests();
-    } catch {
-      setLoginError('No se pudo acceder al panel. Intentá nuevamente.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleLogout = async () => {
-    await fetch('/api/boda/admin/logout', { method: 'POST' });
-    setAuthenticated(false);
-    setGuests([]);
-  };
-
-  const loadGuests = async () => {
-    setLoading(true);
-    try {
-      const res = await fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}&t=${Date.now()}`);
-      if (res.status === 401) {
-        setAuthenticated(false);
-        return;
-      }
-
-      const data = await res.json();
-      if (!res.ok || !data.success || !Array.isArray(data.guests)) {
-        throw new Error(data.message || 'No se pudo cargar la lista');
-      }
-
-      setAuthenticated(true);
-      setGuests(data.guests);
-    } catch (e) {
-      console.error('Error loading guests:', e);
-      setLoginError('No se pudo cargar la lista de invitados. Intentá nuevamente.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleAddGuest = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!newNombre.trim()) return;
-    setAdding(true);
-    const controller = new AbortController();
-    const timeoutId = window.setTimeout(() => controller.abort(), 12_000);
-
-    try {
-      const res = await fetch('/api/boda/invitados', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        signal: controller.signal,
-        body: JSON.stringify({
-          slug,
-          action: 'add',
-          nombre: newNombre,
-          pases: newPases,
-          telefono: newTelefono,
-          tipo: 'completo',
-          estilo: 'oro'
-        })
-      });
-      const data = await res.json();
-      if (res.status === 401) {
-        setAuthenticated(false);
-        setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
-        return;
-      }
-      if (res.ok && data.success && Array.isArray(data.guests)) {
-        setGuests(data.guests);
-        setNewNombre('');
-        setNewPases(2);
-        setNewTelefono('');
-        showNotice(`Invitación creada para ${newNombre.trim()}.`);
-      } else {
-        throw new Error(data.message || 'No se pudo guardar la invitación');
-      }
-    } catch (error) {
-      if (error instanceof DOMException && error.name === 'AbortError') {
-        showNotice('La conexión tardó demasiado. Recargá la lista para comprobar el estado antes de intentar nuevamente.');
-      } else if (error instanceof TypeError) {
-        showNotice('Se interrumpió la conexión. Recargá la lista para comprobar el estado antes de intentar nuevamente.');
-      } else {
-        showNotice(error instanceof Error ? error.message : 'No se pudo guardar la invitación.');
-      }
-    } finally {
-      window.clearTimeout(timeoutId);
-      setAdding(false);
-    }
-  };
-
-  const handleToggleEnviado = async (id: string, currentEnviado: boolean) => {
-    const updated = guests.map(g => {
-      if (g.id === id) {
-        const nextEnviado = !currentEnviado;
-        return {
-          ...g,
-          enviado: nextEnviado,
-          enviadoEn: nextEnviado ? new Date().toISOString() : g.enviadoEn
-        };
-      }
-      return g;
-    });
-    setGuests(updated);
-
-    try {
-      const res = await fetch('/api/boda/invitados', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ slug, action: 'toggleEnviado', id, enviado: !currentEnviado })
-      });
-      const data = await res.json();
-      if (res.status === 401) {
-        setAuthenticated(false);
-        setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
-        return;
-      }
-      if (res.ok && data.success && Array.isArray(data.guests)) {
-        setGuests(data.guests);
-      } else {
-        await loadGuests();
-      }
-    } catch {
-      await loadGuests();
-      showNotice('No se pudo actualizar el estado de envío.');
-    }
-  };
-
-  const handleDelete = async (id: string, nombre: string) => {
-    if (!confirm(`¿Eliminar la invitación de "${nombre}"?`)) return;
-    const updated = guests.filter(g => g.id !== id);
-    setGuests(updated);
-
-    try {
-      const res = await fetch('/api/boda/invitados', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ slug, action: 'delete', id })
-      });
-      const data = await res.json();
-      if (res.status === 401) {
-        setAuthenticated(false);
-        setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
-        return;
-      }
-      if (res.ok && data.success && Array.isArray(data.guests)) {
-        setGuests(data.guests);
-      } else {
-        await loadGuests();
-      }
-    } catch {
-      await loadGuests();
-      showNotice('No se pudo eliminar la invitación.');
-    }
-  };
-
-  const getWhatsAppLink = (guest: Guest) => {
-    const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://sodi.com.ar';
-    const link = `${baseUrl}/boda/${slug}?i=${guest.id}`;
-    const pasesText = guest.pases === 1 ? '1 pase' : `${guest.pases} pases`;
-    
-    let message = '';
-    if (guest.tipo === 'solo-after') {
-      message = `¡Hola ${guest.nombre}! 🥳 Queremos celebrar a lo grande en nuestro casamiento y nos encantaría que vengas a bailar, brindar y festejar con nosotros a partir del after-party (23:30hs). En este enlace podés ver la tarjeta digital y confirmar tus ${pasesText}:\n\n${link}`;
-    } else if (guest.tipo === 'solo-ceremonia') {
-      message = `¡Hola ${guest.nombre}! 💒 Nos encantaría de corazón que nos acompañes en la ceremonia religiosa de nuestro casamiento. En este enlace podés ver la tarjeta con toda la información y confirmar tu asistencia:\n\n${link}`;
-    } else {
-      message = `¡Hola ${guest.nombre}! 💒 Nos encantaría que nos acompañes en nuestro casamiento (Ceremonia y Fiesta). En este enlace podés ver la tarjeta de invitación premium y confirmar tus ${pasesText}:\n\n${link}`;
-    }
-
-    const phoneParam = guest.telefono ? `phone=${encodeURIComponent(guest.telefono.replace(/[^0-9]/g, ''))}&` : '';
-    return `https://api.whatsapp.com/send?${phoneParam}text=${encodeURIComponent(message)}`;
-  };
-
-  const handleWhatsAppClick = (guest: Guest) => {
-    if (!guest.enviado) {
-      handleToggleEnviado(guest.id, false);
-    }
-  };
-
-  const copyLink = async (guest: Guest) => {
-    const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://sodi.com.ar';
-    const link = `${baseUrl}/boda/${slug}?i=${guest.id}`;
-    try {
-      await navigator.clipboard.writeText(link);
-      showNotice(`Link de ${guest.nombre} copiado.`);
-    } catch {
-      showNotice('No se pudo copiar el link.');
-    }
-  };
-
-  const exportCSV = () => {
-    const csvCell = (value: unknown) => `"${String(value ?? '').replaceAll('"', '""')}"`;
-    const headers = ['Nombre', 'Pases Asignados', 'Enviado', 'Estado', 'Pases Confirmados', 'Integrantes', 'Menú', 'Notas', 'Canción', 'Visto', 'Fecha Respuesta'];
-    const rows = guests.map(g => [
-      csvCell(g.nombre),
-      g.pases,
-      g.enviado ? 'Sí' : 'No',
-      g.estado,
-      g.respuesta ? g.respuesta.pasesConfirmados : '',
-      csvCell((g.respuesta?.integrantes || []).join(', ')),
-      csvCell(g.respuesta?.menu),
-      csvCell(g.respuesta?.notas),
-      csvCell(g.respuesta?.cancion || g.cancionSugerida),
-      g.vistoEn ? new Date(g.vistoEn).toLocaleString('es-AR') : 'No',
-      g.respuesta?.fechaRespuesta ? new Date(g.respuesta.fechaRespuesta).toLocaleString('es-AR') : ''
-    ]);
-
-    const csvContent = 'data:text/csv;charset=utf-8,\uFEFF' + [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement('a');
-    link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `Invitaciones-Boda-${slug}-${new Date().toISOString().slice(0,10)}.csv`);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  const totalInvitaciones = guests.length;
-  const totalPases = guests.reduce((sum, g) => sum + g.pases, 0);
-  const totalEnviados = guests.filter(g => g.enviado).length;
-  const confirmados = guests.filter(g => g.estado === 'confirmado').reduce((sum, g) => sum + (g.respuesta?.pasesConfirmados || g.pases), 0);
-  const pendientes = guests.filter(g => g.estado === 'pendiente').length;
-
-  const filteredGuests = guests.filter(g => {
-    if (filter === 'confirmados') return g.estado === 'confirmado';
-    if (filter === 'pendientes') return g.estado === 'pendiente';
-    if (filter === 'rechazados') return g.estado === 'rechazado';
-    if (filter === 'sin-enviar') return !g.enviado;
-    return true;
-  });
-
-  if (!authenticated) {
-    return (
-      <div style={styles.loginContainer}>
-        <div style={styles.loginCard}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', marginBottom: '18px' }}>
-            <span style={{ fontSize: '1.5rem', fontWeight: '900', letterSpacing: '2px', color: '#1a251e', border: '2px solid #1a251e', padding: '2px 10px', borderRadius: '4px', fontFamily: 'system-ui, sans-serif' }}>SODI</span>
-            <span style={{ fontSize: '1.3rem', fontWeight: '500', color: '#8b6f4e', letterSpacing: '1px', fontFamily: 'Georgia, serif' }}>BODAS</span>
-          </div>
-          <h1 style={styles.loginTitle}>Panel de Control</h1>
-          <p style={styles.loginSubtitle}>Gestión de Invitados: <strong>{slug}</strong></p>
-          <form onSubmit={handleLogin} style={styles.form}>
-            <input
-              type="password"
-              placeholder="Ingresá tu contraseña de acceso"
-              value={passwordInput}
-              onChange={(e) => setPasswordInput(e.target.value)}
-              style={styles.inputDarkText}
-              required
-            />
-            {loginError && <p style={{ color: '#c62828', fontSize: '0.85rem', margin: '4px 0' }}>{loginError}</p>}
-            <button type="submit" style={styles.buttonPrimaryBlock}>Ingresar al Panel</button>
-          </form>
-        </div>
-      </div>
-    );
-  }
-
+function ProgressRing({ value }: { value: number }) {
+  const radius = 48;
+  const circumference = 2 * Math.PI * radius;
   return (
-    <div className="wedding-admin" style={styles.container}>
-      {notice && <div className="wedding-admin__notice" role="status">{notice}</div>}
-      <header className="wedding-admin__header" style={styles.header}>
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
-            <span style={{ fontSize: '1.1rem', fontWeight: '900', letterSpacing: '1px', color: '#ffffff', backgroundColor: '#1a251e', padding: '1px 6px', borderRadius: '3px' }}>SODI</span>
-            <span style={{ fontSize: '1rem', fontWeight: '600', color: '#8b6f4e', letterSpacing: '0.5px' }}>BODAS</span>
-          </div>
-          <h1 style={styles.mainHeading}>Administración de Invitaciones</h1>
-        </div>
-        <div className="wedding-admin__header-actions" style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-          <a
-            href={`/boda/${slug}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ ...styles.buttonOutlineHeader, textDecoration: 'none' }}
-          >
-            👁️ Vista previa
-          </a>
-          <button onClick={exportCSV} style={styles.buttonOutlineHeader}>📥 Descargar lista</button>
-          <button onClick={handleLogout} style={styles.buttonDangerHeader}>Cerrar Sesión</button>
-        </div>
-      </header>
-
-      {/* Metrics Row */}
-      <div className="wedding-admin__metrics" style={styles.metricsGrid}>
-        <div className="wedding-admin__metric" style={styles.metricCard}>
-          <span style={styles.metricLabel}>Total Invitaciones</span>
-          <span style={styles.metricValue}>{totalInvitaciones} <small style={{ fontSize: '1rem', color: '#555' }}>({totalPases} pases)</small></span>
-        </div>
-        <div className="wedding-admin__metric" style={{ ...styles.metricCard, borderLeft: '4px solid #0288d1' }}>
-          <span style={styles.metricLabel}>Enviadas por WhatsApp</span>
-          <span style={{ ...styles.metricValue, color: '#0288d1' }}>{totalEnviados} / {totalInvitaciones}</span>
-        </div>
-        <div className="wedding-admin__metric" style={{ ...styles.metricCard, borderLeft: '4px solid #2e7d32' }}>
-          <span style={styles.metricLabel}>Pases Confirmados</span>
-          <span style={{ ...styles.metricValue, color: '#2e7d32' }}>{confirmados}</span>
-        </div>
-        <div className="wedding-admin__metric" style={{ ...styles.metricCard, borderLeft: '4px solid #f57c00' }}>
-          <span style={styles.metricLabel}>Pendientes de Respuesta</span>
-          <span style={{ ...styles.metricValue, color: '#f57c00' }}>{pendientes}</span>
-        </div>
-      </div>
-
-      {/* Friendly Guide for Mirta */}
-      <div className="wedding-admin__guide" style={{
-        backgroundColor: '#ecfdf5',
-        border: '1px solid #a7f3d0',
-        borderRadius: '12px',
-        padding: '18px 24px',
-        marginBottom: '24px',
-        display: 'flex',
-        gap: '16px',
-        alignItems: 'flex-start',
-        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -2px rgba(0, 0, 0, 0.02)'
-      }}>
-        <span style={{ fontSize: '1.4rem' }}>💡</span>
-        <div style={{ fontSize: '0.9rem', color: '#065f46', lineHeight: '1.5' }}>
-          <strong style={{ color: '#064e3b', fontSize: '1rem' }}>Cómo usar el panel:</strong>{' '}
-          creá la invitación, abrila para revisarla y enviala por WhatsApp. También podés copiar el link o corregir el estado de envío desde la lista.
-        </div>
-      </div>
-
-      {/* Add New Guest Form */}
-      <section className="wedding-admin__card" style={styles.card}>
-        <h2 style={styles.cardTitle}>✨ Agregar Nueva Invitación</h2>
-        <form onSubmit={handleAddGuest} style={{ ...styles.addForm, display: 'flex', flexDirection: 'column', gap: '12px' }}>
-          <div className="wedding-admin__form-row" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', width: '100%' }}>
-            <input
-              type="text"
-              placeholder="Nombre de Persona / Familia (ej: Familia Pérez)"
-              value={newNombre}
-              onChange={(e) => setNewNombre(e.target.value)}
-              style={{ ...styles.inputFlexDark, flex: '2 1 300px' }}
-              required
-            />
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', minWidth: '100px' }}>
-              <label style={{ fontSize: '0.9rem', color: '#111', fontWeight: '600' }}>Pases:</label>
-              <input
-                type="number"
-                min="1"
-                max="10"
-                value={newPases}
-                onChange={(e) => setNewPases(parseInt(e.target.value, 10) || 1)}
-                style={styles.inputSmallDark}
-                required
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Teléfono (ej: 5491162337552)"
-              value={newTelefono}
-              onChange={(e) => setNewTelefono(e.target.value)}
-              style={{ ...styles.inputFlexDark, flex: '1 1 200px' }}
-            />
-          </div>
-
-          <button type="submit" disabled={adding} style={{ ...styles.buttonPrimary, width: '100%', marginTop: '8px' }}>
-            {adding ? 'Guardando...' : '➕ Crear Invitación'}
-          </button>
-        </form>
-      </section>
-
-      {/* Filter Tabs */}
-      <div className="wedding-admin__tabs" style={styles.tabRow}>
-        {(['todos', 'sin-enviar', 'confirmados', 'pendientes', 'rechazados'] as const).map(tab => {
-          const tabStateMap: Record<string, (g: Guest) => boolean> = {
-            todos: () => true,
-            'sin-enviar': (g) => !g.enviado,
-            confirmados: (g) => g.estado === 'confirmado',
-            pendientes: (g) => g.estado === 'pendiente',
-            rechazados: (g) => g.estado === 'rechazado'
-          };
-          const count = guests.filter(tabStateMap[tab]).length;
-          const labelMap: Record<string, string> = {
-            todos: 'Todos',
-            'sin-enviar': 'Sin Enviar',
-            confirmados: 'Confirmados',
-            pendientes: 'Pendientes',
-            rechazados: 'Rechazados'
-          };
-          return (
-            <button
-              key={tab}
-              onClick={() => setFilter(tab)}
-              style={{
-                ...styles.tabButton,
-                ...(filter === tab ? styles.tabButtonActive : {})
-              }}
-            >
-              {labelMap[tab]} ({count})
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Guest Table */}
-      <section className="wedding-admin__card wedding-admin__guest-list" style={styles.card}>
-        {loading ? (
-          <p style={{ padding: '24px', textAlign: 'center', color: '#111', fontWeight: '600' }}>Cargando lista de invitados...</p>
-        ) : filteredGuests.length === 0 ? (
-          <div style={{ padding: '40px', textAlign: 'center', color: '#444' }}>
-            <p style={{ fontSize: '1.1rem', fontWeight: '600', color: '#111', marginBottom: '6px' }}>No hay invitaciones en esta sección.</p>
-            <p style={{ fontSize: '0.9rem', color: '#555' }}>Agregá un invitado en el formulario de arriba para generar su link único y enviárselo por WhatsApp.</p>
-          </div>
-        ) : (
-          <div className="wedding-admin__table-wrap" style={{ overflowX: 'auto' }}>
-            <table className="wedding-admin__table" style={styles.table}>
-              <thead>
-                <tr>
-                  <th style={styles.th}>Invitado / Familia</th>
-                  <th style={styles.th}>Pases</th>
-                  <th style={styles.th}>¿Enviado?</th>
-                  <th style={styles.th}>Confirmación</th>
-                  <th style={styles.th}>Apertura</th>
-                  <th style={styles.th}>Respuesta</th>
-                  <th style={styles.th}>Acciones</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filteredGuests.map(guest => (
-                  <tr className="wedding-admin__guest-row" key={guest.id} style={styles.tr}>
-                    <td data-label="Invitado" style={styles.td}>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                        <strong style={{ color: '#0f172a', fontSize: '1rem', fontWeight: '700' }}>{guest.nombre}</strong>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#64748b', flexWrap: 'wrap' }}>
-                          <span style={{
-                            fontWeight: '600',
-                            color: guest.tipo === 'solo-after' ? '#0284c7' : guest.tipo === 'solo-ceremonia' ? '#ea580c' : '#7c3aed'
-                          }}>
-                            {guest.tipo === 'solo-after' ? 'Solo After' : guest.tipo === 'solo-ceremonia' ? 'Solo Ceremonia' : 'Pase Completo'}
-                          </span>
-                          <span>•</span>
-                          <code style={{ fontSize: '0.75rem', backgroundColor: '#f1f5f9', padding: '1px 4px', borderRadius: '4px' }}>?i={guest.id}</code>
-                        </div>
-                      </div>
-                    </td>
-                    <td data-label="Pases" style={{ ...styles.td, fontWeight: '700', color: '#111' }}>{guest.pases}</td>
-                    <td data-label="Envío" style={styles.td}>
-                      <button
-                        onClick={() => handleToggleEnviado(guest.id, !!guest.enviado)}
-                        style={{
-                          background: 'none',
-                          border: 'none',
-                          cursor: 'pointer',
-                          padding: '0'
-                        }}
-                        title="Toca para cambiar estado de envío"
-                      >
-                        {guest.enviado ? (
-                          <span style={styles.badgeEnviado}>🟢 Enviado</span>
-                        ) : (
-                          <span style={styles.badgeSinEnviar}>⚪ Pendiente</span>
-                        )}
-                      </button>
-                    </td>
-                    <td data-label="Confirmación" style={styles.td}>
-                      {guest.estado === 'confirmado' && <span style={styles.badgeSuccess}>✅ Confirmado</span>}
-                      {guest.estado === 'rechazado' && <span style={styles.badgeDanger}>❌ No Asiste</span>}
-                      {guest.estado === 'pendiente' && <span style={styles.badgeWarning}>⏳ Pendiente</span>}
-                    </td>
-                    <td data-label="Apertura" style={styles.td}>
-                      {guest.vistoEn ? <span style={{ color: '#1b5e20', fontWeight: '600' }}>👁️ Abierto</span> : <span style={{ color: '#777' }}>Sin abrir</span>}
-                    </td>
-                    <td data-label="Respuesta" style={styles.td}>
-                      {guest.respuesta ? (
-                        <div style={{ fontSize: '0.85rem', color: '#222' }}>
-                          {guest.estado === 'rechazado' ? (
-                            <div><strong style={{ color: '#8b2f2f' }}>No asistirá</strong></div>
-                          ) : (
-                            <>
-                              <div><strong style={{ color: '#111' }}>Asisten:</strong> {guest.respuesta.pasesConfirmados} de {guest.pases} pases</div>
-                              {guest.respuesta.integrantes.length > 0 && (
-                                <div><strong style={{ color: '#111' }}>Nombres:</strong> {guest.respuesta.integrantes.join(', ')}</div>
-                              )}
-                              <div><strong style={{ color: '#111' }}>Menú:</strong> {guest.respuesta.menu}</div>
-                            </>
-                          )}
-                          {guest.respuesta.notas && <div><strong style={{ color: '#111' }}>Notas:</strong> {guest.respuesta.notas}</div>}
-                          {(guest.respuesta.cancion || guest.cancionSugerida) && <div><strong style={{ color: '#111' }}>🎵 Canción:</strong> {guest.respuesta.cancion || guest.cancionSugerida}</div>}
-                        </div>
-                      ) : guest.cancionSugerida ? (
-                        <div style={{ fontSize: '0.85rem', color: '#222' }}>
-                          <div><strong style={{ color: '#111' }}>🎵 Canción sugerida:</strong> {guest.cancionSugerida}</div>
-                          <span style={{ color: '#666' }}>Aún no respondió la invitación</span>
-                        </div>
-                      ) : (
-                        <span style={{ color: '#666', fontSize: '0.85rem' }}>Aún no respondió</span>
-                      )}
-                    </td>
-                    <td data-label="Acciones" style={{ ...styles.td, whiteSpace: 'nowrap' }}>
-                      <div className="wedding-admin__guest-actions" style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'nowrap' }}>
-                        <a
-                          href={`/boda/${slug}?i=${encodeURIComponent(guest.id)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{
-                            backgroundColor: '#e8f0eb',
-                            border: '1px solid #9fb7a7',
-                            color: '#1a4930',
-                            padding: '8px',
-                            borderRadius: '50%',
-                            width: '38px',
-                            height: '38px',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '1.1rem',
-                            textDecoration: 'none',
-                          }}
-                          title={`Ver la invitación de ${guest.nombre}`}
-                          aria-label={`Ver la invitación de ${guest.nombre}`}
-                        >
-                          👁️
-                        </a>
-                        <a
-                          href={getWhatsAppLink(guest)}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={() => handleWhatsAppClick(guest)}
-                          style={{
-                            backgroundColor: '#25D366',
-                            color: '#ffffff',
-                            textDecoration: 'none',
-                            padding: '8px',
-                            borderRadius: '50%',
-                            width: '38px',
-                            height: '38px',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '1.25rem',
-                            cursor: 'pointer',
-                            boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                            border: 'none'
-                          }}
-                          title="Enviar invitación por WhatsApp (📲)"
-                        >
-                          📲
-                        </a>
-                        <button
-                          onClick={() => copyLink(guest)}
-                          style={{
-                            backgroundColor: '#f1f5f9',
-                            border: '1px solid #cbd5e1',
-                            color: '#1e293b',
-                            padding: '8px',
-                            borderRadius: '50%',
-                            width: '38px',
-                            height: '38px',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '1.1rem',
-                            cursor: 'pointer',
-                            boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
-                          }}
-                          title="Copiar link de invitación (🔗)"
-                        >
-                          🔗
-                        </button>
-                        <button
-                          onClick={() => handleDelete(guest.id, guest.nombre)}
-                          style={{
-                            backgroundColor: '#fee2e2',
-                            color: '#991b1b',
-                            border: 'none',
-                            padding: '8px',
-                            borderRadius: '50%',
-                            width: '38px',
-                            height: '38px',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '1.1rem',
-                            cursor: 'pointer',
-                            boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
-                          }}
-                          title="Eliminar invitación (🗑️)"
-                        >
-                          🗑️
-                        </button>
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </section>
+    <div className="wa-progress-ring" aria-label={`${value}% de progreso`}>
+      <svg viewBox="0 0 112 112" aria-hidden="true">
+        <circle className="wa-progress-ring__track" cx="56" cy="56" r={radius} />
+        <circle className="wa-progress-ring__value" cx="56" cy="56" r={radius}
+          strokeDasharray={circumference} strokeDashoffset={circumference * (1 - value / 100)} />
+      </svg>
+      <strong>{value}%</strong>
     </div>
   );
 }
 
-const styles: Record<string, React.CSSProperties> = {
-  loginContainer: {
-    minHeight: '100vh',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#f4f1ea',
-    fontFamily: 'system-ui, -apple-system, sans-serif'
-  },
-  loginCard: {
-    backgroundColor: '#ffffff',
-    padding: '40px',
-    borderRadius: '16px',
-    boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
-    textAlign: 'center',
-    maxWidth: '420px',
-    width: '90%',
-    border: '1px solid #e0d8c8'
-  },
-  loginIcon: {
-    fontSize: '2.5rem',
-    marginBottom: '12px'
-  },
-  loginTitle: {
-    margin: '0 0 6px 0',
-    fontSize: '1.6rem',
-    color: '#1a251e',
-    fontWeight: '700'
-  },
-  loginSubtitle: {
-    margin: '0 0 24px 0',
-    fontSize: '0.95rem',
-    color: '#333333'
-  },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '12px'
-  },
-  inputDarkText: {
-    width: '100%',
-    padding: '14px 16px',
-    borderRadius: '8px',
-    border: '1.5px solid #203a2c',
-    fontSize: '1rem',
-    color: '#111111',
-    backgroundColor: '#ffffff',
-    fontWeight: '500'
-  },
-  buttonPrimaryBlock: {
-    width: '100%',
-    backgroundColor: '#355844',
-    color: '#ffffff',
-    border: 'none',
-    padding: '14px',
-    borderRadius: '8px',
-    fontWeight: '700',
-    fontSize: '1rem',
-    cursor: 'pointer'
-  },
-  container: {
-    padding: '30px 20px',
-    maxWidth: '1240px',
-    margin: '0 auto',
-    fontFamily: 'system-ui, -apple-system, sans-serif',
-    backgroundColor: '#f8fafc',
-    minHeight: '100vh',
-    color: '#0f172a'
-  },
-  header: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: '28px',
-    flexWrap: 'wrap',
-    gap: '16px'
-  },
-  badge: {
-    fontSize: '0.8rem',
-    textTransform: 'uppercase',
-    letterSpacing: '1px',
-    color: '#0f766e',
-    fontWeight: '700',
-    backgroundColor: '#ccfbf1',
-    padding: '4px 10px',
-    borderRadius: '6px',
-    display: 'inline-block'
-  },
-  mainHeading: {
-    margin: '8px 0 0 0',
-    fontSize: '2rem',
-    color: '#0f172a',
-    fontWeight: '800',
-    letterSpacing: '-0.5px'
-  },
-  buttonOutlineHeader: {
-    backgroundColor: '#ffffff',
-    color: '#0f172a',
-    border: '1px solid #cbd5e1',
-    padding: '10px 18px',
-    borderRadius: '8px',
-    fontWeight: '600',
-    cursor: 'pointer',
-    fontSize: '0.9rem',
-    boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '8px'
-  },
-  buttonDangerHeader: {
-    backgroundColor: '#fee2e2',
-    color: '#991b1b',
-    border: '1px solid #f87171',
-    padding: '10px 16px',
-    borderRadius: '8px',
-    fontWeight: '700',
-    cursor: 'pointer',
-    fontSize: '0.9rem'
-  },
-  metricsGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-    gap: '20px',
-    marginBottom: '28px'
-  },
-  metricCard: {
-    backgroundColor: '#ffffff',
-    padding: '24px',
-    borderRadius: '12px',
-    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05)',
-    display: 'flex',
-    flexDirection: 'column',
-    border: '1px solid #e2e8f0',
-    position: 'relative',
-    overflow: 'hidden'
-  },
-  metricLabel: {
-    fontSize: '0.85rem',
-    color: '#64748b',
-    fontWeight: '600',
-    textTransform: 'uppercase',
-    letterSpacing: '0.5px'
-  },
-  metricValue: {
-    fontSize: '2.2rem',
-    fontWeight: '800',
-    marginTop: '6px',
-    color: '#0f172a',
-    letterSpacing: '-0.5px'
-  },
-  card: {
-    backgroundColor: '#ffffff',
-    borderRadius: '16px',
-    padding: '28px',
-    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -4px rgba(0, 0, 0, 0.04)',
-    marginBottom: '28px',
-    border: '1px solid #e2e8f0'
-  },
-  cardTitle: {
-    margin: '0 0 20px 0',
-    fontSize: '1.3rem',
-    color: '#0f172a',
-    fontWeight: '700'
-  },
-  addForm: {
-    display: 'flex',
-    gap: '12px',
-    flexWrap: 'wrap',
-    alignItems: 'center'
-  },
-  inputFlexDark: {
-    flex: '1 1 220px',
-    height: '46px',
-    padding: '0 16px',
-    borderRadius: '8px',
-    border: '1.5px solid #cbd5e1',
-    fontSize: '0.95rem',
-    color: '#0f172a',
-    backgroundColor: '#ffffff',
-    fontWeight: '500',
-    outline: 'none',
-    boxShadow: 'none',
-    boxSizing: 'border-box'
-  },
-  inputSmallDark: {
-    width: '70px',
-    height: '46px',
-    padding: '0 8px',
-    borderRadius: '8px',
-    border: '1.5px solid #cbd5e1',
-    fontSize: '0.95rem',
-    color: '#0f172a',
-    backgroundColor: '#ffffff',
-    fontWeight: '700',
-    textAlign: 'center',
-    outline: 'none',
-    boxSizing: 'border-box'
-  },
-  buttonPrimary: {
-    backgroundColor: '#0f766e',
-    color: '#ffffff',
-    border: 'none',
-    padding: '12px 20px',
-    borderRadius: '8px',
-    fontWeight: '700',
-    cursor: 'pointer',
-    fontSize: '0.95rem',
-    height: '46px',
-    display: 'inline-flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    transition: 'background-color 0.2s',
-    boxShadow: '0 4px 6px -1px rgba(15, 118, 110, 0.1), 0 2px 4px -2px rgba(15, 118, 110, 0.1)'
-  },
-  tabRow: {
-    display: 'flex',
-    gap: '8px',
-    marginBottom: '16px',
-    flexWrap: 'wrap'
-  },
-  tabButton: {
-    padding: '8px 16px',
-    borderRadius: '20px',
-    border: '1px solid #cbd5e1',
-    backgroundColor: '#ffffff',
-    cursor: 'pointer',
-    fontSize: '0.85rem',
-    color: '#475569',
-    fontWeight: '600',
-    transition: 'all 0.2s ease'
-  },
-  tabButtonActive: {
-    backgroundColor: '#0f766e',
-    color: '#ffffff',
-    borderColor: '#0f766e',
-    boxShadow: '0 2px 4px rgba(15, 118, 110, 0.15)'
-  },
-  table: {
-    width: '100%',
-    borderCollapse: 'collapse',
-    textAlign: 'left'
-  },
-  th: {
-    borderBottom: '2px solid #cbd5e1',
-    padding: '12px 14px',
-    fontSize: '0.8rem',
-    color: '#475569',
-    textTransform: 'uppercase',
-    fontWeight: '700',
-    letterSpacing: '0.5px',
-    verticalAlign: 'middle'
-  },
-  tr: {
-    borderBottom: '1px solid #eeeeee'
-  },
-  td: {
-    padding: '12px 14px',
-    verticalAlign: 'middle',
-    fontSize: '0.92rem',
-    color: '#0f172a'
-  },
-  badgeEnviado: {
-    backgroundColor: '#e0f2fe',
-    color: '#0369a1',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '0.8rem',
-    fontWeight: '700',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '4px',
-    whiteSpace: 'nowrap'
-  },
-  badgeSinEnviar: {
-    backgroundColor: '#f1f5f9',
-    color: '#475569',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '0.8rem',
-    fontWeight: '600',
-    border: '1px solid #e2e8f0',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '4px',
-    whiteSpace: 'nowrap'
-  },
-  badgeSuccess: {
-    backgroundColor: '#d1e7dd',
-    color: '#0f5132',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '0.82rem',
-    fontWeight: '700',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '4px',
-    whiteSpace: 'nowrap'
-  },
-  badgeDanger: {
-    backgroundColor: '#f8d7da',
-    color: '#842029',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '0.82rem',
-    fontWeight: '700',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '4px',
-    whiteSpace: 'nowrap'
-  },
-  badgeWarning: {
-    backgroundColor: '#fff3cd',
-    color: '#664d03',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '0.82rem',
-    fontWeight: '700',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '4px',
-    whiteSpace: 'nowrap'
-  },
-  buttonWhatsapp: {
-    backgroundColor: '#25D366',
-    color: '#ffffff',
-    textDecoration: 'none',
-    padding: '8px 14px',
-    borderRadius: '6px',
-    fontSize: '0.85rem',
-    fontWeight: '700',
-    display: 'inline-flex',
-    alignItems: 'center'
-  },
-  buttonSmall: {
-    backgroundColor: '#f0ede6',
-    border: '1px solid #ccc',
-    color: '#111',
-    padding: '8px 12px',
-    borderRadius: '6px',
-    fontSize: '0.85rem',
-    fontWeight: '600',
-    cursor: 'pointer'
-  },
-  buttonSmallDanger: {
-    backgroundColor: '#fee2e2',
-    color: '#991b1b',
-    border: 'none',
-    padding: '8px 12px',
-    borderRadius: '6px',
-    cursor: 'pointer'
-  }
-};
+export default function WeddingAdminPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug = 'mirta-y-guillermo' } = use(params);
+  const [authenticated, setAuthenticated] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [password, setPassword] = useState('');
+  const [loginError, setLoginError] = useState('');
+  const [guests, setGuests] = useState<Guest[]>([]);
+  const [view, setView] = useState<View>('resumen');
+  const [filter, setFilter] = useState<Filter>('todos');
+  const [search, setSearch] = useState('');
+  const [notice, setNotice] = useState('');
+  const [createOpen, setCreateOpen] = useState(false);
+  const [createMode, setCreateMode] = useState<'single' | 'bulk'>('single');
+  const [newName, setNewName] = useState('');
+  const [newPasses, setNewPasses] = useState(2);
+  const [newPhone, setNewPhone] = useState('');
+  const [bulkText, setBulkText] = useState('');
+  const [saving, setSaving] = useState(false);
+  const [messageTemplate, setMessageTemplate] = useState(DEFAULT_MESSAGE);
+  const [defaultMessage, setDefaultMessage] = useState(DEFAULT_MESSAGE);
+  const [messageSaving, setMessageSaving] = useState(false);
+  const [pendingSentGuest, setPendingSentGuest] = useState<Guest | null>(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
+
+  const showNotice = useCallback((message: string) => {
+    setNotice(message);
+    window.setTimeout(() => setNotice(''), 3600);
+  }, []);
+
+  const expireSession = useCallback(() => {
+    setAuthenticated(false);
+    setLoginError('Tu sesión venció. Ingresá nuevamente para continuar.');
+  }, []);
+
+  const loadData = useCallback(async () => {
+    setLoading(true);
+    try {
+      const [guestResponse, settingsResponse] = await Promise.all([
+        fetch(`/api/boda/invitados?slug=${encodeURIComponent(slug)}&t=${Date.now()}`),
+        fetch(`/api/boda/configuracion?slug=${encodeURIComponent(slug)}&t=${Date.now()}`),
+      ]);
+      if (guestResponse.status === 401 || settingsResponse.status === 401) return expireSession();
+      const guestData = await guestResponse.json();
+      const settingsData = await settingsResponse.json();
+      if (!guestResponse.ok || !guestData.success || !Array.isArray(guestData.guests)) {
+        throw new Error(guestData.message || 'No se pudo cargar la lista');
+      }
+      setGuests(guestData.guests);
+      if (settingsResponse.ok && settingsData.success) {
+        setMessageTemplate(settingsData.settings.whatsappMessage);
+        setDefaultMessage(settingsData.defaultMessage || DEFAULT_MESSAGE);
+      }
+      setAuthenticated(true);
+      setLoginError('');
+    } catch (error) {
+      console.error('Wedding admin load failed:', error);
+      setLoginError('No pudimos cargar el panel. Revisá tu conexión e intentá nuevamente.');
+    } finally {
+      setLoading(false);
+    }
+  }, [expireSession, slug]);
+
+  useEffect(() => { void loadData(); }, [loadData]);
+
+  const handleLogin = async (event: React.FormEvent) => {
+    event.preventDefault();
+    setLoading(true);
+    setLoginError('');
+    try {
+      const response = await fetch('/api/boda/admin/login', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password }),
+      });
+      if (!response.ok) return setLoginError('La contraseña no es correcta. Volvé a intentarlo.');
+      setPassword('');
+      await loadData();
+    } catch {
+      setLoginError('No pudimos acceder al panel. Revisá tu conexión.');
+    } finally { setLoading(false); }
+  };
+
+  const mutateGuests = async (payload: Record<string, unknown>) => {
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 12_000);
+    try {
+      const response = await fetch('/api/boda/invitados', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: controller.signal,
+        body: JSON.stringify({ slug, ...payload }),
+      });
+      const data = await response.json();
+      if (response.status === 401) { expireSession(); return null; }
+      if (!response.ok || !data.success) throw new Error(data.message || 'No se pudo guardar el cambio');
+      if (Array.isArray(data.guests)) setGuests(data.guests);
+      return data;
+    } finally { window.clearTimeout(timeout); }
+  };
+
+  const handleCreate = async (event: React.FormEvent) => {
+    event.preventDefault();
+    setSaving(true);
+    try {
+      if (createMode === 'single') {
+        const result = await mutateGuests({ action: 'add', nombre: newName, pases: newPasses, telefono: newPhone });
+        if (!result) return;
+        showNotice(`Invitación creada para ${newName.trim()}.`);
+      } else {
+        const parsed = bulkText.split('\n').map((line) => line.trim()).filter(Boolean).map((line) => {
+          const [nombre = '', pases = '2', telefono = ''] = line.split('|').map((part) => part.trim());
+          return { nombre, pases: Number.parseInt(pases, 10) || 2, telefono };
+        });
+        const result = await mutateGuests({ action: 'addMany', guests: parsed });
+        if (!result) return;
+        showNotice(`${parsed.length} invitaciones creadas correctamente.`);
+      }
+      setNewName(''); setNewPasses(2); setNewPhone(''); setBulkText(''); setCreateOpen(false);
+    } catch (error) {
+      const message = error instanceof DOMException && error.name === 'AbortError'
+        ? 'La conexión tardó demasiado. Recargá la lista antes de volver a intentar.'
+        : error instanceof Error ? error.message : 'No se pudo crear la invitación.';
+      showNotice(message);
+    } finally { setSaving(false); }
+  };
+
+  const handleToggleSent = async (guest: Guest, sent: boolean) => {
+    try {
+      await mutateGuests({ action: 'toggleEnviado', id: guest.id, enviado: sent });
+      showNotice(sent ? `Marcaste la invitación de ${guest.nombre} como enviada.` : 'La invitación volvió a pendientes.');
+    } catch { showNotice('No se pudo actualizar el estado.'); }
+  };
+
+  const handleDelete = async (guest: Guest) => {
+    if (!window.confirm(`¿Eliminar la invitación de “${guest.nombre}”?`)) return;
+    try { await mutateGuests({ action: 'delete', id: guest.id }); showNotice('Invitación eliminada.'); }
+    catch { showNotice('No se pudo eliminar la invitación.'); }
+  };
+
+  const invitationLink = (guest: Guest) => `${window.location.origin}/boda/${slug}?i=${guest.id}`;
+  const whatsappLink = (guest: Guest) => {
+    const message = buildMessage(messageTemplate, guest, invitationLink(guest));
+    const phone = guest.telefono.replace(/[^0-9]/g, '');
+    return `https://api.whatsapp.com/send?${phone ? `phone=${encodeURIComponent(phone)}&` : ''}text=${encodeURIComponent(message)}`;
+  };
+
+  const openWhatsApp = (guest: Guest) => {
+    window.open(whatsappLink(guest), '_blank', 'noopener,noreferrer');
+    if (!guest.enviado) setPendingSentGuest(guest);
+  };
+
+  const copyInvitation = async (guest: Guest) => {
+    try { await navigator.clipboard.writeText(invitationLink(guest)); showNotice(`Link de ${guest.nombre} copiado.`); }
+    catch { showNotice('No se pudo copiar el enlace.'); }
+  };
+
+  const shareDemo = async () => {
+    const url = `${window.location.origin}/boda/${slug}`;
+    try {
+      if (navigator.share) await navigator.share({ title: 'Mirta & Guillermo', text: 'Mirá nuestra invitación', url });
+      else { await navigator.clipboard.writeText(url); showNotice('Link de demostración copiado.'); }
+    } catch { /* The user may cancel the native share sheet. */ }
+  };
+
+  const saveMessage = async () => {
+    setMessageSaving(true);
+    try {
+      const response = await fetch('/api/boda/configuracion', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, whatsappMessage: messageTemplate }),
+      });
+      const data = await response.json();
+      if (response.status === 401) return expireSession();
+      if (!response.ok || !data.success) throw new Error(data.message || 'No se pudo guardar el mensaje');
+      setMessageTemplate(data.settings.whatsappMessage);
+      showNotice('Mensaje de WhatsApp guardado.');
+    } catch (error) { showNotice(error instanceof Error ? error.message : 'No se pudo guardar el mensaje.'); }
+    finally { setMessageSaving(false); }
+  };
+
+  const insertVariable = (variable: string) => {
+    const field = messageRef.current;
+    if (!field) return;
+    const start = field.selectionStart;
+    const next = `${messageTemplate.slice(0, start)}${variable}${messageTemplate.slice(field.selectionEnd)}`;
+    setMessageTemplate(next);
+    requestAnimationFrame(() => { field.focus(); field.setSelectionRange(start + variable.length, start + variable.length); });
+  };
+
+  const logout = async () => {
+    await fetch('/api/boda/admin/logout', { method: 'POST' });
+    setAuthenticated(false); setGuests([]);
+  };
+
+  const exportCSV = () => {
+    const cell = (value: unknown) => `"${String(value ?? '').replaceAll('"', '""')}"`;
+    const rows = guests.map((guest) => [guest.nombre, guest.pases, guest.telefono, guest.enviado ? 'Sí' : 'No', statusLabel(guest), guest.respuesta?.pasesConfirmados || '', (guest.respuesta?.integrantes || []).join(', '), guest.respuesta?.menu || '', guest.respuesta?.notas || ''].map(cell));
+    const csv = '\uFEFF' + [['Nombre', 'Lugares', 'Teléfono', 'Enviada', 'Estado', 'Confirmados', 'Integrantes', 'Menú', 'Notas'].map(cell), ...rows].map((row) => row.join(',')).join('\n');
+    const anchor = document.createElement('a'); anchor.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+    anchor.download = `invitados-${slug}.csv`; anchor.click(); URL.revokeObjectURL(anchor.href);
+  };
+
+  const stats = useMemo(() => {
+    const sent = guests.filter((guest) => guest.enviado).length;
+    const responded = guests.filter((guest) => guest.estado !== 'pendiente').length;
+    const confirmed = guests.reduce((sum, guest) => sum + (guest.estado === 'confirmado' ? guest.respuesta?.pasesConfirmados || guest.pases : 0), 0);
+    const declined = guests.reduce((sum, guest) => sum + (guest.estado === 'rechazado' ? guest.pases : 0), 0);
+    const passes = guests.reduce((sum, guest) => sum + guest.pases, 0);
+    const awaitingPasses = Math.max(0, passes - confirmed - declined);
+    const progress = guests.length ? Math.round(((sent + responded) / (guests.length * 2)) * 100) : 0;
+    return { sent, responded, confirmed, declined, passes, awaitingPasses, progress, unsent: guests.length - sent, pending: guests.length - responded };
+  }, [guests]);
+
+  const menuStats = useMemo(() => {
+    const counts = new Map<string, number>();
+    guests.forEach((guest) => {
+      if (guest.estado !== 'confirmado') return;
+      const menu = guest.respuesta?.menu?.trim() || 'Sin especificar';
+      counts.set(menu, (counts.get(menu) || 0) + (guest.respuesta?.pasesConfirmados || guest.pases));
+    });
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  }, [guests]);
+
+  const filteredGuests = useMemo(() => guests.filter((guest) => {
+    const matchesSearch = `${guest.nombre} ${guest.telefono}`.toLowerCase().includes(search.toLowerCase());
+    const matchesFilter = filter === 'todos' || (filter === 'sin-enviar' && !guest.enviado)
+      || (filter === 'confirmados' && guest.estado === 'confirmado')
+      || (filter === 'pendientes' && guest.estado === 'pendiente')
+      || (filter === 'rechazados' && guest.estado === 'rechazado');
+    return matchesSearch && matchesFilter;
+  }), [filter, guests, search]);
+
+  const nextGuest = guests.find((guest) => !guest.enviado);
+  const sampleGuest = guests[0] || { id: 'ejemplo', nombre: 'Julieta', pases: 2, telefono: '', estado: 'pendiente', creadoEn: '', vistoEn: null } as Guest;
+  const publicOrigin = typeof window !== 'undefined' ? window.location.origin : 'https://www.sodi.com.ar';
+
+  if (!authenticated) return (
+    <main className="wa-login">
+      <section className="wa-login__card">
+        <div className="wa-brand wa-brand--login"><strong>SODI</strong><span>BODAS</span></div>
+        <p className="wa-eyebrow">Administración privada</p>
+        <h1>Tu casamiento,<br />todo en orden.</h1>
+        <p>Ingresá para administrar invitaciones y respuestas de Mirta & Guillermo.</p>
+        <form onSubmit={handleLogin}>
+          <label htmlFor="wedding-password">Contraseña</label>
+          <input id="wedding-password" type="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder="Ingresá tu contraseña" required />
+          {loginError && <div className="wa-form-error" role="alert">{loginError}</div>}
+          <button className="wa-button wa-button--primary wa-button--block" disabled={loading}>{loading ? 'Ingresando…' : 'Ingresar al panel'}</button>
+        </form>
+        <span className="wa-login__secure">Acceso protegido · SODI Bodas</span>
+      </section>
+    </main>
+  );
+
+  const selectView = (next: View) => { setView(next); setSidebarOpen(false); };
+
+  return (
+    <div className="wa-shell">
+      {notice && <div className="wa-toast" role="status"><CheckCircle2 size={18} />{notice}</div>}
+      <aside className={`wa-sidebar ${sidebarOpen ? 'is-open' : ''}`}>
+        <button className="wa-sidebar__close" onClick={() => setSidebarOpen(false)} aria-label="Cerrar menú"><X /></button>
+        <div className="wa-brand"><strong>SODI</strong><span>BODAS</span></div>
+        <nav aria-label="Navegación principal">
+          {navItems.map((item) => <button key={item.id} className={view === item.id ? 'is-active' : ''} onClick={() => selectView(item.id)}><item.icon size={19} />{item.label}</button>)}
+        </nav>
+        <div className="wa-sidebar__profile"><span>M</span><div><strong>Mirta</strong><small>Administradora</small></div><MoreHorizontal size={18} /></div>
+      </aside>
+
+      <main className="wa-main">
+        <header className="wa-topbar">
+          <button className="wa-icon-button wa-menu-button" onClick={() => setSidebarOpen(true)} aria-label="Abrir menú"><Menu /></button>
+          <div><p className="wa-eyebrow">Mirta & Guillermo · 13.11.2026</p><h1>{view === 'resumen' ? 'Hola, Mirta' : navItems.find((item) => item.id === view)?.label}</h1></div>
+          <div className="wa-topbar__actions">
+            <a className="wa-button wa-button--quiet" href={`/boda/${slug}`} target="_blank" rel="noreferrer"><Eye size={18} />Ver invitación</a>
+            <button className="wa-button wa-button--primary" onClick={shareDemo}><Share2 size={18} />Compartir demo</button>
+            <button className="wa-icon-button" aria-label="Notificaciones"><Bell size={19} /></button>
+            <span className="wa-avatar">M</span>
+          </div>
+        </header>
+
+        {loading ? <div className="wa-loading"><RefreshCw className="wa-spin" />Preparando tu panel…</div> : (
+          <div className="wa-content">
+            {view === 'resumen' && <>
+              <section className="wa-progress-panel">
+                <div><p className="wa-eyebrow">Progreso general</p><h2>Todo va tomando forma</h2><p>Ya enviaste <strong>{stats.sent} de {guests.length}</strong> invitaciones.</p><div className="wa-progress-panel__actions">{nextGuest && <button className="wa-button wa-button--primary" onClick={() => { setView('envios'); }}><Send size={18} />Continuar enviando</button>}<button className="wa-button wa-button--outline" onClick={() => setCreateOpen(true)}><UserPlus size={18} />Agregar invitados</button></div></div>
+                <ProgressRing value={stats.progress} />
+                <div className="wa-progress-panel__note"><Sparkles size={22} /><span>{stats.unsent ? `Te faltan ${stats.unsent} por enviar` : '¡Todas las invitaciones fueron enviadas!'}</span></div>
+              </section>
+
+              <section className="wa-metrics">
+                <article><span className="wa-metric-icon wa-metric-icon--rose"><Mail /></span><div><strong>{guests.length}</strong><span>invitaciones creadas</span></div></article>
+                <article><span className="wa-metric-icon"><Users /></span><div><strong>{stats.passes}</strong><span>lugares asignados</span></div></article>
+                <article><span className="wa-metric-icon wa-metric-icon--green"><CheckCircle2 /></span><div><strong>{stats.confirmed}</strong><span>personas confirmadas</span></div></article>
+                <article><span className="wa-metric-icon wa-metric-icon--gold"><Activity /></span><div><strong>{stats.pending}</strong><span>respuestas pendientes</span></div></article>
+              </section>
+
+              <div className="wa-dashboard-grid">
+                <section className="wa-panel wa-distribution"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Lugares</p><h2>Distribución de invitados</h2></div><span>{stats.passes} asignados</span></div>
+                  {stats.passes ? <><div className="wa-distribution__bar"><span style={{ width: `${stats.confirmed / stats.passes * 100}%` }} /><span style={{ width: `${stats.declined / stats.passes * 100}%` }} /><span style={{ width: `${stats.awaitingPasses / stats.passes * 100}%` }} /></div><div className="wa-legend"><span><i className="is-confirmed" />{stats.confirmed} confirmados</span><span><i className="is-declined" />{stats.declined} no asistirán</span><span><i className="is-pending" />{stats.awaitingPasses} esperando</span></div></> : <div className="wa-empty-inline">Creá la primera invitación para ver la distribución.</div>}
+                </section>
+
+                <section className="wa-panel wa-next-step"><p className="wa-eyebrow">Tu próximo paso</p><Sparkles size={26} /><h2>{stats.unsent ? `Hay ${stats.unsent} invitaciones listas para enviar` : stats.pending ? 'Todas enviadas: esperemos las respuestas' : '¡La lista está al día!'}</h2><p>Podés detenerte y continuar cuando quieras.</p>{nextGuest ? <button className="wa-button wa-button--primary wa-button--block" onClick={() => openWhatsApp(nextGuest)}><MessageCircle size={18} />Enviar siguiente por WhatsApp</button> : <button className="wa-button wa-button--outline wa-button--block" onClick={() => setCreateOpen(true)}><Plus size={18} />Crear invitación</button>}</section>
+
+                <section className="wa-panel wa-activity"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Últimos movimientos</p><h2>Actividad y respuestas</h2></div><button onClick={() => setView('respuestas')}>Ver todas</button></div>
+                  <div className="wa-activity__list">{guests.length ? guests.slice(0, 4).map((guest) => <div key={guest.id}><span className={`wa-status-dot is-${guest.estado}`} /><div><strong>{guest.nombre}</strong><small>{guest.estado === 'confirmado' ? `Confirmó ${guest.respuesta?.pasesConfirmados || guest.pases} personas` : guest.estado === 'rechazado' ? 'Avisó que no asistirá' : guest.vistoEn ? 'Abrió su invitación' : guest.enviado ? 'Esperando su respuesta' : 'Lista para enviar'}</small></div><span className={`wa-status is-${guest.estado}`}>{statusLabel(guest)}</span></div>) : <div className="wa-empty-inline">La actividad aparecerá cuando empieces a crear y enviar invitaciones.</div>}</div>
+                </section>
+
+                <section className="wa-panel wa-preferences"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Respuestas</p><h2>Preferencias</h2></div><Utensils size={20} /></div>{menuStats.length ? <ul>{menuStats.slice(0, 5).map(([menu, count]) => <li key={menu}><span>{menu}</span><strong>{count}</strong></li>)}</ul> : <div className="wa-empty-inline">Las opciones de menú aparecerán cuando lleguen confirmaciones.</div>}<button className="wa-text-button" onClick={() => setView('respuestas')}>Ver todas las respuestas <ChevronRight size={16} /></button></section>
+
+                <section className="wa-panel wa-quick-actions"><p className="wa-eyebrow">Atajos</p><h2>Acciones rápidas</h2><div><button onClick={() => setCreateOpen(true)}><UserPlus />Crear invitaciones</button><button onClick={() => { setCreateMode('bulk'); setCreateOpen(true); }}><FileUp />Importar lista</button><button onClick={() => setView('configuracion')}><Pencil />Editar mensaje</button><button onClick={() => setView('envios')}><Bell />Ver pendientes</button></div></section>
+              </div>
+            </>}
+
+            {view === 'invitados' && <section className="wa-view">
+              <div className="wa-view__heading"><div><p className="wa-eyebrow">Tu lista</p><h2>{guests.length} invitaciones · {stats.passes} lugares</h2><p>Buscá, corregí y administrá cada invitación desde un solo lugar.</p></div><div><button className="wa-button wa-button--outline" onClick={() => { setCreateMode('bulk'); setCreateOpen(true); }}><FileUp size={18} />Crear varias</button><button className="wa-button wa-button--primary" onClick={() => { setCreateMode('single'); setCreateOpen(true); }}><Plus size={18} />Nueva invitación</button></div></div>
+              <div className="wa-list-tools"><label><Search size={18} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Buscar por nombre o teléfono" /></label><div>{(['todos', 'sin-enviar', 'confirmados', 'pendientes', 'rechazados'] as Filter[]).map((item) => <button key={item} className={filter === item ? 'is-active' : ''} onClick={() => setFilter(item)}>{item === 'todos' ? 'Todos' : item === 'sin-enviar' ? 'Por enviar' : item === 'confirmados' ? 'Asisten' : item === 'rechazados' ? 'No asisten' : 'Pendientes'}</button>)}</div></div>
+              <GuestList guests={filteredGuests} onWhatsApp={openWhatsApp} onCopy={copyInvitation} onToggle={handleToggleSent} onDelete={handleDelete} />
+            </section>}
+
+            {view === 'envios' && <section className="wa-view">
+              <div className="wa-view__heading"><div><p className="wa-eyebrow">Envíos por WhatsApp</p><h2>{stats.unsent ? `${stats.unsent} invitaciones por enviar` : 'Todos los envíos están al día'}</h2><p>Avanzá de a una. El panel guarda tu progreso para que continúes cuando quieras.</p></div><button className="wa-button wa-button--outline" onClick={() => setView('configuracion')}><Pencil size={18} />Editar mensaje</button></div>
+              <div className="wa-send-layout"><div className="wa-panel wa-send-preview"><p className="wa-eyebrow">Mensaje actual</p><h2>Así llegará la invitación</h2><div className="wa-chat-preview"><strong>{sampleGuest.nombre}</strong><p>{buildMessage(messageTemplate, sampleGuest, `${publicOrigin}/boda/${slug}?i=...`)}</p></div><button className="wa-text-button" onClick={() => setView('configuracion')}>Modificar mensaje <ChevronRight size={16} /></button></div><div className="wa-send-queue"><h3>Lista para enviar</h3>{guests.filter((guest) => !guest.enviado).length ? guests.filter((guest) => !guest.enviado).map((guest, index) => <article key={guest.id}><span>{index + 1}</span><div><strong>{guest.nombre}</strong><small>{formatPases(guest.pases)} · {guest.telefono || 'Sin teléfono cargado'}</small></div><button className="wa-button wa-button--primary" onClick={() => openWhatsApp(guest)}><MessageCircle size={17} />Enviar</button></article>) : <div className="wa-empty-state"><CheckCircle2 /><h3>Terminaste los envíos</h3><p>Cuando agregues nuevos invitados aparecerán acá.</p></div>}</div></div>
+            </section>}
+
+            {view === 'respuestas' && <section className="wa-view"><div className="wa-view__heading"><div><p className="wa-eyebrow">RSVP</p><h2>Respuestas y preferencias</h2><p>Todo lo que necesitás comunicarle al salón, sin revisar mensajes uno por uno.</p></div><button className="wa-button wa-button--outline" onClick={exportCSV}><Download size={18} />Descargar lista</button></div><section className="wa-metrics wa-metrics--compact"><article><span className="wa-metric-icon wa-metric-icon--green"><Check /></span><div><strong>{stats.confirmed}</strong><span>personas confirmadas</span></div></article><article><span className="wa-metric-icon wa-metric-icon--rose"><X /></span><div><strong>{stats.declined}</strong><span>lugares liberados</span></div></article><article><span className="wa-metric-icon wa-metric-icon--gold"><Activity /></span><div><strong>{stats.pending}</strong><span>invitaciones pendientes</span></div></article></section><GuestList guests={guests.filter((guest) => guest.estado !== 'pendiente')} onWhatsApp={openWhatsApp} onCopy={copyInvitation} onToggle={handleToggleSent} onDelete={handleDelete} detailed /></section>}
+
+            {view === 'invitacion' && <section className="wa-view"><div className="wa-view__heading"><div><p className="wa-eyebrow">Vista pública</p><h2>La invitación de Mirta & Guillermo</h2><p>Esta vista no contiene datos personales y podés compartirla como demostración.</p></div><div><button className="wa-button wa-button--outline" onClick={shareDemo}><Share2 size={18} />Compartir demo</button><a className="wa-button wa-button--primary" href={`/boda/${slug}`} target="_blank" rel="noreferrer"><Eye size={18} />Abrir completa</a></div></div><div className="wa-preview-frame"><iframe src={`/boda/${slug}`} title="Vista previa de la invitación" /></div></section>}
+
+            {view === 'configuracion' && <section className="wa-view"><div className="wa-view__heading"><div><p className="wa-eyebrow">Personalización</p><h2>Mensaje de WhatsApp</h2><p>Escribilo con tus palabras. El nombre, los lugares y el enlace se completan solos.</p></div></div><div className="wa-message-editor"><section className="wa-panel"><label htmlFor="message-template">Mensaje predeterminado</label><div className="wa-variable-row"><span>Insertar:</span>{['{nombre}', '{pases}', '{enlace}'].map((variable) => <button key={variable} onClick={() => insertVariable(variable)}>{variable.replace(/[{}]/g, '')}</button>)}</div><textarea id="message-template" ref={messageRef} value={messageTemplate} onChange={(event) => setMessageTemplate(event.target.value)} rows={10} /><div className="wa-editor-actions"><button className="wa-button wa-button--primary" onClick={saveMessage} disabled={messageSaving}><Check size={18} />{messageSaving ? 'Guardando…' : 'Guardar mensaje'}</button><button className="wa-button wa-button--quiet" onClick={() => setMessageTemplate(defaultMessage)}><RefreshCw size={17} />Restaurar original</button></div><p className="wa-editor-help"><Link2 size={16} />El enlace personal está protegido: el mensaje no se guarda si falta la variable “enlace”.</p></section><section className="wa-panel wa-message-preview"><p className="wa-eyebrow">Vista previa</p><h3>{sampleGuest.nombre}</h3><div>{buildMessage(messageTemplate, sampleGuest, `${publicOrigin}/boda/${slug}?i=...`)}</div></section></div><section className="wa-panel wa-account-panel"><div><Settings /><span><strong>Herramientas del panel</strong><small>Exportá una copia o cerrá tu sesión de forma segura.</small></span></div><div><button className="wa-button wa-button--outline" onClick={exportCSV}><Download size={18} />Descargar lista</button><button className="wa-button wa-button--danger" onClick={logout}><LogOut size={18} />Cerrar sesión</button></div></section></section>}
+          </div>
+        )}
+      </main>
+
+      <nav className="wa-mobile-nav" aria-label="Navegación móvil">{navItems.slice(0, 4).map((item) => <button key={item.id} className={view === item.id ? 'is-active' : ''} onClick={() => selectView(item.id)}><item.icon /><span>{item.label}</span></button>)}</nav>
+      <button className="wa-mobile-add" onClick={() => setCreateOpen(true)} aria-label="Crear invitación"><Plus /></button>
+
+      {createOpen && <div className="wa-modal" role="dialog" aria-modal="true" aria-labelledby="create-title"><section className="wa-modal__card"><button className="wa-modal__close" onClick={() => setCreateOpen(false)} aria-label="Cerrar"><X /></button><p className="wa-eyebrow">Agregar invitados</p><h2 id="create-title">Crear invitaciones</h2><div className="wa-segmented"><button className={createMode === 'single' ? 'is-active' : ''} onClick={() => setCreateMode('single')}><UserPlus />Una invitación</button><button className={createMode === 'bulk' ? 'is-active' : ''} onClick={() => setCreateMode('bulk')}><ListChecks />Crear varias</button></div><form onSubmit={handleCreate}>{createMode === 'single' ? <div className="wa-form-grid"><label className="is-wide">Nombre o familia<input value={newName} onChange={(event) => setNewName(event.target.value)} placeholder="Ej: Familia Pérez" required /></label><label>Lugares<input type="number" min="1" max="20" value={newPasses} onChange={(event) => setNewPasses(Number(event.target.value) || 1)} required /></label><label>WhatsApp<input value={newPhone} onChange={(event) => setNewPhone(event.target.value)} placeholder="Ej: 1162337552" inputMode="tel" /></label></div> : <><label>Una invitación por línea</label><textarea value={bulkText} onChange={(event) => setBulkText(event.target.value)} rows={8} placeholder={'Familia Pérez | 4 | 1155551234\nJulieta Gómez | 2 | 1166667890\nMartín López | 1'} required /><div className="wa-bulk-summary"><ClipboardList /><span><strong>{bulkText.split('\n').filter((line) => line.trim()).length} invitaciones</strong><small>Formato: nombre | lugares | teléfono</small></span></div></>}<button className="wa-button wa-button--primary wa-button--block" disabled={saving}>{saving ? 'Creando invitaciones…' : createMode === 'single' ? 'Crear invitación' : 'Crear todas las invitaciones'}</button></form></section></div>}
+
+      {pendingSentGuest && <div className="wa-modal" role="dialog" aria-modal="true"><section className="wa-modal__card wa-confirm-send"><span className="wa-confirm-send__icon"><MessageCircle /></span><p className="wa-eyebrow">Seguimiento</p><h2>¿Pudiste enviarle la invitación a {pendingSentGuest.nombre}?</h2><p>WhatsApp no nos avisa si finalmente tocaste “Enviar”. Confirmalo para mantener la lista al día.</p><div><button className="wa-button wa-button--primary" onClick={async () => { await handleToggleSent(pendingSentGuest, true); setPendingSentGuest(null); }}><Check size={18} />Sí, fue enviada</button><button className="wa-button wa-button--quiet" onClick={() => setPendingSentGuest(null)}>Todavía no</button></div></section></div>}
+    </div>
+  );
+}
+
+function GuestList({ guests, onWhatsApp, onCopy, onToggle, onDelete, detailed = false }: { guests: Guest[]; onWhatsApp: (guest: Guest) => void; onCopy: (guest: Guest) => void; onToggle: (guest: Guest, sent: boolean) => void; onDelete: (guest: Guest) => void; detailed?: boolean }) {
+  if (!guests.length) return <div className="wa-empty-state"><Users /><h3>No hay invitaciones en esta sección</h3><p>Probá otro filtro o creá una nueva invitación.</p></div>;
+  return <div className="wa-guest-list">{guests.map((guest) => <article key={guest.id} className="wa-guest-card"><div className="wa-guest-card__avatar">{guest.nombre.charAt(0).toUpperCase()}</div><div className="wa-guest-card__main"><div><h3>{guest.nombre}</h3><span className={`wa-status is-${guest.estado}`}>{statusLabel(guest)}</span></div><p>{formatPases(guest.pases)} · {guest.telefono || 'Sin teléfono'}</p>{detailed && guest.respuesta && <div className="wa-guest-card__details"><span><Users />{guest.respuesta.pasesConfirmados} asistentes</span><span><Utensils />{guest.respuesta.menu || 'Menú sin definir'}</span>{guest.respuesta.cancion && <span><Music2 />{guest.respuesta.cancion}</span>}{guest.respuesta.notas && <span><Gift />{guest.respuesta.notas}</span>}</div>}</div><div className="wa-guest-card__meta"><span>{guest.vistoEn ? 'Invitación abierta' : guest.enviado ? 'Enviada, sin abrir' : 'Todavía no enviada'}</span><small>{guest.enviadoEn ? new Date(guest.enviadoEn).toLocaleDateString('es-AR') : ''}</small></div><div className="wa-guest-card__actions"><button className="wa-button wa-button--whatsapp" onClick={() => onWhatsApp(guest)}><MessageCircle size={17} />{guest.enviado ? 'Reenviar' : 'Enviar'}</button><button className="wa-icon-button" onClick={() => onCopy(guest)} aria-label={`Copiar enlace de ${guest.nombre}`}><Copy size={17} /></button><button className="wa-icon-button" onClick={() => onToggle(guest, !guest.enviado)} aria-label={guest.enviado ? 'Marcar como no enviada' : 'Marcar como enviada'}>{guest.enviado ? <RefreshCw size={17} /> : <Check size={17} />}</button><button className="wa-icon-button wa-icon-button--danger" onClick={() => onDelete(guest)} aria-label={`Eliminar invitación de ${guest.nombre}`}><Trash2 size={17} /></button></div></article>)}</div>;
+}
