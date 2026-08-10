@@ -11,6 +11,13 @@ import './admin.css';
 
 type View = 'resumen' | 'invitados' | 'envios' | 'respuestas' | 'invitacion' | 'configuracion';
 type Filter = 'todos' | 'sin-enviar' | 'confirmados' | 'pendientes' | 'rechazados';
+type ChartMode = 'lugares' | 'invitaciones';
+
+interface ChartSegment {
+  label: string;
+  value: number;
+  tone: 'confirmed' | 'waiting' | 'unsent' | 'declined' | 'unassigned';
+}
 
 interface Guest {
   id: string;
@@ -69,13 +76,35 @@ function ProgressRing({ value }: { value: number }) {
   const radius = 48;
   const circumference = 2 * Math.PI * radius;
   return (
-    <div className="wa-progress-ring" aria-label={`${value}% de progreso`}>
+    <div className="wa-progress-ring" aria-label={`${value}% del cupo asignado`}>
       <svg viewBox="0 0 112 112" aria-hidden="true">
         <circle className="wa-progress-ring__track" cx="56" cy="56" r={radius} />
         <circle className="wa-progress-ring__value" cx="56" cy="56" r={radius}
           strokeDasharray={circumference} strokeDashoffset={circumference * (1 - value / 100)} />
       </svg>
       <strong>{value}%</strong>
+    </div>
+  );
+}
+
+function DonutChart({ segments, centerValue, centerLabel }: { segments: ChartSegment[]; centerValue: string; centerLabel: string }) {
+  const radius = 44;
+  const circumference = 2 * Math.PI * radius;
+  const total = Math.max(1, segments.reduce((sum, segment) => sum + segment.value, 0));
+  const visibleSegments = segments.filter((segment) => segment.value > 0);
+  const arcs = visibleSegments.map((segment, index) => ({
+    segment,
+    length: (segment.value / total) * circumference,
+    offset: (visibleSegments.slice(0, index).reduce((sum, item) => sum + item.value, 0) / total) * circumference,
+  }));
+
+  return (
+    <div className="wa-donut" role="img" aria-label={segments.map((segment) => `${segment.label}: ${segment.value}`).join(', ')}>
+      <svg viewBox="0 0 108 108" aria-hidden="true">
+        <circle className="wa-donut__track" cx="54" cy="54" r={radius} />
+        {arcs.map(({ segment, length, offset }) => <circle key={segment.label} className={`wa-donut__segment is-${segment.tone}`} cx="54" cy="54" r={radius} strokeDasharray={`${length} ${circumference - length}`} strokeDashoffset={-offset} />)}
+      </svg>
+      <div><strong>{centerValue}</strong><span>{centerLabel}</span></div>
     </div>
   );
 }
@@ -89,6 +118,7 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
   const [guests, setGuests] = useState<Guest[]>([]);
   const [view, setView] = useState<View>('resumen');
   const [filter, setFilter] = useState<Filter>('todos');
+  const [chartMode, setChartMode] = useState<ChartMode>('lugares');
   const [search, setSearch] = useState('');
   const [notice, setNotice] = useState('');
   const [createOpen, setCreateOpen] = useState(false);
@@ -301,14 +331,35 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
 
   const stats = useMemo(() => {
     const sent = guests.filter((guest) => guest.enviado).length;
-    const responded = guests.filter((guest) => guest.estado !== 'pendiente').length;
+    const pending = guests.filter((guest) => guest.enviado && guest.estado === 'pendiente').length;
     const confirmed = guests.reduce((sum, guest) => sum + (guest.estado === 'confirmado' ? guest.respuesta?.pasesConfirmados || guest.pases : 0), 0);
     const declined = guests.reduce((sum, guest) => sum + (guest.estado === 'rechazado' ? guest.pases : 0), 0);
     const passes = guests.reduce((sum, guest) => sum + guest.pases, 0);
-    const awaitingPasses = Math.max(0, passes - confirmed - declined);
-    const progress = guests.length ? Math.round(((sent + responded) / (guests.length * 2)) * 100) : 0;
-    return { sent, responded, confirmed, declined, passes, awaitingPasses, progress, unsent: guests.length - sent, pending: guests.length - responded };
+    return { sent, confirmed, declined, passes, unsent: guests.length - sent, pending };
   }, [guests]);
+  const capacityProgress = guestGoal ? Math.min(100, Math.round((stats.passes / guestGoal) * 100)) : 0;
+  const remainingCapacity = guestGoal - stats.passes;
+  const chartSegments = useMemo<ChartSegment[]>(() => {
+    const buckets = guests.reduce((result, guest) => {
+      const amount = chartMode === 'lugares' ? guest.pases : 1;
+      if (guest.estado === 'confirmado') result.confirmed += amount;
+      else if (guest.estado === 'rechazado') result.declined += amount;
+      else if (guest.enviado) result.waiting += amount;
+      else result.unsent += amount;
+      return result;
+    }, { confirmed: 0, declined: 0, waiting: 0, unsent: 0 });
+
+    const segments: ChartSegment[] = [
+      { label: 'Confirmados', value: buckets.confirmed, tone: 'confirmed' },
+      { label: 'Esperando respuesta', value: buckets.waiting, tone: 'waiting' },
+      { label: 'Por enviar', value: buckets.unsent, tone: 'unsent' },
+      { label: 'No asistirán', value: buckets.declined, tone: 'declined' },
+    ];
+    if (chartMode === 'lugares' && guestGoal > stats.passes) {
+      segments.push({ label: 'Sin asignar', value: guestGoal - stats.passes, tone: 'unassigned' });
+    }
+    return segments;
+  }, [chartMode, guestGoal, guests, stats.passes]);
 
   const menuStats = useMemo(() => {
     const counts = new Map<string, number>();
@@ -332,6 +383,16 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
   const nextGuest = guests.find((guest) => !guest.enviado);
   const sampleGuest = guests[0] || { id: 'ejemplo', nombre: 'Julieta', pases: 2, telefono: '', estado: 'pendiente', creadoEn: '', vistoEn: null } as Guest;
   const publicOrigin = typeof window !== 'undefined' ? window.location.origin : 'https://www.sodi.com.ar';
+
+  if (loading && !authenticated && !loginError) return (
+    <main className="wa-login wa-session-loading">
+      <section>
+        <div className="wa-brand wa-brand--login"><strong>SODI</strong><span>BODAS</span></div>
+        <RefreshCw className="wa-spin" aria-hidden="true" />
+        <p>Preparando tu panel…</p>
+      </section>
+    </main>
+  );
 
   if (!authenticated) return (
     <main className="wa-login">
@@ -386,22 +447,22 @@ export default function WeddingAdminPage({ params }: { params: Promise<{ slug: s
           <div className="wa-content">
             {view === 'resumen' && <>
               <section className="wa-progress-panel">
-                <div><p className="wa-eyebrow">Progreso general</p><h2>Todo va tomando forma</h2><p>Ya enviaste <strong>{stats.sent} de {guests.length}</strong> invitaciones.</p><div className="wa-progress-panel__actions">{nextGuest && <button className="wa-button wa-button--primary" onClick={() => { setView('envios'); }}><Send size={18} />Continuar enviando</button>}<button className="wa-button wa-button--outline" onClick={() => setCreateOpen(true)}><UserPlus size={18} />Agregar invitados</button></div></div>
-                <ProgressRing value={stats.progress} />
-                <div className="wa-progress-panel__note"><Sparkles size={22} /><span>{stats.unsent ? `Te faltan ${stats.unsent} por enviar` : '¡Todas las invitaciones fueron enviadas!'}</span></div>
+                <div><p className="wa-eyebrow">Planificación general</p><h2>Todo va tomando forma</h2><p>{guestGoal ? <>Ya asignaste <strong>{stats.passes} de {guestGoal}</strong> lugares.</> : <>Definí el cupo total para medir el avance de tu lista.</>}</p><div className="wa-progress-panel__actions">{nextGuest && <button className="wa-button wa-button--primary" onClick={() => { setView('envios'); }}><Send size={18} />Continuar enviando</button>}<button className="wa-button wa-button--outline" onClick={() => setCreateOpen(true)}><UserPlus size={18} />Agregar invitados</button>{!guestGoal && <button className="wa-button wa-button--outline" onClick={() => setView('configuracion')}><Settings size={18} />Definir cupo</button>}</div></div>
+                <ProgressRing value={capacityProgress} />
+                <div className="wa-progress-panel__note"><Sparkles size={22} /><span>{guestGoal ? remainingCapacity > 0 ? `Te quedan ${remainingCapacity} lugares por asignar` : remainingCapacity === 0 ? '¡Completaste el cupo planificado!' : `Superaste el cupo por ${Math.abs(remainingCapacity)}` : 'Configurá el cupo total de personas'}</span></div>
               </section>
 
               <section className="wa-metrics">
-                <article><span className="wa-metric-icon wa-metric-icon--rose"><Mail /></span><div><strong>{guests.length}</strong><span>invitaciones creadas</span></div></article>
+                <article><span className="wa-metric-icon wa-metric-icon--rose"><Mail /></span><div><strong>{stats.sent} / {guests.length}</strong><span>invitaciones enviadas</span></div></article>
                 <article><span className="wa-metric-icon"><Users /></span><div><strong>{stats.passes}{guestGoal ? ` / ${guestGoal}` : ''}</strong><span>{guestGoal ? 'lugares planificados' : 'lugares asignados'}</span>{!guestGoal && <button className="wa-metric-link" onClick={() => setView('configuracion')}>Definir cupo total</button>}</div></article>
                 <article><span className="wa-metric-icon wa-metric-icon--green"><CheckCircle2 /></span><div><strong>{stats.confirmed}</strong><span>personas confirmadas</span></div></article>
                 <article><span className="wa-metric-icon wa-metric-icon--gold"><Activity /></span><div><strong>{stats.pending}</strong><span>respuestas pendientes</span></div></article>
               </section>
 
               <div className="wa-dashboard-grid">
-                <section className="wa-panel wa-distribution"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Lugares</p><h2>Distribución de invitados</h2></div><span>{guestGoal ? `${stats.passes} de ${guestGoal}` : `${stats.passes} asignados`}</span></div>
-                  {stats.passes ? <><div className="wa-distribution__bar"><span style={{ width: `${stats.confirmed / stats.passes * 100}%` }} /><span style={{ width: `${stats.declined / stats.passes * 100}%` }} /><span style={{ width: `${stats.awaitingPasses / stats.passes * 100}%` }} /></div><div className="wa-legend"><span><i className="is-confirmed" />{stats.confirmed} confirmados</span><span><i className="is-declined" />{stats.declined} no asistirán</span><span><i className="is-pending" />{stats.awaitingPasses} esperando</span></div></> : <div className="wa-empty-inline">Creá la primera invitación para ver la distribución.</div>}
-                  {guestGoal > 0 && <button className="wa-capacity-note" onClick={() => setView('configuracion')}>{stats.passes <= guestGoal ? `Quedan ${guestGoal - stats.passes} lugares por asignar` : `El cupo está superado por ${stats.passes - guestGoal}`}</button>}
+                <section className="wa-panel wa-distribution"><div className="wa-panel__heading"><div><p className="wa-eyebrow">Estado de la lista</p><h2>Distribución</h2></div><div className="wa-chart-toggle"><button className={chartMode === 'lugares' ? 'is-active' : ''} onClick={() => setChartMode('lugares')}>Lugares</button><button className={chartMode === 'invitaciones' ? 'is-active' : ''} onClick={() => setChartMode('invitaciones')}>Invitaciones</button></div></div>
+                  <div className="wa-chart-content"><DonutChart segments={chartSegments} centerValue={chartMode === 'lugares' ? guestGoal ? `${stats.passes}/${guestGoal}` : String(stats.passes) : `${stats.sent}/${guests.length}`} centerLabel={chartMode === 'lugares' ? 'asignados' : 'enviadas'} /><div className="wa-chart-legend">{chartSegments.map((segment) => <span key={segment.label}><i className={`is-${segment.tone}`} /><span>{segment.label}</span><strong>{segment.value}</strong></span>)}</div></div>
+                  {chartMode === 'lugares' && guestGoal > 0 && <button className="wa-capacity-note" onClick={() => setView('configuracion')}>{stats.passes <= guestGoal ? `Quedan ${guestGoal - stats.passes} lugares por asignar` : `El cupo está superado por ${stats.passes - guestGoal}`}</button>}
                 </section>
 
                 <section className="wa-panel wa-next-step"><p className="wa-eyebrow">Tu próximo paso</p><Sparkles size={26} /><h2>{stats.unsent ? `Hay ${stats.unsent} invitaciones listas para enviar` : stats.pending ? 'Todas enviadas: esperemos las respuestas' : '¡La lista está al día!'}</h2><p>Podés detenerte y continuar cuando quieras.</p>{nextGuest ? <button className="wa-button wa-button--primary wa-button--block" onClick={() => openWhatsApp(nextGuest)}><MessageCircle size={18} />Enviar siguiente por WhatsApp</button> : <button className="wa-button wa-button--outline wa-button--block" onClick={() => setCreateOpen(true)}><Plus size={18} />Crear invitación</button>}</section>
