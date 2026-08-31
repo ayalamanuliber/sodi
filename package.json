@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "test:crawl-policy": "node --no-warnings --experimental-strip-types scripts/check-crawl-policy.mjs",
+    "test:source-attribution": "node --no-warnings --experimental-strip-types scripts/check-source-attribution.mjs",
     "test:editorial-release": "node --no-warnings --experimental-strip-types scripts/check-sodi-editorial-release.mjs"
   },
   "dependencies": {

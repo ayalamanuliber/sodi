@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sodi.com.ar/contracts/authority-asset.schema.json",
+  "title": "SODI citable authority asset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "slug",
+    "status",
+    "title",
+    "methodology",
+    "claimBoundary",
+    "owner",
+    "reviewedAt",
+    "citeAs"
+  ],
+  "properties": {
+    "kind": { "enum": ["case", "template", "tool"] },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "status": { "enum": ["draft", "reviewed", "public"] },
+    "title": { "type": "string", "minLength": 8 },
+    "methodology": { "type": "string", "minLength": 20 },
+    "claimBoundary": { "type": "string", "minLength": 20 },
+    "owner": { "type": "string", "minLength": 2 },
+    "reviewedAt": { "type": "string", "format": "date" },
+    "updatedAt": { "type": "string", "format": "date" },
+    "citeAs": { "type": "string", "minLength": 8 },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "source", "verifiedAt"],
+        "properties": {
+          "label": { "type": "string" },
+          "source": { "type": "string" },
+          "verifiedAt": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "outcomeClaims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "evidenceSource", "verifiedAt"],
+        "properties": {
+          "claim": { "type": "string" },
+          "evidenceSource": { "type": "string" },
+          "verifiedAt": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "download": { "type": "string", "format": "uri-reference" },
+    "embed": { "type": "string", "format": "uri-reference" }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "kind": { "const": "case" }, "status": { "const": "public" } },
+        "required": ["kind", "status"]
+      },
+      "then": {
+        "required": ["evidence"],
+        "properties": { "evidence": { "minItems": 1 } }
+      }
+    }
+  ]
+}

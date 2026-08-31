@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import {
@@ -12,6 +12,11 @@ import {
 import { StepQuestion } from "./StepQuestion";
 import { StepIntro } from "./StepIntro";
 import { StepResult } from "./StepResult";
+import { trackEvent } from "@/components/analytics/tracking";
+import {
+  classifySourceAttribution,
+  type SourceAttribution,
+} from "@/lib/source-attribution";
 
 type Phase = "intro" | "questions" | "result";
 
@@ -21,6 +26,15 @@ export function DiagnosticoFlow() {
   const [answers, setAnswers] = useState<Answers>({});
   const [result, setResult] = useState<PackResult | null>(null);
   const [direction, setDirection] = useState(1);
+  const attribution = useMemo<SourceAttribution | undefined>(() => {
+    if (typeof window === "undefined") return undefined;
+
+    return classifySourceAttribution(
+      new URLSearchParams(window.location.search),
+      document.referrer,
+      window.location.hostname,
+    );
+  }, []);
 
   const totalSteps = questions.length;
   const progress = phase === "intro" ? 0 : phase === "result" ? 100 : ((stepIndex + 1) / totalSteps) * 100;
@@ -44,9 +58,18 @@ export function DiagnosticoFlow() {
         const res = getResult(newAnswers);
         setResult(res);
         setPhase("result");
+        trackEvent("diagnostic_complete", {
+          service_line: res.serviceLine,
+          plan: res.tier.name,
+          source_class: attribution?.sourceClass ?? "direct",
+          source: attribution?.source ?? "direct",
+          medium: attribution?.medium ?? "none",
+          campaign: attribution?.campaign,
+          asset: attribution?.asset,
+        });
       }
     },
-    [stepIndex, answers, totalSteps]
+    [stepIndex, answers, totalSteps, attribution]
   );
 
   const handleBack = useCallback(() => {
@@ -135,6 +158,7 @@ export function DiagnosticoFlow() {
                 <StepResult
                   result={result}
                   answers={answers}
+                  attribution={attribution}
                   onRestart={handleRestart}
                   onBack={handleBack}
                 />

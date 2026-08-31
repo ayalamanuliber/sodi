@@ -8,10 +8,16 @@ import {
   buildWhatsAppMessage,
   buildWhatsAppURL,
 } from "@/lib/diagnostico";
+import { trackEvent } from "@/components/analytics/tracking";
+import {
+  formatAttributionForMessage,
+  type SourceAttribution,
+} from "@/lib/source-attribution";
 
 interface Props {
   result: PackResult;
   answers: Answers;
+  attribution?: SourceAttribution;
   onRestart: () => void;
   onBack: () => void;
 }
@@ -22,8 +28,12 @@ const fade = (delay = 0) => ({
   transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const, delay },
 });
 
-export function StepResult({ result, answers, onRestart, onBack }: Props) {
-  const message = buildWhatsAppMessage(answers, result);
+export function StepResult({ result, answers, attribution, onRestart, onBack }: Props) {
+  const message = buildWhatsAppMessage(
+    answers,
+    result,
+    formatAttributionForMessage(attribution),
+  );
   const waURL = buildWhatsAppURL(message);
   const isCaede = answers.caede === "si";
 
@@ -139,6 +149,18 @@ export function StepResult({ result, answers, onRestart, onBack }: Props) {
           href={waURL}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() =>
+            trackEvent("whatsapp_click", {
+              location: "diagnostic_result",
+              service_line: result.serviceLine,
+              plan: result.tier.name,
+              source_class: attribution?.sourceClass ?? "direct",
+              source: attribution?.source ?? "direct",
+              medium: attribution?.medium ?? "none",
+              campaign: attribution?.campaign,
+              asset: attribution?.asset,
+            })
+          }
           className="btn-primary w-full sm:w-auto bg-s-accent text-black px-7 sm:px-10 py-4 sm:py-[18px] rounded-2xl sm:rounded-xl text-[14px] font-black uppercase tracking-tight flex items-center justify-center gap-3"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

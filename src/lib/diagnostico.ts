@@ -557,14 +557,17 @@ export function formatPrice(price: number): string {
 
 // ── WhatsApp message builder ──
 
-export function buildWhatsAppMessage(answers: Answers, result: PackResult): string {
-  const tierNames = ["Starter", "Profesional", "Premium"];
-
+export function buildWhatsAppMessage(
+  answers: Answers,
+  result: PackResult,
+  attributionLabel?: string,
+): string {
   const lines = [
     `Hola SODI, hice el diagnóstico guiado.`,
     `Servicio sugerido: ${result.title} — Plan ${result.tier.name}.`,
     `Precio: $${formatPrice(result.tier.price)}.`,
     answers.caede === "si" ? `Soy miembro CAEDE (descuento aplicado).` : "",
+    attributionLabel ? `Origen de la consulta: ${attributionLabel}.` : "",
     `Mi urgencia: ${answers.urgencia === "ya" ? "Lo necesito ya" : answers.urgencia === "semanas" ? "En las próximas semanas" : "Estoy comparando opciones"}.`,
     `Quiero conversar alcance, tiempos y opciones.`,
   ];
