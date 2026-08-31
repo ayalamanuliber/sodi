@@ -1,4 +1,11 @@
 import type { NextConfig } from "next";
+import { assertNoUnapprovedProductionEditorial } from "./src/lib/content-release/blog-release";
+import { assertNoUnapprovedProductionTemplates } from "./src/lib/content-release/template-release";
+import { assertEditorialRelease } from "./src/lib/content-release/editorial-release";
+
+assertEditorialRelease();
+assertNoUnapprovedProductionEditorial();
+assertNoUnapprovedProductionTemplates();
 
 const securityHeaders = [
   {
@@ -28,6 +35,7 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  devIndicators: false,
   outputFileTracingIncludes: {
     "/api/directorio/download": ["./private/directorio/**/*"],
     "/api/directorio/confirm": ["./private/directorio/**/*"],

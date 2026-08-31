@@ -1,5 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllArticles } from "@/lib/blog-data";
+import { getSearchEligibleArticles } from "@/lib/content-release/blog-release";
+import { silos } from "@/lib/blog-types";
+import { getTemplateSlugs } from "@/lib/template-data";
+import { getSearchEligibleTemplateSlugs } from "@/lib/content-release/template-release";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://sodi.com.ar";
@@ -7,25 +11,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: `${baseUrl}/diagnostico`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "daily",
+      changeFrequency: "weekly",
       priority: 0.8,
     },
   ];
 
-  const articles = getAllArticles();
+  const articles = getSearchEligibleArticles(getAllArticles());
   const blogPages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${baseUrl}/blog/${article.slug}`,
     lastModified: new Date(article.dateModified),
@@ -33,5 +34,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPages];
+  const blogHubs: MetadataRoute.Sitemap = Object.keys(silos).map((silo) => ({
+    url: `${baseUrl}/blog/${silo}`,
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+
+  const templateSlugs = getSearchEligibleTemplateSlugs(getTemplateSlugs());
+  const templatePages: MetadataRoute.Sitemap = templateSlugs.map((slug) => ({
+    url: `${baseUrl}/plantillas/${slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+  const templateHub: MetadataRoute.Sitemap = templateSlugs.length
+    ? [{
+        url: `${baseUrl}/plantillas`,
+        changeFrequency: "monthly" as const,
+        priority: 0.75,
+      }]
+    : [];
+
+  return [...staticPages, ...blogHubs, ...blogPages, ...templateHub, ...templatePages];
 }

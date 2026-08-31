@@ -1,0 +1,77 @@
+{
+  "slug": "costo-total-erp-pyme-argentina",
+  "title": "Costo total de un ERP para pyme: SaaS, implementación y cambio",
+  "metaTitle": "Costo total ERP para pymes en Argentina",
+  "metaDescription": "Compará suscripción, usuarios, módulos, migración, integración, capacitación, soporte y salida durante el mismo período.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": [
+    "costo total erp pyme argentina",
+    "ERP",
+    "SaaS",
+    "implementación",
+    "migración",
+    "TCO",
+    "costo de cambio"
+  ],
+  "datePublished": "2026-08-28",
+  "dateModified": "2026-08-28",
+  "readingTime": "3 min lectura",
+  "relatedSlugs": [
+    "cuanto-cuesta-sistema-de-gestion-pymes",
+    "excel-vs-sistema-de-gestion"
+  ],
+  "content": {
+    "intro": "<p>La cuota de un ERP muestra acceso al producto, no todo el trabajo para usarlo. La pyme también decide procesos, limpia datos, integra sistemas, capacita personas y sostiene soporte.</p>",
+    "sections": [
+      {
+        "heading": "Tabla de TCO",
+        "body": "<div class=\"table-wrap\"><table><thead><tr><th>Línea</th><th>Inicial</th><th>Recurrente</th><th>Salida</th></tr></thead><tbody><tr><td>Producto</td><td>alta/licencia</td><td>suscripción/usuarios</td><td>cierre o exportación</td></tr><tr><td>Implementación</td><td>configuración</td><td>ajustes</td><td>documentación</td></tr><tr><td>Datos</td><td>limpieza/migración</td><td>calidad</td><td>exportación</td></tr><tr><td>Integraciones</td><td>construcción</td><td>mantenimiento</td><td>reemplazo</td></tr><tr><td>Equipo</td><td>capacitación</td><td>owner interno</td><td>transferencia</td></tr><tr><td>Soporte</td><td>puesta en marcha</td><td>plan/incidentes</td><td>transición</td></tr></tbody></table></div><p>Completá la tabla para uno, tres y cinco años según la decisión. No uses valores por defecto sin fuente.</p>"
+      },
+      {
+        "heading": "Igualar el escenario",
+        "body": "<p>Definí:</p><ul><li>usuarios y sedes;</li><li>módulos;</li><li>volumen de datos;</li><li>integraciones;</li><li>migración histórica;</li><li>soporte;</li><li>moneda e impuestos;</li><li>crecimiento esperado;</li><li>exportación y salida.</li></ul><p>Si una propuesta incluye sólo finanzas y otra suma stock, producción y CRM, el total no es comparable.</p>"
+      },
+      {
+        "heading": "Costo del cambio",
+        "body": "<p>Incluye tiempo de decisión, doble carga durante transición, pruebas, corrección, capacitación y riesgo operativo. También existe costo de no cambiar: errores o trabajo manual observado. Medilo con baseline, no con un porcentaje genérico de proveedor.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de revisión",
+        "body": "<p>Demanda observada en GSC y oferta pública de SODI, revisadas el 27/08/2026. El modelo no contiene precios de proveedor.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Conviene pagar por usuario?",
+        "answer": "Depende de roles y acceso. No compres licencias para personas que sólo necesitan un reporte o una acción puntual sin revisar alternativas."
+      },
+      {
+        "question": "¿La implementación viene incluida?",
+        "answer": "No se debe asumir. Pedí etapas, datos, configuración, integraciones y aceptación."
+      },
+      {
+        "question": "¿Cómo calculo ROI?",
+        "answer": "Establecé línea base de tiempos, errores y resultados; medí cambios y costos reales. No inventes ahorro futuro."
+      },
+      {
+        "question": "¿Qué costo de salida miro?",
+        "answer": "Exportación, formatos, documentación, integraciones, capacitación del reemplazo y continuidad."
+      },
+      {
+        "question": "¿Cuántos años comparo?",
+        "answer": "El período que refleje la decisión y contrato. Usá el mismo para todas las opciones y probá escenarios."
+      }
+    ],
+    "ctaText": "Ordenar mi caso"
+  },
+  "editorialReview": {
+    "packetId": "sodi-content-sodi-010-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "observed-demand-supported-framework",
+    "verifiedAt": "2026-08-27",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "37871fee31126a3508e6b894ff0dd3b83d14df15fd99ac17465f0b1b8e12ebef"
+  }
+}

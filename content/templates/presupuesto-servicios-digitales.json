@@ -1,0 +1,102 @@
+{
+  "slug": "presupuesto-servicios-digitales",
+  "title": "Plantilla para pedir y comparar presupuestos de servicios digitales",
+  "metaTitle": "Plantilla de presupuesto digital para Argentina",
+  "metaDescription": "Copiá un brief con problema, alcance, entregables, responsables, dependencias, exclusiones, precio, impuestos, soporte y salida.",
+  "directAnswer": "Una solicitud de presupuesto útil describe problema, alcance, entregables, responsables, dependencias, exclusiones, aceptación, precio, impuestos, soporte y salida. Enviá la misma plantilla a todos y registrá supuestos para evitar comparar propuestas diferentes.",
+  "buyer": "dueño sin equipo técnico",
+  "buyerJob": "pedir propuestas comparables y detectar extras antes de aprobar",
+  "readingTime": "3 min lectura",
+  "dateModified": "2026-08-28",
+  "primaryKeyword": "plantilla presupuesto servicios digitales argentina",
+  "tags": [
+    "presupuesto",
+    "alcance",
+    "entregables",
+    "exclusiones",
+    "dependencias",
+    "aceptación"
+  ],
+  "relatedRoutes": [
+    "/blog/como-elegir-agencia-web-argentina",
+    "/blog/agencia-web-vs-freelancer"
+  ],
+  "content": {
+    "intro": "<p>Copiá esta ficha y completala con lo que sabés. Marcá “no definido” donde falte una decisión; no inventes una respuesta para que el documento parezca completo.</p>",
+    "sections": [
+      {
+        "heading": "1. Problema",
+        "body": "<p><strong>Qué ocurre hoy:</strong></p><p><strong>Ejemplo concreto:</strong></p><p><strong>A quién afecta:</strong></p><p><strong>Frecuencia o volumen aproximado:</strong></p><p><strong>Qué ya probamos:</strong></p>"
+      },
+      {
+        "heading": "2. Resultado esperado",
+        "body": "<p><strong>Decisión o trabajo que queremos habilitar:</strong></p><p><strong>Cómo sabremos que el entregable existe:</strong></p><p><strong>Qué resultado comercial no se puede garantizar:</strong></p>"
+      },
+      {
+        "heading": "3. Alcance",
+        "body": "<div class=\"table-wrap\"><table><thead><tr><th>Incluido</th><th>Excluido</th><th>A definir</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "4. Entregables",
+        "body": "<p>Para cada uno: nombre, formato, responsable, fecha, revisiones y criterio de aceptación.</p>"
+      },
+      {
+        "heading": "5. Dependencias del negocio",
+        "body": "<ul><li>Materiales y datos.</li><li>Accesos y permisos.</li><li>Persona que aprueba.</li><li>Disponibilidad del equipo.</li><li>Proveedores externos.</li><li>Revisión legal, fiscal o técnica.</li></ul>"
+      },
+      {
+        "heading": "6. Propuesta económica",
+        "body": "<p>Solicitar en líneas separadas:</p><ul><li>honorarios;</li><li>pauta o gasto externo;</li><li>herramientas;</li><li>producción;</li><li>impuestos;</li><li>costos recurrentes;</li><li>soporte y cambios;</li><li>forma y calendario de pago.</li></ul>"
+      },
+      {
+        "heading": "7. Operación y salida",
+        "body": "<p><strong>Titularidad de cuentas:</strong></p><p><strong>Propiedad/licencia de activos:</strong></p><p><strong>Documentación y capacitación:</strong></p><p><strong>Soporte y urgencias:</strong></p><p><strong>Exportación/entrega al terminar:</strong></p>"
+      },
+      {
+        "heading": "Matriz de comparación",
+        "body": "<div class=\"table-wrap\"><table><thead><tr><th>Criterio</th><th>Propuesta A</th><th>B</th><th>C</th></tr></thead><tbody><tr><td>Alcance equivalente</td><td></td><td></td><td></td></tr><tr><td>Entregables</td><td></td><td></td><td></td></tr><tr><td>Equipo responsable</td><td></td><td></td><td></td></tr><tr><td>Dependencias</td><td></td><td></td><td></td></tr><tr><td>Exclusiones</td><td></td><td></td><td></td></tr><tr><td>QA/aceptación</td><td></td><td></td><td></td></tr><tr><td>Costo total</td><td></td><td></td><td></td></tr><tr><td>Recurrentes</td><td></td><td></td><td></td></tr><tr><td>Soporte</td><td></td><td></td><td></td></tr><tr><td>Salida</td><td></td><td></td><td></td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Fuentes y fecha de revisión",
+        "body": "<p>Construida a partir de jobs de compra observados en el portfolio SODI, revisados el 27/08/2026.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Tengo que completar todo?",
+        "answer": "No. Marcá unknowns y pedí que el proveedor declare supuestos."
+      },
+      {
+        "question": "¿Puedo elegir el menor precio?",
+        "answer": "Sí, después de comprobar que el alcance y riesgo son equivalentes. Un total aislado no alcanza."
+      },
+      {
+        "question": "¿Esto reemplaza un contrato?",
+        "answer": "No. Es una herramienta de alcance y comparación. Las condiciones legales requieren revisión apropiada."
+      },
+      {
+        "question": "¿Qué es criterio de aceptación?",
+        "answer": "La evidencia que permite aprobar un entregable, por ejemplo un flujo probado o archivo recibido."
+      },
+      {
+        "question": "¿Por qué incluir salida?",
+        "answer": "Porque dominio, cuentas, datos y documentación necesitan continuidad si cambia el proveedor."
+      }
+    ]
+  },
+  "editorialReview": {
+    "packetId": "sodi-content-sodi-012-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "supported-workflow",
+    "verifiedAt": "2026-08-27",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "72504f77d981e0ab46cd33f9f90a18c4337e6ea1f9e0cbff214b434020fca175"
+  },
+  "release": {
+    "sitemapEligible": false,
+    "publishAuthorized": false,
+    "reviewGate": "Revisión comercial; adaptar cláusulas legales con profesional, no usar como contrato.",
+    "doNotPublishIf": "Se presenta como asesoramiento legal o elimina campos de impuestos, propiedad y salida."
+  }
+}

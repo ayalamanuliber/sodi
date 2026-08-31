@@ -22,6 +22,15 @@ export interface ArticleMeta {
   dateModified: string;
   readingTime: string;
   relatedSlugs: string[];
+  editorialReview?: {
+    packetId: string;
+    contentStatus: "ready_editorial" | "hold_owner_review" | "hold_source_refresh" | "hold_hypothesis";
+    releaseStatus: "preview" | "approved" | "hold";
+    evidenceStatus: string;
+    verifiedAt: string;
+    integrationMethod: "packet_compiled" | "packet_reviewed_merge";
+    contentSha256: string;
+  };
 }
 
 export interface ArticleContent {
@@ -142,6 +151,14 @@ export function buildArticleSchema(article: ArticleMeta, url: string) {
         dateModified: article.dateModified,
         breadcrumb: { "@id": `${url}#breadcrumb` },
         inLanguage: "es-AR",
+        primaryImageOfPage: { "@id": `${url}#primaryimage` },
+      },
+      {
+        "@type": "ImageObject",
+        "@id": `${url}#primaryimage`,
+        url: `${url}/opengraph-image`,
+        width: 1200,
+        height: 630,
       },
       {
         "@type": "Article",
@@ -154,6 +171,7 @@ export function buildArticleSchema(article: ArticleMeta, url: string) {
         dateModified: article.dateModified,
         mainEntityOfPage: { "@id": `${url}#webpage` },
         inLanguage: "es-AR",
+        image: { "@id": `${url}#primaryimage` },
         about: article.tags.map((t) => ({ "@type": "Thing", name: t })),
       },
       {

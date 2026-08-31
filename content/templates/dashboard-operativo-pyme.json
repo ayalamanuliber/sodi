@@ -1,0 +1,82 @@
+{
+  "slug": "dashboard-operativo-pyme",
+  "title": "Plantilla de dashboard operativo para pymes: indicador, fuente y decisión",
+  "metaTitle": "Dashboard operativo para pyme: plantilla",
+  "metaDescription": "Definí pregunta, indicador, fórmula, fuente, owner, frecuencia, umbral y acción. Empezá con pocas decisiones.",
+  "directAnswer": "Un dashboard útil responde decisiones. Cada indicador necesita pregunta, fórmula, fuente, owner, frecuencia, umbral y acción. Empezá con pocas métricas y mostrá Unknown/datos vencidos en lugar de completar.",
+  "buyer": "dueño que no ve el estado del negocio",
+  "buyerJob": "elegir indicadores y frecuencia de revisión",
+  "readingTime": "3 min lectura",
+  "dateModified": "2026-08-28",
+  "primaryKeyword": "dashboard operativo pyme plantilla",
+  "tags": [
+    "dashboard",
+    "indicador",
+    "owner",
+    "fuente",
+    "frecuencia",
+    "umbral",
+    "decisión"
+  ],
+  "relatedRoutes": [
+    "/blog/como-digitalizar-mi-empresa"
+  ],
+  "content": {
+    "intro": "<p>Un dashboard útil responde decisiones. Cada indicador necesita pregunta, fórmula, fuente, owner, frecuencia, umbral y acción. Empezá con pocas métricas y mostrá Unknown/datos vencidos en lugar de completar.</p>",
+    "sections": [
+      {
+        "heading": "Ficha por indicador",
+        "body": "<div class=\"table-wrap\"><table><thead><tr><th>Campo</th><th>Contenido</th></tr></thead><tbody><tr><td>Pregunta</td><td>qué decisión responde</td></tr><tr><td>Nombre</td><td>claro</td></tr><tr><td>Fórmula</td><td>numerador/denominador</td></tr><tr><td>Fuente</td><td>sistema y reporte</td></tr><tr><td>Owner</td><td>quién entiende/corrige</td></tr><tr><td>Frecuencia</td><td>ritmo útil</td></tr><tr><td>Freshness</td><td>fecha de dato</td></tr><tr><td>Umbral</td><td>condición aprobada</td></tr><tr><td>Acción</td><td>qué ocurre</td></tr><tr><td>Limitación</td><td>qué no prueba</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Tablero mínimo",
+        "body": "<ul><li>Demanda/entrada.</li><li>Trabajo en curso/capacidad.</li><li>Resultado/entrega.</li><li>Calidad/error.</li><li>Caja o economía bajo revisión profesional.</li></ul><p>Elegí uno por decisión, no todos.</p>"
+      },
+      {
+        "heading": "Ritual",
+        "body": "<p>Revisar dato, anomalía, causa posible, acción, owner y fecha. Registrar sin cambiar definición histórica. Un indicador rojo sin acción no ayuda.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de revisión",
+        "body": "<p>Demanda observada en GSC SODI al 27/08/2026.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántos KPI?",
+        "answer": "Los que el equipo pueda revisar y accionar; empezar pocos."
+      },
+      {
+        "question": "¿Qué hago si falta dato?",
+        "answer": "Unknown/freshness visible."
+      },
+      {
+        "question": "¿Dashboard en tiempo real?",
+        "answer": "Sólo si la decisión lo necesita y la fuente lo soporta."
+      },
+      {
+        "question": "¿Meta u objetivo?",
+        "answer": "Se aprueba con contexto; no benchmark genérico."
+      },
+      {
+        "question": "¿Puedo usar planilla?",
+        "answer": "Sí, con owner, definiciones y control de versión."
+      }
+    ]
+  },
+  "editorialReview": {
+    "packetId": "sodi-content-sodi-086-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "observed-demand-supported-template",
+    "verifiedAt": "2026-08-27",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "5048225d73f2c39d87e67b56d0b27f0e05e99f575d66a73608ed32456a5f13e7"
+  },
+  "release": {
+    "sitemapEligible": false,
+    "publishAuthorized": false,
+    "reviewGate": "Owner valida definiciones, fuentes y decisiones.",
+    "doNotPublishIf": "Incluye benchmarks/targets inventados o PII innecesaria."
+  }
+}

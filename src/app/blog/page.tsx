@@ -1,65 +1,64 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { getAllArticles } from "@/lib/blog-data";
 import { silos } from "@/lib/blog-types";
+import { getSearchEligibleArticles } from "@/lib/content-release/blog-release";
 import { BlogIndex } from "@/components/blog/BlogIndex";
+import { BlogNav } from "@/components/blog/BlogNav";
 import { Footer } from "@/components/landing/Footer";
+import styles from "@/components/blog/blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Blog — SODI | Guías, precios y estrategia digital para empresas",
+  title: "Guías y decisiones digitales para empresas | SODI",
   description:
-    "Todo lo que necesitás saber sobre webs, automatización, redes sociales y sistemas para tu empresa en Argentina. Precios reales, guías prácticas y comparativas.",
+    "Guías para comparar webs, automatización, WhatsApp y sistemas desde el problema real de una empresa argentina.",
   openGraph: {
-    title: "Blog — SODI",
-    description: "Guías, precios y estrategia digital para empresas argentinas.",
+    title: "Guías y decisiones digitales para empresas | SODI",
+    description:
+      "Compará caminos, costos y procesos antes de elegir una solución digital.",
     type: "website",
   },
 };
 
+const FEATURED_SLUGS = [
+  "software-a-medida-vs-estandar",
+  "cuanto-cuesta-pagina-web-argentina",
+  "automatizar-whatsapp-empresas-de-servicios",
+];
+
 export default function BlogPage() {
-  const articles = getAllArticles();
-  const siloGroups = Object.entries(silos).map(([key, info]) => ({
-    key,
-    ...info,
-    articles: articles.filter((a) => a.silo === key),
-  })).filter((g) => g.articles.length > 0);
+  const articles = getSearchEligibleArticles(getAllArticles());
+  const siloGroups = Object.entries(silos)
+    .map(([key, info]) => ({
+      key,
+      ...info,
+      articles: articles.filter((article) => article.silo === key),
+    }))
+    .filter((group) => group.articles.length > 0);
+  const featured = FEATURED_SLUGS
+    .map((slug) => articles.find((article) => article.slug === slug))
+    .filter((article): article is NonNullable<typeof article> => Boolean(article));
 
   return (
-    <>
-      {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 px-4 sm:px-6 py-3 sm:py-5">
-        <div className="max-w-5xl mx-auto flex justify-between items-center glass rounded-xl px-4 sm:px-6 py-2.5 sm:py-3 border-white/5 shadow-2xl">
-          <Link href="/" className="sodi-mark text-[1rem] sm:text-[1.2rem]">SODI</Link>
-          <div className="flex items-center gap-4 sm:gap-6">
-            <Link href="/#servicios" className="hidden sm:block text-[11px] text-s-sub hover:text-white transition-colors uppercase tracking-wider font-bold">
-              Servicios
-            </Link>
-            <Link href="/diagnostico" className="bg-white text-black px-4 py-2 rounded-lg text-[11px] font-black uppercase tracking-tight hover:bg-s-accent transition-all">
-              Diagnóstico
-            </Link>
-          </div>
+    <div className={styles.blogPage}>
+      <BlogNav />
+      <header className={styles.indexHero}>
+        <div>
+          <h1>Decidir mejor antes de construir.</h1>
+          <p>
+            Guías para reconocer el problema, comparar caminos y entender qué
+            debería resolver una inversión digital.
+          </p>
         </div>
-      </nav>
-
-      <main className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6">
-        <div className="max-w-5xl mx-auto">
-          {/* Header */}
-          <header className="mb-10 sm:mb-16">
-            <p className="text-s-accent font-bold text-[10px] uppercase tracking-[0.4em] mb-3">Blog</p>
-            <h1 className="text-[1.6rem] sm:text-3xl md:text-[2.75rem] font-extrabold tracking-tighter leading-tight font-heading text-white mb-3">
-              Guías, precios y estrategia digital para tu empresa
-            </h1>
-            <p className="text-s-sub text-[14px] sm:text-[15px] max-w-2xl leading-relaxed">
-              Todo lo que necesitás saber para digitalizar tu negocio en Argentina. Sin humo, con datos reales.
-            </p>
-          </header>
-
-          {/* Client component handles filtering */}
-          <BlogIndex siloGroups={siloGroups} />
-        </div>
-      </main>
-
+        <aside>
+          <strong>SODI trabaja desde el proceso.</strong>
+          <p>
+            La tecnología viene después de entender dónde se pierde tiempo,
+            información o consultas.
+          </p>
+        </aside>
+      </header>
+      <BlogIndex siloGroups={siloGroups} featured={featured} />
       <Footer />
-    </>
+    </div>
   );
 }

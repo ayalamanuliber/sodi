@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "sodi-editorial-2026-08-31-r1",
+  "channel": "production_release",
+  "authority": "owner_authorized",
+  "generatedAt": "2026-08-31",
+  "expectedRouteCount": 10,
+  "routeSetSha256": "1cf02bcb3118ab86aa151885adc4a5ebe13b2b99e54dc018ce28f2794b30ad6b",
+  "routes": [
+    {
+      "packetId": "sodi-content-sodi-010-v1",
+      "route": "/blog/costo-total-erp-pyme-argentina",
+      "kind": "blog",
+      "sourcePath": "content/costo-total-erp-pyme-argentina.json",
+      "sourceFileSha256": "17107d35614e303df1a1d00b5f309dac55c6c251335aca8da418cb8fcefd6a94",
+      "contentSha256": "37871fee31126a3508e6b894ff0dd3b83d14df15fd99ac17465f0b1b8e12ebef",
+      "canonical": "https://sodi.com.ar/blog/costo-total-erp-pyme-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-sistema-de-gestion-pymes",
+        "/blog/excel-vs-sistema-de-gestion"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=costo-total-erp-pyme-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-012-v1",
+      "route": "/plantillas/presupuesto-servicios-digitales",
+      "kind": "template",
+      "sourcePath": "content/templates/presupuesto-servicios-digitales.json",
+      "sourceFileSha256": "c21df53b44b16d159479f67cd547d6b4d16b6cc46bfb12d477e906461fa08293",
+      "contentSha256": "72504f77d981e0ab46cd33f9f90a18c4337e6ea1f9e0cbff214b434020fca175",
+      "canonical": "https://sodi.com.ar/plantillas/presupuesto-servicios-digitales",
+      "internalLinks": [
+        "/blog/como-elegir-agencia-web-argentina",
+        "/blog/agencia-web-vs-freelancer"
+      ],
+      "ctaDestination": "/diagnostico?origen=plantilla&recurso=presupuesto-servicios-digitales",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-019-v1",
+      "route": "/plantillas/checklist-conciliacion-pagos-ecommerce",
+      "kind": "template",
+      "sourcePath": "content/templates/checklist-conciliacion-pagos-ecommerce.json",
+      "sourceFileSha256": "9a8a67c4855f617e25b6b69768b4c41dee98aa00e90a6f5b4ec33940ceecf271",
+      "contentSha256": "afef70f1175d66c6fabcf8b82530f68274d909c2c01ce1c00194dd6b069f5384",
+      "canonical": "https://sodi.com.ar/plantillas/checklist-conciliacion-pagos-ecommerce",
+      "internalLinks": [
+        "/blog/mercadopago-vs-mobbex-ecommerce",
+        "/herramientas/calculadora-costo-cobro-online"
+      ],
+      "ctaDestination": "/diagnostico?origen=plantilla&recurso=checklist-conciliacion-pagos-ecommerce",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-045-v1",
+      "route": "/blog/hot-sale-2026-ecommerce-argentina",
+      "kind": "blog",
+      "sourcePath": "content/hot-sale-2026-ecommerce-argentina.json",
+      "sourceFileSha256": "cb28f22789b7dc21c910591b69a2fc2b9d6c2937da322ea6ef6dbdc0adfdca28",
+      "contentSha256": "286827f7b57b3d1850d4fe4b34b40d6a05248c28bd325c9580342f6f2d0e4f01",
+      "canonical": "https://sodi.com.ar/blog/hot-sale-2026-ecommerce-argentina",
+      "internalLinks": [
+        "/blog/como-vender-por-internet-argentina",
+        "/blog/como-elegir-pasarela-de-pago-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=hot-sale-2026-ecommerce-argentina&ruta=guias",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-058-v1",
+      "route": "/blog/whatsapp-manual-vs-bot-automatico",
+      "kind": "blog",
+      "sourcePath": "content/whatsapp-manual-vs-bot-automatico.json",
+      "sourceFileSha256": "bfa4e4191122c6f601014af984c865de79ea15eb17e4b2ddc2095e4e6f6f6da5",
+      "contentSha256": "d901e6bb57bf7f628331c6ba075799650c92c26cb0a6480f9856d9627f168b80",
+      "canonical": "https://sodi.com.ar/blog/whatsapp-manual-vs-bot-automatico",
+      "internalLinks": [
+        "/blog/chatbot-ia-vs-atencion-humana-argentina",
+        "/blog/agentes-ia-whatsapp-atencion-clientes",
+        "/blog/cuanto-cuesta-bot-whatsapp-empresas"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=whatsapp-manual-vs-bot-automatico&ruta=comparativas",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-059-v1",
+      "route": "/blog/como-hacer-aparecer-negocio-google-maps",
+      "kind": "blog",
+      "sourcePath": "content/como-hacer-aparecer-negocio-google-maps.json",
+      "sourceFileSha256": "2422023338803382ce29c36d8ac3073970c94910c6a4df554f969fe62891e18c",
+      "contentSha256": "cff5011e9a723bd2cc11d03e9d0a7bd648a469df803646144780ddfc429d7edd",
+      "canonical": "https://sodi.com.ar/blog/como-hacer-aparecer-negocio-google-maps",
+      "internalLinks": [
+        "/blog/como-conseguir-resenas-google-mi-negocio",
+        "/blog/presencia-digital-ideal-lavadero"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=como-hacer-aparecer-negocio-google-maps&ruta=guias",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-069-v1",
+      "route": "/blog/pagina-web-para-inmobiliarias",
+      "kind": "blog",
+      "sourcePath": "content/pagina-web-para-inmobiliarias.json",
+      "sourceFileSha256": "c19ff67587abf848b0c68d3a0150004627917e229831f6c1ef68d1283c8835c2",
+      "contentSha256": "69577325b84b6d4a7f517d33a311661f2f0bb96241cbdf03f9a6c600d49651ef",
+      "canonical": "https://sodi.com.ar/blog/pagina-web-para-inmobiliarias",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-pagina-web-para-inmobiliarias",
+        "/blog/sistema-de-gestion-para-inmobiliarias",
+        "/blog/posicionamiento-web-para-inmobiliarias"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=pagina-web-para-inmobiliarias&ruta=web-por-rubro",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-086-v1",
+      "route": "/plantillas/dashboard-operativo-pyme",
+      "kind": "template",
+      "sourcePath": "content/templates/dashboard-operativo-pyme.json",
+      "sourceFileSha256": "8c11f3f3056a292112475cf242d7a70c6e0580c3eb234e5e55195ee96df5d1d0",
+      "contentSha256": "5048225d73f2c39d87e67b56d0b27f0e05e99f575d66a73608ed32456a5f13e7",
+      "canonical": "https://sodi.com.ar/plantillas/dashboard-operativo-pyme",
+      "internalLinks": [
+        "/blog/como-digitalizar-mi-empresa"
+      ],
+      "ctaDestination": "/diagnostico?origen=plantilla&recurso=dashboard-operativo-pyme",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-090-v1",
+      "route": "/blog/software-a-medida-vs-estandar",
+      "kind": "blog",
+      "sourcePath": "content/software-a-medida-vs-estandar.json",
+      "sourceFileSha256": "077bd9db52e4dd360b3b296bb85074ee8f40797fcd92441f203e182e9dfaccdb",
+      "contentSha256": "cfce640995ad74b5417de19720378d027372040f693b966ae1a00200ab8a47e4",
+      "canonical": "https://sodi.com.ar/blog/software-a-medida-vs-estandar",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-software-a-medida-argentina",
+        "/blog/desarrollar-app-vs-usar-plataforma"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=software-a-medida-vs-estandar&ruta=comparativas",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-content-sodi-100-v1",
+      "route": "/blog/agencia-web-vs-freelancer",
+      "kind": "blog",
+      "sourcePath": "content/agencia-web-vs-freelancer.json",
+      "sourceFileSha256": "741bf5cb3da321f16b9dd8965b1cd714f7063cd0d3529a11ebd203769ffea683",
+      "contentSha256": "bd7e8a4cd0d44b22b306b610d06871c88f3280ea15666e3dd8761b44abadbd8d",
+      "canonical": "https://sodi.com.ar/blog/agencia-web-vs-freelancer",
+      "internalLinks": [
+        "/blog/community-manager-vs-agencia",
+        "/blog/como-elegir-agencia-web-argentina",
+        "/blog/contratar-programador-vs-agencia"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=agencia-web-vs-freelancer&ruta=comparativas",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "hot-sale-2026-ecommerce-argentina",
+  "title": "Hot Sale y Cyber Monday: checklist operativo para ecommerce",
+  "metaTitle": "Checklist Hot Sale 2026 para ecommerce",
+  "metaDescription": "Prepará oferta, margen, stock, checkout, atención, logística, contingencia y medición. Actualizá fechas y condiciones desde fuentes oficiales.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "hot sale 2026 ecommerce argentina checklist",
+    "Hot Sale",
+    "Cyber Monday",
+    "stock",
+    "checkout",
+    "margen",
+    "atención"
+  ],
+  "datePublished": "2026-08-28",
+  "dateModified": "2026-08-28",
+  "readingTime": "3 min lectura",
+  "relatedSlugs": [
+    "como-vender-por-internet-argentina",
+    "como-elegir-pasarela-de-pago-argentina"
+  ],
+  "content": {
+    "intro": "<p>Una campaña estacional sirve sólo si la operación soporta el pico. Antes del evento, validá margen real, stock, checkout, atención, logística, devoluciones y un plan de contingencia; después medí contribución, no sólo tráfico.</p>",
+    "sections": [
+      {
+        "heading": "Antes de anunciar",
+        "body": "<ul><li>Definir productos, precio anterior y reglas de oferta verificables.</li><li>Calcular margen con comisión, impuestos, envío, devolución y atención.</li><li>Reservar stock y política ante quiebre.</li><li>Probar checkout, rechazo, cuotas, confirmación y conciliación.</li><li>Preparar respuestas, SLA, capacidad, contingencia y rollback.</li></ul>"
+      },
+      {
+        "heading": "Tablero del evento",
+        "body": "<div class=\"table-wrap\"><table><thead><tr><th>Momento</th><th>Señal</th><th>Owner</th><th>Decisión</th></tr></thead><tbody><tr><td>antes</td><td>prueba completa</td><td>operación</td><td>lanzar o frenar</td></tr><tr><td>durante</td><td>errores, stock y contacto</td><td>guardia</td><td>corregir oferta o canal</td></tr><tr><td>después</td><td>contribución, devolución y recompra</td><td>negocio</td><td>repetir o cambiar</td></tr></tbody></table></div><p>El benchmark de una plataforma describe su muestra, no tu tienda. Compará con tu baseline y conservá supuestos.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de revisión",
+        "body": "<p>Hot Sale Argentina/CACE confirma que la edición 2026 se realizó del 11 al 13 de mayo. También se revisaron el informe de ecommerce de Tiendanube y la documentación de checkout de Mercado Pago el 27/08/2026. Fechas, participación y condiciones del próximo evento deben actualizarse desde la fuente oficial.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo preparo el evento?",
+        "answer": "Con tiempo suficiente para probar el flujo completo; no hay plazo universal."
+      },
+      {
+        "question": "¿Descuento o cuotas?",
+        "answer": "Compará costo total, margen y claridad."
+      },
+      {
+        "question": "¿Qué hago si se acaba el stock?",
+        "answer": "Detener promoción y comunicar estado."
+      },
+      {
+        "question": "¿Mido ventas brutas?",
+        "answer": "También devoluciones, comisiones, logística y atención."
+      },
+      {
+        "question": "¿Creo una URL nueva cada año?",
+        "answer": "No por defecto; actualizar el activo canónico evita fragmentar señales."
+      }
+    ],
+    "ctaText": "Ordenar mi caso"
+  },
+  "editorialReview": {
+    "packetId": "sodi-content-sodi-045-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "ready-editorial",
+    "verifiedAt": "2026-08-27",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "286827f7b57b3d1850d4fe4b34b40d6a05248c28bd325c9580342f6f2d0e4f01"
+  }
+}

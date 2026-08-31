@@ -1,0 +1,86 @@
+{
+  "slug": "checklist-conciliacion-pagos-ecommerce",
+  "title": "Checklist de conciliación de pagos, pedidos y liquidaciones",
+  "metaTitle": "Checklist conciliación de pagos ecommerce",
+  "metaDescription": "Registrá pedido, operación, estado, importe, devolución y acreditación. Plantilla para resolver diferencias sin guardar datos sensibles de más.",
+  "directAnswer": "Conciliar significa vincular pedido, operación de pago, estado, importe, devolución y acreditación. Usá identificadores estables, fuentes oficiales y motivos de diferencia. Un pago aprobado no prueba por sí solo entrega ni liquidación.",
+  "buyer": "operador de ecommerce",
+  "buyerJob": "conciliar pago aprobado, pedido, devolución y liquidación",
+  "readingTime": "3 min lectura",
+  "dateModified": "2026-08-28",
+  "primaryKeyword": "conciliacion pagos mercado pago ecommerce",
+  "tags": [
+    "conciliación",
+    "pedido",
+    "pago",
+    "liquidación",
+    "devolución",
+    "identificador"
+  ],
+  "relatedRoutes": [
+    "/blog/mercadopago-vs-mobbex-ecommerce",
+    "/herramientas/calculadora-costo-cobro-online"
+  ],
+  "content": {
+    "intro": "<p>Usá esta plantilla para demostrar qué ocurrió desde el pedido hasta el dinero acreditado. Adaptá nombres de estados al proveedor; no los traduzcas por intuición.</p>",
+    "sections": [
+      {
+        "heading": "Registro mínimo",
+        "body": "<div class=\"table-wrap\"><table><thead><tr><th>Campo</th><th>Fuente</th></tr></thead><tbody><tr><td>ID de pedido</td><td>ecommerce/sistema</td></tr><tr><td>ID de operación</td><td>proveedor de pago</td></tr><tr><td>Estado de pago</td><td>proveedor</td></tr><tr><td>Importe y moneda</td><td>ambos, reconciliados</td></tr><tr><td>Fecha/hora</td><td>cada evento</td></tr><tr><td>Cliente mínimo</td><td>sólo lo necesario para operar</td></tr><tr><td>Estado de entrega</td><td>operación</td></tr><tr><td>Devolución</td><td>proveedor y pedido</td></tr><tr><td>ID de liquidación</td><td>acreditación/reporte</td></tr><tr><td>Diferencia</td><td>taxonomía y responsable</td></tr></tbody></table></div><p>Nunca guardes número completo de tarjeta, código de seguridad o credenciales.</p>"
+      },
+      {
+        "heading": "Control diario",
+        "body": "<ul><li>Pedidos sin operación.</li><li>Operaciones sin pedido.</li><li>Importe diferente.</li><li>Pago pendiente fuera de tiempo esperado.</li><li>Aprobado sin confirmación de pedido.</li><li>Pedido duplicado por reintento.</li><li>Devolución no reflejada.</li><li>Liquidación sin operación identificada.</li></ul>"
+      },
+      {
+        "heading": "Taxonomía de diferencias",
+        "body": "<p><code>missing_order</code>, <code>missing_payment</code>, <code>amount_mismatch</code>, <code>duplicate</code>, <code>pending</code>, <code>refund_mismatch</code>, <code>settlement_missing</code>, <code>manual_review</code>, <code>resolved</code>.</p><p>Cada diferencia lleva owner, fecha, acción y evidencia de cierre. No sobrescribas el estado original.</p>"
+      },
+      {
+        "heading": "Cierre semanal",
+        "body": "<ol><li>Reconciliar totales por fuente.</li><li>Revisar pendientes y antigüedad.</li><li>Confirmar devoluciones.</li><li>Vincular liquidaciones.</li><li>Registrar cargos e impuestos con fuente.</li><li>Escalar diferencias no resueltas.</li><li>Conservar exportaciones según política.</li></ol>"
+      },
+      {
+        "heading": "Fuentes y fecha de revisión",
+        "body": "<p>Documentación y términos oficiales de proveedores de pagos del ledger SODI revisados el 27/08/2026.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Un pago aprobado significa venta completada?",
+        "answer": "No. Falta confirmar pedido, entrega y tratamiento de devoluciones."
+      },
+      {
+        "question": "¿Qué ID es el principal?",
+        "answer": "No hay uno universal. Conservá pedido y operación y su vínculo."
+      },
+      {
+        "question": "¿Cómo trato webhooks repetidos?",
+        "answer": "La implementación debe ser idempotente y conservar trazabilidad. Esta plantilla marca duplicado para revisión."
+      },
+      {
+        "question": "¿Puedo conciliar en una planilla?",
+        "answer": "Puede servir con volumen acotado y controles. Protegé acceso y evitá PII innecesaria."
+      },
+      {
+        "question": "¿Esto reemplaza contabilidad?",
+        "answer": "No. Es conciliación operativa; el tratamiento contable y fiscal requiere su proceso."
+      }
+    ]
+  },
+  "editorialReview": {
+    "packetId": "sodi-content-sodi-019-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "supported-operating-template",
+    "verifiedAt": "2026-08-27",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "afef70f1175d66c6fabcf8b82530f68274d909c2c01ce1c00194dd6b069f5384"
+  },
+  "release": {
+    "sitemapEligible": false,
+    "publishAuthorized": false,
+    "reviewGate": "Revisión operativa y fiscal de campos; adaptar estados al proveedor exacto.",
+    "doNotPublishIf": "Presenta nombres de estados como universales o recomienda guardar tarjetas, credenciales o PII innecesaria."
+  }
+}
