@@ -1,19 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import { trackEvent } from "@/components/analytics/tracking";
 
 const DEFAULT_MESSAGE = "Hola SODI, quiero un diagnóstico para mi empresa.";
 const DIRECTORIO_MESSAGE = "Hola SODI, quiero saber más sobre el directorio.";
+const subscribeToMount = () => () => {};
+const getClientMountSnapshot = () => true;
+const getServerMountSnapshot = () => false;
 
 export function WhatsAppFloat() {
   const pathname = usePathname();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useSyncExternalStore(
+    subscribeToMount,
+    getClientMountSnapshot,
+    getServerMountSnapshot,
+  );
 
   if (!mounted) return null;
   if (!pathname || pathname.startsWith("/boda") || pathname.includes("/boda")) {

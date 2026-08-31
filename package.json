@@ -10,7 +10,7 @@
     "lint": "eslint",
     "test:crawl-policy": "node --no-warnings --experimental-strip-types scripts/check-crawl-policy.mjs",
     "test:source-attribution": "node --no-warnings --experimental-strip-types scripts/check-source-attribution.mjs",
-    "test:editorial-release": "node --no-warnings --experimental-strip-types scripts/check-sodi-editorial-release.mjs"
+    "test:editorial-release": "tsx scripts/check-sodi-editorial-release.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
@@ -30,6 +30,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
     "tailwindcss": "^4",
+    "tsx": "^4.23.13",
     "typescript": "^5"
   }
 }
