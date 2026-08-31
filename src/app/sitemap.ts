@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllArticles } from "@/lib/blog-data";
 import { getSearchEligibleArticles } from "@/lib/content-release/blog-release";
 import { silos } from "@/lib/blog-types";
-import { getTemplateSlugs } from "@/lib/template-data";
+import { getTemplateResource, getTemplateSlugs } from "@/lib/template-data";
 import { getSearchEligibleTemplateSlugs } from "@/lib/content-release/template-release";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -41,11 +41,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const templateSlugs = getSearchEligibleTemplateSlugs(getTemplateSlugs());
-  const templatePages: MetadataRoute.Sitemap = templateSlugs.map((slug) => ({
-    url: `${baseUrl}/plantillas/${slug}`,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  const templatePages: MetadataRoute.Sitemap = templateSlugs.map((slug) => {
+    const resource = getTemplateResource(slug);
+    return {
+      url: `${baseUrl}/plantillas/${slug}`,
+      lastModified: resource?.dateModified ? new Date(resource.dateModified) : undefined,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    };
+  });
   const templateHub: MetadataRoute.Sitemap = templateSlugs.length
     ? [{
         url: `${baseUrl}/plantillas`,
