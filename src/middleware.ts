@@ -36,7 +36,17 @@ const BLOCKED_CRAWLERS = [
   "baiduspider",
 ];
 
+const PUBLIC_DISCOVERY_PATHS = new Set([
+  "/robots.txt",
+  "/sitemap.xml",
+  "/6d5094cafb9c42959d7750b49d31b075.txt",
+]);
+
 export function middleware(request: NextRequest) {
+  if (PUBLIC_DISCOVERY_PATHS.has(request.nextUrl.pathname)) {
+    return NextResponse.next();
+  }
+
   const ua = (request.headers.get("user-agent") || "").toLowerCase();
 
   // Block known bad bots and scrapers
