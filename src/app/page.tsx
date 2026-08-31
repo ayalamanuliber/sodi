@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Nav } from "@/components/landing/Nav";
 import { Hero } from "@/components/landing/Hero";
 import { ProofStrip } from "@/components/landing/ProofStrip";
@@ -10,6 +11,12 @@ import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
 import { InteractiveCanvas } from "@/components/landing/InteractiveCanvas";
 import { ScrollRevealInit } from "@/components/landing/ScrollReveal";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   return (

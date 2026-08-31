@@ -48,6 +48,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: "/directorio-comercial-argentino",
+        destination: "/directorio",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

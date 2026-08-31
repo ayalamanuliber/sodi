@@ -11,11 +11,15 @@ export const metadata: Metadata = {
   title: "Guías y decisiones digitales para empresas | SODI",
   description:
     "Guías para comparar webs, automatización, WhatsApp y sistemas desde el problema real de una empresa argentina.",
+  alternates: {
+    canonical: "/blog",
+  },
   openGraph: {
     title: "Guías y decisiones digitales para empresas | SODI",
     description:
       "Compará caminos, costos y procesos antes de elegir una solución digital.",
     type: "website",
+    url: "https://sodi.com.ar/blog",
   },
 };
 

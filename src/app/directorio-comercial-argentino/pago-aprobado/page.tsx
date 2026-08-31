@@ -1,4 +1,7 @@
 import { PaymentSuccessClient } from "@/components/directorio/PaymentSuccessClient";
+import { paymentStatusMetadata } from "@/lib/directorio/payment-metadata";
+
+export const metadata = paymentStatusMetadata;
 
 export default async function PagoAprobadoPage({
   searchParams,

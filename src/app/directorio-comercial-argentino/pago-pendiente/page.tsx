@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { paymentStatusMetadata } from "@/lib/directorio/payment-metadata";
+
+export const metadata = paymentStatusMetadata;
 
 export default function PagoPendientePage() {
   return (

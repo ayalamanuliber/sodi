@@ -8,6 +8,7 @@
     "build:editorial-release": "node scripts/build-sodi-editorial-release.mjs && next build",
     "start": "next start",
     "lint": "eslint",
+    "test:crawl-policy": "node --no-warnings --experimental-strip-types scripts/check-crawl-policy.mjs",
     "test:editorial-release": "node --no-warnings --experimental-strip-types scripts/check-sodi-editorial-release.mjs"
   },
   "dependencies": {
