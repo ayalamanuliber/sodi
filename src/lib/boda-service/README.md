@@ -1,6 +1,8 @@
 # Servicio Bodas: contrato de integración
 
-Implementación local aislada de las rutas y almacenamiento de la boda histórica. No se desplegó ni se tocaron datos reales. El servicio ofrece una sesión de celebración por evento; no tiene checkout ni asignación automática.
+Servicio aislado de las rutas y almacenamiento de la boda histórica. Ofrece una sesión de celebración por evento, invitación publicada, confirmaciones y organización de mesas. No tiene checkout. La asignación se realiza por decisión de la pareja; las sugerencias requieren aceptación.
+
+Alta gratuita en producción: requiere `BODA_STUDIO_SELF_SERVE_ENABLED=true`, `BODA_STUDIO_PILOT_MAX_EVENTS` explícito y almacenamiento privado configurado. Mantener estas variables en el proyecto, además del despliegue. Las suites `npm run test:boda-service` y `npm run test:boda-launch` prueban el contrato con datos sintéticos aislados.
 
 ## Almacenamiento y autorización
 
