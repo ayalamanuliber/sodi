@@ -743,7 +743,7 @@ export function WeddingTrial() {
         </Link>
         <div className={styles.trialMeta}>
           <span>{localPersistenceAvailable ? "Guardado automático por 7 días en este navegador" : "Disponible mientras esta pestaña siga abierta"}</span>
-          <strong>{localPersistenceAvailable ? `Caduca ${formatExpiry(workspace.event.expiresAt)}` : "Guardado local no disponible"}</strong>
+          <strong>{localPersistenceAvailable ? `Prueba hasta ${formatExpiry(workspace.event.expiresAt)}` : "Guardado local no disponible"}</strong>
         </div>
       </header>
 

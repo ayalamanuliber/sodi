@@ -22,7 +22,7 @@ export const WEDDING_FAQ_ITEMS = [
   {
     question: "¿Cuánto cuesta?",
     answer:
-      "El acceso gratuito incluye invitación, confirmaciones y mesas básicas, con alimentación y necesidades de accesibilidad, hasta 200 personas y seis fotos propias. Con una firma discreta de SODI Bodas, sin tarjeta. Estamos preparando su apertura pública; la prueba de diseño ya está disponible. Las opciones de diseño adicional y asistencia se acuerdan por separado antes de contratar.",
+      "El acceso gratuito incluye invitación, confirmaciones y mesas básicas, con alimentación y necesidades de accesibilidad, hasta 200 personas y seis fotos propias. Con una firma discreta de SODI Bodas, sin tarjeta. Las nuevas altas dependen de la disponibilidad indicada al crear la boda. Las opciones de diseño adicional y asistencia se acuerdan por separado antes de contratar.",
   },
   {
     question: "¿Se publica apenas empezamos?",
