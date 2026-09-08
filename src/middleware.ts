@@ -67,6 +67,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Run on all routes except static files and images
-    "/((?!_next/static|_next/image|boda/assets|favicon.ico|icon-.*\\.png|.*\\.svg).*)",
+    "/((?!_next/static|_next/image|boda/assets|invitaciones-boda|favicon.ico|icon-.*\\.png|.*\\.svg).*)",
   ],
 };

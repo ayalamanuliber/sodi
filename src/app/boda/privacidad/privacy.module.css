@@ -1,0 +1,15 @@
+.page { min-height: 100vh; background: var(--boda-ivory, #f7f5f0); color: var(--boda-ink, #1f2b24); padding: 48px 24px 88px; }
+.article { max-width: 760px; margin: auto; }
+.brand { color: var(--boda-forest, #244936); font-size: 18px; letter-spacing: .16em; font-weight: 700; text-decoration: none; }
+.brand span { font-weight: 400; color: #896b3b; }
+.eyebrow { margin: 64px 0 16px; font-size: 13px; color: #68736c; }
+.article h1, .article h2 { font-family: var(--boda-display, Georgia, serif); font-weight: 400; letter-spacing: -.035em; color: #244936; }
+.article h1 { font-size: clamp(40px, 7vw, 64px); line-height: 1.05; margin: 0 0 24px; }
+.lead { font-size: 20px; line-height: 1.6; }
+.article section { padding-top: 32px; margin-top: 32px; border-top: 1px solid #cbd2cc; }
+.article h2 { font-size: 30px; line-height: 1.2; margin: 0 0 16px; }
+.article section p { font-size: 16px; line-height: 1.75; margin: 0 0 16px; }
+.article p a { color: inherit; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.back { display: inline-flex; align-items: center; gap: 24px; margin-top: 40px; min-height: 48px; padding: 12px 22px; color: #fffdf8; background: #244936; border-radius: 5px; text-decoration: none; font-size: 15px; }
+.article a:focus-visible { outline: 3px solid #9b793f; outline-offset: 5px; }
+@media(max-width: 480px) { .page { padding: 28px 20px 56px; } .eyebrow { margin-top: 44px; } .article h2 { font-size: 27px; } }

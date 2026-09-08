@@ -1,0 +1,453 @@
+.proof {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  min-width: 0;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border: 1px solid var(--proof-border);
+  border-radius: var(--proof-radius);
+  background: var(--proof-bg);
+  color: var(--proof-text);
+  font-family: var(--proof-body);
+}
+
+.photo {
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--proof-border);
+}
+
+.photo img {
+  object-fit: cover;
+  object-position: 52% 30%;
+}
+
+.paper {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  color: var(--proof-text);
+}
+
+.kicker,
+.date,
+.place {
+  font-family: var(--proof-body);
+  text-transform: uppercase;
+}
+
+.kicker {
+  color: var(--proof-accent);
+  font-size: clamp(0.38rem, 0.7vw, 0.62rem);
+  font-weight: 750;
+  letter-spacing: 0.18em;
+}
+
+.names {
+  display: block;
+  font-family: var(--proof-display);
+  font-size: clamp(.85rem, 11cqw, 3rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.9;
+}
+
+.names i {
+  display: inline-block;
+  margin-inline: 0.12em;
+  color: var(--proof-accent);
+  font-family: var(--proof-display);
+  font-size: 0.72em;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+
+.date {
+  margin-top: 10px;
+  color: var(--proof-muted);
+  font-size: clamp(0.36rem, 0.65vw, 0.58rem);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.place {
+  margin-top: 4px;
+  color: var(--proof-muted);
+  font-size: clamp(0.35rem, 0.6vw, 0.54rem);
+  letter-spacing: 0.08em;
+}
+
+.monogram {
+  position: absolute;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  color: var(--proof-accent);
+  font-family: var(--proof-display);
+  font-size: clamp(0.48rem, 0.9vw, 0.76rem);
+  font-weight: 650;
+  letter-spacing: 0.08em;
+}
+
+.proof[data-monogram="seal"] .monogram {
+  width: 38px;
+  aspect-ratio: 1;
+  border: 1px solid color-mix(in srgb, var(--proof-accent) 72%, transparent);
+  border-radius: 50%;
+}
+
+.proof[data-monogram="initials"] .monogram {
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--proof-accent);
+}
+
+.proof[data-monogram="wordmark"] .monogram {
+  font-family: var(--proof-display);
+  font-size: clamp(0.45rem, 0.8vw, 0.7rem);
+  font-weight: 450;
+  letter-spacing: 0;
+}
+
+.ornament {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.proof[data-ornament="quiet"] .ornament {
+  inset: 10px;
+  border: 1px solid color-mix(in srgb, var(--proof-accent) 32%, transparent);
+}
+
+.proof[data-ornament="balanced"] .ornament {
+  right: 16px;
+  bottom: 16px;
+  width: 42px;
+  height: 24px;
+  border-right: 1px solid var(--proof-accent);
+  border-bottom: 1px solid var(--proof-accent);
+}
+
+.proof[data-ornament="ceremonial"]::before,
+.proof[data-ornament="ceremonial"]::after {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  width: 44px;
+  height: 1px;
+  background: var(--proof-accent);
+  content: "";
+  transform: translateX(-50%);
+}
+
+.proof[data-ornament="ceremonial"]::before { top: 14px; }
+.proof[data-ornament="ceremonial"]::after { bottom: 14px; }
+
+.proof[data-layout="split"] .photo {
+  inset: 0 44% 0 0;
+}
+
+.proof[data-layout="split"] .paper {
+  inset: 24% 6% auto 61%;
+  align-items: flex-start;
+}
+
+.proof[data-layout="split"] .names {
+  margin-top: 10px;
+}
+
+.proof[data-layout="split"] .monogram {
+  top: 7%;
+  right: 7%;
+}
+
+.proof[data-layout="editorial"] .photo {
+  inset: 8% 8% 32%;
+  border-radius: calc(var(--proof-radius) * 0.6);
+}
+
+.proof[data-layout="editorial"] .paper {
+  inset: auto 8% 7%;
+  align-items: center;
+  text-align: center;
+}
+
+.proof[data-layout="editorial"] .names {
+  margin-top: 5px;
+}
+
+.proof[data-layout="editorial"] .date {
+  margin-top: 6px;
+}
+
+.proof[data-layout="editorial"] .monogram {
+  top: 4%;
+  left: 50%;
+  background: var(--proof-surface);
+  transform: translateX(-50%);
+}
+
+.proof[data-layout="poster"] .photo {
+  inset: 0;
+}
+
+.proof[data-layout="poster"] .photo::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgb(0 0 0 / 0.04) 24%, color-mix(in srgb, var(--proof-bg) 88%, transparent) 100%);
+  content: "";
+}
+
+.proof[data-layout="poster"] .paper {
+  inset: auto 8% 7%;
+  color: var(--proof-text);
+}
+
+.proof[data-layout="poster"] .kicker,
+.proof[data-layout="poster"] .date,
+.proof[data-layout="poster"] .place {
+  color: color-mix(in srgb, var(--proof-text) 84%, white);
+}
+
+.proof[data-layout="poster"] .monogram {
+  top: 7%;
+  right: 7%;
+  color: var(--proof-text);
+}
+
+.proof[data-theme="cobalto"] .photo {
+  inset: 5% 5% 44%;
+  border-radius: 0;
+}
+
+.proof[data-theme="cobalto"] .paper {
+  inset: 62% 7% auto;
+  align-items: flex-start;
+}
+
+.proof[data-theme="cobalto"] .names {
+  font-weight: 760;
+}
+
+.proof[data-theme="bosque"] .photo {
+  inset: 9% 7% 34%;
+}
+
+.proof[data-theme="bosque"] .photo img {
+  object-position: 52% 27%;
+}
+
+.proof[data-theme="nocturno"] {
+  border-color: color-mix(in srgb, var(--proof-accent) 55%, var(--proof-border));
+}
+
+.proof[data-theme="nocturno"] .photo img {
+  filter: saturate(0.72) contrast(1.04) brightness(0.82);
+}
+
+.proof[data-theme="nocturno"] .names {
+  max-width: 7ch;
+  font-size: clamp(1rem, 12cqw, 3.35rem);
+  font-weight: 720;
+  text-transform: uppercase;
+}
+
+.proof[data-theme="clasico"] .photo {
+  inset: 12% 16% 38%;
+  border-radius: 50% 50% 2px 2px / 30% 30% 2px 2px;
+}
+
+.proof[data-theme="clasico"] .photo img {
+  object-position: 100% 0%;
+}
+
+.proof[data-theme="clasico"] .paper {
+  inset: auto 9% 8%;
+}
+
+.proof[data-theme="romantico"] .photo img {
+  filter: saturate(0.82) sepia(0.08) brightness(0.94);
+}
+
+.proof[data-theme="romantico"] .paper {
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  padding: 9% 7% 6%;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--proof-surface) 86%, transparent);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+.proof[data-theme="romantico"] .names {
+  margin-top: 4px;
+}
+
+.proof[data-theme="campestre"] .photo {
+  inset: 6% 34% 6% 4%;
+  border-radius: 50% 50% 3px 3px / 24% 24% 3px 3px;
+}
+
+.proof[data-theme="campestre"] .photo img {
+  object-position: 100% 28%;
+}
+
+.proof[data-theme="campestre"] .paper {
+  inset: 30% 4% auto 70%;
+}
+
+.proof[data-selector="true"] {
+  aspect-ratio: 11 / 5;
+}
+
+.proof[data-selector="true"] .names {
+  font-size: clamp(0.82rem, 1.55vw, 1.35rem);
+}
+
+.proof[data-selector="true"] .kicker {
+  font-size: clamp(0.34rem, 0.55vw, 0.48rem);
+}
+
+.proof[data-selector="true"] .date,
+.proof[data-selector="true"] .place {
+  font-size: clamp(0.31rem, 0.46vw, 0.42rem);
+}
+
+.proof[data-selector="true"][data-layout="split"] .photo {
+  inset: 5% 50% 5% 3%;
+}
+
+.proof[data-selector="true"][data-layout="split"] .paper {
+  inset: 20% 3% auto 55%;
+}
+
+.proof[data-selector="true"][data-layout="editorial"] .photo {
+  inset: 6% 49% 6% 4%;
+}
+
+.proof[data-selector="true"][data-layout="editorial"] .paper {
+  inset: 20% 4% auto 55%;
+  align-items: center;
+  text-align: center;
+}
+
+.proof[data-selector="true"][data-layout="poster"] .paper {
+  inset: auto 5% 7%;
+}
+
+.proof[data-selector="true"][data-theme="cobalto"] .photo,
+.proof[data-selector="true"][data-theme="campestre"] .photo {
+  inset: 5% 50% 5% 3%;
+}
+
+.proof[data-selector="true"][data-theme="cobalto"] .paper,
+.proof[data-selector="true"][data-theme="campestre"] .paper {
+  inset: 20% 3% auto 55%;
+}
+
+.proof[data-selector="true"][data-theme="bosque"] .photo,
+.proof[data-selector="true"][data-theme="clasico"] .photo {
+  inset: 6% 49% 6% 4%;
+}
+
+.proof[data-selector="true"][data-theme="bosque"] .paper,
+.proof[data-selector="true"][data-theme="clasico"] .paper {
+  inset: 20% 4% auto 55%;
+}
+
+.proof[data-selector="true"][data-theme="romantico"] .paper {
+  inset: auto 4% 5% 48%;
+  padding: 5% 4% 4%;
+}
+
+.proof[data-selector="true"] .monogram {
+  top: 8%;
+  right: 5%;
+  left: auto;
+  transform: none;
+}
+
+.proof[data-compact="true"] {
+  width: 52px;
+  aspect-ratio: 5 / 4;
+  flex: 0 0 52px;
+  border-radius: 4px;
+}
+
+.proof[data-compact="true"] .kicker,
+.proof[data-compact="true"] .date,
+.proof[data-compact="true"] .place,
+.proof[data-compact="true"] .monogram,
+.proof[data-compact="true"] .ornament {
+  display: none;
+}
+
+.proof[data-compact="true"] .names {
+  margin: 0;
+  font-size: 0.46rem;
+  line-height: 0.95;
+}
+
+.proof[data-compact="true"] .paper {
+  padding: 0;
+}
+
+.proof[data-compact="true"][data-layout="split"] .photo {
+  inset: 0 44% 0 0;
+}
+
+.proof[data-compact="true"][data-layout="split"] .paper {
+  inset: 32% 4% auto 61%;
+}
+
+.proof[data-compact="true"][data-layout="editorial"] .photo {
+  inset: 5% 6% 34%;
+}
+
+.proof[data-compact="true"][data-layout="editorial"] .paper {
+  inset: auto 3% 7%;
+}
+
+.proof[data-compact="true"][data-layout="poster"] .paper {
+  inset: auto 5% 6%;
+}
+
+.proof[data-compact="true"][data-theme="romantico"] .paper {
+  right: 3%;
+  bottom: 3%;
+  left: 3%;
+  padding: 4%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .proof * {
+    transition: none;
+  }
+}
+
+/* Proof typography scales with the card, including narrow two-column collections. */
+.proof[data-theme="campestre"] .names { font-size:clamp(.75rem,8cqw,2rem); line-height:1.05; overflow-wrap:normal; }
+.proof[data-theme="campestre"] .names i { display:block; margin:.15em 0; }
+.proof[data-theme="romantico"] .paper { padding:0; border-radius:0; background:none; backdrop-filter:none; color:#fff8f2; text-align:left; inset:auto 9% 9%; }
+.proof[data-theme="romantico"] .photo::after { background:linear-gradient(0deg,#30241fe8,transparent 70%); }
+.proof[data-theme="romantico"] .kicker,.proof[data-theme="romantico"] .date,.proof[data-theme="romantico"] .place { color:#f8eddf; }
+.proof[data-theme="romantico"] .monogram { color:#fff8f2; }
+.proof[data-selector="true"] .names { font-size:clamp(.8rem,5.8cqw,1.3rem); }
+.proof[data-selector="true"][data-theme="campestre"] .names i { display:inline; }
+
+/* Narrow collection thumbnails retain the photo and names; decorative metadata
+   is omitted just as it is in the compact selector, instead of overlapping. */
+@container(max-width:180px) {
+  .proof:not([data-selector]):not([data-compact]) .kicker,
+  .proof:not([data-selector]):not([data-compact]) .date,
+  .proof:not([data-selector]):not([data-compact]) .place { display:none; }
+  .proof:not([data-selector]):not([data-compact])[data-monogram="seal"] .monogram { width:16cqw; font-size:4.5cqw; }
+  .proof:not([data-selector]):not([data-compact]) .ornament { display:none; }
+  .proof:not([data-selector]):not([data-compact])[data-theme="clasico"] .paper { bottom:14%; }
+}

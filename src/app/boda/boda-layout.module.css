@@ -1,0 +1,14 @@
+.bodaRoot {
+  --boda-ui: var(--font-heading), "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --boda-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --boda-forest: #244936;
+  --boda-deep: #173c2a;
+  --boda-ivory: #f7f5f0;
+  --boda-paper: #fffdf8;
+  --boda-gold: #c49a52;
+  --boda-ink: #1f2b24;
+  --boda-muted: #68736c;
+  --boda-line: #cbd2cc;
+  min-height: 100%;
+  font-family: var(--boda-ui);
+}

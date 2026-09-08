@@ -19,7 +19,7 @@ export function WhatsAppFloat() {
   );
 
   if (!mounted) return null;
-  if (!pathname || pathname.startsWith("/boda") || pathname.includes("/boda")) {
+  if (!pathname || pathname.startsWith("/boda") || pathname.startsWith("/invitacion") || pathname.includes("/boda")) {
     return null;
   }
 

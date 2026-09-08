@@ -1,0 +1,13 @@
+"use client";
+import {useEffect,useState} from 'react';
+import {Copy,Download,KeyRound} from 'lucide-react';
+import {downloadFile} from './client';
+import {panelPath} from './access-receipt';
+import styles from './studio.module.css';
+export function WeddingAccessReceipt({eventId,recoveryKey,acknowledged,onAcknowledge}:{eventId:string;recoveryKey:string;acknowledged:boolean;onAcknowledge:(value:boolean)=>void}){
+ const [message,setMessage]=useState('');
+ const url=typeof window==='undefined'?panelPath(eventId):window.location.origin+panelPath(eventId);
+ useEffect(()=>{if(acknowledged)return;const before=(event:BeforeUnloadEvent)=>event.preventDefault();window.addEventListener('beforeunload',before);return()=>window.removeEventListener('beforeunload',before);},[acknowledged]);
+ const contents=`SODI Bodas — acceso privado\n\nPanel: ${url}\nBoda: ${eventId}\nClave de recuperación: ${recoveryKey}\n\nGuardá este archivo en un lugar privado. La clave permite cambiar la contraseña. No la compartas con invitados. Al recuperar el acceso o emitir una clave nueva, esta clave deja de funcionar. Tu contraseña no está en este archivo.\n`;
+ return <section className={styles.card} style={{marginTop:20}} aria-labelledby="recovery-receipt-title"><KeyRound size={25}/><h2 id="recovery-receipt-title" style={{marginTop:12}}>Guarden su acceso.</h2><p>Esta clave permite recuperar la boda si olvidan la contraseña. Se muestra una sola vez. No la compartan con sus invitados.</p><div className={styles.actions}><button type="button" className={styles.button} onClick={()=>{downloadFile(contents,`acceso-sodi-${eventId}.txt`,'text/plain;charset=utf-8');setMessage('Se preparó el archivo. Comprueben que quedó guardado antes de continuar.');}}><Download size={16}/> Descargar acceso privado</button><button type="button" className={styles.secondary} onClick={async()=>{try{await navigator.clipboard.writeText(contents);setMessage('Acceso copiado. Péguenlo en un lugar privado antes de continuar.');}catch{setMessage('No pudimos copiar. Descarguen el archivo o abran la clave para copiarla manualmente.');}}}><Copy size={16}/> Copiar acceso</button></div><details style={{marginTop:18}}><summary style={{minHeight:44,cursor:'pointer'}}>Ver la clave de recuperación</summary><code className={styles.secret} style={{display:'block',overflowWrap:'anywhere'}}>{recoveryKey}</code></details><label className={styles.check} style={{marginTop:16}}><input type="checkbox" checked={acknowledged} onChange={e=>onAcknowledge(e.target.checked)}/> Guardé el enlace y la clave en un lugar privado.</label>{message&&<p role="status" className={styles.muted}>{message}</p>}</section>;
+}

@@ -1,0 +1,10 @@
+.git
+.env*
+.codex-tmp
+.boda-studio-private
+artifacts
+docs
+scripts
+video
+*.tsbuildinfo
+**/.DS_Store

@@ -1,21 +1,6 @@
-import type { Metadata } from "next";
+import type { ReactNode } from "react";
+import styles from "./boda-layout.module.css";
 
-export const metadata: Metadata = {
-  title: "Invitaciones digitales para casamientos | SODI Bodas",
-  description:
-    "Invitaciones web interactivas con enlaces personalizados, confirmaciones, música y panel de gestión para casamientos.",
-  alternates: {
-    canonical: "/boda",
-  },
-  openGraph: {
-    title: "Invitaciones digitales para casamientos | SODI Bodas",
-    description:
-      "Invitaciones web interactivas con enlaces personalizados, confirmaciones, música y panel de gestión para casamientos.",
-    type: "website",
-    url: "https://sodi.com.ar/boda",
-  },
-};
-
-export default function SodiBodasLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return children;
+export default function BodaLayout({ children }: { children: ReactNode }) {
+  return <div className={styles.bodaRoot}>{children}</div>;
 }

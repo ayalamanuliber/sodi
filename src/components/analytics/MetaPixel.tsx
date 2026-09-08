@@ -1,8 +1,10 @@
 "use client";
 
 import Script from "next/script";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
+import { isPrivateAnalyticsUrl } from "./privacy-boundary";
+export { trackMetaEvent } from "./tracking";
 
 declare global {
   interface Window {
@@ -13,23 +15,21 @@ declare global {
 
 export const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID || "2273367219772687";
 
-export function trackMetaEvent(eventName: string, params?: Record<string, unknown>) {
-  if (typeof window === "undefined" || typeof window.fbq !== "function") return;
-  window.fbq("track", eventName, params || {});
-}
-
 export function MetaPixel() {
   const pathname = usePathname();
+  const previousPathname = useRef(pathname);
 
   useEffect(() => {
+    if (pathname === previousPathname.current) return;
+    previousPathname.current = pathname;
+    if (isPrivateAnalyticsUrl(window.location.href)) return;
     if (typeof window.fbq !== "function") return;
     window.fbq("track", "PageView");
   }, [pathname]);
 
   return (
-    <>
-      <Script id="meta-pixel-base" strategy="afterInteractive">
-        {`
+    <Script id="meta-pixel-base" strategy="afterInteractive">
+      {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -38,19 +38,10 @@ export function MetaPixel() {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('set', 'autoConfig', false, '${META_PIXEL_ID}');
           fbq('init', '${META_PIXEL_ID}');
+          fbq('track', 'PageView');
         `}
-      </Script>
-      <noscript>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          alt=""
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`}
-        />
-      </noscript>
-    </>
+    </Script>
   );
 }

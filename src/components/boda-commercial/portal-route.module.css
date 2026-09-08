@@ -1,0 +1,70 @@
+.page {
+  min-height: 100dvh;
+  padding: clamp(20px, 4vw, 56px);
+  background: #f7f5f0;
+  color: #233027;
+  font-family: var(--boda-ui, var(--font-heading)), sans-serif;
+}
+
+.header {
+  display: flex;
+  width: min(1440px, 100%);
+  align-items: end;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 0 auto 24px;
+}
+
+.header > div:first-child {
+  max-width: 760px;
+}
+
+.header span {
+  color: #8f6c32;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  margin: 10px 0 8px;
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 650;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-family: var(--boda-display, var(--boda-ui, var(--font-heading))), serif;
+}
+
+.header p {
+  margin: 0;
+  color: #667068;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.actions a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  border: 1px solid #b9c1ba;
+  border-radius: 8px;
+  background: #fff;
+  color: #244936;
+  font-size: 0.82rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .page { padding: 18px 12px 32px; }
+  .header { align-items: flex-start; flex-direction: column; gap: 18px; padding: 0 6px; }
+  .actions, .actions a { width: 100%; }
+  .actions a { justify-content: center; }
+}

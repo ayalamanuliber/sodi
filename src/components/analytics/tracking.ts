@@ -1,6 +1,8 @@
 "use client";
 
 import { track as trackVercelEvent } from "@vercel/analytics";
+import { isPrivateAnalyticsUrl } from "./privacy-boundary";
+import { isProductionAnalyticsHostname } from "./analytics-hosts";
 
 type TrackingValue = string | number | boolean | null | undefined | string[];
 type TrackingProperties = Record<string, TrackingValue>;
@@ -26,7 +28,7 @@ declare global {
 
 function cleanProperties(properties: TrackingProperties = {}) {
   return Object.fromEntries(
-    Object.entries(properties).filter(([, value]) => value !== undefined),
+    Object.entries(properties).filter(([key, value]) => value !== undefined && !/^(?:email|phone|telefono|nombre|name|code|token|slug|password|notes|notas|integrantes|(?:guest|invite|invitation|payer)_(?:id|name|email|phone|code|token|slug))$/i.test(key)),
   ) as Record<string, Exclude<TrackingValue, undefined>>;
 }
 
@@ -56,6 +58,7 @@ function getMetaMode(metaEventName: string): MetaMode {
 
 export function trackEvent(eventName: string, properties: TrackingProperties = {}) {
   if (typeof window === "undefined") return;
+  if (isPrivateAnalyticsUrl(window.location.href) || !isProductionAnalyticsHostname(window.location.hostname)) return;
 
   const cleaned = cleanProperties(properties);
   const vercelProperties = toVercelProperties(cleaned);

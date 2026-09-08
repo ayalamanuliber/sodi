@@ -10,7 +10,12 @@
     "lint": "eslint",
     "test:crawl-policy": "node --no-warnings --experimental-strip-types scripts/check-crawl-policy.mjs",
     "test:source-attribution": "node --no-warnings --experimental-strip-types scripts/check-source-attribution.mjs",
-    "test:editorial-release": "tsx scripts/check-sodi-editorial-release.mjs"
+    "test:editorial-release": "tsx scripts/check-sodi-editorial-release.mjs",
+    "test:boda-service": "node --no-warnings --experimental-strip-types scripts/check-boda-service.mjs",
+    "test:boda-launch": "node --no-warnings --experimental-strip-types scripts/check-boda-launch.mjs",
+    "test:boda-build": "node --no-warnings --experimental-strip-types scripts/check-boda-build.mjs",
+    "test:boda-seating": "node --no-warnings --experimental-strip-types scripts/check-boda-seating-suggestions.mjs",
+    "test:boda-referral": "node --no-warnings --experimental-strip-types scripts/check-boda-referral-loop.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
