@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Sora, Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
-import Script from "next/script";
-import { MetaPixel } from "@/components/analytics/MetaPixel";
+import { ProductionAnalytics } from "@/components/analytics/ProductionAnalytics";
 import { WhatsAppFloat } from "@/components/landing/WhatsAppFloat";
 import "./globals.css";
 
@@ -139,20 +137,10 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/* GA4 */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BXSWHC7WLX" strategy="afterInteractive" />
-        <Script id="ga4" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-BXSWHC7WLX');`}
-        </Script>
-        <MetaPixel />
-
         <div className="noise" />
         {children}
         <WhatsAppFloat />
-        <Analytics />
+        <ProductionAnalytics />
       </body>
     </html>
   );

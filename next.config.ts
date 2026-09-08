@@ -36,9 +36,14 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  turbopack: { root: process.cwd() },
+  outputFileTracingRoot: process.cwd(),
   outputFileTracingIncludes: {
     "/api/directorio/download": ["./private/directorio/**/*"],
     "/api/directorio/confirm": ["./private/directorio/**/*"],
+  },
+  outputFileTracingExcludes: {
+    '/*': ['./.boda-studio-private/**/*', './.codex-tmp/**/*', './artifacts/**/*'],
   },
   async headers() {
     return [
@@ -46,6 +51,14 @@ const nextConfig: NextConfig = {
         source: "/(.*)",
         headers: securityHeaders,
       },
+      ...['/boda/:path+', '/invitacion/:path*', '/api/boda-studio/:path*'].map((source) => ({
+        source,
+        headers: [
+          { key: 'Referrer-Policy', value: 'no-referrer' },
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive' },
+          { key: 'Cache-Control', value: 'private, no-store, max-age=0' },
+        ],
+      })),
     ];
   },
   async redirects() {
