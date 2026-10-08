@@ -10,7 +10,7 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 const headers = { 'Cache-Control': 'private, no-store, max-age=0', 'X-Content-Type-Options': 'nosniff', 'Referrer-Policy': 'no-referrer' };
 const cookieName = (id: string) => 'boda_studio_' + id;
-function clientIdentity(req: NextRequest) { const ip = process.env.VERCEL === '1' ? req.headers.get('x-vercel-forwarded-for')?.split(',')[0].trim() : undefined; return ip && isIP(ip) ? ip : 'shared'; }
+function clientIdentity(req: NextRequest) { const ip = process.env.VERCEL === '1' ? req.headers.get('x-vercel-forwarded-for')?.split(',')[0].trim() : req.headers.get('cf-connecting-ip')?.trim(); return ip && isIP(ip) ? ip : 'shared'; }
 async function body(req: NextRequest, max = 3 * 1024 * 1024) { if (Number(req.headers.get('content-length') || 0) > max)
     throw new ServiceError(413, 'El contenido supera el límite de esta solicitud.'); if (!req.headers.get('content-type')?.includes('application/json'))
     throw new ServiceError(415, 'Se requiere JSON.'); const reader = req.body?.getReader(); if (!reader)

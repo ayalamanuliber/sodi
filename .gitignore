@@ -10,3 +10,8 @@ out
 .boda-studio-private
 .codex-tmp
 artifacts
+
+# Cloudflare / OpenNext
+.open-next
+.wrangler
+cloudflare-env.d.ts

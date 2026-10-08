@@ -18,14 +18,16 @@
     "test:boda-referral": "node --no-warnings --experimental-strip-types scripts/check-boda-referral-loop.mjs"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.9",
     "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.7.0",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.31.0",
     "mercadopago": "^2.12.1",
-    "next": "16.2.2",
+    "next": "^16.3.8",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "undici": "file:./cf/undici-shim"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -33,9 +35,15 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.2",
+    "eslint-config-next": "^16.3.8",
     "tailwindcss": "^4",
     "tsx": "^4.23.13",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.148.0"
+  },
+  "overrides": {
+    "@vercel/blob": {
+      "undici": "$undici"
+    }
   }
 }

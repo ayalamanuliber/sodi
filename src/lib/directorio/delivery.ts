@@ -1,11 +1,8 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 import { MercadoPagoConfig, Payment } from "mercadopago";
 import { directorioPlans } from "@/lib/directorio/plans";
-
-const DELIVERY_ROOT = path.join(process.cwd(), "private", "directorio");
-const MANIFEST_PATH = path.join(DELIVERY_ROOT, "manifest.json");
+// Static import (not fs.readFile at runtime): Cloudflare Workers has no readable project filesystem.
+import deliveryManifest from "../../../private/directorio/manifest.json";
 
 type DeliveryManifestItem = {
   name: string;
@@ -43,8 +40,7 @@ function signValue(value: string) {
 }
 
 export async function getDeliveryManifest(): Promise<DeliveryManifest> {
-  const raw = await readFile(MANIFEST_PATH, "utf-8");
-  return JSON.parse(raw) as DeliveryManifest;
+  return deliveryManifest as DeliveryManifest;
 }
 
 export async function resolvePlanSlugFromPayment(paymentId: string) {

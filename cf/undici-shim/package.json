@@ -1,0 +1,9 @@
+{
+  "name": "undici",
+  "version": "6.99.0",
+  "private": true,
+  "description": "Workers shim: @vercel/blob only imports fetch from undici. Node's undici needs tls ALPN, which workerd does not implement; use the platform fetch.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": { ".": "./index.js" }
+}
