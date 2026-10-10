@@ -1,4 +1,4 @@
-import { get, put, list, del, BlobPreconditionFailedError } from '@vercel/blob';
+import { StoragePreconditionFailedError, objectStorageConfigured, getObject, putObject, listPaths, deleteObject } from '../storage/objects.ts';
 import { mkdir, readFile, writeFile, rename, rm, readdir } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { randomUUID } from 'node:crypto';
@@ -11,7 +11,7 @@ export function storePrefix() {
 }
 export function durableStoreConfigured() {
     storePrefix();
-    return Boolean(process.env.BLOB_READ_WRITE_TOKEN && (!process.env.BODA_STUDIO_STORAGE || process.env.BODA_STUDIO_STORAGE === 'blob'));
+    return objectStorageConfigured() && (!process.env.BODA_STUDIO_STORAGE || process.env.BODA_STUDIO_STORAGE === 'blob' || process.env.BODA_STUDIO_STORAGE === 'r2');
 }
 function root() {
     // Constant-fold the development-only path out of production bundles. Otherwise
@@ -36,12 +36,12 @@ export async function readStore<T>(key: string): Promise<{
 } | null> {
     const path = keyPath(key);
     if (mode() === 'blob') {
-        const result = await get(path, { access: 'private', useCache: false });
+        let result;
+        try { result = await getObject(path); }
+        catch { throw new ServiceError(503, 'No se pudo leer almacenamiento.'); }
         if (!result)
             return null;
-        if (result.statusCode !== 200)
-            throw new ServiceError(503, 'No se pudo leer almacenamiento.');
-        return { value: await new Response(result.stream).json() as T, etag: result.blob.etag.replace(/^W\//, '') };
+        return { value: JSON.parse(result.text) as T, etag: result.etag };
     }
     try {
         const raw = await readFile(join(root(), `${key}.json`), 'utf8');
@@ -60,11 +60,11 @@ export async function writeStore<T>(key: string, value: T, etag: string | null) 
     const path = keyPath(key);
     if (mode() === 'blob') {
         try {
-            await put(path, JSON.stringify(value), { access: 'private', addRandomSuffix: false, allowOverwrite: etag !== null, contentType: 'application/json', cacheControlMaxAge: 60, ...(etag ? { ifMatch: etag } : {}) });
+            await putObject(path, JSON.stringify(value), { overwrite: etag !== null, ...(etag ? { ifMatch: etag } : {}) });
             return;
         }
         catch (e) {
-            if (e instanceof BlobPreconditionFailedError || /already exists|ETag mismatch|conflicting operation/i.test(String(e)))
+            if (e instanceof StoragePreconditionFailedError)
                 throw new ServiceError(409, 'Los datos cambiaron. Recargá y volvé a intentar.');
             throw e;
         }
@@ -108,18 +108,14 @@ export async function eventKeys(): Promise<string[]> { if (mode() === 'file') {
             return [];
         throw e;
     }
-} const keys: string[] = []; let cursor: string | undefined; do {
-    const page = await list({ prefix: `${storePrefix()}/evt_`, cursor, limit: 1000 });
-    keys.push(...page.blobs.map(b => b.pathname.split('/').at(-1)!.replace(/\.json$/, '')));
-    cursor = page.hasMore ? page.cursor : undefined;
-} while (cursor); return keys; }
+} return (await listPaths(`${storePrefix()}/evt_`)).map(p => p.split('/').at(-1)!.replace(/\.json$/, '')); }
 
 export async function deleteStore(key:string,etag:string) {
     const path=keyPath(key);
     if(!etag)throw new ServiceError(409,'Se requiere la versión actual para eliminar.');
     if(mode()==='blob'){
-        try{await del(path,{ifMatch:etag});return;}
-        catch(error){if(error instanceof BlobPreconditionFailedError)throw new ServiceError(409,'Los datos cambiaron. Recargá antes de eliminar.');throw error;}
+        try{await deleteObject(path,etag);return;}
+        catch(error){if(error instanceof StoragePreconditionFailedError)throw new ServiceError(409,'Los datos cambiaron. Recargá antes de eliminar.');throw error;}
     }
     await mkdir(root(),{recursive:true,mode:0o700});
     const lock=join(root(),`${key}.lock`);

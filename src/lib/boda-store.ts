@@ -1,4 +1,4 @@
-import { BlobPreconditionFailedError, get, put } from '@vercel/blob';
+import { StoragePreconditionFailedError, getObject, putObject } from './storage/objects.ts';
 
 export interface WeddingResponse {
   asistencia: 'confirmado' | 'rechazado';
@@ -49,42 +49,25 @@ function settingsPath(slug: string) {
 }
 
 export async function fetchWeddingGuests(slug: string) {
-  const result = await get(guestPath(slug), {
-    access: 'private',
-    useCache: false,
-  });
+  const result = await getObject(guestPath(slug));
 
   if (!result) return { guests: [] as WeddingGuest[], etag: undefined };
-  if (result.statusCode !== 200) throw new Error('Wedding guest storage returned no content');
 
-  const guests: unknown = await new Response(result.stream).json();
+  const guests: unknown = JSON.parse(result.text);
   if (!Array.isArray(guests)) throw new Error('Wedding guest storage returned invalid data');
-  // Private Blob reads can return a weak ETag (`W/"..."`), while `ifMatch`
-  // requires the equivalent strong ETag value.
-  const etag = result.blob.etag?.replace(/^W\//, '');
-  return { guests: guests as WeddingGuest[], etag };
+  return { guests: guests as WeddingGuest[], etag: result.etag };
 }
 
 export async function saveWeddingGuests(slug: string, guests: WeddingGuest[], etag?: string) {
-  await put(guestPath(slug), JSON.stringify(guests), {
-    access: 'private',
-    allowOverwrite: true,
-    contentType: 'application/json',
-    cacheControlMaxAge: 60,
-    ...(etag ? { ifMatch: etag } : {}),
-  });
+  await putObject(guestPath(slug), JSON.stringify(guests), { overwrite: true, ...(etag ? { ifMatch: etag } : {}) });
 }
 
 export async function fetchWeddingSettings(slug: string): Promise<WeddingSettings> {
-  const result = await get(settingsPath(slug), {
-    access: 'private',
-    useCache: false,
-  });
+  const result = await getObject(settingsPath(slug));
 
   if (!result) return { whatsappMessage: DEFAULT_WHATSAPP_MESSAGE, guestGoal: 0, updatedAt: null };
-  if (result.statusCode !== 200) throw new Error('Wedding settings storage returned no content');
 
-  const settings: unknown = await new Response(result.stream).json();
+  const settings: unknown = JSON.parse(result.text);
   if (!settings || typeof settings !== 'object') throw new Error('Wedding settings storage returned invalid data');
   const stored = settings as Partial<WeddingSettings>;
   return {
@@ -99,12 +82,7 @@ export async function fetchWeddingSettings(slug: string): Promise<WeddingSetting
 }
 
 export async function saveWeddingSettings(slug: string, settings: WeddingSettings) {
-  await put(settingsPath(slug), JSON.stringify(settings), {
-    access: 'private',
-    allowOverwrite: true,
-    contentType: 'application/json',
-    cacheControlMaxAge: 60,
-  });
+  await putObject(settingsPath(slug), JSON.stringify(settings), { overwrite: true });
 }
 
 export class WeddingGuestMutationError extends Error {
@@ -141,7 +119,7 @@ export async function mutateWeddingGuests<T>(
       return { guests, result: mutation.result };
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : '';
-      const isConflict = error instanceof BlobPreconditionFailedError
+      const isConflict = error instanceof StoragePreconditionFailedError
         || errorMessage.includes('ETag mismatch')
         || errorMessage.includes('conflicting operation');
 

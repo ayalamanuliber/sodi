@@ -1,0 +1,40 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sodi",
+  "main": "cf/worker.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "sodi.com.ar",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.sodi.com.ar",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "NEXT_PUBLIC_SITE_URL": "https://sodi.com.ar",
+    "BODA_STUDIO_SELF_SERVE_ENABLED": "true",
+    "BODA_STUDIO_PILOT_MAX_EVENTS": "10"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "r2_buckets": [
+    {
+      "binding": "SODI_STORAGE",
+      "bucket_name": "sodi-storage"
+    }
+  ]
+}

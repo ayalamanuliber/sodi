@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sodi-r2-test",
+  "main": "cf/worker.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "NEXT_PUBLIC_SITE_URL": "https://sodi.com.ar",
+    "BODA_STUDIO_SELF_SERVE_ENABLED": "true",
+    "BODA_STUDIO_PILOT_MAX_EVENTS": "10",
+    "BODA_STUDIO_STORE_PREFIX": "boda-studio/test-claude-r2"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "r2_buckets": [
+    {
+      "binding": "SODI_STORAGE",
+      "bucket_name": "sodi-storage"
+    }
+  ]
+}
