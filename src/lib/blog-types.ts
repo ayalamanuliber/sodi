@@ -114,33 +114,7 @@ export function buildArticleSchema(article: ArticleMeta, url: string) {
   return {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://sodi.com.ar/#organization",
-        name: "SODI",
-        url: "https://sodi.com.ar",
-        logo: "https://sodi.com.ar/icon-512.png",
-        description:
-          "Implementamos webs, automatizaciones, bots de WhatsApp, redes sociales y sistemas internos para empresas argentinas.",
-        areaServed: { "@type": "Country", name: "Argentina" },
-        sameAs: ["https://www.instagram.com/sodi.ar"],
-        knowsAbout: [
-          "Desarrollo web",
-          "Automatización empresarial",
-          "WhatsApp Business",
-          "Sistemas de gestión",
-          "Redes sociales para empresas",
-          "CRM para PyMEs",
-        ],
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://sodi.com.ar/#website",
-        url: "https://sodi.com.ar",
-        name: "SODI",
-        publisher: { "@id": "https://sodi.com.ar/#organization" },
-        inLanguage: "es-AR",
-      },
+      // Organization and WebSite are defined once per page by the root layout; nodes here reference them by @id.
       {
         "@type": "WebPage",
         "@id": `${url}#webpage`,

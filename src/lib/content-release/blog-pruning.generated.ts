@@ -168,4 +168,7 @@ export const BLOG_NOINDEX_SLUGS: readonly string[] = [
 /** Silo hubs left with no search-eligible article: 301 to the best page of the family. */
 export const BLOG_EMPTY_HUB_REDIRECTS: Readonly<Record<string, string>> = {
   "ecommerce-por-rubro": "/blog/cuanto-cuesta-tienda-online-argentina",
+  // Silos never declared in blog-types (hub 404 in production, linked from every article breadcrumb).
+  "seo-por-rubro": "/blog/cuanto-cuesta-seo-argentina",
+  "google-ads-por-rubro": "/blog/cuanto-cuesta-publicidad-google-ads-argentina",
 };

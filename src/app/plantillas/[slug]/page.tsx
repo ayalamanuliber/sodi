@@ -5,6 +5,8 @@ import { BlogNav } from "@/components/blog/BlogNav";
 import { Footer } from "@/components/landing/Footer";
 import { TemplateActions } from "@/components/templates/TemplateActions";
 import { TemplateDiagnosticLink } from "@/components/templates/TemplateDiagnosticLink";
+import { getArticle, normalizeSlug } from "@/lib/blog-data";
+import { silos } from "@/lib/blog-types";
 import { getAllTemplateResources, getTemplateResource, getTemplateSlugs } from "@/lib/template-data";
 import { isTemplateResourceSearchEligible } from "@/lib/content-release/template-release";
 import styles from "./template.module.css";
@@ -42,6 +44,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: resource.metaDescription,
     },
   };
+}
+
+// Related routes come from the editorial packet; skip those that do not resolve to a page.
+function isRelatedRouteLive(route: string) {
+  if (route.startsWith("/blog/")) {
+    const slug = normalizeSlug(route.slice("/blog/".length));
+    return Boolean(silos[slug] || getArticle(slug));
+  }
+  if (route.startsWith("/plantillas/")) return Boolean(getTemplateResource(route.slice("/plantillas/".length)));
+  return ["/blog", "/diagnostico", "/plantillas"].includes(route);
 }
 
 export default async function TemplateResourcePage({ params }: Props) {
@@ -154,7 +166,7 @@ export default async function TemplateResourcePage({ params }: Props) {
             <h2 id="related-title">Seguí con una decisión relacionada.</h2>
           </div>
           <div className={styles.relatedLinks}>
-            {resource.relatedRoutes.map((route) => (
+            {resource.relatedRoutes.filter(isRelatedRouteLive).map((route) => (
               <Link href={route} key={route}>Leer la guía relacionada</Link>
             ))}
             {otherTemplates.map((template) => (

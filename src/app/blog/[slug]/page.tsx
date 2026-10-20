@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getArticle, getAllSlugs, getRelatedArticles, getAllArticles } from "@/lib/blog-data";
+import { getArticle, getAllSlugs, getRelatedArticles, getAllArticles, normalizeSlug } from "@/lib/blog-data";
 import { buildArticleSchema, buildFAQSchema, silos } from "@/lib/blog-types";
 import { BLOG_MERGE_REDIRECTS } from "@/lib/content-release/blog-pruning.generated";
 import { getSearchEligibleArticles, isBlogArticleSearchEligible } from "@/lib/content-release/blog-release";
@@ -20,11 +20,19 @@ export async function generateStaticParams() {
 }
 
 // Internal links to pruned pages that now 301 point straight at the destination.
+// Hand-written anchors sometimes carry an accent the real slug does not ("florerías" vs "florerias"),
+// so the lookup also tries the accent-stripped slug.
+function stripAccents(value: string) {
+  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 function rewritePrunedLinks(html: string) {
   return html.replace(
     /href="((?:https:\/\/(?:www\.)?sodi\.com\.ar)?)\/blog\/([^"\/?#]+)"/g,
-    (match, origin: string, slug: string) => {
-      const destination = BLOG_MERGE_REDIRECTS[slug];
+    (match, origin: string, rawSlug: string) => {
+      const slug = normalizeSlug(rawSlug);
+      const destination =
+        BLOG_MERGE_REDIRECTS[slug] ?? (getArticle(slug) ? undefined : BLOG_MERGE_REDIRECTS[stripAccents(slug)]);
       return destination ? `href="${origin}${destination}"` : match;
     },
   );
@@ -45,7 +53,7 @@ function headingId(heading: string, index: number) {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const slug = normalizeSlug((await params).slug);
   const silo = silos[slug];
   if (silo) {
     return {
@@ -92,7 +100,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogArticlePage({ params }: Props) {
-  const { slug } = await params;
+  const slug = normalizeSlug((await params).slug);
   if (silos[slug]) {
     const articles = getSearchEligibleArticles(getAllArticles()).filter((article) => article.silo === slug);
     return (

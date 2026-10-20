@@ -36,7 +36,18 @@ export function getAllSlugs(): string[] {
   return getAllArticles().map((a) => a.slug);
 }
 
-export function getArticle(slug: string): Article | null {
+// Route params arrive percent-encoded for non-ASCII slugs (e.g. "mueblerías").
+export function normalizeSlug(slug: string): string {
+  let decoded = slug;
+  try {
+    decoded = decodeURIComponent(slug);
+  } catch {}
+  return decoded.normalize("NFC");
+}
+
+export function getArticle(rawSlug: string): Article | null {
+  const slug = normalizeSlug(rawSlug);
+  if (slug.includes("/") || slug.includes("..")) return null;
   const filePath = path.join(CONTENT_DIR, `${slug}.json`);
   return readArticleFile(filePath);
 }
