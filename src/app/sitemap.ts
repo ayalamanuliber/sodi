@@ -34,11 +34,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const blogHubs: MetadataRoute.Sitemap = Object.keys(silos).map((silo) => ({
+  const siloHasArticles = new Set(articles.map((article) => article.silo));
+  const blogHubs: MetadataRoute.Sitemap = Object.keys(silos)
+    .filter((silo) => siloHasArticles.has(silo))
+    .map((silo) => ({
     url: `${baseUrl}/blog/${silo}`,
     changeFrequency: "weekly" as const,
     priority: 0.75,
-  }));
+    }));
 
   const templateSlugs = getSearchEligibleTemplateSlugs(getTemplateSlugs());
   const templatePages: MetadataRoute.Sitemap = templateSlugs.map((slug) => {

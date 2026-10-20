@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getArticle, getAllSlugs, getRelatedArticles, getAllArticles } from "@/lib/blog-data";
 import { buildArticleSchema, buildFAQSchema, silos } from "@/lib/blog-types";
+import { BLOG_MERGE_REDIRECTS } from "@/lib/content-release/blog-pruning.generated";
 import { getSearchEligibleArticles, isBlogArticleSearchEligible } from "@/lib/content-release/blog-release";
 import { Footer } from "@/components/landing/Footer";
 import { BlogNav } from "@/components/blog/BlogNav";
@@ -18,8 +19,19 @@ export async function generateStaticParams() {
   return [...getAllSlugs(), ...Object.keys(silos)].map((slug) => ({ slug }));
 }
 
+// Internal links to pruned pages that now 301 point straight at the destination.
+function rewritePrunedLinks(html: string) {
+  return html.replace(
+    /href="((?:https:\/\/(?:www\.)?sodi\.com\.ar)?)\/blog\/([^"\/?#]+)"/g,
+    (match, origin: string, slug: string) => {
+      const destination = BLOG_MERGE_REDIRECTS[slug];
+      return destination ? `href="${origin}${destination}"` : match;
+    },
+  );
+}
+
 function cleanVisibleHtml(html: string) {
-  return html.replaceAll("—", "-").replaceAll("–", "-");
+  return rewritePrunedLinks(html).replaceAll("—", "-").replaceAll("–", "-");
 }
 
 function headingId(heading: string, index: number) {
