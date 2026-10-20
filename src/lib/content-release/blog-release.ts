@@ -5,6 +5,7 @@ import {
   getEditorialReleaseRoutes,
   isEditorialRouteSearchEligible,
 } from "./editorial-release";
+import { BLOG_MERGE_REDIRECTS, BLOG_NOINDEX_SLUGS } from "./blog-pruning.generated";
 
 export const BLOG_RELEASE_BASELINE = {
   status: "legacy_live_baseline",
@@ -15,6 +16,19 @@ export const BLOG_RELEASE_BASELINE = {
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
+
+// Pruned programmatic pages (blog-pruning.generated.ts). Their content files are unchanged, so
+// they keep their file digest; only their search eligibility changes.
+const PRUNED_RELEASES = Object.fromEntries(
+  [...Object.keys(BLOG_MERGE_REDIRECTS), ...BLOG_NOINDEX_SLUGS].map((slug) => [
+    slug,
+    {
+      status: "retired" as const,
+      reason: "Pagina programatica sin senal de busqueda: poda 20/10/2026.",
+      baselineMember: true,
+    },
+  ]),
+);
 
 // Any new local article must be declared here until it receives editorial and
 // release approval. Declared previews remain renderable locally, but never enter
@@ -27,6 +41,7 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
   baselineMember?: boolean;
   approvedContentSha256?: string;
 }>> = {
+  ...PRUNED_RELEASES,
   "costo-total-erp-pyme-argentina": {
     status: "approved",
     reason: "Artículo nuevo compilado desde el corpus 2026-08-27; requiere revisión local y autorización.",
@@ -181,6 +196,7 @@ export function evaluateBlogReleaseEntries(entries: CatalogReleaseEntry[]): Rele
     .map((entry) => {
       const release = BLOG_NON_SEARCH_RELEASES[entry.slug];
       if (!release?.baselineMember) return entry;
+      if (release.status === "retired") return entry;
       if (!release.approvedContentSha256) {
         return { ...entry, contentSha256: "missing-approved-content-digest" };
       }

@@ -110,15 +110,19 @@ const siteSchema = {
         name: "Argentina",
       },
       priceRange: "$$",
-      serviceType: [
+      // serviceType/provider are Service properties, not valid on ProfessionalService (LocalBusiness).
+      parentOrganization: { "@id": "https://sodi.com.ar/#organization" },
+      makesOffer: [
         "Diseño y desarrollo web",
         "Automatización de WhatsApp",
         "Sistemas de gestión internos",
         "Gestión de redes sociales",
         "CRM a medida",
         "Consultoría digital",
-      ],
-      provider: { "@id": "https://sodi.com.ar/#organization" },
+      ].map((serviceType) => ({
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", serviceType },
+      })),
     },
   ],
 };

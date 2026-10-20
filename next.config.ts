@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 import { assertNoUnapprovedProductionEditorial } from "./src/lib/content-release/blog-release";
 import { assertNoUnapprovedProductionTemplates } from "./src/lib/content-release/template-release";
+import { BLOG_EMPTY_HUB_REDIRECTS, BLOG_MERGE_REDIRECTS } from "./src/lib/content-release/blog-pruning.generated";
 import { assertEditorialRelease } from "./src/lib/content-release/editorial-release";
 
 assertEditorialRelease();
@@ -68,6 +69,12 @@ const nextConfig: NextConfig = {
         destination: "/directorio",
         permanent: true,
       },
+      ...Object.entries({ ...BLOG_MERGE_REDIRECTS, ...BLOG_EMPTY_HUB_REDIRECTS }).map(([slug, destination]) => ({
+        // Non-ASCII slugs (e.g. "mueblerías") match both the raw and the percent-encoded request path.
+        source: `/blog/${slug.replace(/[^\x00-\x7f]/g, (ch, offset) => `:c${offset}(${encodeURIComponent(ch)}|${ch})`)}`,
+        destination,
+        permanent: true,
+      })),
     ];
   },
 };
