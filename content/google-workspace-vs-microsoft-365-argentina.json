@@ -5,11 +5,23 @@
   "metaDescription": "Workspace $7.20 USD/usuario/mes, M365 $6 USD/usuario/mes. Workspace para equipos chicos y colaboración. M365 para Excel-heavy y empresas grandes.",
   "silo": "comparativas",
   "siloLabel": "Comparativas",
-  "tags": ["Google Workspace", "Microsoft 365", "productividad", "email empresarial", "herramientas colaborativas"],
+  "tags": [
+    "Google Workspace",
+    "Microsoft 365",
+    "productividad",
+    "email empresarial",
+    "herramientas colaborativas"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "7 min lectura",
-  "relatedSlugs": ["como-centralizar-informacion-empresa", "como-digitalizar-mi-empresa", "excel-vs-sistema-de-gestion", "como-escalar-operacion-sin-contratar"],
+  "relatedSlugs": [
+    "como-centralizar-informacion-empresa",
+    "como-digitalizar-mi-empresa",
+    "excel-vs-sistema-de-gestion",
+    "como-escalar-operacion-sin-contratar",
+    "cuanto-cuesta-google-workspace-argentina"
+  ],
   "content": {
     "intro": "<p><strong>Veredicto:</strong> Google Workspace es mejor para equipos chicos (hasta 20 personas) que priorizan colaboración en tiempo real y simplicidad. Microsoft 365 conviene para empresas que dependen fuertemente de Excel avanzado, macros de Office o necesitan Active Directory. Para la PyME argentina promedio, Workspace es la opción más práctica.</p><p>En precios, la diferencia es mínima: Workspace Business Starter sale $7.20 USD/usuario/mes y M365 Business Basic $6 USD/usuario/mes. La decisión no pasa por el precio sino por cómo trabaja tu equipo. Si ya están en Gmail y Google Drive, cambiarse a Microsoft no tiene sentido. Y viceversa.</p>",
     "sections": [

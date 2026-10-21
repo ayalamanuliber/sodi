@@ -1,0 +1,85 @@
+{
+  "slug": "cuanto-cuesta-mantenimiento-wordpress-argentina",
+  "title": "Cuánto cuesta el mantenimiento de WordPress en Argentina en 2026: planes, precios y qué incluye",
+  "metaTitle": "Mantenimiento WordPress: precios y planes en Argentina 2026",
+  "metaDescription": "Mantenimiento WordPress en Argentina: planes locales de $35.000 a $180.000/mes y desde USD 89 en internacionales. Qué incluye y cuándo conviene.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": [
+    "mantenimiento wordpress",
+    "precio mantenimiento web",
+    "plan de mantenimiento",
+    "plugins premium",
+    "wordpress argentina"
+  ],
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": [
+    "cuanto-cuesta-mantenimiento-pagina-web",
+    "wordpress-vs-desarrollo-a-medida",
+    "cuanto-cuesta-hosting-argentina",
+    "cuanto-cuesta-pagina-web-argentina",
+    "que-es-hosting-y-dominio"
+  ],
+  "content": {
+    "intro": "<p>Un plan de mantenimiento WordPress en Argentina cuesta, según lo que publican hoy los proveedores locales que pudimos leer, <strong>entre $35.000 y $180.000 por mes</strong>, con el hosting incluido en varios de ellos. Los planes de empresas del exterior que cobran en dólares arrancan en <strong>USD 89 por mes</strong> (unos $137.500 al dólar oficial de hoy) y llegan a USD 359. Es un rango armado con pocas fuentes: dos tarifas locales vigentes y un proveedor internacional con precio público, así que usalo para ubicarte y no como cotización.</p><p>Esta guía es solo de WordPress: qué se paga cuando contratás un plan, cuánto suman los plugins premium y cuándo conviene un abono en lugar de pagar por hora. Si buscás el costo total de sostener cualquier tipo de sitio (hosting, dominio, SSL), mirá la guía general de <a href=\"/blog/cuanto-cuesta-mantenimiento-pagina-web\">cuánto cuesta el mantenimiento de una página web</a>.</p>",
+    "sections": [
+      {
+        "heading": "Qué incluye un plan de mantenimiento WordPress (y qué no)",
+        "body": "<p>Cuando alguien dice \"mantenimiento WordPress\" puede estar hablando de cuatro cosas distintas, y los precios cambian según cuáles estén en el paquete:</p><p><strong>Actualizaciones.</strong> El núcleo de WordPress, el tema y los plugins. Es la tarea central. La diferencia entre planes suele ser la frecuencia (mensual contra semanal) y si se prueban en un entorno de staging antes de tocar el sitio en producción.</p><p><strong>Backups.</strong> Copias que se pueden restaurar. Acá la frecuencia importa: WP Buffs publica backups en la nube cuatro veces por día desde su plan más barato. DonWeb, en sus planes de hosting WordPress, publica copias semanales en los planes Personal y Emprendedor y diarias en Full+.</p><p><strong>Seguridad y uptime.</strong> Monitoreo de que el sitio esté arriba, escaneo de malware, firewall y limpieza si te hackean. Algunos planes incluyen la limpieza; otros la cobran aparte como urgencia.</p><p><strong>Soporte y cambios.</strong> Quién te contesta y cuántos cambios de contenido entran. Un proveedor local publica \"un cambio de contenido por mes\"; WP Buffs, en su plan de USD 179, publica \"unlimited website edits\".</p><p>Lo que casi nunca está incluido: la licencia de los plugins premium, desarrollo de funciones nuevas y rediseños. Eso va por presupuesto aparte.</p>"
+      },
+      {
+        "heading": "Cuánto cuestan los planes de mantenimiento: lo que publican los proveedores hoy",
+        "body": "<p>Estos son los precios de lista que leímos esta semana. Los de WP Buffs están en dólares y la columna en pesos usa un dólar oficial de $1.545 (venta, 21/10/2026). Si pagás con tarjeta, tu costo real es otro: suma impuestos y percepciones.</p><div class=\"table-wrap\"><table><thead><tr><th>Proveedor</th><th>Precio de lista</th><th>Qué dice la página</th></tr></thead><tbody><tr><td>Local (Rosario), 3 niveles</td><td>$35.000 / $49.000 / $85.000</td><td>Sin aclarar si es mensual ni si incluye IVA; publica también USD 40 / 50 / 75; incluye hosting según su lista</td></tr><tr><td>Local, rango según tipo de sitio</td><td>$69.900 a $179.900 por mes</td><td>Versión fechada 28-9-2026; dice que incluye hosting; IVA sin aclarar</td></tr><tr><td>WP Buffs, Maintain</td><td>USD 89/mes (unos $137.505)</td><td>Actualizaciones semanales, backups en la nube 4 veces por día, monitoreo 24/7</td></tr><tr><td>WP Buffs, Protect</td><td>USD 179/mes (unos $276.555)</td><td>Suma optimización de seguridad y ediciones ilimitadas</td></tr><tr><td>WP Buffs, Perform</td><td>USD 239/mes (unos $369.255)</td><td>Suma optimización de velocidad, e-commerce, imágenes y limpieza de malware</td></tr><tr><td>WP Buffs, Custom</td><td>USD 359/mes (unos $554.655)</td><td>Para sitios programados a medida; actualizaciones primero en staging</td></tr></tbody></table></div><p>Dos cosas para leer con cuidado. Primero, hay una tercera tarifa local publicada (planes de $19.990, $49.990 y $99.990) que la dejamos afuera porque la página no tiene fecha de vigencia y su pie dice 2024: con la inflación de estos dos años no sirve como referencia. Segundo, los precios en pesos de los proveedores chicos cambian seguido; antes de contratar pedí el presupuesto por escrito con IVA aclarado.</p><p>Lo que se ve en la comparación: el abono local cuesta una fracción del internacional, pero no son el mismo servicio. El internacional publica backups cuatro veces por día, soporte de emergencia 24/7 y reportes semanales; el local lo vas a tener que preguntar punto por punto.</p>"
+      },
+      {
+        "heading": "Hosting administrado: cuando el mantenimiento viene dentro del hosting",
+        "body": "<p>Hay una vía intermedia entre el hosting común y el abono de mantenimiento: el hosting WordPress administrado. El proveedor se ocupa de la infraestructura, las copias y la seguridad de la plataforma. No reemplaza a quien revisa tu sitio, pero reduce lo que ese alguien tiene que hacer.</p><div class=\"table-wrap\"><table><thead><tr><th>Plan</th><th>Precio de lista</th><th>Qué publica la página</th></tr></thead><tbody><tr><td>Pressable, Signature 1</td><td>USD 250/año (USD 20,83/mes, unos $32.190)</td><td>1 instalación, 30.000 visitas, hourly y daily backups, soporte 24/7</td></tr><tr><td>WP Engine, Essential</td><td>Desde USD 28/mes facturado anual (unos $43.260)</td><td>Backups diarios, parches de seguridad, actualizaciones automáticas de WordPress y PHP; la oferta de primer año es para clientes nuevos</td></tr><tr><td>Kinsta, Single 35k</td><td>USD 30/mes anual o USD 35 mensual (unos $46.350 a $54.075)</td><td>35.000 visitas, 14 días de retención de backups, WAF, malware removal incluido</td></tr><tr><td>DonWeb, WordPress Personal</td><td>$4.600/mes con plan de 12 meses; $12.500 pagando 1 mes (IVA incluido)</td><td>Backups semanales, actualizaciones automáticas, malware scanner, SSL</td></tr><tr><td>DonWeb, WordPress Full+</td><td>$5.400/mes con 12 meses; $22.500 pagando 1 mes (IVA incluido)</td><td>Backups diarios, staging, 100 GB NVMe</td></tr></tbody></table></div><p>Ojo con los precios en pesos de DonWeb: bajan mucho con el plazo (la página llega a mostrar descuentos de entre el 63% y el 79% contra el mes suelto), así que el costo real depende de cuánto te comprometas. En los dólares, los precios que figuran suelen ser por pagar el año completo. Para el detalle del hosting en sí, está la guía de <a href=\"/blog/cuanto-cuesta-hosting-argentina\">cuánto cuesta el hosting en Argentina</a>.</p>"
+      },
+      {
+        "heading": "Plugins premium: la licencia que casi nunca está en el abono",
+        "body": "<p>Casi todos los abonos mantienen los plugins, pero no pagan sus licencias. Estas son las de algunos plugins muy usados, a precio oficial de cada fabricante. Los pesos usan el mismo dólar de $1.545.</p><div class=\"table-wrap\"><table><thead><tr><th>Plugin</th><th>Precio oficial</th><th>Cobertura</th><th>En pesos al dólar oficial</th></tr></thead><tbody><tr><td>WP Rocket (caché y velocidad)</td><td>Single USD 59,95/año; Plus USD 119,95/año (3 sitios)</td><td>1 sitio / 3 sitios</td><td>$92.623 / $185.323 por año</td></tr><tr><td>Gravity Forms (formularios)</td><td>Basic USD 59/año; Pro USD 159/año</td><td>1 sitio / 3 sitios</td><td>$91.155 / $245.655 por año</td></tr><tr><td>Rank Math (SEO)</td><td>PRO EUR 7,99/mes facturado anual; renueva EUR 107,88 + impuestos por año</td><td>Sitios propios ilimitados</td><td>Precio en euros, sin conversión</td></tr><tr><td>Jetpack Security (backups y firewall)</td><td>USD 9,95/mes el primer año facturado anual (precio tachado de USD 19,95)</td><td>Un sitio</td><td>$15.373/mes el primer año; $30.823/mes a precio de lista</td></tr></tbody></table></div><p>Un sitio típico con WP Rocket Single y Gravity Forms Basic suma USD 118,95 por año, unos $183.778, es decir cerca de $15.315 por mes. Sirve para sacar la cuenta de un caso concreto, no como promedio del mercado: hay sitios que no usan ninguno de estos y otros que usan seis. No encontramos el precio de Elementor Pro en su página oficial (el precio no aparece en el texto de la página al momento de leerla), por eso no lo incluimos.</p><p>Un detalle práctico: cuando una licencia vence, el plugin sigue funcionando pero deja de recibir actualizaciones. Y sin actualizaciones, estás justamente en lo que el mantenimiento intenta evitar. Pedile a quien te mantiene el sitio una lista de qué licencias tenés y a nombre de quién están.</p>"
+      },
+      {
+        "heading": "Plan mensual o pagar por hora: cuándo conviene cada uno",
+        "body": "<p>No hay una tarifa horaria de mercado publicada por una fuente confiable para desarrolladores WordPress en Argentina que podamos citar, y por eso no inventamos una. Lo que sí podés hacer es la cuenta con el presupuesto que te pasen: <strong>dividí el precio del plan por la tarifa por hora</strong> que te cobraría el mismo profesional. Eso te dice cuántas horas de trabajo real compra el abono cada mes. Un ejemplo ilustrativo, con números inventados para la cuenta: un plan de $49.000 y una tarifa de $25.000 la hora equivalen a casi 2 horas mensuales.</p><p><strong>El plan conviene</strong> si tu sitio recibe consultas o ventas, si el costo de una caída es alto, si tenés WooCommerce o formularios que no pueden fallar, o si no querés enterarte tarde de que el SSL venció o un plugin quedó con una vulnerabilidad conocida. Pagás previsibilidad.</p><p><strong>Pagar por hora conviene</strong> si el sitio es institucional y casi no cambia, si estás dispuesto a pasar por alto que alguien lo revise una vez por mes y si podés ocuparte vos de los backups con una herramienta del hosting. Es más barato mientras todo funciona y más caro el día que se rompe.</p><p>Preguntas para cualquier presupuesto: cuántas horas incluye, qué pasa con una caída fuera de horario, dónde se guardan los backups y cada cuánto, si hay un entorno de pruebas y quién es dueño del hosting y el dominio. Si todavía no tenés sitio y estás comparando tecnologías, mirá <a href=\"/blog/wordpress-vs-desarrollo-a-medida\">WordPress contra desarrollo a medida</a>.</p>"
+      },
+      {
+        "heading": "Cómo armamos estos rangos",
+        "body": "<p>Consultamos todas las fuentes el 21/10/2026. Las cifras de proveedores son precios de lista de cada proveedor, no precios cerrados de mercado. Dólar usado: oficial, venta $1.545, según <a href=\"https://dolarapi.com/v1/dolares/oficial\">dolarapi.com</a>, actualizado el 21/10/2026. No incluye impuestos ni percepciones por pagar en dólares.</p><ul><li><a href=\"https://lgsitios.com.ar/planes-mantenimiento-wordpress/\">LG Sitios (Rosario), planes de mantenimiento</a>: $35.000, $49.000 y $85.000, USD 40, 50 y 75, descuento anual del 10%. Periodicidad e IVA no aclarados.</li><li><a href=\"https://www.vealaonline.com/mantenimiento-wordpress-precio.html\">Vealaonline, mantenimiento WordPress</a>: desde $69.900 hasta $179.900 mensuales, versión del 28-9-2026, incluye hosting.</li><li><a href=\"https://mantenimientowordpress.ar/\">mantenimientowordpress.ar</a>: planes de $19.990, $49.990 y $99.990, descartados por no tener fecha y pie de 2024.</li><li><a href=\"https://wpbuffs.com/pricing/\">WP Buffs, precios</a>: USD 89, 179, 239 y 359 por mes y qué incluye cada plan (la página mostraba una promoción vencida de 2025; usamos solo los precios de lista).</li><li><a href=\"https://pressable.com/pricing/\">Pressable</a>, <a href=\"https://wpengine.com/plans/\">WP Engine</a> y <a href=\"https://kinsta.com/pricing/\">Kinsta</a>: precios de planes de hosting administrado.</li><li><a href=\"https://donweb.com/es-ar/wordpress\">DonWeb, hosting WordPress</a>: precios en pesos con IVA incluido y características de backups.</li><li><a href=\"https://wp-rocket.me/pricing/\">WP Rocket</a>, <a href=\"https://www.gravityforms.com/pricing/\">Gravity Forms</a>, <a href=\"https://rankmath.com/pricing/\">Rank Math</a> y <a href=\"https://jetpack.com/pricing/\">Jetpack</a>: licencias de plugins.</li></ul><p>Cálculo: el rango local ($35.000 a $180.000) toma el precio más bajo y el más alto publicados por las dos fuentes locales vigentes, redondeado. Es un rango armado con 2 fuentes y no con una muestra del mercado. Los pesos de los precios en dólares son precio de lista por $1.545, redondeados. Esta guía es informativa y no reemplaza pedir presupuestos.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta el mantenimiento de WordPress?",
+        "answer": "Entre los proveedores locales que leímos, los planes publicados van de $35.000 a $180.000 por mes. Un proveedor internacional, WP Buffs, publica planes de USD 89 a USD 359 por mes. Son precios de lista; confirmá IVA y periodicidad."
+      },
+      {
+        "question": "¿Qué incluye un plan de mantenimiento WordPress?",
+        "answer": "Actualizaciones de WordPress, tema y plugins, backups, monitoreo de que el sitio esté arriba, seguridad y soporte. Lo que cambia entre planes es la frecuencia, el tiempo de respuesta y cuántas horas de cambios entran. Las licencias de plugins premium suelen ir aparte."
+      },
+      {
+        "question": "¿Cuánto cuesta el mantenimiento web WordPress por año?",
+        "answer": "Multiplicá el plan por 12 y sumá licencias. Con un abono local de $49.000 son $588.000 al año, y un par de plugins premium como WP Rocket y Gravity Forms Basic suman USD 118,95 por año, unos $183.778 al dólar oficial de hoy."
+      },
+      {
+        "question": "¿Puedo mantener mi WordPress yo mismo?",
+        "answer": "Sí. Lo mínimo es actualizar núcleo y plugins con regularidad, tener backups que hayas probado restaurar y revisar que el SSL no venza. Algunos hostings, como los planes de DonWeb, publican actualizaciones automáticas y backups semanales o diarios."
+      },
+      {
+        "question": "¿Conviene un plan mensual o pagar por hora?",
+        "answer": "Si tu web genera consultas o ventas, el plan da previsibilidad. Si casi no cambia, pagar por hora puede salir menos. Dividí el precio del plan por la tarifa horaria del mismo profesional y fijate cuántas horas compra por mes."
+      },
+      {
+        "question": "¿El hosting está incluido en el mantenimiento?",
+        "answer": "Depende. Al menos un proveedor local publica sus planes con hosting incluido, y otros lo cobran aparte. Preguntalo siempre, y verificá quién es titular del hosting y el dominio."
+      },
+      {
+        "question": "¿Cuánto cuestan los plugins premium de WordPress?",
+        "answer": "WP Rocket cuesta USD 59,95 por año por un sitio y Gravity Forms Basic USD 59 por año, según las páginas oficiales. Cada plugin tiene su licencia y no suele estar dentro del abono de mantenimiento."
+      }
+    ],
+    "ctaText": "¿Querés saber qué plan de mantenimiento necesita tu sitio y cuánto sobra en lo que hoy pagás? Pedí tu diagnóstico gratuito en <a href=\"/diagnostico\">/diagnostico</a>."
+  }
+}

@@ -96,6 +96,48 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     baselineMember: true,
     approvedContentSha256: "bfa4e4191122c6f601014af984c865de79ea15eb17e4b2ddc2095e4e6f6f6da5",
   },
+  "cuanto-cuesta-agencia-de-marketing-digital-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-auditoria-seo-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-consultor-por-hora-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-contratar-programador-freelance-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-google-workspace-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-mantenimiento-wordpress-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-redaccion-contenidos-seo-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
+    reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
 };
 
 type CatalogArticle = { slug: string };

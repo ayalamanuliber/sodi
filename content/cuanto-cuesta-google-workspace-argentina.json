@@ -1,0 +1,81 @@
+{
+  "slug": "cuanto-cuesta-google-workspace-argentina",
+  "title": "Cuánto cuesta Google Workspace en Argentina en 2026: precios de lista e impuestos",
+  "metaTitle": "Cuánto sale Google Workspace en Argentina 2026: precios (USD 7-22)",
+  "metaDescription": "Google Workspace cuesta USD 7, 14 o 22 por usuario por mes sin impuestos. Qué se suma al pagar con tarjeta en Argentina y cómo se compara con Microsoft 365.",
+  "silo": "precios",
+  "siloLabel": "Precios y Costos",
+  "tags": [
+    "google workspace precios",
+    "cuánto sale google workspace argentina",
+    "impuestos servicios digitales",
+    "microsoft 365 precios",
+    "email empresarial"
+  ],
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "readingTime": "8 min lectura",
+  "relatedSlugs": [
+    "google-workspace-vs-microsoft-365-argentina",
+    "como-centralizar-informacion-empresa",
+    "cuanto-cuesta-ciberseguridad-pymes-argentina",
+    "cuanto-cuesta-hosting-argentina",
+    "como-digitalizar-mi-empresa"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> el precio de lista de Google Workspace es de <strong>USD 7 (Starter), USD 14 (Standard) y USD 22 (Plus) por usuario por mes</strong>, en dólares y sin impuestos, según la página oficial de precios de Google consultada el 21 de octubre de 2026. Para 10 personas en Starter son USD 70 por mes de lista, unos $108.000 a la cotización oficial, y bastante más una vez que la tarjeta suma los impuestos y percepciones argentinos.</p>\n<p>Esto son precios de lista del proveedor, no un presupuesto. Al final de la página está de dónde sale cada número y qué no pudimos verificar. Si lo que buscás es elegir entre Google y Microsoft por funciones, tenemos la comparación completa en <a href=\"/blog/google-workspace-vs-microsoft-365-argentina\">Google Workspace vs Microsoft 365 en Argentina</a>. Acá nos ocupamos solo de cuánto sale.</p>",
+    "sections": [
+      {
+        "heading": "Precios oficiales de Google Workspace",
+        "body": "<p>La página de precios de Google (workspace.google.com, versión en español para Argentina, consultada el 21 de octubre de 2026) muestra tres planes con precio público y uno por consulta:</p><div class=\"table-wrap\"><table><thead><tr><th>Plan</th><th>Precio de lista</th><th>Almacenamiento por usuario</th><th>Videollamadas</th><th>Qué suma frente al anterior</th></tr></thead><tbody><tr><td>Starter</td><td>USD 7 por usuario por mes</td><td>30 GB (conjunto)</td><td>Hasta 100 participantes</td><td>Correo con tu dominio, Gemini en Gmail, Google Vids, controles de seguridad</td></tr><tr><td>Standard</td><td>USD 14 por usuario por mes</td><td>2 TB (conjunto)</td><td>Hasta 150, con grabación</td><td>Páginas de reservas, firma electrónica en Documentos y PDF, herramienta de migración</td></tr><tr><td>Plus</td><td>USD 22 por usuario por mes</td><td>5 TB (conjunto)</td><td>Hasta 500, con registro de asistencia</td><td>Vault para retención de datos, LDAP seguro, administración avanzada de dispositivos</td></tr><tr><td>Enterprise</td><td>Por consulta con Ventas</td><td>5 TB o más</td><td>Hasta 1.000</td><td>DLP, regiones de datos, soporte reforzado</td></tr></tbody></table></div><p>Tres aclaraciones que figuran en la propia página. Primero, la moneda: \"Todos los precios $USD\". Segundo, el precio \"no incluye impuestos\". Tercero, el periodo: los planes se facturan por mes, y existe una opción anual con la leyenda \"ahorra un 16% con un compromiso de 1 año\". La página no muestra el precio anual en cifras. Si el 16% se aplicara directo sobre el precio de lista, Starter bajaría a unos USD 5,88 por usuario por mes, pero es una cuenta nuestra: el valor real lo ves al elegir \"Anual\" en el checkout.</p>\n<p>Una salvedad importante: la página que pudimos leer muestra solo la lista en dólares y no un precio local en pesos. No vimos un checkout argentino, así que no podemos confirmar cómo factura Google a una empresa argentina en concreto. El precio final, con impuestos, aparece antes de completar el registro, según dice la propia página.</p>"
+      },
+      {
+        "heading": "Descuentos de bienvenida: leé la letra chica",
+        "body": "<p>Al momento de la consulta la página mostraba una promoción para clientes nuevos con precios rebajados entre el 4 de noviembre de 2026 y el 4 de febrero de 2027: Starter a USD 3,50, Standard a USD 7 y Plus a USD 11 por usuario por mes. El texto dice \"50% de descuento por 3 meses\". La nota al pie, en cambio, habla de un precio de lanzamiento \"durante 12 meses para los primeros 20 usuarios\". Las dos frases no coinciden entre sí, y como la oferta es \"solo para clientes nuevos de Google Workspace\" y \"se aplica cuando se confirma la compra\", no conviene calcular el presupuesto de un año sobre el precio rebajado. Presupuestá con el precio de lista y tomá el descuento como un extra si se confirma al comprar.</p>"
+      },
+      {
+        "heading": "Qué impuestos se suman en Argentina al pagar con tarjeta",
+        "body": "<p>Acá hay que ser cuidadoso, porque lo que termina cargado en el resumen depende de tu condición frente a ARCA y de cómo facture Google. Lo que podemos citar:</p>\n<ul>\n<li><strong>Percepción del 30%:</strong> la Resolución General 5617 de ARCA (vigente desde el 19 de diciembre de 2024, reemplazó a la RG 4815 tras la eliminación del impuesto PAIS) fija una percepción del 30% sobre los pagos con tarjeta de servicios prestados por sujetos no residentes. Se computa como pago a cuenta de Ganancias o Bienes Personales y la aplica quien procesa el pago. Tiene exclusiones, entre ellas salud, medicamentos, libros, plataformas educativas y software educativo, y Workspace no figura entre las que encontramos. Un artículo de iProfesional del 23 de octubre de 2025 lo describe aplicado a servicios digitales del exterior. No leímos el texto de la resolución en el Boletín Oficial: la citamos a través de sus resúmenes.</li>\n<li><strong>IVA de servicios digitales del exterior:</strong> la RG 4240 de AFIP (hoy ARCA, mayo de 2018) regula el IVA sobre servicios digitales prestados por sujetos del exterior. Según el resumen de +blogdelcontador que consultamos, cuando el pago pasa por tarjeta, el emisor percibe el 21% de IVA y lo ingresa a ARCA, y para monotributistas y consumidores finales ese IVA queda como costo. Si tu empresa es responsable inscripto, se trata como crédito fiscal. Cómo lo factura Google a una cuenta argentina no lo pudimos verificar.</li>\n</ul>\n<p>Como referencia de cuánto pesa la percepción: el 21 de octubre de 2026, dolarapi.com mostraba el dólar oficial vendedor a $1.545 y el dólar tarjeta a $2.008,50. La diferencia es exactamente 30% (1.545 x 1,30). Cada banco tiene su propia cotización de resumen, pero sirve como orden de magnitud.</p>\n<p>Con eso se pueden armar tres escenarios para 10 usuarios, que son cuentas nuestras sobre precios de lista y no una factura real:</p><div class=\"table-wrap\"><table><thead><tr><th>10 usuarios, por mes</th><th>Lista en USD</th><th>A dólar oficial, sin impuestos</th><th>Con percepción 30% (dólar tarjeta $2.008,50)</th><th>Si además te cargan IVA 21%</th></tr></thead><tbody><tr><td>Starter</td><td>USD 70</td><td>$108.150</td><td>$140.595</td><td>$170.120</td></tr><tr><td>Standard</td><td>USD 140</td><td>$216.300</td><td>$281.190</td><td>$340.240</td></tr><tr><td>Plus</td><td>USD 220</td><td>$339.900</td><td>$441.870</td><td>$534.660</td></tr></tbody></table></div><p>La última columna asume que el IVA se agrega al precio en dólares y que la percepción se calcula después, sobre el total. Es el peor caso para quien no puede computar el IVA. Si sos responsable inscripto, el IVA vuelve como crédito fiscal, y la percepción del 30% es un pago a cuenta que podés computar o pedir en devolución. Cómo corresponde tratarlo en tu caso es consulta para tu contador.</p>"
+      },
+      {
+        "heading": "Comparación breve con Microsoft 365",
+        "body": "<p>Microsoft publica una lista de precios en dólares para sus planes Business. En su página de novedades de licenciamiento, con vigencia desde el 1 de julio de 2026, figuran estos valores para los paquetes con Teams:</p><div class=\"table-wrap\"><table><thead><tr><th>Microsoft 365 (con Teams)</th><th>Antes del 1/7/2026</th><th>Desde el 1/7/2026</th><th>Plan de Google en ese precio</th></tr></thead><tbody><tr><td>Business Basic</td><td>USD 6</td><td>USD 7</td><td>Starter, USD 7</td></tr><tr><td>Business Standard</td><td>USD 12,50</td><td>USD 14</td><td>Standard, USD 14</td></tr><tr><td>Business Premium</td><td>sin dato</td><td>USD 22</td><td>Plus, USD 22</td></tr></tbody></table></div><p>También publica versiones sin Teams: Basic a USD 5,40, Standard a USD 10,79 y Premium a USD 18,79. Esa página aclara que el precio \"puede variar por país y moneda\" pero no dice si es por usuario por mes ni si es con compromiso anual, así que no sacamos conclusiones de periodo. Leímos la lista global de Microsoft (versión en inglés de EE.UU.), no un checkout argentino.</p>\n<p>La conclusión práctica es que a precio de lista los tres planes pagos de ambas empresas están hoy en el mismo escalón en dólares, así que el precio no decide la elección. Las funciones sí: qué incluye cada plan, dónde viven los archivos y cómo trabaja tu equipo. Eso lo desarrollamos en la <a href=\"/blog/google-workspace-vs-microsoft-365-argentina\">comparación de funciones</a>. Para ordenar dónde queda cada archivo de la empresa antes de migrar, sirve <a href=\"/blog/como-centralizar-informacion-empresa\">centralizar la información de tu empresa</a>.</p>"
+      },
+      {
+        "heading": "Cómo bajar el costo sin armar cuentas raras",
+        "body": "<ul>\n<li><strong>Contá usuarios reales.</strong> El precio es por usuario por mes, así que cada persona de más suma. Revisá en la ayuda de Google cómo se cuentan las casillas compartidas, porque no lo verificamos.</li>\n<li><strong>Empezá por Starter.</strong> Incluye correo con tu dominio, videollamadas y 30 GB conjuntos por usuario. Pasá a Standard si necesitás grabar reuniones, firma electrónica o más espacio.</li>\n<li><strong>Preguntá por el pago anual.</strong> Google indica 16% de ahorro con compromiso de un año. Compará el total anual contra el mensual, porque pagás en dólares y el compromiso es en esa moneda.</li>\n<li><strong>Tené el dominio y el correo en orden.</strong> Si todavía no tenés dominio propio, el costo de registrarlo y del <a href=\"/blog/cuanto-cuesta-hosting-argentina\">hosting de tu sitio</a> es aparte.</li>\n<li><strong>No te olvides de la seguridad.</strong> Un buen plan de correo no reemplaza las copias de seguridad ni la autenticación en dos pasos. Mirá <a href=\"/blog/cuanto-cuesta-ciberseguridad-pymes-argentina\">cuánto cuesta la ciberseguridad para pymes</a>.</li>\n</ul>\n<p>También hay distribuidores argentinos que revenden Workspace y facturan en pesos. No relevamos sus precios, así que no podemos decirte si conviene frente a comprar directo. Pedí dos presupuestos y compará el total con impuestos, no el precio de lista.</p>"
+      },
+      {
+        "heading": "Cómo armamos estos precios",
+        "body": "<p>Todas las consultas son del 21 de octubre de 2026. Precios de lista del proveedor, en USD, sin impuestos salvo que se aclare.</p>\n<ul>\n<li><a href=\"https://workspace.google.com/intl/es-419_ar/pricing.html\">Google Workspace, página de precios (versión Argentina en español)</a>: Starter USD 7, Standard USD 14, Plus USD 22, por usuario por mes, \"no incluye impuestos\", \"Todos los precios $USD\", \"ahorra un 16%\" con compromiso anual, promoción del 4 de noviembre de 2026 al 4 de febrero de 2027. Leímos la página dos veces (con la versión general en español y con la argentina) y en ambas aparece la lista en dólares, sin precio local en pesos.</li>\n<li><a href=\"https://www.microsoft.com/en-us/licensing/news/2026-M365-Packaging-Pricing-Updates\">Microsoft, actualización de precios 2026 de Microsoft 365</a>: Business Basic USD 7 (antes 6), Standard USD 14 (antes 12,50), Premium USD 22, con vigencia desde el 1 de julio de 2026, y las versiones sin Teams. Sin dato de periodo por usuario. No pudimos abrir la página de planes de Microsoft Argentina (timeout), por lo que no tenemos el precio local ni el periodo de facturación.</li>\n<li><a href=\"https://blogdelcontador.com.ar/arca-percepcion-ganancias-operaciones-en-moneda-extranjera\">+blogdelcontador, ARCA, percepción de Ganancias en operaciones en moneda extranjera</a> (diciembre de 2024): resumen de la RG 5617, alícuota del 30%, operaciones alcanzadas, agentes y exclusiones. <a href=\"https://www.iprofesional.com/impuestos/440203-devolucion-30-por-ciento-percepciones-arca-2025-netflix-y-spotify-paso-a-paso\">iProfesional (23 de octubre de 2025)</a>: la percepción del 30% a cuenta de Ganancias o Bienes Personales sobre servicios digitales del exterior pagados con tarjeta. No pudimos leer el texto oficial de la RG 5617 en el Boletín Oficial.</li>\n<li><a href=\"https://siap.blogdelcontador.com.ar/categoria_normativa/servicios-digitales-prestados-por-sujetos-del-exterior/\">+blogdelcontador, servicios digitales prestados por sujetos del exterior</a> (RG 4240/2018): IVA 21% percibido por el emisor de la tarjeta. Lo conocemos por el resumen del buscador, no por el texto completo de la resolución.</li>\n<li><a href=\"https://dolarapi.com/v1/dolares/oficial\">dolarapi.com</a>: dólar oficial vendedor $1.545 y dólar tarjeta vendedor $2.008,50, actualizados el 21 de octubre de 2026. Las conversiones a pesos usan esos valores.</li>\n</ul>\n<p>Las cuentas de la tabla de escenarios son de SODI: precio de lista por 10 usuarios, por la cotización indicada y por 1,21 cuando se agrega el IVA. No son una factura. Los aspectos fiscales son informativos y no son consejo: para tu caso, consultá con tu contador.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto sale Google Workspace en Argentina?",
+        "answer": "El precio de lista de Google es USD 7 (Starter), USD 14 (Standard) y USD 22 (Plus) por usuario por mes, en dólares y sin impuestos (consulta del 21 de octubre de 2026). Con 10 usuarios en Starter, USD 70 por mes de lista, unos $108.000 a dólar oficial y unos $140.600 con la percepción del 30% si pagás con tarjeta."
+      },
+      {
+        "question": "¿Google Workspace precios Argentina incluye impuestos?",
+        "answer": "No. La página de Google dice que el precio por usuario al mes no incluye impuestos. En Argentina, al pagar con tarjeta, puede sumarse la percepción del 30% de ARCA (RG 5617) y, según tu condición, el IVA de servicios digitales del exterior."
+      },
+      {
+        "question": "¿Cuánto sale Google Workspace por mes y por año?",
+        "answer": "La lista es mensual: USD 7, 14 o 22 por usuario. Google ofrece una opción anual con compromiso de un año y dice que ahorrás un 16%, pero la página no muestra el precio anual en cifras. Lo ves al elegir esa opción antes de pagar."
+      },
+      {
+        "question": "¿Se paga Google Workspace en pesos o en dólares?",
+        "answer": "La lista que muestra Google está en dólares. Se paga con tarjeta y el banco convierte a pesos con su cotización. No encontramos una lista de precios en pesos en la página oficial."
+      },
+      {
+        "question": "¿Hay alguna forma de pagar menos impuestos por Google Workspace?",
+        "answer": "La percepción del 30% es un pago a cuenta de Ganancias o Bienes Personales, que se puede computar o pedir en devolución, y el IVA puede ser crédito fiscal si sos responsable inscripto. Lo que corresponde en tu caso depende de tu situación fiscal: consultalo con tu contador."
+      },
+      {
+        "question": "¿Es más barato Microsoft 365 que Google Workspace?",
+        "answer": "A precio de lista, hoy no. Desde el 1 de julio de 2026 Microsoft publica Business Basic a USD 7, Standard a USD 14 y Premium a USD 22, los mismos valores que Starter, Standard y Plus de Google. La diferencia está en las funciones, no en el precio."
+      }
+    ],
+    "ctaText": "¿Querés ordenar el correo, los archivos y las herramientas de tu empresa? Hacé el diagnóstico gratuito de SODI y te armamos un plan según cómo trabaja tu equipo."
+  }
+}
