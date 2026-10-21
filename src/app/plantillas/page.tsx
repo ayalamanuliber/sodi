@@ -4,6 +4,7 @@ import { BlogNav } from "@/components/blog/BlogNav";
 import { Footer } from "@/components/landing/Footer";
 import { getAllTemplateResources } from "@/lib/template-data";
 import { getSearchEligibleTemplateSlugs } from "@/lib/content-release/template-release";
+import { ogImages } from "@/lib/og-card";
 import styles from "./page.module.css";
 
 export function generateMetadata(): Metadata {
@@ -24,6 +25,13 @@ export function generateMetadata(): Metadata {
       description: "Herramientas prácticas para llevar una decisión digital a un alcance, un control o un próximo paso concreto.",
       type: "website",
       url: "https://sodi.com.ar/plantillas",
+      images: ogImages("/plantillas"),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Plantillas para ordenar decisiones digitales | SODI",
+      description: "Herramientas prácticas para llevar una decisión digital a un alcance, un control o un próximo paso concreto.",
+      images: ogImages("/plantillas"),
     },
   };
 }

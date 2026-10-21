@@ -9,6 +9,7 @@ import { getArticle, normalizeSlug } from "@/lib/blog-data";
 import { silos } from "@/lib/blog-types";
 import { getAllTemplateResources, getTemplateResource, getTemplateSlugs } from "@/lib/template-data";
 import { isTemplateResourceSearchEligible } from "@/lib/content-release/template-release";
+import { ogImageProps } from "@/lib/og-card";
 import styles from "./template.module.css";
 
 interface Props {
@@ -37,11 +38,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: resource.metaDescription,
       type: "website",
       url,
+      ...ogImageProps(`/plantillas/${resource.slug}`),
     },
     twitter: {
       card: "summary_large_image",
       title: resource.metaTitle,
       description: resource.metaDescription,
+      ...ogImageProps(`/plantillas/${resource.slug}`),
     },
   };
 }

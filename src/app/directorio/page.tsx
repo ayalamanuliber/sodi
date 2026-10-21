@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogImages } from "@/lib/og-card";
 import { DirectoryLanding } from "@/components/directorio/DirectoryLanding";
 
 export const metadata: Metadata = {
@@ -14,6 +15,11 @@ export const metadata: Metadata = {
       "Comprá la base comercial argentina, descargala y empezá a trabajarla el mismo día.",
     type: "website",
     url: "https://sodi.com.ar/directorio",
+    images: ogImages("/directorio"),
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ogImages("/directorio"),
   },
 };
 

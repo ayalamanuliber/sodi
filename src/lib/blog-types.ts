@@ -109,7 +109,7 @@ export const silos: Record<string, { label: string; description: string; color: 
 
 // ── Schema builders ──
 
-export function buildArticleSchema(article: ArticleMeta, url: string) {
+export function buildArticleSchema(article: ArticleMeta, url: string, imageUrl?: string) {
   const siloInfo = silos[article.silo];
   return {
     "@context": "https://schema.org",
@@ -130,7 +130,7 @@ export function buildArticleSchema(article: ArticleMeta, url: string) {
       {
         "@type": "ImageObject",
         "@id": `${url}#primaryimage`,
-        url: `${url}/opengraph-image`,
+        url: imageUrl ?? `${url}/opengraph-image`,
         width: 1200,
         height: 630,
       },

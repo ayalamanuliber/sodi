@@ -5,6 +5,7 @@ import { getArticle, getAllSlugs, getRelatedArticles, getAllArticles, normalizeS
 import { buildArticleSchema, buildFAQSchema, silos } from "@/lib/blog-types";
 import { BLOG_MERGE_REDIRECTS } from "@/lib/content-release/blog-pruning.generated";
 import { getSearchEligibleArticles, isBlogArticleSearchEligible } from "@/lib/content-release/blog-release";
+import { hasOgCard, ogImages, ogImageProps } from "@/lib/og-card";
 import { Footer } from "@/components/landing/Footer";
 import { BlogNav } from "@/components/blog/BlogNav";
 import { ContentToolLink } from "@/components/blog/ContentToolLink";
@@ -65,6 +66,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: silo.description,
         type: "website",
         url: `https://sodi.com.ar/blog/${slug}`,
+        ...ogImageProps(`/blog/${slug}`),
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: `${silo.label} | Guías SODI`,
+        description: silo.description,
+        ...ogImageProps(`/blog/${slug}`),
       },
     };
   }
@@ -87,11 +95,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       modifiedTime: article.dateModified,
       tags: article.tags,
       url: `https://sodi.com.ar/blog/${article.slug}`,
+      ...ogImageProps(`/blog/${article.slug}`),
     },
     twitter: {
       card: "summary_large_image",
       title: article.metaTitle,
       description: article.metaDescription,
+      ...ogImageProps(`/blog/${article.slug}`),
     },
     alternates: {
       canonical: `https://sodi.com.ar/blog/${article.slug}`,
@@ -130,7 +140,7 @@ export default async function BlogArticlePage({ params }: Props) {
     <div className={styles.blogPage}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildArticleSchema(article, url)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildArticleSchema(article, url, hasOgCard(`/blog/${article.slug}`) ? ogImages(`/blog/${article.slug}`)[0].url : undefined)) }}
       />
       {article.content.faqs.length > 0 ? (
         <script
