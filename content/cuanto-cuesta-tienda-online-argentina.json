@@ -5,17 +5,27 @@
   "metaDescription": "Crear una tienda online en Argentina cuesta desde $10 USD/mes en Tiendanube hasta $1.500.000+ ARS a medida. Comparamos todas las opciones.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
-  "tags": ["tienda online argentina", "ecommerce argentina", "cuanto cuesta tienda online", "vender por internet"],
+  "tags": [
+    "tienda online argentina",
+    "ecommerce argentina",
+    "cuanto cuesta tienda online",
+    "vender por internet"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "9 min lectura",
-  "relatedSlugs": ["tiendanube-vs-pagina-propia", "mercado-libre-vs-tienda-propia", "como-crear-tienda-online-argentina", "como-vender-por-internet-argentina"],
+  "relatedSlugs": [
+    "tiendanube-vs-pagina-propia",
+    "mercado-libre-vs-tienda-propia",
+    "como-crear-tienda-online-argentina",
+    "como-vender-por-internet-argentina"
+  ],
   "content": {
     "intro": "<p>Crear una <strong>tienda online en Argentina</strong> en 2026 tiene cuatro caminos claros: <strong>Tiendanube</strong> ($10-$50 USD/mes + setup de $200.000-$500.000 ARS), <strong>WooCommerce</strong> (desarrollo de $500.000-$1.200.000 ARS), <strong>Shopify</strong> ($29-$299 USD/mes) o <strong>desarrollo a medida</strong> ($1.500.000+ ARS). Cada opcion tiene costos ocultos que cambian el presupuesto total.</p><p>La eleccion correcta depende de cuantos productos vendas, tu margen de ganancia y si necesitas funcionalidades especificas. No existe la \"mejor plataforma\": existe la que mejor se adapta a tu negocio. Te desglosamos todo con numeros reales para que tomes una decision informada.</p>",
     "sections": [
       {
         "heading": "Cuanto cuesta una tienda en Tiendanube",
-        "body": "<p><strong>Tiendanube</strong> es la plataforma de ecommerce mas usada en Argentina y la opcion mas accesible para arrancar. Los planes actualizados a 2026:</p><ul><li><strong>Plan Inicial</strong>: ~$10 USD/mes. Hasta 50 productos, diseño basico, integracion con Mercado Pago y correos argentinos.</li><li><strong>Plan Impulso</strong>: ~$25 USD/mes. Productos ilimitados, dominio propio, mas opciones de diseño y marketing.</li><li><strong>Plan Escala</strong>: ~$50 USD/mes. Todo lo anterior + descuentos progresivos, carrito abandonado, y soporte prioritario.</li></ul><p>Pero el plan mensual no es el unico costo. Para tener una tienda profesional en Tiendanube necesitas un <strong>setup inicial</strong>: diseño personalizado del template, carga de productos con fotos y descripciones optimizadas, configuracion de medios de pago y envio. Esto cuesta entre $200.000 y $500.000 ARS si contratas a un especialista.</p><p>Ademas, Tiendanube cobra una <strong>comision por venta</strong> del 1% al 2% segun el plan (ademas de la comision de Mercado Pago del 4.49% + IVA). Esto parece poco, pero en un negocio con margenes ajustados puede sumar rapido. Hace las cuentas antes de elegir plan.</p><p>Ventaja principal: arrancas a vender en 1-2 semanas. Si tu prioridad es velocidad, Tiendanube gana.</p>"
+        "body": "<p><strong>Tiendanube</strong> es la plataforma de ecommerce mas usada en Argentina y la opcion mas accesible para arrancar. Los planes actualizados a 2026:</p><ul><li><strong>Plan Inicial</strong>: ~$10 USD/mes. Hasta 50 productos, diseño basico, integracion con Mercado Pago y correos argentinos.</li><li><strong>Plan Impulso</strong>: ~$25 USD/mes. Productos ilimitados, dominio propio, mas opciones de diseño y marketing.</li><li><strong>Plan Escala</strong>: ~$50 USD/mes. Todo lo anterior + descuentos progresivos, carrito abandonado, y soporte prioritario.</li></ul><p>Pero el plan mensual no es el unico costo. Para tener una tienda profesional en Tiendanube necesitas un <strong>setup inicial</strong>: diseño personalizado del template, carga de productos con fotos y descripciones optimizadas, configuracion de medios de pago y envio. Esto cuesta entre $200.000 y $500.000 ARS si contratas a un especialista.</p><p>Ademas, Tiendanube cobra una <strong>comision por venta</strong> del 1% al 2% segun el plan (ademas de la comision de Mercado Pago del 4.49% + IVA). Esto parece poco, pero en un negocio con margenes ajustados puede sumar rapido. Hace las cuentas antes de elegir plan.</p><p>Ventaja principal: arrancas a vender en 1-2 semanas. Si tu prioridad es velocidad, Tiendanube gana.</p><p>Un costo clave de la tienda es cobrar: mirá <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">MercadoPago vs Mobbex</a> y <a href=\"/blog/como-reducir-comisiones-mercadopago\">cómo reducir las comisiones</a>; y para la parte fija, <a href=\"/blog/cuanto-cuesta-mantenimiento-pagina-web\">mantenimiento</a> y <a href=\"/blog/cuanto-cuesta-hosting-argentina\">hosting</a>.</p>"
       },
       {
         "heading": "Cuanto cuesta una tienda con WooCommerce",

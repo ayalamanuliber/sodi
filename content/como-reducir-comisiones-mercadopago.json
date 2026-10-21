@@ -1,15 +1,26 @@
 {
   "slug": "como-reducir-comisiones-mercadopago",
   "title": "Cómo reducir las comisiones de MercadoPago en tu negocio: guía práctica 2026",
-  "metaTitle": "Cómo reducir comisiones MercadoPago 2026",
-  "metaDescription": "MercadoPago cobra 4.99% + IVA pero podés bajarlo a ~3.5%. QR presencial, transferencias, loyalty level y alternativas. Guía paso a paso para PyMEs.",
+  "metaTitle": "Reducir comisiones de MercadoPago: de 4.99% + IVA a ~3.5%",
+  "metaDescription": "MercadoPago cobra 4.99% + IVA (6.04% efectivo). 5 formas de bajar entre 20% y 50% lo que pagás: QR, transferencias, nivel loyalty y alternativas.",
   "silo": "guias",
   "siloLabel": "Guías Prácticas",
-  "tags": ["mercadopago", "comisiones", "reducir costos", "pagos digitales", "pymes"],
+  "tags": [
+    "mercadopago",
+    "comisiones",
+    "reducir costos",
+    "pagos digitales",
+    "pymes"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "7 min lectura",
-  "relatedSlugs": ["mercadopago-vs-mobbex-ecommerce", "modo-vs-mercadopago-para-negocios", "como-cobrar-con-qr-en-mi-negocio", "cuanto-cuesta-tienda-online-argentina"],
+  "relatedSlugs": [
+    "mercadopago-vs-mobbex-ecommerce",
+    "modo-vs-mercadopago-para-negocios",
+    "como-cobrar-con-qr-en-mi-negocio",
+    "cuanto-cuesta-tienda-online-argentina"
+  ],
   "content": {
     "intro": "<p>MercadoPago cobra <strong>4.99% + IVA</strong> por cada venta con acreditación inmediata. Eso es un 6.04% efectivo sobre cada transacción. Si facturás $3.000.000 ARS/mes, estás pagando $181.200 solo en comisiones. La buena noticia: hay formas concretas de bajar ese número sin cambiar de plataforma.</p><p>No existe un botón mágico para eliminar las comisiones, pero combinando el nivel de loyalty, los canales correctos de cobro y algunas alternativas estratégicas, podés reducir lo que pagás entre un 20% y un 50%. Te mostramos cómo, paso a paso, con números reales.</p>",
     "sections": [
@@ -23,7 +34,7 @@
       },
       {
         "heading": "Alternativas a MercadoPago para pagar menos",
-        "body": "<p>Si las comisiones de MercadoPago siguen siendo demasiado altas después de optimizar, hay alternativas reales:</p><ul><li><strong>Mobbex:</strong> comisión base de ~3.5% + IVA, negociable por volumen. Buena API, acreditación en 24-48 hs. La mejor alternativa para ecommerce custom.</li><li><strong>MODO:</strong> QR presencial con comisiones de 0.6-0.8%. La plata cae directo en tu cuenta bancaria. No sirve para ecommerce online pero es ideal para locales.</li><li><strong>Transferencia directa (CBU/alias):</strong> comisión 0%. El cliente transfiere directo a tu cuenta. Desventaja: no hay cuotas ni protección al comprador.</li><li><strong>Payway (ex Decidir):</strong> comisiones negociables por volumen, desde 2.5% para grandes cuentas. Más orientada a empresas medianas-grandes.</li><li><strong>Ualá Bis:</strong> comisiones similares a MercadoPago pero con acreditación más rápida en algunos casos. Alternativa creciente.</li></ul><p><strong>Importante:</strong> cambiar de pasarela no siempre es la solución. Si vendés por Tiendanube y MercadoPago está integrado nativamente, la fricción de checkout es mínima y eso impacta en conversión. A veces es mejor optimizar dentro de MP que migrar y perder ventas.</p>"
+        "body": "<p>Si las comisiones de MercadoPago siguen siendo demasiado altas después de optimizar, hay alternativas reales:</p><ul><li><strong>Mobbex:</strong> comisión base de ~3.5% + IVA, negociable por volumen. Buena API, acreditación en 24-48 hs. La mejor alternativa para ecommerce custom.</li><li><strong>MODO:</strong> QR presencial con comisiones de 0.6-0.8%. La plata cae directo en tu cuenta bancaria. No sirve para ecommerce online pero es ideal para locales.</li><li><strong>Transferencia directa (CBU/alias):</strong> comisión 0%. El cliente transfiere directo a tu cuenta. Desventaja: no hay cuotas ni protección al comprador.</li><li><strong>Payway (ex Decidir):</strong> comisiones negociables por volumen, desde 2.5% para grandes cuentas. Más orientada a empresas medianas-grandes.</li><li><strong>Ualá Bis:</strong> comisiones similares a MercadoPago pero con acreditación más rápida en algunos casos. Alternativa creciente.</li></ul><p><strong>Importante:</strong> cambiar de pasarela no siempre es la solución. Si vendés por Tiendanube y MercadoPago está integrado nativamente, la fricción de checkout es mínima y eso impacta en conversión. A veces es mejor optimizar dentro de MP que migrar y perder ventas.</p><p>Comparativas relacionadas: <a href=\"/blog/modo-vs-mercadopago-para-negocios\">MODO vs MercadoPago</a>, <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">MercadoPago vs Mobbex</a> y <a href=\"/blog/alternativas-mercadopago-ecommerce-argentina\">alternativas a MercadoPago para ecommerce</a>. Para controlar lo que realmente te acreditan, usá este <a href=\"/plantillas/checklist-conciliacion-pagos-ecommerce\">checklist de conciliación de pagos</a>.</p>"
       },
       {
         "heading": "Calculá cuánto podés ahorrar",
@@ -35,6 +46,10 @@
       }
     ],
     "faqs": [
+      {
+        "question": "¿Cuánto pago de comisión de MercadoPago si vendo $3.000.000 por mes?",
+        "answer": "Con 4.99% + IVA (6.04% efectivo) son $181.200 por mes en comisiones. Con las medidas de esta guía podés bajar entre un 20% y un 50% de ese monto sin cambiar de plataforma."
+      },
       {
         "question": "¿Cuánto cobra MercadoPago de comisión en 2026?",
         "answer": "La comisión estándar de MercadoPago para ventas online con acreditación inmediata es 4.99% + IVA (6.04% efectivo). Para QR presencial es 0.99% + IVA (1.20%). Para transferencias entre cuentas MP es 0%. Estos valores pueden variar según tu nivel de loyalty."

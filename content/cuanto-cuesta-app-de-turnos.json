@@ -1,15 +1,25 @@
 {
   "slug": "cuanto-cuesta-app-de-turnos",
-  "title": "Cuanto cuesta una app de turnos online en Argentina: SaaS vs desarrollo a medida",
-  "metaTitle": "Cuanto cuesta app de turnos online Argentina 2026",
-  "metaDescription": "Una app de turnos cuesta desde $10 USD/mes en SaaS hasta $2.000.000 ARS en desarrollo a medida. Comparamos opciones por rubro y presupuesto.",
+  "title": "Cuánto cuesta una app de turnos online en Argentina: SaaS vs desarrollo a medida",
+  "metaTitle": "Cuánto cuesta una app de turnos online en Argentina 2026",
+  "metaDescription": "App de turnos online: SaaS de USD 10 a 45/mes o desarrollo a medida de $800.000 a $2.000.000 ARS. Qué conviene según tu rubro y cuántos profesionales atienden.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
-  "tags": ["app de turnos", "sistema de turnos online", "turnos online argentina", "agenda digital"],
+  "tags": [
+    "app de turnos",
+    "sistema de turnos online",
+    "turnos online argentina",
+    "agenda digital"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["sistema-de-turnos-para-consultorios-medicos", "sistema-de-turnos-para-peluquerias", "que-es-un-crm-y-para-que-sirve", "como-crear-sistema-de-turnos-online"],
+  "relatedSlugs": [
+    "sistema-de-turnos-para-consultorios-medicos",
+    "sistema-de-turnos-para-peluquerias",
+    "que-es-un-crm-y-para-que-sirve",
+    "como-crear-sistema-de-turnos-online"
+  ],
   "content": {
     "intro": "<p>Una <strong>app de turnos online en Argentina</strong> tiene dos caminos: usar un SaaS (software como servicio) que cuesta entre $10 y $45 USD/mes, o desarrollar un sistema a medida que va de $800.000 a $2.000.000 ARS. La decision correcta depende de tu rubro, la cantidad de profesionales que atienden, y si necesitas funcionalidades especificas que los SaaS no cubren.</p><p>Para el 80% de las PyMEs argentinas, un SaaS resuelve el problema sin drama. Desarrollo a medida solo vale la pena cuando tu operacion tiene reglas de negocio que ningun software estandar puede manejar. Te desglosamos cada opcion con precios reales y casos de uso concretos.</p>",
     "sections": [
@@ -19,7 +29,7 @@
       },
       {
         "heading": "Cuanto cuesta desarrollar una app de turnos a medida",
-        "body": "<p>Un <strong>desarrollo a medida de sistema de turnos</strong> cuesta entre $800.000 y $2.000.000 ARS en Argentina, dependiendo de la complejidad. Este rango cubre desde un sistema basico de agenda con panel web hasta una app completa con notificaciones push, pagos integrados y multiples sedes.</p><p>Un sistema basico a medida ($800.000-$1.200.000 ARS) incluye: panel de administracion para gestionar turnos y profesionales, pagina de reserva para el cliente, confirmacion y recordatorio automatico por email, y calendario visual con disponibilidad en tiempo real.</p><p>Un sistema completo ($1.500.000-$2.000.000+ ARS) agrega: <strong>app mobile nativa</strong> (iOS/Android) o PWA, notificaciones push, integracion con <strong>Mercado Pago</strong> para cobro de señas o pagos completos, sala de espera virtual, historia clinica o ficha del cliente, y reportes de ocupacion y facturacion.</p><p>El plazo de desarrollo va de 6 a 12 semanas para el sistema basico y de 3 a 5 meses para el completo. Sumale mantenimiento mensual de $30.000-$80.000 ARS para hosting, actualizaciones y soporte tecnico.</p>"
+        "body": "<p>Un <strong>desarrollo a medida de sistema de turnos</strong> cuesta entre $800.000 y $2.000.000 ARS en Argentina, dependiendo de la complejidad. Este rango cubre desde un sistema basico de agenda con panel web hasta una app completa con notificaciones push, pagos integrados y multiples sedes.</p><p>Un sistema basico a medida ($800.000-$1.200.000 ARS) incluye: panel de administracion para gestionar turnos y profesionales, pagina de reserva para el cliente, confirmacion y recordatorio automatico por email, y calendario visual con disponibilidad en tiempo real.</p><p>Un sistema completo ($1.500.000-$2.000.000+ ARS) agrega: <strong>app mobile nativa</strong> (iOS/Android) o PWA, notificaciones push, integracion con <strong>Mercado Pago</strong> para cobro de señas o pagos completos, sala de espera virtual, historia clinica o ficha del cliente, y reportes de ocupacion y facturacion.</p><p>El plazo de desarrollo va de 6 a 12 semanas para el sistema basico y de 3 a 5 meses para el completo. Sumale mantenimiento mensual de $30.000-$80.000 ARS para hosting, actualizaciones y soporte tecnico.</p><p>Si el sistema va a ser parte de algo más grande, mirá cuánto cuesta el <a href=\"/blog/cuanto-cuesta-software-a-medida-argentina\">software a medida en Argentina</a>.</p>"
       },
       {
         "heading": "SaaS o a medida segun tu rubro",

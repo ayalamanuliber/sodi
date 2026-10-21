@@ -1,21 +1,32 @@
 {
   "slug": "cuanto-cuesta-facturacion-electronica-argentina",
   "title": "Cuánto cuesta la facturación electrónica en Argentina en 2026: ARCA, SaaS y desarrollo custom",
-  "metaTitle": "Cuánto cuesta facturación electrónica Argentina 2026",
-  "metaDescription": "ARCA (ex AFIP) gratis pero manual. Xubio gratis 10 facturas/mes. Alegra $2.599 ARS/mes. Integración custom: $500.000-$1.500.000 ARS.",
+  "metaTitle": "Facturación electrónica 2026: ARCA gratis y SaaS desde $0",
+  "metaDescription": "Facturar desde ARCA (ex AFIP) es gratis. SaaS: Xubio gratis hasta 10 facturas/mes, Alegra desde $2.599 ARS/mes. Integración a medida: $500.000-$1.500.000.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
-  "tags": ["facturación electrónica", "ARCA ex AFIP", "factura electrónica Argentina", "Xubio", "facturación PyMEs"],
+  "tags": [
+    "facturación electrónica",
+    "ARCA ex AFIP",
+    "factura electrónica Argentina",
+    "Xubio",
+    "facturación PyMEs"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-sistema-de-gestion-pymes", "excel-vs-sistema-de-gestion", "como-ordenar-operacion-interna-pyme", "que-es-un-sistema-de-gestion"],
+  "relatedSlugs": [
+    "cuanto-cuesta-sistema-de-gestion-pymes",
+    "excel-vs-sistema-de-gestion",
+    "como-ordenar-operacion-interna-pyme",
+    "que-es-un-sistema-de-gestion"
+  ],
   "content": {
     "intro": "<p>La <strong>facturación electrónica en Argentina</strong> es obligatoria y se gestiona a través de <strong>ARCA (ex AFIP)</strong> — el organismo se rebrandeó en 2024 pero la operatoria es la misma. Facturar manualmente desde el sitio de ARCA es gratis. Si querés automatizar con un SaaS, los precios arrancan en $0 (Xubio, 10 facturas/mes gratis) y llegan a $5.000+ ARS/mes con sistemas completos como Colppy.</p><p>El problema no es el costo de la herramienta, sino las horas que perdés haciendo facturas a mano. Una PyME que emite 50+ facturas por mes y las hace una por una en ARCA está tirando 8-15 horas mensuales que podría dedicar a vender. Acá te mostramos todas las opciones con precios reales.</p>",
     "sections": [
       {
         "heading": "Facturar gratis desde ARCA (ex AFIP): cómo funciona y cuándo deja de convenir",
-        "body": "<p><strong>ARCA</strong> (Agencia de Recaudación y Control Aduanero, la ex AFIP) te permite emitir facturas electrónicas gratis desde su portal web. Entrás con clave fiscal nivel 3+, seleccionás el punto de venta, cargás los datos del cliente, y emitís la factura tipo A, B o C según corresponda.</p><p>Es <strong>100% gratis</strong> y cumple con todos los requisitos legales. Funciona perfecto si emitís menos de 10-15 facturas por mes y no necesitás automatizar nada.</p><p>Deja de convenir cuando: emitís más de 20 facturas mensuales (el proceso manual se come horas), necesitás reportes automáticos para tu contador, querés integrar la facturación con tu sistema de ventas o ecommerce, o tenés que emitir facturas recurrentes (suscripciones, cuotas).</p><p>Otro problema: ARCA no genera reportes de IVA automáticos. Tu contador tiene que cruzar los datos manualmente. Con un SaaS de facturación, los reportes para el contador se generan con un click.</p><p>La facturación manual en ARCA es como usar <a href=\"/blog/excel-vs-sistema-de-gestion\">Excel para gestionar tu negocio</a>: funciona al principio, pero se vuelve insostenible cuando crecés.</p>"
+        "body": "<p><strong>ARCA</strong> (Agencia de Recaudación y Control Aduanero, la ex AFIP) te permite emitir facturas electrónicas gratis desde su portal web. Entrás con clave fiscal nivel 3+, seleccionás el punto de venta, cargás los datos del cliente, y emitís la factura tipo A, B o C según corresponda.</p><p>Es <strong>100% gratis</strong> y cumple con todos los requisitos legales. Funciona perfecto si emitís menos de 10-15 facturas por mes y no necesitás automatizar nada.</p><p>Deja de convenir cuando: emitís más de 20 facturas mensuales (el proceso manual se come horas), necesitás reportes automáticos para tu contador, querés integrar la facturación con tu sistema de ventas o ecommerce, o tenés que emitir facturas recurrentes (suscripciones, cuotas).</p><p>Otro problema: ARCA no genera reportes de IVA automáticos. Tu contador tiene que cruzar los datos manualmente. Con un SaaS de facturación, los reportes para el contador se generan con un click.</p><p>La facturación manual en ARCA es como usar <a href=\"/blog/excel-vs-sistema-de-gestion\">Excel para gestionar tu negocio</a>: funciona al principio, pero se vuelve insostenible cuando crecés.</p><p>Si buscás el paso a paso del trámite, está en la guía de <a href=\"/blog/factura-electronica-arca-2026\">factura electrónica ARCA 2026</a>.</p>"
       },
       {
         "heading": "Plataformas SaaS de facturación electrónica: precios comparados",
@@ -54,6 +65,10 @@
       {
         "question": "¿Puedo integrar la facturación electrónica con mi tienda online?",
         "answer": "Sí. Xubio se integra directo con Tiendanube. Para otras plataformas (WooCommerce, custom) necesitás desarrollo a medida ($500.000-$1.500.000 ARS). MercadoPago y MercadoShops no emiten facturas electrónicas automáticamente, hay que facturar por separado o integrar con un SaaS."
+      },
+      {
+        "question": "¿Cuándo deja de convenir facturar a mano desde ARCA?",
+        "answer": "Cuando emitís más de 20 facturas por mes, necesitás reportes automáticos para tu contador, querés integrar la facturación con tu sistema de ventas o ecommerce, o emitís facturas recurrentes. Hasta ahí, facturar desde ARCA es gratis y alcanza."
       }
     ],
     "ctaText": "¿Necesitás integrar la facturación electrónica con tu sistema de ventas o ecommerce? En SODI desarrollamos integraciones con ARCA a medida. Pedí tu diagnóstico gratuito."

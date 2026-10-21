@@ -1,21 +1,32 @@
 {
   "slug": "cuanto-cuesta-mantenimiento-pagina-web",
   "title": "Cuánto cuesta el mantenimiento de una página web en Argentina en 2026: precios mensuales reales",
-  "metaTitle": "Mantenimiento web en Argentina 2026: precios reales",
-  "metaDescription": "Mantenimiento web básico: $25.000-$50.000 ARS/mes. Profesional: $80.000-$150.000 ARS/mes. Incluye hosting, SSL, actualizaciones y soporte técnico.",
+  "metaTitle": "Cuánto cuesta el mantenimiento de una web en Argentina 2026",
+  "metaDescription": "Mantenimiento web en Argentina: básico $25.000-$50.000 ARS/mes, profesional $80.000-$150.000/mes. Qué incluye y cuándo conviene cada plan.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
-  "tags": ["mantenimiento web", "hosting argentina", "precios web", "soporte web", "SSL"],
+  "tags": [
+    "mantenimiento web",
+    "hosting argentina",
+    "precios web",
+    "soporte web",
+    "SSL"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "como-elegir-agencia-web-argentina", "que-es-hosting-y-dominio", "wordpress-vs-desarrollo-a-medida"],
+  "relatedSlugs": [
+    "cuanto-cuesta-pagina-web-argentina",
+    "como-elegir-agencia-web-argentina",
+    "que-es-hosting-y-dominio",
+    "wordpress-vs-desarrollo-a-medida"
+  ],
   "content": {
     "intro": "<p>Mantener una página web en Argentina cuesta entre <strong>$25.000 y $150.000 ARS por mes</strong> dependiendo del tipo de sitio y el nivel de soporte que necesités. Un plan básico (hosting, SSL, backups y actualizaciones mínimas) arranca en $25.000-$50.000 ARS/mes. Un plan profesional con soporte técnico, monitoreo de seguridad, actualizaciones de contenido y optimización de velocidad va de $80.000 a $150.000 ARS/mes.</p><p>El error más caro que cometen las PyMEs es creer que una vez que la web está online, no hay más gastos. La realidad es que un sitio sin mantenimiento se rompe, se hackea o se vuelve lento en menos de 6 meses. Esta guía te muestra exactamente qué necesitás pagar y qué podés hacer vos mismo.</p>",
     "sections": [
       {
         "heading": "Desglose de costos fijos: hosting, dominio y SSL",
-        "body": "<p>El <strong>hosting</strong> es el costo base que no podés evitar. En Argentina, los precios en 2026 son:</p><p><strong>Hosting compartido:</strong> $5.000-$15.000 ARS/mes. Proveedores locales como Donweb o Banahosting. Suficiente para webs institucionales con menos de 5.000 visitas mensuales. Si usás WordPress, asegurate de que el plan incluya PHP 8.2+ y al menos 1GB de RAM.</p><p><strong>Hosting premium/VPS:</strong> $15.000-$40.000 ARS/mes. SiteGround, Cloudways o un VPS de DigitalOcean (desde USD 6/mes). Necesario si tu web tiene e-commerce, mucho tráfico o funcionalidades dinámicas. La diferencia en velocidad de carga es brutal: 1-2 segundos vs 4-6 en hosting barato.</p><p>El <strong>dominio .com.ar</strong> es gratuito a través de NIC Argentina (renovación cada 1 año). Un .com cuesta USD 10-15/año a través de Namecheap o Google Domains. Si tu agencia registró el dominio, pedí que lo transfieran a tu nombre. Esto no es negociable.</p><p>El <strong>certificado SSL</strong> básico es gratuito con Let's Encrypt (la mayoría de los hostings lo incluyen). Un SSL extendido (EV) para e-commerce cuesta USD 50-200/año, pero para la mayoría de las PyMEs el gratuito alcanza. Google penaliza sitios sin SSL desde hace años, así que esto no es opcional.</p>"
+        "body": "<p>El <strong>hosting</strong> es el costo base que no podés evitar. En Argentina, los precios en 2026 son:</p><p><strong>Hosting compartido:</strong> $5.000-$15.000 ARS/mes. Proveedores locales como Donweb o Banahosting. Suficiente para webs institucionales con menos de 5.000 visitas mensuales. Si usás WordPress, asegurate de que el plan incluya PHP 8.2+ y al menos 1GB de RAM.</p><p><strong>Hosting premium/VPS:</strong> $15.000-$40.000 ARS/mes. SiteGround, Cloudways o un VPS de DigitalOcean (desde USD 6/mes). Necesario si tu web tiene e-commerce, mucho tráfico o funcionalidades dinámicas. La diferencia en velocidad de carga es brutal: 1-2 segundos vs 4-6 en hosting barato.</p><p>El <strong>dominio .com.ar</strong> es gratuito a través de NIC Argentina (renovación cada 1 año). Un .com cuesta USD 10-15/año a través de Namecheap o Google Domains. Si tu agencia registró el dominio, pedí que lo transfieran a tu nombre. Esto no es negociable.</p><p>El <strong>certificado SSL</strong> básico es gratuito con Let's Encrypt (la mayoría de los hostings lo incluyen). Un SSL extendido (EV) para e-commerce cuesta USD 50-200/año, pero para la mayoría de las PyMEs el gratuito alcanza. Google penaliza sitios sin SSL desde hace años, así que esto no es opcional.</p><p>Para el detalle de dos de esos costos fijos, mirá cuánto cuesta el <a href=\"/blog/cuanto-cuesta-hosting-argentina\">hosting y dominio en Argentina</a>; y si todavía no tenés web, cuánto cuesta una <a href=\"/blog/cuanto-cuesta-pagina-web-argentina\">página web</a>.</p>"
       },
       {
         "heading": "Cuánto cuesta un plan de mantenimiento básico vs profesional",

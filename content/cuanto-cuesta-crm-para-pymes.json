@@ -5,17 +5,28 @@
   "metaDescription": "HubSpot gratis, Zoho desde $14 USD/usuario, Salesforce desde $75 USD/usuario. Un CRM custom cuesta $2.000.000-$5.000.000 ARS. Comparamos todo.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
-  "tags": ["CRM pymes", "HubSpot", "Zoho CRM", "Salesforce", "CRM argentina"],
+  "tags": [
+    "CRM pymes",
+    "HubSpot",
+    "Zoho CRM",
+    "Salesforce",
+    "CRM argentina"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["crm-gratuito-vs-pago", "que-es-un-crm-y-para-que-sirve", "como-implementar-crm-en-mi-empresa", "sistema-de-gestion-para-inmobiliarias"],
+  "relatedSlugs": [
+    "crm-gratuito-vs-pago",
+    "que-es-un-crm-y-para-que-sirve",
+    "como-implementar-crm-en-mi-empresa",
+    "sistema-de-gestion-para-inmobiliarias"
+  ],
   "content": {
     "intro": "<p>Un <strong>CRM para PyMEs</strong> en Argentina va desde $0 (HubSpot Free) hasta $5.000.000 ARS o más en desarrollo custom. Un CRM SaaS de rango medio como Zoho cuesta $14 USD/usuario/mes, mientras que Salesforce arranca en $75 USD/usuario/mes. La pregunta no es cuánto cuesta: es cuánto te cuesta NO tener uno.</p><p>Si manejás tus clientes con una planilla de Excel, estás perdiendo seguimiento de oportunidades, olvidándote de hacer follow-ups y tomando decisiones sin datos. Un CRM básico gratuito ya es mejor que eso. Acá te mostramos las opciones reales con precios y te ayudamos a elegir.</p>",
     "sections": [
       {
         "heading": "CRM gratuitos que sirven para PyMEs argentinas",
-        "body": "<p><strong>HubSpot CRM Free</strong> es el mejor CRM gratuito del mercado y no es discutible. Incluye: gestión de contactos ilimitados, pipeline de ventas visual, seguimiento de emails, formularios web, chat en vivo, y reportes básicos. Todo gratis para siempre, sin límite de usuarios. La trampa: los módulos avanzados (automatización, secuencias de email, reportes custom) están en los planes pagos que arrancan en $20 USD/mes.</p><p><strong>Zoho CRM Free</strong> permite hasta 3 usuarios gratuitos con gestión de contactos, cuentas, negocios y tareas. Es más limitado que HubSpot Free pero tiene la ventaja de integrarse con todo el ecosistema Zoho (facturación, email marketing, soporte). Para un equipo de 1-3 personas, funciona.</p><p><strong>Bitrix24 Free</strong> permite usuarios ilimitados con CRM básico, gestión de tareas, chat interno y hasta un website builder. La interfaz es menos intuitiva que HubSpot, pero si necesitás una herramienta todo-en-uno sin pagar nada, es una opción sólida.</p><p>La realidad: un CRM gratuito es suficiente para el 50% de las PyMEs argentinas. Si tenés menos de 500 contactos, un equipo de ventas de 1-5 personas y procesos de venta simples, <strong>HubSpot Free te alcanza</strong>. No gastes plata en un CRM pago hasta que el gratuito se quede corto.</p>"
+        "body": "<p><strong>HubSpot CRM Free</strong> es el mejor CRM gratuito del mercado y no es discutible. Incluye: gestión de contactos ilimitados, pipeline de ventas visual, seguimiento de emails, formularios web, chat en vivo, y reportes básicos. Todo gratis para siempre, sin límite de usuarios. La trampa: los módulos avanzados (automatización, secuencias de email, reportes custom) están en los planes pagos que arrancan en $20 USD/mes.</p><p><strong>Zoho CRM Free</strong> permite hasta 3 usuarios gratuitos con gestión de contactos, cuentas, negocios y tareas. Es más limitado que HubSpot Free pero tiene la ventaja de integrarse con todo el ecosistema Zoho (facturación, email marketing, soporte). Para un equipo de 1-3 personas, funciona.</p><p><strong>Bitrix24 Free</strong> permite usuarios ilimitados con CRM básico, gestión de tareas, chat interno y hasta un website builder. La interfaz es menos intuitiva que HubSpot, pero si necesitás una herramienta todo-en-uno sin pagar nada, es una opción sólida.</p><p>La realidad: un CRM gratuito es suficiente para el 50% de las PyMEs argentinas. Si tenés menos de 500 contactos, un equipo de ventas de 1-5 personas y procesos de venta simples, <strong>HubSpot Free te alcanza</strong>. No gastes plata en un CRM pago hasta que el gratuito se quede corto.</p><p>Si ningún CRM estándar encaja con tu proceso, mirá cuánto cuesta el <a href=\"/blog/cuanto-cuesta-software-a-medida-argentina\">software a medida</a>; para ordenar la operación completa, un <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">sistema de gestión para pymes</a>.</p>"
       },
       {
         "heading": "Cuánto cuestan los CRM de pago más usados en Argentina",

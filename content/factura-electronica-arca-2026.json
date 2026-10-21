@@ -1,17 +1,28 @@
 {
   "slug": "factura-electronica-arca-2026",
   "title": "Factura electrónica ARCA 2026: guía paso a paso para monotributistas y responsables inscriptos",
-  "metaTitle": "Factura electrónica ARCA 2026 paso a paso",
-  "metaDescription": "AFIP ahora es ARCA. Guía actualizada 2026 para emitir factura electrónica: monotributo, responsable inscripto, herramientas gratis y pagas.",
+  "metaTitle": "Factura electrónica ARCA 2026: paso a paso (ex AFIP)",
+  "metaDescription": "AFIP ahora es ARCA. Cómo emitir factura electrónica en 2026 desde arca.gob.ar: monotributistas y responsables inscriptos, con herramientas gratis y pagas.",
   "silo": "guias",
   "siloLabel": "Guías Prácticas",
-  "tags": ["factura electrónica", "ARCA", "AFIP", "monotributo", "facturación"],
+  "tags": [
+    "factura electrónica",
+    "ARCA",
+    "AFIP",
+    "monotributo",
+    "facturación"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-facturacion-electronica-argentina", "cuanto-cuesta-sistema-de-gestion-pymes", "como-ordenar-operacion-interna-pyme", "como-digitalizar-mi-empresa"],
+  "relatedSlugs": [
+    "cuanto-cuesta-facturacion-electronica-argentina",
+    "cuanto-cuesta-sistema-de-gestion-pymes",
+    "como-ordenar-operacion-interna-pyme",
+    "como-digitalizar-mi-empresa"
+  ],
   "content": {
-    "intro": "<p>Si buscás \"factura electrónica AFIP\" en 2026, la mayoría del contenido que encontrás está desactualizado. <strong>AFIP ya no existe</strong> — desde diciembre 2024 se llama ARCA (Agencia de Recaudación y Control Aduanero). El sitio cambió, algunos procedimientos cambiaron, y muchas guías viejas te van a confundir.</p><p>Esta guía te explica cómo emitir <strong>factura electrónica desde arca.gob.ar</strong> en 2026, tanto si sos monotributista como responsable inscripto. Incluye las herramientas gratuitas y pagas que te simplifican la vida si facturás más de 10 veces por mes.</p>",
+    "intro": "<p><strong>Respuesta corta:</strong> AFIP ahora se llama ARCA. Para emitir factura electrónica seguís entrando con tu clave fiscal al servicio “Comprobantes en línea” de <a href=\"https://www.arca.gob.ar\" rel=\"noopener\">arca.gob.ar</a>, que es gratis; lo que cambió es el nombre y la URL.</p><p>Si buscás \"factura electrónica AFIP\" en 2026, la mayoría del contenido que encontrás está desactualizado. <strong>AFIP ya no existe</strong> — desde diciembre 2024 se llama ARCA (Agencia de Recaudación y Control Aduanero). El sitio cambió, algunos procedimientos cambiaron, y muchas guías viejas te van a confundir.</p><p>Esta guía te explica cómo emitir <strong>factura electrónica desde arca.gob.ar</strong> en 2026, tanto si sos monotributista como responsable inscripto. Incluye las herramientas gratuitas y pagas que te simplifican la vida si facturás más de 10 veces por mes.</p>",
     "sections": [
       {
         "heading": "AFIP ahora es ARCA: qué cambió y qué sigue igual",
@@ -23,7 +34,7 @@
       },
       {
         "heading": "Herramientas de facturación: cuándo conviene usar un sistema externo",
-        "body": "<p>Facturar desde arca.gob.ar funciona, pero es lento y manual. Si facturás más de 10 veces por mes, un sistema de facturación te ahorra horas y errores.</p><h3>Opciones gratuitas y económicas:</h3><ul><li><strong>Xubio:</strong> plan gratuito de hasta 10 facturas/mes. Planes pagos desde $8.500/mes para facturación ilimitada. Integra con Tiendanube, Mercado Libre, y bancos argentinos. Interfaz clara, soporte en español. Es la opción más popular entre PyMEs argentinas.</li><li><strong>Alegra:</strong> desde $2.599/mes. Incluye facturación, control de gastos, y reportes. Buena opción para freelancers y negocios de servicios. Interfaz moderna.</li><li><strong>Colppy:</strong> planes desde $7.900/mes. Más completo: facturación + gestión contable + stock. Ideal si tu contador quiere acceso al sistema.</li><li><strong>Facturante:</strong> plan gratuito limitado, planes pagos desde $3.500/mes. Simple y directo, solo facturación.</li></ul><p>Todos estos sistemas se conectan a ARCA por web services — vos cargás la factura en el sistema y se emite automáticamente en ARCA. No necesitás entrar al sitio de ARCA cada vez.</p>"
+        "body": "<p>Facturar desde arca.gob.ar funciona, pero es lento y manual. Si facturás más de 10 veces por mes, un sistema de facturación te ahorra horas y errores.</p><h3>Opciones gratuitas y económicas:</h3><ul><li><strong>Xubio:</strong> plan gratuito de hasta 10 facturas/mes. Planes pagos desde $8.500/mes para facturación ilimitada. Integra con Tiendanube, Mercado Libre, y bancos argentinos. Interfaz clara, soporte en español. Es la opción más popular entre PyMEs argentinas.</li><li><strong>Alegra:</strong> desde $2.599/mes. Incluye facturación, control de gastos, y reportes. Buena opción para freelancers y negocios de servicios. Interfaz moderna.</li><li><strong>Colppy:</strong> planes desde $7.900/mes. Más completo: facturación + gestión contable + stock. Ideal si tu contador quiere acceso al sistema.</li><li><strong>Facturante:</strong> plan gratuito limitado, planes pagos desde $3.500/mes. Simple y directo, solo facturación.</li></ul><p>Todos estos sistemas se conectan a ARCA por web services — vos cargás la factura en el sistema y se emite automáticamente en ARCA. No necesitás entrar al sitio de ARCA cada vez.</p><p>Para comparar precios de las herramientas pagas, mirá cuánto cuesta la <a href=\"/blog/cuanto-cuesta-facturacion-electronica-argentina\">facturación electrónica en Argentina</a>.</p>"
       },
       {
         "heading": "Integración con ecommerce y sistemas de gestión",
@@ -54,6 +65,10 @@
       {
         "question": "¿Cómo facturo las ventas de Mercado Libre?",
         "answer": "Mercado Libre no genera facturas automáticamente por vos. Necesitás un sistema externo (Xubio, Colppy) que lea tus ventas de ML y emita la factura en ARCA. La integración se configura una vez y después funciona sola."
+      },
+      {
+        "question": "¿Cuáles son los pasos para emitir una factura electrónica en ARCA?",
+        "answer": "Ingresás a arca.gob.ar con clave fiscal, habilitás el servicio Comprobantes en línea, creás tu punto de venta electrónico y emitís la factura: Factura C si sos monotributista, A o B si sos responsable inscripto. Se genera en PDF y queda registrada automáticamente."
       }
     ],
     "ctaText": "¿Necesitás automatizar la facturación de tu negocio? En SODI integramos tu tienda o sistema de gestión con ARCA para que las facturas se emitan solas con cada venta."
