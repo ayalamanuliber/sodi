@@ -12,7 +12,7 @@ export const BLOG_RELEASE_BASELINE = {
   approvedAt: "2026-08-28",
   expectedSearchEligibleCount: 467,
   approvedSlugSetSha256: "421cae56c6df5e021eb4d3add5a229cf55a8c598d3bb6324642abd606db6de25",
-  approvedCatalogContentSha256: "ce107772af20fa2879f191494ff3c18e4195436d763eea477d84edd9626d2a2a",
+  approvedCatalogContentSha256: "4d791273f01b11f920fcadb9f70fe168adabf49af7c99f0f7616353eb5ec54e1",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
