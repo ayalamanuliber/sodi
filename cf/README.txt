@@ -11,6 +11,8 @@ BUILD AND DEPLOY (always wrangler-vortex, never plain wrangler = Lococo account)
   npm ci
   NEXT_PUBLIC_SITE_URL=https://sodi.com.ar SODI_RELEASE_TARGET=production npx opennextjs-cloudflare build
   git checkout next-env.d.ts          # next build rewrites it
+  npx opennextjs-cloudflare populateCache local   # REQUIRED: copies the prerendered cache into .open-next/assets/cdn-cgi/_next_cache.
+                                      # Without it /blog and /sitemap.xml render at runtime, the blog gate reads fs (none in Workers) and 500s "release gate failed closed" (21/10 incident). `npm run cf:build` does build + checkout + populateCache.
   wrangler-vortex deploy
 SODI_RELEASE_TARGET=production stands in for VERCEL_ENV=production (editorial release guards in next.config.ts read it).
 NEXT_PUBLIC_SITE_URL must be set at BUILD time too (metadata/canonicals are baked in).
