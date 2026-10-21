@@ -77,5 +77,14 @@
       }
     ],
     "ctaText": "¿Querés ordenar el correo, los archivos y las herramientas de tu empresa? Hacé el diagnóstico gratuito de SODI y te armamos un plan según cómo trabaja tu equipo."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-05-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec"
   }
 }

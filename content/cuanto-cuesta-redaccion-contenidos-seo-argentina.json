@@ -77,5 +77,14 @@
       }
     ],
     "ctaText": "¿No sabés cuántos contenidos necesita tu sitio ni sobre qué temas? En SODI hacemos un diagnóstico SEO gratuito y te decimos qué páginas conviene escribir primero antes de que pagues un solo texto."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-07-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "dd74981ffc9563b332af5278e3d57b28be8d8851a11dcea54a3a0dc64a4f7133"
   }
 }

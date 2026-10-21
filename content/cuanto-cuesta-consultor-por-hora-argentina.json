@@ -78,5 +78,14 @@
       }
     ],
     "ctaText": "¿No sabés si necesitás un consultor por hora, un plan mensual o una agencia? En SODI te hacemos un diagnóstico gratuito y te decimos cuál es el formato que más te sirve para lo que querés resolver."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-03-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "e253724313cbba8d1fc276732d08a5dcfcb34d7d4270dad1dbb51f4e98baacf0"
   }
 }

@@ -17,6 +17,13 @@ const releaseSources = [
   ["sodi-content-sodi-086-v1", "/plantillas/dashboard-operativo-pyme", "content/templates/dashboard-operativo-pyme.json"],
   ["sodi-content-sodi-090-v1", "/blog/software-a-medida-vs-estandar", "content/software-a-medida-vs-estandar.json"],
   ["sodi-content-sodi-100-v1", "/blog/agencia-web-vs-freelancer", "content/agencia-web-vs-freelancer.json"],
+  ["sodi-escala-20261021-01-v1", "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina", "content/cuanto-cuesta-agencia-de-marketing-digital-argentina.json"],
+  ["sodi-escala-20261021-02-v1", "/blog/cuanto-cuesta-auditoria-seo-argentina", "content/cuanto-cuesta-auditoria-seo-argentina.json"],
+  ["sodi-escala-20261021-03-v1", "/blog/cuanto-cuesta-consultor-por-hora-argentina", "content/cuanto-cuesta-consultor-por-hora-argentina.json"],
+  ["sodi-escala-20261021-04-v1", "/blog/cuanto-cuesta-contratar-programador-freelance-argentina", "content/cuanto-cuesta-contratar-programador-freelance-argentina.json"],
+  ["sodi-escala-20261021-05-v1", "/blog/cuanto-cuesta-google-workspace-argentina", "content/cuanto-cuesta-google-workspace-argentina.json"],
+  ["sodi-escala-20261021-06-v1", "/blog/cuanto-cuesta-mantenimiento-wordpress-argentina", "content/cuanto-cuesta-mantenimiento-wordpress-argentina.json"],
+  ["sodi-escala-20261021-07-v1", "/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina", "content/cuanto-cuesta-redaccion-contenidos-seo-argentina.json"],
 ];
 
 function sha256(value) {
@@ -61,7 +68,7 @@ const manifest = {
   channel: "production_release",
   authority: "owner_authorized",
   generatedAt: "2026-08-31",
-  expectedRouteCount: 10,
+  expectedRouteCount: 17,
   routeSetSha256: sha256(routes.map((entry) => entry.route).sort().join("\n")),
   routes,
 };
@@ -74,4 +81,4 @@ writeFileSync(
     `export const EDITORIAL_RELEASE = ${JSON.stringify(manifest, null, 2)} as const;\n`,
 );
 
-console.log(`SODI editorial release: ${routes.length}/10 routes, digest ${manifest.routeSetSha256}.`);
+console.log(`SODI editorial release: ${routes.length}/17 routes, digest ${manifest.routeSetSha256}.`);

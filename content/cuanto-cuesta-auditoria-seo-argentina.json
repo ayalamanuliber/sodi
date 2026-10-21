@@ -81,5 +81,14 @@
       }
     ],
     "ctaText": "¿Querés saber cómo está tu sitio antes de pagar una auditoría? En SODI hacemos un diagnóstico SEO gratuito: te mostramos en qué posición estás, contra quién competís y qué problemas técnicos aparecen primero."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-02-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "429c6a0fb24725898a3d6e43693022daa7f4177681afc81b7f46a27beb454789"
   }
 }

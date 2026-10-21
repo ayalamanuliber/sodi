@@ -78,5 +78,14 @@
       }
     ],
     "ctaText": "¿Tenés una propuesta de una agencia y no sabés si el precio y el alcance tienen sentido? En SODI te hacemos un diagnóstico gratuito de tu marketing digital y revisamos con vos qué conviene contratar y qué no."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-01-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "a7ba0272068c15da350f3c5c3ac161509f617945e14917e411c8539c2424bbe3"
   }
 }

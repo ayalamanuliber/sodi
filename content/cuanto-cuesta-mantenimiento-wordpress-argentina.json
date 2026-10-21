@@ -81,5 +81,14 @@
       }
     ],
     "ctaText": "¿Querés saber qué plan de mantenimiento necesita tu sitio y cuánto sobra en lo que hoy pagás? Pedí tu diagnóstico gratuito en <a href=\"/diagnostico\">/diagnostico</a>."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-06-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "bb3f01429c934066fac4f84cfe8e0d2f61ceda1ec056c02d7aea934df707678c"
   }
 }

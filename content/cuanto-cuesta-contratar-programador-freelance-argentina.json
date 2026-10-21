@@ -81,5 +81,14 @@
       }
     ],
     "ctaText": "¿Necesitás desarrollo y no sabés si contratar a alguien o encargarlo? Hacé el diagnóstico gratuito de SODI y te ayudamos a ordenar el alcance antes de pedir presupuestos."
+  },
+  "editorialReview": {
+    "packetId": "sodi-escala-20261021-04-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 7087322b",
+    "verifiedAt": "2026-10-21",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "87c0fd33904a18d6f0926921388953ef10a1777b192c327389c70f2e53279138"
   }
 }

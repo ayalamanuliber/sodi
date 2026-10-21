@@ -4,8 +4,8 @@
   "channel": "production_release",
   "authority": "owner_authorized",
   "generatedAt": "2026-08-31",
-  "expectedRouteCount": 10,
-  "routeSetSha256": "1cf02bcb3118ab86aa151885adc4a5ebe13b2b99e54dc018ce28f2794b30ad6b",
+  "expectedRouteCount": 17,
+  "routeSetSha256": "cdaf173a91fb551ea9129e216deeca8fd67b116ff1f20e178e05b5d0b5097ed7",
   "routes": [
     {
       "packetId": "sodi-content-sodi-010-v1",
@@ -211,6 +211,174 @@
         "/blog/contratar-programador-vs-agencia"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=agencia-web-vs-freelancer&ruta=comparativas",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-01-v1",
+      "route": "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-agencia-de-marketing-digital-argentina.json",
+      "sourceFileSha256": "00a9dc5d55752165c304fe2b9055c63093f7c9ae6e4bbf0cc80c85289ca70310",
+      "contentSha256": "a7ba0272068c15da350f3c5c3ac161509f617945e14917e411c8539c2424bbe3",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-marketing-digital-argentina",
+        "/blog/cuanto-cuesta-consultoria-marketing-digital",
+        "/blog/cuanto-cuesta-community-manager-argentina",
+        "/blog/cuanto-cuesta-seo-argentina",
+        "/blog/como-elegir-agencia-web-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-agencia-de-marketing-digital-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-02-v1",
+      "route": "/blog/cuanto-cuesta-auditoria-seo-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-auditoria-seo-argentina.json",
+      "sourceFileSha256": "a9bd746ac49c998b9bff98fdf235d998ebb390595e09b8cd9513aa16d41ec320",
+      "contentSha256": "429c6a0fb24725898a3d6e43693022daa7f4177681afc81b7f46a27beb454789",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-auditoria-seo-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-seo-argentina",
+        "/blog/que-es-seo-y-por-que-importa",
+        "/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina",
+        "/blog/agencia-web-vs-freelancer",
+        "/blog/cuanto-cuesta-consultoria-marketing-digital"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-auditoria-seo-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-03-v1",
+      "route": "/blog/cuanto-cuesta-consultor-por-hora-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-consultor-por-hora-argentina.json",
+      "sourceFileSha256": "4ef5501c9406474c128fb4e8c7fb6dd01852e4255dd4bf316562f38dc5b95b25",
+      "contentSha256": "e253724313cbba8d1fc276732d08a5dcfcb34d7d4270dad1dbb51f4e98baacf0",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-consultor-por-hora-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-consultoria-marketing-digital",
+        "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
+        "/blog/cuanto-cuesta-software-a-medida-argentina",
+        "/blog/contratar-programador-vs-agencia",
+        "/blog/cuanto-cuesta-marketing-digital-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-consultor-por-hora-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-04-v1",
+      "route": "/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-contratar-programador-freelance-argentina.json",
+      "sourceFileSha256": "068952f5ff6bb75bec9d684b532a0255fc184afb26e73c124c6aa22f86978bfa",
+      "contentSha256": "87c0fd33904a18d6f0926921388953ef10a1777b192c327389c70f2e53279138",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-software-a-medida-argentina",
+        "/blog/cuanto-cuesta-app-movil-argentina",
+        "/blog/contratar-programador-vs-agencia",
+        "/blog/chatgpt-vs-programador-argentina",
+        "/blog/agencia-web-vs-freelancer"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-contratar-programador-freelance-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-05-v1",
+      "route": "/blog/cuanto-cuesta-google-workspace-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-google-workspace-argentina.json",
+      "sourceFileSha256": "c8e47c99ca4612de77f9bd1a3edd32bd6788f053e514e8648864a8cbec80a6ec",
+      "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-google-workspace-argentina",
+      "internalLinks": [
+        "/blog/google-workspace-vs-microsoft-365-argentina",
+        "/blog/como-centralizar-informacion-empresa",
+        "/blog/cuanto-cuesta-ciberseguridad-pymes-argentina",
+        "/blog/cuanto-cuesta-hosting-argentina",
+        "/blog/como-digitalizar-mi-empresa"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-google-workspace-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-06-v1",
+      "route": "/blog/cuanto-cuesta-mantenimiento-wordpress-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-mantenimiento-wordpress-argentina.json",
+      "sourceFileSha256": "662139106ebbb1486cdede11b9da3dd50420aea665ac6374a9b38319753a80a1",
+      "contentSha256": "bb3f01429c934066fac4f84cfe8e0d2f61ceda1ec056c02d7aea934df707678c",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-mantenimiento-wordpress-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-mantenimiento-pagina-web",
+        "/blog/wordpress-vs-desarrollo-a-medida",
+        "/blog/cuanto-cuesta-hosting-argentina",
+        "/blog/cuanto-cuesta-pagina-web-argentina",
+        "/blog/que-es-hosting-y-dominio"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-mantenimiento-wordpress-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-escala-20261021-07-v1",
+      "route": "/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-redaccion-contenidos-seo-argentina.json",
+      "sourceFileSha256": "1b911d741a12a86a5774fa6fe4a69649ecfbfb959d39562f073212fbfdbb1d2a",
+      "contentSha256": "dd74981ffc9563b332af5278e3d57b28be8d8851a11dcea54a3a0dc64a4f7133",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-seo-argentina",
+        "/blog/cuanto-cuesta-auditoria-seo-argentina",
+        "/blog/que-es-seo-y-por-que-importa",
+        "/blog/como-crear-contenido-para-redes-sociales-pyme",
+        "/blog/agencia-web-vs-freelancer"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-redaccion-contenidos-seo-argentina&ruta=precios",
       "release": {
         "index": true,
         "follow": true,
