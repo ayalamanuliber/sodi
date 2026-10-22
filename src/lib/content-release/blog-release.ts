@@ -15,7 +15,7 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: CyberMonday (title/H1/meta) + Community Manager (title/H1/H2, sueldo con fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: cifras de precio sin fuente (Meta Ads, agencia/freelance/consultoria/ads) con link de fuente o reescritas sin numero + gate price-sources. Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
-  approvedCatalogContentSha256: "d449478504764f2e6285bfa5402f274a598b5e4380c501d9545a159f8291044d",
+  approvedCatalogContentSha256: "88e820dea4f72992ae7905f36b4904b127fb36126610f28d267cdf88b53d3b80",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
