@@ -15,7 +15,7 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: CyberMonday (title/H1/meta) + Community Manager (title/H1/H2, sueldo con fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: cifras de precio sin fuente (Meta Ads, agencia/freelance/consultoria/ads) con link de fuente o reescritas sin numero + gate price-sources. Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
-  approvedCatalogContentSha256: "9a21129f03b877324eb6ca74c5f04de6905e2573b94a4f1c6e996e1029929832",
+  approvedCatalogContentSha256: "d69e87e0866aae56640f81dbbc09e494f35be25d8152e9c8b055953f90ab5dc6",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
@@ -146,6 +146,13 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
     packetId: "sodi-escala-20261021-07-v1",
     reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "indice-precios-servicios-digitales-argentina": {
+    status: "approved",
+    reason: "Aprobado por Manuel 22/10/2026 (tarjeta 6c82f0a2): indice de precios con fuente y fecha por fila, 22 filas releidas hoy.",
+    packetId: "sodi-indice-20261022-01-v1",
+    reviewGate: "Releer cada fuente antes de aprobar; no convertir monedas ni promediar; sin precios propios de SODI.",
     baselineMember: false,
   },
   "black-friday-argentina-2026-ecommerce-pyme": {

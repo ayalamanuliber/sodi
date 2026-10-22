@@ -21,7 +21,7 @@ import { getTemplateSlugs } from "../src/lib/template-data.ts";
 const inspection = inspectEditorialRelease();
 assert.equal(inspection.valid, true, inspection.errors.join(" "));
 const manifest = assertEditorialRelease();
-assert.equal(manifest.routes.length, 18);
+assert.equal(manifest.routes.length, 19);
 
 for (const entry of manifest.routes) {
   const source = readFileSync(resolve(process.cwd(), entry.sourcePath));

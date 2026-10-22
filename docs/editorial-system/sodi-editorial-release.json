@@ -4,8 +4,8 @@
   "channel": "production_release",
   "authority": "owner_authorized",
   "generatedAt": "2026-08-31",
-  "expectedRouteCount": 18,
-  "routeSetSha256": "cda086736da87ed2304e1bc6bd9abd036a114c91002cc3f21f08b1cef240453a",
+  "expectedRouteCount": 19,
+  "routeSetSha256": "59bbe3bf8aa1d966383dce99981bde3e9cca2edaa66bff1ea043fb839e94c45c",
   "routes": [
     {
       "packetId": "sodi-content-sodi-010-v1",
@@ -403,6 +403,30 @@
         "/blog/como-preparar-tienda-hot-sale-2026"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=black-friday-argentina-2026-ecommerce-pyme&ruta=guias",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-indice-20261022-01-v1",
+      "route": "/blog/indice-precios-servicios-digitales-argentina",
+      "kind": "blog",
+      "sourcePath": "content/indice-precios-servicios-digitales-argentina.json",
+      "sourceFileSha256": "9d1ead33df525d2ee04f4b8e8264bee1fb277e5a71877cdcfc4e95b698d1ce08",
+      "contentSha256": "a2bb9b795cf247358e72498f628153b839219f221e9745761a53a45c2c192183",
+      "canonical": "https://sodi.com.ar/blog/indice-precios-servicios-digitales-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-google-workspace-argentina",
+        "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
+        "/blog/cuanto-cuesta-community-manager-argentina",
+        "/blog/cuanto-cuesta-consultor-por-hora-argentina",
+        "/blog/cuanto-cuesta-contratar-programador-freelance-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=indice-precios-servicios-digitales-argentina&ruta=precios",
       "release": {
         "index": true,
         "follow": true,
