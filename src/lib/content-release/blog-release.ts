@@ -13,7 +13,8 @@ export const BLOG_RELEASE_BASELINE = {
   expectedSearchEligibleCount: 467,
   approvedSlugSetSha256: "421cae56c6df5e021eb4d3add5a229cf55a8c598d3bb6324642abd606db6de25",
   // Re-pin 22/10/2026: CyberMonday (title/H1/meta) + Community Manager (title/H1/H2, sueldo con fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
-  approvedCatalogContentSha256: "659bfa5a1a5920fc5d29b244e5833369216f98ab04d00bc2d885ae06963a6dbc",
+  // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
+  approvedCatalogContentSha256: "f9fe0837f499ac871f46788e94f5bcd124aa7329976a6be0990ed733decc4d57",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
