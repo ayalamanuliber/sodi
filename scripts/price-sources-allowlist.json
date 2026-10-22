@@ -40,7 +40,10 @@
   "cuanto-cuesta-sistema-inventario-stock",
   "cuanto-cuesta-tienda-online-para-indumentaria",
   "wix-vs-desarrollo-profesional",
-  "canva-vs-disenador-grafico-profesional"
+  "canva-vs-disenador-grafico-profesional",
+  "modo-vs-mercadopago-para-negocios",
+  "mercadopago-vs-mobbex-ecommerce",
+  "google-workspace-vs-microsoft-365-argentina"
  ],
  "baseline": {
   "agentes-ia-whatsapp-atencion-clientes": {
@@ -1565,22 +1568,6 @@
    "0fcc0f25a770e90c": "Podés arrancar con $40.000 ARS/mes y ya tener resultados, especialmente si enfocás el pres",
    "7781f5489c671e17": "Con $80.000 ARS/mes de presupuesto y campañas bien optimizadas, una veterinaria puede espe"
   },
-  "google-workspace-vs-microsoft-365-argentina": {
-   "c4818726851d47c4": "Workspace $7.20 USD/usuario/mes, M365 $6 USD/usuario/mes. Workspace para equipos chicos y ",
-   "5315c6beaf31ce98": "En precios, la diferencia es mínima: Workspace Business Starter sale $7.20 USD/usuario/mes",
-   "f42a04fd9393d1b2": "Precio base $7.20 USD/usuario/mes (Business Starter) $6 USD/usuario/mes (Business Basic)",
-   "ad33225245d34502": "Costo 10 usuarios/mes $72 USD (~$86.400 ARS) $60 USD (~$72.000 ARS)",
-   "5e8eedee4b1b601b": "App desktop No (todo en navegador) Sí (desde Business Standard $12.50/usuario)",
-   "87a5adcfa92a40d8": "El plan Business Starter ($7.20 USD/usuario) cubre email, Drive (30 GB), Meet, Docs, Sheet",
-   "9de08aa6f93c77d7": "Necesitás apps de escritorio. Si tu equipo prefiere Word y PowerPoint instalados (no en el",
-   "74ba59837d86927c": "El plan Business Basic ($6 USD/usuario) incluye apps web + 1 TB de OneDrive + Teams. Para ",
-   "9d2623410f11e4a8": "Google Workspace Starter (10 usuarios): $72 USD + impuestos = ~$112.000 ARS/mes.",
-   "5bae7c43c2abc71e": "Google Workspace Business Plus (10 usuarios): $180 USD + impuestos = ~$280.000 ARS/mes.",
-   "efe48ee798436423": "M365 Business Basic (10 usuarios): $60 USD + impuestos = ~$94.000 ARS/mes.",
-   "116337db4c786bec": "M365 Business Standard (10 usuarios): $125 USD + impuestos = ~$195.000 ARS/mes.",
-   "14f2e98f0ca880d1": "No. Para usar tu@tuempresa.com.ar con Gmail necesitás Google Workspace (mínimo $7.20 USD/u",
-   "dce61e75dfff1257": "Microsoft ofrece versiones web gratuitas de Word, Excel y PowerPoint en office.com, pero s"
-  },
   "instagram-shop-vs-tienda-online-propia": {
    "099e0f56457c1c43": "Instagram Shop es gratis pero no controlás nada. Una tienda propia cuesta $400.000-$2.500.",
    "88f40c794a2aa00c": "Instagram Shop es gratis y te pone frente a millones de usuarios. Genial. Pero no sos dueñ",
@@ -1654,11 +1641,6 @@
    "af6bae2863c8c257": "Para tu tienda propia: Tiendanube desde $15.000/mes, o desarrollo WooCommerce desde $500.0",
    "0effaf0a60fa1440": "Con Tiendanube arrancás desde $15.000/mes sin inversión inicial. Con WooCommerce (WordPres"
   },
-  "mercadopago-vs-mobbex-ecommerce": {
-   "f03b64507931e097": "Los números clave: en una venta de $100.000 ARS, MercadoPago se queda con $6.039 (4.99% + ",
-   "06dd10cb5713cb0a": "Dato clave: si tu ticket promedio es alto (+$50.000 ARS), la diferencia de comisión entre ",
-   "73e29375f798b492": "MercadoPago cobra 4.99% + IVA por cada venta con acreditación inmediata. Eso equivale a ~6"
-  },
   "mi-negocio-no-aparece-en-google": {
    "e906202da7210c36": "Google Business Profile es gratis y lo podés hacer vos. Un sitio web profesional para PyME"
   },
@@ -1666,10 +1648,6 @@
    "60108e5d055be52e": "Si tu sitio está caído cuando un cliente intenta entrar, no solo perdés esa venta sino que",
    "3c596d22c95d0b8f": "La regla general : si podés arreglar los problemas principales con menos de $200.000 ARS d",
    "2959e5bad364129f": "Depende de qué hay que arreglar. Agregar un botón de WhatsApp puede costar $10.000-$30.000"
-  },
-  "modo-vs-mercadopago-para-negocios": {
-   "c79cbe09f8c4e9ef": "El costo real: por cada $100.000 ARS que vendés online con MercadoPago, pagás $6.039 de co",
-   "2f3e78e7b2ae0007": "Ejemplo real: un restaurante en CABA que factura $5.000.000/mes. Si cobra todo por Mercado"
   },
   "monotributista-puede-vender-online-argentina": {
    "af2501304362e825": "Tiendanube : la plataforma argentina más usada para tiendas propias. Tiene plan gratuito y"
