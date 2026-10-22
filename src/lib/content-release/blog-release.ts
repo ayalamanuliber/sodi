@@ -16,7 +16,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: cifras de precio sin fuente (Meta Ads, agencia/freelance/consultoria/ads) con link de fuente o reescritas sin numero + gate price-sources. Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: enlaces desde 5 notas existentes a las paginas nuevas de aguinaldo 2026 y vencimientos ARCA nov/dic 2026 (sodi-fc15). Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
-  approvedCatalogContentSha256: "2ecbc996095140f957b0a8a57cbd0e348fc58942f0845843ad7ba8e26ec4da40",
+  // Re-pin 22/10/2026: lote 4 de cifras de precio sin fuente, 23 articulos mas en estricto (baseline 2416 -> 2053), link con fecha a fuente leida o reescritas sin numero. Manuel TG3533: "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
+  approvedCatalogContentSha256: "a656ccfea4f59f360039decaf07579473ddb8369b813a5bd088b8c6d49b393b8",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
