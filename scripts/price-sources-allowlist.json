@@ -69,7 +69,31 @@
   "salesforce-vs-hubspot-argentina-pymes",
   "shopify-vs-woocommerce-argentina",
   "tienda-online-para-cervecerias",
-  "tienda-online-para-opticas"
+  "tienda-online-para-opticas",
+  "alternativas-mercadopago-ecommerce-argentina",
+  "automatizar-whatsapp-seguros",
+  "automatizar-whatsapp-transporte",
+  "automatizar-whatsapp-veterinarias",
+  "como-cobrar-con-qr-en-mi-negocio",
+  "como-elegir-empresa-de-envios-ecommerce-argentina",
+  "crm-gratuito-vs-pago",
+  "cuanto-cuesta-app-de-turnos",
+  "cuanto-cuesta-crm-para-pymes",
+  "cuanto-cuesta-diseno-de-logo-argentina",
+  "cuanto-cuesta-pagina-web-para-abogados",
+  "cuanto-cuesta-pagina-web-para-inmobiliarias",
+  "cuanto-cuesta-posicionamiento-google-maps",
+  "excel-vs-sistema-de-gestion",
+  "pagina-web-vs-instagram",
+  "que-es-desarrollo-web-a-medida",
+  "que-es-ecommerce-en-argentina",
+  "que-es-un-bot-de-whatsapp",
+  "que-es-un-community-manager",
+  "que-es-un-panel-operativo",
+  "que-es-whatsapp-business-y-como-usarlo",
+  "sistema-de-gestion-para-institutos-educativos",
+  "sistema-de-gestion-para-restaurantes",
+  "tiendanube-vs-empretienda-argentina"
  ],
  "baseline": {
   "agentes-ia-whatsapp-atencion-clientes": {
@@ -88,14 +112,6 @@
    "bd01ed550cff30ee": "Precio: plan gratis disponible. Planes pagos desde $12.500/mes.",
    "a2e25de441e20147": "Precio: plugin gratis + hosting ($5.000-$15.000/mes) + setup ($200.000-$500.000 si contrat",
    "26be59d26c2ed5a3": "Precio: desde USD 29/mes + 2% comisión si no usás Shopify Payments."
-  },
-  "alternativas-mercadopago-ecommerce-argentina": {
-   "f7d4113f412de5c9": "Comisión ~3.5% + IVA: negociable por volumen. Algunos negocios logran 2.8-3.0%. En $5.000.",
-   "bf2b68c3bfbc3bcc": "Ideal para empresas medianas-grandes que mueven +$10.000.000/mes y tienen equipo técnico.",
-   "26d7817a62ccbef2": "Ticket alto: en una venta de $500.000, te ahorrás $30.200 de comisión vs MercadoPago. Eso ",
-   "19a1da57807d4b49": "Ventas masivas de ticket bajo: verificar cada transferencia manualmente con 50 ventas diar",
-   "58690ea70b2ad2bb": "Vendés por Tiendanube y facturás menos de $3.000.000/mes: quedate con MercadoPago. La inte",
-   "d3d3a887aee9e1cf": "Vendés por Tiendanube o WooCommerce y facturás más de $3.000.000/mes: integrá Mobbex como "
   },
   "automatizacion-ia-procesos-pymes": {
    "ff4c168e2ee062f5": "Plan gratuito: 100 tareas/mes. Plan pago desde USD 19.99/mes",
@@ -238,29 +254,12 @@
    "2e1daec41c316dea": "Compará el costo mensual de cualquiera de estas opciones con lo que pagás de comisión a la",
    "6fea5f4d090a1f32": "Las apps de delivery cobran entre 25% y 35% por pedido. Si tu ticket promedio es de $8.000"
   },
-  "automatizar-whatsapp-seguros": {
-   "5a077a798089c1ed": "CRM de seguros + WhatsApp (SICS, SeguPro desde USD 30/mes): algunos CRM de seguros argenti",
-   "16883d1e7feff1bf": "Bots SaaS (Botmaker, Cliengo desde USD 25/mes): flujos de cotización y captación. Para pro",
-   "423b41b4afdd9fc6": "Desarrollo custom (desde USD 300 setup): integración con multicotizador y sistema de gesti",
-   "f01ceed744e47bdb": "El ROI en seguros es claro: si cada póliza renovada te genera $5.000-$15.000 de comisión a"
-  },
   "automatizar-whatsapp-talleres-mecanicos": {
    "b909c79d77fa1186": "Aurora Inbox (desde USD 15/mes): plataforma argentina que permite flujos de conversación a",
    "753e94aa58a4c131": "Whato (desde USD 20/mes): otra opción argentina con buena integración de catálogos y respu",
    "0719fb58c10bfeff": "ChatCompose (desde USD 12/mes): chatbot que se integra con WhatsApp Business API. Permite ",
    "379014a743412c84": "ManyChat (desde USD 15/mes): muy popular para automatización de WhatsApp con flujos visual",
    "3126bb6493de9a0c": "Desde gratis con WhatsApp Business hasta USD 15-30/mes con herramientas como Aurora Inbox "
-  },
-  "automatizar-whatsapp-transporte": {
-   "da74ff3a1c004b3d": "Bots SaaS (Botmaker, Wati desde USD 30/mes): flujos de cotización, tracking manual (cargar",
-   "1484258824c4477c": "Integración con TMS + API WhatsApp (desde USD 300 setup): cotización automática desde tabl",
-   "148d98460cc2c14c": "Desarrollo custom (desde USD 500 setup): integración completa con sistema de despacho, fac"
-  },
-  "automatizar-whatsapp-veterinarias": {
-   "fc807cb65508059b": "Software veterinario con WhatsApp (VetSoft, FichaPet desde USD 20/mes): algunos sistemas d",
-   "bef68f1b96a995c2": "Bots SaaS (Botmaker, Cliengo desde USD 25/mes): flujos personalizados de turnos y recordat",
-   "02bfdc8d890310d3": "Desarrollo custom (desde USD 200 setup): integración con tu sistema de historias clínicas ",
-   "3fdc17bca4d4d563": "El ROI es directo: 20 turnos extra por mes a un promedio de $10.000 por consulta son $200."
   },
   "automatizar-whatsapp-viveros": {
    "a961fb07330187af": "Programa de puntos: \"Acumulás 1 punto por cada $1.000 de compra. Con 10 puntos tenés un 20",
@@ -341,9 +340,6 @@
    "490157f17eb5d92d": "Google Workspace: USD 7/usuario/mes. Drive compartido con permisos, email profesional, Cal",
    "7f84da305148d2e6": "Con herramientas gratuitas (Google Drive, Notion Free, HubSpot Free) podés centralizar las"
   },
-  "como-cobrar-con-qr-en-mi-negocio": {
-   "25a812a756950ca1": "Ofrecé cuotas sin interés cuando puedas : MercadoPago te permite ofrecer cuotas absorbiend"
-  },
   "como-conseguir-clientes-por-internet": {
    "493c3ce2b2fa8dac": "Contenido: un blog con artículos que respondan las preguntas de tus clientes. 2-4 artículo",
    "d8cd18eee59c734d": "Costo real: un community manager freelancer cobra entre $80.000 y $200.000/mes en Argentin",
@@ -407,16 +403,6 @@
    "0159c3eb0ddc0ca6": "Comparalo con el costo de NO digitalizar : si perdés 5 consultas por semana porque tardás ",
    "28bbfccd09bbe3a2": "Sí. Usando herramientas gratuitas (Google Business, WhatsApp Business, HubSpot Free, Googl",
    "47e60e2df88712fa": "Depende de tu tiempo y habilidades. La Fase 1 la podés hacer solo con guías online. Para F"
-  },
-  "como-elegir-empresa-de-envios-ecommerce-argentina": {
-   "babcbab058ffbd2a": "Paquete hasta 1 kg CABA a CABA: $4.000-$6.000 ARS.",
-   "b6dcbfbb0200cbcd": "Paquete hasta 5 kg CABA a GBA: $5.000-$9.000 ARS.",
-   "5388f2e4755b9222": "Paquete hasta 5 kg CABA a Interior: $7.000-$15.000 ARS (varía según destino).",
-   "e220210d9ef316b1": "Plataformas agregadoras que te dan acceso a múltiples transportistas (Andreani, OCA, Via C",
-   "fa0e1821cb19a786": "Envíopack Flex : red de mensajeros que retiran en tu local/depósito y entregan en el día. ",
-   "ea92e4ec9b2ff637": "Pedidos Ya Envíos : integración con Tiendanube para envío express en CABA/GBA. Entrega en ",
-   "655a99377ec717f9": "Sí, pero con umbral mínimo de compra (ej: envío gratis en compras mayores a $30.000 ARS). ",
-   "a68e9a4ec9befad4": "Sacá el promedio ponderado: si el 60% de tus envíos son CABA ($5.000 ARS), 30% GBA ($8.000"
   },
   "como-elegir-pasarela-de-pago-argentina": {
    "a743f6cbf643db27": "Las comisiones se negocian según tu volumen de ventas mensual — si vendés más de $1.000.00",
@@ -581,34 +567,6 @@
    "1d11e5f2e5251a2e": "Sí, para usar Mercado Pago y facturar necesitás estar inscripto como monotributista o resp",
    "6224922ad6cf0eea": "Los rubros con más crecimiento online en Argentina son: indumentaria, electrónica, aliment"
   },
-  "crm-gratuito-vs-pago": {
-   "ba2ec4439583727b": "HubSpot Starter: desde $20 USD/mes (~$24.000 ARS) por 2 usuarios. Incluye: quitar branding",
-   "da3962a81b699a70": "Zoho CRM Standard: $14 USD/usuario/mes (~$17.000 ARS). Incluye: workflows, reportes, scori",
-   "019e705734c8b594": "Pipedrive Essential: $14.90 USD/usuario/mes (~$18.000 ARS). CRM visual, simple, enfocado e",
-   "2009282c701e6c06": "Zoho Standard: ~$85.000 ARS/mes",
-   "4365cfc8879bd6dd": "Pipedrive Essential: ~$90.000 ARS/mes",
-   "98fe012ae8d8c393": "HubSpot Starter: ~$60.000 ARS/mes (solo 2 usuarios incluidos, $24.000 por usuario adiciona",
-   "cfc02abedc687517": "Zoho CRM Standard: ~$17.000 ARS/usuario/mes. Pipedrive Essential: ~$18.000/usuario/mes. Hu",
-   "bde247becc317d30": "Sí. HubSpot y Zoho integran con WhatsApp Business API a través de plataformas como Cliengo"
-  },
-  "cuanto-cuesta-app-de-turnos": {
-   "9f14a5bb9db4545e": "App de turnos online: SaaS de USD 10 a 45/mes o desarrollo a medida de $800.000 a $2.000.0",
-   "05aab177b0806d43": "Una app de turnos online en Argentina tiene dos caminos: usar un SaaS (software como servi",
-   "fcee64f6d98a180f": "AgendaPro : $15-$45 USD/mes dependiendo del plan. El plan basico ($15 USD) incluye agenda ",
-   "1c98bb30a41c01dd": "Calendly : plan gratuito limitado, plan standard $10 USD/mes por usuario. Funciona bien pa",
-   "8fabd37b8a5f6b93": "Cal.com : gratis en su version open source. Plan hosted desde $12 USD/mes. Es la opcion ma",
-   "5b2a7957759497b7": "Cloxsy : $10-$30 USD/mes. Pensado para el mercado latinoamericano, tiene integracion nativ",
-   "0f0a4e49ac4608d5": "En todos los casos, suma el costo de integracion inicial: configurar el sistema, cargar pr",
-   "b36e0a32eb29ccc3": "Un desarrollo a medida de sistema de turnos cuesta entre $800.000 y $2.000.000 ARS en Arge",
-   "9f8301e54d3247ab": "Un sistema basico a medida ($800.000-$1.200.000 ARS) incluye: panel de administracion para",
-   "12c345b32c798b3e": "Un sistema completo ($1.500.000-$2.000.000+ ARS) agrega: app mobile nativa (iOS/Android) o",
-   "c64a1ef8dd41dca8": "El plazo de desarrollo va de 6 a 12 semanas para el sistema basico y de 3 a 5 meses para e",
-   "ea4684aae7b8840d": "Peluquerias y centros de estetica : SaaS. AgendaPro o Cloxsy resuelven todo lo que necesit",
-   "c0cf407c0b6dcf3b": "En SaaS : la mayoria cobra en dolares. Con la volatilidad del tipo de cambio argentino, un",
-   "3e1098043bb20929": "En desarrollo a medida : el costo de desarrollo es solo el comienzo. Sumale: hosting ($10.",
-   "0ef7f3eb349f1615": "Si. AgendaPro y Cloxsy tienen integracion nativa con Mercado Pago. Cal.com y Calendly se i",
-   "b4cafa1cbb88398a": "La version self-hosted (que vos instalas en tu propio servidor) es gratis y open source. P"
-  },
   "cuanto-cuesta-bot-whatsapp-empresas": {
    "cf85a4942652caeb": "Un bot de WhatsApp cuesta desde $30 USD/mes con plataformas como Wasapi hasta $2.500.000 A",
    "c3e38462c4883efb": "Un bot de WhatsApp para empresas en Argentina cuesta entre $30 USD/mes con plataformas pre",
@@ -628,37 +586,6 @@
    "974d539f73cd22fa": "Desde $30 USD/mes con plataformas como Wasapi o WATI, hasta $800.000-$2.500.000 ARS por un",
    "fecc9a5d05ef582f": "Wasapi ($30 USD/mes) es la mejor opción para PyMEs argentinas por precio, soporte local e ",
    "e51ed7056c40026b": "Si recibís menos de 50 consultas diarias y usás una plataforma como Wasapi, la app Busines"
-  },
-  "cuanto-cuesta-crm-para-pymes": {
-   "c0f976a19edbf81e": "HubSpot gratis, Zoho desde $14 USD/usuario, Salesforce desde $75 USD/usuario. Un CRM custo",
-   "3753255020a443a2": "Un CRM para PyMEs en Argentina va desde $0 (HubSpot Free) hasta $5.000.000 ARS o más en de",
-   "6deb673cdc45a751": "HubSpot CRM Free es el mejor CRM gratuito del mercado y no es discutible. Incluye: gestión",
-   "52df578f65ae0975": "Zoho CRM tiene el mejor precio del mercado: $14 USD/usuario/mes (plan Standard). El plan P",
-   "d01da99452aad50b": "Pipedrive cuesta desde $14.90 USD/usuario/mes y está diseñado para equipos de ventas. Su p",
-   "7382eae96df545af": "HubSpot Starter arranca en $20 USD/mes (2 usuarios incluidos). Cada usuario adicional cues",
-   "cb9cc92d1702190d": "Salesforce arranca en $25 USD/usuario/mes (Essentials) pero el plan realmente útil (Profes",
-   "5430f40be2b075e4": "Un CRM custom básico (gestión de contactos, pipeline de ventas, tareas, reportes, integrac",
-   "a88a018dbe7936fc": "Un CRM custom completo (todo lo anterior más automatización de procesos, scoring de leads,",
-   "7eabfd1c57c7410c": "¿Cuándo tiene sentido invertir $3M+ en un CRM custom en vez de pagar $14 USD/mes por Zoho?",
-   "2d964104bda1b647": "El mantenimiento de un CRM custom cuesta entre $120.000 y $300.000 ARS/mes. Sumá el hostin",
-   "34c7611e395effb4": "5-15 empleados, equipo de ventas de 3-8 personas: Zoho CRM Standard ($14 USD/usuario) o Pi",
-   "b0e159ca8d78aeba": "15-50 empleados, procesos complejos: HubSpot Professional ($800 USD/mes para 5 usuarios) o",
-   "5ee7434302d3d273": "HubSpot CRM es gratuito para siempre con funciones básicas. Los CRM pagos cuestan desde $1",
-   "2606729d20c859ad": "Un CRM custom ($2M-$5M ARS) solo conviene si tu proceso de venta es altamente específico y",
-   "da375a0d78367668": "HubSpot para el 90% de las PyMEs: más intuitivo, versión gratuita potente, planes pagos ac"
-  },
-  "cuanto-cuesta-diseno-de-logo-argentina": {
-   "9882d2396c2fdb94": "Un logo profesional en Argentina cuesta entre $50.000 y $1.500.000 ARS. Comparamos precios",
-   "419b4b5d7d75d125": "Un logo profesional en Argentina cuesta entre $50.000 y $1.500.000 ARS en 2026. Un freelan",
-   "8fd382ab3b4d1121": "Un freelancer de diseño grafico cobra entre $50.000 y $200.000 ARS por un logo en Argentin",
-   "effd8fbdf867bbd1": "Un buen freelancer en el rango de $100.000-$200.000 ARS te entrega: 2-3 propuestas de logo",
-   "3ac878fcd2e555c4": "Una agencia de diseño cobra entre $200.000 y $500.000 ARS por un logo en Argentina. A este",
-   "5a7a745111b20e01": "Plazo de entrega tipico: 15-30 dias habiles. Las agencias buenas no apuran el proceso porq",
-   "742f3a8b67573679": "Un estudio de branding premium cobra entre $500.000 y $1.500.000 ARS por un proyecto de id",
-   "23e850e31ffee12b": "Este nivel tiene sentido para empresas que ya facturan bien y necesitan profesionalizar su",
-   "be3fb1e23c168a0c": "Los estudios premium en Argentina mas conocidos incluyen Grupo Berro, Brandemia, y algunos",
-   "f6a7926cfc808000": "Un paquete tipico de logo + landing page cuesta entre $350.000 y $600.000 ARS (vs $400.000",
-   "7627a9abef1d8e00": "Podes, pero no deberias si tu negocio va en serio. Los logos de Canva usan iconos y tipogr"
   },
   "cuanto-cuesta-diseno-ux-ui-argentina": {
    "a293f3b8957c305f": "Diseño UX/UI en Argentina: landing page USD 300-800, app/web completa USD 1.500-5.000, aud",
@@ -717,18 +644,6 @@
   },
   "cuanto-cuesta-pagina-web-argentina": {
    "fe2010097526b605": "La opción intermedia que mejor funciona para PyMEs es un estudio digital chico (2-5 person"
-  },
-  "cuanto-cuesta-pagina-web-para-abogados": {
-   "8a38e35600f7eacf": "Una web para estudio juridico en Argentina cuesta entre $300.000 y $900.000 ARS. Desglose ",
-   "0373908bd2d97538": "Una pagina web para abogados en Argentina cuesta entre $300.000 y $900.000 ARS en 2026. Un",
-   "d3c5e2a506b16cb0": "Una landing page para abogado cuesta entre $300.000 y $500.000 ARS. Es una pagina unica qu",
-   "e3c46b7f6c512ae9": "Plazo de entrega: 7-12 dias habiles. Si te piden mas de $500.000 ARS por una landing, esta",
-   "8a7cd449cb11d010": "Un sitio institucional para estudio juridico cuesta entre $500.000 y $900.000 ARS. Aca hab",
-   "c0c6cb20426a23b5": "El costo mensual de mantener una web para abogados va de $10.000 a $40.000 ARS dependiendo",
-   "9e4ea61ee9ece54a": "El hosting basico en servidores argentinos o DigitalOcean cuesta entre $5.000 y $15.000 AR",
-   "473e14172ca60e2e": "Si contras un plan de mantenimiento que incluya actualizaciones de seguridad, backups y ca",
-   "da079a7f24dbdc51": "Obligatorio legalmente no, pero en la practica si. El 85% de los potenciales clientes goog",
-   "565141e97a05c75f": "WordPress es suficiente para el 90% de los estudios juridicos en Argentina. Un sitio WordP"
   },
   "cuanto-cuesta-pagina-web-para-arquitectos": {
    "c4bc60fb72cedcba": "Una web para arquitecto en Argentina cuesta entre $400.000 y $800.000 ARS. Con portfolio d",
@@ -790,20 +705,6 @@
    "a9ac258e75f6a704": "Para la mayoria de las ferreterias argentinas, el catalogo con WhatsApp rinde mejor. El ec",
    "4cee3b3ad3798dee": "Si, depende del sistema que uses. Los mas comunes en ferreterias argentinas (Tango, Bejerm"
   },
-  "cuanto-cuesta-pagina-web-para-inmobiliarias": {
-   "65d662509ec00bda": "Una web para inmobiliaria en Argentina cuesta entre $300.000 y $1.500.000 ARS segun funcio",
-   "0a03841b9cec0726": "Una pagina web para inmobiliaria en Argentina cuesta entre $300.000 y $1.500.000 ARS depen",
-   "d71106d00aee6d85": "Una landing page para inmobiliaria cuesta entre $300.000 y $500.000 ARS. Es la opcion mas ",
-   "a0cb3f9f4373c446": "Un sitio web inmobiliario con listado de propiedades cuesta entre $600.000 y $1.200.000 AR",
-   "ca0ca64e6095233b": "Un portal inmobiliario con buscador avanzado supera los $1.500.000 ARS y puede llegar a $3",
-   "750749fcb4c006e6": "Tambien se suelen incluir: CRM inmobiliario basico (seguimiento de consultas), reportes de",
-   "07555224c89cd0ce": "Tambien vemos inmobiliarias que pagan $1.500.000+ por un portal completo cuando tienen 30 ",
-   "068bb2c4cebeab16": "Si tenes menos de 20 propiedades y la mayoria de tus consultas vienen de portales (Zonapro",
-   "15159f3d15c307c5": "Si manejas entre 20 y 150 propiedades y queres generar consultas propias ademas de los por",
-   "6e240a550cfd553c": "Si tenes mas de 150 propiedades, multiples sucursales o una red de inmobiliarias, recien a",
-   "58cd9696b48ab32b": "El mantenimiento mensual de una web inmobiliaria cuesta entre $15.000 y $50.000 ARS depend",
-   "bce1a99d6183a333": "WordPress con un theme inmobiliario (como Flavor, flavor.developer) puede funcionar bien p"
-  },
   "cuanto-cuesta-pagina-web-para-medicos": {
    "bfaf090cfb6a5ce2": "Una web para consultorio medico en Argentina cuesta entre $400.000 y $1.200.000 ARS. Desgl",
    "eb717f2abc9dde2e": "Una pagina web para medicos en Argentina cuesta entre $400.000 y $1.200.000 ARS en 2026. U",
@@ -864,18 +765,6 @@
    "fe22d7729346b818": "El costo de integracion depende del sistema: si tiene API abierta (la mayoria de los moder",
    "42792ea10d4a18b9": "Si todavia no usas sistema de gestion: este es buen momento para implementar uno. VetCloud",
    "1371e425f555f4f7": "WordPress con plugins de turnos (Amelia o BookingPress) cubre el 90% de las necesidades po"
-  },
-  "cuanto-cuesta-posicionamiento-google-maps": {
-   "2041e0182fe2ed6f": "Optimizar Google My Business cuesta $50.000-$200.000 ARS pago único y $50.000-$100.000/mes",
-   "dd1585e863b81dec": "Posicionar tu negocio en Google Maps cuesta entre $50.000 y $200.000 ARS como pago único p",
-   "36e0807a19abacf2": "Un freelancer de SEO local cobra entre $50.000 y $120.000 ARS por la configuración inicial",
-   "15417fba784fb82e": "Una agencia de marketing digital cobra entre $100.000 y $200.000 ARS por el mismo trabajo,",
-   "01ae0a9d8d0d2232": "El mantenimiento mensual va de $50.000 a $100.000 ARS/mes (USD 40-80). Incluye: publicacio",
-   "f3101d6200933b3f": "Si solo necesitás la configuración inicial sin mantenimiento, con un pago único de $80.000",
-   "80e3c8024c106ed9": "Pagas económicas (USD 10-30/mes): herramientas como BrightLocal, Whitespark o Local Falcon",
-   "3df8acf4a2d1bff6": "Profesionales (USD 50-100/mes): plataformas como Semrush o Ahrefs con módulo local te dan ",
-   "f79497dcb95433d3": "Para una PyME argentina, el plan de Google Insights + una herramienta de grilla de USD 15/",
-   "9ce611e6bed49a7e": "La optimización inicial de tu perfil de Google Business Profile cuesta entre $50.000 y $20"
   },
   "cuanto-cuesta-seo-argentina": {
    "0c2f8615a03bb67a": "SEO local: USD 150-400/mes. SEO nacional: USD 400-800+/mes. Resultados en 4-8 meses. Preci",
@@ -1080,19 +969,6 @@
   "diseno-web-villa-urquiza": {
    "25bc4cb652967e48": "Webs institucionales desde $400.000 ARS — ideales para consultorios, estudios y comercios ",
    "dfe56728ca9fd1f7": "Una web institucional profesional arranca en $400.000 ARS. Tiendas online con Mercado Pago"
-  },
-  "excel-vs-sistema-de-gestion": {
-   "6243b5c60aec8b84": "Excel funciona para 1 persona. Con 2+ usuarios o datos críticos, necesitás un sistema. Cos",
-   "3bcfe2ad7be71d40": "Odoo Community (gratis) + hosting: $20.000-$40.000/mes. Open source, modular (CRM, inventa",
-   "ba0fa671123b2b7c": "Xubio: $15.000-$40.000/mes. Contabilidad + facturación electrónica AFIP. Simple, ideal par",
-   "ea0da58cda5b2ae3": "Colppy: $12.000-$35.000/mes. Contabilidad en la nube, integra con AFIP. Muy usado por cont",
-   "468b337b02bcc825": "Zoho One: desde $45 USD/usuario/mes (~$55.000 ARS). Suite completa: CRM, proyectos, RRHH, ",
-   "ff148d9779b1adc5": "ERP a medida: desde $2.000.000 de desarrollo + $80.000-$200.000/mes de mantenimiento. Solo",
-   "7e0508339bedcc87": "Para una PyME con 5-10 empleados, la inversión típica en un sistema de gestión es de $20.0",
-   "7e7cded45e4c3dd3": "Tiempo perdido: un empleado que busca datos en planillas, arma reportes manuales y verific",
-   "3a175897ca142991": "Errores costosos: un estudio de la Universidad de Hawaii encontró que el 88% de las planil",
-   "99cd0215b8e965d0": "Cada una de estas situaciones tiene un costo: en tiempo, en dinero o en clientes perdidos.",
-   "5c4497963fab41af": "Desde $12.000/mes (Colppy, Xubio) hasta $80.000/mes (Zoho One, Odoo Enterprise). Para una "
   },
   "factura-electronica-arca-2026": {
    "212867758aa9a858": "Xubio: plan gratuito de hasta 10 facturas/mes. Planes pagos desde $8.500/mes para facturac",
@@ -1696,11 +1572,6 @@
    "c3d73a721aef012b": "Semana 2: contratá el desarrollo o empezá con una plantilla profesional. Registrá tu domin",
    "c76509f079cfbb63": "Una web informativa profesional cuesta entre $150.000 y $800.000 ARS de desarrollo, más $5"
   },
-  "pagina-web-vs-instagram": {
-   "48dbd79c8a0f692b": "Mantener un Instagram activo cuesta más de lo que pensás. Si lo hacés vos, invertís 1-2 ho",
-   "b23449176d9de9fe": "Una página web profesional cuesta entre $300.000 y $800.000 ARS de inversión inicial (depe",
-   "0ae275623df8c38f": "Un community manager para Instagram cuesta $80.000-$200.000 ARS/mes. Una web profesional c"
-  },
   "posicionamiento-web-para-abogados": {
    "050e5452a86e0721": "El CPC en Google Ads para abogados llega a $3-8 USD. Con SEO posicionás tu estudio jurídic",
    "a66ad790f8eba892": "Si sos abogado o tenés un estudio jurídico en Argentina, probablemente ya sabés que Google",
@@ -1983,24 +1854,6 @@
    "25a4545845cc4d5c": "El retorno de inversión suele verse en 1-3 meses. Si automatizar te ahorra 2 horas diarias",
    "9a11724b784e9c2f": "En 30-60 días podés tener 3-5 automatizaciones funcionando que te liberan horas semanales."
   },
-  "que-es-desarrollo-web-a-medida": {
-   "235d6a62751fa2e0": "Los constructores web (Wix, Squarespace, Tiendanube) y las plantillas de WordPress son la ",
-   "116434a8f60f5bf4": "Para la mayoría de las PyMEs argentinas, la recomendación es: arrancá con WordPress o un c",
-   "506ebc3259e1d83d": "Sitio web institucional a medida (5-8 páginas, diseño propio, responsive, formulario de co",
-   "0e39501f9e81373f": "Sitio web con funcionalidades (e-commerce, sistema de turnos, panel admin, blog, integraci",
-   "fe6c9480b73a2c4b": "Aplicación web / sistema a medida (panel operativo, gestión de usuarios, lógica de negocio",
-   "3a2da8dd49de16c9": "A esto sumale: hosting ($10.000-$80.000 ARS/año), dominio ($5.000-$15.000 ARS/año), y mant",
-   "45c9f44bd9fb584b": "Desconfiá de precios demasiado bajos: un \"sitio a medida\" por $200.000 ARS probablemente s",
-   "ac69082844a54742": "Estás validando si el canal digital funciona para tu rubro: no inviertas $3M antes de sabe",
-   "d139563195ebd208": "Un sitio institucional a medida cuesta entre $800.000 y $2.000.000 ARS. Con funcionalidade"
-  },
-  "que-es-ecommerce-en-argentina": {
-   "f7b5b14da24838a0": "Ecommerce es simplemente vender productos o servicios por internet. Suena obvio, pero el m",
-   "232c2f9e980f3a4a": "Facturación anual: más de USD 25.000 millones (y creciendo)",
-   "379a5362043f252c": "Planes desde gratis (con limitaciones) hasta $30.000+ ARS/mes",
-   "c241ce0aae0cd659": "Precios en dólares (desde USD 29/mes + comisiones)",
-   "21e68f01c07ba43d": "Desde gratis (plan básico de Tiendanube o WooCommerce en hosting compartido) hasta $50.000"
-  },
   "que-es-google-ads-para-pymes": {
    "7cae692fd5c67872": "Servicios legales: $500-2.000 ARS por clic",
    "2fd29cac869fa78a": "Ecommerce general: $100-500 ARS por clic",
@@ -2071,10 +1924,6 @@
    "f8d938e20f42ff48": "Inversión premium : $15.000.000+ ARS. Desarrollo completo a medida, integración total de s",
    "e2e867b778e4b26e": "La inversión mínima viable para las 4 etapas es de $1.500.000-$5.000.000 ARS distribuidos "
   },
-  "que-es-un-bot-de-whatsapp": {
-   "47ea3c1c87a0cc9a": "Plataformas (Wasapi, Cliengo, Whaticket, WATI) : arrancás en $30-60 USD/mes. Configurás lo",
-   "6f0ee9bcb99749f5": "Desarrollo custom : desde $800.000 ARS. Un desarrollador te arma el bot exactamente como l"
-  },
   "que-es-un-chatbot-y-para-que-sirve": {
    "6115d006ea8c5ec9": "Costo: desde $0 (ManyChat free tier) hasta $30.000-$80.000 ARS/mes con herramientas pagas.",
    "9d2609fb3220fd80": "Costo: desde $50.000 ARS/mes (soluciones SaaS) hasta $200.000+ ARS/mes (desarrollo custom ",
@@ -2087,10 +1936,6 @@
    "48d5d52fedafccd8": "Desarrollo custom con IA: $300.000-$800.000 ARS de desarrollo + $80.000-$200.000 ARS/mes. ",
    "ab205c2150f4b9a9": "Hacé la cuenta simple: si el chatbot te ahorra 3 horas/día de atención repetitiva (a $5.00"
   },
-  "que-es-un-community-manager": {
-   "40c6202602d5c7b5": "En Argentina, un community manager freelance cobra entre $150.000 y $450.000 ARS/mes . Una",
-   "fe7ed32a92f226eb": "Un CM freelance cobra entre $150.000 y $450.000 ARS/mes en 2026. Una agencia cobra entre $"
-  },
   "que-es-un-crm-y-para-que-sirve": {
    "e24373829ffc391e": "CRM gratuito o económico (HubSpot Free, Zoho) : ideales si estás arrancando, tenés un equi",
    "df4d5cc1e49617e0": "CRM de plataforma (Salesforce, Pipedrive, Monday) : para empresas más establecidas que nec",
@@ -2099,12 +1944,6 @@
   },
   "que-es-un-embudo-de-ventas": {
    "344ce7918850a59f": "Costo por adquisición (CPA) : ¿cuánto te sale conseguir un cliente? Si gastás $100.000/mes"
-  },
-  "que-es-un-panel-operativo": {
-   "6b533661cb1e128c": "Con un panel operativo: el dueño abre la pantalla → ve que el stock de 3 productos está en",
-   "6f731371f1915981": "Paneles profesionales (Power BI, Metabase) : herramientas de Business Intelligence que se ",
-   "ab600082678a099e": "Panel operativo a medida : un sistema desarrollado específicamente para tu empresa que tom",
-   "0dd1b26c11a22126": "Desde $0 con Google Sheets + Looker Studio, hasta $1.000.000-$4.000.000 ARS por un panel a"
   },
   "que-es-un-sistema-de-gestion": {
    "c2dd1b2669a500d0": "Sistemas cloud (SaaS) argentinos : Colppy arranca en $15.000 ARS/mes, Xubio desde $12.000 ",
@@ -2140,10 +1979,6 @@
   "que-es-ux-y-por-que-importa": {
    "45d816e2ca62fdf3": "Un análisis de UX profesional cuesta entre $200.000 y $600.000 ARS y te da un informe con ",
    "5f219f9eeaca6e9a": "Mejoras básicas como botón de WhatsApp, formularios más cortos y comprimir imágenes son gr"
-  },
-  "que-es-whatsapp-business-y-como-usarlo": {
-   "267fec4a76d82311": "Nivel 3 — Chatbot con reglas (API, desde USD 30-50/mes):",
-   "728dd0113f18d0f4": "Nivel 4 — Agente de IA (API, desde USD 80-200/mes):"
   },
   "que-pasa-si-vendo-online-sin-facturar": {
    "e15af876184b8e05": "El cruce automático: ARCA compara lo que las plataformas reportan con lo que vos declarás.",
@@ -2460,12 +2295,6 @@
    "78b0986d022d8d8a": "Sistema a medida básico: $2.000.000 - $5.000.000 ARS de inversión inicial",
    "863a541dca98d68e": "Sistema a medida completo: $5.000.000 - $15.000.000 ARS (con integraciones, app móvil, por"
   },
-  "sistema-de-gestion-para-institutos-educativos": {
-   "2c58492cc739454b": "SaaS básico: $15.000 - $40.000 ARS/mes (hasta 200 alumnos, cuotas, asistencia)",
-   "0a89192b4be9ef6a": "SaaS profesional: $40.000 - $100.000 ARS/mes (alumnos ilimitados, campus virtual, reportes",
-   "a2dc82b84cde6853": "Sistema para instituciones grandes: $100.000 - $300.000 ARS/mes (múltiples sedes, gestión ",
-   "a413133a39a4a3cb": "Sistema a medida: $3.000.000 - $10.000.000 ARS de desarrollo"
-  },
   "sistema-de-gestion-para-joyerias": {
    "e49e6648a409bca9": "SaaS genérico adaptado: $15.000 - $45.000 ARS/mes (limitado para el rubro)",
    "d0d89723e7c3ef77": "Sistema a medida básico: $2.000.000 - $4.500.000 ARS (inventario, clientes, reparaciones, ",
@@ -2502,13 +2331,6 @@
    "0b54702854ddcbf9": "SaaS profesional (3-10 profesionales): $15.000 - $50.000 ARS/mes (ficha de cliente, insumo",
    "0c58be52245cb30d": "SaaS premium (cadena): $50.000 - $120.000 ARS/mes (múltiples locales, gestión centralizada",
    "c71ff2ebf110dae8": "Sistema a medida: $1.500.000 - $5.000.000 ARS de desarrollo"
-  },
-  "sistema-de-gestion-para-restaurantes": {
-   "d0d84ccbe2439b8f": "Un restaurante que factura $5.000.000/mes puede estar perdiendo entre el 5% y el 15% por i",
-   "012e0c1737a6bf10": "SaaS básico (1 local): $20.000 - $50.000 ARS/mes (POS, comandas, facturación básica)",
-   "4d213a5a45392ba9": "SaaS profesional (1-3 locales): $50.000 - $150.000 ARS/mes (stock, costeo, reservas, repor",
-   "d35c4743128e9333": "Hardware: $200.000 - $800.000 ARS por local (tablets, impresoras de comandas, controlador ",
-   "1714674998f8601a": "Sistema a medida: $3.000.000 - $10.000.000 ARS de desarrollo + $30.000 - $80.000 ARS/mes d"
   },
   "sistema-de-gestion-para-talleres-mecanicos": {
    "11eb33fbcbb76a87": "SaaS básico: $10.000 - $30.000 ARS/mes (turnos, OT, presupuestos, 1-2 usuarios)",
@@ -2765,20 +2587,6 @@
    "731163c2d62d897e": "Suscripción: $8.000-$20.000 ARS/mes con margen del 60%+.",
    "2efdd35c174db265": "Un vivero online empieza a ser rentable con 30-50 pedidos mensuales si el ticket promedio ",
    "7fb4cb28d3be1d2e": "Sí, es uno de los modelos más exitosos en ecommerce de plantas. Genera ingreso predecible,"
-  },
-  "tiendanube-vs-empretienda-argentina": {
-   "b637f6d46501ebf0": "Plan básico pago Desde ~$24.900 ARS/mes (\"Impulso\") Desde ~$8.000 ARS/mes",
-   "cc61457bbee52f86": "Plan completo ~$49.900 ARS/mes (\"Escala\") ~$18.000 ARS/mes",
-   "966d467df77c35f2": "Precio más bajo en planes pagos: desde ~$8.000 ARS/mes tenés una tienda completa con produ",
-   "ab4c69e58ec71ab6": "Si vendés $500.000 ARS/mes:",
-   "0c4225944d979b67": "Tiendanube gratis: $0 cuota + 2% comisión = $10.000/mes",
-   "6c70c970cb5eeb7e": "Tiendanube Impulso: $24.900 cuota + 1% comisión = $29.900/mes",
-   "3a5fe335ba805157": "Empretienda básico: $8.000 cuota + 0% comisión = $8.000/mes",
-   "5cf1d1ea9e1de9fb": "Si vendés $2.000.000 ARS/mes:",
-   "40bcb33ca29ee360": "Tiendanube gratis: $0 cuota + 2% comisión = $40.000/mes",
-   "fcda1cfa4c2b01a0": "Tiendanube Impulso: $24.900 cuota + 1% comisión = $44.900/mes",
-   "e5814001bd629cae": "Tiendanube Escala: $49.900 cuota + 0.5% comisión = $59.900/mes",
-   "1ac3204055deb5f8": "Empretienda premium: $18.000 cuota + 0% comisión = $18.000/mes"
   },
   "tiendanube-vs-mercadoshops-alternativas": {
    "9417c2bda55878ec": "Costo mensual Era gratis Gratis a $49.999/mes $5-30 USD/mes (hosting) Desde $39 USD/mes"

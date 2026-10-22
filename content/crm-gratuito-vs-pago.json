@@ -23,7 +23,7 @@
       },
       {
         "heading": "CRMs pagos: precios reales en Argentina 2026",
-        "body": "<p>Los planes pagos de los CRMs más usados:</p><p><strong>HubSpot Starter:</strong> desde $20 USD/mes (~$24.000 ARS) por 2 usuarios. Incluye: quitar branding, 1.000 contactos de marketing, automatización simple, reportes mejorados. <strong>HubSpot Professional:</strong> desde $890 USD/mes (~$1.070.000 ARS) — salto de precio brutal. Incluye: workflows avanzados, A/B testing, reportes custom. Solo para empresas con presupuesto.</p><p><strong>Zoho CRM Standard:</strong> $14 USD/usuario/mes (~$17.000 ARS). Incluye: workflows, reportes, scoring de leads, múltiples pipelines. <strong>Zoho Professional:</strong> $23 USD/usuario/mes (~$28.000 ARS). Agrega: integración email, signals, macros.</p><p><strong>Pipedrive Essential:</strong> $14.90 USD/usuario/mes (~$18.000 ARS). CRM visual, simple, enfocado en ventas. Muy buena UX. <strong>Advanced:</strong> $27.90 USD/usuario/mes (~$34.000 ARS). Agrega automatización de emails y workflows.</p><p>Para un equipo de 5 personas, los costos mensuales reales son:</p><ul><li><strong>Zoho Standard:</strong> ~$85.000 ARS/mes</li><li><strong>Pipedrive Essential:</strong> ~$90.000 ARS/mes</li><li><strong>HubSpot Starter:</strong> ~$60.000 ARS/mes (solo 2 usuarios incluidos, $24.000 por usuario adicional)</li></ul>"
+        "body": "<p>Los planes pagos de los CRMs más usados:</p><p><strong>HubSpot Starter:</strong> plan pago de entrada, con 2 usuarios. Incluye: quitar branding, 1.000 contactos de marketing, automatización simple, reportes mejorados. <strong>HubSpot Professional:</strong> tiene un salto de precio muy grande respecto del Starter. Incluye: workflows avanzados, A/B testing, reportes custom. Solo para empresas con presupuesto.</p><p><strong>Zoho CRM Standard:</strong> precio por usuario al mes, en dólares. Incluye: workflows, reportes, scoring de leads, múltiples pipelines. <strong>Zoho Professional:</strong> también por usuario. Agrega: integración email, signals, macros.</p><p><strong>Pipedrive Essential:</strong> precio por usuario al mes, en dólares. CRM visual, simple, enfocado en ventas. Muy buena UX. <strong>Advanced:</strong> también por usuario. Agrega automatización de emails y workflows.</p><p>Para un equipo de 5 personas, el costo mensual real se compone así:</p><ul><li><strong>Zoho Standard:</strong> se paga por usuario, multiplicá por 5</li><li><strong>Pipedrive Essential:</strong> también por usuario, multiplicá por 5</li><li><strong>HubSpot Starter:</strong> el plan incluye solo 2 usuarios y cada usuario adicional se suma al costo</li></ul>"
       },
       {
         "heading": "Cuál CRM elegir según tu tipo de negocio",
@@ -45,7 +45,7 @@
       },
       {
         "question": "¿Cuánto cuesta un CRM pago en Argentina?",
-        "answer": "Zoho CRM Standard: ~$17.000 ARS/usuario/mes. Pipedrive Essential: ~$18.000/usuario/mes. HubSpot Starter: ~$24.000/mes por 2 usuarios. Para un equipo de 5, presupuestá $60.000-$90.000 ARS/mes."
+        "answer": "Zoho CRM Standard y Pipedrive Essential se cobran por usuario al mes, y HubSpot Starter incluye 2 usuarios con costo adicional por cada uno extra. Para un equipo de 5, multiplicá y pedí cotización actualizada en cada sitio."
       },
       {
         "question": "¿HubSpot o Zoho para una PyME argentina?",
@@ -53,7 +53,7 @@
       },
       {
         "question": "¿Puedo usar un CRM con WhatsApp?",
-        "answer": "Sí. HubSpot y Zoho integran con WhatsApp Business API a través de plataformas como Cliengo, Zenvia o integraciones nativas. La integración no es gratuita: necesitás la API de WhatsApp Business + el conector. Presupuestá $20.000-$50.000 ARS/mes adicionales."
+        "answer": "Sí. HubSpot y Zoho integran con WhatsApp Business API a través de plataformas como Cliengo, Zenvia o integraciones nativas. La integración no es gratuita: necesitás la API de WhatsApp Business + el conector. Presupuestá un costo mensual adicional."
       }
     ],
     "ctaText": "¿No sabés qué CRM te conviene? Pedí tu diagnóstico gratuito y te recomendamos la opción justa para tu negocio y presupuesto."

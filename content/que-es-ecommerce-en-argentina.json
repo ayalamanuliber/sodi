@@ -5,13 +5,24 @@
   "metaDescription": "Guía introductoria al ecommerce en Argentina. Tipos (B2C, B2B, marketplace vs propia), tamaño del mercado, plataformas y cómo arrancar.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
-  "tags": ["ecommerce argentina", "tienda online", "marketplace", "B2C", "plataformas ecommerce"],
+  "tags": [
+    "ecommerce argentina",
+    "tienda online",
+    "marketplace",
+    "B2C",
+    "plataformas ecommerce"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "7 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-tienda-online-argentina", "como-crear-tienda-online-argentina", "mercado-libre-vs-tienda-propia", "como-vender-por-internet-argentina"],
+  "relatedSlugs": [
+    "cuanto-cuesta-tienda-online-argentina",
+    "como-crear-tienda-online-argentina",
+    "mercado-libre-vs-tienda-propia",
+    "como-vender-por-internet-argentina"
+  ],
   "content": {
-    "intro": "<p>Ecommerce es simplemente vender productos o servicios por internet. Suena obvio, pero el mercado argentino de comercio electrónico ya supera los USD 25.000 millones anuales y crece a dos dígitos cada año. Si tenés un negocio y no estás vendiendo online, estás perdiendo una parte enorme del mercado.</p><p>En esta guía te explicamos los distintos tipos de ecommerce, cómo está el mercado argentino hoy, las diferencias entre vender en un marketplace y tener tu propia tienda, y qué plataformas existen para que arranques.</p>",
+    "intro": "<p>Ecommerce es simplemente vender productos o servicios por internet. Suena obvio, pero el mercado argentino de comercio electrónico ya es uno de los más grandes de la región y sigue creciendo. Si tenés un negocio y no estás vendiendo online, estás perdiendo una parte enorme del mercado.</p><p>En esta guía te explicamos los distintos tipos de ecommerce, cómo está el mercado argentino hoy, las diferencias entre vender en un marketplace y tener tu propia tienda, y qué plataformas existen para que arranques.</p>",
     "sections": [
       {
         "heading": "Tipos de ecommerce: B2C, B2B, C2C y D2C",
@@ -19,7 +30,7 @@
       },
       {
         "heading": "El mercado del ecommerce en Argentina: números reales",
-        "body": "<p>Argentina es uno de los mercados de ecommerce más grandes de Latinoamérica. Algunos datos clave:</p><ul><li><strong>Facturación anual:</strong> más de USD 25.000 millones (y creciendo)</li><li><strong>Compradores online:</strong> más de 25 millones de argentinos compraron online en el último año</li><li><strong>Crecimiento:</strong> entre 20-30% anual en los últimos años, impulsado por la adopción post-pandemia y la mejora en logística</li><li><strong>Mobile:</strong> más del 70% de las compras se hacen desde celulares</li><li><strong>Medios de pago:</strong> Mercado Pago domina, seguido por tarjetas de crédito y transferencias bancarias</li><li><strong>Categorías líderes:</strong> electrónica, indumentaria, alimentos y bebidas, hogar, belleza</li></ul><p>Lo interesante es que todavía hay mucho espacio para crecer. En países como Brasil o México, el ecommerce representa un porcentaje mayor del comercio total. Argentina tiene margen de crecimiento enorme, especialmente fuera de CABA y GBA donde la adopción es menor.</p><p>Los eventos como Hot Sale, Cyber Monday y Black Friday concentran picos de venta pero el comercio electrónico cotidiano es lo que realmente mueve la aguja a lo largo del año.</p>"
+        "body": "<p>Argentina es uno de los mercados de ecommerce más grandes de Latinoamérica. Algunos datos clave:</p><ul><li><strong>Facturación anual:</strong> entre las más altas de la región (y creciendo)</li><li><strong>Compradores online:</strong> más de 25 millones de argentinos compraron online en el último año</li><li><strong>Crecimiento:</strong> entre 20-30% anual en los últimos años, impulsado por la adopción post-pandemia y la mejora en logística</li><li><strong>Mobile:</strong> más del 70% de las compras se hacen desde celulares</li><li><strong>Medios de pago:</strong> Mercado Pago domina, seguido por tarjetas de crédito y transferencias bancarias</li><li><strong>Categorías líderes:</strong> electrónica, indumentaria, alimentos y bebidas, hogar, belleza</li></ul><p>Lo interesante es que todavía hay mucho espacio para crecer. En países como Brasil o México, el ecommerce representa un porcentaje mayor del comercio total. Argentina tiene margen de crecimiento enorme, especialmente fuera de CABA y GBA donde la adopción es menor.</p><p>Los eventos como Hot Sale, Cyber Monday y Black Friday concentran picos de venta pero el comercio electrónico cotidiano es lo que realmente mueve la aguja a lo largo del año.</p>"
       },
       {
         "heading": "Marketplace vs tienda propia: ventajas y desventajas",
@@ -27,7 +38,7 @@
       },
       {
         "heading": "Plataformas de ecommerce para Argentina",
-        "body": "<p>Si decidís tener tu tienda propia, estas son las plataformas más usadas en Argentina:</p><p><strong>Tiendanube:</strong></p><ul><li>La más popular en Argentina y Latinoamérica</li><li>Integración nativa con Mercado Pago, Correo Argentino, Andreani</li><li>Planes desde gratis (con limitaciones) hasta $30.000+ ARS/mes</li><li>Fácil de usar, no necesitás saber programar</li><li>Ideal para: la mayoría de las PyMEs argentinas</li></ul><p><strong>WooCommerce (WordPress):</strong></p><ul><li>Plugin gratuito sobre WordPress</li><li>Máxima flexibilidad y personalización</li><li>Necesitás hosting propio y algo de conocimiento técnico (o alguien que lo maneje)</li><li>Ideal para: negocios que necesitan funcionalidades a medida</li></ul><p><strong>Shopify:</strong></p><ul><li>Plataforma internacional muy robusta</li><li>Precios en dólares (desde USD 29/mes + comisiones)</li><li>Excelente para escalar internacionalmente</li><li>Ideal para: marcas que quieren vender también al exterior</li></ul><p><strong>Empretienda:</strong></p><ul><li>Alternativa argentina económica</li><li>Planes desde precios muy accesibles</li><li>Funcionalidades básicas pero suficientes para empezar</li><li>Ideal para: emprendedores con presupuesto muy limitado</li></ul>"
+        "body": "<p>Si decidís tener tu tienda propia, estas son las plataformas más usadas en Argentina:</p><p><strong>Tiendanube:</strong></p><ul><li>La más popular en Argentina y Latinoamérica</li><li>Integración nativa con Mercado Pago, Correo Argentino, Andreani</li><li>Tiene plan gratuito (con limitaciones) y planes pagos según el volumen de tu tienda</li><li>Fácil de usar, no necesitás saber programar</li><li>Ideal para: la mayoría de las PyMEs argentinas</li></ul><p><strong>WooCommerce (WordPress):</strong></p><ul><li>Plugin gratuito sobre WordPress</li><li>Máxima flexibilidad y personalización</li><li>Necesitás hosting propio y algo de conocimiento técnico (o alguien que lo maneje)</li><li>Ideal para: negocios que necesitan funcionalidades a medida</li></ul><p><strong>Shopify:</strong></p><ul><li>Plataforma internacional muy robusta</li><li>Precios en dólares, con planes mensuales y comisiones según el plan</li><li>Excelente para escalar internacionalmente</li><li>Ideal para: marcas que quieren vender también al exterior</li></ul><p><strong>Empretienda:</strong></p><ul><li>Alternativa argentina económica</li><li>Planes desde precios muy accesibles</li><li>Funcionalidades básicas pero suficientes para empezar</li><li>Ideal para: emprendedores con presupuesto muy limitado</li></ul>"
       },
       {
         "heading": "Medios de pago y logística en Argentina",
@@ -45,7 +56,7 @@
       },
       {
         "question": "¿Cuánto cuesta tener una tienda online en Argentina?",
-        "answer": "Desde gratis (plan básico de Tiendanube o WooCommerce en hosting compartido) hasta $50.000-100.000 ARS/mes para tiendas profesionales con diseño a medida. El costo promedio de una PyME es entre $10.000 y $40.000 ARS/mes incluyendo plataforma y hosting."
+        "answer": "Va desde gratis (plan básico de Tiendanube o WooCommerce en hosting compartido) hasta un costo mensual mayor para tiendas profesionales con diseño a medida. Depende de la plataforma, el hosting y el alcance: pedí presupuesto por escrito y compará los planes vigentes de cada proveedor."
       },
       {
         "question": "¿Conviene más vender en Mercado Libre o en mi propia tienda?",

@@ -5,11 +5,22 @@
   "metaDescription": "Compará MercadoPago, MODO, Naranja X y más. Comisiones, tiempos de acreditación y cómo configurar cobro con QR paso a paso en tu negocio.",
   "silo": "guias",
   "siloLabel": "Guías Prácticas",
-  "tags": ["cobrar con qr", "mercadopago", "modo", "medios de pago", "negocio"],
+  "tags": [
+    "cobrar con qr",
+    "mercadopago",
+    "modo",
+    "medios de pago",
+    "negocio"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["como-vender-por-internet-argentina", "mercadopago-vs-mobbex-ecommerce", "como-digitalizar-mi-empresa", "como-crear-tienda-online-argentina"],
+  "relatedSlugs": [
+    "como-vender-por-internet-argentina",
+    "mercadopago-vs-mobbex-ecommerce",
+    "como-digitalizar-mi-empresa",
+    "como-crear-tienda-online-argentina"
+  ],
   "content": {
     "intro": "<p>Tus clientes te piden pagar con QR y vos seguís con el cartelito de \"solo efectivo\" o peleándote con el posnet. O capaz ya tenés MercadoPago pero no sabés si es la mejor opción o si estás pagando comisiones de más. <strong>Cobrar con QR en Argentina dejó de ser opcional: es lo que tus clientes esperan</strong>.</p><p>En esta guía te explicamos todas las opciones de cobro con QR disponibles en Argentina, comparamos comisiones y tiempos de acreditación, y te mostramos paso a paso cómo configurar el que más te conviene según tu tipo de negocio.</p>",
     "sections": [
@@ -31,7 +42,7 @@
       },
       {
         "heading": "Tips para sacarle el máximo jugo al cobro con QR",
-        "body": "<p>Más allá de la configuración, estos tips hacen la diferencia en el día a día:</p><ul><li><strong>Ofrecé cuotas sin interés cuando puedas</strong>: MercadoPago te permite ofrecer cuotas absorbiendo vos el costo financiero. En productos de ticket alto (más de $50.000), las cuotas pueden ser la diferencia entre cerrar o perder la venta.</li><li><strong>Poné el QR en un lugar visible y bien iluminado</strong>: suena obvio pero muchos comercios lo tienen escondido atrás de la caja. Que el cliente lo vea sin preguntar.</li><li><strong>Capacitá a tu equipo</strong>: que todos sepan cómo funciona, cómo verificar que el pago se acreditó, qué hacer si falla. Un \"esperá que llamo al encargado\" mata la experiencia.</li><li><strong>No descartes el efectivo</strong>: en Argentina, un porcentaje importante de transacciones sigue siendo en efectivo. No pongas \"solo QR\" a menos que sea tu modelo de negocio. Sumá opciones, no reemplaces.</li><li><strong>Controlá tu liquidación semanalmente</strong>: revisá que los montos acreditados coincidan con lo que vendiste. Los errores pasan, y si no los detectás temprano, se acumulan.</li></ul>"
+        "body": "<p>Más allá de la configuración, estos tips hacen la diferencia en el día a día:</p><ul><li><strong>Ofrecé cuotas sin interés cuando puedas</strong>: MercadoPago te permite ofrecer cuotas absorbiendo vos el costo financiero. En productos de ticket alto, las cuotas pueden ser la diferencia entre cerrar o perder la venta.</li><li><strong>Poné el QR en un lugar visible y bien iluminado</strong>: suena obvio pero muchos comercios lo tienen escondido atrás de la caja. Que el cliente lo vea sin preguntar.</li><li><strong>Capacitá a tu equipo</strong>: que todos sepan cómo funciona, cómo verificar que el pago se acreditó, qué hacer si falla. Un \"esperá que llamo al encargado\" mata la experiencia.</li><li><strong>No descartes el efectivo</strong>: en Argentina, un porcentaje importante de transacciones sigue siendo en efectivo. No pongas \"solo QR\" a menos que sea tu modelo de negocio. Sumá opciones, no reemplaces.</li><li><strong>Controlá tu liquidación semanalmente</strong>: revisá que los montos acreditados coincidan con lo que vendiste. Los errores pasan, y si no los detectás temprano, se acumulan.</li></ul>"
       }
     ],
     "faqs": [

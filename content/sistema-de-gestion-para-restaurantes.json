@@ -5,17 +5,26 @@
   "metaDescription": "Organizá tu restaurante con un sistema de gestión: comandas, stock, costos y reservas en un solo lugar. Comparamos opciones SaaS y a medida en Argentina.",
   "silo": "sistema-por-rubro",
   "siloLabel": "Sistemas por Rubro",
-  "tags": ["sistema de gestión", "restaurantes", "gastronomía", "punto de venta"],
+  "tags": [
+    "sistema de gestión",
+    "restaurantes",
+    "gastronomía",
+    "punto de venta"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["pagina-web-para-restaurantes", "cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-crm-y-para-que-sirve"],
+  "relatedSlugs": [
+    "pagina-web-para-restaurantes",
+    "cuanto-cuesta-sistema-de-gestion-pymes",
+    "que-es-un-crm-y-para-que-sirve"
+  ],
   "content": {
     "intro": "<p>En la gastronomía argentina, los márgenes son ajustados y el ritmo es brutal. Si tu restaurante todavía toma pedidos en papel, controla el stock \"a ojo\" y calcula los costos de cada plato en una planilla de Excel que nadie actualiza, <strong>estás dejando plata sobre la mesa</strong> — literalmente.</p><p>Un <strong>sistema de gestión para restaurantes</strong> integra comandas, inventario, costos de recetas, reservas, facturación y reportes en un solo lugar. En esta guía te contamos qué necesitás según el tipo y tamaño de tu local, cuánto cuesta y cómo implementarlo sin frenar la operación.</p>",
     "sections": [
       {
         "heading": "El caos operativo en restaurantes: un problema que se come tus márgenes",
-        "body": "<p>La gastronomía tiene una particularidad: todo pasa en tiempo real. No podés decirle a un cliente \"esperá que busco el pedido en el Excel\". Los problemas más comunes sin un sistema son:</p><ul><li><strong>Comandas perdidas o mal tomadas:</strong> El mozo anota en papel, la cocina no entiende la letra, el plato sale mal.</li><li><strong>Stock descontrolado:</strong> No sabés cuánta mercadería tenés hasta que se acaba. Comprás de más o de menos.</li><li><strong>Costos de platos desconocidos:</strong> ¿Cuánto te cuesta realmente ese milanesón con papas? Si no lo sabés al centavo, no podés poner precios rentables.</li><li><strong>Reservas caóticas:</strong> Un cuaderno en la barra, llamadas que se pierden, mesas que se asignan dos veces.</li><li><strong>Facturación manual:</strong> Cierres de caja que no cierran, tickets que se pierden, problemas con AFIP.</li></ul><p>Un restaurante que factura $5.000.000/mes puede estar perdiendo entre el 5% y el 15% por ineficiencias operativas. Eso es entre $250.000 y $750.000 por mes que se van en desperdicios, errores y tiempo perdido.</p>"
+        "body": "<p>La gastronomía tiene una particularidad: todo pasa en tiempo real. No podés decirle a un cliente \"esperá que busco el pedido en el Excel\". Los problemas más comunes sin un sistema son:</p><ul><li><strong>Comandas perdidas o mal tomadas:</strong> El mozo anota en papel, la cocina no entiende la letra, el plato sale mal.</li><li><strong>Stock descontrolado:</strong> No sabés cuánta mercadería tenés hasta que se acaba. Comprás de más o de menos.</li><li><strong>Costos de platos desconocidos:</strong> ¿Cuánto te cuesta realmente ese milanesón con papas? Si no lo sabés al centavo, no podés poner precios rentables.</li><li><strong>Reservas caóticas:</strong> Un cuaderno en la barra, llamadas que se pierden, mesas que se asignan dos veces.</li><li><strong>Facturación manual:</strong> Cierres de caja que no cierran, tickets que se pierden, problemas con AFIP.</li></ul><p>Un restaurante puede estar perdiendo una parte importante de su facturación por ineficiencias operativas: desperdicios, errores y tiempo perdido.</p>"
       },
       {
         "heading": "Qué funcionalidades necesita un sistema de gestión gastronómico",
@@ -27,7 +36,7 @@
       },
       {
         "heading": "Costos de un sistema de gestión gastronómico en 2026",
-        "body": "<p>Los rangos actuales en Argentina:</p><ul><li><strong>SaaS básico (1 local):</strong> $20.000 - $50.000 ARS/mes (POS, comandas, facturación básica)</li><li><strong>SaaS profesional (1-3 locales):</strong> $50.000 - $150.000 ARS/mes (stock, costeo, reservas, reportes avanzados)</li><li><strong>Hardware:</strong> $200.000 - $800.000 ARS por local (tablets, impresoras de comandas, controlador fiscal)</li><li><strong>Sistema a medida:</strong> $3.000.000 - $10.000.000 ARS de desarrollo + $30.000 - $80.000 ARS/mes de mantenimiento</li></ul><p>El hardware es un costo que muchos olvidan. Necesitás al menos una tablet por sector de servicio, impresora térmica en cocina y barra, y un controlador fiscal homologado.</p><p>Revisá también <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión para PyMEs</a> para comparar con opciones más genéricas.</p>"
+        "body": "<p>Los tipos de costo que vas a encontrar en Argentina (pedí siempre presupuesto por escrito):</p><ul><li><strong>SaaS básico (1 local):</strong> suscripción mensual (POS, comandas, facturación básica)</li><li><strong>SaaS profesional (1-3 locales):</strong> suscripción mensual mayor (stock, costeo, reservas, reportes avanzados)</li><li><strong>Hardware:</strong> inversión inicial por local (tablets, impresoras de comandas, controlador fiscal)</li><li><strong>Sistema a medida:</strong> inversión de desarrollo según el alcance, más un mantenimiento mensual</li></ul><p>El hardware es un costo que muchos olvidan. Necesitás al menos una tablet por sector de servicio, impresora térmica en cocina y barra, y un controlador fiscal homologado.</p><p>Revisá también <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión para PyMEs</a> para comparar con opciones más genéricas.</p>"
       },
       {
         "heading": "Cómo implementar el sistema sin frenar tu restaurante",

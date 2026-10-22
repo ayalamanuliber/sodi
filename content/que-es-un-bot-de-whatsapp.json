@@ -5,11 +5,20 @@
   "metaDescription": "Un bot de WhatsApp responde consultas, califica clientes y agenda turnos automáticamente. Te explicamos qué puede hacer, qué no y si te conviene.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
-  "tags": ["bot whatsapp", "automatización", "atención al cliente", "chatbot"],
+  "tags": [
+    "bot whatsapp",
+    "automatización",
+    "atención al cliente",
+    "chatbot"
+  ],
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "6 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "whatsapp-manual-vs-bot-automatico", "como-automatizar-atencion-al-cliente"],
+  "relatedSlugs": [
+    "cuanto-cuesta-bot-whatsapp-empresas",
+    "whatsapp-manual-vs-bot-automatico",
+    "como-automatizar-atencion-al-cliente"
+  ],
   "content": {
     "intro": "<p>Un <strong>bot de WhatsApp</strong> es un programa que responde automáticamente los mensajes que recibís en WhatsApp Business. Cuando un cliente te escribe preguntando precios, horarios o disponibilidad, el bot le contesta al instante — sin que nadie del equipo tenga que tocar el teléfono.</p><p>No es ciencia ficción: es una herramienta que ya usan miles de PyMEs en Argentina para responder fuera de horario, filtrar consultas repetitivas y liberar al equipo de contestar lo mismo 50 veces por día. Si perdés clientes porque no llegás a responder a tiempo, un bot puede ser la solución más rápida y económica.</p>",
     "sections": [
@@ -27,7 +36,7 @@
       },
       {
         "heading": "Bot de WhatsApp: plataforma vs desarrollo custom",
-        "body": "<p>Tenés dos caminos para tener un bot:</p><p><strong>Plataformas (Wasapi, Cliengo, Whaticket, WATI)</strong>: arrancás en $30-60 USD/mes. Configurás los flujos con un editor visual, sin programar. Estás operativo en 1-3 días. Limitación: los flujos son los que la plataforma permite. Si necesitás algo muy específico, puede quedarte corto.</p><p><strong>Desarrollo custom</strong>: desde $800.000 ARS. Un desarrollador te arma el bot exactamente como lo necesitás, con integración a tu <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM</a>, tu <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a> o cualquier otra herramienta. Tarda 4-8 semanas. Tiene sentido cuando necesitás que el bot haga cosas que las plataformas no permiten.</p><p>La recomendación para la mayoría de PyMEs: <strong>arrancá con una plataforma</strong>. Si después de 3-6 meses sentís que te queda chica, migrás a custom con datos reales de qué preguntan tus clientes y cómo interactúan. Para más detalle sobre costos, visitá <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">cuánto cuesta un bot de WhatsApp</a>.</p>"
+        "body": "<p>Tenés dos caminos para tener un bot:</p><p><strong>Plataformas (Wasapi, Cliengo, Whaticket, WATI)</strong>: tienen planes mensuales y los precios varían según el volumen de conversaciones. Configurás los flujos con un editor visual, sin programar. Estás operativo en 1-3 días. Limitación: los flujos son los que la plataforma permite. Si necesitás algo muy específico, puede quedarte corto.</p><p><strong>Desarrollo custom</strong>: requiere una inversión inicial mayor, que depende del alcance. Un desarrollador te arma el bot exactamente como lo necesitás, con integración a tu <a href=\"/blog/que-es-un-crm-y-para-que-sirve\">CRM</a>, tu <a href=\"/blog/que-es-un-sistema-de-gestion\">sistema de gestión</a> o cualquier otra herramienta. Tarda 4-8 semanas. Tiene sentido cuando necesitás que el bot haga cosas que las plataformas no permiten.</p><p>La recomendación para la mayoría de PyMEs: <strong>arrancá con una plataforma</strong>. Si después de 3-6 meses sentís que te queda chica, migrás a custom con datos reales de qué preguntan tus clientes y cómo interactúan. Para más detalle sobre costos, visitá <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">cuánto cuesta un bot de WhatsApp</a>.</p>"
       },
       {
         "heading": "Cómo saber si tu empresa necesita un bot de WhatsApp",
