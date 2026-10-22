@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Sora, Inter } from "next/font/google";
 import { ProductionAnalytics } from "@/components/analytics/ProductionAnalytics";
 import { WhatsAppFloat } from "@/components/landing/WhatsAppFloat";
+import { ogImages } from "@/lib/og-card";
 import "./globals.css";
 
 const sora = Sora({
@@ -26,7 +27,14 @@ export const metadata: Metadata = {
     description:
       "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
     type: "website",
-    images: ["/icon-512.png"],
+    images: ogImages("/"),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SODI — Webs, Sistemas y Automatización para Empresas",
+    description:
+      "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
+    images: ogImages("/"),
   },
   icons: {
     icon: [

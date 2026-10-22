@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getAllArticles } from "@/lib/blog-data";
 import { silos } from "@/lib/blog-types";
 import { getSearchEligibleArticles } from "@/lib/content-release/blog-release";
+import { ogImages } from "@/lib/og-card";
 import { BlogIndex } from "@/components/blog/BlogIndex";
 import { BlogNav } from "@/components/blog/BlogNav";
 import { Footer } from "@/components/landing/Footer";
@@ -20,6 +21,14 @@ export const metadata: Metadata = {
       "Compará caminos, costos y procesos antes de elegir una solución digital.",
     type: "website",
     url: "https://sodi.com.ar/blog",
+    images: ogImages("/blog"),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Guías y decisiones digitales para empresas | SODI",
+    description:
+      "Compará caminos, costos y procesos antes de elegir una solución digital.",
+    images: ogImages("/blog"),
   },
 };
 
