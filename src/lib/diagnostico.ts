@@ -564,7 +564,7 @@ export function buildWhatsAppMessage(
 ): string {
   const lines = [
     `Hola SODI, hice el diagnóstico guiado.`,
-    `Servicio sugerido: ${result.title} — Plan ${result.tier.name}.`,
+    `Servicio sugerido: ${result.title}, plan ${result.tier.name}.`,
     `Precio: $${formatPrice(result.tier.price)}.`,
     answers.caede === "si" ? `Soy miembro CAEDE (descuento aplicado).` : "",
     attributionLabel ? `Origen de la consulta: ${attributionLabel}.` : "",

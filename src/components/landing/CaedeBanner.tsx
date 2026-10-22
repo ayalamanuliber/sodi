@@ -25,7 +25,7 @@ export function CaedeBanner() {
               Miembros de CAEDE tienen 25% de descuento en todos los servicios.
             </p>
             <p className="text-[12px] text-s-sub">
-              Cámara Argentina de Empresas — descuento exclusivo para socios activos.
+              Cámara Argentina de Empresas · descuento exclusivo para socios activos.
             </p>
           </div>
           <a

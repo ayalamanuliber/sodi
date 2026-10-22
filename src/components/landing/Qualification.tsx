@@ -21,7 +21,7 @@ export function Qualification() {
             </h2>
 
             <p className="text-s-sub text-base md:text-lg mb-8 md:mb-12 leading-relaxed font-light max-w-lg">
-              Ya sea que necesites tu primera página web, alguien que maneje tus redes, un sistema para ordenar tu operación o automatizar lo que te consume tiempo — SODI lo resuelve.
+              Ya sea que necesites tu primera página web, alguien que maneje tus redes, un sistema para ordenar tu operación o automatizar lo que te consume tiempo: SODI lo resuelve.
             </p>
 
             <div className="space-y-4 md:space-y-5">

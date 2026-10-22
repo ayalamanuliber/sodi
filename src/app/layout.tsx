@@ -18,12 +18,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SODI — Webs, Sistemas y Automatización para Empresas",
+  title: "SODI | Webs, Sistemas y Automatización para Empresas",
   description:
     "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
   metadataBase: new URL("https://sodi.com.ar"),
   openGraph: {
-    title: "SODI — Webs, Sistemas y Automatización para Empresas",
+    title: "SODI | Webs, Sistemas y Automatización para Empresas",
     description:
       "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
     type: "website",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SODI — Webs, Sistemas y Automatización para Empresas",
+    title: "SODI | Webs, Sistemas y Automatización para Empresas",
     description:
       "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
     images: ogImages("/"),
@@ -92,7 +92,7 @@ const siteSchema = {
       "@type": "WebSite",
       "@id": "https://sodi.com.ar/#website",
       url: "https://sodi.com.ar",
-      name: "SODI — Webs, Sistemas y Automatización para Empresas",
+      name: "SODI | Webs, Sistemas y Automatización para Empresas",
       publisher: { "@id": "https://sodi.com.ar/#organization" },
       inLanguage: "es-AR",
     },
@@ -100,7 +100,7 @@ const siteSchema = {
       "@type": "WebPage",
       "@id": "https://sodi.com.ar/#homepage",
       url: "https://sodi.com.ar",
-      name: "SODI — Webs, Sistemas y Automatización para Empresas",
+      name: "SODI | Webs, Sistemas y Automatización para Empresas",
       description:
         "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
       isPartOf: { "@id": "https://sodi.com.ar/#website" },
