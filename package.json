@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:editorial-release": "node scripts/build-sodi-editorial-release.mjs && next build",
+    "build": "npm run test:og-cards && next build",
+    "build:editorial-release": "node scripts/build-sodi-editorial-release.mjs && npm run test:og-cards && next build",
     "start": "next start",
     "lint": "eslint",
     "test:crawl-policy": "node --no-warnings --experimental-strip-types scripts/check-crawl-policy.mjs",
