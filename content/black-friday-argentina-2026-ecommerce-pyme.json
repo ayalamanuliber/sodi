@@ -1,0 +1,85 @@
+{
+  "slug": "black-friday-argentina-2026-ecommerce-pyme",
+  "title": "Black Friday Argentina 2026 para tu ecommerce: guía para PyMEs",
+  "metaTitle": "Black Friday Argentina 2026: guía para tu ecommerce | SODI",
+  "metaDescription": "Black Friday 2026 es el viernes 27 de noviembre. Qué es distinto del CyberMonday de CACE (2 al 4/11), cómo cuidar margen, comisiones y logística en tu tienda.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "black friday",
+    "cyber monday",
+    "ecommerce argentina",
+    "pymes",
+    "ventas online"
+  ],
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "readingTime": "7 min lectura",
+  "relatedSlugs": [
+    "cyber-monday-argentina-2026-como-participar",
+    "mercadopago-vs-mobbex-ecommerce",
+    "como-reducir-comisiones-mercadopago",
+    "hot-sale-2026-ecommerce-argentina",
+    "como-preparar-tienda-hot-sale-2026"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> el Black Friday 2026 cae el viernes 27 de noviembre, el día siguiente al Día de Acción de Gracias de Estados Unidos. En Argentina no es un evento de CACE: el CyberMonday oficial es antes, del 2 al 4 de noviembre. Para una PyME son dos oportunidades separadas por tres semanas, y conviene decidir cuál juega cada una.</p><p>Esta guía arma el plan para tu tienda: qué promocionar, cómo cuidar el margen frente a comisiones, qué revisar en el checkout y cómo evitar quedar sin stock. Si todavía no definiste cómo cobrar, mirá <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">MercadoPago vs Mobbex</a> y <a href=\"/blog/como-reducir-comisiones-mercadopago\">cómo reducir las comisiones de MercadoPago</a>. Para el evento anterior, tenés <a href=\"/blog/cyber-monday-argentina-2026-como-participar\">cómo participar del CyberMonday</a>.</p>",
+    "sections": [
+      {
+        "heading": "Black Friday y CyberMonday: dos eventos distintos",
+        "body": "<p>El CyberMonday argentino es una iniciativa de CACE y su sitio oficial (cybermonday.com.ar) marca los días 2, 3 y 4 de noviembre de 2026. El Black Friday, en cambio, es una fecha comercial importada que cada marca y marketplace adopta por su cuenta. Según guías consultadas el 22/10/2026 (Universal Assistance y otras), muchos comercios extienden sus ofertas al fin de semana y a la semana siguiente. No encontramos una fuente oficial de CACE para el Black Friday, así que no hay \"sello\" ni inscripción central: tu promo es tuya.</p><div class=\"table-wrap\"><table><thead><tr><th></th><th>CyberMonday</th><th>Black Friday</th></tr></thead><tbody><tr><td>Fecha 2026</td><td>2 al 4 de noviembre (sitio oficial CACE)</td><td>Viernes 27 de noviembre</td></tr><tr><td>Quién lo organiza</td><td>CACE</td><td>Nadie en particular: cada marca decide</td></tr><tr><td>Sello oficial</td><td>Sí, con contratación previa</td><td>No</td></tr><tr><td>Qué decidís vos</td><td>Participar o promo propia</td><td>Todo: fechas, ofertas y canales</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Decidí qué hace cada fecha",
+        "body": "<p>Una forma simple de ordenarlo es no repetir la misma oferta tres semanas después. Algunas ideas:</p><ul><li><strong>CyberMonday:</strong> tus ofertas más visibles, si estás en el sitio oficial o querés captar tráfico de ese momento.</li><li><strong>Black Friday:</strong> productos distintos, bundles o regalos de cara a diciembre.</li><li><strong>Clientes que ya compraron:</strong> acceso anticipado por mail antes del 27, que cuesta menos que captar clientes nuevos.</li></ul><p>Con la plata en juego, hacé la cuenta de cada oferta antes de lanzarla: precio, comisión de cobro, envío, costo del producto. Si no deja margen, no la publiques.</p>"
+      },
+      {
+        "heading": "Cuidá el margen: comisiones y cuotas",
+        "body": "<p>Un descuento fuerte más cuotas sin interés puede comerse el margen. Antes de la fecha, revisá lo que te cobra tu medio de pago y qué costo financiero absorbés en cada plan de cuotas. Los datos concretos están en la página oficial de cada proveedor y cambian, así que tomá siempre la versión vigente. Para entender opciones, leé <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">MercadoPago vs Mobbex</a>; para bajar costos, <a href=\"/blog/como-reducir-comisiones-mercadopago\">cómo reducir las comisiones de MercadoPago</a>.</p><p>Armá una planilla con tres columnas por producto: precio normal, precio de oferta y ganancia después de comisión y envío. Es el único número que importa el 27.</p>"
+      },
+      {
+        "heading": "Preparación técnica del checkout",
+        "body": "<ul><li><strong>Compra completa desde el celular</strong>, con cada medio de pago, antes de la fecha.</li><li><strong>Velocidad:</strong> medí con PageSpeed Insights las páginas de oferta.</li><li><strong>Capacidad:</strong> consultá a tu plataforma o hosting qué pasa ante un pico de visitas.</li><li><strong>Mensajes:</strong> aclará plazos de entrega y política de cambios en la página del producto.</li><li><strong>Atención:</strong> definí quién responde consultas ese día y por qué canal.</li></ul>"
+      },
+      {
+        "heading": "Stock y logística",
+        "body": "<p>El error más caro es vender lo que no tenés. Sincronizá inventario, limitá unidades en ofertas con stock chico y hablá con tu operador logístico sobre fechas de corte para llegar antes de las fiestas. Prometé el plazo que podés cumplir, aunque sea más largo que el de la competencia.</p>"
+      },
+      {
+        "heading": "Comunicación sin inflar",
+        "body": "<p>Con descuentos, lo que más daña la confianza es un precio \"de lista\" inventado. Mostrá el precio que realmente cobrabas y guardá el historial. En mails y redes, contá qué incluye la oferta y hasta cuándo. Armá una secuencia corta: aviso la semana previa, lanzamiento el viernes 27, recordatorio el fin de semana, cierre con las unidades que queden.</p>"
+      },
+      {
+        "heading": "Después del evento",
+        "body": "<p>Una semana después, mirá tres cosas: ventas netas después de comisión y devoluciones, cuántos compradores eran nuevos y cuántos volvieron a comprar. Con eso decidís qué repetir para el Hot Sale y el próximo CyberMonday. Si querés una guía previa, está la <a href=\"/blog/hot-sale-2026-ecommerce-argentina\">guía de Hot Sale</a>.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de consulta",
+        "body": "<p>Consultado el 22/10/2026:</p><ul><li><a href=\"https://www.cybermonday.com.ar\" rel=\"nofollow noopener\">cybermonday.com.ar</a>: fechas del CyberMonday (2, 3 y 4 de noviembre) y aclaración de que las ofertas las ofrecen las empresas anunciantes.</li><li><a href=\"https://www.universal-assistance.com/uablog/cuando-es-el-black-friday/\" rel=\"nofollow noopener\">Universal Assistance</a> y otras guías: Black Friday 2026 el viernes 27 de noviembre y extensión de ofertas por parte de varias marcas. La fecha coincide con el calendario (viernes siguiente al cuarto jueves de noviembre, Día de Acción de Gracias en EE.UU.).</li><li>Una página de una marca publicó el 28 de noviembre: no coincide con el calendario de 2026 y no la usamos.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo es el Black Friday 2026 en Argentina?",
+        "answer": "El viernes 27 de noviembre de 2026, el día siguiente al Día de Acción de Gracias de EE.UU. Muchas marcas extienden las ofertas al fin de semana. No hay un organizador oficial único."
+      },
+      {
+        "question": "¿El Black Friday es de CACE como el CyberMonday?",
+        "answer": "No encontramos que CACE lo organice. El CyberMonday oficial es del 2 al 4 de noviembre de 2026 (cybermonday.com.ar); el Black Friday lo adopta cada marca por su cuenta."
+      },
+      {
+        "question": "¿Conviene hacer Black Friday si ya hice CyberMonday?",
+        "answer": "Depende de tu margen y stock. Una opción es usar productos y bundles distintos y priorizar a clientes que ya te compraron. Hacé la cuenta de cada oferta después de comisiones y envío."
+      },
+      {
+        "question": "¿Necesito inscribirme en algún lado para el Black Friday?",
+        "answer": "No hay una inscripción central. Si vendés en un marketplace, mirá sus condiciones propias; en tu tienda, la promo la definís vos."
+      },
+      {
+        "question": "¿Cómo cuido el margen en el Black Friday?",
+        "answer": "Calculá por producto el precio de oferta menos comisión del medio de pago, costo financiero de cuotas, envío y costo del producto. Si no queda ganancia, no la lances."
+      }
+    ],
+    "ctaText": "¿Querés que tu tienda llegue lista al Black Friday? En SODI revisamos tu checkout, tus costos y armamos la campaña. Hablemos."
+  }
+}

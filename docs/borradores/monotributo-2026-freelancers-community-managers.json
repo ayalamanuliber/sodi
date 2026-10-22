@@ -1,0 +1,63 @@
+{
+  "_estado": "BORRADOR. No va en content/ ni en el sitemap. Revisión humana pendiente. Alcance sí/no: ver projects/contenido-seo/noche-20261022/sodi-bf/NOTA-ALCANCE-ARCA.md",
+  "slug": "monotributo-2026-freelancers-community-managers",
+  "title": "Monotributo 2026 para freelancers y community managers: categorías, pagos y recategorización",
+  "metaTitle": "Monotributo 2026 para freelancers y community managers | SODI",
+  "metaDescription": "Cómo funciona el monotributo si sos freelancer o community manager: categorías vigentes desde 1/8/2026, pago el 20 de cada mes y recategorización en febrero y agosto, según ARCA.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "monotributo",
+    "ARCA",
+    "freelancers",
+    "community manager"
+  ],
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": [
+    "factura-electronica-arca-2026",
+    "cuanto-cuesta-community-manager-argentina",
+    "como-reducir-comisiones-mercadopago"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> si prestás servicios como freelancer o community manager, el monotributo te ubica en una categoría según tus ingresos brutos de los últimos 12 meses. Según ARCA, los valores vigentes se aplican desde el 1/08/2026, la cuota se paga hasta el día 20 de cada mes y la recategorización semestral se hace en febrero y agosto. Informativo, no es asesoramiento: confirmalo con tu contador.</p>",
+    "sections": [
+      {
+        "heading": "Qué categorías aplican a servicios",
+        "body": "<p>En la tabla de ARCA (consultada el 22/10/2026, valores desde el 1/08/2026), las categorías de la A a la H figuran sin restricción de actividad; las I, J y K figuran para venta de bienes muebles. Para quien presta servicios, el máximo es entonces la categoría H.</p><div class=\"table-wrap\"><table><thead><tr><th>Categoría</th><th>Ingresos brutos anuales (tope)</th><th>Cuota mensual total, servicios</th></tr></thead><tbody><tr><td>A</td><td>$12.009.410,45</td><td>$49.527,18</td></tr><tr><td>B</td><td>$17.595.182,74</td><td>$56.379,08</td></tr><tr><td>C</td><td>$24.670.494,31</td><td>$66.020,12</td></tr><tr><td>D</td><td>$30.628.651,43</td><td>$84.612,93</td></tr><tr><td>E</td><td>$36.028.231,33</td><td>$119.811,45</td></tr><tr><td>F</td><td>$45.151.659,41</td><td>$150.784,21</td></tr><tr><td>G</td><td>$53.995.798,87</td><td>$230.312,94</td></tr><tr><td>H</td><td>$81.924.660,37</td><td>$522.706,68</td></tr></tbody></table></div><p>Los montos son los publicados por ARCA para locaciones y prestaciones de servicios; incluyen impuesto integrado, aportes al SIPA y obra social. Se actualizan por ley, así que verificá siempre la tabla vigente.</p>"
+      },
+      {
+        "heading": "Cuándo se paga y cuándo se recategoriza",
+        "body": "<p>Según ARCA (Monotributo, Desarrollo de la actividad): los pagos mensuales se ingresan hasta el día 20 de cada mes, y todos los años en febrero y agosto se hace la recategorización semestral, que evalúa si seguís en la misma categoría o tenés que cambiarla.</p>"
+      },
+      {
+        "heading": "Factura electrónica",
+        "body": "<p>Para facturar necesitás habilitar un punto de venta en el sistema de facturación que elijas. El paso a paso está en <a href=\"/blog/factura-electronica-arca-2026\">nuestra guía de factura electrónica</a>.</p>"
+      },
+      {
+        "heading": "Qué mirar si trabajás con clientes del exterior o con plataformas",
+        "body": "<p>Pendiente: no incluimos reglas sobre cobros del exterior hasta confirmarlas con fuente oficial de ARCA. Ver nota de alcance.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de consulta",
+        "body": "<p>Consultado el 22/10/2026:</p><ul><li><a href=\"https://www.afip.gob.ar/monotributo/categorias.asp\" rel=\"nofollow noopener\">ARCA, Monotributo: montos y categorías vigentes</a> (valores de aplicación desde el 1/08/2026).</li><li><a href=\"https://www.afip.gob.ar/monotributo/ayuda/desarrollo-de-la-actividad.asp\" rel=\"nofollow noopener\">ARCA, Desarrollo de la actividad</a>: pago hasta el día 20 y recategorización en febrero y agosto.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Hasta qué categoría puede llegar un freelancer en el monotributo?",
+        "answer": "Según la tabla de ARCA vigente desde el 1/08/2026, las categorías I, J y K corresponden a venta de bienes muebles, así que para servicios el máximo es la H (tope de ingresos brutos anuales $81.924.660,37)."
+      },
+      {
+        "question": "¿Cuándo se paga el monotributo?",
+        "answer": "Hasta el día 20 de cada mes, según ARCA."
+      },
+      {
+        "question": "¿Cuándo me recategorizo?",
+        "answer": "Todos los años en febrero y agosto, según ARCA."
+      }
+    ],
+    "ctaText": "¿Sos freelancer y querés ordenar cómo cobrás por tu trabajo? Hablemos."
+  }
+}
