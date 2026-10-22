@@ -148,6 +148,13 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
     baselineMember: false,
   },
+  "indice-precios-servicios-digitales-argentina": {
+    status: "preview",
+    reason: "Prototipo 22/10/2026: indice de precios con fuente y fecha por fila; solo cifras ya citadas en paginas del repo. Sin aprobacion de publicacion.",
+    packetId: "sodi-indice-20261022-01-v1",
+    reviewGate: "Releer cada fuente antes de aprobar; no convertir monedas ni promediar; sin precios propios de SODI.",
+    baselineMember: false,
+  },
   "black-friday-argentina-2026-ecommerce-pyme": {
     status: "approved",
     reason: "Pagina nueva estacional (22/10/2026): Black Friday 2026 para ecommerce pyme; fecha y fuentes citadas en la propia pagina.",
