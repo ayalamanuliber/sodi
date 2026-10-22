@@ -26,6 +26,8 @@ const releaseSources = [
   ["sodi-escala-20261021-07-v1", "/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina", "content/cuanto-cuesta-redaccion-contenidos-seo-argentina.json"],
   ["sodi-bf-20261022-01-v1", "/blog/black-friday-argentina-2026-ecommerce-pyme", "content/black-friday-argentina-2026-ecommerce-pyme.json"],
   ["sodi-indice-20261022-01-v1", "/blog/indice-precios-servicios-digitales-argentina", "content/indice-precios-servicios-digitales-argentina.json"],
+  ["sodi-aguinaldo-20261022-01-v1", "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar", "content/aguinaldo-2026-pymes-como-calcular-cuando-pagar.json"],
+  ["sodi-venc-20261022-01-v1", "/blog/vencimientos-arca-noviembre-diciembre-2026", "content/vencimientos-arca-noviembre-diciembre-2026.json"],
 ];
 
 function sha256(value) {
@@ -70,7 +72,7 @@ const manifest = {
   channel: "production_release",
   authority: "owner_authorized",
   generatedAt: "2026-08-31",
-  expectedRouteCount: 19,
+  expectedRouteCount: 21,
   routeSetSha256: sha256(routes.map((entry) => entry.route).sort().join("\n")),
   routes,
 };
@@ -83,4 +85,4 @@ writeFileSync(
     `export const EDITORIAL_RELEASE = ${JSON.stringify(manifest, null, 2)} as const;\n`,
 );
 
-console.log(`SODI editorial release: ${routes.length}/19 routes, digest ${manifest.routeSetSha256}.`);
+console.log(`SODI editorial release: ${routes.length}/21 routes, digest ${manifest.routeSetSha256}.`);

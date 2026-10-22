@@ -5,8 +5,8 @@ export const EDITORIAL_RELEASE = {
   "channel": "production_release",
   "authority": "owner_authorized",
   "generatedAt": "2026-08-31",
-  "expectedRouteCount": 19,
-  "routeSetSha256": "59bbe3bf8aa1d966383dce99981bde3e9cca2edaa66bff1ea043fb839e94c45c",
+  "expectedRouteCount": 21,
+  "routeSetSha256": "92b432ce59e6710725ec98631bf9a00abd045713f454723fa6e099e63be0884b",
   "routes": [
     {
       "packetId": "sodi-content-sodi-010-v1",
@@ -428,6 +428,54 @@ export const EDITORIAL_RELEASE = {
         "/blog/cuanto-cuesta-contratar-programador-freelance-argentina"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=indice-precios-servicios-digitales-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-aguinaldo-20261022-01-v1",
+      "route": "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+      "kind": "blog",
+      "sourcePath": "content/aguinaldo-2026-pymes-como-calcular-cuando-pagar.json",
+      "sourceFileSha256": "e3ab6b90d517b507f40df59bcee1709e177931923b2a4623890f549cfe5f1927",
+      "contentSha256": "2ce0e167bea748ad791c064aedeb3b53f91699ac2be5ecfb3527f3055319acc6",
+      "canonical": "https://sodi.com.ar/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+      "internalLinks": [
+        "/blog/vencimientos-arca-noviembre-diciembre-2026",
+        "/blog/como-escalar-operacion-sin-contratar",
+        "/blog/contratar-programador-vs-agencia",
+        "/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
+        "/blog/factura-electronica-arca-2026"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=aguinaldo-2026-pymes-como-calcular-cuando-pagar&ruta=guias",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-venc-20261022-01-v1",
+      "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
+      "kind": "blog",
+      "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
+      "sourceFileSha256": "d94b288a9efc084e5c7fea324d6bb3264ab8e81f8c065e387bb1b583d5a4ec5d",
+      "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
+      "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
+      "internalLinks": [
+        "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+        "/blog/factura-electronica-arca-2026",
+        "/blog/monotributista-puede-vender-online-argentina",
+        "/blog/que-pasa-si-vendo-online-sin-facturar",
+        "/blog/cuanto-cuesta-facturacion-electronica-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=vencimientos-arca-noviembre-diciembre-2026&ruta=guias",
       "release": {
         "index": true,
         "follow": true,

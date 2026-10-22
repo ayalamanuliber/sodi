@@ -1,0 +1,102 @@
+{
+  "slug": "vencimientos-arca-noviembre-diciembre-2026",
+  "title": "Vencimientos ARCA noviembre y diciembre 2026: calendario para pymes y monotributistas",
+  "metaTitle": "Vencimientos ARCA noviembre y diciembre 2026: monotributo, IVA, F.931 | SODI",
+  "metaDescription": "Fechas de vencimientos ARCA de noviembre y diciembre 2026: monotributo 20/11 y 21/12, IVA, F.931 y autónomos, de la agenda oficial leída el 22/10/2026.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "vencimientos arca noviembre 2026",
+    "vencimientos arca diciembre 2026",
+    "monotributo vencimiento",
+    "calendario fiscal",
+    "pymes"
+  ],
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": [
+    "aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+    "factura-electronica-arca-2026",
+    "monotributista-puede-vender-online-argentina",
+    "que-pasa-si-vendo-online-sin-facturar",
+    "cuanto-cuesta-facturacion-electronica-argentina"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> el monotributo de noviembre vence el 20/11/2026 y el de diciembre el 21/12/2026, para todas las terminaciones de CUIT. El IVA de octubre se presenta e ingresa entre el 18 y el 25 de noviembre, y el de noviembre entre el 18 y el 24 de diciembre, según la terminación. Las cargas sociales de quienes tienen empleados (F.931) vencen del 11 al 13 de noviembre y del 9 al 11 de diciembre.</p><p>Todas las fechas de esta página salen de la <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientos.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA</a> de ARCA, leída el 22/10/2026 (la agenda indica “información actualizada al 21/10/2026, 18:28”). No usamos calendarios de terceros. Si ARCA modifica un vencimiento por resolución, la agenda oficial es la que manda: revisala antes de pagar. Si pagás aguinaldo en diciembre, mirá también la <a href=\"/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar\">guía de aguinaldo 2026 para pymes</a>.</p>",
+    "sections": [
+      {
+        "heading": "Cómo leer las tablas: la terminación de CUIT",
+        "body": "<p>Casi todos los vencimientos dependen del último dígito de tu CUIT. Fijate en el número que va después del guion final: si tu CUIT termina en 7, usá la fila “7, 8 y 9” o “6 y 7”, según la tabla. Una fecha marcada “todas” vale para cualquier terminación.</p>"
+      },
+      {
+        "heading": "Monotributo: cuota mensual",
+        "body": "<p>Ingreso del impuesto y, de corresponder, de las cotizaciones personales fijas de la obligación mensual (personas físicas y sucesiones indivisas).</p><div class=\"table-wrap\"><table><thead><tr><th>Obligación</th><th>Vencimiento</th><th>Terminación de CUIT</th></tr></thead><tbody><tr><td>Cuota mensual de noviembre/2026 (impuesto integrado y cotizaciones fijas, si corresponden)</td><td>20/11/2026</td><td>todas</td></tr><tr><td>Cuota mensual de diciembre/2026</td><td>21/12/2026</td><td>todas</td></tr></tbody></table></div><p>El 20/12/2026 cae domingo, y la agenda de ARCA fija la cuota de diciembre el lunes 21. En las agendas de noviembre y diciembre que leímos no figura la recategorización semestral: no la asumas en estos meses sin revisar la agenda y tu categoría. Para saber si tu actividad puede vender online siendo monotributista, mirá <a href=\"/blog/monotributista-puede-vender-online-argentina\">esta nota</a>.</p>"
+      },
+      {
+        "heading": "IVA para responsables inscriptos",
+        "body": "<p>Presentación de la declaración jurada (F. 2051, Portal IVA) e ingreso del saldo resultante.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>IVA octubre/2026 (DDJJ e ingreso)</th><th>IVA noviembre/2026 (DDJJ e ingreso)</th></tr></thead><tbody><tr><td>0 y 1</td><td>18/11/2026</td><td>18/12/2026</td></tr><tr><td>2 y 3</td><td>19/11/2026</td><td>21/12/2026</td></tr><tr><td>4 y 5</td><td>20/11/2026</td><td>22/12/2026</td></tr><tr><td>6 y 7</td><td>24/11/2026</td><td>23/12/2026</td></tr><tr><td>8 y 9</td><td>25/11/2026</td><td>24/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Empleadores: cargas sociales (F. 931)",
+        "body": "<p>Presentación e ingreso de aportes y contribuciones de la Seguridad Social y obras sociales, por período devengado.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Período octubre/2026</th><th>Período noviembre/2026</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>11/11/2026</td><td>09/12/2026</td></tr><tr><td>4, 5 y 6</td><td>12/11/2026</td><td>10/12/2026</td></tr><tr><td>7, 8 y 9</td><td>13/11/2026</td><td>11/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Trabajadores autónomos",
+        "body": "<p>Determinación e ingreso de aportes y contribuciones al Régimen Nacional de la Seguridad Social, por período.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Período octubre/2026</th><th>Período noviembre/2026</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>05/11/2026</td><td>09/12/2026</td></tr><tr><td>4, 5 y 6</td><td>11/11/2026</td><td>10/12/2026</td></tr><tr><td>7, 8 y 9</td><td>12/11/2026</td><td>11/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Ganancias y Bienes Personales de personas humanas",
+        "body": "<p>En diciembre vence el 3º anticipo del año 2026 de Ganancias (personas físicas y sucesiones indivisas) y el 3º anticipo de Bienes Personales (personas físicas o sucesiones indivisas domiciliadas o radicadas en el país). En la agenda de noviembre no figuran anticipos de personas humanas.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>3º anticipo Ganancias 2026</th><th>3º anticipo Bienes Personales 2026</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>14/12/2026</td><td>14/12/2026</td></tr><tr><td>4, 5 y 6</td><td>15/12/2026</td><td>15/12/2026</td></tr><tr><td>7, 8 y 9</td><td>16/12/2026</td><td>16/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Ganancias de sociedades",
+        "body": "<p>Sociedades, empresas o explotaciones unipersonales, fideicomisos y otros, régimen general: declaración jurada (F. 713) e ingreso del saldo según el mes de cierre del ejercicio.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Ejercicio cerrado en junio/2026: presentación</th><th>Ejercicio cerrado en junio/2026: saldo</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>13/11/2026</td><td>16/11/2026</td></tr><tr><td>4, 5 y 6</td><td>16/11/2026</td><td>17/11/2026</td></tr><tr><td>7, 8 y 9</td><td>17/11/2026</td><td>18/11/2026</td></tr></tbody></table></div><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Ejercicio cerrado en julio/2026: presentación</th><th>Ejercicio cerrado en julio/2026: saldo</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>14/12/2026</td><td>15/12/2026</td></tr><tr><td>4, 5 y 6</td><td>15/12/2026</td><td>16/12/2026</td></tr><tr><td>7, 8 y 9</td><td>16/12/2026</td><td>17/12/2026</td></tr></tbody></table></div><p>Los anticipos de sociedades vencen el 13, 16 y 17/11/2026 (terminaciones 0-3, 4-6 y 7-9) y el 14, 15 y 16/12/2026. La agenda también fija la presentación de memoria y estados contables: el 30/11/2026 para ejercicios cerrados en mayo y el 31/12/2026 para los cerrados en junio.</p>"
+      },
+      {
+        "heading": "Qué no incluye esta página",
+        "body": "<p>No incluye impuestos provinciales ni municipales (por ejemplo, Ingresos Brutos), ni los regímenes de agentes de retención y percepción, planes de pago, aduana o regímenes de información específicos, que ARCA lista aparte. Tampoco reemplaza una verificación por CUIT: en la agenda de ARCA podés filtrar por fecha, terminación e impuesto.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de lectura",
+        "body": "<p>Leídas el 22/10/2026:</p><ul><li><a href=\"https://seti.afip.gob.ar/av/seleccionVencimientos.do\" rel=\"nofollow noopener\">ARCA, Agenda de vencimientos (sintética)</a>, consulta por rango 01/11/2026-30/11/2026 y 01/12/2026-31/12/2026. La pantalla indica “información actualizada al 21/10/2026, 18:28”.</li><li><a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">ARCA, portal de vencimientos</a>: entrada a la agenda y a las formas de pago.</li></ul><p><strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse y cada contribuyente tiene obligaciones propias: consultá con tu contador antes de presentar o pagar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo vence el monotributo de noviembre 2026?",
+        "answer": "El 20/11/2026, para todas las terminaciones de CUIT, según la agenda de vencimientos de ARCA leída el 22/10/2026."
+      },
+      {
+        "question": "¿Cuándo vence el monotributo de diciembre 2026?",
+        "answer": "El 21/12/2026, para todas las terminaciones de CUIT. El 20/12 cae domingo."
+      },
+      {
+        "question": "¿Cuándo vence el IVA de octubre 2026?",
+        "answer": "Entre el 18 y el 25 de noviembre de 2026 según la terminación del CUIT: 0 y 1 el 18/11, 2 y 3 el 19/11, 4 y 5 el 20/11, 6 y 7 el 24/11, 8 y 9 el 25/11."
+      },
+      {
+        "question": "¿Cuándo vence el F.931 de empleadores en noviembre 2026?",
+        "answer": "Para el período octubre/2026: 11/11 (terminaciones 0 a 3), 12/11 (4 a 6) y 13/11 (7 a 9). Para el período noviembre/2026, el 9, 10 y 11 de diciembre."
+      },
+      {
+        "question": "¿Qué terminación de CUIT tengo que mirar?",
+        "answer": "El último dígito del número de CUIT, el que va después del guion final."
+      },
+      {
+        "question": "¿Dónde confirmo las fechas?",
+        "answer": "En la agenda de vencimientos de ARCA, en el sitio oficial arca.gob.ar. Es la fuente de esta página y la que prevalece si hay una modificación."
+      }
+    ],
+    "ctaText": "¿Querés que los vencimientos de tu negocio te lleguen como recordatorio por WhatsApp? En SODI armamos esos avisos y tableros simples. Hablemos."
+  },
+  "editorialReview": {
+    "packetId": "sodi-venc-20261022-01-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release authorized by Lagos (TG3533: no preguntes, ejecuta bien); Lagos 22/10/2026 sodi-fc15",
+    "verifiedAt": "2026-10-22",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e"
+  }
+}

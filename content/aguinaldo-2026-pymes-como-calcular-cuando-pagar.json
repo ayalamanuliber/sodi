@@ -1,0 +1,94 @@
+{
+  "slug": "aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+  "title": "Aguinaldo 2026 para pymes: cómo calcularlo y cuándo pagarlo",
+  "metaTitle": "Aguinaldo 2026 para pymes: cómo calcularlo y cuándo pagarlo | SODI",
+  "metaDescription": "Cómo calcular el aguinaldo de diciembre 2026: 50% de la mayor remuneración del semestre, vence el 18/12. Ejemplo numérico con fuente oficial y fecha de lectura.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "aguinaldo 2026",
+    "sueldo anual complementario",
+    "cómo calcular aguinaldo",
+    "pymes",
+    "18 de diciembre"
+  ],
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": [
+    "vencimientos-arca-noviembre-diciembre-2026",
+    "como-escalar-operacion-sin-contratar",
+    "contratar-programador-vs-agencia",
+    "cuanto-cuesta-contratar-programador-freelance-argentina",
+    "factura-electronica-arca-2026"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> el aguinaldo (sueldo anual complementario) se paga en dos cuotas por año. Cada cuota es el 50% de la mayor remuneración mensual devengada en el semestre. La primera vence el 30 de junio y la segunda el 18 de diciembre. En 2026, el 18 de diciembre cae viernes. Si tu pyme tiene empleados en relación de dependencia, la cuenta es simple, pero tiene dos detalles que se olvidan: la mayor remuneración es “por todo concepto” y el sueldo de diciembre hay que estimarlo antes de que exista.</p><p>Esta guía explica la regla con el texto de la ley, hace una cuenta de ejemplo que podés repetir en una planilla y te dice qué fecha mirar. Si además te interesa el calendario de impuestos de fin de año, mirá los <a href=\"/blog/vencimientos-arca-noviembre-diciembre-2026\">vencimientos de ARCA de noviembre y diciembre de 2026</a>.</p>",
+    "sections": [
+      {
+        "heading": "Qué dice la ley",
+        "body": "<p>Lo que sigue sale del texto oficial, leído el 22/10/2026 (fuentes al final):</p><ul><li><strong>Qué es:</strong> la doceava parte del total de las remuneraciones percibidas por el trabajador en el año calendario (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 121</a>).</li><li><strong>Cuándo y cuánto:</strong> dos cuotas, con vencimiento el 30 de junio y el 18 de diciembre. Cada una se liquida sobre el 50% de la mayor remuneración mensual devengada por todo concepto en los semestres que terminan en junio y diciembre (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 122</a>; el mismo criterio figura en la <a href=\"https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=28165\" rel=\"nofollow noopener\">Ley 23.041</a>).</li><li><strong>Diciembre se estima:</strong> para la segunda cuota el empleador estima el sueldo de diciembre. Si después el sueldo real es distinto, se recalcula y la diferencia se integra al sueldo de diciembre (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 122</a>).</li><li><strong>Si el semestre no se trabajó completo:</strong> la liquidación es proporcional al tiempo trabajado, sobre la base del 50% de la mayor remuneración mensual del semestre (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/105000-109999/105143/norma.htm\" rel=\"nofollow noopener\">Decreto 1078/1984, arts. 1 y 2</a>).</li><li><strong>Qué entra en la remuneración:</strong> el cálculo se hace sobre el total de las retribuciones que corresponde computar para el aguinaldo (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/105000-109999/105143/norma.htm\" rel=\"nofollow noopener\">Decreto 1078/1984, art. 3</a>). Qué conceptos puntuales cuentan (horas extra, comisiones, premios) depende de cada caso: pasalo por tu contador.</li><li><strong>Si el contrato termina:</strong> el trabajador cobra la doceava parte de las remuneraciones devengadas en la fracción del semestre trabajado (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 123</a>).</li></ul>"
+      },
+      {
+        "heading": "Cómo calcularlo, paso a paso",
+        "body": "<ol><li>Tomá el semestre: enero a junio para la cuota de junio, julio a diciembre para la de diciembre.</li><li>Buscá la mayor remuneración mensual devengada en ese semestre, sumando todos los conceptos que correspondan.</li><li>Dividila por 2: ese es el aguinaldo de quien trabajó todo el semestre.</li><li>Si ingresó durante el semestre, multiplicá por los días trabajados y dividí por los días del semestre. El decreto habla de “tiempo trabajado” y no aclara si se cuenta por días o por meses; en el ejemplo contamos días corridos (184 en julio-diciembre).</li><li>Para diciembre, usá tu mejor estimación del sueldo de ese mes y recalculá cuando esté liquidado.</li></ol>"
+      },
+      {
+        "heading": "Ejemplo numérico (datos ficticios que podés repetir)",
+        "body": "<p>Tres personas de una pyme imaginaria. Los sueldos son inventados para mostrar la cuenta, no son un valor de referencia. Cada fila usa la regla legal indicada.</p><div class=\"table-wrap\"><table><thead><tr><th>Persona</th><th>Situación</th><th>Cuenta</th><th>Aguinaldo</th><th>Regla</th></tr></thead><tbody><tr><td>Ana</td><td>Trabajó todo julio-diciembre 2026. Mayor sueldo mensual: $1.150.000 (diciembre estimado)</td><td>$1.150.000 ÷ 2</td><td>$575.000</td><td><a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 122</a></td></tr><tr><td>Beto</td><td>Ingresó el 1/9/2026, sueldo fijo de $900.000. Trabajó 122 de los 184 días del semestre</td><td>$900.000 ÷ 2 × 122 ÷ 184</td><td>$298.369,57</td><td><a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/105000-109999/105143/norma.htm\" rel=\"nofollow noopener\">Decreto 1078/1984 arts. 1 y 2</a></td></tr><tr><td>Carla</td><td>Dejó la empresa el 30/9/2026, sueldo de $800.000 por mes (julio, agosto y septiembre)</td><td>($800.000 × 3) ÷ 12</td><td>$200.000 (se liquida con la baja)</td><td><a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 123</a></td></tr></tbody></table></div><p>Para el 18 de diciembre, Ana y Beto suman $575.000 + $298.369,57 = $873.369,57 (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 122</a>). Si cuando se liquide diciembre el sueldo real de Ana resulta $1.200.000, su cuota pasa a $600.000: la diferencia de $25.000 se integra al sueldo de diciembre, y el total de la empresa queda en $898.369,57.</p><p>Para comprobarlo en una planilla: días de Beto = 30 (septiembre) + 31 (octubre) + 30 (noviembre) + 31 (diciembre) = 122. Días del semestre = 31 + 31 + 30 + 31 + 30 + 31 = 184. Redondeo a centavos al final.</p>"
+      },
+      {
+        "heading": "Cuándo pagarlo en 2026",
+        "body": "<p>La segunda cuota vence el 18 de diciembre (<a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">LCT art. 122</a>); en 2026 es viernes, según el calendario. El artículo 128 de la misma ley fija un plazo máximo de cuatro días hábiles después del período para la remuneración mensual o quincenal, y habla de sueldos, no de aguinaldo. Por eso no conviene contar con días de gracia para el aguinaldo sin confirmarlo con tu contador o con tu convenio colectivo.</p><p>Dos recordatorios de caja: el aguinaldo cae en el mismo mes que el sueldo de diciembre, y la diferencia por recálculo viaja con ese sueldo.</p>"
+      },
+      {
+        "heading": "Cómo reservar la plata durante el año",
+        "body": "<p>Como el aguinaldo anual es la doceava parte de lo cobrado en el año, una forma ordenada de provisionarlo es apartar cada mes 1/12 (8,33%) de la remuneración mensual bruta. Es una regla práctica nuestra, no una norma, y no incluye las cargas sociales que se calculan sobre el aguinaldo: pedile esa cuenta a tu contador. El resultado es el mismo que la fórmula de arriba cuando el sueldo no cambia durante el semestre; si cambia, la ley manda la mayor remuneración del semestre, así que ajustá la reserva cuando suba un sueldo.</p>"
+      },
+      {
+        "heading": "Qué no cubre esta guía",
+        "body": "<p>No cubre cargas sociales, retenciones, convenios con reglas propias, servicio doméstico ni regímenes especiales. Tampoco reemplaza una liquidación hecha por tu contador. Los sueldos del ejemplo son ficticios.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de lectura",
+        "body": "<p>Leídas el 22/10/2026:</p><ul><li><a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm\" rel=\"nofollow noopener\">Ley de Contrato de Trabajo, texto ordenado (Infoleg)</a>: art. 121 (concepto), art. 122 (fechas, 50% de la mayor remuneración, estimación de diciembre), art. 123 (extinción del contrato), art. 128 (plazo de pago).</li><li><a href=\"https://servicios.infoleg.gob.ar/infolegInternet/anexos/105000-109999/105143/norma.htm\" rel=\"nofollow noopener\">Decreto 1078/1984 (Infoleg)</a>: arts. 1 a 3, proporcionalidad y base de cálculo.</li><li><a href=\"https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=28165\" rel=\"nofollow noopener\">Ley 23.041 (Infoleg)</a>: 50% de la mayor remuneración mensual de los semestres de junio y diciembre.</li></ul><p><strong>Descargo:</strong> esta guía es informativa, no es asesoramiento laboral ni contable. Las reglas pueden cambiar y cada convenio puede tener condiciones propias: consultá con tu contador antes de liquidar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo vence el aguinaldo de diciembre de 2026?",
+        "answer": "La segunda cuota vence el 18 de diciembre (art. 122 de la Ley de Contrato de Trabajo). En 2026 el 18 de diciembre cae viernes."
+      },
+      {
+        "question": "¿Cómo se calcula el aguinaldo?",
+        "answer": "Es el 50% de la mayor remuneración mensual devengada por todo concepto en el semestre. Para el de diciembre, el semestre es julio a diciembre."
+      },
+      {
+        "question": "¿Y si el empleado ingresó a mitad de semestre?",
+        "answer": "Se paga proporcional al tiempo trabajado en el semestre (Decreto 1078/1984). El decreto no dice si se cuenta por días o por meses; confirmá el criterio con tu contador."
+      },
+      {
+        "question": "¿Qué pasa si todavía no liquidé el sueldo de diciembre?",
+        "answer": "El empleador estima el sueldo de diciembre para calcular la segunda cuota. Si después el sueldo real es distinto, se recalcula y la diferencia se integra al sueldo de diciembre."
+      },
+      {
+        "question": "¿Cuánto cobra alguien que se va antes de fin de semestre?",
+        "answer": "La doceava parte de las remuneraciones devengadas en la fracción del semestre trabajado, hasta que deja el servicio (art. 123 de la Ley de Contrato de Trabajo)."
+      },
+      {
+        "question": "¿Se puede pagar con los cuatro días hábiles del artículo 128?",
+        "answer": "El artículo 128 habla de la remuneración mensual o quincenal. El vencimiento del aguinaldo es el 18 de diciembre; confirmá con tu contador o tu convenio antes de contar con días de gracia."
+      }
+    ],
+    "ctaText": "¿Querés que los vencimientos y pagos fijos de tu pyme te lleguen como recordatorio automático? En SODI armamos esos avisos y tableros simples. Hablemos."
+  },
+  "editorialReview": {
+    "packetId": "sodi-aguinaldo-20261022-01-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release authorized by Lagos (TG3533: no preguntes, ejecuta bien); Lagos 22/10/2026 sodi-fc15",
+    "verifiedAt": "2026-10-22",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "2ce0e167bea748ad791c064aedeb3b53f91699ac2be5ecfb3527f3055319acc6"
+  }
+}

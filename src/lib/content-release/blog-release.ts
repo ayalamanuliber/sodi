@@ -15,7 +15,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: CyberMonday (title/H1/meta) + Community Manager (title/H1/H2, sueldo con fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: cifras de precio sin fuente (Meta Ads, agencia/freelance/consultoria/ads) con link de fuente o reescritas sin numero + gate price-sources. Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
-  approvedCatalogContentSha256: "88e820dea4f72992ae7905f36b4904b127fb36126610f28d267cdf88b53d3b80",
+  // Re-pin 22/10/2026: enlaces desde 5 notas existentes a las paginas nuevas de aguinaldo 2026 y vencimientos ARCA nov/dic 2026 (sodi-fc15). Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
+  approvedCatalogContentSha256: "2ecbc996095140f957b0a8a57cbd0e348fc58942f0845843ad7ba8e26ec4da40",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
@@ -153,6 +154,20 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     reason: "Aprobado por Manuel 22/10/2026 (tarjeta 6c82f0a2): indice de precios con fuente y fecha por fila, 22 filas releidas hoy.",
     packetId: "sodi-indice-20261022-01-v1",
     reviewGate: "Releer cada fuente antes de aprobar; no convertir monedas ni promediar; sin precios propios de SODI.",
+    baselineMember: false,
+  },
+  "aguinaldo-2026-pymes-como-calcular-cuando-pagar": {
+    status: "approved",
+    reason: "Pagina nueva estacional (22/10/2026): aguinaldo de diciembre 2026 para pymes; reglas citadas de LCT arts. 121-123 y 128 y Decreto 1078/1984 leidos el 22/10/2026.",
+    packetId: "sodi-aguinaldo-20261022-01-v1",
+    reviewGate: "Releer LCT art. 122 (fechas) y 128 antes de cualquier cambio; el ejemplo usa sueldos ficticios; sin alicuotas de cargas sociales.",
+    baselineMember: false,
+  },
+  "vencimientos-arca-noviembre-diciembre-2026": {
+    status: "approved",
+    reason: "Pagina nueva estacional (22/10/2026): vencimientos ARCA noviembre y diciembre 2026 tomados de la agenda oficial de ARCA leida el 22/10/2026.",
+    packetId: "sodi-venc-20261022-01-v1",
+    reviewGate: "Releer la agenda oficial de ARCA antes de cada cambio de fecha; sin calendarios de terceros; descargo YMYL (consultar contador).",
     baselineMember: false,
   },
   "black-friday-argentina-2026-ecommerce-pyme": {
