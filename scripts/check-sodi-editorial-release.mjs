@@ -21,7 +21,7 @@ import { getTemplateSlugs } from "../src/lib/template-data.ts";
 const inspection = inspectEditorialRelease();
 assert.equal(inspection.valid, true, inspection.errors.join(" "));
 const manifest = assertEditorialRelease();
-assert.equal(manifest.routes.length, 17);
+assert.equal(manifest.routes.length, 18);
 
 for (const entry of manifest.routes) {
   const source = readFileSync(resolve(process.cwd(), entry.sourcePath));
@@ -42,4 +42,4 @@ assert.deepEqual(
   manifest.routes.filter((entry) => entry.kind === "template").map((entry) => entry.route.slice("/plantillas/".length)).sort(),
 );
 
-console.log("SODI editorial release verified: 14 articles, 3 templates, hashes, discovery and production gates passed.");
+console.log("SODI editorial release verified: 15 articles, 3 templates, hashes, discovery and production gates passed.");

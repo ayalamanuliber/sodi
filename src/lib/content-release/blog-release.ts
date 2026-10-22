@@ -12,7 +12,7 @@ export const BLOG_RELEASE_BASELINE = {
   approvedAt: "2026-08-28",
   expectedSearchEligibleCount: 467,
   approvedSlugSetSha256: "421cae56c6df5e021eb4d3add5a229cf55a8c598d3bb6324642abd606db6de25",
-  approvedCatalogContentSha256: "4d791273f01b11f920fcadb9f70fe168adabf49af7c99f0f7616353eb5ec54e1",
+  approvedCatalogContentSha256: "a6de6ca9923c5944d41dc6e7a6a7be73d0b136206e7059af819476a4c37c6659",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
@@ -143,6 +143,13 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
     packetId: "sodi-escala-20261021-07-v1",
     reviewGate: "Revalidar precios y fuentes antes de subir dateModified; los rangos no son tarifas del proveedor salvo donde la pagina lo dice.",
+    baselineMember: false,
+  },
+  "black-friday-argentina-2026-ecommerce-pyme": {
+    status: "approved",
+    reason: "Pagina nueva estacional (22/10/2026): Black Friday 2026 para ecommerce pyme; fecha y fuentes citadas en la propia pagina.",
+    packetId: "sodi-bf-20261022-01-v1",
+    reviewGate: "Revalidar fecha de Black Friday y condiciones de medios de pago antes de subir dateModified; no inventar cifras de ventas.",
     baselineMember: false,
   },
 };

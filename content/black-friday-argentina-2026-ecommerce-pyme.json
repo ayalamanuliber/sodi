@@ -81,5 +81,14 @@
       }
     ],
     "ctaText": "¿Querés que tu tienda llegue lista al Black Friday? En SODI revisamos tu checkout, tus costos y armamos la campaña. Hablemos."
+  },
+  "editorialReview": {
+    "packetId": "sodi-bf-20261022-01-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner card 694625bd",
+    "verifiedAt": "2026-10-22",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3"
   }
 }

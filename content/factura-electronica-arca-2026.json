@@ -13,7 +13,7 @@
     "facturación"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-10-22",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-facturacion-electronica-argentina",
@@ -22,11 +22,11 @@
     "como-digitalizar-mi-empresa"
   ],
   "content": {
-    "intro": "<p><strong>Respuesta corta:</strong> AFIP ahora se llama ARCA. Para emitir factura electrónica seguís entrando con tu clave fiscal al servicio “Comprobantes en línea” de <a href=\"https://www.arca.gob.ar\" rel=\"noopener\">arca.gob.ar</a>, que es gratis; lo que cambió es el nombre y la URL.</p><p>Si buscás \"factura electrónica AFIP\" en 2026, la mayoría del contenido que encontrás está desactualizado. <strong>AFIP ya no existe</strong> — desde diciembre 2024 se llama ARCA (Agencia de Recaudación y Control Aduanero). El sitio cambió, algunos procedimientos cambiaron, y muchas guías viejas te van a confundir.</p><p>Esta guía te explica cómo emitir <strong>factura electrónica desde arca.gob.ar</strong> en 2026, tanto si sos monotributista como responsable inscripto. Incluye las herramientas gratuitas y pagas que te simplifican la vida si facturás más de 10 veces por mes.</p>",
+    "intro": "<p><strong>Respuesta corta:</strong> AFIP ahora se llama ARCA. Para emitir factura electrónica seguís entrando con tu clave fiscal al servicio “Comprobantes en línea” de <a href=\"https://www.arca.gob.ar\" rel=\"noopener\">arca.gob.ar</a>, que es gratis; lo que cambió es el nombre y la URL.</p><p>Si buscás \"factura electrónica AFIP\" en 2026, la mayoría del contenido que encontrás está desactualizado. <strong>AFIP ya no existe</strong> — desde octubre 2024 se llama ARCA (Agencia de Recaudación y Control Aduanero). El sitio cambió, algunos procedimientos cambiaron, y muchas guías viejas te van a confundir.</p><p>Esta guía te explica cómo emitir <strong>factura electrónica desde arca.gob.ar</strong> en 2026, tanto si sos monotributista como responsable inscripto. Incluye las herramientas gratuitas y pagas que te simplifican la vida si facturás más de 10 veces por mes.</p>",
     "sections": [
       {
         "heading": "AFIP ahora es ARCA: qué cambió y qué sigue igual",
-        "body": "<p>En diciembre 2024 el gobierno unificó AFIP + DGA (Aduana) en un solo organismo: <strong>ARCA</strong>. Para la facturación electrónica, los cambios prácticos son:</p><ul><li><strong>URL nueva:</strong> ya no es afip.gob.ar sino <strong>arca.gob.ar</strong>. Las URLs viejas redirigen, pero si tenés bookmarks o tutoriales guardados, actualizalos.</li><li><strong>Clave fiscal:</strong> sigue funcionando igual. Mismo usuario, misma contraseña. Si ya tenías clave fiscal de AFIP, no necesitás sacar una nueva.</li><li><strong>Comprobantes en línea:</strong> el servicio para emitir facturas electrónicas se sigue llamando \"Comprobantes en línea\" y funciona prácticamente igual.</li><li><strong>Punto de venta:</strong> si ya tenías un punto de venta electrónico habilitado, sigue activo. No tenés que crear uno nuevo.</li></ul><p>En resumen: el nombre y la URL cambiaron, pero si ya facturabas electrónicamente, todo sigue funcionando. Si recién arrancás, seguí los pasos de abajo.</p>"
+        "body": "<p>En octubre 2024 el gobierno unificó AFIP + DGA (Aduana) en un solo organismo: <strong>ARCA</strong>. Para la facturación electrónica, los cambios prácticos son:</p><ul><li><strong>URL nueva:</strong> ya no es afip.gob.ar sino <strong>arca.gob.ar</strong>. Las URLs viejas redirigen, pero si tenés bookmarks o tutoriales guardados, actualizalos.</li><li><strong>Clave fiscal:</strong> sigue funcionando igual. Mismo usuario, misma contraseña. Si ya tenías clave fiscal de AFIP, no necesitás sacar una nueva.</li><li><strong>Comprobantes en línea:</strong> el servicio para emitir facturas electrónicas se sigue llamando \"Comprobantes en línea\" y funciona prácticamente igual.</li><li><strong>Punto de venta:</strong> si ya tenías un punto de venta electrónico habilitado, sigue activo. No tenés que crear uno nuevo.</li></ul><p>En resumen: el nombre y la URL cambiaron, pero si ya facturabas electrónicamente, todo sigue funcionando. Si recién arrancás, seguí los pasos de abajo.</p>"
       },
       {
         "heading": "Paso a paso: emitir factura electrónica desde arca.gob.ar (gratis)",
@@ -48,7 +48,7 @@
     "faqs": [
       {
         "question": "¿AFIP y ARCA son lo mismo?",
-        "answer": "ARCA reemplazó a AFIP en diciembre 2024. Es el mismo organismo con nuevo nombre y estructura. Tu clave fiscal, CUIT y obligaciones fiscales siguen siendo las mismas. El sitio ahora es arca.gob.ar."
+        "answer": "ARCA reemplazó a AFIP en octubre 2024. Es el mismo organismo con nuevo nombre y estructura. Tu clave fiscal, CUIT y obligaciones fiscales siguen siendo las mismas. El sitio ahora es arca.gob.ar."
       },
       {
         "question": "¿Es obligatorio emitir factura electrónica en Argentina?",

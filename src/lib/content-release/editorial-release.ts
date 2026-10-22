@@ -28,7 +28,7 @@ export interface EditorialReleaseManifest {
   channel: "production_release";
   authority: "owner_authorized";
   generatedAt: string;
-  expectedRouteCount: 17;
+  expectedRouteCount: 18;
   routeSetSha256: string;
   routes: EditorialReleaseRoute[];
 }
@@ -52,8 +52,8 @@ export function inspectEditorialRelease(): {
   if (manifest.schemaVersion !== 1) errors.push("schemaVersion must be 1.");
   if (manifest.channel !== "production_release") errors.push("channel must be production_release.");
   if (manifest.authority !== "owner_authorized") errors.push("authority must be owner_authorized.");
-  if (manifest.expectedRouteCount !== 17 || manifest.routes.length !== 17) {
-    errors.push(`Expected exactly 17 routes; observed ${manifest.routes.length}.`);
+  if (manifest.expectedRouteCount !== 18 || manifest.routes.length !== 18) {
+    errors.push(`Expected exactly 18 routes; observed ${manifest.routes.length}.`);
   }
 
   const routes = manifest.routes.map((entry) => entry.route);

@@ -4,8 +4,8 @@
   "channel": "production_release",
   "authority": "owner_authorized",
   "generatedAt": "2026-08-31",
-  "expectedRouteCount": 17,
-  "routeSetSha256": "cdaf173a91fb551ea9129e216deeca8fd67b116ff1f20e178e05b5d0b5097ed7",
+  "expectedRouteCount": 18,
+  "routeSetSha256": "cda086736da87ed2304e1bc6bd9abd036a114c91002cc3f21f08b1cef240453a",
   "routes": [
     {
       "packetId": "sodi-content-sodi-010-v1",
@@ -379,6 +379,30 @@
         "/blog/agencia-web-vs-freelancer"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-redaccion-contenidos-seo-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-bf-20261022-01-v1",
+      "route": "/blog/black-friday-argentina-2026-ecommerce-pyme",
+      "kind": "blog",
+      "sourcePath": "content/black-friday-argentina-2026-ecommerce-pyme.json",
+      "sourceFileSha256": "43923d27ea17c8c7fcab069dd9203b22e2d5f241d4702a3bb6eb0f6da2344949",
+      "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3",
+      "canonical": "https://sodi.com.ar/blog/black-friday-argentina-2026-ecommerce-pyme",
+      "internalLinks": [
+        "/blog/cyber-monday-argentina-2026-como-participar",
+        "/blog/mercadopago-vs-mobbex-ecommerce",
+        "/blog/como-reducir-comisiones-mercadopago",
+        "/blog/hot-sale-2026-ecommerce-argentina",
+        "/blog/como-preparar-tienda-hot-sale-2026"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=black-friday-argentina-2026-ecommerce-pyme&ruta=guias",
       "release": {
         "index": true,
         "follow": true,
