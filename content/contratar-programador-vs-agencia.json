@@ -2,7 +2,7 @@
   "slug": "contratar-programador-vs-agencia",
   "title": "Contratar programador vs agencia: qué conviene para tu proyecto digital en Argentina",
   "metaTitle": "Contratar programador vs agencia Argentina 2026",
-  "metaDescription": "Programador: código por $500k-$1.5M/mes. Agencia: soluciones de negocio completas. Costos, riesgos y cuándo elegir cada uno.",
+  "metaDescription": "Programador: código. Agencia: soluciones de negocio completas. Costos, riesgos y cuándo elegir cada uno, con criterios para comparar presupuestos.",
   "silo": "comparativas",
   "siloLabel": "Comparativas",
   "tags": [
@@ -13,7 +13,7 @@
     "contratar desarrollador"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-10-22",
   "readingTime": "7 min lectura",
   "relatedSlugs": [
     "agencia-web-vs-freelancer",
@@ -25,11 +25,11 @@
     "sections": [
       {
         "heading": "Cuánto cuesta contratar un programador en Argentina en 2026",
-        "body": "<p>Los rangos salariales y de contratación freelance para programadores en Argentina:</p><p><strong>Contratación en relación de dependencia (mensual bruto):</strong></p><ul><li><strong>Junior (0-2 años):</strong> $400.000-$700.000 ARS/mes</li><li><strong>Semi-senior (2-5 años):</strong> $700.000-$1.200.000 ARS/mes</li><li><strong>Senior (5+ años):</strong> $1.200.000-$2.500.000 ARS/mes</li></ul><p><strong>Contratación freelance (por proyecto o por hora):</strong></p><ul><li><strong>Junior:</strong> $3.000-$6.000 ARS/hora o $200.000-$500.000 por proyecto chico</li><li><strong>Semi-senior:</strong> $6.000-$12.000 ARS/hora o $500.000-$1.200.000 por proyecto mediano</li><li><strong>Senior:</strong> $12.000-$25.000 ARS/hora o $1.000.000-$3.000.000 por proyecto complejo</li></ul><p>Ojo: muchos programadores argentinos senior cobran en <strong>dólares</strong> ($20-$60 USD/hora) porque trabajan para el exterior. Si necesitás un senior que acepte cobrar en pesos, tu pool de talento se reduce significativamente.</p><p>A estos costos, un programador senior por proyecto te sale similar o menos que una agencia. Pero estás comprando <strong>código, no solución</strong>. La diferencia es crucial.</p>"
+        "body": "<p>Hay tres formas de pagar a un programador, y el número cambia según cuál elijas:</p><ul><li><strong>Relación de dependencia (sueldo mensual):</strong> el costo para vos es el sueldo bruto más cargas sociales y aguinaldo. El sueldo sube con la experiencia: junior (0-2 años), semi-senior (2-5 años) y senior (5+ años).</li><li><strong>Freelance por hora:</strong> pagás las horas que se usan. Es lo más cómodo para tareas puntuales, pero la hora sale más cara que la de un empleado.</li><li><strong>Freelance por proyecto:</strong> un precio cerrado por un alcance definido. Pedí siempre el desglose de horas por funcionalidad y qué queda afuera.</li></ul><p>Ojo con el dólar: muchos programadores argentinos senior cobran en <strong>dólares</strong> porque trabajan para el exterior. Si necesitás un senior que acepte cobrar en pesos, tu pool de talento se reduce significativamente.</p><p>Las cifras actuales, cada una con su fuente, están en nuestra guía de <a href=\"/blog/cuanto-cuesta-contratar-programador-freelance-argentina\">cuánto cuesta contratar un programador en Argentina</a>.</p><p>Según el alcance, un programador por proyecto puede salir más barato que una agencia. Pero estás comprando <strong>código, no solución</strong>. La diferencia es crucial.</p>"
       },
       {
         "heading": "Qué te da una agencia que un programador solo no puede",
-        "body": "<p>Una agencia seria te da un <strong>equipo integrado</strong>:</p><ul><li><strong>Project manager:</strong> coordina el proyecto, define prioridades, maneja tiempos</li><li><strong>UX/UI designer:</strong> diseña la experiencia del usuario, no solo cómo se ve sino cómo funciona</li><li><strong>Desarrollador(es):</strong> escriben el código</li><li><strong>QA/Testing:</strong> prueba que todo funcione antes de entregarte</li><li><strong>Estratega:</strong> se asegura de que lo que se construye resuelva tu problema de negocio</li></ul><p><strong>Costos de agencia en Argentina 2026:</strong></p><ul><li>Agencia chica (2-5 personas): $500.000-$1.500.000 por proyecto web, $1.500.000-$5.000.000 por proyecto de software</li><li>Agencia mediana (5-15 personas): $1.500.000-$5.000.000 por proyecto web, $5.000.000-$15.000.000 por proyecto de software</li></ul><p>La gran ventaja: vos hablás con el PM, explicás tu problema de negocio, y la agencia se encarga de todo. No tenés que saber de código, de diseño, de infraestructura ni de testing. <strong>Comprás resultado, no horas de programación.</strong></p><p>Con un programador solo, vos tenés que hacer de PM, de diseñador (o contratar otro), de QA, y de estratega. Si tenés experiencia técnica, podés. Si no, el proyecto se descarrila.</p>"
+        "body": "<p>Una agencia seria te da un <strong>equipo integrado</strong>:</p><ul><li><strong>Project manager:</strong> coordina el proyecto, define prioridades, maneja tiempos</li><li><strong>UX/UI designer:</strong> diseña la experiencia del usuario, no solo cómo se ve sino cómo funciona</li><li><strong>Desarrollador(es):</strong> escriben el código</li><li><strong>QA/Testing:</strong> prueba que todo funcione antes de entregarte</li><li><strong>Estratega:</strong> se asegura de que lo que se construye resuelva tu problema de negocio</li></ul><p><strong>Cómo se compara el costo de una agencia:</strong></p><ul><li>El precio de una agencia chica o mediana depende del tipo de proyecto (web o software), del tamaño del equipo y del alcance. No hay una tabla única que sirva.</li><li>Pedí un presupuesto con desglose por rol (gestión, diseño, desarrollo, pruebas) y por etapa.</li><li>Compará al menos tres propuestas con el mismo alcance escrito, para que no estés comparando cosas distintas.</li></ul><p>La gran ventaja: vos hablás con el PM, explicás tu problema de negocio, y la agencia se encarga de todo. No tenés que saber de código, de diseño, de infraestructura ni de testing. <strong>Comprás resultado, no horas de programación.</strong></p><p>Con un programador solo, vos tenés que hacer de PM, de diseñador (o contratar otro), de QA, y de estratega. Si tenés experiencia técnica, podés. Si no, el proyecto se descarrila.</p>"
       },
       {
         "heading": "Cuándo conviene un programador y cuándo una agencia",
@@ -41,17 +41,17 @@
       },
       {
         "heading": "La opción híbrida: programador + consultor de negocio",
-        "body": "<p>Hay una tercera vía que muchas PyMEs no consideran: contratar un <strong>programador para la ejecución</strong> y un <strong>consultor o estratega digital</strong> para la definición y supervisión.</p><p>El consultor se encarga de:</p><ul><li>Definir los requerimientos de negocio y traducirlos a especificación técnica</li><li>Elegir la tecnología adecuada</li><li>Supervisar el trabajo del programador</li><li>Hacer QA y validar que el resultado cumpla los objetivos</li></ul><p><strong>Costos de esta opción:</strong></p><ul><li>Programador freelance semi-senior: $600.000-$1.000.000 por proyecto</li><li>Consultor digital (10-15 horas/mes): $80.000-$200.000/mes</li><li>Total para un proyecto de 3 meses: $840.000-$1.600.000</li></ul><p>Es <strong>30-50% más barato que una agencia</strong> para proyectos medianos, y tenés visión de negocio + ejecución técnica. La desventaja: no tenés equipo de diseño integrado (necesitás contratar diseño por separado si tu proyecto lo requiere).</p><p>¿No sabés cuál opción te conviene? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>. Analizamos tu proyecto, tu presupuesto y tu capacidad interna, y te recomendamos la ruta más eficiente.</p>"
+        "body": "<p>Hay una tercera vía que muchas PyMEs no consideran: contratar un <strong>programador para la ejecución</strong> y un <strong>consultor o estratega digital</strong> para la definición y supervisión.</p><p>El consultor se encarga de:</p><ul><li>Definir los requerimientos de negocio y traducirlos a especificación técnica</li><li>Elegir la tecnología adecuada</li><li>Supervisar el trabajo del programador</li><li>Hacer QA y validar que el resultado cumpla los objetivos</li></ul><p><strong>Cómo se arma el costo de esta opción:</strong></p><ul><li>El programador freelance cobra por proyecto o por hora, según el alcance.</li><li>El consultor cobra un abono mensual por unas pocas horas de definición y supervisión.</li><li>El total depende de cuántos meses dura el proyecto: sumás el proyecto del programador y los meses de consultoría.</li></ul><p>Para proyectos medianos suele salir más barata que una agencia, aunque depende del caso: pedí las dos cotizaciones y comparalas con el mismo alcance. Tenés visión de negocio + ejecución técnica. La desventaja: no tenés equipo de diseño integrado (necesitás contratar diseño por separado si tu proyecto lo requiere).</p><p>¿No sabés cuál opción te conviene? <a href=\"/diagnostico\">Pedí tu diagnóstico gratuito</a>. Analizamos tu proyecto, tu presupuesto y tu capacidad interna, y te recomendamos la ruta más eficiente.</p>"
       }
     ],
     "faqs": [
       {
         "question": "¿Cuánto cobra un programador freelance en Argentina?",
-        "answer": "Un junior cobra $3.000-$6.000 ARS/hora, un semi-senior $6.000-$12.000/hora, un senior $12.000-$25.000/hora. Por proyecto: un sitio web simple $200.000-$500.000, un sistema complejo $1.000.000-$3.000.000. Muchos seniors cobran en dólares ($20-$60 USD/hora)."
+        "answer": "Depende de la experiencia, de si cobra por hora o por proyecto y de si cobra en pesos o en dólares. Muchos seniors cobran en dólares. Las cifras con su fuente están en nuestra guía de cuánto cuesta contratar un programador en Argentina. Para presupuestar un proyecto, pedí el desglose de horas por funcionalidad."
       },
       {
         "question": "¿Es más barato un programador que una agencia?",
-        "answer": "En costo directo sí: un programador freelance cuesta 30-60% menos que una agencia. Pero con un programador solo tenés código, no solución completa. Necesitás supervisar, definir requerimientos, hacer QA y gestionar el proyecto vos mismo."
+        "answer": "En costo directo suele ser más barato, según el alcance. Pero con un programador solo tenés código, no solución completa. Necesitás supervisar, definir requerimientos, hacer QA y gestionar el proyecto vos mismo."
       },
       {
         "question": "¿Cómo sé si necesito un programador o una agencia?",
@@ -63,7 +63,7 @@
       },
       {
         "question": "¿Puedo contratar un programador y un consultor en vez de una agencia?",
-        "answer": "Sí, es una opción válida y 30-50% más económica. El consultor define qué construir y supervisa; el programador ejecuta. Funciona bien para proyectos medianos. Para proyectos grandes o que requieren diseño UX integrado, la agencia sigue siendo mejor opción."
+        "answer": "Sí, es una opción válida y para proyectos medianos suele salir más económica. El consultor define qué construir y supervisa; el programador ejecuta. Para proyectos grandes o que requieren diseño UX integrado, la agencia sigue siendo mejor opción."
       }
     ],
     "ctaText": "¿Programador, agencia o combinación? Pedí tu diagnóstico gratuito y te recomendamos la opción más eficiente para tu proyecto y presupuesto."
