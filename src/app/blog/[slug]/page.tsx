@@ -8,7 +8,7 @@ import { getSearchEligibleArticles, isBlogArticleSearchEligible } from "@/lib/co
 import { hasOgCard, ogImages, ogImageProps } from "@/lib/og-card";
 import { Footer } from "@/components/landing/Footer";
 import { BlogNav } from "@/components/blog/BlogNav";
-import { ContentToolLink } from "@/components/blog/ContentToolLink";
+import { ContentToolLink, TopToolLink } from "@/components/blog/ContentToolLink";
 import { SiloHub } from "@/components/blog/SiloHub";
 import styles from "@/components/blog/blog.module.css";
 
@@ -168,6 +168,7 @@ export default async function BlogArticlePage({ params }: Props) {
               <span>{article.readingTime}</span>
             </div>
             <h1>{article.title.replaceAll("—", "-").replaceAll("–", "-")}</h1>
+            <TopToolLink articleSlug={article.slug} articleSilo={article.silo} />
             <div
               className={styles.articleIntro}
               dangerouslySetInnerHTML={{ __html: cleanVisibleHtml(article.content.intro) }}

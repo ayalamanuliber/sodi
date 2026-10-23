@@ -94,3 +94,39 @@ export function ContentToolLink({
     </div>
   );
 }
+
+// Puente arriba del pliegue solo en las 5 notas de mayor trafico (GSC 28d, 23/10/2026).
+// El bloque del final queda como esta; este es un aviso de una linea, no un CTA masivo.
+export const TOP_BRIDGE_SLUGS = new Set([
+  "cuanto-cuesta-community-manager-argentina",
+  "cuanto-cuesta-publicidad-facebook-instagram-argentina",
+  "cuanto-cuesta-software-a-medida-argentina",
+  "cuanto-cuesta-publicidad-tiktok-argentina",
+  "cuanto-cuesta-mantenimiento-pagina-web",
+]);
+
+export function TopToolLink({
+  articleSlug,
+  articleSilo,
+}: ContentToolLinkProps) {
+  if (!TOP_BRIDGE_SLUGS.has(articleSlug)) return null;
+  return (
+    <p className={styles.topBridge}>
+      <span>¿Querés aplicarlo a tu caso?</span>
+      <Link
+        href={`/diagnostico?origen=blog&articulo=${encodeURIComponent(articleSlug)}&ruta=${encodeURIComponent(articleSilo)}&posicion=arriba`}
+        onClick={() =>
+          trackEvent("content_tool_handoff", {
+            source_asset: `/blog/${articleSlug}`,
+            source_cluster: articleSilo,
+            destination: "diagnostico",
+            contact_state: "not_started",
+            placement: "top",
+          })
+        }
+      >
+        Revisar mi caso
+      </Link>
+    </p>
+  );
+}

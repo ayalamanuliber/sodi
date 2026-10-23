@@ -795,3 +795,20 @@
     transition: none;
   }
 }
+
+.topBridge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  margin: 18px 0 0;
+  color: #b4b4be;
+  font-size: 0.9rem;
+}
+
+.topBridge a {
+  color: #00d98b;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
