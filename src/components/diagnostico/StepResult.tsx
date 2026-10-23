@@ -147,6 +147,7 @@ export function StepResult({ result, answers, attribution, onRestart, onBack }: 
       <motion.div {...fade(0.3)} className="flex flex-col sm:flex-row gap-3 sm:gap-4">
         <a
           href={waURL}
+          data-wa-tracked="1"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() =>

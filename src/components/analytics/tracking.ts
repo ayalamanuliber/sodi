@@ -71,6 +71,14 @@ export function trackEvent(eventName: string, properties: TrackingProperties = {
 
   if (typeof window.gtag === "function") {
     window.gtag("event", eventName, cleaned);
+    // GA4 standard ecommerce name next to the existing custom one (Tarea medicion-marcas-6634).
+    if (eventName === "checkout_start") {
+      window.gtag("event", "begin_checkout", {
+        currency: cleaned.currency,
+        value: cleaned.value,
+        items: [{ item_id: Array.isArray(cleaned.content_ids) ? cleaned.content_ids[0] : undefined, item_name: cleaned.content_name }],
+      });
+    }
   }
 
   if (typeof window.fbq === "function") {

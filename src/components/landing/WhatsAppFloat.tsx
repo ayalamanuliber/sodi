@@ -33,6 +33,7 @@ export function WhatsAppFloat() {
       rel="noopener noreferrer"
       className="wa-btn"
       aria-label="WhatsApp"
+      data-wa-tracked="1"
       onClick={() => trackEvent("whatsapp_click", {
         location: "floating_button",
         path: pathname || "/",

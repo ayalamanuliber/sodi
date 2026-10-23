@@ -51,6 +51,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-BXSWHC7WLX');`}
       </Script>
+      <Script src="/event-tracker.js?v=1" strategy="afterInteractive" />
       <MetaPixel />
       <Analytics />
     </>
