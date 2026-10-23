@@ -56,4 +56,35 @@ inject(otherFile, '<p>El CPC ronda USD 0.50, mirá <a href="/blog/x">esto</a>.</
 r = run(tmp);
 assert.equal(r.status, 1, "link interno no cuenta");
 
-console.log("price-sources negative checks passed (5/5)");
+restore(otherFile);
+
+// 6) precio propio: el bloque marcado en ownPrice pasa sin link (la copia limpia ya lo prueba), pero un monto nuevo
+//    sin fuente en el MISMO articulo falla
+const ownSlug = Object.keys(allow.ownPrice)[0];
+inject(`${ownSlug}.json`, "<p>Un competidor cobra $90.000 por mes.</p>");
+r = run(tmp);
+assert.equal(r.status, 1, "cifra nueva sin fuente en un articulo con precio propio debe fallar");
+assert.match(r.stderr, /\[nuevo\]/);
+restore(`${ownSlug}.json`);
+
+// 7) precio propio: editar la cifra propia cambia el hash y falla (hay que revisarla y volver a marcarla)
+const ownHash = Object.keys(allow.ownPrice[ownSlug])[0];
+const ownPrefix = allow.ownPrice[ownSlug][ownHash].slice(0, 40);
+const ownFile = join(tmp, `${ownSlug}.json`);
+const raw = readFileSync(ownFile, "utf8");
+const m = raw.match(/\$(\d{3})\.000/);
+assert.ok(m, "el articulo de precio propio de prueba debe tener un monto $NNN.000");
+writeFileSync(ownFile, raw.replace(m[0], `$${Number(m[1]) + 7}.000`));
+r = run(tmp);
+assert.equal(r.status, 1, `precio propio editado debe fallar (${ownPrefix})`);
+restore(`${ownSlug}.json`);
+
+// 8) precio propio: una entrada que ya no existe en el contenido falla
+const gone = JSON.parse(raw);
+const wipe = (n) => (typeof n === "string" ? n.replace(/\$\d[\d.]*/g, "precio a consultar") : Array.isArray(n) ? n.map(wipe) : n && typeof n === "object" ? Object.fromEntries(Object.entries(n).map(([k, v]) => [k, wipe(v)])) : n);
+writeFileSync(ownFile, JSON.stringify(wipe(gone)));
+r = run(tmp);
+assert.equal(r.status, 1, "entrada ownPrice huerfana debe fallar");
+assert.match(r.stderr, /\[precio propio viejo\]/);
+
+console.log("price-sources negative checks passed (8/8)");

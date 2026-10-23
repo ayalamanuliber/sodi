@@ -93,7 +93,31 @@
   "que-es-whatsapp-business-y-como-usarlo",
   "sistema-de-gestion-para-institutos-educativos",
   "sistema-de-gestion-para-restaurantes",
-  "tiendanube-vs-empretienda-argentina"
+  "tiendanube-vs-empretienda-argentina",
+  "como-migrar-de-excel-a-sistema-de-gestion",
+  "sistema-de-gestion-para-clubes-deportivos",
+  "automatizar-whatsapp-constructoras",
+  "como-crear-tienda-online-argentina",
+  "sistema-de-gestion-para-farmacias",
+  "redes-sociales-para-joyerias",
+  "que-es-una-app-movil-y-cuando-la-necesito",
+  "pagina-web-para-abogados",
+  "cuanto-cuesta-diseno-ux-ui-argentina",
+  "sistema-de-gestion-para-lavaderos",
+  "posicionamiento-web-para-hoteles",
+  "google-ads-para-contadores-argentina",
+  "sistema-de-gestion-para-joyerias",
+  "sistema-de-gestion-para-distribuidoras",
+  "posicionamiento-web-para-contadores",
+  "sistema-de-turnos-para-lavaderos",
+  "sistema-de-gestion-para-opticas",
+  "instagram-shop-vs-tienda-online-propia",
+  "sistema-de-turnos-para-talleres-mecanicos",
+  "cuanto-cuesta-sistema-interno-empresa",
+  "cuanto-cuesta-sistema-de-gestion-pymes",
+  "tiktok-ads-vs-facebook-ads-argentina",
+  "tiendanube-vs-mercadoshops-alternativas",
+  "presencia-digital-ideal-inmobiliaria"
  ],
  "baseline": {
   "agentes-ia-whatsapp-atencion-clientes": {
@@ -162,12 +186,6 @@
    "c379248f01d84fc1": "Integración con software de comex + API (desde USD 400 setup): cotización automática desde",
    "7432c6bcf45e672e": "Desarrollo custom (desde USD 600 setup): integración completa con MALVINA/MARIA, multicoti",
    "09593b33645870ba": "En comex, una sola operación puede valer USD 5.000 a USD 50.000+ en comisiones . Si la aut"
-  },
-  "automatizar-whatsapp-constructoras": {
-   "01215c7d0872caaf": "CRM + WhatsApp (Tokko, Salesforce, HubSpot desde USD 30/mes): gestión de leads con integra",
-   "4b100f4b0d8c0b62": "Bots SaaS (Botmaker, Cliengo desde USD 30/mes): flujos de calificación de leads y envío de",
-   "f50833bc786550df": "Desarrollo custom con API (desde USD 400 setup): integración con sistema de gestión de obr",
-   "20cb0c79b1896f4b": "En construcción, un solo lead bien atendido puede representar una venta de USD 50.000 a US"
   },
   "automatizar-whatsapp-consultorios": {
    "64418381b8b7c2e7": "Bots con plataformas SaaS (Cliengo, AutoBot, ChatCompose): desde USD 25/mes. Flujos visual",
@@ -362,21 +380,6 @@
    "f3d0fa533705935f": "Cloxsy: plataforma argentina. Desde $8.000/mes. Sistema de turnos + recordatorios por What",
    "da83a1b826e63dbe": "Desde $0 (Cal.com self-hosted, Calendly gratis) hasta USD 19-50/mes por profesional (Agend"
   },
-  "como-crear-tienda-online-argentina": {
-   "290c275089ca41df": "Tiendanube: la más usada en el país. Plan Esencial gratis (comisión del 2% por venta). Pla",
-   "56295e47d39889ad": "Shopify: plan Basic desde USD 29/mes + comisión del 2% si no usás Shopify Payments. Más po",
-   "25f8a0d0cab0b4bf": "WooCommerce (WordPress): plugin gratuito, pero necesitás hosting ($5.000-$15.000/mes), dom",
-   "9d1e4073f5d92a95": "Fondo blanco o neutro. Luz natural o un aro de luz ($15.000 ARS). Celular alcanza si la lu",
-   "66550e21214ccfb4": "Andreani: integración nativa con Tiendanube. Generás etiquetas de envío desde tu panel. Co",
-   "0e3e7bba2722824a": "Correo Argentino (Pack): la opción más económica para envíos nacionales. Desde $2.800. Más",
-   "8a18a4331db7aba2": "Envío propio: para entregas en tu ciudad. Usá una moto propia o servicios como PedidosYa E",
-   "b2c097a9a61afb82": "Retiro en punto: dejá que el cliente retire en tu local o en puntos de Andreani/OCA. Reduc",
-   "a61066cd3be467f6": "Empaque: no subestimes el packaging. Una caja con tu logo cuesta $500-$1.500 más que una g",
-   "95506bc01eb6debf": "Inscripción en AFIP: necesitás CUIT y estar registrado como monotributista o responsable i",
-   "ab5da70be54f7725": "Términos y condiciones: publicá tus políticas de envío, devolución, cambios y privacidad. ",
-   "540f5e58201c126a": "Cuidado con las promociones: si publicás \"50% OFF\" tenés que poder demostrar el precio ant",
-   "3995c96eca27d9fb": "Con Tiendanube gratis + Mercado Pago, podés arrancar a costo $0 fijo (pagás comisión por v"
-  },
   "como-dejar-de-depender-de-excel": {
    "0b01c4253da9249d": "Gestión de clientes → CRM: HubSpot Free (gratis, hasta 1.000 contactos), Pipedrive (desde ",
    "82cf22aea693d016": "Stock e inventario → Sistema de inventario: Colppy ($15.000/mes), Odoo Inventario (gratis ",
@@ -481,13 +484,6 @@
    "1ae9a5fbf31729e9": "Si no tenés web todavía, armá una landing page mínima con: qué hacés, para quién, testimon",
    "82b6cf815173b464": "Los quick wins principales (Google Business, WhatsApp Business, optimizar redes) son gratu"
   },
-  "como-migrar-de-excel-a-sistema-de-gestion": {
-   "2c8eef34e39bd13a": "La buena noticia: un sistema de gestión no tiene que ser caro ni complejo. Hay opciones ar",
-   "7a4eaa4fae6b9c9f": "Alegra: facturación + inventario + contabilidad. Desde $12.000/mes. Buena relación precio-",
-   "938df66f3b93d712": "Xubio: argentino, integrado con AFIP. Desde $15.000/mes. Ideal si necesitás facturación el",
-   "047807b301c0ac86": "Desde $12.000 hasta $60.000 ARS/mes dependiendo de la complejidad. Sistemas básicos de fac",
-   "8caa079e085d7372": "Para la mayoría de los sistemas modernos, no. La importación desde CSV/Excel es guiada y l"
-  },
   "como-ordenar-operacion-interna-pyme": {
    "ed1b8091352139e3": "Facturación: herramientas como Colppy o Xubio automatizan la emisión de facturas conectánd",
    "26962073f652493b": "Depende del nivel de complejidad. Mejorar procesos con herramientas gratuitas (Google Driv",
@@ -587,21 +583,6 @@
    "fecc9a5d05ef582f": "Wasapi ($30 USD/mes) es la mejor opción para PyMEs argentinas por precio, soporte local e ",
    "e51ed7056c40026b": "Si recibís menos de 50 consultas diarias y usás una plataforma como Wasapi, la app Busines"
   },
-  "cuanto-cuesta-diseno-ux-ui-argentina": {
-   "a293f3b8957c305f": "Diseño UX/UI en Argentina: landing page USD 300-800, app/web completa USD 1.500-5.000, aud",
-   "31390f9a0ca9128d": "El diseño UX/UI en Argentina cuesta entre USD 300 y USD 5.000 en 2026, dependiendo de la c",
-   "c72d28bc7803235d": "Landing page (USD 300-800 / $360.000-$960.000 ARS): diseño de una sola página con estructu",
-   "75bf5300cfbd9cfb": "Sitio web institucional de 5-10 páginas (USD 800-2.000 / $960.000-$2.400.000 ARS): investi",
-   "ae6c54fa42a91110": "App móvil o plataforma web (USD 1.500-5.000 / $1.800.000-$6.000.000 ARS): investigación de",
-   "6438b9219ffdffb6": "Auditoría UX (USD 500-2.000 / $600.000-$2.400.000 ARS): análisis heurístico de tu producto",
-   "f3bdb1fb2230e752": "Un diseñador UX/UI freelancer junior (1-3 años de experiencia) cobra entre USD 15 y USD 30",
-   "c84b2bb179fda9d0": "Una agencia o estudio de diseño cobra entre USD 40 y USD 100/hora. El precio incluye un eq",
-   "4ca906e34a44da27": "Un diseñador in-house cuesta $600.000-$1.200.000 ARS/mes de sueldo bruto (USD 500-1.000). ",
-   "708fe2c33a8075b0": "1. Investigación (10-20% del presupuesto): entender a tus usuarios (quiénes son, qué neces",
-   "008710e3f0106100": "Canva (gratis / USD 13/mes Pro): no es una herramienta de UX pero sirve para crear mockups",
-   "8476c2aa23810c24": "No tiene sentido invertir USD 2.000+ en UX/UI si tu sitio es solo presencia institucional ",
-   "0f4744a780d49903": "Un diseñador UX/UI freelancer cobra entre USD 15 y USD 60/hora según experiencia. Por proy"
-  },
   "cuanto-cuesta-facturacion-electronica-argentina": {
    "f245c0ba08e729b0": "Cuánto se cobra por facturar: ARCA no cobra por emitir (monotributo). Xubio gratis hasta 1",
    "214ae2e8035af677": "La facturación electrónica en Argentina es obligatoria y se gestiona a través de ARCA (ex ",
@@ -616,12 +597,9 @@
    "b9c34d67de38aac5": "Contabilium, Standard $122.000 + IVA por mes ($109.800 pagando anual) Hasta 1.500 comproba",
    "fd3d7b9988074ed7": "Colppy, Essential $128.500 + IVA por mes 300 comprobantes por mes Otros planes hasta $310.",
    "f9155da1ca5666ff": "2. El costo por comprobante. Facturante lo muestra en su página: el Pack 50 sale $6.355 + ",
-   "a8e3349976ee8ee0": "Costo de desarrollo (estimación de SODI para este tipo de proyecto, no un precio de mercad",
-   "9de86e4c43efdb5b": "Mantenimiento anual: $100.000-$300.000 ARS/año. ARCA cambia regulaciones y endpoints perió",
    "260531385ce65858": "2. Decidí tu herramienta. Pocas facturas por mes: ARCA (sin costo) o Xubio gratis (hasta 1",
    "c4b41f73cd39caa6": "Emitir desde ARCA (ex AFIP) no tiene costo para monotributistas, según la guía oficial de ",
-   "60b7bf4e1af4d334": "Depende de a quién se la pagues. ARCA no cobra por emitir (para monotributistas, la guía o",
-   "89e8fdd45b0b73cf": "Depende de tu plataforma. Xubio figura como aplicación en el directorio de Tiendanube; rev"
+   "60b7bf4e1af4d334": "Depende de a quién se la pagues. ARCA no cobra por emitir (para monotributistas, la guía o"
   },
   "cuanto-cuesta-mantenimiento-pagina-web": {
    "ca69968d61ee152e": "Mantenimiento web en Argentina: básico $25.000-$50.000 ARS/mes, profesional $80.000-$150.0",
@@ -779,45 +757,6 @@
    "12a7c15025c531ab": "SEO local: USD 150-400/mes (aprox. $185.000-$490.000 ARS). SEO nacional: USD 400-800+/mes ",
    "181b2276cc614ff8": "Es un servicio mensual continuo. Podés hacer una optimización técnica inicial como proyect"
   },
-  "cuanto-cuesta-sistema-de-gestion-pymes": {
-   "362540ea54263f8b": "Un sistema SaaS cuesta $10-65 USD/usuario/mes, uno custom entre $1.500.000 y $4.000.000 AR",
-   "d1fe9bf3d098548b": "Un sistema de gestión para PyMEs en Argentina cuesta entre $10 USD/usuario/mes con un SaaS",
-   "539b3ce6987b231c": "Xubio arranca en $10 USD/mes para monotributistas y escala a $35 USD/mes para PyMEs con fa",
-   "d507e83a66ec625f": "Colppy cuesta entre $15 y $45 USD/mes según el plan. Su fuerte es la contabilidad automati",
-   "40f35995cb85f9a3": "Contabilium va de $12 a $50 USD/mes. Se destaca en facturación electrónica y gestión de co",
-   "62e9c7b15fddf0be": "Tango Gestión es el más robusto del mercado argentino. El plan SaaS arranca en $40 USD/usu",
-   "70e85505ad8de934": "Un sistema de gestión custom básico (facturación, stock, clientes, reportes) cuesta entre ",
-   "67b6deb3ba719880": "Un sistema de complejidad media (todo lo anterior más CRM, gestión de proyectos, tablero d",
-   "c96d1ff8b6ad011c": "Un ERP custom completo (contabilidad, RRHH, producción, logística, business intelligence) ",
-   "93f1aaf167d53e57": "Al costo de desarrollo sumale el mantenimiento : entre $100.000 y $300.000 ARS/mes para ac",
-   "14d540273daf22c8": "Otra opción intermedia: usar un SaaS como base y desarrollar módulos custom que se integre",
-   "9854d12b90f95b59": "La migración de datos es el costo que todos subestiman. Pasar tu información de Excel, otr",
-   "25b2fbd0271f1069": "La capacitación del equipo cuesta tiempo y productividad. Calculá 2-4 semanas de curva de ",
-   "21fcb2d71161dd29": "La personalización de un SaaS (reportes a medida, campos adicionales, automatizaciones) pu",
-   "4c7096c126b4b549": "Un SaaS como Xubio cuesta desde $10 USD/usuario/mes, Colppy desde $15 USD/mes, y Tango des",
-   "b5e708ee94f12f2c": "El 80% de las PyMEs se resuelve con un SaaS estándar ($10-65 USD/mes). El desarrollo custo",
-   "c52009886f3b6364": "Sí. Xubio, Colppy y Tango tienen integraciones nativas o vía API con Mercado Libre, Tienda"
-  },
-  "cuanto-cuesta-sistema-interno-empresa": {
-   "9f2c389e27bcd6d9": "Un sistema interno para empresa en Argentina cuesta entre $1.000.000 y $6.000.000+ ARS. De",
-   "870e9ea29482ca2c": "Un sistema interno para empresa en Argentina cuesta entre $1.000.000 y $6.000.000+ ARS en ",
-   "8763ec71e3b5c9cc": "Un panel operativo simple cuesta entre $1.000.000 y $1.500.000 ARS. Es un sistema web inte",
-   "7b731b23462116fb": "Un dashboard con sistema de roles y reportes cuesta entre $2.000.000 y $3.500.000 ARS. Aca",
-   "d9091540120ab95e": "Plazo de desarrollo: 8-14 semanas. Es un proyecto que requiere al menos un desarrollador f",
-   "645cb0be9ffa5bd0": "Un sistema multi-modulo cuesta entre $3.500.000 y $6.000.000+ ARS. Es un sistema que integ",
-   "387aab3939a7b2f8": "Ventas y clientes (CRM) : $800.000-$1.200.000 ARS. Pipeline de ventas, ficha de cliente, h",
-   "b93e9e7846b45d62": "Operaciones/produccion : $700.000-$1.000.000 ARS. Ordenes de trabajo, seguimiento de estad",
-   "ec68d1ee3c4e060c": "Stock e inventario : $500.000-$800.000 ARS. Control de existencias, alertas de stock minim",
-   "b144480b0e3090b1": "Facturacion : $600.000-$1.000.000 ARS. Integracion con AFIP para factura electronica, cuen",
-   "e67738d5f5e14b04": "RRHH basico : $400.000-$700.000 ARS. Legajos digitales, control de asistencia, licencias.",
-   "c402789a592a071a": "Odoo : ERP completo, version community gratis. Los modulos premium cuestan $20-$50 USD/mes",
-   "27706bcd6e837d1e": "Colppy : contabilidad y facturacion desde $15.000 ARS/mes. Muy bueno para la parte contabl",
-   "5ec81e2852546ecb": "Monday.com / Notion : gestion de proyectos y operaciones desde $8-$16 USD/usuario/mes. Fle",
-   "41d0c03d6793fc71": "Hosting e infraestructura : $20.000-$80.000 ARS/mes dependiendo de la cantidad de usuarios",
-   "ef7ff450b30f1f9f": "Soporte tecnico y actualizaciones : $50.000-$150.000 ARS/mes. Incluye correccion de bugs, ",
-   "45966c9a36d3d839": "Cambios y nuevas funcionalidades : variable, pero calcula al menos $100.000-$300.000 ARS/m",
-   "fe6787a0cdef9a02": "En total, el costo anual de mantenimiento representa entre el 15% y 25% del costo de desar"
-  },
   "diseno-web-almagro": {
    "4dab7e57f468fdd8": "Webs institucionales desde $400.000 ARS — perfectas para consultorios, estudios profesiona",
    "650eff52aaed86a0": "Una web institucional profesional arranca en $400.000 ARS. Tiendas online con Mercado Pago"
@@ -907,11 +846,6 @@
    "14afcd761c935364": "Agencia de diseño web en Reconquista. Páginas web desde $400.000 ARS, tiendas online, sist",
    "8962854ccdfa1fd0": "Hacemos webs institucionales desde $400.000 ARS, tiendas online con Mercado Pago desde $60",
    "edd00411ee7d9dc8": "Webs institucionales desde $400.000 ARS, tiendas online desde $600.000 ARS, y webs corpora"
-  },
-  "diseno-web-rio-cuarto": {
-   "7ebbfd61911f552e": "Agencia de diseño web en Río Cuarto. Páginas web desde $400.000 ARS, tiendas online, siste",
-   "7884935a73048499": "Hacemos webs institucionales desde $400.000 ARS, tiendas online con Mercado Pago desde $60",
-   "0f65b7b5c88ff430": "Una web institucional profesional arranca en $400.000 ARS. Tiendas online con Mercado Pago"
   },
   "diseno-web-rio-gallegos": {
    "1b12651f0ecca09f": "Agencia de diseño web en Río Gallegos. Páginas web desde $400.000 ARS, tiendas online, sis",
@@ -1016,22 +950,6 @@
    "d5169a0de68ca99f": "Costo por lead: cuánto te cuesta cada consulta/formulario/llamada. En construcción, un cos",
    "afd25f2bb9ceb244": "Entre $1 y $3 USD por clic, dependiendo de la keyword y la zona. \"Constructora [ciudad]\" e",
    "7d69931b26eee400": "Mínimo $100.000-$150.000 ARS/mes para tener volumen suficiente de clics y datos. Con menos"
-  },
-  "google-ads-para-contadores-argentina": {
-   "9b2828e80a54249b": "Conseguí clientes nuevos con Google Ads para contadores. CPC bajo ($1-3 USD), presupuestos",
-   "e1a520f867d06af2": "Con un CPC que va de $1 a $3 USD (de los más bajos en servicios profesionales) y picos est",
-   "07dd29c0244353ef": "Alto valor de cliente: Un cliente de estudio contable no paga una vez — paga todos los mes",
-   "2ce49847c66f2c71": "Contador / estudio contable genérico: $1-$2 USD por clic",
-   "7fa5d8adcbc9c7e8": "Monotributo / inscripción: $0.80-$1.50 USD por clic",
-   "96204102e332fc75": "Liquidación de sueldos: $1.50-$2.50 USD por clic",
-   "7e6d7441553ec8bd": "Ganancias / impuestos: $2-$3 USD por clic (sube en fechas de vencimiento)",
-   "bab66797b7258a13": "Contabilidad para empresas/pymes: $1.50-$3 USD por clic",
-   "488515a6d8959cc3": "Para un estudio contable que recién empieza con Ads: $80.000-$120.000 ARS/mes como base. P",
-   "8fdef499fdcd6e40": "Costo por lead: En el rubro contable, un buen costo por lead (llamada o formulario complet",
-   "15492340c7587fe2": "Valor de vida del cliente (LTV): Un monotributista paga ~$15.000-$30.000 ARS/mes. Una pyme",
-   "80a61462b373a38e": "La inversión en gestión profesional de Google Ads para contadores va de $60.000 a $120.000",
-   "4bb5a61b8eafe63c": "Podés arrancar con $80.000 ARS/mes de presupuesto publicitario y obtener resultados. Eso t",
-   "d65dacc5db6c3cb8": "Con $120.000 ARS/mes de presupuesto y campañas bien optimizadas, un estudio contable puede"
   },
   "google-ads-para-educacion-argentina": {
    "cc71672c1705a745": "Captá alumnos nuevos con Google Ads para institutos y cursos. CPC de $0.50-2 USD, presupue",
@@ -1152,24 +1070,6 @@
    "0fcc0f25a770e90c": "Podés arrancar con $40.000 ARS/mes y ya tener resultados, especialmente si enfocás el pres",
    "7781f5489c671e17": "Con $80.000 ARS/mes de presupuesto y campañas bien optimizadas, una veterinaria puede espe"
   },
-  "instagram-shop-vs-tienda-online-propia": {
-   "099e0f56457c1c43": "Instagram Shop es gratis pero no controlás nada. Una tienda propia cuesta $400.000-$2.500.",
-   "88f40c794a2aa00c": "Instagram Shop es gratis y te pone frente a millones de usuarios. Genial. Pero no sos dueñ",
-   "66b0d252e81c9bb7": "Costo inicial $0 $400.000-$2.500.000 ARS",
-   "a8aecd07a66a7d4e": "Costo mensual $0 (sin contar pauta) $15.000-$80.000 ARS (hosting + mantenimiento)",
-   "506808e42f63050e": "Caso real: una marca de indumentaria de Rosario vendía 100% por Instagram. Un día Meta les",
-   "b602eb9100085e7a": "Tiendanube: desde $25.000 ARS/mes (plan básico) — la opción más rápida para arrancar",
-   "1e9c7c95067d102b": "WooCommerce: $400.000-$800.000 ARS desarrollo + $15.000-$30.000 ARS/mes hosting",
-   "1429a9a95c24403a": "Desarrollo custom (Next.js, React): $800.000-$2.500.000 ARS + $30.000-$80.000 ARS/mes",
-   "b4bf22bfeff38740": "La inversión se recupera rápido. Si tu ticket promedio es $50.000 ARS y la tienda te gener",
-   "b97f29d011aa7815": "Email para retener: capturá el email en la compra. Mandá promos, lanzamientos, contenido. ",
-   "f2f17f7f73aa6a57": "Semana 1 — Elegí plataforma: si necesitás algo rápido y no tenés equipo técnico, arrancá c",
-   "2cda3d7d23e16c6f": "Tiendanube plan básico: ~$25.000 ARS/mes",
-   "e1982ba73d3166b3": "Fotos de producto (si no tenés): $30.000-$80.000 ARS (sesión fotográfica)",
-   "6140e954a65e572d": "Dominio propio (.com.ar): ~$5.000 ARS/año",
-   "12b57483d71bc637": "Total primer mes: ~$60.000-$110.000 ARS",
-   "84902cd1401a0d0b": "Tiendanube desde $25.000 ARS/mes (más rápido para arrancar). WooCommerce: $400.000-$800.00"
-  },
   "inteligencia-artificial-para-pymes-argentina": {
    "7546390ea0f7308f": "54% de PyMEs argentinas ya usan IA. Herramientas desde $0: ChatGPT, Claude, Gemini. Casos ",
    "820d0537526f54a2": "ChatGPT (OpenAI): versión gratis limitada, Plus USD 20/mes. Lo mejor para: redactar emails",
@@ -1240,11 +1140,6 @@
    "cf17912f02198817": "Si no sabés cuánto tráfico tenés : instalá Google Analytics antes de gastar un peso en cua",
    "f0dcc51d0f51e4ab": "Si no tenés tráfico : empezá por Google Business Profile (gratis) + una campaña mínima de ",
    "994018b409523cf3": "En Argentina, con $50.000-$100.000 ARS/mes en Google Ads podés empezar a generar consultas"
-  },
-  "pagina-web-para-abogados": {
-   "9521cf9459000155": "Web institucional básica: desde USD 600 a USD 1.200. Incluye diseño profesional responsive",
-   "c6276bdaecd28e5e": "Web con blog y contenido: desde USD 1.200 a USD 2.500. Suma blog con sistema de publicació",
-   "dd8b75044f359d12": "Web avanzada con sistema de gestión: desde USD 2.500 a USD 5.000. Incluye todo lo anterior"
   },
   "pagina-web-para-academias-idiomas": {
    "65a8530eb58e3e8a": "Web informativa con catálogo de cursos: desde USD 500 a USD 1.000. Cursos detallados, perf",
@@ -1584,9 +1479,6 @@
    "27958359f75251cf": "La inversión en SEO para constructoras va de $120.000 a $300.000 ARS/mes . Dado que un sol",
    "b7ec602e0d49d625": "Un servicio de SEO profesional para constructoras va de $120.000 a $300.000 ARS/mes, inclu"
   },
-  "posicionamiento-web-para-contadores": {
-   "f0942efe72a82318": "La inversión en SEO para estudios contables en Argentina va de $100.000 a $250.000 ARS/mes"
-  },
   "posicionamiento-web-para-distribuidoras": {
    "828d71869798ff3f": "La inversión va de $80.000 a $180.000 ARS/mes dependiendo de la cantidad de líneas de prod"
   },
@@ -1598,9 +1490,6 @@
   },
   "posicionamiento-web-para-gimnasios": {
    "7dc2f98ac0ee7154": "La inversión en SEO para gimnasios en Argentina va de $80.000 a $180.000 ARS/mes . Es de l"
-  },
-  "posicionamiento-web-para-hoteles": {
-   "961e680b094bed68": "La inversión en SEO para hoteles en Argentina va de $120.000 a $350.000 ARS/mes , dependie"
   },
   "posicionamiento-web-para-inmobiliarias": {
    "fa753ca5138455a5": "En cuanto a inversión, un servicio profesional de SEO para inmobiliarias en Argentina arra"
@@ -1728,10 +1617,6 @@
   "presencia-digital-ideal-hotel": {
    "a7c8e07c6b494925": "Cada reserva que llega por Booking te cuesta entre un 15% y 25% de comisión. Si tu tarifa ",
    "cde2f2c7dd6c10b0": "Una web profesional con motor de reservas integrado, galería HD, recorrido virtual y conex"
-  },
-  "presencia-digital-ideal-inmobiliaria": {
-   "d67ee34145145f46": "Propiedades destacadas con storytelling: en lugar de \"3 amb, 80m², USD 150.000\", contá la ",
-   "06adf97bb4aa081d": "Depende de la escala, pero una inmobiliaria mediana puede tener su ecosistema digital comp"
   },
   "presencia-digital-ideal-instituto-educativo": {
    "530b78408657fdd3": "Una web con catálogo de cursos e inscripción online, sistema de gestión de alumnos básico "
@@ -1953,23 +1838,6 @@
    "81e47b2de08ab0fc": "Tenés más de un archivo Excel crítico y se contradicen entre sí (uno dice que vendiste $3M",
    "758a7d65dc7dae01": "Si facturás, manejás stock o tenés cuentas corrientes con clientes, sí. Sistemas como Colp"
   },
-  "que-es-una-app-movil-y-cuando-la-necesito": {
-   "12ff3badeaaa304e": "Costo en Argentina: desde $3.000.000 ARS (app simple) hasta $15.000.000+ ARS (app compleja",
-   "953b6ec28676e8a9": "Costo en Argentina: desde $1.500.000 ARS (app simple) hasta $8.000.000+ ARS (app compleja)",
-   "3c26c118c13efeb9": "Costo en Argentina: desde $500.000 ARS hasta $3.000.000 ARS.",
-   "dc5bfef5ad185cb3": "Esto es lo que muchos no te cuentan: desarrollar la app es solo el principio. Después tené",
-   "5f574bcbd5e07378": "PWA simple: $500.000-$1.500.000 ARS",
-   "c1b6eb20f7d7248a": "App híbrida simple (Flutter/React Native): $1.500.000-$4.000.000 ARS",
-   "ca5a403b508dd35b": "App híbrida compleja (con backend, integraciones, pagos): $4.000.000-$8.000.000 ARS",
-   "20fd0927e0cb1f09": "App nativa (iOS + Android por separado): $3.000.000-$15.000.000+ ARS",
-   "5a56a2624e3e7811": "PWA: $30.000-$80.000 ARS/mes",
-   "aca935383ad44ff9": "App híbrida: $80.000-$200.000 ARS/mes",
-   "756a23b928b0dc0b": "App nativa: $150.000-$400.000 ARS/mes",
-   "86fb818696c788cd": "Cuenta de desarrollador Apple: $99 USD/año",
-   "f3969f375cee1d69": "Cuenta de desarrollador Google: $25 USD (pago único)",
-   "575833434f6b2bbe": "Servidor/backend: $20-200 USD/mes según uso",
-   "a2aababee532a431": "Depende del tipo. Una PWA simple arranca en $500.000 ARS, una app híbrida (Flutter/React N"
-  },
   "que-es-una-landing-page": {
    "193d4227a3d850ca": "Landing page con herramientas DIY (Carrd, Wix, WordPress + Elementor): $0-20 USD/mes. La h",
    "708a377625a5c4b1": "Landing page diseñada por un profesional : $150.000-$500.000 ARS. Un diseñador o estudio t",
@@ -2014,10 +1882,6 @@
   },
   "redes-sociales-para-institutos-educativos": {
    "340d1abd8ddf22a3": "Un presupuesto razonable es $30.000-$80.000 ARS por mes durante los 2 meses previos a la i"
-  },
-  "redes-sociales-para-joyerias": {
-   "2580cb98446f907f": "Si no podés invertir en un fotógrafo profesional, armá un mini estudio casero con una caja",
-   "2b1ab3cdf66d208e": "Es lo ideal, pero no indispensable para arrancar. Con una caja de luz ($5.000 ARS), fondo "
   },
   "redes-sociales-para-lavaderos": {
    "6ac04d8ff297ed78": "No. Un celular con buena cámara, un trípode de $5.000 y luz natural son suficientes. Lo im"
@@ -2064,10 +1928,6 @@
   },
   "servicios-digitales-bahia-blanca": {
    "a54d45b411ea9e99": "Una web profesional arranca desde USD 200-300. Los precios son iguales para todo el país. "
-  },
-  "servicios-digitales-belgrano": {
-   "4bbb469da8d5df44": "Una web profesional para un estudio arranca desde USD 250-400. Incluye diseño, contenido, ",
-   "4fb5906fbcaa9727": "Sí, ofrecemos gestión profesional de redes con contenido de calidad adaptado al público de"
   },
   "servicios-digitales-buenos-aires": {
    "8f2db1aa6886f83e": "Depende de lo que necesites. Una web profesional arranca desde USD 200-300, la gestión de "
@@ -2214,13 +2074,6 @@
    "729bd2a8203ab0fd": "Desarrollo a medida: desde USD 15.000 a USD 50.000+ según los módulos. Tiempos de implemen",
    "e6bd50dbdb77d657": "Integración con web: conectar tu sistema de gestión con tu web profesional para turnos onl"
   },
-  "sistema-de-gestion-para-clubes-deportivos": {
-   "8f7a3c1d10c961e5": "SaaS básico (hasta 500 socios): $20.000 - $50.000 ARS/mes. Incluye padrón, cuotas, reserva",
-   "0e12be413aa59c77": "SaaS profesional (socios ilimitados): $50.000 - $120.000 ARS/mes. App para socios, control",
-   "1b32eb3810eacb56": "Hardware de acceso: $200.000 - $600.000 ARS. Molinetes, lectores de QR/tarjeta, torniquete",
-   "9fd54cda3a5c9fc7": "Sistema a medida: $3.000.000 - $8.000.000 ARS de desarrollo inicial, más mantenimiento men",
-   "6dca554e18b1848e": "Absolutamente. Los planes básicos arrancan en $20.000 ARS/mes y cubren padrón, cuotas y re"
-  },
   "sistema-de-gestion-para-comercio-minorista": {
    "07da0c467cf1b3df": "POS básico (1 caja): $10.000 - $30.000 ARS/mes",
    "452c73ca869e4360": "SaaS profesional (múltiples cajas/sucursales): $30.000 - $80.000 ARS/mes",
@@ -2245,24 +2098,11 @@
    "207f9a4de98a0fc5": "SaaS profesional: $30.000 - $80.000 ARS/mes (clientes ilimitados, portal del cliente, inte",
    "b10ca366684541a9": "Sistema a medida: $2.000.000 - $7.000.000 ARS de desarrollo"
   },
-  "sistema-de-gestion-para-distribuidoras": {
-   "58e03366c522eca6": "SaaS básico: $30.000 - $70.000 ARS/mes (hasta 5 vendedores, 1 depósito, facturación básica",
-   "4fd823b00ed12a3f": "SaaS profesional: $70.000 - $200.000 ARS/mes (vendedores ilimitados, ruteo, múltiples depó",
-   "0b3645b662c4a8b5": "Hardware: $100.000 - $400.000 ARS (tablets para vendedores, lectoras de código de barras, ",
-   "a3619450b4022056": "Sistema a medida: $5.000.000 - $15.000.000 ARS de desarrollo + mantenimiento mensual"
-  },
   "sistema-de-gestion-para-empresas-de-seguridad": {
    "50a0d3381c92b1d2": "SaaS básico: $30.000 - $80.000 ARS/mes (hasta 30 guardias, turnos, asistencia básica)",
    "fcd6a3dd21a4f98c": "SaaS profesional: $80.000 - $200.000 ARS/mes (guardias ilimitados, GPS, libro de novedades",
    "e076a9dccc12c944": "App móvil para guardias: Incluida en la mayoría de los SaaS o $500.000 - $2.000.000 ARS si",
    "147323bf0e5aef46": "Sistema a medida completo: $5.000.000 - $18.000.000 ARS de desarrollo"
-  },
-  "sistema-de-gestion-para-farmacias": {
-   "887566fe4c2fa035": "SaaS para farmacia individual: $30.000 - $60.000 ARS/mes. Incluye stock, POS, obras social",
-   "35d35a045961c7b6": "SaaS para cadena (2-5 sucursales): $60.000 - $150.000 ARS/mes. Gestión multi-sucursal, sto",
-   "31da9fe49a7ccfe0": "Hardware POS: $100.000 - $300.000 ARS. Lector de código de barras, impresora de tickets, c",
-   "5c44179ac6adb4a0": "Migración desde sistema legacy: $50.000 - $200.000 ARS (único). Incluye carga de catálogo,",
-   "1b24e8f76586e9ed": "El retorno es inmediato: una farmacia que controla vencimientos deja de perder entre $50.0"
   },
   "sistema-de-gestion-para-ferreterias": {
    "2e40bad6a14c4226": "Software de POS + stock básico: $15.000 - $40.000 ARS/mes",
@@ -2295,30 +2135,11 @@
    "78b0986d022d8d8a": "Sistema a medida básico: $2.000.000 - $5.000.000 ARS de inversión inicial",
    "863a541dca98d68e": "Sistema a medida completo: $5.000.000 - $15.000.000 ARS (con integraciones, app móvil, por"
   },
-  "sistema-de-gestion-para-joyerias": {
-   "e49e6648a409bca9": "SaaS genérico adaptado: $15.000 - $45.000 ARS/mes (limitado para el rubro)",
-   "d0d89723e7c3ef77": "Sistema a medida básico: $2.000.000 - $4.500.000 ARS (inventario, clientes, reparaciones, ",
-   "337e0a171f53b6d1": "Sistema a medida completo: $4.500.000 - $10.000.000 ARS (trazabilidad completa, valuacione",
-   "cf876d3834c26c8b": "En joyería, un error de inventario puede costar caro . Si perdés el rastro de una pieza de"
-  },
-  "sistema-de-gestion-para-lavaderos": {
-   "74bdebbc913f93f8": "Sistema de turnos SaaS: $10.000 - $30.000 ARS/mes. Reserva online, recordatorios, calendar",
-   "f7c515d23450566b": "POS simple: $15.000 - $35.000 ARS/mes. Registro de ventas, cobros, cierre de caja.",
-   "d5582524a20536ed": "Combo turnos + POS + fidelización: $30.000 - $70.000 ARS/mes.",
-   "1f2e500a054cb838": "Sistema a medida completo: $1.500.000 - $4.000.000 ARS de desarrollo inicial.",
-   "738aa1741963dde0": "Hacé la cuenta: si tu lavadero atiende 30 autos por día a un promedio de $8.000, facturás "
-  },
   "sistema-de-gestion-para-manufactura": {
    "02685e8dd27859f5": "ERP open source (Odoo, ERPNext): $50.000 - $150.000 ARS/mes de hosting + $1.000.000 - $3.0",
    "612bcb99d46125e0": "ERP comercial (Tango, similar): $80.000 - $250.000 ARS/mes de licencia + $2.000.000 - $5.0",
    "7b4bbf9c06b7ada4": "ERP industrial (SAP B1, Infor): $200.000 - $800.000 ARS/mes + $5.000.000 - $20.000.000 ARS",
    "c75812a9fe84253c": "Sistema a medida: $5.000.000 - $20.000.000 ARS de desarrollo según complejidad"
-  },
-  "sistema-de-gestion-para-opticas": {
-   "02b0e1109ea8ab53": "SaaS especializado (1 sucursal): $25.000 - $55.000 ARS/mes. Incluye ficha de paciente, pre",
-   "35c48cb3f41f7d11": "SaaS multi-sucursal: $55.000 - $120.000 ARS/mes. Stock centralizado, reportes consolidados",
-   "14f8f11e63301c01": "Hardware POS: $80.000 - $250.000 ARS. Lector de código de barras, impresora de tickets.",
-   "609d983f2965672f": "Sistema a medida: $2.500.000 - $6.000.000 ARS de desarrollo inicial."
   },
   "sistema-de-gestion-para-panaderias": {
    "e8affe8d648dc854": "SaaS gastronómico adaptado: $20.000 - $60.000 ARS/mes (funcionalidades limitadas para pani",
@@ -2443,11 +2264,6 @@
    "649dd2157b626f08": "Costo estimado: entre $800.000 y $2.000.000 ARS. Para un kinesiólogo individual, no tiene ",
    "07ddc469b9a60a92": "Cal.com es gratis en su plan básico. AgendaPro cuesta entre USD 15 y USD 45/mes. Desarroll"
   },
-  "sistema-de-turnos-para-lavaderos": {
-   "4d39250759609d91": "Reservo (USD 10-25/mes): plataforma argentina. Agenda online, selección de servicio, recor",
-   "294be063be8ceeaa": "Costo estimado: entre $600.000 y $1.800.000 ARS. Para un lavadero individual con 1-3 boxes",
-   "336e993c7ff2335f": "Gratis con Cal.com o Setmore. Entre USD 10 y USD 25/mes con Reservo. Desarrollo a medida: "
-  },
   "sistema-de-turnos-para-nutricionistas": {
    "2be39cbe1a80d214": "AgendaPro (USD 15-45/mes): agenda, recordatorios por WhatsApp, ficha de paciente donde pod",
    "aacad4d53178b54b": "Cloxsy (USD 10-30/mes): simple y funcional. Agenda online con link compartible y recordato",
@@ -2485,11 +2301,6 @@
    "4ee1d88190ca6112": "Cloxsy (USD 10-30/mes): simple y funcional. Agenda online con link compartible y recordato",
    "d0c1e0318ce05fbd": "Costo estimado: entre $800.000 y $2.000.000 ARS. Para un consultorio individual, es una in",
    "f209cb58d9340596": "Cal.com es gratuito en su plan básico y alcanza para la mayoría. AgendaPro cuesta entre US"
-  },
-  "sistema-de-turnos-para-talleres-mecanicos": {
-   "37304f4e653fb505": "Reservalo.ar: plataforma argentina de reservas online. Permite configurar servicios con du",
-   "323802666f888570": "Desarrollo a medida (desde USD 500): un sistema de turnos integrado a tu web, tu WhatsApp ",
-   "685013b67f5d3a38": "Desde gratis con Google Calendar hasta $5.000-15.000/mes con plataformas como Reservalo.ar"
   },
   "sistema-de-turnos-para-veterinarias": {
    "d2b5fd4a1538c34c": "AgendaPro (USD 15-45/mes): agenda por veterinario, catálogo de servicios con duración, rec",
@@ -2588,9 +2399,6 @@
    "2efdd35c174db265": "Un vivero online empieza a ser rentable con 30-50 pedidos mensuales si el ticket promedio ",
    "7fb4cb28d3be1d2e": "Sí, es uno de los modelos más exitosos en ecommerce de plantas. Genera ingreso predecible,"
   },
-  "tiendanube-vs-mercadoshops-alternativas": {
-   "9417c2bda55878ec": "Costo mensual Era gratis Gratis a $49.999/mes $5-30 USD/mes (hosting) Desde $39 USD/mes"
-  },
   "tiendanube-vs-pagina-propia": {
    "e77293bc4d6bae9e": "Tiendanube para arrancar rápido desde $15.000/mes, tienda propia para marca y control tota",
    "926d7074b8f70ebd": "Tiendanube es la mejor opción para arrancar a vender online en Argentina rápido y con poco",
@@ -2615,21 +2423,6 @@
    "74eb6167b6171a73": "PyME argentina con 50-500 productos: Tiendanube plan Impulso. Tenés todo resuelto por $24.",
    "9b2b9136296f37b3": "En costo mensual directo sí: hosting bueno sale $5-15 USD/mes vs $24.999/mes de Tiendanube",
    "fb1ce1b934afdeee": "No. Shopify cobra en dólares y se debita de tu tarjeta con el recargo de dólar tarjeta + i"
-  },
-  "tiktok-ads-vs-facebook-ads-argentina": {
-   "597e8d1807ffa05b": "TikTok CPC $0.10-0.30 USD, Facebook CPC $0.30-1.20 USD. TikTok gana en alcance joven y vir",
-   "864b1b74aa50c40a": "Veredicto rápido: si tu audiencia tiene menos de 35 años y tu producto es visual (gastrono",
-   "25e0bb77f8f31bfd": "CPC promedio $0.10-0.30 USD $0.30-1.20 USD",
-   "84eb7b933f06ff22": "CPM promedio $2-6 USD $5-15 USD",
-   "2f8fc0fa636d5b36": "Inversión mínima diaria $20 USD (~$20.000 ARS) $1 USD (~$1.000 ARS)",
-   "85b14e2bf038f421": "Querés awareness masivo con poco presupuesto: con $200 USD/mes ($200.000 ARS) podés llegar",
-   "3150c27d2a6b198f": "El secreto de TikTok es que el algoritmo premia el contenido, no el presupuesto . Un video",
-   "86235d621d17f095": "TikTok: videos de outfits, hauls, tendencias → $100.000 ARS/mes → genera tráfico a la web",
-   "b600ebfc3e9e5537": "Facebook retargeting: le muestra anuncio de carrusel con los productos que vio → $200.000 ",
-   "1bed3deac57d1f3d": "Presupuesto mínimo recomendado para estrategia dual: $300.000-$500.000 ARS/mes ($300-500 U",
-   "faafd017cbd686e7": "Presupuesto diario menor a $20 USD — TikTok necesita volumen para que el algoritmo aprenda",
-   "c05fdbb152c7d65c": "La inversión mínima es $20 USD/día (~$20.000 ARS). El CPC promedio es $0.10-0.30 USD, much",
-   "e35f6bc832ad50b6": "Mínimo $300.000-$500.000 ARS/mes ($300-500 USD) dividido 40/60 entre TikTok y Facebook. Si"
   },
   "trello-vs-asana-vs-notion-argentina": {
    "88d832c62a7052e6": "Plan pago desde $5 USD/usuario/mes $10.99 USD/usuario/mes $10 USD/usuario/mes",
@@ -2700,6 +2493,22 @@
    "623ffa7620273cc3": "En costo puro, empatan. Pero si con Pipedrive necesitás agregar email marketing ($32 USD/m",
    "e7bcc683faef95ae": "Zoho One: $45 USD/empleado/mes te da acceso a TODAS las apps (equivale a $5.400 USD/año po",
    "c0c0482054468156": "No. Pipedrive cobra en dólares. El plan Essential de $14 USD/usuario/mes se debita con el "
+  }
+ },
+ "ownPrice": {
+  "cuanto-cuesta-facturacion-electronica-argentina": {
+   "a8e3349976ee8ee0": "Costo de desarrollo (estimación de SODI para este tipo de proyecto, no un precio de mercad",
+   "9de86e4c43efdb5b": "Mantenimiento anual: $100.000-$300.000 ARS/año. ARCA cambia regulaciones y endpoints perió",
+   "89e8fdd45b0b73cf": "Depende de tu plataforma. Xubio figura como aplicación en el directorio de Tiendanube; rev"
+  },
+  "diseno-web-rio-cuarto": {
+   "7ebbfd61911f552e": "Agencia de diseño web en Río Cuarto. Páginas web desde $400.000 ARS, tiendas online, siste",
+   "7884935a73048499": "Hacemos webs institucionales desde $400.000 ARS, tiendas online con Mercado Pago desde $60",
+   "0f65b7b5c88ff430": "Una web institucional profesional arranca en $400.000 ARS. Tiendas online con Mercado Pago"
+  },
+  "servicios-digitales-belgrano": {
+   "4bbb469da8d5df44": "Una web profesional para un estudio arranca desde USD 250-400. Incluye diseño, contenido, ",
+   "4fb5906fbcaa9727": "Sí, ofrecemos gestión profesional de redes con contenido de calidad adaptado al público de"
   }
  }
 }

@@ -27,7 +27,7 @@
       },
       {
         "heading": "Costos de un sistema para clubes en 2026",
-        "body": "<p>Rangos de precios actuales en Argentina:</p><ul><li><strong>SaaS básico (hasta 500 socios):</strong> $20.000 - $50.000 ARS/mes. Incluye padrón, cuotas, reservas básicas.</li><li><strong>SaaS profesional (socios ilimitados):</strong> $50.000 - $120.000 ARS/mes. App para socios, control de acceso, reportes avanzados, múltiples deportes.</li><li><strong>Hardware de acceso:</strong> $200.000 - $600.000 ARS. Molinetes, lectores de QR/tarjeta, torniquetes.</li><li><strong>Sistema a medida:</strong> $3.000.000 - $8.000.000 ARS de desarrollo inicial, más mantenimiento mensual.</li></ul><p>Hacé la cuenta: si tu club tiene 1.000 socios y el 15% están morosos sin que nadie los siga, estás perdiendo entre 150 y 200 cuotas por mes. Un sistema que recupere el 30% de esa morosidad se paga solo en el primer mes.</p>"
+        "body": "<p>Los precios varían según el proveedor y el alcance. Estas son las categorías típicas:</p><ul><li><strong>SaaS básico (hasta 500 socios):</strong> Plan mensual de entrada, según cantidad de socios. Incluye padrón, cuotas, reservas básicas.</li><li><strong>SaaS profesional (socios ilimitados):</strong> Plan mensual superior. App para socios, control de acceso, reportes avanzados, múltiples deportes.</li><li><strong>Hardware de acceso:</strong> a presupuesto según la cantidad de accesos. Molinetes, lectores de QR/tarjeta, torniquetes.</li><li><strong>Sistema a medida:</strong> a presupuesto: desarrollo inicial, más mantenimiento mensual.</li></ul><p>Hacé la cuenta: si tu club tiene 1.000 socios y el 15% están morosos sin que nadie los siga, estás perdiendo entre 150 y 200 cuotas por mes. Un sistema que recupere el 30% de esa morosidad se paga solo en el primer mes.</p>"
       },
       {
         "heading": "Implementación paso a paso en tu club",
@@ -49,7 +49,7 @@
       },
       {
         "question": "¿Sirve para clubes chicos de barrio?",
-        "answer": "Absolutamente. Los planes básicos arrancan en $20.000 ARS/mes y cubren padrón, cuotas y reservas. Un club de 200 socios lo puede justificar sin problemas."
+        "answer": "Absolutamente. Los planes básicos tienen un costo mensual acotado y cubren padrón, cuotas y reservas. Un club de 200 socios lo puede justificar sin problemas."
       },
       {
         "question": "¿Puedo controlar el acceso al club con molinete?",

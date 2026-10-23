@@ -18,7 +18,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: enlaces desde 5 notas existentes a las paginas nuevas de aguinaldo 2026 y vencimientos ARCA nov/dic 2026 (sodi-fc15). Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 22/10/2026: lote 4 de cifras de precio sin fuente, 23 articulos mas en estricto (baseline 2416 -> 2053), link con fecha a fuente leida o reescritas sin numero. Manuel TG3533: "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 22/10/2026: lote 5 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 2053 -> 1885), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
-  approvedCatalogContentSha256: "e1557198c2b6e273a71fb432ae715fa2ac7a3c4a4b46ce4b9912d33e7dc102c4",
+  // Re-pin 23/10/2026: lote 6 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 1885 -> 1706 con 8 bloques de precio propio de SODI aparte), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
+  approvedCatalogContentSha256: "b6cb77c7418f469dde7fa9901647fd8014de607f5ae349b7391cca55655288bf",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;

@@ -19,7 +19,7 @@
       },
       {
         "heading": "Opciones SaaS para lavaderos",
-        "body": "<p>Las plataformas SaaS te permiten arrancar rápido:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> flexible y gratuito. Configurás tipos de servicio (lavado simple 30 min, completo 60 min, premium 90 min) con duración y precio. Múltiples calendarios si tenés más de un box de lavado. Link de reserva compartible por WhatsApp y redes.</li><li><strong>Reservo (USD 10-25/mes):</strong> plataforma argentina. Agenda online, selección de servicio, recordatorios y reportes. Buena integración local.</li><li><strong>Setmore (gratis hasta 4 empleados):</strong> plan gratuito generoso. Agenda por servicio, confirmaciones automáticas, integración con Google Calendar.</li></ul><p><strong>Para lavaderos, Cal.com es la mejor opción calidad-precio</strong> porque es gratis, configurable y permite múltiples \"recursos\" (boxes de lavado). Si necesitás algo más robusto, Reservo es una buena alternativa argentina.</p>"
+        "body": "<p>Las plataformas SaaS te permiten arrancar rápido:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> flexible y gratuito. Configurás tipos de servicio (lavado simple 30 min, completo 60 min, premium 90 min) con duración y precio. Múltiples calendarios si tenés más de un box de lavado. Link de reserva compartible por WhatsApp y redes.</li><li><strong>Reservo (plan pago mensual):</strong> plataforma argentina. Agenda online, selección de servicio, recordatorios y reportes. Buena integración local.</li><li><strong>Setmore (gratis hasta 4 empleados):</strong> plan gratuito generoso. Agenda por servicio, confirmaciones automáticas, integración con Google Calendar.</li></ul><p><strong>Para lavaderos, Cal.com es la mejor opción calidad-precio</strong> porque es gratis, configurable y permite múltiples \"recursos\" (boxes de lavado). Si necesitás algo más robusto, Reservo es una buena alternativa argentina.</p>"
       },
       {
         "heading": "Tipos de servicio y gestión de duración",
@@ -31,7 +31,7 @@
       },
       {
         "heading": "Desarrollo a medida: cuándo tiene sentido",
-        "body": "<p>Un desarrollo a medida para tu lavadero vale la pena si:</p><ul><li><strong>Tenés más de una sucursal:</strong> gestión centralizada, reportes por sede, clientes que reservan en cualquier sucursal.</li><li><strong>Manejás suscripciones:</strong> plan mensual de lavados ilimitados o X lavados por mes. El sistema controla la cantidad de lavados usados y los renueva automáticamente.</li><li><strong>Querés programa de fidelización:</strong> \"10 lavados = 1 gratis\", acumulación de puntos, descuentos por frecuencia.</li><li><strong>Necesitás gestión de stock:</strong> productos de limpieza, control de insumos por servicio realizado.</li></ul><p><strong>Costo estimado:</strong> entre $600.000 y $1.800.000 ARS. Para un lavadero individual con 1-3 boxes, el SaaS gratuito es más que suficiente.</p><p>Más detalles en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de precios de sistemas de turnos</a>.</p>"
+        "body": "<p>Un desarrollo a medida para tu lavadero vale la pena si:</p><ul><li><strong>Tenés más de una sucursal:</strong> gestión centralizada, reportes por sede, clientes que reservan en cualquier sucursal.</li><li><strong>Manejás suscripciones:</strong> plan mensual de lavados ilimitados o X lavados por mes. El sistema controla la cantidad de lavados usados y los renueva automáticamente.</li><li><strong>Querés programa de fidelización:</strong> \"10 lavados = 1 gratis\", acumulación de puntos, descuentos por frecuencia.</li><li><strong>Necesitás gestión de stock:</strong> productos de limpieza, control de insumos por servicio realizado.</li></ul><p><strong>Costo estimado:</strong> a presupuesto, según funcionalidades. Para un lavadero individual con 1-3 boxes, el SaaS gratuito es más que suficiente.</p><p>Más detalles en nuestra <a href=\"/blog/cuanto-cuesta-app-de-turnos\">guía de precios de sistemas de turnos</a>.</p>"
       },
       {
         "heading": "Cómo elegir el sistema correcto para tu lavadero",
@@ -53,7 +53,7 @@
       },
       {
         "question": "¿Cuánto cuesta implementar turnos online en mi lavadero?",
-        "answer": "Gratis con Cal.com o Setmore. Entre USD 10 y USD 25/mes con Reservo. Desarrollo a medida: entre $600.000 y $1.800.000 ARS según funcionalidades."
+        "answer": "Gratis con Cal.com o Setmore. Con Reservo hay un plan pago mensual. Desarrollo a medida: a presupuesto, según funcionalidades."
       },
       {
         "question": "¿Los clientes van a usar el sistema o van a seguir viniendo sin turno?",
