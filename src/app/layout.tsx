@@ -9,12 +9,18 @@ const sora = Sora({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["400", "600", "700", "800"],
+  // next/font's metric-matched fallback uses local(Arial), absent on Android and Linux; see globals.css.
+  fallback: ["sodi-sora-fallback", "sans-serif"],
 });
 
 const inter = Inter({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
+  fallback: ["sodi-inter-fallback", "sans-serif"],
+  // Body font: not preloaded, so it does not hold the first render (preloaded fonts are render-blocking in Chrome).
+  // With the metric-matched fallback the swap barely moves text.
+  preload: false,
 });
 
 export const metadata: Metadata = {

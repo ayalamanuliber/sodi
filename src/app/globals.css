@@ -16,6 +16,27 @@
   --font-body: 'Inter', sans-serif;
 }
 
+/* Metric-matched fallbacks (next/font's own uses only local(Arial), absent on Android and Linux), so the
+   font swap barely shifts text. Overrides follow next/font's formula (capsize metrics; Roboto and Arial
+   average widths are 911 vs 913 units per 2048 em). Sora's size-adjust is +1.5% over the regular-weight
+   value because headings use 600-800, measured in Chromium against Liberation Sans. */
+@font-face {
+  font-family: sodi-sora-fallback;
+  src: local("Arial"), local("Roboto"), local("Liberation Sans"), local("Helvetica Neue"), local("Helvetica");
+  ascent-override: 84.03%;
+  descent-override: 25.12%;
+  line-gap-override: 0%;
+  size-adjust: 115.43%;
+}
+@font-face {
+  font-family: sodi-inter-fallback;
+  src: local("Arial"), local("Roboto"), local("Liberation Sans"), local("Helvetica Neue"), local("Helvetica");
+  ascent-override: 90.44%;
+  descent-override: 22.52%;
+  line-gap-override: 0%;
+  size-adjust: 107.12%;
+}
+
 :root {
   color-scheme: dark;
   --easing: cubic-bezier(0.25, 1, 0.3, 1);
@@ -283,6 +304,24 @@ h1, h2, h3, h4, .font-heading {
 .reveal-delay-2 { transition-delay: 200ms }
 .reveal-delay-3 { transition-delay: 300ms }
 .reveal-delay-4 { transition-delay: 400ms }
+
+/* Hero: CSS-only entrance (no JS hydration wait). The H1 and subtitle are the LCP candidates, so they only
+   slide in and stay opaque from the first paint; the badge, CTAs and proof row keep the fade. */
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(40px) }
+}
+@keyframes hero-in-text {
+  from { transform: translateY(24px) }
+}
+.hero-in { animation: hero-in 1s var(--easing) both }
+.hero-in-text { animation: hero-in-text 1s var(--easing) both }
+.hero-in-delay-1 { animation-delay: 100ms }
+.hero-in-delay-2 { animation-delay: 200ms }
+.hero-in-delay-3 { animation-delay: 300ms }
+.hero-in-delay-4 { animation-delay: 400ms }
+@media (prefers-reduced-motion: reduce) {
+  .hero-in, .hero-in-text { animation: none }
+}
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 8px }

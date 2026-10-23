@@ -484,6 +484,22 @@
   scroll-margin-top: 90px;
 }
 
+/* LCP movil: el navegador no hace layout ni pinta las secciones fuera de pantalla en la carga
+   (solo texto y tablas con scroll propio, nada que desborde y se recorte). `auto` recuerda el alto real. */
+.articleBody section,
+.faqBlock,
+.relatedBlock {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 640px;
+}
+
+/* Anchor jumps need real heights: the page script adds .cv-off before the jump (see ANCHOR_LAYOUT_SCRIPT). */
+:global(html.cv-off) .articleBody section,
+:global(html.cv-off) .faqBlock,
+:global(html.cv-off) .relatedBlock {
+  content-visibility: visible;
+}
+
 .articleBody section > div {
   min-width: 0;
 }

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getArticle, getAllSlugs, getRelatedArticles, getAllArticles, normalizeSlug } from "@/lib/blog-data";
-import { buildArticleSchema, buildFAQSchema, silos } from "@/lib/blog-types";
+import { buildArticleSchema, buildFAQSchema, siloLabel, silos } from "@/lib/blog-types";
 import { BLOG_EMPTY_HUB_REDIRECTS, BLOG_MERGE_REDIRECTS } from "@/lib/content-release/blog-pruning.generated";
 import { getSearchEligibleArticles, isBlogArticleSearchEligible } from "@/lib/content-release/blog-release";
 import { hasOgCard, ogImages, ogImageProps } from "@/lib/og-card";
@@ -42,6 +42,11 @@ function rewritePrunedLinks(html: string) {
 function cleanVisibleHtml(html: string) {
   return rewritePrunedLinks(html).replaceAll("—", "-").replaceAll("–", "-");
 }
+
+// Sections below the fold use content-visibility: auto (blog.module.css), so their height is an estimate until painted
+// and a jump to an in-page anchor lands off target. Before any anchor jump (TOC click, URL with #hash, back/forward)
+// render every section for real; on hashchange the target is scrolled to again after that layout.
+const ANCHOR_LAYOUT_SCRIPT = `(function(){var d=document.documentElement;function off(){d.classList.add("cv-off")}if(location.hash)off();document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href^="#"]');if(a)off()},true);addEventListener("hashchange",function(){var on=d.classList.contains("cv-off");off();var t=location.hash&&document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t&&!on)requestAnimationFrame(function(){t.scrollIntoView()})})})();`;
 
 function headingId(heading: string, index: number) {
   const normalized = heading
@@ -129,7 +134,6 @@ export default async function BlogArticlePage({ params }: Props) {
     isBlogArticleSearchEligible(candidate.slug),
   );
   const url = `https://sodi.com.ar/blog/${article.slug}`;
-  const siloInfo = silos[article.silo];
   // Hubs sin articulos elegibles redirigen (301): enlazar directo al destino evita el salto interno.
   const siloHref = BLOG_EMPTY_HUB_REDIRECTS[article.silo] ?? `/blog/${article.silo}`;
   const visibleArticleDate = new Date(`${article.dateModified}T12:00:00`);
@@ -151,6 +155,7 @@ export default async function BlogArticlePage({ params }: Props) {
         />
       ) : null}
 
+      <script dangerouslySetInnerHTML={{ __html: ANCHOR_LAYOUT_SCRIPT }} />
       <BlogNav />
       <article className={styles.articlePage}>
         <div className={styles.articleMain}>
@@ -159,12 +164,12 @@ export default async function BlogArticlePage({ params }: Props) {
             <span>/</span>
             <Link href="/blog">Blog</Link>
             <span>/</span>
-            <Link href={siloHref}>{siloInfo?.label ?? article.silo}</Link>
+            <Link href={siloHref}>{siloLabel(article.silo)}</Link>
           </nav>
 
           <header className={styles.articleHeader}>
             <div className={styles.articleMeta}>
-              <Link href={siloHref}>{siloInfo?.label ?? article.silo}</Link>
+              <Link href={siloHref}>{siloLabel(article.silo)}</Link>
               <span>{article.readingTime}</span>
             </div>
             <h1>{article.title.replaceAll("—", "-").replaceAll("–", "-")}</h1>
@@ -222,7 +227,7 @@ export default async function BlogArticlePage({ params }: Props) {
               <div className={styles.relatedList}>
                 {related.map((relatedArticle) => (
                   <Link key={relatedArticle.slug} href={`/blog/${relatedArticle.slug}`}>
-                    <span>{silos[relatedArticle.silo]?.label ?? relatedArticle.silo}</span>
+                    <span>{siloLabel(relatedArticle.silo)}</span>
                     <strong>{relatedArticle.title.replaceAll("—", "-").replaceAll("–", "-")}</strong>
                   </Link>
                 ))}

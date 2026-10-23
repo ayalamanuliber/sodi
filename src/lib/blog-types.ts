@@ -107,10 +107,21 @@ export const silos: Record<string, { label: string; description: string; color: 
   },
 };
 
+// Silos with articles but no hub of their own (their /blog/<silo> redirects): display name only.
+// Kept out of `silos` so they do not get a hub page, sitemap entry or blog index group.
+const hublessSiloLabels: Record<string, string> = {
+  "seo-por-rubro": "SEO por Rubro",
+  "google-ads-por-rubro": "Google Ads por Rubro",
+  "ecommerce-por-rubro": "Tienda Online por Rubro",
+};
+
+export function siloLabel(silo: string): string {
+  return silos[silo]?.label ?? hublessSiloLabels[silo] ?? silo;
+}
+
 // ── Schema builders ──
 
 export function buildArticleSchema(article: ArticleMeta, url: string, imageUrl?: string) {
-  const siloInfo = silos[article.silo];
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -167,7 +178,7 @@ export function buildArticleSchema(article: ArticleMeta, url: string, imageUrl?:
           {
             "@type": "ListItem",
             position: 3,
-            name: siloInfo?.label || article.silo,
+            name: siloLabel(article.silo),
             item: `https://sodi.com.ar/blog?silo=${article.silo}`,
           },
           {
