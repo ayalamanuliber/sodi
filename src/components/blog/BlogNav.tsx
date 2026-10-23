@@ -9,7 +9,7 @@ export function BlogNav() {
         <Link href="/blog">Rutas</Link>
         <Link href="/#servicios">Servicios</Link>
       </div>
-      <Link href="/diagnostico">Diagnóstico</Link>
+      <Link href="/diagnostico" data-cta-id="blog_nav_diagnostico">Diagnóstico</Link>
     </nav>
   );
 }

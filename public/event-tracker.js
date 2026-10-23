@@ -49,6 +49,15 @@
     return u.protocol === 'whatsapp:' || !!WA_HOSTS[u.hostname.toLowerCase()];
   }
 
+  // Contact links: the visible text is often the address or the number itself, so it is never used as the
+  // id when it looks like one (an @ or a phone-like run of digits). Explicit data-cta-id / id still win.
+  function contactId(el, def) {
+    var explicit = el.getAttribute('data-cta-id') || el.getAttribute('data-cta') || (el.id && !/^[:_«]/.test(el.id) ? el.id : '');
+    if (explicit) return slug(explicit);
+    var raw = el.getAttribute('aria-label') || el.textContent || '';
+    return (/@|\d{3}.?\d{4}/.test(raw) ? '' : slug(raw)) || def;
+  }
+
   function ctaIdOf(el, u) {
     var id = el.getAttribute('data-cta-id') || el.getAttribute('data-cta') || '';
     if (id) return slug(id);
@@ -85,6 +94,9 @@
           send('whatsapp_click', { link_url: cleanUrl(u), link_domain: u.protocol === 'whatsapp:' ? 'whatsapp' : u.hostname, cta_id: ctaIdOf(el, u), page_path: common.page_path });
           return;
         }
+        // Direct contact (task web-eventos-b959). Never forwards the address or the number.
+        if (u.protocol === 'mailto:') { send('email_click', { email_domain: bareHost((u.pathname.split('@')[1] || '')), cta_id: contactId(el, 'email'), page_path: common.page_path }); return; }
+        if (u.protocol === 'tel:') { send('phone_click', { cta_id: contactId(el, 'telefono'), page_path: common.page_path }); return; }
         var isHttp = u.protocol === 'http:' || u.protocol === 'https:';
         var ext = (u.pathname.match(FILE_RE) || [])[1];
         if (isHttp && (ext || el.hasAttribute('download'))) {

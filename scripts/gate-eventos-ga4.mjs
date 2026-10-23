@@ -11,6 +11,7 @@
 // cancela el submit en fase burbuja.
 // --negative: el tracker no se carga (local: no se inyecta; live: /event-tracker.js se sirve vacio).
 // El gate DEBE fallar en ese modo.
+// --drop-event <nombre>: el registro descarta ese evento (un CTA marcado que deja de emitir); el gate DEBE fallar (web-eventos-f008).
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
@@ -20,6 +21,7 @@ const arg = (n, d) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] :
 const base = (arg("--base", "http://localhost:3000")).replace(/\/$/, "");
 const live = args.includes("--live");
 const negative = args.includes("--negative");
+const drop = arg("--drop-event", "");
 
 const failures = [];
 const passes = [];
@@ -27,7 +29,7 @@ function expect(name, ok, detail = "") { (ok ? passes : failures).push(name + (d
 
 const REC = `(() => {
   window.__ev = [];
-  const record = (a) => { try { if (a[0] === 'event') window.__ev.push({ name: a[1], params: a[2] || {} }); } catch (e) {} };
+  const record = (a) => { try { if (a[0] === 'event' && a[1] !== ${JSON.stringify(drop)}) window.__ev.push({ name: a[1], params: a[2] || {} }); } catch (e) {} };
   window.dataLayer = window.dataLayer || [];
   const push = window.dataLayer.push.bind(window.dataLayer);
   window.dataLayer.push = function () { for (const a of arguments) record(a); return push.apply(null, arguments); };
@@ -73,8 +75,9 @@ const has = (list, pred) => list.some(pred);
   expect("home: cta_click con cta_id", has(ctas, (e) => typeof e.params.cta_id === "string" && e.params.cta_id.length > 0), ctaInfo + " -> " + JSON.stringify(ctas[0]?.params));
 
   const wa = page.locator('a[href*="wa.me"]:not([data-wa-tracked])').first();
-  await wa.scrollIntoViewIfNeeded();
-  await wa.click({ noWaitAfter: true, force: true });
+  // DOM click: since the home LCP change (content-visibility:auto below the hero) a coordinate click on an
+  // unrendered section can land elsewhere; the tracker is a delegated listener, so el.click() is the same signal.
+  await wa.evaluate((a) => { a.addEventListener("click", (e) => e.preventDefault()); a.click(); });
   const was = await evs(page, "whatsapp_click");
   expect("home: whatsapp_click con link_url sin query", has(was, (e) => /wa\.me\//.test(e.params.link_url || "") && !(e.params.link_url || "").includes("?")), JSON.stringify(was[0]?.params));
   const outAfterWa = await evs(page, "outbound_click");
@@ -94,6 +97,16 @@ const has = (list, pred) => list.some(pred);
   const dls = await evs(page, "file_download");
   expect("file_download pdf con file_name, file_extension, link_url", has(dls, (e) => e.params.file_name === "guia-prueba.pdf" && e.params.file_extension === "pdf" && /guia-prueba\.pdf$/.test(e.params.link_url || "")), JSON.stringify(dls[0]?.params));
   expect("file_download por atributo download", has(dls, (e) => e.params.file_name === "archivo"));
+
+  // contacto directo (tarea web-eventos-b959): links reales del sitio, sin direccion ni numero en los params
+  const mailHref = await page.locator('a[href^="mailto:"]').first().evaluate((a) => { a.addEventListener("click", (e) => e.preventDefault()); a.click(); return a.getAttribute("href"); });
+  const local = mailHref.slice(7).split("@")[0].toLowerCase();
+  const ems = await evs(page, "email_click");
+  expect("home: email_click con email_domain y sin la direccion (ni en cta_id)", has(ems, (e) => /\./.test(e.params.email_domain || "") && !JSON.stringify(e.params).toLowerCase().includes(local)), JSON.stringify(ems[0]?.params));
+  const telHref = await page.locator('a[href^="tel:"]').first().evaluate((a) => { a.addEventListener("click", (e) => e.preventDefault()); a.click(); return a.getAttribute("href"); });
+  const tail = telHref.replace(/\D/g, "").slice(-4);
+  const phs = await evs(page, "phone_click");
+  expect("home: phone_click sin el numero (ni en cta_id)", has(phs, (e) => !!e.params.cta_id && !JSON.stringify(e.params).replace(/\D/g, "").includes(tail)), JSON.stringify(phs[0]?.params));
 
   await page.evaluate(() => window.scrollTo(0, 0));
   const total = await page.evaluate(() => document.documentElement.scrollHeight);
@@ -132,6 +145,14 @@ const has = (list, pred) => list.some(pred);
   await page.waitForTimeout(400);
   const got = (await evs(page, "scroll_depth")).map((e) => e.params.percent);
   expect("blog (390px): scroll_depth 25/50/75/90", [25, 50, 75, 90].every((n) => got.includes(n)), JSON.stringify(got));
+  // CTA de la nav del blog (web-eventos-f008): "Diagnostico" en BlogNav lleva data-cta-id
+  const navCta = page.locator('a[data-cta-id="blog_nav_diagnostico"]');
+  expect("blog: la nav tiene el CTA marcado blog_nav_diagnostico", (await navCta.count()) === 1);
+  if (await navCta.count()) {
+    await navCta.evaluate((n) => { n.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); }); n.click(); });
+    const nc = await evs(page, "cta_click");
+    expect("blog: cta_click de la nav con cta_id blog-nav-diagnostico", has(nc, (e) => /^blog.nav.diagnostico$/.test(e.params.cta_id || "")), JSON.stringify(nc.map((e) => e.params.cta_id)));
+  }
   const float = page.locator("a.wa-btn");
   if (await float.count()) {
     await float.first().click({ noWaitAfter: true, force: true });
