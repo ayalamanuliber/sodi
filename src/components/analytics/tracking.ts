@@ -1,6 +1,5 @@
 "use client";
 
-import { track as trackVercelEvent } from "@vercel/analytics";
 import { isPrivateAnalyticsUrl } from "./privacy-boundary";
 import { isProductionAnalyticsHostname } from "./analytics-hosts";
 
@@ -32,17 +31,6 @@ function cleanProperties(properties: TrackingProperties = {}) {
   ) as Record<string, Exclude<TrackingValue, undefined>>;
 }
 
-function toVercelProperties(properties: TrackingProperties = {}) {
-  const cleaned = cleanProperties(properties);
-
-  return Object.fromEntries(
-    Object.entries(cleaned).map(([key, value]) => [
-      key,
-      Array.isArray(value) ? value.join(",") : value,
-    ]),
-  ) as Record<string, string | number | boolean | null>;
-}
-
 function toMetaEventName(eventName: string) {
   if (eventName === "directory_view") return "ViewContent";
   if (eventName === "checkout_start") return "InitiateCheckout";
@@ -61,14 +49,6 @@ export function trackEvent(eventName: string, properties: TrackingProperties = {
   if (isPrivateAnalyticsUrl(window.location.href) || !isProductionAnalyticsHostname(window.location.hostname)) return;
 
   const cleaned = cleanProperties(properties);
-  const vercelProperties = toVercelProperties(cleaned);
-
-  try {
-    trackVercelEvent(eventName, vercelProperties);
-  } catch {
-    // Analytics should never block the user flow.
-  }
-
   if (typeof window.gtag === "function") {
     window.gtag("event", eventName, cleaned);
     // GA4 standard ecommerce name next to the existing custom one (Tarea medicion-marcas-6634).

@@ -1,7 +1,6 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import { MetaPixel } from "./MetaPixel";
 import { isProductionAnalyticsHostname } from "./analytics-hosts";
@@ -53,7 +52,6 @@ gtag('config', 'G-BXSWHC7WLX');`}
       </Script>
       <Script src="/event-tracker.js?v=1" strategy="afterInteractive" />
       <MetaPixel />
-      <Analytics />
     </>
   );
 }
