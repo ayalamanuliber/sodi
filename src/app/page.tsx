@@ -11,6 +11,7 @@ import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
 import { InteractiveCanvas } from "@/components/landing/InteractiveCanvas";
 import { ScrollRevealInit } from "@/components/landing/ScrollReveal";
+import { ANCHOR_LAYOUT_SCRIPT } from "@/lib/anchor-layout";
 
 export const metadata: Metadata = {
   alternates: {
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <script dangerouslySetInnerHTML={{ __html: ANCHOR_LAYOUT_SCRIPT }} />
       {/* Backgrounds */}
       <div className="fixed inset-0 z-0 bg-grid pointer-events-none opacity-40" />
       <InteractiveCanvas />
@@ -30,7 +32,7 @@ export default function Home() {
       <ScrollRevealInit />
       <Nav />
 
-      <main className="relative z-10">
+      <main className="home-cv relative z-10">
         <Hero />
         <ProofStrip />
         <Qualification />

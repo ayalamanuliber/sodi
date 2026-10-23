@@ -1,0 +1,4 @@
+// Sections below the fold use content-visibility: auto (blog.module.css, home sections in globals.css), so their height is an estimate until painted
+// and a jump to an in-page anchor lands off target. Before any anchor jump (TOC or in-page link click, URL with #hash, back/forward)
+// render every section for real; on hashchange the target is scrolled to again after that layout.
+export const ANCHOR_LAYOUT_SCRIPT = `(function(){var d=document.documentElement;function off(){d.classList.add("cv-off")}if(location.hash)off();document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href^="#"]');if(a)off()},true);addEventListener("hashchange",function(){var on=d.classList.contains("cv-off");off();var t=location.hash&&document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t&&!on)requestAnimationFrame(function(){t.scrollIntoView()})})})();`;

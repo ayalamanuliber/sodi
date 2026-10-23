@@ -323,6 +323,18 @@ h1, h2, h3, h4, .font-heading {
   .hero-in, .hero-in-text { animation: none }
 }
 
+/* Home: sections below the hero skip style, layout and paint until they near the viewport (mobile LCP).
+   Anchor jumps need real heights: ANCHOR_LAYOUT_SCRIPT and Nav add html.cv-off before jumping. */
+.home-cv > section:nth-child(n+2),
+.home-cv ~ footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+html.cv-off .home-cv > section,
+html.cv-off .home-cv ~ footer {
+  content-visibility: visible;
+}
+
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 8px }
 ::-webkit-scrollbar-track { background: #000 }

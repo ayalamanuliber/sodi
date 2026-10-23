@@ -15,6 +15,8 @@ export function Nav() {
 
   const scrollTo = (id: string) => {
     setMobileOpen(false);
+    // Home sections below the fold use content-visibility: auto; render them for real before measuring the target.
+    document.documentElement.classList.add("cv-off");
     const el = document.getElementById(id);
     if (el) {
       const y = el.getBoundingClientRect().top + window.pageYOffset - 80;
