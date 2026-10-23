@@ -1,0 +1,199 @@
+.calc {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1px;
+  margin: 48px 0 0;
+  border: 1px solid rgb(255 255 255 / 0.13);
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgb(255 255 255 / 0.13);
+}
+
+.inputs,
+.output {
+  display: grid;
+  align-content: start;
+  gap: 22px;
+  padding: clamp(22px, 4vw, 40px);
+  background: #0d0f10;
+}
+
+.output {
+  background: #0a1410;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+.field > span,
+.providers legend {
+  color: #b4bab7;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.field small {
+  color: #8a918e;
+  font-size: 0.82rem;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  min-height: 52px;
+  padding: 0 16px;
+  border: 1px solid rgb(255 255 255 / 0.18);
+  border-radius: 12px;
+  background: #08090a;
+  color: #f4f5f5;
+  font: inherit;
+  font-size: 1.05rem;
+}
+
+.field input {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.providers button:focus-visible {
+  outline: 2px solid #00d98b;
+  outline-offset: 2px;
+}
+
+.field select:disabled {
+  opacity: 0.75;
+}
+
+.providers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.providers legend {
+  margin-bottom: 8px;
+}
+
+.providers button {
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid rgb(255 255 255 / 0.18);
+  border-radius: 999px;
+  background: transparent;
+  color: #f4f5f5;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.providers button[aria-pressed="true"] {
+  border-color: #00d98b;
+  background: #00d98b;
+  color: #04110b;
+}
+
+.kicker {
+  margin: 0;
+  color: #00d98b;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.output dl {
+  display: grid;
+  gap: 0;
+  margin: 0;
+}
+
+.output dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgb(255 255 255 / 0.1);
+}
+
+.output dt {
+  color: #b4bab7;
+}
+
+.output dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.output .net {
+  border-bottom: 0;
+  padding-top: 18px;
+}
+
+.output .net dt {
+  color: #f4f5f5;
+  font-weight: 700;
+}
+
+.output .net dd {
+  color: #00d98b;
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.noRate {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.noRateBody {
+  margin: 0;
+  color: #b4bab7;
+  line-height: 1.6;
+}
+
+.note {
+  margin: 0;
+  color: #8a918e;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.note a {
+  color: #00d98b;
+}
+
+@media (max-width: 760px) {
+  .calc {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+
+  .inputs,
+  .output {
+    gap: 16px;
+    padding: 20px 18px;
+  }
+
+  .field input,
+  .field select {
+    min-height: 48px;
+  }
+}

@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/herramientas/calculadora-comisiones-cobro`,
+      lastModified: new Date("2026-10-23"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
 
   const articles = getSearchEligibleArticles(getAllArticles());

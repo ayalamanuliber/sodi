@@ -16,7 +16,7 @@
     "Point"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-10-21",
+  "dateModified": "2026-10-23",
   "readingTime": "9 min lectura",
   "relatedSlugs": [
     "mercadopago-vs-mobbex-ecommerce",
@@ -26,7 +26,7 @@
     "cuanto-cuesta-tienda-online-argentina"
   ],
   "content": {
-    "intro": "<p><strong>Respuesta corta:</strong> según la página oficial de costos de Mercado Pago (consultada el 21/10/2026, vigente desde el 19/10/2026), un cobro por link de pago o checkout con el dinero disponible al instante cuesta <strong>6,29% + IVA</strong>. Si aceptás esperar 35 días baja a <strong>1,49% + IVA</strong>. Con QR, cobrar con dinero en cuenta cuesta 0,80% + IVA y con débito 1,35% + IVA. Con tarjeta de crédito al instante, QR y Point cuestan 5,99% + IVA.</p><p>Estas tasas son el precio de lista (fuente: <a href=\"https://www.mercadopago.com.ar/ayuda/26748\" rel=\"nofollow noopener\" target=\"_blank\">tasas: Mercado Pago, 21/10/2026</a>) y no hay un botón para negociarlas. Lo que sí manejás es el plazo en que te acreditan, el medio de cobro que ofrecés y si absorbés cuotas sin interés. Esta guía reemplaza cifras viejas que circulaban (4,99%, 0,99%, plazo de 14 días) con las que hoy publica Mercado Pago, y te muestra con una venta de $100.000 cuánto te llega realmente.</p>",
+    "intro": "<p><strong>Respuesta corta:</strong> según la página oficial de costos de Mercado Pago (consultada el 21/10/2026, vigente desde el 19/10/2026), un cobro por link de pago o checkout con el dinero disponible al instante cuesta <strong>6,29% + IVA</strong>. Si aceptás esperar 35 días baja a <strong>1,49% + IVA</strong>. Con QR, cobrar con dinero en cuenta cuesta 0,80% + IVA y con débito 1,35% + IVA. Con tarjeta de crédito al instante, QR y Point cuestan 5,99% + IVA. Para calcular comisión, IVA y lo que te llega con tu monto, usá la <a href=\"/herramientas/calculadora-comisiones-cobro\">calculadora de comisiones de cobro</a>.</p><p>Estas tasas son el precio de lista (fuente: <a href=\"https://www.mercadopago.com.ar/ayuda/26748\" rel=\"nofollow noopener\" target=\"_blank\">tasas: Mercado Pago, 21/10/2026</a>) y no hay un botón para negociarlas. Lo que sí manejás es el plazo en que te acreditan, el medio de cobro que ofrecés y si absorbés cuotas sin interés. Esta guía reemplaza cifras viejas que circulaban (4,99%, 0,99%, plazo de 14 días) con las que hoy publica Mercado Pago, y te muestra con una venta de $100.000 cuánto te llega realmente.</p>",
     "sections": [
       {
         "heading": "Cuánto cobra Mercado Pago hoy, por medio de cobro y plazo",
@@ -50,7 +50,7 @@
       },
       {
         "heading": "Alternativas: qué pudimos comparar y qué no",
-        "body": "<p>Para comparar hay que tener la tarifa oficial del otro proveedor. Esto es lo que pudimos leer el 21/10/2026:</p><ul><li><strong>MODO:</strong> en <a href=\"https://www.modo.com.ar/comercios\" rel=\"nofollow noopener\" target=\"_blank\">modo.com.ar/comercios</a> dice que en comercios físicos cobrás con las \"mismas comisiones que cuando cobrás con tarjeta\" y que no hay costos ni comisiones adicionales. No publica un porcentaje, por lo que no podemos ponerle número. Comparación de contexto en <a href=\"/blog/modo-vs-mercadopago-para-negocios\">MODO vs Mercado Pago</a>.</li><li><strong>Mobbex, Ualá Bis y Payway:</strong> no pudimos leer una tarifa oficial vigente (el sitio de Mobbex bloquea la lectura automática y la página de costos de Ualá cubre cuenta y tarjeta, no los cobros de Bis). No ponemos porcentajes de terceros o de guías viejas. Pedí cotización por escrito indicando provincia, plazo y medios, y compará contra la tabla de arriba con IVA. Contexto en <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">Mercado Pago vs Mobbex</a> y <a href=\"/blog/alternativas-mercadopago-ecommerce-argentina\">alternativas para ecommerce</a>.</li><li><strong>Transferencia directa (CBU o alias):</strong> sin comisión de Mercado Pago, pero sin cuotas ni la protección ni el checkout integrado. Si vendés en Tiendanube o similar con Mercado Pago nativo, medí el efecto en conversión antes de migrar.</li></ul>"
+        "body": "<p>Para comparar hay que tener la tarifa oficial del otro proveedor. Esto es lo que pudimos leer el 21/10/2026:</p><ul><li><strong>MODO:</strong> en <a href=\"https://www.modo.com.ar/comercios\" rel=\"nofollow noopener\" target=\"_blank\">modo.com.ar/comercios</a> dice que en comercios físicos cobrás con las \"mismas comisiones que cuando cobrás con tarjeta\" y que no hay costos ni comisiones adicionales. No publica un porcentaje, por lo que no podemos ponerle número. Comparación de contexto en <a href=\"/blog/modo-vs-mercadopago-para-negocios\">MODO vs Mercado Pago</a>.</li><li><strong>Mobbex:</strong> desde su página de Planes publica el Plan Essential: 1,9% + IVA con débito, 2,6% + IVA con crédito y prepagas y 3,9% + IVA en suscripciones, sin tasa distinta por plazo (<a href=\"https://www.mobbex.com/planes\" rel=\"nofollow noopener\" target=\"_blank\">tasas: Mobbex, 23/10/2026</a>). Las comparamos lado a lado en la <a href=\"/herramientas/calculadora-comisiones-cobro\">calculadora de comisiones de cobro</a>.</li><li><strong>Ualá Bis y Payway:</strong> no pudimos leer una tarifa oficial vigente (la página de costos de Ualá cubre cuenta y tarjeta, no los cobros de Bis). No ponemos porcentajes de terceros o de guías viejas. Pedí cotización por escrito indicando provincia, plazo y medios, y compará contra la tabla de arriba con IVA. Contexto en <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">Mercado Pago vs Mobbex</a> y <a href=\"/blog/alternativas-mercadopago-ecommerce-argentina\">alternativas para ecommerce</a>.</li><li><strong>Transferencia directa (CBU o alias):</strong> sin comisión de Mercado Pago, pero sin cuotas ni la protección ni el checkout integrado. Si vendés en Tiendanube o similar con Mercado Pago nativo, medí el efecto en conversión antes de migrar.</li></ul>"
       },
       {
         "heading": "Errores comunes al querer bajar comisiones",
@@ -92,7 +92,7 @@
       },
       {
         "question": "¿Hay alternativas con menor comisión que Mercado Pago?",
-        "answer": "Pudimos leer que MODO dice cobrar las mismas comisiones que con tarjeta, sin dar porcentaje. No encontramos una tarifa oficial publicada de Mobbex, Ualá Bis o Payway, por lo que conviene pedir cotización por escrito y compararla con IVA contra la tabla de Mercado Pago."
+        "answer": "MODO dice cobrar las mismas comisiones que con tarjeta, sin dar porcentaje. Mobbex publica su Plan Essential: 1,9% + IVA con débito y 2,6% + IVA con crédito (consulta 23/10/2026), con el plazo que fije la procesadora. De Ualá Bis y Payway no encontramos tarifa oficial publicada: pedí cotización por escrito y compará con IVA."
       }
     ],
     "ctaText": "¿Querés que analicemos tus comisiones y te armemos una estrategia de cobro optimizada? En SODI te ayudamos a configurar los canales de pago para que maximices tu margen sin perder ventas."

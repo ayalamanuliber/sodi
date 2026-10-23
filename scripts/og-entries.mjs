@@ -51,6 +51,7 @@ for (const [p, file, kicker] of [
   ["/directorio", "src/app/directorio/page.tsx", "Directorio"],
   ["/directorio-comercial-argentino", "src/app/directorio-comercial-argentino/page.tsx", "Directorio"],
   ["/plantillas", "src/app/plantillas/page.tsx", "Plantillas"],
+  ["/herramientas/calculadora-comisiones-cobro", "src/app/herramientas/calculadora-comisiones-cobro/page.tsx", "Calculadora"],
 ]) {
   const m = readMeta(file);
   add(p, m.title, m.description, kicker);

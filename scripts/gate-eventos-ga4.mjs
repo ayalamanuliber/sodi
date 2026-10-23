@@ -152,6 +152,25 @@ const has = (list, pred) => list.some(pred);
   await ctx.close();
 }
 
+// 3b. calculadora de comisiones (sodi-4e6e): calculator_use sale de trackEvent, que solo corre en el host de
+// produccion, asi que se exige en --live (local: probar con el host mapeado, ver informe sodi-calculadora-20261023).
+if (live && !negative) {
+  const { ctx, page } = await open("/herramientas/calculadora-comisiones-cobro", 390);
+  const before = await evs(page, "calculator_use");
+  expect("calculadora: sin evento en la carga inicial", before.length === 0, JSON.stringify(before));
+  await page.click('[data-provider="mobbex"]');
+  await page.selectOption('select[name="medio"]', "credito");
+  await page.fill('input[name="monto"]', "250000");
+  await page.waitForTimeout(1600);
+  const c = await evs(page, "calculator_use");
+  const neto = await page.textContent('[data-calc="neto"]').catch(() => null);
+  expect("calculadora: calculator_use con provider/payment_method/amount_bucket y sin monto exacto",
+    has(c, (e) => e.params.tool === "comisiones_cobro" && e.params.provider === "mobbex" && e.params.payment_method === "credito" && e.params.amount_bucket === "100k-1M" && !("amount" in e.params)),
+    JSON.stringify(c.map((e) => e.params)));
+  expect("calculadora: neto de 250.000 con Mobbex credito = $ 242.135,00", (neto || "").includes("242.135,00"), neto);
+  await ctx.close();
+}
+
 // 4. frontera de privacidad: ruta privada no trackea
 {
   const { ctx, page, trackerRequested } = await open("/invitacion/gate-privado");
