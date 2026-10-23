@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getArticle, getAllSlugs, getRelatedArticles, getAllArticles, normalizeSlug } from "@/lib/blog-data";
 import { buildArticleSchema, buildFAQSchema, silos } from "@/lib/blog-types";
-import { BLOG_MERGE_REDIRECTS } from "@/lib/content-release/blog-pruning.generated";
+import { BLOG_EMPTY_HUB_REDIRECTS, BLOG_MERGE_REDIRECTS } from "@/lib/content-release/blog-pruning.generated";
 import { getSearchEligibleArticles, isBlogArticleSearchEligible } from "@/lib/content-release/blog-release";
 import { hasOgCard, ogImages, ogImageProps } from "@/lib/og-card";
 import { Footer } from "@/components/landing/Footer";
@@ -130,6 +130,8 @@ export default async function BlogArticlePage({ params }: Props) {
   );
   const url = `https://sodi.com.ar/blog/${article.slug}`;
   const siloInfo = silos[article.silo];
+  // Hubs sin articulos elegibles redirigen (301): enlazar directo al destino evita el salto interno.
+  const siloHref = BLOG_EMPTY_HUB_REDIRECTS[article.silo] ?? `/blog/${article.silo}`;
   const visibleArticleDate = new Date(`${article.dateModified}T12:00:00`);
   const sections = article.content.sections.map((section, index) => ({
     ...section,
@@ -157,12 +159,12 @@ export default async function BlogArticlePage({ params }: Props) {
             <span>/</span>
             <Link href="/blog">Blog</Link>
             <span>/</span>
-            <Link href={`/blog/${article.silo}`}>{siloInfo?.label ?? article.silo}</Link>
+            <Link href={siloHref}>{siloInfo?.label ?? article.silo}</Link>
           </nav>
 
           <header className={styles.articleHeader}>
             <div className={styles.articleMeta}>
-              <Link href={`/blog/${article.silo}`}>{siloInfo?.label ?? article.silo}</Link>
+              <Link href={siloHref}>{siloInfo?.label ?? article.silo}</Link>
               <span>{article.readingTime}</span>
             </div>
             <h1>{article.title.replaceAll("—", "-").replaceAll("–", "-")}</h1>
