@@ -104,6 +104,20 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     baselineMember: true,
     approvedContentSha256: "bfa4e4191122c6f601014af984c865de79ea15eb17e4b2ddc2095e4e6f6f6da5",
   },
+  "cuanto-cuesta-shopify-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (radar SODI 24/10/2026): planes en dolares, pago anual y cargo por pasarela externa leidos en la pagina oficial de Shopify para Argentina el 24/10/2026; autocompletado 'shopify precio argentina'.",
+    packetId: "sodi-radar3-20261024-01-v1",
+    reviewGate: "Revalidar precios en shopify.com/ar/precios antes de subir dateModified.",
+    baselineMember: false,
+  },
+  "cuanto-cuesta-empretienda-argentina": {
+    status: "approved",
+    reason: "Pagina nueva de precios (radar SODI 24/10/2026): precio fijo, sin comision por venta y condiciones leidos en empretienda.com y sus preguntas frecuentes el 24/10/2026; autocompletado 'cuanto cuesta empretienda por mes'.",
+    packetId: "sodi-radar3-20261024-02-v1",
+    reviewGate: "Revalidar el precio en empretienda.com antes de subir dateModified.",
+    baselineMember: false,
+  },
   "cuanto-cuesta-agencia-de-marketing-digital-argentina": {
     status: "approved",
     reason: "Pagina nueva de precios (escala 21/10/2026): demanda en GSC sin pagina propia; rango armado con fuentes fechadas listadas en la propia pagina.",
