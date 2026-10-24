@@ -1,8 +1,8 @@
 {
   "slug": "que-es-un-community-manager",
-  "title": "Qué es un community manager y cuándo lo necesita tu empresa",
-  "metaTitle": "Qué es un community manager y qué hace (guía para PyMEs)",
-  "metaDescription": "Un community manager gestiona las redes de tu empresa: crea contenido, responde mensajes y mide resultados. Qué hace día a día y cuándo conviene contratarlo.",
+  "title": "Qué es un community manager (CM) y cuándo lo necesita tu empresa",
+  "metaTitle": "Qué es un community manager (CM) y qué hace: guía PyMEs",
+  "metaDescription": "Qué es un CM: el community manager gestiona las redes de tu empresa, crea contenido, responde mensajes y mide resultados. Cuándo conviene contratarlo.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
   "tags": [
@@ -12,7 +12,7 @@
     "contenido"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-10-24",
   "readingTime": "6 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-community-manager-argentina",
@@ -44,6 +44,10 @@
       }
     ],
     "faqs": [
+      {
+        "question": "¿Qué es un CM (community manager)?",
+        "answer": "CM es la sigla de community manager: la persona que gestiona las redes sociales de una empresa. Planifica y crea el contenido, publica, responde comentarios y mensajes y mide los resultados."
+      },
       {
         "question": "¿Cuánto cobra un community manager en Argentina?",
         "answer": "Depende de si trabajás con un freelance, una agencia o un CM en relación de dependencia. El precio varía según la cantidad de publicaciones, si incluye diseño, publicidad paga y la complejidad del rubro. Pedí un presupuesto por escrito con el alcance detallado."

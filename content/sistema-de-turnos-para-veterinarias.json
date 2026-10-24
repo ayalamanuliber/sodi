@@ -1,13 +1,13 @@
 {
   "slug": "sistema-de-turnos-para-veterinarias",
   "title": "Sistema de turnos para veterinarias: organizá tu agenda y atendé más mascotas",
-  "metaTitle": "Sistema de Turnos para Veterinarias Argentina | SODI",
-  "metaDescription": "Sistemas de turnos para veterinarias. Opciones SaaS, gratuitas y a medida. Costos, integración con WhatsApp y cómo elegir.",
+  "metaTitle": "Mejores sistemas de turnos para veterinarias en Argentina",
+  "metaDescription": "Los mejores sistemas de turnos para veterinarias en Argentina: opciones SaaS, gratuitas y a medida, integración con WhatsApp y cómo elegir.",
   "silo": "turnos-por-rubro",
   "siloLabel": "Turnos por Rubro",
   "tags": ["turnos online", "veterinarias", "agenda veterinaria", "reservas online", "mascotas"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-10-24",
   "readingTime": "8 min lectura",
   "relatedSlugs": ["pagina-web-para-veterinarias", "presencia-digital-ideal-veterinaria", "cuanto-cuesta-app-de-turnos"],
   "content": {
@@ -18,7 +18,7 @@
         "body": "<p>Las veterinarias tienen un flujo de turnos con particularidades únicas:</p><ul><li><strong>Variedad de servicios:</strong> consulta general (20 min), vacunación (15 min), cirugía (2-3 horas), peluquería canina (1-2 horas), internación. Cada servicio tiene su duración y preparación.</li><li><strong>Urgencias:</strong> la mascota se lastimó, el perro comió algo tóxico. Necesitás dejar franjas libres para urgencias sin que eso arruine la agenda programada.</li><li><strong>Controles periódicos:</strong> vacunas anuales, desparasitaciones, controles geriátricos. El sistema puede enviar recordatorios automáticos cuando se acerca la fecha.</li><li><strong>Ausencias:</strong> el dueño se olvidó del turno o le surgió algo. Con recordatorios por WhatsApp, <strong>las ausencias bajan entre un 40% y 60%</strong>.</li></ul><p>Un sistema de turnos no solo organiza tu agenda — <strong>aumenta tus ingresos</strong> al reducir huecos vacíos y facilitar la reserva.</p>"
       },
       {
-        "heading": "Opciones SaaS para veterinarias",
+        "heading": "Mejores sistemas de turnos para veterinarias en Argentina: opciones SaaS",
         "body": "<p>Plataformas listas para usar:</p><ul><li><strong>AgendaPro (USD 15-45/mes):</strong> agenda por veterinario, catálogo de servicios con duración, recordatorios por WhatsApp, ficha de paciente (mascota). Permite registrar historial de vacunas, tratamientos y datos del animal.</li><li><strong>Cloxsy (USD 10-30/mes):</strong> más simple. Agenda online, link de reserva, recordatorios básicos. Funcional para veterinarias chicas que no necesitan ficha clínica integrada.</li><li><strong>Cal.com (gratis el plan básico):</strong> configurable, permite crear tipos de turno (consulta, vacunación, cirugía, peluquería) con duraciones distintas. Sin ficha de mascota pero gratis y funcional.</li></ul><p><strong>Para veterinarias, AgendaPro tiene una ventaja</strong>: la ficha de paciente permite registrar datos de la mascota (raza, edad, peso, alergias), lo que ahorra tiempo en cada consulta.</p>"
       },
       {
@@ -35,6 +35,10 @@
       }
     ],
     "faqs": [
+      {
+        "question": "¿Cuáles son los mejores sistemas de turnos para veterinarias en Argentina?",
+        "answer": "No hay uno mejor para todas: depende del tamaño. Para una veterinaria individual (1 o 2 veterinarios) sirven Cal.com o Cloxsy; para una clínica de 3 o más veterinarios con varios servicios conviene AgendaPro por su ficha de mascota; para un hospital o una cadena, un desarrollo a medida con historia clínica, stock e internaciones. En cualquiera, priorizá los recordatorios por WhatsApp."
+      },
       {
         "question": "¿Cuánto cuesta un sistema de turnos para veterinaria?",
         "answer": "Cal.com es gratis. Cloxsy: USD 10-30/mes. AgendaPro: USD 15-45/mes. Desarrollo a medida: $800.000 a $2.000.000 ARS."
