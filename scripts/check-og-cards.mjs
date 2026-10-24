@@ -1,5 +1,6 @@
 // Gate: every page enumerated for a social card has a manifest entry, the JPG exists, is 1200x630, <300KB,
-// and no two paths share a file. Also checks public/og has no orphan files and content/ was not touched by cards.
+// and no two paths share a file. The card title (recorded as the manifest alt when the card is rendered)
+// must equal the page's current title: a title edited after the card was drawn fails. Also checks public/og has no orphan files and content/ was not touched by cards.
 // Run: npx tsx scripts/check-og-cards.mjs
 import fs from "node:fs";
 import path from "node:path";
@@ -21,6 +22,12 @@ for (const e of entries) {
   if (size >= 300 * 1024) errors.push(`>=300KB ${e.path}: ${size}`);
   if (m.width !== 1200 || m.height !== 630) errors.push(`wrong size in manifest ${e.path}`);
   if (!m.alt) errors.push(`no alt ${e.path}`);
+  else {
+    // The card renderer draws the entry title with the brand prefix removed and no dashes; alt = "<drawn title> | SODI".
+    const norm = (t) => t.replace(/^SODI\s*[:\u2014\u2013-]\s*/i, "").replace(/\s+/g, " ").trim();
+    const drawn = m.alt.replace(/\s*\|\s*SODI$/, "");
+    if (norm(drawn) !== norm(e.title)) errors.push(`card title differs from page title ${e.path}: card "${drawn}" vs page "${e.title}"`);
+  }
   if (files.has(m.file)) errors.push(`file shared by ${files.get(m.file)} and ${e.path}`);
   files.set(m.file, e.path);
 }
