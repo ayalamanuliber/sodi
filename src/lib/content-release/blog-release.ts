@@ -20,7 +20,7 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: lote 5 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 2053 -> 1885), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 23/10/2026: lote 6 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 1885 -> 1706 con 8 bloques de precio propio de SODI aparte), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 23/10/2026: calculadora de comisiones de cobro (sodi-4e6e): enlace a /herramientas/calculadora-comisiones-cobro desde las 3 notas de pagos, tasas del Plan Essential de Mobbex publicadas en mobbex.com/planes (leidas 23/10), seccion "¿Mobbex es seguro?" con el registro PSP del BCRA. Lagos, correccion 22/10 (TG3533): el re-pin no depende de Manuel.
-  approvedCatalogContentSha256: "772ac45b43457a7cb8e7d7df4c2a30c9d60d35aece861ee26c17cc6b992a3dcd",
+  approvedCatalogContentSha256: "ee52ed476377ac843d92d2c08a0e43f2744276c9ee8d125565c49221b59dfadb",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
