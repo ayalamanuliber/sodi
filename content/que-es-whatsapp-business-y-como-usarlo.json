@@ -13,17 +13,22 @@
     "atención al cliente"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-10-24",
   "readingTime": "7 min lectura",
   "relatedSlugs": [
     "que-es-un-bot-de-whatsapp",
     "cuanto-cuesta-bot-whatsapp-empresas",
     "whatsapp-manual-vs-bot-automatico",
-    "como-automatizar-atencion-al-cliente"
+    "como-automatizar-atencion-al-cliente",
+    "automatizar-whatsapp-ecommerce"
   ],
   "content": {
     "intro": "<p>Si usás WhatsApp personal para atender tu negocio, estás usando la herramienta equivocada. WhatsApp Business es la versión profesional de WhatsApp, diseñada específicamente para empresas: tiene catálogo de productos, respuestas rápidas, etiquetas para organizar chats y estadísticas. Y es gratis.</p><p>En esta guía te explicamos qué es WhatsApp Business, en qué se diferencia del WhatsApp normal, cómo aprovechar cada función, y cuándo conviene dar el salto a la API de WhatsApp Business para automatización real.</p>",
     "sections": [
+      {
+        "heading": "¿Qué es WhatsApp Business?",
+        "body": "<p><strong>WhatsApp Business es la aplicación gratuita de WhatsApp pensada para negocios.</strong> Se instala aparte del WhatsApp personal y suma un perfil de empresa (dirección, horario, web), catálogo de productos, respuestas rápidas, etiquetas para ordenar chats y mensajes automáticos de bienvenida y ausencia.</p><p>Sirve para atender clientes desde un número dedicado al negocio sin mezclar lo personal con lo profesional. Si vendés online, también podés <a href=\"/blog/automatizar-whatsapp-ecommerce\">automatizar WhatsApp para tu ecommerce</a>: consultas, seguimiento de pedidos y carritos abandonados.</p>"
+      },
       {
         "heading": "WhatsApp Business vs WhatsApp personal: las diferencias clave",
         "body": "<p>WhatsApp Business es una app separada (la descargás de la tienda de apps) que usa un número de teléfono diferente al personal. Las diferencias principales:</p><ul><li><strong>Perfil de empresa:</strong> En vez de foto y estado, tenés un perfil comercial con dirección, horario de atención, email, sitio web y descripción de tu negocio. Le da seriedad profesional a tu canal.</li><li><strong>Catálogo de productos:</strong> Podés cargar tus productos o servicios con foto, descripción, precio y link. Los clientes lo ven directamente desde el chat sin salir de WhatsApp.</li><li><strong>Respuestas rápidas:</strong> Mensajes predefinidos que enviás con un atajo. En vez de escribir \"Nuestro horario es de 9 a 18, de lunes a viernes\" cada vez, lo mandás con \"/horario\".</li><li><strong>Mensajes automáticos:</strong> Mensaje de bienvenida para contactos nuevos y mensaje de ausencia fuera de horario. Básico pero útil.</li><li><strong>Etiquetas:</strong> Clasificá los chats por categoría: \"Nuevo contacto\", \"Pedido pendiente\", \"Pagado\", \"Para seguimiento\". Te organiza la gestión.</li><li><strong>Estadísticas básicas:</strong> Cuántos mensajes enviaste, entregaste y leyeron.</li></ul><p>Todo esto es <strong>100% gratuito</strong>. No hay excusa para seguir usando WhatsApp personal para tu negocio.</p>"
@@ -46,7 +51,7 @@
       },
       {
         "heading": "Automatización en WhatsApp: qué se puede hacer",
-        "body": "<p>La automatización en WhatsApp tiene varios niveles:</p><p><strong>Nivel 1 — Mensajes automáticos (gratis, app Business):</strong></p><ul><li>Mensaje de bienvenida cuando te escriben por primera vez</li><li>Mensaje de ausencia fuera de tu horario</li><li>Limitación: son genéricos, no se adaptan a lo que preguntó el cliente</li></ul><p><strong>Nivel 2 — Respuestas rápidas (gratis, app Business):</strong></p><ul><li>Mensajes predefinidos activados manualmente</li><li>Limitación: seguís respondiendo vos, solo te ahorrás el tipeo</li></ul><p><strong>Nivel 3 — Chatbot con reglas (API, con costo mensual según el proveedor y el volumen):</strong></p><ul><li>Flujos de conversación predefinidos: \"Escribí 1 para ver productos, 2 para horarios, 3 para hablar con un asesor\"</li><li>Funciona bien para menús simples y derivación</li><li>Limitación: si el cliente pregunta algo fuera del menú, se rompe</li></ul><p><strong>Nivel 4 — Agente de IA (API, con costo mensual según el alcance y el volumen):</strong></p><ul><li>Entiende lenguaje natural y responde de forma inteligente</li><li>Puede acceder a tu catálogo, agendar citas, procesar pedidos</li><li>Escala a humano cuando no puede resolver</li><li>Es el nivel al que apunta la mayoría de las empresas que quieren escalar</li></ul><p>La recomendación: empezá con el Nivel 1 y 2 (son gratis). Cuando el volumen de consultas te supere, avanzá al Nivel 3 o 4 según tu necesidad y presupuesto.</p>"
+        "body": "<p>La automatización en WhatsApp tiene varios niveles:</p><p><strong>Nivel 1 — Mensajes automáticos (gratis, app Business):</strong></p><ul><li>Mensaje de bienvenida cuando te escriben por primera vez</li><li>Mensaje de ausencia fuera de tu horario</li><li>Limitación: son genéricos, no se adaptan a lo que preguntó el cliente</li></ul><p><strong>Nivel 2 — Respuestas rápidas (gratis, app Business):</strong></p><ul><li>Mensajes predefinidos activados manualmente</li><li>Limitación: seguís respondiendo vos, solo te ahorrás el tipeo</li></ul><p><strong>Nivel 3 — Chatbot con reglas (API, con costo mensual según el proveedor y el volumen):</strong></p><ul><li>Flujos de conversación predefinidos: \"Escribí 1 para ver productos, 2 para horarios, 3 para hablar con un asesor\"</li><li>Funciona bien para menús simples y derivación</li><li>Limitación: si el cliente pregunta algo fuera del menú, se rompe</li></ul><p><strong>Nivel 4 — Agente de IA (API, con costo mensual según el alcance y el volumen):</strong></p><ul><li>Entiende lenguaje natural y responde de forma inteligente</li><li>Puede acceder a tu catálogo, agendar citas, procesar pedidos</li><li>Escala a humano cuando no puede resolver</li><li>Es el nivel al que apunta la mayoría de las empresas que quieren escalar</li></ul><p>La recomendación: empezá con el Nivel 1 y 2 (son gratis). Cuando el volumen de consultas te supere, avanzá al Nivel 3 o 4 según tu necesidad y presupuesto.</p><p>Si tenés una tienda online, la guía <a href=\"/blog/automatizar-whatsapp-ecommerce\">cómo automatizar WhatsApp para ecommerce</a> baja estos niveles a casos concretos: consultas, seguimiento de pedidos y recupero de carritos.</p>"
       },
       {
         "heading": "Buenas prácticas para WhatsApp Business",
@@ -54,6 +59,10 @@
       }
     ],
     "faqs": [
+      {
+        "question": "¿Qué es WhatsApp Business?",
+        "answer": "Es la app gratuita de WhatsApp para empresas. Tiene perfil comercial, catálogo, respuestas rápidas, etiquetas y mensajes automáticos de bienvenida y ausencia. Se usa con un número de negocio, separado del WhatsApp personal."
+      },
       {
         "question": "¿Puedo usar WhatsApp Business y WhatsApp personal en el mismo celular?",
         "answer": "Sí, pero necesitás dos números de teléfono diferentes (o un teléfono dual SIM). Son apps separadas que funcionan de forma independiente. No podés tener las dos con el mismo número."

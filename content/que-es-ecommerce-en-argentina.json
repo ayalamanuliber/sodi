@@ -1,8 +1,8 @@
 {
   "slug": "que-es-ecommerce-en-argentina",
   "title": "Qué es el Ecommerce en Argentina: Tipos, Mercado y Plataformas",
-  "metaTitle": "Qué es el Ecommerce en Argentina | SODI",
-  "metaDescription": "Guía introductoria al ecommerce en Argentina. Tipos (B2C, B2B, marketplace vs propia), tamaño del mercado, plataformas y cómo arrancar.",
+  "metaTitle": "Qué es el e-commerce y cómo funciona en Argentina | SODI",
+  "metaDescription": "Qué es el e-commerce y cómo funciona en Argentina: tipos (B2C, B2B, marketplace vs tienda propia), plataformas, medios de pago y cómo arrancar.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
   "tags": [
@@ -13,7 +13,7 @@
     "plataformas ecommerce"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-10-24",
   "readingTime": "7 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-tienda-online-argentina",
@@ -25,6 +25,10 @@
     "intro": "<p>Ecommerce es simplemente vender productos o servicios por internet. Suena obvio, pero el mercado argentino de comercio electrónico ya es uno de los más grandes de la región y sigue creciendo. Si tenés un negocio y no estás vendiendo online, estás perdiendo una parte enorme del mercado.</p><p>En esta guía te explicamos los distintos tipos de ecommerce, cómo está el mercado argentino hoy, las diferencias entre vender en un marketplace y tener tu propia tienda, y qué plataformas existen para que arranques.</p>",
     "sections": [
       {
+        "heading": "Qué es el e-commerce y cómo funciona",
+        "body": "<p><strong>El e-commerce (también escrito ecommerce o e commerce) es el comercio electrónico: comprar y vender productos o servicios por internet.</strong> Funciona en cuatro pasos:</p><ol><li><strong>El cliente elige:</strong> entra a una tienda online o a un marketplace, mira el catálogo y arma su pedido.</li><li><strong>Paga online:</strong> con un medio de pago como Mercado Pago, tarjeta o transferencia.</li><li><strong>El vendedor prepara y envía:</strong> o entrega el servicio, con su propia logística o con un correo o empresa de envíos.</li><li><strong>Postventa:</strong> seguimiento del pedido, cambios, devoluciones y atención por WhatsApp o mail.</li></ol><p>Todo lo demás (plataforma, medios de pago, logística) son decisiones de cómo armar esos cuatro pasos. Si querés ir directo a la práctica, mirá <a href=\"/blog/como-crear-tienda-online-argentina\">cómo crear una tienda online en Argentina</a> o <a href=\"/blog/como-vender-por-internet-argentina\">cómo vender por internet</a>.</p>"
+      },
+      {
         "heading": "Tipos de ecommerce: B2C, B2B, C2C y D2C",
         "body": "<p>No todo el ecommerce es igual. Según quién le vende a quién, hay distintos modelos:</p><p><strong>B2C (Business to Consumer):</strong> Empresa le vende al consumidor final. Es el modelo más conocido. Ejemplos: una tienda de ropa que vende por su web, Mercado Libre, Tiendanube. Si tenés un local y querés vender online, este es tu modelo.</p><p><strong>B2B (Business to Business):</strong> Empresa le vende a otra empresa. Proveedores, distribuidores, mayoristas. Funciona diferente: los pedidos son más grandes, los precios se negocian, hay crédito comercial. Ejemplos: un fabricante de insumos industriales que recibe pedidos por su portal web.</p><p><strong>C2C (Consumer to Consumer):</strong> Personas vendiéndole a personas. Mercado Libre en su versión más básica, Facebook Marketplace, Vinted. Si vendés cosas usadas por internet, hacés C2C.</p><p><strong>D2C (Direct to Consumer):</strong> La marca vende directo al consumidor sin intermediarios. Es la tendencia que más crece. En vez de vender solo por Mercado Libre, la marca tiene su propia tienda online. Beneficio: más margen, más control sobre la experiencia del cliente, datos propios.</p><p>Para la mayoría de las PyMEs argentinas, el camino es empezar en B2C (idealmente D2C con tienda propia) y complementar con presencia en marketplaces.</p>"
       },
@@ -34,7 +38,7 @@
       },
       {
         "heading": "Marketplace vs tienda propia: ventajas y desventajas",
-        "body": "<p>Esta es la decisión más importante cuando empezás a vender online:</p><p><strong>Marketplace (Mercado Libre, Amazon, etc.):</strong></p><ul><li>Ventajas: tráfico ya existente (millones de compradores), confianza del comprador, logística integrada (Mercado Envíos), no necesitás un sitio web</li><li>Desventajas: comisiones altas (12-30% del precio de venta en Mercado Libre), competís por precio contra todos, no tenés datos del cliente, dependés de las reglas de la plataforma</li><li>Ideal para: empezar rápido, validar productos, llegar a volumen</li></ul><p><strong>Tienda propia (Tiendanube, WooCommerce, Shopify, etc.):</strong></p><ul><li>Ventajas: cero comisiones por venta (pagás solo la pasarela de pagos), controlás la experiencia, construís tu base de datos, hacés remarketing, fortalecés tu marca</li><li>Desventajas: tenés que generar tu propio tráfico (publicidad, SEO, redes), necesitás invertir en la tienda y su mantenimiento</li><li>Ideal para: construir marca a largo plazo, mejorar márgenes, independencia</li></ul><p><strong>La respuesta correcta:</strong> no es una u otra, son las dos. Usá Mercado Libre para captar volumen y tráfico. Usá tu tienda propia para construir marca, retener clientes y tener mejores márgenes. Con el tiempo, el objetivo es que tu tienda propia crezca en participación.</p>"
+        "body": "<p>Esta es la decisión más importante cuando empezás a vender online:</p><p><strong>Marketplace (Mercado Libre, Amazon, etc.):</strong></p><ul><li>Ventajas: tráfico ya existente (millones de compradores), confianza del comprador, logística integrada (Mercado Envíos), no necesitás un sitio web</li><li>Desventajas: comisiones altas (12-30% del precio de venta en Mercado Libre), competís por precio contra todos, no tenés datos del cliente, dependés de las reglas de la plataforma</li><li>Ideal para: empezar rápido, validar productos, llegar a volumen</li></ul><p><strong>Tienda propia (Tiendanube, WooCommerce, Shopify, etc.):</strong></p><ul><li>Ventajas: cero comisiones por venta (pagás solo la pasarela de pagos), controlás la experiencia, construís tu base de datos, hacés remarketing, fortalecés tu marca</li><li>Desventajas: tenés que generar tu propio tráfico (publicidad, SEO, redes), necesitás invertir en la tienda y su mantenimiento</li><li>Ideal para: construir marca a largo plazo, mejorar márgenes, independencia</li></ul><p><strong>La respuesta correcta:</strong> no es una u otra, son las dos. Usá Mercado Libre para captar volumen y tráfico. Usá tu tienda propia para construir marca, retener clientes y tener mejores márgenes. Con el tiempo, el objetivo es que tu tienda propia crezca en participación.</p><p>Si querés comparar con números y casos, tenemos la guía <a href=\"/blog/mercado-libre-vs-tienda-propia\">Mercado Libre vs tienda propia</a>.</p>"
       },
       {
         "heading": "Plataformas de ecommerce para Argentina",
@@ -46,10 +50,14 @@
       },
       {
         "heading": "Cómo arrancar con tu ecommerce: primeros pasos",
-        "body": "<p>Si todavía no vendés online, estos son los pasos concretos para empezar:</p><ol><li><strong>Definí tu modelo:</strong> ¿Vas a vender en marketplace, tienda propia o ambos? Para la mayoría, la respuesta es ambos.</li><li><strong>Elegí tu plataforma:</strong> Si sos PyME argentina y querés algo rápido, Tiendanube. Si necesitás algo a medida, WooCommerce con un desarrollador.</li><li><strong>Armá tu catálogo:</strong> Fotos de calidad (un celular bueno con buena luz alcanza), descripciones completas con medidas/materiales/beneficios, precios claros.</li><li><strong>Configurá medios de pago:</strong> Mercado Pago como mínimo. Sumá transferencia y si podés, cuotas sin interés.</li><li><strong>Definí tu logística:</strong> Precios de envío, zonas de cobertura, tiempos de entrega. Sé realista y transparente.</li><li><strong>Lanzá y promocioná:</strong> No alcanza con abrir la tienda. Necesitás tráfico: redes sociales, Google Ads, WhatsApp Business, SEO.</li></ol><p>El error más común es querer que todo sea perfecto antes de lanzar. Arrancá con 10-20 productos, probá, aprendé de los primeros clientes y mejorá sobre la marcha. La tienda perfecta no existe; la que vende es la que está online.</p>"
+        "body": "<p>Si todavía no vendés online, estos son los pasos concretos para empezar:</p><ol><li><strong>Definí tu modelo:</strong> ¿Vas a vender en marketplace, tienda propia o ambos? Para la mayoría, la respuesta es ambos.</li><li><strong>Elegí tu plataforma:</strong> Si sos PyME argentina y querés algo rápido, Tiendanube. Si necesitás algo a medida, WooCommerce con un desarrollador.</li><li><strong>Armá tu catálogo:</strong> Fotos de calidad (un celular bueno con buena luz alcanza), descripciones completas con medidas/materiales/beneficios, precios claros.</li><li><strong>Configurá medios de pago:</strong> Mercado Pago como mínimo. Sumá transferencia y si podés, cuotas sin interés.</li><li><strong>Definí tu logística:</strong> Precios de envío, zonas de cobertura, tiempos de entrega. Sé realista y transparente.</li><li><strong>Lanzá y promocioná:</strong> No alcanza con abrir la tienda. Necesitás tráfico: redes sociales, Google Ads, WhatsApp Business, SEO.</li></ol><p>El error más común es querer que todo sea perfecto antes de lanzar. Arrancá con 10-20 productos, probá, aprendé de los primeros clientes y mejorá sobre la marcha. La tienda perfecta no existe; la que vende es la que está online.</p><p>Para seguir: <a href=\"/blog/como-crear-tienda-online-argentina\">cómo crear tu tienda online paso a paso</a> y <a href=\"/blog/cuanto-cuesta-tienda-online-argentina\">cuánto cuesta tener una tienda online en Argentina</a>.</p>"
       }
     ],
     "faqs": [
+      {
+        "question": "¿Qué es el e-commerce (e commerce) y cómo funciona?",
+        "answer": "Es el comercio electrónico: vender y comprar por internet. El cliente elige el producto en una tienda online o marketplace, paga con un medio de pago online, el vendedor prepara y envía el pedido, y después se atienden los cambios y consultas. Podés vender en un marketplace como Mercado Libre o en tu propia tienda."
+      },
       {
         "question": "¿Es obligatorio tener CUIT para vender online?",
         "answer": "Si vendés de forma regular, sí. Necesitás estar inscripto como monotributista o responsable inscripto, tener CUIT y emitir factura. Plataformas como Mercado Libre y Tiendanube te piden datos fiscales. Consultá con tu contador para la categoría correcta."
