@@ -13,7 +13,7 @@
     "tienda online argentina"
   ],
   "datePublished": "2026-10-24",
-  "dateModified": "2026-10-24",
+  "dateModified": "2026-11-02",
   "readingTime": "5 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-tienda-online-argentina",
@@ -35,7 +35,7 @@
       },
       {
         "heading": "El costo de cobrar con otra pasarela",
-        "body": "<p>Shopify aclara que \"es posible que se apliquen cargos por transacción de terceros\" si usás un proveedor de pagos externo en lugar de Shopify Payments, y que dependen del plan: 2% en Basic, 1% en Grow, 0,6% en Advanced (<a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">Shopify Argentina, precios, 24/10/2026</a>). La misma página dice que Shopify Payments solo está disponible en algunos países y que las opciones de pago pueden diferir según la ubicación de tu empresa (<a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">Shopify Argentina, precios, 24/10/2026</a>), así que confirmá en tu panel qué medios te muestra Shopify antes de calcular.</p><p>Ejemplo: una tienda en plan Basic que vende <strong>$1.000.000</strong> en un mes por una pasarela externa paga 2% de costo de Shopify, es decir <strong>$20.000</strong> (<a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">Shopify Argentina, precios, 24/10/2026</a>). Ese monto va aparte de la comisión de la pasarela. Para ver la comisión de Mercado Pago por plazo, la leída hoy en su ayuda oficial dice 6,29% + IVA al instante y 1,49% + IVA a 35 días (<a href=\"https://www.mercadopago.com.ar/ayuda/26748\" rel=\"nofollow noopener\" target=\"_blank\">Mercado Pago, ayuda de comisiones, 24/10/2026</a>).</p><p>Como referencia de otra plataforma: Tiendanube cobra 2% de costo por transacción en su plan Esencial cuando el cliente paga con un medio que no es Pago Nube (<a href=\"https://www.tiendanube.com/planes-y-precios\" rel=\"nofollow noopener\" target=\"_blank\">Tiendanube, planes y precios, 24/10/2026</a>).</p>"
+        "body": "<p>Shopify aclara que \"es posible que se apliquen cargos por transacción de terceros\" si usás un proveedor de pagos externo en lugar de Shopify Payments, y que dependen del plan: 2% en Basic, 1% en Grow, 0,6% en Advanced (<a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">Shopify Argentina, precios, 24/10/2026</a>). La misma página dice que Shopify Payments solo está disponible en algunos países y que las opciones de pago pueden diferir según la ubicación de tu empresa (<a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">Shopify Argentina, precios, 24/10/2026</a>), así que confirmá en tu panel qué medios te muestra Shopify antes de calcular.</p><p>Ejemplo: una tienda en plan Basic que vende <strong>$1.000.000</strong> en un mes por una pasarela externa paga 2% de costo de Shopify, es decir <strong>$20.000</strong> (<a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">Shopify Argentina, precios, 24/10/2026</a>). Ese monto va aparte de la comisión de la pasarela. La comisión de Mercado Pago cambia según el medio de pago y el plazo de acreditación (más rápido suele costar más): confirmala en Costos, dentro de tu cuenta.</p><p>Como referencia de otra plataforma: Tiendanube cobra 2% de costo por transacción en su plan Esencial cuando el cliente paga con un medio que no es Pago Nube (<a href=\"https://www.tiendanube.com/planes-y-precios\" rel=\"nofollow noopener\" target=\"_blank\">Tiendanube, planes y precios, 24/10/2026</a>).</p>"
       },
       {
         "heading": "Cuándo conviene Shopify y cuándo mirar otra cosa",
@@ -43,7 +43,7 @@
       },
       {
         "heading": "De dónde salen las cifras",
-        "body": "<p>Los precios, el costo por pasarela externa y la prueba inicial se leyeron el 24/10/2026 en <a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">la página oficial de precios de Shopify para Argentina, 24/10/2026</a>. La comisión de Mercado Pago sale de <a href=\"https://www.mercadopago.com.ar/ayuda/26748\" rel=\"nofollow noopener\" target=\"_blank\">Mercado Pago, ayuda de comisiones, 24/10/2026</a> y la de Tiendanube de <a href=\"https://www.tiendanube.com/planes-y-precios\" rel=\"nofollow noopener\" target=\"_blank\">Tiendanube, planes y precios, 24/10/2026</a>. Los totales anuales y el ejemplo de $1.000.000 son cálculos nuestros sobre esas cifras. Los precios de lista cambian: si la fecha de lectura quedó atrás, usá los enlaces para confirmar el número vigente.</p>"
+        "body": "<p>Los precios, el costo por pasarela externa y la prueba inicial se leyeron el 24/10/2026 en <a href=\"https://www.shopify.com/ar/precios\" rel=\"nofollow noopener\" target=\"_blank\">la página oficial de precios de Shopify para Argentina, 24/10/2026</a>. La comisión de Tiendanube sale de <a href=\"https://www.tiendanube.com/planes-y-precios\" rel=\"nofollow noopener\" target=\"_blank\">Tiendanube, planes y precios, 24/10/2026</a>. Los totales anuales y el ejemplo de $1.000.000 son cálculos nuestros sobre esas cifras. Los precios de lista cambian: si la fecha de lectura quedó atrás, usá los enlaces para confirmar el número vigente.</p>"
       }
     ],
     "faqs": [

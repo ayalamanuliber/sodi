@@ -9,9 +9,9 @@
   "datePublished": "2026-04-11",
   "dateModified": "2026-04-11",
   "readingTime": "8 min lectura",
-  "relatedSlugs": ["pagina-web-para-institutos-educativos", "presencia-digital-ideal-instituto-educativo", "cuanto-cuesta-app-de-turnos"],
+  "relatedSlugs": ["sistema-de-turnos-para-academias-idiomas", "automatizar-whatsapp-academias", "cuanto-cuesta-app-de-turnos"],
   "content": {
-    "intro": "<p>Academias de idiomas, música, arte, danza, apoyo escolar — todas tienen el mismo problema: <strong>gestionar inscripciones, clases, cupos y pagos a mano es un caos</strong>. Planillas de Excel que no se actualizan, alumnos que no saben si hay lugar, WhatsApp explotado con consultas de horarios. Un sistema de turnos y reservas online ordena todo desde un solo lugar.</p><p>En esta guía te mostramos las opciones disponibles, costos y cómo elegir el mejor para tu academia. Si además necesitás <a href=\"/blog/pagina-web-para-institutos-educativos\">página web</a>, eso complementa tu sistema.</p>",
+    "intro": "<p>Academias de idiomas, música, arte, danza, apoyo escolar: todas tienen el mismo problema: <strong>gestionar inscripciones, clases, cupos y pagos a mano es un caos</strong>. Planillas de Excel que no se actualizan, alumnos que no saben si hay lugar, WhatsApp explotado con consultas de horarios. Un sistema de turnos y reservas online ordena todo desde un solo lugar.</p><p>En esta guía te mostramos las opciones disponibles, costos y cómo elegir el mejor para tu academia. Si además necesitás <a href=\"/blog/pagina-web-para-institutos-educativos\">página web</a>, eso complementa tu sistema.</p>",
     "sections": [
       {
         "heading": "Por qué una academia necesita sistema de reservas",
@@ -23,7 +23,7 @@
       },
       {
         "heading": "Desarrollo a medida: cuándo vale la pena",
-        "body": "<p>Un sistema a medida para una academia conviene cuando:</p><ul><li><strong>Múltiples sedes:</strong> academia con varias sucursales, alumnos que pueden asistir a cualquiera, gestión centralizada.</li><li><strong>Portal del alumno:</strong> un espacio web donde el alumno vea sus clases, materiales del curso, notas/evaluaciones y pagos pendientes.</li><li><strong>Integración con pago de cuota:</strong> que el sistema gestione la cuota mensual, envíe recordatorio de pago y bloquee la reserva si hay deuda.</li><li><strong>Inscripción online completa:</strong> que el nuevo alumno pueda inscribirse, elegir curso, horario y pagar — todo sin pisar la academia.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS para reservas con portal básico. Con plataforma educativa completa, puede superar los $3.000.000 ARS. Más información en <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta un sistema de turnos</a>.</p>"
+        "body": "<p>Un sistema a medida para una academia conviene cuando:</p><ul><li><strong>Múltiples sedes:</strong> academia con varias sucursales, alumnos que pueden asistir a cualquiera, gestión centralizada.</li><li><strong>Portal del alumno:</strong> un espacio web donde el alumno vea sus clases, materiales del curso, notas/evaluaciones y pagos pendientes.</li><li><strong>Integración con pago de cuota:</strong> que el sistema gestione la cuota mensual, envíe recordatorio de pago y bloquee la reserva si hay deuda.</li><li><strong>Inscripción online completa:</strong> que el nuevo alumno pueda inscribirse, elegir curso, horario y pagar, todo sin pisar la academia.</li></ul><p><strong>Costo estimado:</strong> entre $800.000 y $2.000.000 ARS para reservas con portal básico. Con plataforma educativa completa, puede superar los $3.000.000 ARS. Más información en <a href=\"/blog/cuanto-cuesta-app-de-turnos\">cuánto cuesta un sistema de turnos</a>.</p>"
       },
       {
         "heading": "Integración con WhatsApp y comunicación",

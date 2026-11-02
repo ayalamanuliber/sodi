@@ -132,10 +132,7 @@
   },
   "alternativas-a-mercadoshops-argentina": {
    "fddd6691d9861489": "MercadoShops cerró en 2025. Guía paso a paso para migrar a Tiendanube (desde $0), Shopify,",
-   "b3d97581177f9a4f": "Precio: Plan Esencial gratis (2% comisión por venta). Plan Impulso: $32.999/mes (1%). Plan",
-   "bd01ed550cff30ee": "Precio: plan gratis disponible. Planes pagos desde $12.500/mes.",
-   "a2e25de441e20147": "Precio: plugin gratis + hosting ($5.000-$15.000/mes) + setup ($200.000-$500.000 si contrat",
-   "26be59d26c2ed5a3": "Precio: desde USD 29/mes + 2% comisión si no usás Shopify Payments."
+   "a2e25de441e20147": "Precio: plugin gratis + hosting ($5.000-$15.000/mes) + setup ($200.000-$500.000 si contrat"
   },
   "automatizacion-ia-procesos-pymes": {
    "ff4c168e2ee062f5": "Plan gratuito: 100 tareas/mes. Plan pago desde USD 19.99/mes",
@@ -146,13 +143,6 @@
    "f5b2460ee7b6ed12": "Costo: n8n self-hosted (gratis) + APIs de IA (~USD 5/mes) = USD 5/mes (más el costo del se",
    "598050a096a96175": "Una PyME típica puede ahorrar entre 15 y 30 horas semanales automatizando solo los 5 proce",
    "e96449bd7465762a": "Para una PyME chica, entre USD 15 y USD 50 por mes cubrís las herramientas de automatizaci"
-  },
-  "automatizar-whatsapp-abogados": {
-   "ac274cb9f069e1b8": "Bots SaaS (Cliengo, Botmaker desde USD 25/mes): flujos de captación, calificación de consu",
-   "db8713dc4e9b0819": "CRM jurídico + WhatsApp (desde USD 40/mes): gestión de casos con notificaciones por WhatsA",
-   "192b1612749cac1b": "Desarrollo custom (desde USD 300 setup): para estudios grandes con múltiples áreas y neces",
-   "d28c2f14c3ef9e37": "El ROI en el rubro legal es enorme: un solo cliente nuevo puede valer entre $100.000 y var",
-   "1afd67d325182943": "Especialmente para ellos. Un abogado solo no puede estar en audiencia y respondiendo Whats"
   },
   "automatizar-whatsapp-academias-idiomas": {
    "d7594b29600edcab": "Bots SaaS (desde USD 25/mes): recordatorios automáticos, flujo de inscripción, envío masiv",
@@ -181,12 +171,6 @@
    "5a792c5c7afeb01b": "Desarrollo custom con API (desde USD 500 setup): integración con sistema de acceso, reserv",
    "26a9926baf6d2de9": "El ROI: si reducís la morosidad del 35% al 20% en un club con 300 socios que pagan $15.000"
   },
-  "automatizar-whatsapp-comercio-exterior": {
-   "1f9118c29ccc3ac6": "Bots SaaS (Botmaker, Wati desde USD 40/mes): flujos de cotización, tracking manual. Para P",
-   "c379248f01d84fc1": "Integración con software de comex + API (desde USD 400 setup): cotización automática desde",
-   "7432c6bcf45e672e": "Desarrollo custom (desde USD 600 setup): integración completa con MALVINA/MARIA, multicoti",
-   "09593b33645870ba": "En comex, una sola operación puede valer USD 5.000 a USD 50.000+ en comisiones . Si la aut"
-  },
   "automatizar-whatsapp-consultorios": {
    "64418381b8b7c2e7": "Bots con plataformas SaaS (Cliengo, AutoBot, ChatCompose): desde USD 25/mes. Flujos visual",
    "fc7986dd69880faa": "Integración con sistema de turnos (AgendaPro, TuMedico.com): algunos ya incluyen notificac",
@@ -211,7 +195,6 @@
    "be1c803fffa7b222": "El cálculo es simple: si un técnico gasta 1 hora por día respondiendo WhatsApp en vez de h"
   },
   "automatizar-whatsapp-farmacias": {
-   "5c8febb2a6b7d72e": "Bots con Wati o Botmaker (desde USD 25/mes): flujos de pedido, recordatorios automáticos, ",
    "a5bd1e8e29c3e9c5": "Integración con sistema de gestión (desde USD 400 setup): stock en tiempo real, pedidos qu",
    "016bcdf302d14fe3": "El ROI: si con delivery y pedidos por WhatsApp sumás 10 pedidos diarios de $8.000 promedio"
   },
@@ -224,10 +207,6 @@
    "a1be83a5fc271136": "Bots con Botmaker o ChatCompose (desde USD 25/mes): flujos de captación, clases de prueba,",
    "e78a2e2d28a4d04a": "Desarrollo custom con API (desde USD 300 setup): integración con sistema de control de acc",
    "40369c0b3a3cca80": "El ROI es clarísimo: si con automatización retenés 10 socios más por mes que pagaban $20.0"
-  },
-  "automatizar-whatsapp-imprentas": {
-   "084d52601f72bd96": "Bots SaaS (desde USD 25/mes): flujos de cotización, recepción de archivos, notificaciones ",
-   "463b91f2de81ea22": "Desarrollo custom (desde USD 400 setup): integración con sistema de gestión de la imprenta"
   },
   "automatizar-whatsapp-inmobiliarias": {
    "f482817935013088": "Cliengo / Botmaker (desde USD 30/mes): bots con flujos visuales, integración con CRM inmob",
@@ -265,7 +244,6 @@
    "d54f387c2fbbf094": "El ROI es directo: si con el sistema de recordatorios evitás 5 inasistencias por semana qu"
   },
   "automatizar-whatsapp-restaurantes": {
-   "842c0821f03b8e24": "Este flujo te ahorra la comisión de PedidosYa o Rappi (25-35% por pedido). Si hacés 10 ped",
    "05acdf16c5aa0d6c": "Bots de bajo costo (Botmaker, ChatCompose): desde USD 25/mes. Flujos de pedido, integració",
    "922c0f76222bdf17": "Plataformas de pedidos por WhatsApp (PideDirecto, Peel): desde USD 30/mes + comisión baja ",
    "3457bb10df15864d": "Desarrollo custom con API: desde USD 250 de setup. Ideal si tenés un sistema de caja y que",
@@ -408,13 +386,8 @@
    "47e60e2df88712fa": "Depende de tu tiempo y habilidades. La Fase 1 la podés hacer solo con guías online. Para F"
   },
   "como-elegir-pasarela-de-pago-argentina": {
-   "a743f6cbf643db27": "Las comisiones se negocian según tu volumen de ventas mensual — si vendés más de $1.000.00",
-   "d906bc026a59df49": "Recomendación : si vendés más de $500.000 ARS/mes, Mobbex te ahorra plata real en comision",
-   "7f506afd568abb65": "Ideal para: tiendas con facturación superior a $5.000.000 ARS/mes donde la diferencia de c",
-   "f0881bcd37a895ed": "Cómo funcionan : cuando ofrecés 3 cuotas sin interés, el cliente paga $10.000 en 3 cuotas ",
    "825627c130dffaad": "Incluí el costo en el precio : si tu producto vale $10.000 al contado, publicalo a $10.800",
-   "f5d3d505e4c3a4d7": "Cuotas solo en productos de ticket alto : no necesitás ofrecer 12 cuotas sin interés en un",
-   "a91f4ce1af850b7b": "MercadoPago. Sin dudas. Es la más fácil de configurar, la que más confianza genera en el c"
+   "f5d3d505e4c3a4d7": "Cuotas solo en productos de ticket alto : no necesitás ofrecer 12 cuotas sin interés en un"
   },
   "como-escalar-operacion-sin-contratar": {
    "eafdb16019572ec1": "Sueldo bruto: $600.000-$900.000/mes",
@@ -493,23 +466,14 @@
    "ed12b074da1d8b34": "Iluminación pareja: un aro de luz ($15.000 ARS) + fondo blanco ($3.000-$8.000) transforma ",
    "7c4f4e307059f7e3": "Si tenés más de 50 productos, considerá contratar un fotógrafo de producto. Costo: $3.000-",
    "b7125d62eb16ee3e": "+ Costo de empaque: caja, relleno, cinta. $500-$1.500 por pedido.",
-   "aa7343550bd92336": "Ejemplo real: producto que cuesta $10.000, vendido a $25.000 en Mercado Libre:",
-   "df2c8f4a24b1ccec": "Comisión ML (15%): -$3.750",
-   "688776e80a555856": "Comisión MP (4.49% + IVA): -$1.358",
+   "b2e604e47a35eac8": "Comisión MP (6,29% + IVA): -$1.903",
    "c0bec469169e36ed": "Envío (absorbs parcial): -$2.000",
    "e4c82cd09ff2ec93": "Empaque: -$800",
-   "542ee92989db0bfc": "Margen neto: $7.092 (28%)",
-   "f674213d0f067612": "Si creías que tu margen era 60% ($15.000) y en realidad es 28% ($7.092), necesitás saberlo",
-   "0be5c343c8c21a17": "Inscripción en AFIP: monotributo o responsable inscripto. Si estás arrancando, monotributo",
+   "7d0175362ca179b4": "Margen neto: $6.547 (26%)",
+   "68bfc3b55d99ac7e": "Si creías que tu margen era 60% ($15.000) y en realidad es 26% ($6.547), necesitás saberlo",
    "181f6f81d0963e73": "Términos y condiciones: política de devoluciones, cambios, garantía, privacidad de datos. ",
    "2c690e986aab992a": "No dejes lo legal para \"cuando crezca\". Las multas de Defensa del Consumidor arrancan en $",
    "e9a8d1c7584e317e": "Un celular con buena cámara + aro de luz + fondo blanco da resultados más que aceptables p"
-  },
-  "como-preparar-tienda-hot-sale-2026": {
-   "b09c5aeb138a853f": "El Hot Sale 2026 se viene en mayo y si tu tienda no está lista con al menos 3 semanas de a",
-   "219b995313845642": "Inscripción en hotsale.com.ar: la inscripción abre ~60 días antes del evento. Costo de par",
-   "8d7831328f6f64d4": "Presupuesto sugerido para retargeting durante Hot Sale: $50.000-$150.000 ARS por día según",
-   "1765c301b6b8357b": "La inscripción oficial para PyMEs arranca en ~$150.000 ARS (varía por año). Sumale presupu"
   },
   "como-profesionalizar-negocio-digital": {
    "b86fe0a75e20ce16": "Inversión total estimada para los 3 niveles: $200.000 - $800.000 ARS dependiendo de si usá",
@@ -548,7 +512,6 @@
   },
   "como-vender-por-internet-argentina": {
    "2294f86abaa9bbaa": "Vender por internet en Argentina ya no es opcional: el e-commerce argentino mueve más de $",
-   "e49094adac99bef6": "Tiendanube: la plataforma más usada en Argentina para tiendas propias. Plan Esencial grati",
    "d98e7bffae7662c1": "Web propia (custom): ideal para servicios o productos premium. Inversión desde $300.000 AR",
    "284e29a6aff0283c": "Correo Argentino / OCA / Andreani: para envíos nacionales desde tu propia tienda. Andreani",
    "7bab8ab620de10fb": "Mensajería local (moto/cadete): para AMBA, mismo día. Apps como PedidosYa Envíos o Pickap ",
@@ -559,8 +522,7 @@
    "f67b32c131c312f4": "Google Ads: para productos con búsqueda activa. Presupuesto mínimo útil: $8.000/día. Campa",
    "a9f1d001f69810ba": "Regla del 80/20: al principio, el 80% de tus ventas van a venir del 20% de tus productos. ",
    "eb4e501d3a02a30d": "Fotos con el celular sin iluminación: las fotos venden. Invertí $15.000 en un aro de luz y",
-   "af79dd743fdfccb1": "Podés arrancar casi gratis en Mercado Libre (solo pagás comisión del 13-17% por venta) o c",
-   "1d11e5f2e5251a2e": "Sí, para usar Mercado Pago y facturar necesitás estar inscripto como monotributista o resp",
+   "bf05aa515a50ade3": "Podés arrancar casi gratis en Mercado Libre (pagás una comisión por venta que varía según ",
    "6224922ad6cf0eea": "Los rubros con más crecimiento online en Argentina son: indumentaria, electrónica, aliment"
   },
   "cuanto-cuesta-bot-whatsapp-empresas": {
@@ -584,22 +546,9 @@
    "e51ed7056c40026b": "Si recibís menos de 50 consultas diarias y usás una plataforma como Wasapi, la app Busines"
   },
   "cuanto-cuesta-facturacion-electronica-argentina": {
-   "f245c0ba08e729b0": "Cuánto se cobra por facturar: ARCA no cobra por emitir (monotributo). Xubio gratis hasta 1",
-   "214ae2e8035af677": "La facturación electrónica en Argentina es obligatoria y se gestiona a través de ARCA (ex ",
    "11178c207f39ed05": "Sistema y plan Precio de lista (ARS) Límite publicado Dato a tener en cuenta",
-   "26a702b6c2596d13": "Xubio, Empresa Gratis $0 10 facturas por mes, 1 usuario La página aclara que es solo para ",
-   "5b04191f51966c19": "Xubio, Emprendedor Estándar $46.200 + IVA (débito) o $60.200 + IVA (otros medios) Hasta 1.",
-   "f2e2d1b386b41848": "Xubio, Empresa Básico $98.700 + IVA (débito) o $128.000 + IVA Hasta 300 facturas por mes, ",
-   "981e9bcaf9663f80": "Alegra, Emprendedor $27.999 + IVA por mes 100 facturas de venta por mes, 2 usuarios Prueba",
-   "f8c305905e7e3b9c": "Alegra, Pyme $40.999 + IVA por mes 250 facturas por mes Suma conciliación bancaria, invent",
-   "33a3027188ffe2ce": "Facturante, Pack 50 $6.355 + IVA por mes 50 comprobantes, 3 usuarios Prueba gratis de 15 d",
-   "656a4d9cf37d5c29": "Facturante, Pack 500 $21.432 + IVA por mes 500 comprobantes, usuarios ilimitados Packs int",
-   "b9c34d67de38aac5": "Contabilium, Standard $122.000 + IVA por mes ($109.800 pagando anual) Hasta 1.500 comproba",
-   "fd3d7b9988074ed7": "Colppy, Essential $128.500 + IVA por mes 300 comprobantes por mes Otros planes hasta $310.",
-   "f9155da1ca5666ff": "2. El costo por comprobante. Facturante lo muestra en su página: el Pack 50 sale $6.355 + ",
-   "260531385ce65858": "2. Decidí tu herramienta. Pocas facturas por mes: ARCA (sin costo) o Xubio gratis (hasta 1",
-   "c4b41f73cd39caa6": "Emitir desde ARCA (ex AFIP) no tiene costo para monotributistas, según la guía oficial de ",
-   "60b7bf4e1af4d334": "Depende de a quién se la pagues. ARCA no cobra por emitir (para monotributistas, la guía o"
+   "b655d86a8e3cffcb": "Emitir desde ARCA (ex AFIP) no tiene costo para monotributistas, según la guía oficial de ",
+   "ee77c1e96ea1026e": "Depende de a quién se la pagues. ARCA no cobra por emitir (para monotributistas, la guía o"
   },
   "cuanto-cuesta-mantenimiento-pagina-web": {
    "ca69968d61ee152e": "Mantenimiento web en Argentina: básico $25.000-$50.000 ARS/mes, profesional $80.000-$150.0",
@@ -611,7 +560,6 @@
    "9cf6cc6af69301c4": "Plan básico ($25.000-$50.000 ARS/mes): actualizaciones de WordPress, plugins y temas una v",
    "e267f3fdd171321e": "Plan profesional ($80.000-$150.000 ARS/mes): todo lo anterior más: actualizaciones semanal",
    "3eabd1cab7fe1911": "Plan enterprise ($150.000-$300.000+ ARS/mes): para e-commerce o webs con sistemas custom. ",
-   "b756b3f47cc17ee2": "En dólares, estamos hablando de USD 20-40/mes el básico, USD 65-120/mes el profesional y U",
    "240a19ba25814720": "Lo vemos todas las semanas en SODI: PyMEs que pagaron $500.000+ por una web y en un año es",
    "b175c9a9a0e7bdd0": "Hackeo: WordPress sin actualizar es el blanco favorito de los bots. Un plugin desactualiza",
    "bace8ee379f29979": "Automatizable (costo mínimo): los backups pueden ser automáticos con plugins como UpdraftP",
@@ -731,18 +679,18 @@
   },
   "cuanto-cuesta-pagina-web-para-veterinarias": {
    "a99af3f0ddc2c889": "Una web para veterinaria en Argentina cuesta entre $350.000 y $900.000 ARS. Con turnos onl",
-   "965db6b8c969bb7b": "Una pagina web para veterinarias en Argentina cuesta entre $350.000 y $900.000 ARS en 2026",
-   "f0d287c1d7a72047": "Una web basica para veterinaria cuesta entre $350.000 y $550.000 ARS. Incluye: pagina de i",
-   "4fd9e51dc70f2fa2": "Plazo de entrega: 10-15 dias habiles. En dolares: USD 280-450.",
    "d169e9a8351e3b92": "Una web completa para veterinaria con turnos online y portal de clientes cuesta entre $600",
-   "4f7ba0012cdc4ea9": "En dolares: USD 480-720 para el paquete completo.",
    "50b70d08a96638d0": "El mantenimiento mensual de una web para veterinaria va de $10.000 a $40.000 ARS.",
-   "da285983c265ef49": "Web basica: hosting ($5.000-$15.000 ARS/mes), dominio (.com.ar a $5.000 ARS/año), actualiz",
-   "e1b76b7097a62dd9": "Web con turnos y ficha de mascotas: suma soporte tecnico del sistema, almacenamiento para ",
-   "450c188efbdadea8": "Costo oculto importante: fotos del equipo y las instalaciones . Si remodelaste el consulto",
-   "fe22d7729346b818": "El costo de integracion depende del sistema: si tiene API abierta (la mayoria de los moder",
-   "42792ea10d4a18b9": "Si todavia no usas sistema de gestion: este es buen momento para implementar uno. VetCloud",
-   "1371e425f555f4f7": "WordPress con plugins de turnos (Amelia o BookingPress) cubre el 90% de las necesidades po"
+   "26197389fc182e40": "Una página web para veterinarias en Argentina cuesta entre $350.000 y $900.000 ARS en 2026",
+   "7aae3e4a18e390bd": "Una web básica para veterinaria cuesta entre $350.000 y $550.000 ARS. Incluye: página de i",
+   "ce44222dc439c9fb": "Plazo de entrega: 10-15 días hábiles. En dólares: USD 280-450.",
+   "44cf1b230151e339": "En dólares: USD 480-720 para el paquete completo.",
+   "113148f90565daf6": "Web básica: hosting ($5.000-$15.000 ARS/mes), dominio (.com.ar a $5.000 ARS/año), actualiz",
+   "a2738ae822610f2d": "Web con turnos y ficha de mascotas: suma soporte técnico del sistema, almacenamiento para ",
+   "d5d470d8ef3d99a9": "Costo oculto importante: fotos del equipo y las instalaciones . Si remodelaste el consulto",
+   "27e0f65120b8d8dc": "El costo de integración depende del sistema: si tiene API abierta (la mayoría de los moder",
+   "68a390f884d8c333": "Si todavía no usás sistema de gestión: este es buen momento para implementar uno. VetCloud",
+   "78918c2bda16c02e": "WordPress con plugins de turnos (Amelia o BookingPress) cubre el 90% de las necesidades po"
   },
   "cuanto-cuesta-seo-argentina": {
    "0c2f8615a03bb67a": "SEO local: USD 150-400/mes. SEO nacional: USD 400-800+/mes. Resultados en 4-8 meses. Preci",
@@ -904,12 +852,6 @@
    "25bc4cb652967e48": "Webs institucionales desde $400.000 ARS — ideales para consultorios, estudios y comercios ",
    "dfe56728ca9fd1f7": "Una web institucional profesional arranca en $400.000 ARS. Tiendas online con Mercado Pago"
   },
-  "factura-electronica-arca-2026": {
-   "212867758aa9a858": "Xubio: plan gratuito de hasta 10 facturas/mes. Planes pagos desde $8.500/mes para facturac",
-   "de363ff75820a6d0": "Alegra: desde $2.599/mes. Incluye facturación, control de gastos, y reportes. Buena opción",
-   "83b560fa405311c1": "Colppy: planes desde $7.900/mes. Más completo: facturación + gestión contable + stock. Ide",
-   "c9264aa56c041632": "Facturante: plan gratuito limitado, planes pagos desde $3.500/mes. Simple y directo, solo "
-  },
   "google-ads-para-abogados-argentina": {
    "e8790cd60845f04f": "Google Ads para abogados en Argentina: CPC de $3-8 USD por clic, presupuesto desde $200.00",
    "f313f99f7295d98e": "Si sos abogado en Argentina y estás pensando en invertir en Google Ads, hay algo que tenés",
@@ -993,8 +935,7 @@
    "746e47834270b73f": "\"Dónde hospedarse en [destino]\": $0.40-0.80 USD/clic. Búsquedas informacionales con alta i",
    "e549b8a75809f909": "El presupuesto mínimo recomendado es de $80.000-$150.000 ARS/mes en temporada baja, escala",
    "9016ad3677400601": "Entre $0.50 y $2 USD dependiendo del destino y la temporada. Keywords genéricas como \"hote",
-   "f966c5f894922bfd": "Mínimo $80.000-$150.000 ARS/mes en temporada baja, escalando a $200.000-$500.000 ARS/mes e",
-   "7c4124660a6bc5cc": "Idealmente, ambas. Las OTAs te dan visibilidad global y volumen. Google Ads te permite cap"
+   "f966c5f894922bfd": "Mínimo $80.000-$150.000 ARS/mes en temporada baja, escalando a $200.000-$500.000 ARS/mes e"
   },
   "google-ads-para-inmobiliarias-argentina": {
    "a61f5e40d783391e": "Google Ads para inmobiliarias en Argentina: CPC de $1-3 USD, presupuesto $150.000-$400.000",
@@ -1101,28 +1042,18 @@
    "0fd14ec3e78bf23b": "Meta Ads (Instagram + Facebook): CPC (costo por click) promedio $15-$50 ARS. Con $50.000/m",
    "e5af7bb8c80e9149": "Google Ads: CPC promedio $30-$150 ARS dependiendo del rubro. Más caro que Meta pero con ma",
    "4e2e1a581b0a21f9": "SEO: inversión de $50.000-$150.000/mes en contenido y optimización. Resultados en 3-6 mese",
-   "8a205feb38cbf50b": "Email marketing: herramientas desde $0 (Mailchimp free) hasta $30.000/mes. ROI promedio de",
    "6542ec0e0caa868c": "Folletos/volantes: $15.000-$30.000 por 1.000 unidades full color",
    "3038207337c48afa": "Cartelería vía pública: $50.000-$200.000/mes por ubicación (varía mucho por zona)",
    "a2008e9b5bbb91de": "Radio local: $30.000-$100.000/mes por tanda de avisos",
    "b5ba69b8ddf9b538": "Publicación en diario local: $20.000-$80.000 por aviso",
-   "e975806ec707d98f": "Comparemos una inversión de $100.000 ARS/mes en cada canal para un negocio de servicios lo",
    "a940fd432db5321e": "$100.000 en Meta Ads:",
    "0de721006182fd17": "Costo por cliente: $5.500-$16.600",
    "06515d8145113f74": "$100.000 en radio local:",
    "d278fff488cc6844": "Costo por cliente: $20.000-$100.000",
    "c6012d70b2add59e": "$100.000 en Google Ads:",
-   "45e77b553168a03b": "Costo por cliente: $2.800-$20.000",
-   "e59f4a4ed906a84a": "Mínimo $50.000-$100.000 ARS/mes en publicidad paga (Meta Ads o Google Ads) para resultados",
-   "b79f238cb7d85d47": "Sí, Meta Ads (Instagram + Facebook) es el canal más accesible para PyMEs argentinas. Con $",
-   "71046aeca2bca82e": "Sí, especialmente para servicios profesionales. Google Ads captura gente con intención de "
+   "45e77b553168a03b": "Costo por cliente: $2.800-$20.000"
   },
   "mercado-libre-vs-tienda-propia": {
-   "f409167425b4ee2f": "Costo de envío con Mercado Envíos: si ofrecés envío gratis, lo absorbés vos (varía por pes",
-   "4b6ab0fac040e5c4": "Ejemplo concreto: vendés un producto a $50.000 ARS en publicación premium. Comisión ML: 17",
-   "cd880bdc8e7110ad": "Ahora, ese mismo producto en tu tienda propia : comisión Mercado Pago 3.99% = $2.000. Enví",
-   "e4c2476b7b114216": "Para arrancar en Mercado Libre: inversión $0 en plataforma (solo pagás comisión por venta)",
-   "af6bae2863c8c257": "Para tu tienda propia: Tiendanube desde $15.000/mes, o desarrollo WooCommerce desde $500.0",
    "0effaf0a60fa1440": "Con Tiendanube arrancás desde $15.000/mes sin inversión inicial. Con WooCommerce (WordPres"
   },
   "mi-negocio-no-aparece-en-google": {
@@ -1326,8 +1257,7 @@
   "pagina-web-para-hoteles": {
    "95558f8ed920c2a2": "Web institucional con contacto: desde USD 600 a USD 1.200. Diseño responsive, galerías de ",
    "3c0415b58c5e5b3a": "Web con motor de reservas: desde USD 1.200 a USD 2.500. Suma motor de reservas con calenda",
-   "8d611ed0d7422488": "Web con gestión hotelera integrada: desde USD 2.500 a USD 5.000. Todo lo anterior más sist",
-   "cdc8c07ac0cae549": "Hacé las cuentas: si tu tarifa promedio es USD 80/noche y Booking te cobra 18% de comisión"
+   "8d611ed0d7422488": "Web con gestión hotelera integrada: desde USD 2.500 a USD 5.000. Todo lo anterior más sist"
   },
   "pagina-web-para-imprentas": {
    "5ec9a73116b78ee8": "Web catálogo básica: desde USD 400 a USD 900. Catálogo de productos con fotos, precios ori",
@@ -1338,8 +1268,7 @@
    "81fe4d58d9b3f930": "Web catálogo (sin venta online): entre $200.000 y $400.000 ARS, o desde USD 250. Mostrás p",
    "a12b68f6b15b20bd": "Tienda online básica (catálogo + carrito + Mercado Pago): entre $450.000 y $900.000 ARS, o",
    "ea86e5eb2e28a1ab": "Tienda completa con stock, filtros avanzados y email marketing: desde $900.000 ARS o USD 8",
-   "98676686e8239ee7": "Hosting y dominio: $8.000-$20.000 ARS/mes o USD 8-20 (las tiendas requieren más capacidad ",
-   "bd2033601d269f02": "La comparación que importa: si vendés por Mercado Libre, pagás entre 13% y 36% de comisión"
+   "98676686e8239ee7": "Hosting y dominio: $8.000-$20.000 ARS/mes o USD 8-20 (las tiendas requieren más capacidad "
   },
   "pagina-web-para-institutos-educativos": {
    "aae7346c1dba51f8": "Web institucional básica: desde USD 600 a USD 1.200. Diseño profesional responsive, página",
@@ -1552,7 +1481,7 @@
    "5157e266716dbb47": "Nivel mínimo ($200K-$400K ARS inversión inicial):",
    "6ac748438816e2f9": "Nivel recomendado ($500K-$1M ARS inversión inicial + $200K-$400K/mes):",
    "51d81167187ab0a6": "Nivel premium ($1M+ ARS inversión inicial + $500K+/mes):",
-   "763f11915425188f": "La opción más simple (link de Mercado Pago o botón de pago en la web) tiene costo cero de "
+   "0a6d76caf38a7f6a": "La opción más simple (link de Mercado Pago o botón de pago en la web) tiene costo cero de "
   },
   "presencia-digital-ideal-comercio-exterior": {
    "2c83a8f804d10d75": "Una web bilingüe (español/inglés) con catálogo de productos, fichas técnicas, formulario d"
@@ -1615,7 +1544,6 @@
    "3f44798be3f53434": "Un sistema básico de 2-4 cámaras IP con acceso web cuesta entre $200K-$500K ARS de inversi"
   },
   "presencia-digital-ideal-hotel": {
-   "a7c8e07c6b494925": "Cada reserva que llega por Booking te cuesta entre un 15% y 25% de comisión. Si tu tarifa ",
    "cde2f2c7dd6c10b0": "Una web profesional con motor de reservas integrado, galería HD, recorrido virtual y conex"
   },
   "presencia-digital-ideal-instituto-educativo": {
@@ -1649,7 +1577,7 @@
    "a7f3be5bdf8ad4ca": "Nivel mínimo ($200K-$400K ARS inversión inicial):",
    "cd59a464374f2a7f": "Nivel recomendado ($500K-$1M ARS inversión inicial + $100K-$250K/mes):",
    "6ff2d5d34389fc41": "Nivel premium ($1M+ ARS inversión inicial + $300K+/mes):",
-   "302564b2adc1f6f5": "Una sesión profesional de fotos ambientadas (usando tu showroom como escenario) cuesta ent"
+   "60b7349ce6d2cce1": "Una sesión profesional de fotos ambientadas (usando tu showroom como escenario) cuesta ent"
   },
   "presencia-digital-ideal-nutricionista": {
    "37336a7a903a9620": "Calendly o SimplyBook.me: turnos online. Calendly gratis para funciones básicas, SimplyBoo",
@@ -1668,7 +1596,6 @@
    "e12b1f6d10abcbca": "Desde $0 con herramientas como Calendly (versión gratuita) hasta $500K-$1M ARS por un sist"
   },
   "presencia-digital-ideal-panaderia": {
-   "066aaff1047c26d6": "Publicá los precios: en panadería, el precio no espanta — facilita. \"Torta de chocolate 12",
    "35f7f8b82588db55": "Presupuesto mínimo ($200K-$400K ARS): Instagram con contenido propio (fotos con celular bu",
    "17155f7cdc4b69c5": "Presupuesto mínimo ($200K-$400K ARS): web one-page con catálogo visual, precios, formulari",
    "efe8911b040fab6c": "Mínimo de compra: establecé un mínimo para que el delivery sea rentable. \"Delivery gratis ",
@@ -1676,8 +1603,9 @@
    "edc8aaa205ca8cd3": "Nivel mínimo ($200K-$400K ARS inversión inicial):",
    "d329a1f63b457805": "Nivel recomendado ($500K-$1M ARS inversión inicial + $100K-$250K/mes):",
    "82618a65b9fe00d2": "Nivel premium ($1M+ ARS inversión inicial + $300K+/mes):",
-   "f6fe8ce99af20a0b": "\"Consultá por privado\" en vez de publicar precios. En panadería, el precio cierra ventas —",
-   "543dd7c76d8336b5": "Una panadería de barrio puede empezar con inversión mínima: $200K-$400K ARS únicos para op"
+   "c27d5acc42b17fe2": "Publicá los precios: en panadería, el precio no espanta: facilita. \"Torta de chocolate 12 ",
+   "4c6b3f342a15a357": "\"Consultá por privado\" en vez de publicar precios. En panadería, el precio cierra ventas: ",
+   "3c4594538c2d1423": "Una panadería de barrio puede empezar con inversión mínima: $200K-$400K ARS únicos para op"
   },
   "presencia-digital-ideal-peluqueria-estetica": {
    "332124cb559151f6": "Un sistema de turnos online integrado con WhatsApp y tu web cuesta desde USD 400 a USD 1.5"
@@ -1849,20 +1777,7 @@
    "5f219f9eeaca6e9a": "Mejoras básicas como botón de WhatsApp, formularios más cortos y comprimir imágenes son gr"
   },
   "que-pasa-si-vendo-online-sin-facturar": {
-   "e15af876184b8e05": "El cruce automático: ARCA compara lo que las plataformas reportan con lo que vos declarás.",
-   "1ca423851cd94bdc": "La Ley 11.683 (Procedimiento Tributario) establece multas que van desde el 50% hasta el 20",
-   "2c8b261d310c27fb": "Si el monto evadido supera los $15.000.000 por período fiscal, entrás en el régimen de la ",
-   "424ee01f9a502a7b": "Si tus ingresos anuales no superan los límites de la categoría más alta del monotributo, e",
-   "ca49d25c786d1373": "Costo real de regularizarte: un monotributista categoría A paga ~$26.600/mes (2026). Eso i",
-   "aff763b8788283a6": "Estar en regla (monotributista categoría B, ventas hasta $6.450.000/año):",
-   "e48db25ac05685cf": "Cuota mensual: ~$30.000/mes",
-   "4ca99d128912c188": "Contador que te liquide: $15.000-30.000/mes",
-   "5a2d8ad660e1a330": "Total anual: ~$540.000 - $720.000",
-   "fb9cb024fa681b37": "Si facturaste $5.000.000 sin declarar, el impuesto omitido puede ser de $1.500.000+",
-   "5385f00f941dc716": "Multa mínima: $750.000. Multa máxima: $3.000.000+"
-  },
-  "redes-sociales-para-arquitectos": {
-   "39865f7df0b0c020": "Contratá un fotógrafo de arquitectura: para obras finalizadas, vale la inversión ($30.000-"
+   "4995912118fa9362": "El cruce automático: ARCA compara lo que las plataformas reportan con lo que vos declarás."
   },
   "redes-sociales-para-gimnasios": {
    "f9a2bb4ec772016b": "Muy bien. Segmentá por radio de 3-5 km de tu ubicación, edad 18-45, intereses en fitness. "
@@ -2011,23 +1926,12 @@
    "3b46c0de51217ef6": "Sí, nuestros precios son iguales para todo el país. Una web profesional arranca desde USD "
   },
   "shopify-vs-tiendanube-argentina": {
-   "aefd062835a9c237": "Tiendanube desde $0 ARS/mes con MercadoPago nativo y facturación ARCA. Shopify desde $32 U",
-   "c080e4b7b99de255": "Precio inicial $0 ARS/mes (plan gratuito) $32 USD/mes (~$38.400 ARS)",
-   "3278cc5ca0b75097": "Plan recomendado PyME $24.900-$49.900 ARS/mes $92 USD/mes (~$110.400 ARS)",
-   "164d58bb1050ee0f": "La diferencia de precio es brutal: con Tiendanube pagás en pesos y arrancás gratis. Con Sh",
    "7c716e0479515eeb": "Vendés al exterior: si exportás productos (artesanías, vinos, indumentaria) y necesitás co",
    "e7f31679cb20869b": "Facturás en USD y cobrás en USD: si tu empresa está radicada afuera o facturás servicios d",
-   "dbe09be21348376c": "Plan Gratis: $0/mes. Limitado a 50 productos, sin dominio propio. Ideal para arrancar y pr",
-   "8cb41ecdfa9dd8ac": "Plan Impulso: $24.900/mes. Productos ilimitados, dominio propio, más integraciones.",
-   "985c53f9cfbef27f": "Plan Escala: $49.900/mes. Todo lo anterior + checkout personalizado, prioridad en soporte.",
-   "a2bda67a2ea4641e": "Basic: $32 USD/mes = ~$38.400 ARS + impuestos tarjeta (~$60.000-$67.000 ARS finales).",
-   "64253447c3344039": "Shopify: $92 USD/mes = ~$110.400 ARS + impuestos (~$175.000-$190.000 ARS finales).",
    "8c980e38ba28afe7": "App de MercadoPago: muchas son pagas, $10-30 USD/mes adicionales.",
    "75b92efa4f275306": "App de facturación ARCA: $10-20 USD/mes adicionales.",
-   "b6799aeda0eb8d7a": "Hacé la cuenta: una PyME en Shopify Basic con apps de MercadoPago y facturación paga fácil",
    "79b6bd78f3028b51": "Sí, pero no es nativo. Necesitás instalar una app de terceros (como Mercado Pago Connect) ",
-   "f47f8fa8b3d138be": "Tiene opciones limitadas. Podés configurar precios en USD y envíos internacionales, pero n",
-   "f831fe0b7271eb80": "Sí. El cobro es en USD a tu tarjeta internacional. En Argentina eso implica el tipo de cam"
+   "f47f8fa8b3d138be": "Tiene opciones limitadas. Podés configurar precios en USD y envíos internacionales, pero n"
   },
   "sistema-a-medida-vs-planilla-excel": {
    "e45e8b1f1ea13b93": "Excel es gratis y familiar, pero se rompe a las 500 filas. Un sistema a medida cuesta $1.5",
@@ -2058,7 +1962,6 @@
   },
   "sistema-de-gestion-para-catering": {
    "9f6febce16bb650f": "SaaS adaptado (gastronómico o de eventos): $20.000 - $60.000 ARS/mes",
-   "1dcc99b14e2b01e3": "SaaS internacional especializado: USD 50 - USD 200/mes (Tripleseat, Caterease)",
    "d9a827b4cc8f21b8": "Sistema a medida básico: $2.500.000 - $6.000.000 ARS (presupuestos, eventos, costos, CRM)",
    "152633f552918e63": "Sistema a medida completo: $6.000.000 - $15.000.000 ARS (logística, personal eventual, inv"
   },
@@ -2157,8 +2060,7 @@
    "11eb33fbcbb76a87": "SaaS básico: $10.000 - $30.000 ARS/mes (turnos, OT, presupuestos, 1-2 usuarios)",
    "1a1ffa47a14134a2": "SaaS profesional: $30.000 - $70.000 ARS/mes (stock, facturación, recordatorios, reportes, ",
    "0cb13c6dec5c09df": "Hardware: $100.000 - $300.000 ARS (computadora/tablet en el taller, impresora de presupues",
-   "e441a185beebe44c": "Sistema a medida: $2.000.000 - $6.000.000 ARS de desarrollo",
-   "56783ef9c033fa27": "El retorno más inmediato viene de los recordatorios de service : si cada recordatorio gene"
+   "e441a185beebe44c": "Sistema a medida: $2.000.000 - $6.000.000 ARS de desarrollo"
   },
   "sistema-de-gestion-para-transporte": {
    "9da926ef215627c1": "SaaS básico: $40.000 - $100.000 ARS/mes (hasta 10 unidades, tracking, mantenimiento básico",
@@ -2238,37 +2140,11 @@
    "ada55c5d9481f7dd": "AgendaPro (USD 15-45/mes): Más completo. Permite gestionar diferentes tipos de servicios, ",
    "21c23e6f54612ba7": "Calendly (USD 10-30/mes): Ideal para la parte de consultas y planificación. El cliente eli"
   },
-  "sistema-de-turnos-para-gimnasios": {
-   "17f9fb6a983902b8": "AgendaPro (USD 15-45/mes): agenda de clases grupales con cupo, grilla horaria visual, rese",
-   "705c4d5034b5b573": "Cloxsy (USD 10-30/mes): más simple. Agenda de clases con cupo, link de reserva compartible",
-   "160c2b50bb3c7469": "Costo estimado: entre $800.000 y $2.000.000 ARS para un sistema básico. Con app nativa y c",
-   "215a2519e11cfc32": "SaaS: entre USD 10 y USD 45/mes. Cal.com tiene plan gratuito. Desarrollo a medida: desde $"
-  },
   "sistema-de-turnos-para-guarderias-caninas": {
    "03673d72109711b4": "PetExec / Gingr (USD 100-200/mes): Plataformas internacionales diseñadas para guarderías c",
    "44ec9e5a346dfc58": "AgendaPro (USD 15-45/mes): No es específico para mascotas, pero podés crear servicios (day",
    "56ee31232ccfa3de": "Costo estimado: entre $1.000.000 y $3.000.000 ARS. Para una guardería chica-mediana, es me",
    "b30df13298791d8c": "Cal.com es gratis. AgendaPro: USD 15-45/mes. Plataformas especializadas (PetExec, Gingr): "
-  },
-  "sistema-de-turnos-para-imprentas": {
-   "c51a15a57e65bd0d": "Calendly (USD 10-20/mes): similar a Cal.com pero con mejor integración de recordatorios y ",
-   "c158d12f15b0e0c0": "AgendaPro (USD 15-45/mes): más robusto, permite gestionar múltiples \"servicios\" (tipos de ",
-   "31d652dec6965d75": "Cal.com / Calendly: gratis - USD 20/mes. Funcional para empezar con turnos básicos.",
-   "7bb65de5f36708c5": "AgendaPro: USD 15-45/mes. Más completo, con recordatorios profesionales.",
-   "d9cbcc6f38f64ab9": "Módulo de turnos a medida (integrado con gestión): $800.000 - $2.000.000 ARS como parte de",
-   "048155a21dc2d9d9": "SaaS: gratis a USD 45/mes. Módulo de turnos a medida integrado con gestión: entre $800.000"
-  },
-  "sistema-de-turnos-para-kinesiologos": {
-   "a3a7271ef78f345f": "AgendaPro (USD 15-45/mes): agenda por profesional, gestión de recursos (camillas/boxes), r",
-   "43c52ff71bb62bcf": "Cloxsy (USD 10-30/mes): simple y funcional. Agenda online, link de reserva, recordatorios.",
-   "649dd2157b626f08": "Costo estimado: entre $800.000 y $2.000.000 ARS. Para un kinesiólogo individual, no tiene ",
-   "07ddc469b9a60a92": "Cal.com es gratis en su plan básico. AgendaPro cuesta entre USD 15 y USD 45/mes. Desarroll"
-  },
-  "sistema-de-turnos-para-nutricionistas": {
-   "2be39cbe1a80d214": "AgendaPro (USD 15-45/mes): agenda, recordatorios por WhatsApp, ficha de paciente donde pod",
-   "aacad4d53178b54b": "Cloxsy (USD 10-30/mes): simple y funcional. Agenda online con link compartible y recordato",
-   "f1393adcbeefb726": "Costo estimado: entre $800.000 y $2.000.000 ARS. Para un nutricionista individual, no tien",
-   "5b3f06ac4e309fc0": "Cal.com es gratis en su plan básico. Cloxsy: USD 10-30/mes. AgendaPro: USD 15-45/mes. Desa"
   },
   "sistema-de-turnos-para-odontologos": {
    "5afbc627baff1c1e": "AgendaPro (USD 15-45/mes): agenda por profesional, por sillón, catálogo de tratamientos co",
@@ -2334,22 +2210,20 @@
   },
   "tienda-online-para-ferreterias": {
    "c019f0e335d045a9": "En 2026, las opciones son: Tiendanube (desde $0/mes, buena para ferreterías chicas), WooCo",
-   "75c267b314506cc2": "Tiendanube ($0-$49.900 ARS/mes): funciona para ferreterías con catálogo acotado (hasta 500",
    "a26dd364d44167b5": "WooCommerce ($500.000-$900.000 ARS desarrollo + $20.000-$35.000 ARS/mes hosting): la mejor",
    "c69c12cc36698902": "Desarrollo custom ($1.200.000-$2.500.000 ARS): para ferreterías industriales o cadenas. In",
    "149dc06a0c300a81": "Importación por CSV/Excel : todas las plataformas permiten importar productos desde un arc",
    "f1e007e913b2554d": "Costos orientativos de envío : paquete hasta 5 kg CABA/GBA: $4.000-$8.000 ARS. Paquete 5-2",
-   "9f0737d5443e852a": "Tip: ofrecé retiro gratis en local como opción destacada y envío gratis para compras arrib",
-   "67ca73f05c5a5e0a": "Precios escalonados por cantidad : \"1 unidad: $500 | 10 unidades: $420 | 100 unidades: $36",
    "58fa0256e5024451": "Portal B2B separado : para clientes mayoristas, lo ideal es un acceso con login donde vean",
-   "fa4e7db632b4ed8d": "Buscador inteligente : necesitás un buscador que entienda sinónimos (\"amoladora\" = \"esmeri",
-   "ed58a3f320e84e4e": "Un buen buscador y navegación pueden duplicar tu tasa de conversión . Es una inversión que",
    "9d4c33a0b99af410": "Con Tiendanube arrancás desde $0/mes para un catálogo chico (hasta 500-1.000 productos). W",
-   "f07196c2389054c8": "Si usás sistema de gestión (Tango, Bejerman, etc.), la integración vía API sincroniza stoc"
+   "3b278365dc265c47": "Tip: ofrecé retiro gratis en local como opción destacada y envío gratis para compras arrib",
+   "508914bc7ffa2d55": "Precios escalonados por cantidad : \"1 unidad: $500 | 10 unidades: $420 | 100 unidades: $36",
+   "743111b5e258716e": "Buscador inteligente : necesitás un buscador que entienda sinónimos (\"amoladora\" = \"esmeri",
+   "26a42c5176d2381d": "Un buen buscador y navegación pueden duplicar tu tasa de conversión . Es una inversión que",
+   "8ada9dbcd56d4f77": "Si usás sistema de gestión (Tango, Bejerman, etc.), la integración vía API sincroniza stoc"
   },
   "tienda-online-para-florerias": {
    "af484efc8ce75622": "En 2026 las opciones son: Tiendanube (desde $0/mes, rápida de armar), WooCommerce (ideal p",
-   "c062cabc96ae12d9": "Tiendanube ($0-$49.900 ARS/mes): la más rápida para salir. Armás tu catálogo con fotos lin",
    "9f07f28822862df5": "WooCommerce ($350.000-$700.000 ARS desarrollo + $15.000-$25.000 ARS/mes hosting): la mejor",
    "2b267dbc33562f70": "Desarrollo custom ($900.000-$1.800.000 ARS): para cadenas de florerías o florerías grandes",
    "2de7eda0fddb3618": "Por precio : rangos claros ($15.000-$25.000, $25.000-$50.000, $50.000+). Muchos clientes t",
@@ -2362,12 +2236,11 @@
    "626223ec7d21e62a": "Números reales: con 20 suscriptores corporativos a $25.000 ARS/semana generás $2.000.000 A",
    "84101fa18f5446a9": "Campañas de tráfico : Google Ads con palabras clave estacionales (\"enviar flores día de la",
    "056cc4884c60de2e": "Con Tiendanube arrancás desde $0/mes (plan gratuito) y en un fin de semana tenés la tienda",
-   "368718283846a8a2": "Las flores se venden por la foto — es el producto más visual que existe. Invertí en una se"
+   "65361ec82bafd2ae": "Las flores se venden por la foto: es el producto más visual que existe. Invertí en una ses"
   },
   "tienda-online-para-vinos-bodegas": {
    "248230ee4aac5bff": "Tienda online para bodegas en Argentina: verificación de edad, wine clubs, envío seguro de",
    "3feb03498bc09ced": "Las opciones en 2026: Tiendanube (desde $0/mes, rápido de armar), WooCommerce (ideal para ",
-   "234a09b0304a7a20": "Tiendanube ($0-$49.900 ARS/mes): la opción más rápida para arrancar. Subís tus vinos con f",
    "0c996a1a79f99d29": "WooCommerce ($400.000-$800.000 ARS desarrollo + $15.000-$30.000 ARS/mes hosting): más pode",
    "bcccc5eaaf0e4d12": "Desarrollo custom ($1.000.000-$2.200.000 ARS): para bodegas grandes que quieren integrar e",
    "b4b4d52f14adb854": "En Tiendanube, el popup de verificación de edad se implementa con código JavaScript en el ",
@@ -2400,29 +2273,17 @@
    "7fb4cb28d3be1d2e": "Sí, es uno de los modelos más exitosos en ecommerce de plantas. Genera ingreso predecible,"
   },
   "tiendanube-vs-pagina-propia": {
-   "e77293bc4d6bae9e": "Tiendanube para arrancar rápido desde $15.000/mes, tienda propia para marca y control tota",
-   "926d7074b8f70ebd": "Tiendanube es la mejor opción para arrancar a vender online en Argentina rápido y con poco",
-   "4d701c38204e12fa": "Esencial: $15.000/mes — hasta 50 productos, dominio propio, checkout básico",
-   "3415846839014fbf": "Impulso: $35.000/mes — productos ilimitados, descuentos por cantidad, más medios de pago",
-   "37d014bc0f28711f": "Escala: $80.000/mes — todo lo anterior + funcionalidades avanzadas, menos comisión por ven",
-   "6eb4e6ce40e51fa8": "A eso sumale la comisión por venta : entre 1% y 2% según el plan (sobre el monto de cada t",
    "142d4676242dab32": "WooCommerce: $500.000-$1.200.000 ARS de desarrollo + $20.000-$50.000/mes de hosting y mant",
    "8c7818fbf82f0e4d": "Desarrollo custom (React/Next.js + API): $1.500.000-$4.000.000 ARS + $80.000-$200.000/mes ",
    "24fde015b4005855": "Para un negocio que factura $5.000.000/mes en Tiendanube con plan Escala, la comisión de p",
    "f9573b0fe1b3da1c": "Costo inicial: Tiendanube $0 (solo plan mensual) vs tienda propia $500.000-$4.000.000",
-   "8c619e62018bbd50": "Costo mensual: Tiendanube $15.000-$80.000 + comisiones vs tienda propia $20.000-$200.000 s",
    "9e77ee3e7c1b2e14": "Facturás más de $3.000.000-$5.000.000/mes y las comisiones te duelen",
-   "ea9ed4e849abf115": "Los planes van de $15.000 a $80.000 ARS/mes, más una comisión por venta del 1-2% sobre cad",
+   "a5ae8d45e1e0782f": "Según la página de planes y precios de Tiendanube (leída el 26/10/2026), los planes pagos ",
    "9b8f6026f06bbc61": "Con WooCommerce: $500.000-$1.200.000 ARS de desarrollo. Desarrollo custom: $1.500.000-$4.0",
    "b85c702461351d2b": "Cuando facturás más de $3-5 millones/mes, necesitás funcionalidades que Tiendanube no sopo"
   },
   "tiendanube-vs-woocommerce-vs-shopify-argentina": {
-   "9a4718de137ae91a": "Costo mensual Gratis (Inicio) a $49.999/mes (Siguiente) $0 (plugin) + hosting $5-30 USD/me",
-   "8e2a09f6b0461587": "El costo real importa: con Tiendanube plan Impulso ($24.999/mes + 1% comisión) vendiendo $",
-   "66b9bc884e4ee9c2": "El costo real de Shopify para un negocio argentino: $39 USD/mes ($48.000 ARS) + apps de fa",
-   "74eb6167b6171a73": "PyME argentina con 50-500 productos: Tiendanube plan Impulso. Tenés todo resuelto por $24.",
-   "9b2b9136296f37b3": "En costo mensual directo sí: hosting bueno sale $5-15 USD/mes vs $24.999/mes de Tiendanube",
-   "fb1ce1b934afdeee": "No. Shopify cobra en dólares y se debita de tu tarjeta con el recargo de dólar tarjeta + i"
+   "be537d4c67960071": "En costo mensual directo sí: hosting bueno sale $5-15 USD/mes vs $79.999/mes de Tiendanube"
   },
   "trello-vs-asana-vs-notion-argentina": {
    "88d832c62a7052e6": "Plan pago desde $5 USD/usuario/mes $10.99 USD/usuario/mes $10 USD/usuario/mes",
@@ -2446,13 +2307,11 @@
   "woocommerce-vs-tiendanube-argentina": {
    "47f9684b5534baad": "Tiendanube desde $0 ARS/mes sin developer. WooCommerce desde $5 USD/mes pero necesitás téc",
    "e4c7c0d485d0ce28": "Precio base $0 ARS/mes (plan gratis) $0 (plugin gratis) + hosting",
-   "bc2716c922babd74": "Costo real mensual $0-$49.900 ARS/mes todo incluido $5-50 USD/mes hosting + plugins + mant",
    "97bfa1921d8efc9e": "Hosting: $5-15 USD/mes (compartido, para empezar) o $30-100 USD/mes (VPS/dedicado, para es",
    "6c1dd43b388ce606": "Tema premium: $60-80 USD (pago único)",
    "8ca526a36e5cb6a9": "Plugins esenciales: $100-500 USD/año (seguridad, SEO, backups, pasarelas de pago)",
    "4a5b62ec78a58006": "Developer para setup: $200.000-$800.000 ARS (pago único)",
    "f2e36e36a19e1820": "Mantenimiento mensual: $50.000-$150.000 ARS/mes (actualizaciones, backups, soporte técnico",
-   "c57832c8a45f6b46": "Cálculo real: un developer freelance que te mantenga WooCommerce cobra entre $50.000 y $15",
    "c20f4fefe9e7c151": "Tu presupuesto mensual para la plataforma es menor a $100.000 ARS",
    "240f7ea9854affff": "El plugin es gratis, pero necesitás hosting ($5-50 USD/mes), tema ($0-80 USD), plugins de ",
    "3ea1b577e30164ef": "Sí, aunque no es automático. Tenés que exportar productos (CSV), recrear el diseño, config",
@@ -2509,6 +2368,39 @@
   "servicios-digitales-belgrano": {
    "4bbb469da8d5df44": "Una web profesional para un estudio arranca desde USD 250-400. Incluye diseño, contenido, ",
    "4fb5906fbcaa9727": "Sí, ofrecemos gestión profesional de redes con contenido de calidad adaptado al público de"
+  },
+  "sistema-de-turnos-para-nutricionistas": {
+   "688611e527fb0a5c": "Costo estimado (estimación de SODI al 27/10/2026, sin fuente pública): entre $800.000 y $2",
+   "e1438a96aac1951b": "Cal.com es gratis en su plan básico. Cloxsy y AgendaPro tienen planes pagos: mirá sus tari"
+  },
+  "automatizar-whatsapp-abogados": {
+   "855291192d53903a": "CRM jurídico + WhatsApp (desde USD 40 por mes, estimación de SODI al 27/10/2026, sin fuent",
+   "d3dd5a17528c637f": "Desarrollo custom (desde USD 300 de setup, estimación de SODI al 27/10/2026, sin fuente pú"
+  },
+  "automatizar-whatsapp-comercio-exterior": {
+   "8db565c93ddec2b3": "Integración con software de comex + API (desde USD 400 de setup, estimación de SODI al 27/",
+   "fda5b3d1c3a070d4": "Desarrollo custom (desde USD 600 de setup, estimación de SODI al 27/10/2026, sin fuente pú"
+  },
+  "sistema-de-turnos-para-imprentas": {
+   "7c869ce5775319ff": "Módulo de turnos a medida (integrado con gestión): $800.000 - $2.000.000 ARS (estimación d",
+   "1f994c37706f14d5": "SaaS: Cal.com tiene plan gratis y Calendly tiene planes pagos por usuario (precios en la s"
+  },
+  "automatizar-whatsapp-imprentas": {
+   "f8c01ae90ade4111": "Desarrollo custom (desde USD 400 de setup, estimación de SODI al 27/10/2026, sin fuente pú"
+  },
+  "marketing-digital-vs-tradicional": {
+   "e14cd55c437ad1b4": "Simulación ilustrativa, con supuestos nuestros y no datos medidos (estimación de SODI al 2",
+   "c129adca12784983": "Es una estimación de SODI al 27/10/2026, sin fuente pública: mínimo $50.000-$100.000 ARS/m",
+   "4cebe00c2d5536f7": "Sí, Meta Ads (Instagram + Facebook) es el canal más accesible para PyMEs argentinas. Con $",
+   "6d8498b1ca409f5e": "Sí, especialmente para servicios profesionales. Google Ads captura gente con intención de "
+  },
+  "sistema-de-turnos-para-gimnasios": {
+   "ff624efb885840ad": "Costo estimado (estimación de SODI al 27/10/2026, sin fuente pública): entre $800.000 y $2",
+   "b193e74ebfb2e8d7": "Cloxsy y Cal.com publican sus planes (Cal.com tiene plan gratuito) y AgendaPro: mirá su ta"
+  },
+  "sistema-de-turnos-para-kinesiologos": {
+   "ed0b4f22dd9acf7c": "Costo estimado (estimación de SODI al 27/10/2026, sin fuente pública): entre $800.000 y $2",
+   "21d24bbe746b7a01": "Cal.com tiene plan gratuito. AgendaPro: mirá su tarifario actualizado. Desarrollo a medida"
   }
  }
 }

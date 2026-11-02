@@ -43,7 +43,14 @@ export function DiagnosticoFlow() {
     setDirection(1);
     setPhase("questions");
     setStepIndex(0);
-  }, []);
+    trackEvent("diagnostic_start", {
+      source_class: attribution?.sourceClass ?? "direct",
+      source: attribution?.source ?? "direct",
+      medium: attribution?.medium ?? "none",
+      campaign: attribution?.campaign,
+      asset: attribution?.asset,
+    });
+  }, [attribution]);
 
   const handleSelect = useCallback(
     (optionId: string) => {

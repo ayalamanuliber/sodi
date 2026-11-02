@@ -24,22 +24,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SODI | Webs, Sistemas y Automatización para Empresas",
+  title: "SODI | Estudio de webs y automatización en Argentina",
   description:
-    "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
+    "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
   metadataBase: new URL("https://sodi.com.ar"),
   openGraph: {
-    title: "SODI | Webs, Sistemas y Automatización para Empresas",
+    title: "SODI | Estudio de webs y automatización en Argentina",
     description:
-      "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
+      "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
     type: "website",
     images: ogImages("/"),
   },
   twitter: {
     card: "summary_large_image",
-    title: "SODI | Webs, Sistemas y Automatización para Empresas",
+    title: "SODI | Estudio de webs y automatización en Argentina",
     description:
-      "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
+      "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
     images: ogImages("/"),
   },
   icons: {
@@ -98,7 +98,7 @@ const siteSchema = {
       "@type": "WebSite",
       "@id": "https://sodi.com.ar/#website",
       url: "https://sodi.com.ar",
-      name: "SODI | Webs, Sistemas y Automatización para Empresas",
+      name: "SODI | Estudio de webs y automatización en Argentina",
       publisher: { "@id": "https://sodi.com.ar/#organization" },
       inLanguage: "es-AR",
     },
@@ -106,9 +106,9 @@ const siteSchema = {
       "@type": "WebPage",
       "@id": "https://sodi.com.ar/#homepage",
       url: "https://sodi.com.ar",
-      name: "SODI | Webs, Sistemas y Automatización para Empresas",
+      name: "SODI | Estudio de webs y automatización en Argentina",
       description:
-        "Implementamos webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden pero necesitan más orden para crecer.",
+        "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
       isPartOf: { "@id": "https://sodi.com.ar/#website" },
       about: { "@id": "https://sodi.com.ar/#organization" },
     },

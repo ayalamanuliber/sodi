@@ -8,19 +8,18 @@ export function Hero() {
       {/* Light beam */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[90%] md:w-[80%] h-[400px] md:h-[500px] bg-[radial-gradient(ellipse_at_top,rgba(0,255,163,0.15)_0%,transparent_60%)] pointer-events-none" />
 
-      {/* Badge */}
-      <div className="hero-in inline-flex items-center gap-2.5 px-3 md:px-4 py-2 rounded-full border border-s-accent/20 bg-s-accent/5 backdrop-blur-md mb-8 md:mb-10 shadow-[0_4px_20px_rgba(0,255,163,0.05)]">
-        <span className="relative flex h-2 w-2 md:h-2.5 md:w-2.5">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-s-accent opacity-75" />
-          <span className="relative inline-flex rounded-full h-2 w-2 md:h-2.5 md:w-2.5 bg-s-accent shadow-[0_0_8px_#00FFA3]" />
-        </span>
-        <span className="text-[10px] md:text-xs font-bold tracking-widest text-s-accent uppercase">
-          Webs, sistemas y automatización
-        </span>
-      </div>
-
       {/* Title */}
       <h1 className="hero-in-text hero-in-delay-1 font-heading text-[2.5rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-[7rem] font-extrabold tracking-tighter max-w-5xl mx-auto md:leading-[1.02] mb-6 md:mb-8 relative z-10">
+        {/* Brand badge lives inside the H1 so the page's main heading names SODI and where it works (disambiguates from the $SODI token). */}
+        <span className="hero-in flex w-fit mx-auto items-center gap-2.5 px-3 md:px-4 py-2 rounded-full border border-s-accent/20 bg-s-accent/5 backdrop-blur-md mb-8 md:mb-10 shadow-[0_4px_20px_rgba(0,255,163,0.05)]">
+          <span className="relative flex h-2 w-2 md:h-2.5 md:w-2.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-s-accent opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 md:h-2.5 md:w-2.5 bg-s-accent shadow-[0_0_8px_#00FFA3]" />
+          </span>
+          <span className="text-[10px] md:text-xs font-bold tracking-widest text-s-accent uppercase">
+            SODI · Estudio digital en Argentina
+          </span>
+        </span>
         <span className="tg-white block pb-1 md:pb-2">Tu negocio digital,</span>
         <span className="tg-accent">resuelto.</span>
       </h1>

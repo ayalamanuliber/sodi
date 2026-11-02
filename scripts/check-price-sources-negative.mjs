@@ -72,9 +72,11 @@ const ownHash = Object.keys(allow.ownPrice[ownSlug])[0];
 const ownPrefix = allow.ownPrice[ownSlug][ownHash].slice(0, 40);
 const ownFile = join(tmp, `${ownSlug}.json`);
 const raw = readFileSync(ownFile, "utf8");
-const m = raw.match(/\$(\d{3})\.000/);
+// el monto se busca desde el bloque propio (un monto de tercero con link antes en la pagina no cuenta)
+const ownAt = Math.max(0, raw.indexOf(ownPrefix.slice(0, 30)));
+const m = raw.slice(ownAt).match(/\$(\d{3})\.000/);
 assert.ok(m, "el articulo de precio propio de prueba debe tener un monto $NNN.000");
-writeFileSync(ownFile, raw.replace(m[0], `$${Number(m[1]) + 7}.000`));
+writeFileSync(ownFile, raw.slice(0, ownAt) + raw.slice(ownAt).replace(m[0], `$${Number(m[1]) + 7}.000`));
 r = run(tmp);
 assert.equal(r.status, 1, `precio propio editado debe fallar (${ownPrefix})`);
 restore(`${ownSlug}.json`);

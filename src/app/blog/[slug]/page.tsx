@@ -44,6 +44,10 @@ function cleanVisibleHtml(html: string) {
   return rewritePrunedLinks(html).replaceAll("—", "-").replaceAll("–", "-");
 }
 
+function plainFaqText(text: string) {
+  return text.replace(/<[^>]+>/g, "").replaceAll("—", "-").replaceAll("–", "-");
+}
+
 function headingId(heading: string, index: number) {
   const normalized = heading
     .normalize("NFD")
@@ -209,7 +213,7 @@ export default async function BlogArticlePage({ params }: Props) {
               {article.content.faqs.map((faq) => (
                 <details key={faq.question}>
                   <summary>{faq.question.replaceAll("—", "-").replaceAll("–", "-")}</summary>
-                  <p>{faq.answer.replaceAll("—", "-").replaceAll("–", "-")}</p>
+                  <p>{plainFaqText(faq.answer)}</p>
                 </details>
               ))}
             </section>

@@ -7,12 +7,16 @@
   "siloLabel": "Precios y Costos",
   "tags": ["pagina web", "precios web argentina", "desarrollo web", "diseño web"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-02",
   "readingTime": "8 min lectura",
   "relatedSlugs": ["cuanto-cuesta-pagina-web-para-inmobiliarias", "agencia-web-vs-freelancer", "como-elegir-agencia-web-argentina", "que-es-una-landing-page"],
   "content": {
     "intro": "<p>Una <strong>página web en Argentina</strong> cuesta distinto según qué necesitás y quién la hace. Como referencia pública, FINMI publica una web institucional de 4 a 8 páginas entre $150.000 y $600.000 de pago único (<a href=\"https://finmi.com.ar/blog/cuanto-cuesta-agencia-marketing-digital-argentina\" rel=\"nofollow noopener\" target=\"_blank\">FINMI, 02/06/2026</a>, consultora que vende el servicio). Una landing page simple es más barata, y un sitio con sistema de conversión real (formularios inteligentes, automatización, métricas) es más caro porque lleva desarrollo y estrategia. No encontramos fuentes públicas con precios verificables para esos otros niveles, así que no los publicamos en cifras: pedí presupuestos detallados.</p><p>El problema es que la mayoría de las PyMEs paga sin saber qué está comprando. Un diseño lindo no es lo mismo que un sitio que genera consultas. En esta guía te desglosamos los precios reales del mercado argentino para que sepas exactamente qué esperar en cada rango de inversión.</p>",
     "sections": [
+      {
+        "heading": "Cuánto cuesta una página web en Argentina: la respuesta corta",
+        "body": "<p>Una web institucional de 4 a 8 páginas cuesta entre $150.000 y $600.000 de pago único, según el tarifario de una agencia argentina que vende el servicio (<a href=\"https://finmi.com.ar/blog/cuanto-cuesta-agencia-marketing-digital-argentina\" rel=\"nofollow noopener\" target=\"_blank\">FINMI, tarifario de agosto 2026, leído el 02/11/2026</a>). Es una sola fuente, no un promedio. Para una landing simple o un sitio con conversión no hay precios públicos verificables: pedí presupuesto desglosado.</p>"
+      },
       {
         "heading": "Cuánto cobra un freelancer vs una agencia por una página web",
         "body": "<p>Un <strong>freelancer</strong> en Argentina cobra, por una web completa, menos que una agencia. Un diseñador junior puede hacer una landing en WordPress, mientras que un desarrollador senior con experiencia en UX cobra más por un sitio institucional.</p><p>Una <strong>agencia web</strong> es la opción más cara de las tres. La diferencia no es solo el precio: una agencia te da un equipo (diseñador, desarrollador, copywriter, project manager), garantía de entrega y soporte post-lanzamiento. Un freelancer te da flexibilidad y precio, pero si desaparece, te quedás sin soporte.</p><p>La opción intermedia que mejor funciona para PyMEs es un <strong>estudio digital chico</strong> (2-5 personas) que cobra entre $400.000 y $900.000. Tenés atención personalizada, equipo real y precio razonable. Es el rango donde operamos en <a href=\"/blog/como-elegir-agencia-web-argentina\">SODI</a> porque creemos que es donde la relación calidad-precio tiene más sentido.</p><p>Si tu presupuesto es muy ajustado, considerá un builder como Wix o Tiendanube. Tiendanube estima, para un sitio hecho por cuenta propia en Argentina, entre $281.000 y $1.150.000 por año entre dominio, hosting, SSL y plantilla (<a href=\"https://www.tiendanube.com/blog/cuanto-cuesta-crear-una-pagina-web\" rel=\"nofollow noopener\" target=\"_blank\">Tiendanube, actualizado 21/10/2026</a>, plataforma que vende el servicio). No tiene sentido pagar un profesional para un sitio que podés armar vos en un fin de semana.</p>"
@@ -58,6 +62,10 @@
       {
         "question": "¿Conviene hacer la web yo mismo con Wix o contratar?",
         "answer": "Si tu presupuesto es muy ajustado y tu web es solo presencia (info + contacto), Wix o Tiendanube funcionan bien. Si necesitás que la web genere consultas y clientes, contratá un profesional. Un sitio DIY que no convierte te cuesta más a largo plazo en oportunidades perdidas."
+      },
+      {
+        "question": "¿Cuánto cuesta hacer una página web con un constructor como Tiendanube?",
+        "answer": "Para una tienda online, Tiendanube tiene un plan Inicial gratis y el plan Esencial a $27.999 por mes con pago mensual (<a href=\"https://www.tiendanube.com/planes-y-precios\" rel=\"nofollow noopener\" target=\"_blank\">Tiendanube, planes y precios, 02/11/2026</a>). Es la cuota de la plataforma: el dominio, la plantilla y tu tiempo van aparte, y para un sitio con sistema de conversión no alcanza."
       }
     ],
     "ctaText": "¿Querés saber cuánto debería costar tu web? Hacé el diagnóstico gratuito de SODI y te decimos exactamente qué necesitás y cuánto sale."

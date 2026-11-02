@@ -23,7 +23,7 @@
     "automatizar-whatsapp-ecommerce"
   ],
   "content": {
-    "intro": "<p>Si usás WhatsApp personal para atender tu negocio, estás usando la herramienta equivocada. WhatsApp Business es la versión profesional de WhatsApp, diseñada específicamente para empresas: tiene catálogo de productos, respuestas rápidas, etiquetas para organizar chats y estadísticas. Y es gratis.</p><p>En esta guía te explicamos qué es WhatsApp Business, en qué se diferencia del WhatsApp normal, cómo aprovechar cada función, y cuándo conviene dar el salto a la API de WhatsApp Business para automatización real.</p>",
+    "intro": "<p>Si usás WhatsApp personal para atender tu negocio, estás usando la herramienta equivocada. WhatsApp Business es la versión profesional de WhatsApp, diseñada específicamente para empresas: tiene catálogo de productos, respuestas rápidas, etiquetas para organizar chats y estadísticas. Y es gratis.</p><p>En esta guía te explicamos qué es WhatsApp Business, en qué se diferencia del WhatsApp normal, cómo aprovechar cada función, y cuándo conviene dar el salto a la API de WhatsApp Business para automatización real.</p><p>Si ya usás la app y querés automatizar respuestas, mirá <a href=\"/blog/que-es-un-bot-de-whatsapp\">qué es un bot de WhatsApp</a> y <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">cuánto cuesta un bot de WhatsApp para empresas</a>.</p>",
     "sections": [
       {
         "heading": "¿Qué es WhatsApp Business?",

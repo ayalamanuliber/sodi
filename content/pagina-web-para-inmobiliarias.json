@@ -30,7 +30,7 @@
     "contentSha256": "69577325b84b6d4a7f517d33a311661f2f0bb96241cbdf03f9a6c600d49651ef"
   },
   "content": {
-    "intro": "<p>Una web inmobiliaria no es una plantilla con fotos de edificios. Tiene que mantener propiedades actuales, ayudar a comparar y conservar contexto cuando alguien consulta.</p><p>El trabajo central es conectar <strong>inventario, ficha, contacto y seguimiento</strong> sin perder qué inmueble y qué búsqueda originaron la conversación.</p>",
+    "intro": "<p>Una web inmobiliaria no es una plantilla con fotos de edificios. Tiene que mantener propiedades actuales, ayudar a comparar y conservar contexto cuando alguien consulta.</p><p>El trabajo central es conectar <strong>inventario, ficha, contacto y seguimiento</strong> sin perder qué inmueble y qué búsqueda originaron la conversación.</p><p>Esta nota explica cómo se arma una <strong>página web para inmobiliarias</strong> desde la arquitectura. Para el costo mirá <a href=\"/blog/cuanto-cuesta-pagina-web-para-inmobiliarias\">cuánto cuesta una página web para inmobiliarias</a>, y para el trabajo interno detrás del sitio, <a href=\"/blog/sistema-de-gestion-para-inmobiliarias\">sistema de gestión para inmobiliarias</a>.</p>",
     "sections": [
       {
         "heading": "La arquitectura mínima",

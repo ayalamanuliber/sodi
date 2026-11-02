@@ -11,7 +11,7 @@
   "readingTime": "7 min lectura",
   "relatedSlugs": ["pagina-web-para-contadores", "que-es-un-crm-y-para-que-sirve", "cuanto-cuesta-crm-para-pymes"],
   "content": {
-    "intro": "<p>Un estudio contable en Argentina maneja decenas — a veces cientos — de clientes, cada uno con sus vencimientos impositivos, sus documentos, sus consultas y su nivel de complejidad. <strong>Cuando todo eso se gestiona con Excel, carpetas de Google Drive y mensajes de WhatsApp, el caos es inevitable.</strong> Se pasan vencimientos, se pierden documentos, y el contador termina trabajando de bombero en vez de asesor.</p><p>Un <strong>sistema de gestión para estudios contables</strong> centraliza la información de cada cliente, automatiza alertas de vencimiento, organiza la documentación y te da visibilidad sobre la rentabilidad de tu estudio.</p>",
+    "intro": "<p>Un estudio contable en Argentina maneja decenas, a veces cientos, de clientes, cada uno con sus vencimientos impositivos, sus documentos, sus consultas y su nivel de complejidad. <strong>Cuando todo eso se gestiona con Excel, carpetas de Google Drive y mensajes de WhatsApp, el caos es inevitable.</strong> Se pasan vencimientos, se pierden documentos, y el contador termina trabajando de bombero en vez de asesor.</p><p>Un <strong>sistema de gestión para estudios contables</strong> centraliza la información de cada cliente, automatiza alertas de vencimiento, organiza la documentación y te da visibilidad sobre la rentabilidad de tu estudio.</p>",
     "sections": [
       {
         "heading": "Los problemas crónicos de un estudio contable sin sistema",
@@ -27,7 +27,7 @@
       },
       {
         "heading": "Costos en 2026",
-        "body": "<p>Los rangos de inversión para estudios contables:</p><ul><li><strong>SaaS básico:</strong> $10.000 - $30.000 ARS/mes (hasta 50 clientes, calendario fiscal, tareas)</li><li><strong>SaaS profesional:</strong> $30.000 - $80.000 ARS/mes (clientes ilimitados, portal del cliente, integración AFIP, reportes)</li><li><strong>Sistema a medida:</strong> $2.000.000 - $7.000.000 ARS de desarrollo</li></ul><p>El retorno se mide en <strong>multas evitadas</strong> (una sola multa por vencimiento pasado puede costar más que el sistema anual), <strong>mejor cobranza de honorarios</strong>, y <strong>capacidad de atender más clientes</strong> sin sumar personal. Revisá también <a href=\"/blog/cuanto-cuesta-crm-para-pymes\">cuánto cuesta un CRM para PyMEs</a>.</p>"
+        "body": "<p>Los rangos en pesos son una estimación de SODI al 27/10/2026, sin fuente pública: orientativos de nuestra experiencia, no precios de lista de un proveedor, así que pedí al menos dos cotizaciones antes de decidir. Los rangos para estudios contables son:</p><ul><li><strong>SaaS básico:</strong> $10.000 - $30.000 ARS/mes (hasta 50 clientes, calendario fiscal, tareas)</li><li><strong>SaaS profesional:</strong> $30.000 - $80.000 ARS/mes (clientes ilimitados, portal del cliente, integración AFIP, reportes)</li><li><strong>Sistema a medida:</strong> $2.000.000 - $7.000.000 ARS de desarrollo</li></ul><p>El retorno se mide en <strong>multas evitadas</strong> (una sola multa por vencimiento pasado puede costar más que el sistema anual), <strong>mejor cobranza de honorarios</strong>, y <strong>capacidad de atender más clientes</strong> sin sumar personal. Revisá también <a href=\"/blog/cuanto-cuesta-crm-para-pymes\">cuánto cuesta un CRM para PyMEs</a>.</p>"
       },
       {
         "heading": "Implementación en un estudio contable",
