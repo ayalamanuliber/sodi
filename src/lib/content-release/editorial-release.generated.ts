@@ -5,8 +5,8 @@ export const EDITORIAL_RELEASE = {
   "channel": "production_release",
   "authority": "owner_authorized",
   "generatedAt": "2026-08-31",
-  "expectedRouteCount": 21,
-  "routeSetSha256": "92b432ce59e6710725ec98631bf9a00abd045713f454723fa6e099e63be0884b",
+  "expectedRouteCount": 23,
+  "routeSetSha256": "9c80068c384c20a8258ad62e2384883823b2e22ec786427cac0b3c239f030731",
   "routes": [
     {
       "packetId": "sodi-content-sodi-010-v1",
@@ -476,6 +476,54 @@ export const EDITORIAL_RELEASE = {
         "/blog/cuanto-cuesta-facturacion-electronica-argentina"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=vencimientos-arca-noviembre-diciembre-2026&ruta=guias",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-radar3-20261024-01-v1",
+      "route": "/blog/cuanto-cuesta-shopify-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-shopify-argentina.json",
+      "sourceFileSha256": "4800c5eaff2a984abe1b7466c49f606af6b9448355e96d6dd8a540d16fc2a09e",
+      "contentSha256": "4f76a30e561f1d48d59f2a32f4a78b996a416359a07054c7e969dc18a8304476",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-shopify-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-tienda-online-argentina",
+        "/blog/shopify-vs-tiendanube-argentina",
+        "/blog/shopify-vs-woocommerce-argentina",
+        "/blog/tiendanube-vs-woocommerce-vs-shopify-argentina",
+        "/blog/como-reducir-comisiones-mercadopago"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-shopify-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-radar3-20261024-02-v1",
+      "route": "/blog/cuanto-cuesta-empretienda-argentina",
+      "kind": "blog",
+      "sourcePath": "content/cuanto-cuesta-empretienda-argentina.json",
+      "sourceFileSha256": "f6d3c3e724caaa1808ffc1cd180948eedc0969d7e9e53fc17c59ac7a40b41ce3",
+      "contentSha256": "9647c32d18bc1688307b73dd754282f1a4cbc39431cc2c6ad0297168f9c22988",
+      "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-empretienda-argentina",
+      "internalLinks": [
+        "/blog/cuanto-cuesta-tienda-online-argentina",
+        "/blog/tiendanube-vs-empretienda-argentina",
+        "/blog/como-reducir-comisiones-mercadopago",
+        "/blog/mercadopago-vs-mobbex-ecommerce",
+        "/blog/shopify-vs-tiendanube-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-empretienda-argentina&ruta=precios",
       "release": {
         "index": true,
         "follow": true,

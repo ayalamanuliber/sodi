@@ -73,5 +73,14 @@
       }
     ],
     "ctaText": "¿No sabés si te conviene Empretienda, Tiendanube o una tienda a medida? Hacé el diagnóstico gratuito de SODI y te orientamos según tu volumen de ventas y tu forma de cobrar."
+  },
+  "editorialReview": {
+    "packetId": "sodi-radar3-20261024-02-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner authorization TG5027 (03/11/2026), precios leidos 24/10/2026",
+    "verifiedAt": "2026-11-03",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "9647c32d18bc1688307b73dd754282f1a4cbc39431cc2c6ad0297168f9c22988"
   }
 }

@@ -69,5 +69,14 @@
       }
     ],
     "ctaText": "¿No sabés si te conviene Shopify, Tiendanube u otra plataforma? Hacé el diagnóstico gratuito de SODI y te orientamos según dónde vendés, en qué moneda y cómo cobrás."
+  },
+  "editorialReview": {
+    "packetId": "sodi-radar3-20261024-01-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; release by owner authorization TG5027 (03/11/2026), precios leidos 24/10/2026",
+    "verifiedAt": "2026-11-03",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "4f76a30e561f1d48d59f2a32f4a78b996a416359a07054c7e969dc18a8304476"
   }
 }

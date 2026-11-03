@@ -57,6 +57,9 @@ export function Nav() {
             <Link href="/blog" className="text-sm font-medium text-s-sub hover:text-white transition-colors">
               Blog
             </Link>
+            <Link href="/herramientas/calculadora-comisiones-cobro" className="text-sm font-medium text-s-sub hover:text-white transition-colors">
+              Calculadora
+            </Link>
           </div>
 
           <div className="hidden md:block">
@@ -103,6 +106,9 @@ export function Nav() {
         ))}
         <Link href="/blog" onClick={() => setMobileOpen(false)} className="text-3xl font-heading font-bold text-white hover:text-s-accent transition-colors">
           Blog
+        </Link>
+        <Link href="/herramientas/calculadora-comisiones-cobro" onClick={() => setMobileOpen(false)} className="text-3xl font-heading font-bold text-white hover:text-s-accent transition-colors">
+          Calculadora
         </Link>
         <Link
           href="/diagnostico"
