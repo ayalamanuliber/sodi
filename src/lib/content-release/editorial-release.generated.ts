@@ -513,7 +513,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-empretienda-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-empretienda-argentina.json",
-      "sourceFileSha256": "f6d3c3e724caaa1808ffc1cd180948eedc0969d7e9e53fc17c59ac7a40b41ce3",
+      "sourceFileSha256": "71f7bf5a83e47ffd558edb053cf053dde81fe5b2556f408397cd35a6dbd5cc06",
       "contentSha256": "9647c32d18bc1688307b73dd754282f1a4cbc39431cc2c6ad0297168f9c22988",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-empretienda-argentina",
       "internalLinks": [

@@ -12,7 +12,7 @@
     "software custom"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-03",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "software-a-medida-vs-estandar",
@@ -22,7 +22,7 @@
     "cuanto-cuesta-contratar-programador-freelance-argentina"
   ],
   "content": {
-    "intro": "<p>El <strong>software a medida en Argentina</strong> se cobra por hora o por proyecto, y la tarifa depende del nivel del desarrollador: una guía de un programador freelance (abril de 2026) pone desde US$ 15 la hora para un junior hasta más de US$ 80 para un senior (<a href=\"https://cristiantait.com/blog/programador-web-freelance-argentina-2026\" rel=\"nofollow noopener\" target=\"_blank\">Cristian Tait, 28/04/2026</a>). Un proyecto simple (app interna, panel de administración) cuesta menos que uno de complejidad media, y un sistema complejo cuesta varias veces más; no encontramos una fuente pública con montos en pesos por tipo de proyecto, así que te pedimos presupuesto por escrito con alcance cerrado. Es una inversión seria que solo tiene sentido si ninguna solución estándar resuelve tu problema.</p><p>Argentina tiene una de las mejores relaciones calidad-precio en desarrollo de software de Latinoamérica. Los desarrolladores argentinos suelen cobrar bastante menos que los estadounidenses con calidad comparable. Acá te explicamos cuánto sale realmente un proyecto según su complejidad y cuándo conviene construir vs comprar.</p>",
+    "intro": "<p><strong>Respuesta corta (2026):</strong> según <a href=\"https://developargentina.com/blog/cuanto-cuesta-hacer-app-argentina-2026\" rel=\"nofollow noopener\" target=\"_blank\">Develop Argentina, 28/03/2026</a>, una app simple (5 a 10 pantallas, sin backend complejo) cuesta entre USD 3.000 y USD 8.000 y tarda de 4 a 8 semanas; una de complejidad media (usuarios, base de datos, pagos, panel de administración), entre USD 10.000 y USD 30.000 y de 2 a 4 meses; una compleja, entre USD 30.000 y USD 80.000. Son estimaciones de una software factory, no presupuestos cerrados: confirmá el alcance por escrito.</p><p>El <strong>software a medida en Argentina</strong> se cobra por hora o por proyecto, y la tarifa depende del nivel del desarrollador: una guía de un programador freelance (abril de 2026) pone desde US$ 15 la hora para un junior hasta más de US$ 80 para un senior (<a href=\"https://cristiantait.com/blog/programador-web-freelance-argentina-2026\" rel=\"nofollow noopener\" target=\"_blank\">Cristian Tait, 28/04/2026</a>). Un proyecto simple (app interna, panel de administración) cuesta menos que uno de complejidad media, y un sistema complejo cuesta varias veces más; no encontramos una fuente pública con montos en pesos por tipo de proyecto, así que te pedimos presupuesto por escrito con alcance cerrado. Es una inversión seria que solo tiene sentido si ninguna solución estándar resuelve tu problema.</p><p>Argentina tiene una de las mejores relaciones calidad-precio en desarrollo de software de Latinoamérica. Los desarrolladores argentinos suelen cobrar bastante menos que los estadounidenses con calidad comparable. Acá te explicamos cuánto sale realmente un proyecto según su complejidad y cuándo conviene construir vs comprar.</p>",
     "sections": [
       {
         "heading": "Cuánto cobra un programador en Argentina por hora en 2026",

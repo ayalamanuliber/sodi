@@ -1,6 +1,6 @@
 {
   "slug": "que-es-desarrollo-web-a-medida",
-  "title": "Qué es desarrollo web a medida y cuándo vale la pena",
+  "title": "Qué es desarrollo web a medida y cuándo vale la pena (2026)",
   "metaTitle": "Qué es desarrollo web a medida | Guía PyMEs 2026",
   "metaDescription": "Desarrollo web a medida es crear un sitio o sistema diseñado específicamente para tu empresa. Te explicamos cuándo conviene y cuándo no vs plantillas.",
   "silo": "conceptos",
@@ -12,7 +12,7 @@
     "tecnología"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-03",
   "readingTime": "6 min lectura",
   "relatedSlugs": [
     "wordpress-vs-desarrollo-a-medida",
@@ -20,7 +20,7 @@
     "cuanto-cuesta-pagina-web-argentina"
   ],
   "content": {
-    "intro": "<p><strong>Desarrollo web a medida</strong> significa crear un sitio web, una aplicación o un sistema diseñado específicamente para tu empresa, desde cero. No usás una plantilla genérica ni un constructor como Wix o WordPress: un equipo de desarrolladores programa exactamente lo que tu negocio necesita, con las funcionalidades, el diseño y las integraciones que vos definís.</p><p>Es como la diferencia entre comprar un traje en un shopping y mandarte a hacer uno a medida. El del shopping cumple, pero el a medida te queda perfecto. La pregunta no es cuál es mejor sino <strong>cuándo vale la pena la inversión</strong> — y para muchas PyMEs, la respuesta es \"todavía no\".</p><p>El <strong>desarrollo de aplicaciones web a medida</strong> sigue la misma lógica: se programa a partir de los procesos de tu negocio y no de una plantilla. Para decidir entre esa opción y una herramienta existente, mirá <a href=\"/blog/wordpress-vs-desarrollo-a-medida\">WordPress vs desarrollo a medida</a>.</p>",
+    "intro": "<p><strong>Cuánto cuesta en 2026:</strong> según <a href=\"https://developargentina.com/blog/cuanto-cuesta-hacer-app-argentina-2026\" rel=\"nofollow noopener\" target=\"_blank\">Develop Argentina, 28/03/2026</a>, un proyecto simple (5 a 10 pantallas) ronda USD 3.000 a USD 8.000 y uno de complejidad media (con usuarios, base de datos y pagos), USD 10.000 a USD 30.000. El detalle por nivel está en <a href=\"/blog/cuanto-cuesta-software-a-medida-argentina\">cuánto cuesta el software a medida en Argentina</a>.</p><p><strong>Desarrollo web a medida</strong> significa crear un sitio web, una aplicación o un sistema diseñado específicamente para tu empresa, desde cero. No usás una plantilla genérica ni un constructor como Wix o WordPress: un equipo de desarrolladores programa exactamente lo que tu negocio necesita, con las funcionalidades, el diseño y las integraciones que vos definís.</p><p>Es como la diferencia entre comprar un traje en un shopping y mandarte a hacer uno a medida. El del shopping cumple, pero el a medida te queda perfecto. La pregunta no es cuál es mejor sino <strong>cuándo vale la pena la inversión</strong> — y para muchas PyMEs, la respuesta es \"todavía no\".</p><p>El <strong>desarrollo de aplicaciones web a medida</strong> sigue la misma lógica: se programa a partir de los procesos de tu negocio y no de una plantilla. Para decidir entre esa opción y una herramienta existente, mirá <a href=\"/blog/wordpress-vs-desarrollo-a-medida\">WordPress vs desarrollo a medida</a>.</p>",
     "sections": [
       {
         "heading": "Qué incluye un proyecto de desarrollo web a medida",
