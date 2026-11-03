@@ -386,7 +386,6 @@
    "47e60e2df88712fa": "Depende de tu tiempo y habilidades. La Fase 1 la podés hacer solo con guías online. Para F"
   },
   "como-elegir-pasarela-de-pago-argentina": {
-   "825627c130dffaad": "Incluí el costo en el precio : si tu producto vale $10.000 al contado, publicalo a $10.800",
    "f5d3d505e4c3a4d7": "Cuotas solo en productos de ticket alto : no necesitás ofrecer 12 cuotas sin interés en un"
   },
   "como-escalar-operacion-sin-contratar": {
@@ -466,11 +465,6 @@
    "ed12b074da1d8b34": "Iluminación pareja: un aro de luz ($15.000 ARS) + fondo blanco ($3.000-$8.000) transforma ",
    "7c4f4e307059f7e3": "Si tenés más de 50 productos, considerá contratar un fotógrafo de producto. Costo: $3.000-",
    "b7125d62eb16ee3e": "+ Costo de empaque: caja, relleno, cinta. $500-$1.500 por pedido.",
-   "b2e604e47a35eac8": "Comisión MP (6,29% + IVA): -$1.903",
-   "c0bec469169e36ed": "Envío (absorbs parcial): -$2.000",
-   "e4c82cd09ff2ec93": "Empaque: -$800",
-   "7d0175362ca179b4": "Margen neto: $6.547 (26%)",
-   "68bfc3b55d99ac7e": "Si creías que tu margen era 60% ($15.000) y en realidad es 26% ($6.547), necesitás saberlo",
    "181f6f81d0963e73": "Términos y condiciones: política de devoluciones, cambios, garantía, privacidad de datos. ",
    "2c690e986aab992a": "No dejes lo legal para \"cuando crezca\". Las multas de Defensa del Consumidor arrancan en $",
    "e9a8d1c7584e317e": "Un celular con buena cámara + aro de luz + fondo blanco da resultados más que aceptables p"
@@ -1480,8 +1474,7 @@
    "188ef50589611102": "Presupuesto: sistema de gestión básico ($100K-$300K ARS/mes según cantidad de socios). Sis",
    "5157e266716dbb47": "Nivel mínimo ($200K-$400K ARS inversión inicial):",
    "6ac748438816e2f9": "Nivel recomendado ($500K-$1M ARS inversión inicial + $200K-$400K/mes):",
-   "51d81167187ab0a6": "Nivel premium ($1M+ ARS inversión inicial + $500K+/mes):",
-   "0a6d76caf38a7f6a": "La opción más simple (link de Mercado Pago o botón de pago en la web) tiene costo cero de "
+   "51d81167187ab0a6": "Nivel premium ($1M+ ARS inversión inicial + $500K+/mes):"
   },
   "presencia-digital-ideal-comercio-exterior": {
    "2c83a8f804d10d75": "Una web bilingüe (español/inglés) con catálogo de productos, fichas técnicas, formulario d"
@@ -2278,7 +2271,6 @@
    "24fde015b4005855": "Para un negocio que factura $5.000.000/mes en Tiendanube con plan Escala, la comisión de p",
    "f9573b0fe1b3da1c": "Costo inicial: Tiendanube $0 (solo plan mensual) vs tienda propia $500.000-$4.000.000",
    "9e77ee3e7c1b2e14": "Facturás más de $3.000.000-$5.000.000/mes y las comisiones te duelen",
-   "a5ae8d45e1e0782f": "Según la página de planes y precios de Tiendanube (leída el 26/10/2026), los planes pagos ",
    "9b8f6026f06bbc61": "Con WooCommerce: $500.000-$1.200.000 ARS de desarrollo. Desarrollo custom: $1.500.000-$4.0",
    "b85c702461351d2b": "Cuando facturás más de $3-5 millones/mes, necesitás funcionalidades que Tiendanube no sopo"
   },

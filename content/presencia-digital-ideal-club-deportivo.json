@@ -37,7 +37,7 @@
     "faqs": [
       {
         "question": "¿Cuánto cuesta digitalizar el cobro de cuotas de un club?",
-        "answer": "La opción más simple (link de Mercado Pago o botón de pago en la web) tiene costo cero de setup, solo pagás la comisión de Mercado Pago, que cambia según el medio de pago y el plazo de acreditación (confirmala en Costos, dentro de tu cuenta). Un sistema integrado con portal de socios, débito automático y gestión de morosidad cuesta entre $100K-$300K ARS/mes según cantidad de socios. La inversión se recupera rápido con la reducción de morosidad y la liberación de horas de tesorería."
+        "answer": "La opción más simple (link de Mercado Pago o botón de pago en la web) tiene costo cero de setup, solo pagás la comisión de Mercado Pago, que cambia según el medio de pago y el plazo de acreditación (confirmala en Costos, dentro de tu cuenta). Un sistema integrado con portal de socios, débito automático y gestión de morosidad tiene un costo mensual que depende de la cantidad de socios. La inversión se recupera rápido con la reducción de morosidad y la liberación de horas de tesorería."
       },
       {
         "question": "¿Necesitamos una app propia para el club?",
