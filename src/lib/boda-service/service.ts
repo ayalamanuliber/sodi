@@ -365,7 +365,15 @@ export async function mutate(eventId: string, input: unknown, token: string | un
         const previous = e.snapshots.find(s => s.id === body.snapshotId);
         if (!previous)
             v.fail('Revisión no encontrada.');
-        Object.assign(e, unpack(e, previous.state));
+        // Rollback restores the couple's draft work only. What guests and the public
+        // already see (published version, RSVP open/closed) and the activation
+        // milestones stay as they are now; the snapshot's values are discarded.
+        const { published, rsvpClosed, activation } = e;
+        Object.assign(e, unpack(e, { ...previous.state, published: null }));
+        e.published = published;
+        e.rsvpClosed = rsvpClosed;
+        if (activation)
+            e.activation = activation;
         e.review = 'needs_review';
         e.invitations = {};
         e.groups.forEach(g => g.invitationVersion++);
