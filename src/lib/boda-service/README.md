@@ -66,7 +66,7 @@ Toda mutación PATCH envía `revision` actual y `action`; los campos adicionales
 | `review` | `ready:boolean`; no permite ready con personas que necesitan lugar sin mesa |
 | `publish` | Ninguno; exige foto propia, fecha válida, celebración con lugar/hora; ceremonia con ambos o ninguno |
 | `unpublish` | Ninguno |
-| `rollback` | `snapshotId`; devuelve el estado previo guardado en esa revisión, revoca tokens de invitación, reabre revisión |
+| `rollback` | `snapshotId`; restaura el borrador, fotos, invitados y mesas guardados en esa revisión, revoca tokens de invitación, reabre revisión; conserva la versión publicada, el cierre de confirmaciones (`rsvpClosed`) y la activación actuales |
 | `ledger_add` | Sólo operador. `kind:'payment_verified',amount,currency:'ARS'|'USD',reference`; o `kind:'time',minutes,reference` |
 | `sessions_revoke` | Ninguno; revoca sesiones de esta pareja |
 | `password_reset` | Sólo operador; `password`; revoca también la clave de recuperación anterior |
