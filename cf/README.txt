@@ -26,11 +26,11 @@ The private-transfer HTTP entry is temporary and must not be a normal deployment
 Production free-worker.ts exposes no transfer HTTP route. Keep migration tokens removed.
 8MiB per JSON object; chunks and metadata are transaction-scoped; CAS delete is atomic.
 
-MIGRATION TRANSITION (consult HANDOFF for current status)
-Old paid Worker temporarily forwards to the Free Worker while NIC delegation propagates.
-transition-worker.ts authenticates the bridge header and preserves canonical host + original IP.
-cutover-bridge.ts rejects preview hostnames. Remove the old ingress after new zone is active.
-Final entry free-worker.ts disables workers.dev and has no bridge handling.
+MIGRATION CLOSED (2026-11-10)
+NIC delegates to mack.ns.cloudflare.com and serena.ns.cloudflare.com; new zone is active.
+The old account has no SODI domains/routes or workers.dev ingress. Bridge secrets were removed.
+Final entry free-worker.ts is deployed; workers.dev is disabled. Vercel production is paused.
+Temporary transfer/bridge source is archived privately outside the repository.
 MercadoPago token was absent in the OLD Worker. No live payment has been verified.
 
 HISTORICAL NOTES BELOW: NOT CURRENT DEPLOY OR ROLLBACK INSTRUCTIONS
