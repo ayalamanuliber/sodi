@@ -1,3 +1,40 @@
+CURRENT PRODUCTION: CLOUDFLARE FREE (2026-11-10)
+Account: AI Vortex · Free / 835bcafab8d90df2d0fb6c9b8fa095e3.
+Worker: sodi. Public domain: https://sodi.com.ar.
+Default wrangler.jsonc uses the same Free configuration as wrangler.free.jsonc.
+Storage: private SQLite Durable Object SodiRuntime, singleton sodi-runtime-v1.
+Never rename the class, binding or singleton without a verified data migration.
+No R2, Blob or paid bindings. Free quota exhaustion causes failed requests;
+there is no automatic paid upgrade. HTML routes also depend on the runtime.
+This protects this deployment, not other services in the old Paid account.
+
+BUILD / RELEASE
+  NEXT_PUBLIC_SITE_URL=https://sodi.com.ar SODI_RELEASE_TARGET=production npm run cf:build
+  npm run test:durable-storage
+  npm run cf:deploy
+The deploy command pins the Free account and its dedicated Wrangler login.
+Do NOT use wrangler-vortex: that helper targets the OLD PAID account.
+No secrets go in .dev.vars for production. Never copy synthetic test credentials.
+Canonical source must be current and checked before release; inspect the live flow after it.
+
+DATA / RECOVERY
+Original private 32-object backup: ~/.local/state/sodi-r2-20261110/blob-final.
+SHA256 readback verified the imported dataset. New writes now live ONLY in the DO.
+Never rollback to Blob or an old account snapshot: it loses subsequent writes.
+Roll back application versions in the NEW account while preserving the same DO.
+The private-transfer HTTP entry is temporary and must not be a normal deployment.
+Production free-worker.ts exposes no transfer HTTP route. Keep migration tokens removed.
+8MiB per JSON object; chunks and metadata are transaction-scoped; CAS delete is atomic.
+
+MIGRATION TRANSITION (consult HANDOFF for current status)
+Old paid Worker temporarily forwards to the Free Worker while NIC delegation propagates.
+transition-worker.ts authenticates the bridge header and preserves canonical host + original IP.
+cutover-bridge.ts rejects preview hostnames. Remove the old ingress after new zone is active.
+Final entry free-worker.ts disables workers.dev and has no bridge handling.
+MercadoPago token was absent in the OLD Worker. No live payment has been verified.
+
+HISTORICAL NOTES BELOW: NOT CURRENT DEPLOY OR ROLLBACK INSTRUCTIONS
+==============================================================
 SODI on Cloudflare Workers (prep only; Vercel still serves sodi.com.ar)
 Branch cf/workers-migration, worktree ~/projects/sodi/releases/cf-workers-20261008, based on origin/main 07285de (= production deploy).
 Worker `sodi` on Manuel's personal account (302f6e0f..., manuel@aivortex.io). Preview URL: https://sodi.cf-workers-20261008.workers.dev (noindex).

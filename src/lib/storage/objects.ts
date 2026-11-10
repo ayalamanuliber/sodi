@@ -15,6 +15,7 @@ type R2Like = {
   head(key: string): Promise<null | { etag: string }>;
   put(key: string, value: string, options?: Record<string, unknown>): Promise<null | { etag: string }>;
   delete(key: string): Promise<void>;
+  deleteIfMatch?(key: string, etag: string): Promise<boolean>;
   list(options?: { prefix?: string; cursor?: string; limit?: number }): Promise<{ objects: { key: string }[]; truncated: boolean; cursor?: string }>;
 };
 
@@ -118,6 +119,10 @@ export async function listPaths(prefix: string): Promise<string[]> {
 export async function deleteObject(path: string, etag: string): Promise<void> {
   const bucket = r2();
   if (bucket) {
+    if (bucket.deleteIfMatch) {
+      if (!(await bucket.deleteIfMatch(path, etag))) throw new StoragePreconditionFailedError('ETag mismatch');
+      return;
+    }
     // R2 bindings have no conditional delete: check then delete (small race window, event deletion is an admin-only, rare action).
     const head = await bucket.head(path);
     if (!head || head.etag !== etag) throw new StoragePreconditionFailedError('ETag mismatch');

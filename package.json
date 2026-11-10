@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run test:og-cards && next build",
+    "build": "npm run test:og-cards && next build --webpack",
     "build:editorial-release": "node scripts/build-sodi-editorial-release.mjs && npm run test:og-cards && next build",
     "start": "next start",
     "cf:build": "opennextjs-cloudflare build && git checkout next-env.d.ts && opennextjs-cloudflare populateCache local",
@@ -18,7 +18,9 @@
     "test:boda-launch": "node --no-warnings --experimental-strip-types scripts/check-boda-launch.mjs",
     "test:boda-build": "node --no-warnings --experimental-strip-types scripts/check-boda-build.mjs",
     "test:boda-seating": "node --no-warnings --experimental-strip-types scripts/check-boda-seating-suggestions.mjs",
-    "test:boda-referral": "node --no-warnings --experimental-strip-types scripts/check-boda-referral-loop.mjs"
+    "test:boda-referral": "node --no-warnings --experimental-strip-types scripts/check-boda-referral-loop.mjs",
+    "cf:deploy": "node scripts/deploy-free.mjs",
+    "test:durable-storage": "node scripts/check-durable-storage.mjs"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.9",

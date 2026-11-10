@@ -1,0 +1,12 @@
+import {readFile} from 'node:fs/promises';
+import {spawnSync} from 'node:child_process';
+import {homedir} from 'node:os';
+if(process.argv.slice(2).some(x=>x!=='--dry-run'))throw Error('Only --dry-run is supported; target overrides are not allowed');
+const account='835bcafab8d90df2d0fb6c9b8fa095e3';
+const config=JSON.parse(await readFile('wrangler.jsonc','utf8'));
+if(config.account_id!==account||config.main!=='cf/free-worker.ts'||config.name!=='sodi'||config.r2_buckets?.length||config.workers_dev!==false)throw Error('Production must use the reviewed Free-only config');
+if(process.env.CLOUDFLARE_ACCOUNT_ID && process.env.CLOUDFLARE_ACCOUNT_ID!==account)throw Error('Conflicting account selection; refusing deployment');
+const env={...process.env,CLOUDFLARE_ACCOUNT_ID:account,XDG_CONFIG_HOME:homedir()+'/.config/wrangler-aivortex-free'};
+delete env.CLOUDFLARE_API_TOKEN;delete env.CLOUDFLARE_API_KEY;delete env.CLOUDFLARE_EMAIL;
+const r=spawnSync('./node_modules/.bin/wrangler',['deploy','-c','wrangler.jsonc',...process.argv.slice(2)],{env,stdio:'inherit'});
+process.exit(r.status??1);
