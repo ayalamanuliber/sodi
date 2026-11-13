@@ -65,6 +65,15 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        // Apex is the canonical host (layout.tsx metadataBase, sitemap.ts, robots.ts, per-page canonicals).
+        // wrangler.jsonc serves www.sodi.com.ar as a second custom domain on the same worker, so without
+        // this rule www answers 200 and Google canonicalizes it instead of the apex.
+        source: "/:path*",
+        has: [{ type: "host", value: "www.sodi.com.ar" }],
+        destination: "https://sodi.com.ar/:path*",
+        permanent: true,
+      },
+      {
         source: "/directorio-comercial-argentino",
         destination: "/directorio",
         permanent: true,

@@ -1,7 +1,7 @@
 {
   "slug": "sistema-de-gestion-para-farmacias",
   "title": "Sistema de Gestión para Farmacias en Argentina",
-  "metaTitle": "Sistema de Gestión para Farmacias Argentina 2026",
+  "metaTitle": "Sistema de Gestión para Farmacias Argentina 2027",
   "metaDescription": "Gestioná stock, obras sociales, facturación ARCA y vencimientos de tu farmacia con un sistema integral. Comparamos opciones SaaS y a medida.",
   "silo": "sistema-por-rubro",
   "siloLabel": "Sistemas por Rubro",
@@ -26,7 +26,7 @@
         "body": "<p>El rubro farmacéutico tiene sistemas muy especializados:</p><p><strong>Farmacloud:</strong> SaaS argentino diseñado para farmacias. Stock con vencimientos, validación de obras sociales, facturación ARCA, pedidos a droguerías. Es la opción más completa para farmacias independientes. Precio mensual accesible.</p><p><strong>Nubis Farma:</strong> Otra opción argentina con foco en la gestión comercial. Buen manejo de precios, descuentos y promociones. Integración con las principales droguerías.</p><p><strong>Sistemas legacy (Megalink, Novafarma):</strong> Sistemas instalados que muchas farmacias ya usan hace años. Funcionan, pero son cerrados, dependen de un técnico para actualizaciones y no tienen acceso remoto.</p><p><strong>Sistema a medida:</strong> Muy raro en farmacias porque los requisitos regulatorios (ANMAT, obras sociales, ARCA) son complejos y los SaaS especializados ya los resuelven. Solo tiene sentido para cadenas grandes con procesos únicos. Más sobre esta decisión en <a href=\"/blog/software-a-medida-vs-estandar\">SaaS vs desarrollo a medida</a>.</p>"
       },
       {
-        "heading": "Costos de un sistema para farmacias en 2026",
+        "heading": "Costos de un sistema para farmacias en 2027",
         "body": "<p>Los costos dependen del proveedor y del tamaño de la farmacia. Estas son las categorías típicas:</p><ul><li><strong>SaaS para farmacia individual:</strong> plan mensual según el tamaño. Incluye stock, POS, obras sociales, facturación ARCA.</li><li><strong>SaaS para cadena (2-5 sucursales):</strong> plan mensual superior, según sucursales. Gestión multi-sucursal, stock centralizado, reportes consolidados.</li><li><strong>Hardware POS:</strong> a presupuesto según el equipamiento. Lector de código de barras, impresora de tickets, cajón de dinero.</li><li><strong>Migración desde sistema legacy:</strong> pago único a presupuesto. Incluye carga de catálogo, stock inicial y capacitación.</li></ul><p>El retorno es inmediato: una farmacia que controla vencimientos deja de perder plata todos los meses en productos vencidos. Con un buen control de stock, el sistema suele pagarse solo en poco tiempo.</p>"
       },
       {

@@ -27,7 +27,7 @@
       },
       {
         "heading": "Reservas automatizadas: cómo funciona",
-        "body": "<p>Las reservas por WhatsApp son el segundo flujo más valioso. Así debería funcionar:</p><ul><li><strong>Cliente escribe \"quiero reservar\"</strong> → bot pregunta fecha, horario, cantidad de personas</li><li><strong>Bot verifica disponibilidad</strong> (conectado a tu sistema o planilla de reservas)</li><li><strong>Confirma con datos:</strong> \"Listo, tu reserva para 4 personas el viernes 18 a las 21 hs está confirmada. Te esperamos en [dirección].\"</li><li><strong>Recordatorio automático:</strong> mensaje el mismo día a las 16 hs: \"Te recordamos tu reserva de esta noche a las 21 hs.\"</li></ul><p>Las <strong>no-shows</strong> (reservas que no se presentan) son un problema serio para restaurantes. Con recordatorios automáticos, se reducen entre un 30% y un 50%. Cada mesa vacía en una noche de viernes es plata que perdés.</p><p>Si combinás esto con una <a href=\"/blog/pagina-web-para-restaurantes\">web con sistema de reservas</a>, tenés dos canales cubiertos sin esfuerzo manual.</p>"
+        "body": "<p>Las reservas por WhatsApp son el segundo flujo más valioso. Así debería funcionar:</p><ul><li><strong>Cliente escribe \"quiero reservar\"</strong> → bot pregunta fecha, horario, cantidad de personas</li><li><strong>Bot verifica disponibilidad</strong> (conectado a tu sistema o planilla de reservas)</li><li><strong>Confirma con datos:</strong> \"Listo, tu reserva para 4 personas el viernes 18 a las 21 hs está confirmada. Te esperamos en [dirección].\"</li><li><strong>Recordatorio automático:</strong> mensaje el mismo día a las 16 hs: \"Te recordamos tu reserva de esta noche a las 21 hs.\"</li></ul><p>Las <strong>no-shows</strong> (reservas que no se presentan) son un problema serio para restaurantes. Con recordatorios automáticos, suelen bajar. Cada mesa vacía en una noche de viernes es plata que perdés.</p><p>Si combinás esto con una <a href=\"/blog/pagina-web-para-restaurantes\">web con sistema de reservas</a>, tenés dos canales cubiertos sin esfuerzo manual.</p>"
       },
       {
         "heading": "Errores que arruinan tu WhatsApp gastronómico",
@@ -37,7 +37,7 @@
     "faqs": [
       {
         "question": "¿Cuánto me ahorro en comisiones al recibir pedidos por WhatsApp?",
-        "answer": "Las apps de delivery cobran entre 25% y 35% por pedido. Si tu ticket promedio es de $8.000 y hacés 10 pedidos diarios por app, pagás entre $20.000 y $28.000 por día en comisiones. Migrar esos pedidos a WhatsApp directo te ahorra entre $600.000 y $840.000 al mes."
+        "answer": "Las apps de delivery cobran una comisión por cada pedido, y sale directo de tu margen. Cada pedido que migrás a WhatsApp directo deja de pagar esa comisión. El ahorro mensual depende de tu ticket promedio, de cuántos pedidos pasen a directo y de la comisión que te cobre cada app: multiplicá esos tres datos con tus números."
       },
       {
         "question": "¿El bot puede tomar pedidos complejos con personalizaciones?",

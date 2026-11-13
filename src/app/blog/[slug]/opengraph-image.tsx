@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { getArticle } from "@/lib/blog-data";
-import { silos } from "@/lib/blog-types";
+import { siloLabel, silos } from "@/lib/blog-types";
 
 export const runtime = "nodejs";
 export const alt = "Guía de SODI para tomar una decisión digital";
@@ -16,7 +16,7 @@ export default async function OpenGraphImage({
   const article = getArticle(slug);
   const silo = silos[slug] ?? (article ? silos[article.silo] : undefined);
   const title = article?.title ?? silo?.label ?? "Guías SODI";
-  const context = article ? silo?.label : "Decisiones digitales para empresas";
+  const context = article ? siloLabel(article.silo) : "Decisiones digitales para empresas";
 
   return new ImageResponse(
     <div

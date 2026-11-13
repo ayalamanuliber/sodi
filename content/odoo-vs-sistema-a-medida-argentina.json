@@ -56,7 +56,7 @@
       },
       {
         "question": "¿Un sistema a medida es mejor que Odoo?",
-        "answer": "No necesariamente. Un sistema a medida hace exactamente lo que vos necesitás, pero cuesta 3-10x más, tarda más en implementarse y dependés 100% del proveedor que lo hizo. Odoo cubre el 80% de las necesidades de una PyME y tiene comunidad global de soporte."
+        "answer": "No necesariamente. Un sistema a medida hace exactamente lo que vos necesitás, pero cuesta bastante más, tarda más en implementarse y dependés 100% del proveedor que lo hizo. Odoo cubre buena parte de las necesidades de una PyME y tiene comunidad global de soporte."
       },
       {
         "question": "¿Puedo migrar de Odoo a un sistema a medida después?",

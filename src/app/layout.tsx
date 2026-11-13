@@ -24,12 +24,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SODI | Estudio de webs y automatización en Argentina",
+  title: "SODI | Webs y automatización para empresas que ya venden",
   description:
     "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
   metadataBase: new URL("https://sodi.com.ar"),
   openGraph: {
-    title: "SODI | Estudio de webs y automatización en Argentina",
+    title: "SODI | Webs y automatización para empresas que ya venden",
     description:
       "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SODI | Estudio de webs y automatización en Argentina",
+    title: "SODI | Webs y automatización para empresas que ya venden",
     description:
       "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
     images: ogImages("/"),
@@ -70,7 +70,12 @@ const siteSchema = {
       "@id": "https://sodi.com.ar/#organization",
       name: "SODI",
       url: "https://sodi.com.ar",
-      logo: "https://sodi.com.ar/icon-512.png",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://sodi.com.ar/icon-512.png",
+        width: 512,
+        height: 512,
+      },
       description:
         "Implementamos webs, automatizaciones, bots de WhatsApp, redes sociales y sistemas internos para empresas argentinas.",
       areaServed: {
@@ -81,6 +86,7 @@ const siteSchema = {
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+54-11-3869-6958",
+        email: "hola@sodi.com.ar",
         contactType: "sales",
         availableLanguage: "Spanish",
       },
@@ -98,7 +104,8 @@ const siteSchema = {
       "@type": "WebSite",
       "@id": "https://sodi.com.ar/#website",
       url: "https://sodi.com.ar",
-      name: "SODI | Estudio de webs y automatización en Argentina",
+      name: "SODI",
+      alternateName: "SODI | Estudio de webs y automatización en Argentina",
       publisher: { "@id": "https://sodi.com.ar/#organization" },
       inLanguage: "es-AR",
     },

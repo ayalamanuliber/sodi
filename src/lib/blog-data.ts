@@ -62,10 +62,18 @@ export function getRelatedArticles(article: ArticleMeta): ArticleMeta[] {
     if (found) related.push(found);
   }
 
-  // Then: same silo articles (up to 4 total)
+  // Then: same silo articles (up to 4 total), least-linked first so articles with
+  // no inbound links from other articles receive one before the popular ones.
   if (related.length < 4) {
     const sameSilo = all.filter(
       (a) => a.silo === article.silo && a.slug !== article.slug && !related.find((r) => r.slug === a.slug)
+    );
+    const inbound = new Map<string, number>();
+    for (const a of all) {
+      for (const slug of a.relatedSlugs || []) inbound.set(slug, (inbound.get(slug) ?? 0) + 1);
+    }
+    sameSilo.sort(
+      (x, y) => (inbound.get(x.slug) ?? 0) - (inbound.get(y.slug) ?? 0) || x.slug.localeCompare(y.slug),
     );
     for (const a of sameSilo) {
       if (related.length >= 4) break;

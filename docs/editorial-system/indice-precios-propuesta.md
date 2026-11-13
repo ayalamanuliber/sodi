@@ -30,7 +30,7 @@ Tabla completa (valor, fuente, URL, fecha de la fuente, fecha de lectura) en `co
 
 ## Frecuencia y fecha visible
 - Fecha visible: `dateModified` del artículo + columna "Leído por SODI" en cada fila + intro con "primera edición 22/10/2026".
-- Frecuencia: mensual (aprovechar el disparo del IPC INDEC, fecha de publicación sin fuente leída: [?]) y fuera de calendario si un proveedor cambia su lista. Cada edición: releer todas las URLs, actualizar fila y fecha, subir dateModified solo si algo cambió.
+- Frecuencia: mensual (aprovechar el disparo del IPC INDEC, INDEC difunde el IPC a las 16:00 ART; octubre 2026: 12/11/2026, primaria leída el {{FECHA_LECTURA}}) y fuera de calendario si un proveedor cambia su lista. Cada edición: releer todas las URLs, actualizar fila y fecha, subir dateModified solo si algo cambió.
 - Un lag de más de 45 días en una fila = quitar la fila, no dejarla vieja.
 
 ## Riesgos de exactitud

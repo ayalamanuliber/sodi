@@ -22,7 +22,7 @@
     "cuanto-cuesta-contratar-programador-freelance-argentina"
   ],
   "content": {
-    "intro": "<p><strong>Respuesta corta:</strong> este índice junta, en una sola tabla, precios de servicios digitales que se publican en Argentina, cada uno con quién lo publica, el enlace a la fuente y la fecha en que SODI lo leyó. No es una lista de precios de SODI ni un promedio de mercado: es lo que dice cada fuente, tal cual, en su moneda original.</p>\n<p>Primera edición: 22 de octubre de 2026. Si una fuente cambia el precio, la fila se actualiza y cambia la fecha. Cada rubro tiene su guía completa con el método y las advertencias.</p>",
+    "intro": "<p><strong>Respuesta corta:</strong> este índice junta, en una sola tabla, precios de servicios digitales que se publican en Argentina, cada uno con quién lo publica, el enlace a la fuente y la fecha en que SODI lo leyó. No es una lista de precios de SODI ni un promedio de mercado: es lo que dice cada fuente, tal cual, en su moneda original.</p>\n<p>Primera edición: 22 de octubre de 2026. Contexto en pesos: según el <a href=\"{{FUENTE_URL}}\" rel=\"nofollow noopener\" target=\"_blank\">INDEC</a>, el IPC de octubre de 2026 fue {{MENSUAL}}% mensual y {{ACUMULADO}}% acumulado en el año (leído el {{FECHA_LECTURA}}). El índice no ajusta ningún valor por inflación. Si una fuente cambia el precio, la fila se actualiza y cambia la fecha. Cada rubro tiene su guía completa con el método y las advertencias.</p>",
     "sections": [
       {
         "heading": "Google Workspace",

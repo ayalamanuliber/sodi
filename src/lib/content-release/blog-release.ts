@@ -20,7 +20,7 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: lote 5 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 2053 -> 1885), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 23/10/2026: lote 6 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 1885 -> 1706 con 8 bloques de precio propio de SODI aparte), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 23/10/2026: calculadora de comisiones de cobro (sodi-4e6e): enlace a /herramientas/calculadora-comisiones-cobro desde las 3 notas de pagos, tasas del Plan Essential de Mobbex publicadas en mobbex.com/planes (leidas 23/10), seccion "¿Mobbex es seguro?" con el registro PSP del BCRA. Lagos, correccion 22/10 (TG3533): el re-pin no depende de Manuel.
-  approvedCatalogContentSha256: "245b8fec5c1cc683bcd869340a81691e6e1f09b4475e13daa0b3df1bcda0eada",
+  approvedCatalogContentSha256: "a6a938f4bb615f4a2754fba3dc56bc3b9d704c1a6010ed2ba73bb6ad9d4d97e4",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
@@ -50,6 +50,13 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
   approvedContentSha256?: string;
 }>> = {
   ...PRUNED_RELEASES,
+  "cuanto-cobra-mercado-pago-point": {
+    status: "approved",
+    reason: "Pagina nueva de precios (radar SODI 4, 24/10/2026): comision de Point por provincia, medio de pago y plazo leida en la ayuda oficial de Mercado Pago el 24/10/2026; autocompletado 'point mercado pago comisiones'.",
+    packetId: "sodi-radar4-20261025-01-v1",
+    reviewGate: "Revalidar la tabla en la ayuda de Mercado Pago antes de subir dateModified.",
+    baselineMember: false,
+  },
   "costo-total-erp-pyme-argentina": {
     status: "approved",
     reason: "Artículo nuevo compilado desde el corpus 2026-08-27; requiere revisión local y autorización.",
