@@ -321,7 +321,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-google-workspace-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-google-workspace-argentina.json",
-      "sourceFileSha256": "8be4752be8d72633ee519a001cb26f113924cd136315047b594370c019d1dd6e",
+      "sourceFileSha256": "ac880fe2efafd594b78caa0f4e2beeebc1880393bf6485902c70efda98ad1aaa",
       "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-google-workspace-argentina",
       "internalLinks": [
@@ -345,7 +345,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-mantenimiento-wordpress-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-mantenimiento-wordpress-argentina.json",
-      "sourceFileSha256": "c6812deaf86e95161012d8a59ec9b7bda3cbe4aaf096bcad41dc05ba7bb0f9ff",
+      "sourceFileSha256": "fa9dbbeb0df4d12d860162cb4ca16f85bcc3c1bf45c6c0a3f32ebabeace34f15",
       "contentSha256": "bb3f01429c934066fac4f84cfe8e0d2f61ceda1ec056c02d7aea934df707678c",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-mantenimiento-wordpress-argentina",
       "internalLinks": [
@@ -393,7 +393,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/black-friday-argentina-2026-ecommerce-pyme",
       "kind": "blog",
       "sourcePath": "content/black-friday-argentina-2026-ecommerce-pyme.json",
-      "sourceFileSha256": "c1a297d82b5369da5818045d18893fa6b9348c1945e055e0e7feef3c5c8e443f",
+      "sourceFileSha256": "a4bd4bfbd8955ebf5a98d7ddd977763e65567fdcdd9209e9124d64bba47830d6",
       "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3",
       "canonical": "https://sodi.com.ar/blog/black-friday-argentina-2026-ecommerce-pyme",
       "internalLinks": [
@@ -465,7 +465,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
-      "sourceFileSha256": "9387ff513f4610cfe0109bb45673e1b666aaacbfbeb48c3b915dfdef35feb513",
+      "sourceFileSha256": "18783e1971e08bd42bc8db9b76f90652d89c2141990149594929bb6acc848fbc",
       "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
       "internalLinks": [

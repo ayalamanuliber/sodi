@@ -2,7 +2,7 @@
   "slug": "vencimientos-arca-noviembre-diciembre-2026",
   "title": "Vencimientos ARCA noviembre y diciembre 2026: calendario para pymes y monotributistas",
   "metaTitle": "Vencimientos ARCA noviembre y diciembre 2026: monotributo, IVA, F.931",
-  "metaDescription": "Vencimientos ARCA noviembre 2026 por terminación de CUIT: IVA 18 al 25/11, F.931 11 al 13/11, autónomos 5 al 12/11, monotributo 20/11. Leído 02/11/2026.",
+  "metaDescription": "Vencimientos ARCA noviembre 2026 por CUIT: IVA 18 al 25/11, F.931 (SUSS, cargas sociales) de noviembre en diciembre, monotributo 20/11. Leído 13/11/2026.",
   "silo": "guias",
   "siloLabel": "Guías Prácticas",
   "tags": [
@@ -13,7 +13,7 @@
     "pymes"
   ],
   "datePublished": "2026-10-22",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-13",
   "readingTime": "6 min lectura",
   "relatedSlugs": [
     "aguinaldo-2026-pymes-como-calcular-cuando-pagar",
@@ -30,16 +30,16 @@
         "body": "<p>Casi todos los vencimientos dependen del último dígito de tu CUIT. Fijate en el número que va después del guion final: si tu CUIT termina en 7, usá la fila “7, 8 y 9” o “6 y 7”, según la tabla. Una fecha marcada “todas” vale para cualquier terminación.</p>"
       },
       {
-        "heading": "Monotributo: cuota mensual",
-        "body": "<p>Ingreso del impuesto y, de corresponder, de las cotizaciones personales fijas de la obligación mensual (personas físicas y sucesiones indivisas).</p><div class=\"table-wrap\"><table><thead><tr><th>Obligación</th><th>Vencimiento</th><th>Terminación de CUIT</th></tr></thead><tbody><tr><td>Cuota mensual de noviembre/2026 (impuesto integrado y cotizaciones fijas, si corresponden)</td><td>20/11/2026</td><td>todas</td></tr><tr><td>Cuota mensual de diciembre/2026</td><td>21/12/2026</td><td>todas</td></tr></tbody></table></div><p>El 20/12/2026 cae domingo, y la agenda de ARCA fija la cuota de diciembre el lunes 21. En las agendas de noviembre y diciembre que leímos no figura la recategorización semestral: no la asumas en estos meses sin revisar la agenda y tu categoría. Para saber si tu actividad puede vender online siendo monotributista, mirá <a href=\"/blog/monotributista-puede-vender-online-argentina\">esta nota</a>.</p>"
+        "heading": "Monotributo: cuota de noviembre 2026 y recategorización",
+        "body": "<p>Ingreso del impuesto y, de corresponder, de las cotizaciones personales fijas de la obligación mensual (personas físicas y sucesiones indivisas).</p><div class=\"table-wrap\"><table><thead><tr><th>Obligación</th><th>Vencimiento</th><th>Terminación de CUIT</th></tr></thead><tbody><tr><td>Cuota mensual de noviembre/2026 (impuesto integrado y cotizaciones fijas, si corresponden)</td><td>20/11/2026</td><td>todas</td></tr><tr><td>Cuota mensual de diciembre/2026</td><td>21/12/2026</td><td>todas</td></tr></tbody></table></div><p>El 20/12/2026 cae domingo, y la agenda de ARCA fija la cuota de diciembre el lunes 21. La recategorización no vence en noviembre ni en diciembre: ARCA la hace dos veces por año, en febrero y en agosto, evaluando los últimos 12 meses de actividad, y el trámite puede hacerse hasta el día 5 de febrero o de agosto, según corresponda (<a href=\"https://www.arca.gob.ar/monotributo/ayuda/recategorizacion.asp\" rel=\"nofollow noopener\">ARCA, recategorización</a>, leída el 12/11/2026). Los valores de la escala vigente rigen desde el 1/08/2026 (<a href=\"https://www.arca.gob.ar/monotributo/categorias.asp\" rel=\"nofollow noopener\">ARCA, categorías</a>). Para saber si tu actividad puede vender online siendo monotributista, mirá <a href=\"/blog/monotributista-puede-vender-online-argentina\">esta nota</a>.</p>"
       },
       {
-        "heading": "IVA para responsables inscriptos",
+        "heading": "Vencimiento del IVA de noviembre 2026 por terminación de CUIT",
         "body": "<p>Presentación de la declaración jurada (F. 2051, Portal IVA) e ingreso del saldo resultante.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>IVA octubre/2026 (DDJJ e ingreso)</th><th>IVA noviembre/2026 (DDJJ e ingreso)</th></tr></thead><tbody><tr><td>0 y 1</td><td>18/11/2026</td><td>18/12/2026</td></tr><tr><td>2 y 3</td><td>19/11/2026</td><td>21/12/2026</td></tr><tr><td>4 y 5</td><td>20/11/2026</td><td>22/12/2026</td></tr><tr><td>6 y 7</td><td>24/11/2026</td><td>23/12/2026</td></tr><tr><td>8 y 9</td><td>25/11/2026</td><td>24/12/2026</td></tr></tbody></table></div>"
       },
       {
         "heading": "Empleadores: cargas sociales (F. 931)",
-        "body": "<p>Presentación e ingreso de aportes y contribuciones de la Seguridad Social y obras sociales, por período devengado.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Período octubre/2026</th><th>Período noviembre/2026</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>11/11/2026</td><td>09/12/2026</td></tr><tr><td>4, 5 y 6</td><td>12/11/2026</td><td>10/12/2026</td></tr><tr><td>7, 8 y 9</td><td>13/11/2026</td><td>11/12/2026</td></tr></tbody></table></div>"
+        "body": "<p>El F.931, SUSS o cargas sociales es la declaración y el pago de aportes y contribuciones de la Seguridad Social y obras sociales, por período devengado.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Período octubre/2026</th><th>Período noviembre/2026</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>11/11/2026</td><td>09/12/2026</td></tr><tr><td>4, 5 y 6</td><td>12/11/2026</td><td>10/12/2026</td></tr><tr><td>7, 8 y 9</td><td>13/11/2026</td><td>11/12/2026</td></tr></tbody></table></div>"
       },
       {
         "heading": "Trabajadores autónomos",
@@ -59,7 +59,7 @@
       },
       {
         "heading": "Fuentes y fecha de lectura",
-        "body": "<p>Leídas el 22/10/2026 y releídas el 24/10/2026 y el 02/11/2026:</p><ul><li><a href=\"https://seti.afip.gob.ar/av/seleccionVencimientos.do\" rel=\"nofollow noopener\">ARCA, Agenda de vencimientos (sintética)</a>, consulta por rango 01/11/2026-30/11/2026 y 01/12/2026-31/12/2026. Releída el 24/10/2026: las fechas de esta página coinciden con la agenda. La pantalla de resultados muestra la hora de cada consulta, no la fecha de la última modificación de un vencimiento; por eso no publicamos esa hora como dato. El archivo vencimientos.xml del portal arca.gob.ar, en cambio, a esa fecha solo traía algunos meses (abril, septiembre y octubre de 2026) y no lo usamos. Releído el 02/11/2026 (publicación de ARCA modificada el 30/10/2026), ya trae noviembre y no diciembre; sus fechas de IVA, F.931, autónomos y monotributo de noviembre coinciden con las de esta página. Las de diciembre y las de sociedades de esta página siguen siendo las de la agenda de ARCA leída el 22 y 24/10/2026.</li><li><a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">ARCA, portal de vencimientos</a>: entrada a la agenda y a las formas de pago.</li></ul><p><strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse y cada contribuyente tiene obligaciones propias: consultá con tu contador antes de presentar o pagar.</p>"
+        "body": "<p>Leídas el 22/10/2026 y releídas el 24/10/2026 y el 02/11/2026:</p><ul><li><a href=\"https://seti.afip.gob.ar/av/seleccionVencimientos.do\" rel=\"nofollow noopener\">ARCA, Agenda de vencimientos (sintética)</a>, consulta por rango 01/11/2026-30/11/2026 y 01/12/2026-31/12/2026. Releída el 24/10/2026: las fechas de esta página coinciden con la agenda. La pantalla de resultados muestra la hora de cada consulta, no la fecha de la última modificación de un vencimiento; por eso no publicamos esa hora como dato. El archivo vencimientos.xml del portal arca.gob.ar, en cambio, a esa fecha solo traía algunos meses (abril, septiembre y octubre de 2026) y no lo usamos. Releído el 02/11/2026 (publicación de ARCA modificada el 30/10/2026), ya trae noviembre y no diciembre; sus fechas de IVA, F.931, autónomos y monotributo de noviembre coinciden con las de esta página. Las de diciembre y las de sociedades de esta página siguen siendo las de la agenda de ARCA leída el 22 y 24/10/2026.</li><li><a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">ARCA, portal de vencimientos</a>: entrada a la agenda y a las formas de pago.</li><li>Releídas el 12/11/2026: la <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientos.do\" rel=\"nofollow noopener\">agenda de ARCA</a> (consulta 01/11/2026-31/12/2026, IVA y monotributo, todas las terminaciones) y el <a href=\"https://www.arca.gob.ar/vencimientos/xml/vencimientos.xml\" rel=\"nofollow noopener\">archivo de vencimientos</a> (noviembre). Las fechas de IVA de octubre y noviembre y las de la cuota de monotributo de noviembre y diciembre de esta página coinciden con las dos.</li></ul><p><strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse y cada contribuyente tiene obligaciones propias: consultá con tu contador antes de presentar o pagar.</p>"
       }
     ],
     "faqs": [
