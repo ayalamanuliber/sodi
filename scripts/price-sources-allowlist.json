@@ -544,24 +544,6 @@
    "b655d86a8e3cffcb": "Emitir desde ARCA (ex AFIP) no tiene costo para monotributistas, según la guía oficial de ",
    "ee77c1e96ea1026e": "Depende de a quién se la pagues. ARCA no cobra por emitir (para monotributistas, la guía o"
   },
-  "cuanto-cuesta-mantenimiento-pagina-web": {
-   "ca69968d61ee152e": "Mantenimiento web en Argentina: básico $25.000-$50.000 ARS/mes, profesional $80.000-$150.0",
-   "8db0bb3baf75c4b8": "Mantener una página web en Argentina cuesta entre $25.000 y $150.000 ARS por mes dependien",
-   "1d2a6f97ae92638e": "Hosting compartido: $5.000-$15.000 ARS/mes. Proveedores locales como Donweb o Banahosting.",
-   "ca023b346bd83a31": "Hosting premium/VPS: $15.000-$40.000 ARS/mes. SiteGround, Cloudways o un VPS de DigitalOce",
-   "d5bd6d0e8100f343": "El dominio .com.ar es gratuito a través de NIC Argentina (renovación cada 1 año). Un .com ",
-   "0926f53c1c9df5ce": "El certificado SSL básico es gratuito con Let's Encrypt (la mayoría de los hostings lo inc",
-   "9cf6cc6af69301c4": "Plan básico ($25.000-$50.000 ARS/mes): actualizaciones de WordPress, plugins y temas una v",
-   "e267f3fdd171321e": "Plan profesional ($80.000-$150.000 ARS/mes): todo lo anterior más: actualizaciones semanal",
-   "3eabd1cab7fe1911": "Plan enterprise ($150.000-$300.000+ ARS/mes): para e-commerce o webs con sistemas custom. ",
-   "240a19ba25814720": "Lo vemos todas las semanas en SODI: PyMEs que pagaron $500.000+ por una web y en un año es",
-   "b175c9a9a0e7bdd0": "Hackeo: WordPress sin actualizar es el blanco favorito de los bots. Un plugin desactualiza",
-   "bace8ee379f29979": "Automatizable (costo mínimo): los backups pueden ser automáticos con plugins como UpdraftP",
-   "81db506a43d49318": "Si tenés una web simple y ganas de aprender, podés manejar el mantenimiento vos con herram",
-   "01501d79f0083fa9": "Primero, preguntate: ¿cuánto te cuesta un día con la web caída? Si la respuesta es \"nada, ",
-   "68464c6354471c8c": "Tercero, compará lo que incluye cada plan y cuánto cuesta la hora extra. Algunos proveedor",
-   "118c76ecdb9dca98": "Entre $25.000 y $150.000 ARS/mes (USD 20-120). Un plan básico con hosting, SSL y actualiza"
-  },
   "cuanto-cuesta-pagina-web-argentina": {
    "fe2010097526b605": "La opción intermedia que mejor funciona para PyMEs es un estudio digital chico (2-5 person"
   },
