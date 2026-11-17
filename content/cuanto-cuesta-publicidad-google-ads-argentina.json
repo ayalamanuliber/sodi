@@ -1,7 +1,7 @@
 {
   "slug": "cuanto-cuesta-publicidad-google-ads-argentina",
   "title": "Cuánto cuesta la publicidad en Google Ads en Argentina en 2026: qué pagás, de qué depende el CPC y cómo presupuestar",
-  "metaTitle": "Cuánto cuesta Google Ads en Argentina 2026",
+  "metaTitle": "Precios de Google Ads en Argentina 2026: costo mensual",
   "metaDescription": "Qué incluye el costo de Google Ads en Argentina: gestión, inversión publicitaria y CPC por industria. Cómo presupuestar y qué pedirle a una agencia en 2026.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
@@ -13,7 +13,7 @@
     "precios marketing digital"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-11-17",
   "readingTime": "9 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-marketing-digital-argentina",
@@ -46,6 +46,10 @@
       }
     ],
     "faqs": [
+      {
+        "question": "¿Cuál es el costo mensual de Google Ads?",
+        "answer": "Google Ads no cobra una cuota mensual fija: vos definís un presupuesto diario medio por campaña y ese es el tope de lo que Google puede gastar. Para estimar el mes, multiplicá el presupuesto diario por 30,4, el promedio de días de un mes que usa Google en su ayuda oficial. Si trabajás con agencia, sus honorarios se suman aparte (están en la sección de gestión de esta guía)."
+      },
       {
         "question": "¿Cuánto hay que invertir mínimo en Google Ads en Argentina?",
         "answer": "Depende de tu industria y de cuántas ciudades querés cubrir. Para campañas de Search en una sola ciudad alcanza con un presupuesto acotado, pero con muy poco no generás suficientes datos para optimizar y terminás tirando plata. Pedile a tu agencia una estimación de clics y leads para tu rubro antes de decidir."
