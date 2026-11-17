@@ -187,6 +187,20 @@ export const BLOG_NON_SEARCH_RELEASES: Readonly<Record<string, {
     reviewGate: "Releer LCT art. 122 (fechas) y 128 antes de cualquier cambio; el ejemplo usa sueldos ficticios; sin alicuotas de cargas sociales.",
     baselineMember: false,
   },
+  "vencimientos-arca-diciembre-2026": {
+    status: "approved",
+    reason: "Pagina nueva estacional (17/11/2026, tanda con OK de Manuel): vencimientos ARCA diciembre 2026 tomados de la agenda oficial de ARCA leida el 17/11/2026; enero 2027 no estaba cargado.",
+    packetId: "sodi-venc-20261117-01-v1",
+    reviewGate: "Releer la agenda oficial de ARCA antes de cada cambio de fecha; sumar enero 2027 solo cuando ARCA lo cargue; sin calendarios de terceros; descargo YMYL (consultar contador).",
+    baselineMember: false,
+  },
+  "calendario-vencimientos-arca": {
+    status: "approved",
+    reason: "Pagina fija nueva (17/11/2026, tanda con OK de Manuel): calendario de vencimientos ARCA que apunta a la pagina del mes vigente.",
+    packetId: "sodi-venc-20261117-02-v1",
+    reviewGate: "Cada mes actualizar el enlace al mes vigente tras releer la agenda oficial de ARCA; descargo YMYL.",
+    baselineMember: false,
+  },
   "vencimientos-arca-noviembre-diciembre-2026": {
     status: "approved",
     reason: "Pagina nueva estacional (22/10/2026): vencimientos ARCA noviembre y diciembre 2026 tomados de la agenda oficial de ARCA leida el 22/10/2026.",

@@ -1,0 +1,102 @@
+{
+  "slug": "vencimientos-arca-diciembre-2026",
+  "title": "Vencimientos ARCA diciembre 2026: monotributo, IVA, F.931 y Ganancias por terminación de CUIT",
+  "metaTitle": "Vencimientos ARCA diciembre 2026: monotributo, IVA, F.931",
+  "metaDescription": "Vencimientos ARCA diciembre 2026 por CUIT: monotributo 21/12, IVA 18 al 24/12, F.931 y autónomos 9 al 11/12. Agenda de ARCA leída el 17/11/2026. Enero 2027: pendiente.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "vencimientos arca diciembre 2026",
+    "vencimientos arca enero 2027",
+    "monotributo vencimiento diciembre",
+    "calendario fiscal",
+    "pymes"
+  ],
+  "datePublished": "2026-11-17",
+  "dateModified": "2026-11-17",
+  "readingTime": "5 min lectura",
+  "relatedSlugs": [
+    "vencimientos-arca-noviembre-diciembre-2026",
+    "calendario-vencimientos-arca",
+    "aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+    "factura-electronica-arca-2026",
+    "monotributista-puede-vender-online-argentina"
+  ],
+  "editorialReview": {
+    "packetId": "sodi-venc-20261117-01-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; tanda con preview para Manuel, no publicar sin su OK (sodi-9918)",
+    "verifiedAt": "2026-11-17",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "1b7eeebb5b24dabf3bbb9c095490c4d356387486b541b3a42ce8ef9d7a30a827"
+  },
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> el monotributo de diciembre vence el 21/12/2026 para todas las terminaciones de CUIT. El IVA de noviembre se presenta e ingresa entre el 18 y el 24 de diciembre, según la terminación. Las cargas sociales de empleadores (F.931) y los aportes de autónomos vencen del 9 al 11 de diciembre.</p><p><strong>¿Y enero de 2027?</strong> ARCA todavía no cargó enero de 2027: la consulta del 17/11/2026 por el rango 01/01/2027-31/01/2027 devolvió \"se ingresó un rango de fecha que no está cargado\". No publicamos fechas de enero hasta que estén en la agenda oficial. Cuando ARCA lo cargue, esta página suma una sección de enero.</p><p>Fechas de <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a> de ARCA, consulta por rango 01/12/2026-31/12/2026 hecha el 17/11/2026 (la pantalla mostró \"actualizada al 16/11/2026\"). No usamos calendarios de terceros. Si ARCA modifica un vencimiento por resolución, la agenda oficial es la que manda: revisala antes de pagar. Para el resto del mes pasado y el panorama general, mirá el <a href=\"/blog/calendario-vencimientos-arca\">calendario de vencimientos ARCA</a> y la página de <a href=\"/blog/vencimientos-arca-noviembre-diciembre-2026\">noviembre y diciembre 2026</a>.</p>",
+    "sections": [
+      {
+        "heading": "Cómo leer las tablas: la terminación de CUIT",
+        "body": "<p>Casi todos los vencimientos dependen del último dígito de tu CUIT: el número que va después del guion final. Una fecha marcada \"todas\" vale para cualquier terminación.</p>"
+      },
+      {
+        "heading": "Monotributo: cuota de diciembre 2026",
+        "body": "<p>La cuota mensual de diciembre (impuesto integrado y, si corresponde, cotizaciones previsionales y de obra social) vence el <strong>21/12/2026</strong>, para todas las terminaciones. El 20/12 cae domingo. Los montos por categoría están en la <a href=\"https://www.arca.gob.ar/monotributo/categorias.asp\" rel=\"nofollow noopener\">tabla oficial de categorías de ARCA</a>.</p>"
+      },
+      {
+        "heading": "Vencimiento del IVA de diciembre 2026 por terminación de CUIT",
+        "body": "<p>Presentación de la declaración jurada (F. 2051, Portal IVA) e ingreso del saldo resultante del período noviembre/2026.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>IVA noviembre/2026 (DDJJ e ingreso)</th></tr></thead><tbody><tr><td>0 y 1</td><td>18/12/2026</td></tr><tr><td>2 y 3</td><td>21/12/2026</td></tr><tr><td>4 y 5</td><td>22/12/2026</td></tr><tr><td>6 y 7</td><td>23/12/2026</td></tr><tr><td>8 y 9</td><td>24/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Empleadores: cargas sociales (F. 931)",
+        "body": "<p>El F.931, SUSS o cargas sociales es la declaración y el pago de aportes y contribuciones de la Seguridad Social y obras sociales del período noviembre/2026.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Fecha (período noviembre/2026)</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>09/12/2026</td></tr><tr><td>4, 5 y 6</td><td>10/12/2026</td></tr><tr><td>7, 8 y 9</td><td>11/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Trabajadores autónomos",
+        "body": "<p>Determinación e ingreso de aportes y contribuciones al Régimen Nacional de la Seguridad Social del período noviembre/2026.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Fecha (período noviembre/2026)</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>09/12/2026</td></tr><tr><td>4, 5 y 6</td><td>10/12/2026</td></tr><tr><td>7, 8 y 9</td><td>11/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Ganancias y Bienes Personales de personas humanas",
+        "body": "<p>En diciembre vence el 3º anticipo del año 2026 de Ganancias (personas físicas y sucesiones indivisas) y el 3º anticipo de Bienes Personales (personas físicas o sucesiones indivisas domiciliadas o radicadas en el país).</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>3º anticipo Ganancias 2026</th><th>3º anticipo Bienes Personales 2026</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>14/12/2026</td><td>14/12/2026</td></tr><tr><td>4, 5 y 6</td><td>15/12/2026</td><td>15/12/2026</td></tr><tr><td>7, 8 y 9</td><td>16/12/2026</td><td>16/12/2026</td></tr></tbody></table></div>"
+      },
+      {
+        "heading": "Ganancias de sociedades",
+        "body": "<p>Sociedades, empresas o explotaciones unipersonales, fideicomisos y otros, régimen general: declaración jurada (F. 713) e ingreso del saldo de los ejercicios cerrados en julio/2026.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Ejercicio cerrado en julio/2026: presentación</th><th>Ejercicio cerrado en julio/2026: saldo</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>14/12/2026</td><td>15/12/2026</td></tr><tr><td>4, 5 y 6</td><td>15/12/2026</td><td>16/12/2026</td></tr><tr><td>7, 8 y 9</td><td>16/12/2026</td><td>17/12/2026</td></tr></tbody></table></div><p>Los anticipos de sociedades vencen el 14, 15 y 16/12/2026 (terminaciones 0-3, 4-6 y 7-9). La agenda también fija la presentación de memoria y estados contables de los ejercicios cerrados en junio/2026 el 31/12/2026.</p>"
+      },
+      {
+        "heading": "Qué no incluye esta página",
+        "body": "<p>No incluye regímenes especiales ni obligaciones de provincias y municipios (Ingresos Brutos, tasas municipales), ni vencimientos propios de tu actividad. Tampoco hay fechas de enero de 2027 todavía, por lo dicho arriba.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de lectura",
+        "body": "<p>Leído el 17/11/2026:</p><ul><li><a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a>, consulta por rango 01/12/2026-31/12/2026. La pantalla indicó \"información actualizada al 16/11/2026\". La consulta por 01/01/2027-31/01/2027 no devolvió datos (rango no cargado).</li><li><a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">ARCA, portal de vencimientos</a>: entrada a la agenda y a las formas de pago.</li></ul><p><strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse y cada contribuyente tiene obligaciones propias: consultá con tu contador antes de presentar o pagar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo vence el monotributo de diciembre 2026?",
+        "answer": "El 21/12/2026, para todas las terminaciones de CUIT. El 20/12 cae domingo. Fuente: agenda de vencimientos de ARCA, leída el 17/11/2026."
+      },
+      {
+        "question": "¿Cuándo vence el IVA de noviembre en diciembre de 2026?",
+        "answer": "Entre el 18 y el 24/12/2026 según la terminación del CUIT: 0 y 1 el 18/12, 2 y 3 el 21/12, 4 y 5 el 22/12, 6 y 7 el 23/12 y 8 y 9 el 24/12."
+      },
+      {
+        "question": "¿Cuándo vence el F.931 de empleadores en diciembre 2026?",
+        "answer": "Del período noviembre/2026: el 09/12 para terminaciones 0 a 3, el 10/12 para 4 a 6 y el 11/12 para 7 a 9."
+      },
+      {
+        "question": "¿Cuándo vencen los autónomos en diciembre 2026?",
+        "answer": "El 09/12 (terminaciones 0 a 3), el 10/12 (4 a 6) y el 11/12 (7 a 9), por el período noviembre/2026."
+      },
+      {
+        "question": "¿Ya están los vencimientos de enero 2027?",
+        "answer": "Todavía no. El 17/11/2026 la agenda de ARCA no tenía cargado el rango de enero de 2027. Esta página se actualiza cuando lo publique."
+      },
+      {
+        "question": "¿Dónde confirmo las fechas?",
+        "answer": "En la agenda de vencimientos de ARCA, en el sitio oficial arca.gob.ar. Es la fuente de esta página y la que prevalece si hay una modificación."
+      }
+    ],
+    "ctaText": "¿Querés que los vencimientos de tu negocio te lleguen como recordatorio por WhatsApp? En SODI armamos esos avisos y tableros simples. Hablemos."
+  }
+}
