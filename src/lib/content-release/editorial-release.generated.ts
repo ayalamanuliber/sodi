@@ -140,7 +140,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/pagina-web-para-inmobiliarias",
       "kind": "blog",
       "sourcePath": "content/pagina-web-para-inmobiliarias.json",
-      "sourceFileSha256": "2b7ad8ef2b9be508acb5e4c0d4296f2e3de192eb4287d000909a067c5494141a",
+      "sourceFileSha256": "9cfb6ae3a92d38a58d744c4f3115053ff7eb2ec481e3d75adb86fd040cc994e3",
       "contentSha256": "69577325b84b6d4a7f517d33a311661f2f0bb96241cbdf03f9a6c600d49651ef",
       "canonical": "https://sodi.com.ar/blog/pagina-web-para-inmobiliarias",
       "internalLinks": [
@@ -249,7 +249,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-auditoria-seo-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-auditoria-seo-argentina.json",
-      "sourceFileSha256": "e561090c132e1563bf7ceb5718dcdf420588af63ff0db9dd069d062a4f794557",
+      "sourceFileSha256": "7ad4de48f658066cb9ee9284000708e621ee9fcb314153038dd8bc41e69a7724",
       "contentSha256": "429c6a0fb24725898a3d6e43693022daa7f4177681afc81b7f46a27beb454789",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-auditoria-seo-argentina",
       "internalLinks": [
@@ -321,7 +321,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-google-workspace-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-google-workspace-argentina.json",
-      "sourceFileSha256": "8be4752be8d72633ee519a001cb26f113924cd136315047b594370c019d1dd6e",
+      "sourceFileSha256": "8ad344af3eddf7c4e588bdd0edf4d2a9551d44bad8f76b05eb2d05798293bad1",
       "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-google-workspace-argentina",
       "internalLinks": [
@@ -345,7 +345,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-mantenimiento-wordpress-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-mantenimiento-wordpress-argentina.json",
-      "sourceFileSha256": "c6812deaf86e95161012d8a59ec9b7bda3cbe4aaf096bcad41dc05ba7bb0f9ff",
+      "sourceFileSha256": "761ee20c56d4e3ecf072442e7c656844fcb747a03728dfa71f01664f50468e05",
       "contentSha256": "bb3f01429c934066fac4f84cfe8e0d2f61ceda1ec056c02d7aea934df707678c",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-mantenimiento-wordpress-argentina",
       "internalLinks": [
@@ -393,7 +393,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/black-friday-argentina-2026-ecommerce-pyme",
       "kind": "blog",
       "sourcePath": "content/black-friday-argentina-2026-ecommerce-pyme.json",
-      "sourceFileSha256": "c1a297d82b5369da5818045d18893fa6b9348c1945e055e0e7feef3c5c8e443f",
+      "sourceFileSha256": "d976f16e1c2934e147766d3264adf85931a28a350171f4e103a5c68d51eb9c04",
       "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3",
       "canonical": "https://sodi.com.ar/blog/black-friday-argentina-2026-ecommerce-pyme",
       "internalLinks": [
@@ -465,7 +465,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
-      "sourceFileSha256": "9387ff513f4610cfe0109bb45673e1b666aaacbfbeb48c3b915dfdef35feb513",
+      "sourceFileSha256": "29d3de1d0677bf0945e800622c92d861c5ca5da33cec5ab1c164fa1f8bd75098",
       "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
       "internalLinks": [

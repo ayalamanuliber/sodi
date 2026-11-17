@@ -20,7 +20,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/10/2026: lote 5 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 2053 -> 1885), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 23/10/2026: lote 6 de cifras de precio sin fuente, 24 articulos mas en estricto (baseline 1885 -> 1706 con 8 bloques de precio propio de SODI aparte), reescritos sin numero. Lagos, correccion 22/10 (TG3533): "siempre lo que tenga mas sentido, no preguntes, ejecuta bien".
   // Re-pin 23/10/2026: calculadora de comisiones de cobro (sodi-4e6e): enlace a /herramientas/calculadora-comisiones-cobro desde las 3 notas de pagos, tasas del Plan Essential de Mobbex publicadas en mobbex.com/planes (leidas 23/10), seccion "¿Mobbex es seguro?" con el registro PSP del BCRA. Lagos, correccion 22/10 (TG3533): el re-pin no depende de Manuel.
-  approvedCatalogContentSha256: "245b8fec5c1cc683bcd869340a81691e6e1f09b4475e13daa0b3df1bcda0eada",
+  // Re-pin 17/11/2026 (sodi-9422): salida de la pila chica bajo la regla de Manuel del 17/11 (cambios chicos con fuente sobre paginas existentes). Sobre unico sodi-b9d7 sin la RG 5927 (BO 403 hoy), Workspace con la lectura del 17/11, Respuesta corta en 5 notas, titulos y metas de 5 paginas de segunda pagina, un enlace relacionado. Primarias releidas el 17/11: ARCA, INDEC, Xubio, WP Rocket, CACE, Google.
+  approvedCatalogContentSha256: "90fe9deeacce2fd65001d5d059ea7e9214621960202dac26e5234875dc0c45c4",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
