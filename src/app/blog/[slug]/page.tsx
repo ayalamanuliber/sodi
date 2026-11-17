@@ -130,9 +130,7 @@ export default async function BlogArticlePage({ params }: Props) {
   const article = getArticle(slug);
   if (!article) notFound();
 
-  const related = getRelatedArticles(article).filter((candidate) =>
-    isBlogArticleSearchEligible(candidate.slug),
-  );
+  const related = getRelatedArticles(article, isBlogArticleSearchEligible);
   const url = `https://sodi.com.ar/blog/${article.slug}`;
   // Hubs sin articulos elegibles redirigen (301): enlazar directo al destino evita el salto interno.
   const siloHref = BLOG_EMPTY_HUB_REDIRECTS[article.silo] ?? `/blog/${article.silo}`;
