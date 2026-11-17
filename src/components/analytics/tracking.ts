@@ -44,22 +44,50 @@ function getMetaMode(metaEventName: string): MetaMode {
   return META_STANDARD_EVENTS.has(metaEventName) ? "standard" : "custom";
 }
 
+type GtagParams = Record<string, Exclude<TrackingValue, undefined>>;
+
+// Events fired on mount (wedding_landing_view, wedding_trial_open, ...) run before the afterInteractive
+// gtag script defines window.gtag, so they were silently dropped (0 in GA4 for 28 d; sodi-8887).
+// Hold them and flush as soon as gtag exists (50 ms polling, 10 s cap, 50 events max).
+const pendingGtagEvents: Array<[string, GtagParams]> = [];
+let flushTimer: ReturnType<typeof setInterval> | undefined;
+
+function sendGtagEvent(eventName: string, cleaned: GtagParams) {
+  if (typeof window.gtag !== "function") {
+    if (pendingGtagEvents.length < 50) pendingGtagEvents.push([eventName, cleaned]);
+    if (flushTimer === undefined) {
+      let tries = 0;
+      flushTimer = setInterval(() => {
+        tries += 1;
+        if (typeof window.gtag === "function") {
+          for (const [name, params] of pendingGtagEvents.splice(0)) sendGtagEvent(name, params);
+        }
+        if (typeof window.gtag === "function" || tries >= 200) {
+          clearInterval(flushTimer);
+          flushTimer = undefined;
+          pendingGtagEvents.length = 0;
+        }
+      }, 50);
+    }
+    return;
+  }
+  window.gtag("event", eventName, cleaned);
+  // GA4 standard ecommerce name next to the existing custom one (Tarea medicion-marcas-6634).
+  if (eventName === "checkout_start") {
+    window.gtag("event", "begin_checkout", {
+      currency: cleaned.currency,
+      value: cleaned.value,
+      items: [{ item_id: Array.isArray(cleaned.content_ids) ? cleaned.content_ids[0] : undefined, item_name: cleaned.content_name }],
+    });
+  }
+}
+
 export function trackEvent(eventName: string, properties: TrackingProperties = {}) {
   if (typeof window === "undefined") return;
   if (isPrivateAnalyticsUrl(window.location.href) || !isProductionAnalyticsHostname(window.location.hostname)) return;
 
   const cleaned = cleanProperties(properties);
-  if (typeof window.gtag === "function") {
-    window.gtag("event", eventName, cleaned);
-    // GA4 standard ecommerce name next to the existing custom one (Tarea medicion-marcas-6634).
-    if (eventName === "checkout_start") {
-      window.gtag("event", "begin_checkout", {
-        currency: cleaned.currency,
-        value: cleaned.value,
-        items: [{ item_id: Array.isArray(cleaned.content_ids) ? cleaned.content_ids[0] : undefined, item_name: cleaned.content_name }],
-      });
-    }
-  }
+  sendGtagEvent(eventName, cleaned);
 
   if (typeof window.fbq === "function") {
     const metaEventName = toMetaEventName(eventName);
