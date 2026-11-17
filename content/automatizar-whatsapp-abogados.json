@@ -7,11 +7,11 @@
   "siloLabel": "WhatsApp por Rubro",
   "tags": ["abogados", "estudios jurídicos", "WhatsApp Business", "consultas legales", "automatización"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-17",
   "readingTime": "9 min lectura",
   "relatedSlugs": ["pagina-web-para-abogados", "redes-sociales-para-abogados", "cuanto-cuesta-bot-whatsapp-empresas"],
   "content": {
-    "intro": "<p>Los estudios de abogados en Argentina viven un dilema: <strong>el 80% de las consultas nuevas llegan por WhatsApp, pero nadie tiene tiempo para responderlas</strong>. El abogado está en audiencia, en una reunión o redactando. La secretaria atiende lo que puede. Y mientras tanto, el potencial cliente que escribió a las 21 hs un domingo buscó otro estudio que sí le respondió.</p><p>Automatizar WhatsApp en un estudio jurídico no significa perder el trato personalizado. Significa que cada consulta reciba una primera respuesta al instante, que se recopile la información necesaria y que el abogado reciba leads calificados, no un chat lleno de \"hola, necesito un abogado\".</p>",
+    "intro": "<p>Los estudios de abogados en Argentina viven un dilema: <strong>muchas consultas nuevas llegan por WhatsApp, pero nadie tiene tiempo para responderlas</strong>. El abogado está en audiencia, en una reunión o redactando. La secretaria atiende lo que puede. Y mientras tanto, el potencial cliente que escribió a las 21 hs un domingo buscó otro estudio que sí le respondió.</p><p>Automatizar WhatsApp en un estudio jurídico no significa perder el trato personalizado. Significa que cada consulta reciba una primera respuesta al instante, que se recopile la información necesaria y que el abogado reciba leads calificados, no un chat lleno de \"hola, necesito un abogado\".</p>",
     "sections": [
       {
         "heading": "Qué mensajes automatizar en un estudio jurídico",
@@ -23,7 +23,7 @@
       },
       {
         "heading": "Seguimiento de casos y comunicación con clientes activos",
-        "body": "<p>El seguimiento de casos es donde muchos estudios fallan. El cliente <strong>necesita saber que su caso avanza</strong>, y si no le decís nada, se pone ansioso y llama o escribe constantemente.</p><p>Un sistema automatizado de seguimiento:</p><ul><li><strong>Actualizaciones periódicas:</strong> cada vez que hay una novedad en el caso, el abogado carga una nota breve y el bot la envía al cliente.</li><li><strong>Recordatorio de vencimientos:</strong> \"Tu audiencia es el [fecha] a las [hora]. Recordá llevar [documentos].\"</li><li><strong>Firma de documentos:</strong> \"Tenemos un escrito para que revises y firmes. ¿Podés pasar por el estudio o te lo enviamos por email?\"</li><li><strong>Estado general:</strong> cuando el cliente pregunta \"¿cómo va mi caso?\", el bot responde con el último estado cargado.</li></ul><p>Los estudios que implementan este sistema reciben <strong>un 50% menos de llamadas</strong> de clientes preguntando por el estado. El cliente se siente atendido y el equipo trabaja sin interrupciones constantes.</p>"
+        "body": "<p>El seguimiento de casos es donde muchos estudios fallan. El cliente <strong>necesita saber que su caso avanza</strong>, y si no le decís nada, se pone ansioso y llama o escribe constantemente.</p><p>Un sistema automatizado de seguimiento:</p><ul><li><strong>Actualizaciones periódicas:</strong> cada vez que hay una novedad en el caso, el abogado carga una nota breve y el bot la envía al cliente.</li><li><strong>Recordatorio de vencimientos:</strong> \"Tu audiencia es el [fecha] a las [hora]. Recordá llevar [documentos].\"</li><li><strong>Firma de documentos:</strong> \"Tenemos un escrito para que revises y firmes. ¿Podés pasar por el estudio o te lo enviamos por email?\"</li><li><strong>Estado general:</strong> cuando el cliente pregunta \"¿cómo va mi caso?\", el bot responde con el último estado cargado.</li></ul><p>Los estudios que implementan este sistema reciben <strong>menos llamadas</strong> de clientes preguntando por el estado. El cliente se siente atendido y el equipo trabaja sin interrupciones constantes.</p>"
       },
       {
         "heading": "Herramientas y costos para estudios jurídicos",

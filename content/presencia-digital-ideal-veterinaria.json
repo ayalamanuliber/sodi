@@ -7,7 +7,7 @@
   "siloLabel": "El Digital Ideal",
   "tags": ["veterinarias", "presencia digital", "turnos online", "historial clínico", "mascotas"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-17",
   "readingTime": "11 min lectura",
   "relatedSlugs": ["pagina-web-para-veterinarias", "sistema-de-turnos-para-veterinarias", "sistema-de-gestion-para-veterinarias"],
   "content": {
@@ -15,7 +15,7 @@
     "sections": [
       {
         "heading": "Turnos online: que el dueño reserve cuando la mascota lo necesita",
-        "body": "<p>Las mascotas no se enferman en horario de oficina. La preocupación del dueño aparece a la noche, el fin de semana, el feriado. Si tu veterinaria solo da turnos por teléfono de lunes a viernes de 9 a 18, estás perdiendo pacientes con cada llamada que no podés atender.</p><p>El sistema de turnos ideal para una veterinaria:</p><ul><li><strong>Reserva 24/7:</strong> el dueño elige tipo de consulta (control, vacunación, urgencia, cirugía, etc.), veterinario preferido, día y horario.</li><li><strong>Tipos de consulta con duración diferente:</strong> una vacunación ocupa 15 minutos, una consulta general 30, una ecografía 45. El sistema calcula automáticamente.</li><li><strong>Información del paciente al reservar:</strong> nombre de la mascota, especie, raza, edad, motivo de consulta. El veterinario llega preparado.</li><li><strong>Confirmación y recordatorio por WhatsApp:</strong> confirmación inmediata + recordatorio 24 horas antes con dirección y qué traer.</li><li><strong>Turnos de urgencia destacados:</strong> si marcás \"urgencia\", el sistema notifica al veterinario de guardia inmediatamente.</li></ul><p>Un <a href=\"/blog/sistema-de-turnos-para-veterinarias\">sistema de turnos para veterinarias</a> reduce el teléfono en un 70-80%, baja el ausentismo con recordatorios automáticos y permite al equipo enfocarse en atender pacientes en lugar de coordinar agendas.</p>"
+        "body": "<p>Las mascotas no se enferman en horario de oficina. La preocupación del dueño aparece a la noche, el fin de semana, el feriado. Si tu veterinaria solo da turnos por teléfono de lunes a viernes de 9 a 18, estás perdiendo pacientes con cada llamada que no podés atender.</p><p>El sistema de turnos ideal para una veterinaria:</p><ul><li><strong>Reserva 24/7:</strong> el dueño elige tipo de consulta (control, vacunación, urgencia, cirugía, etc.), veterinario preferido, día y horario.</li><li><strong>Tipos de consulta con duración diferente:</strong> una vacunación ocupa 15 minutos, una consulta general 30, una ecografía 45. El sistema calcula automáticamente.</li><li><strong>Información del paciente al reservar:</strong> nombre de la mascota, especie, raza, edad, motivo de consulta. El veterinario llega preparado.</li><li><strong>Confirmación y recordatorio por WhatsApp:</strong> confirmación inmediata + recordatorio 24 horas antes con dirección y qué traer.</li><li><strong>Turnos de urgencia destacados:</strong> si marcás \"urgencia\", el sistema notifica al veterinario de guardia inmediatamente.</li></ul><p>Un <a href=\"/blog/sistema-de-turnos-para-veterinarias\">sistema de turnos para veterinarias</a> reduce el volumen de llamadas telefónicas, baja el ausentismo con recordatorios automáticos y permite al equipo enfocarse en atender pacientes en lugar de coordinar agendas.</p>"
       },
       {
         "heading": "Historial clínico digital: la herramienta que salva vidas",
@@ -61,7 +61,7 @@
       },
       {
         "question": "¿Los recordatorios automáticos de vacunación realmente funcionan?",
-        "answer": "Sí. Las veterinarias que implementan recordatorios automáticos reportan un aumento del 25-35% en visitas de vacunación. El dueño quiere vacunar a su mascota, simplemente se olvida. Un recordatorio por WhatsApp con link para sacar turno elimina la fricción y genera la visita."
+        "answer": "Sí. Las veterinarias que implementan recordatorios automáticos pueden aumentar las visitas de vacunación. El dueño quiere vacunar a su mascota, simplemente se olvida. Un recordatorio por WhatsApp con link para sacar turno elimina la fricción y genera la visita."
       }
     ],
     "ctaText": "¿Tu veterinaria necesita modernizar su presencia digital? <a href=\"/diagnostico\">Hacé el diagnóstico gratuito</a> y descubrí cómo implementar turnos online, historial clínico digital y comunicación automatizada."

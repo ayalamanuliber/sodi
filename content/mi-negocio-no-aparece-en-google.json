@@ -7,7 +7,7 @@
   "siloLabel": "Guías Prácticas",
   "tags": ["google", "seo", "google business profile", "posicionamiento", "visibilidad online"],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-11-17",
   "readingTime": "7 min lectura",
   "relatedSlugs": ["que-es-seo-y-por-que-importa", "como-mejorar-presencia-digital", "como-conseguir-clientes-por-internet", "cuanto-cuesta-seo-argentina"],
   "content": {
@@ -15,7 +15,7 @@
     "sections": [
       {
         "heading": "Razón 1: No tenés Google Business Profile (ex Google Mi Negocio)",
-        "body": "<p>Esta es la razón número uno por la que un negocio local no aparece en Google. <strong>Google Business Profile es la ficha gratuita</strong> que muestra tu negocio en los resultados de búsqueda y en Google Maps. Sin ella, Google directamente no sabe que existís como negocio local.</p><p>¿Cómo crearlo? Es gratis y lleva 15 minutos:</p><ol><li>Entrá a <strong>business.google.com</strong> con tu cuenta de Google.</li><li>Agregá el nombre exacto de tu negocio como lo conocen tus clientes.</li><li>Elegí la categoría correcta (ej: \"Abogado\", \"Restaurante\", \"Peluquería\").</li><li>Cargá tu dirección, teléfono, horarios y fotos reales del local.</li><li>Google te va a pedir que verifiques que sos el dueño (generalmente por correo postal o teléfono).</li></ol><p>Una vez verificado, tu negocio empieza a aparecer en búsquedas locales. <strong>El 46% de las búsquedas en Google tienen intención local</strong> (\"peluquería cerca\", \"plomero en zona sur\"), y si no tenés ficha, te perdés todo ese tráfico.</p>"
+        "body": "<p>Esta es la razón número uno por la que un negocio local no aparece en Google. <strong>Google Business Profile es la ficha gratuita</strong> que muestra tu negocio en los resultados de búsqueda y en Google Maps. Sin ella, Google directamente no sabe que existís como negocio local.</p><p>¿Cómo crearlo? Es gratis y lleva 15 minutos:</p><ol><li>Entrá a <strong>business.google.com</strong> con tu cuenta de Google.</li><li>Agregá el nombre exacto de tu negocio como lo conocen tus clientes.</li><li>Elegí la categoría correcta (ej: \"Abogado\", \"Restaurante\", \"Peluquería\").</li><li>Cargá tu dirección, teléfono, horarios y fotos reales del local.</li><li>Google te va a pedir que verifiques que sos el dueño (generalmente por correo postal o teléfono).</li></ol><p>Una vez verificado, tu negocio empieza a aparecer en búsquedas locales. <strong>Muchas búsquedas en Google tienen intención local</strong> (\"peluquería cerca\", \"plomero en zona sur\"), y si no tenés ficha, te perdés todo ese tráfico.</p>"
       },
       {
         "heading": "Razón 2: No tenés sitio web (o tu sitio no está indexado)",
@@ -23,7 +23,7 @@
       },
       {
         "heading": "Razón 3: Tu sitio no tiene SEO básico",
-        "body": "<p>Tener un sitio web no alcanza. Si tu página dice \"Inicio\" como título, tiene 3 párrafos de texto y ninguna palabra clave relevante, Google no tiene forma de saber para qué búsquedas mostrarte.</p><p>El <strong>SEO básico mínimo</strong> que necesita cualquier sitio web de PyME:</p><ul><li><strong>Títulos descriptivos en cada página</strong>: en vez de \"Servicios\", poné \"Servicios de plomería en Avellaneda | Presupuesto sin cargo\".</li><li><strong>Texto suficiente</strong>: cada página importante necesita al menos 300-500 palabras explicando qué ofrecés, para quién, dónde.</li><li><strong>Que cargue rápido</strong>: si tu sitio tarda más de 3 segundos en cargar, Google te penaliza. Podés medir la velocidad gratis en PageSpeed Insights.</li><li><strong>Que se vea bien en celular</strong>: el 70% de las búsquedas en Argentina son desde el teléfono. Si tu sitio no es responsive, perdés posiciones.</li><li><strong>Tu dirección y teléfono visibles</strong>: Google usa esta información para confirmar que sos un negocio real y mostrarte en resultados locales.</li></ul><p>No necesitás ser experto. Con estos 5 puntos ya estás por encima de la mayoría de las PyMEs argentinas.</p>"
+        "body": "<p>Tener un sitio web no alcanza. Si tu página dice \"Inicio\" como título, tiene 3 párrafos de texto y ninguna palabra clave relevante, Google no tiene forma de saber para qué búsquedas mostrarte.</p><p>El <strong>SEO básico mínimo</strong> que necesita cualquier sitio web de PyME:</p><ul><li><strong>Títulos descriptivos en cada página</strong>: en vez de \"Servicios\", poné \"Servicios de plomería en Avellaneda | Presupuesto sin cargo\".</li><li><strong>Texto suficiente</strong>: cada página importante necesita al menos 300-500 palabras explicando qué ofrecés, para quién, dónde.</li><li><strong>Que cargue rápido</strong>: si tu sitio tarda más de 3 segundos en cargar, Google te penaliza. Podés medir la velocidad gratis en PageSpeed Insights.</li><li><strong>Que se vea bien en celular</strong>: la mayoría de las búsquedas en Argentina son desde el teléfono. Si tu sitio no es responsive, perdés posiciones.</li><li><strong>Tu dirección y teléfono visibles</strong>: Google usa esta información para confirmar que sos un negocio real y mostrarte en resultados locales.</li></ul><p>No necesitás ser experto. Con estos 5 puntos ya estás por encima de la mayoría de las PyMEs argentinas.</p>"
       },
       {
         "heading": "Razón 4: Google te penalizó (y capaz ni te enteraste)",

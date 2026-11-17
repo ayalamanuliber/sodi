@@ -1,7 +1,7 @@
 {
   "slug": "cuanto-cuesta-software-a-medida-argentina",
   "title": "Cuánto cuesta el software a medida en Argentina en 2026: tarifas por hora, proyectos y comparación con SaaS",
-  "metaTitle": "Cuánto cuesta software a medida en Argentina 2026 (por hora)",
+  "metaTitle": "Cuánto cobran los desarrolladores de apps y software (2026)",
   "metaDescription": "Software a medida en Argentina: tarifas por hora según nivel, cómo cambia el costo entre un proyecto simple, medio y complejo, y cuándo conviene vs SaaS.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
@@ -51,6 +51,10 @@
       }
     ],
     "faqs": [
+      {
+        "question": "¿Cuánto cuesta contratar desarrolladores para una app o un software?",
+        "answer": "Depende de la tarifa por hora del equipo y de cuántas horas lleve el proyecto, que cambian entre uno simple, uno medio y uno complejo. Las tarifas por hora y los rangos por tipo de proyecto con su fuente están en esta guía; no se inventan cifras para tu caso sin conocer el alcance."
+      },
       {
         "question": "¿Cuánto cuesta desarrollar software a medida en Argentina?",
         "answer": "El costo crece con la complejidad: un proyecto simple cuesta menos que uno medio, y uno complejo varias veces más. La tarifa por hora de los desarrolladores argentinos sube con la experiencia; la guía de un programador freelance de abril de 2026 pone el rango entre 15 y más de 80 dólares la hora según el nivel. Pedí presupuesto por escrito con alcance cerrado."

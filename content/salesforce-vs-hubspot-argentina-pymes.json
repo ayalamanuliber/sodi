@@ -13,7 +13,7 @@
     "gestión comercial"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-11-17",
   "readingTime": "7 min lectura",
   "relatedSlugs": [
     "hubspot-vs-zoho-crm-argentina",
@@ -42,7 +42,7 @@
       },
       {
         "heading": "Cómo migrar de Excel a HubSpot sin perder nada",
-        "body": "<p>Si hoy manejás tus contactos en Excel o Google Sheets (como el 80% de las PyMEs argentinas), migrar a HubSpot es simple:</p><ol><li><strong>Exportá tu Excel a CSV.</strong> Asegurate de que las columnas tengan encabezados claros: Nombre, Email, Teléfono, Empresa, Estado.</li><li><strong>Creá tu cuenta gratuita en HubSpot.</strong> Tardás 5 minutos. No te pide tarjeta de crédito.</li><li><strong>Importá el CSV.</strong> HubSpot te guía paso a paso para mapear cada columna a un campo del CRM.</li><li><strong>Armá tu pipeline de ventas.</strong> Definí las etapas (Contacto → Reunión → Propuesta → Cierre). Arrastrás y soltás.</li><li><strong>Invitá a tu equipo.</strong> Cada vendedor ve sus contactos y tareas. Vos ves todo.</li></ol><p>En SODI ayudamos a PyMEs a hacer esta migración en una semana, incluyendo la configuración de automatizaciones básicas y capacitación del equipo. El Excel te trajo hasta acá, pero un CRM te lleva al siguiente nivel.</p>"
+        "body": "<p>Si hoy manejás tus contactos en Excel o Google Sheets (como hacen muchas PyMEs argentinas), migrar a HubSpot es simple:</p><ol><li><strong>Exportá tu Excel a CSV.</strong> Asegurate de que las columnas tengan encabezados claros: Nombre, Email, Teléfono, Empresa, Estado.</li><li><strong>Creá tu cuenta gratuita en HubSpot.</strong> Tardás 5 minutos. No te pide tarjeta de crédito.</li><li><strong>Importá el CSV.</strong> HubSpot te guía paso a paso para mapear cada columna a un campo del CRM.</li><li><strong>Armá tu pipeline de ventas.</strong> Definí las etapas (Contacto → Reunión → Propuesta → Cierre). Arrastrás y soltás.</li><li><strong>Invitá a tu equipo.</strong> Cada vendedor ve sus contactos y tareas. Vos ves todo.</li></ol><p>En SODI ayudamos a PyMEs a hacer esta migración en una semana, incluyendo la configuración de automatizaciones básicas y capacitación del equipo. El Excel te trajo hasta acá, pero un CRM te lleva al siguiente nivel.</p>"
       }
     ],
     "faqs": [

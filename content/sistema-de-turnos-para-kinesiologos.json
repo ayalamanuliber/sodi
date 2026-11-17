@@ -7,7 +7,7 @@
   "siloLabel": "Turnos por Rubro",
   "tags": ["turnos online", "kinesiólogos", "agenda kinesiología", "rehabilitación", "fisioterapia"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-17",
   "readingTime": "8 min lectura",
   "relatedSlugs": ["pagina-web-para-kinesiologos", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
   "content": {
@@ -15,7 +15,7 @@
     "sections": [
       {
         "heading": "Por qué un kinesiólogo necesita turnos online",
-        "body": "<p>La kinesiología tiene un flujo de turnos con complejidades específicas:</p><ul><li><strong>Tratamientos de muchas sesiones:</strong> una rehabilitación de rodilla puede ser 20-30 sesiones. Agendar todo eso manualmente es un dolor de cabeza. El sistema programa la secuencia completa automáticamente.</li><li><strong>Sesiones consecutivas:</strong> atendés pacientes cada 30-45 minutos, uno tras otro. Un retraso o ausencia desordena toda la jornada. Los recordatorios <strong>reducen ausencias entre un 40% y 60%</strong>.</li><li><strong>Obra social y particulares:</strong> necesitás diferenciar turnos de obra social (con autorización previa) de particulares (pago directo). El sistema puede manejar ambos flujos.</li><li><strong>Múltiples camillas/boxes:</strong> si tenés varios espacios de atención, el sistema evita que dos pacientes queden en el mismo box al mismo tiempo.</li></ul>"
+        "body": "<p>La kinesiología tiene un flujo de turnos con complejidades específicas:</p><ul><li><strong>Tratamientos de muchas sesiones:</strong> una rehabilitación de rodilla puede ser 20-30 sesiones. Agendar todo eso manualmente es un dolor de cabeza. El sistema programa la secuencia completa automáticamente.</li><li><strong>Sesiones consecutivas:</strong> atendés pacientes cada 30-45 minutos, uno tras otro. Un retraso o ausencia desordena toda la jornada. Los recordatorios <strong>suelen reducir las ausencias</strong>.</li><li><strong>Obra social y particulares:</strong> necesitás diferenciar turnos de obra social (con autorización previa) de particulares (pago directo). El sistema puede manejar ambos flujos.</li><li><strong>Múltiples camillas/boxes:</strong> si tenés varios espacios de atención, el sistema evita que dos pacientes queden en el mismo box al mismo tiempo.</li></ul>"
       },
       {
         "heading": "Opciones SaaS para kinesiólogos",

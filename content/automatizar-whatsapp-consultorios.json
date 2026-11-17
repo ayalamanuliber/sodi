@@ -7,7 +7,7 @@
   "siloLabel": "WhatsApp por Rubro",
   "tags": ["consultorios médicos", "WhatsApp Business", "turnos online", "automatización", "salud"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-17",
   "readingTime": "9 min lectura",
   "relatedSlugs": ["pagina-web-para-consultorios-medicos", "sistema-de-turnos-para-consultorios-medicos", "cuanto-cuesta-bot-whatsapp-empresas"],
   "content": {
@@ -15,7 +15,7 @@
     "sections": [
       {
         "heading": "Qué mensajes podés automatizar en un consultorio",
-        "body": "<p>El 70% de los mensajes que recibe un consultorio son repetitivos. Estos son los que un bot resuelve perfectamente:</p><ul><li><strong>Agendar turnos:</strong> \"¿Querés sacar turno? Elegí la especialidad y te muestro los horarios disponibles.\"</li><li><strong>Recordatorio de turno:</strong> mensaje automático 24 hs antes: \"Recordá que mañana tenés turno a las 10:00 con el Dr. [Nombre]. Respondé SI para confirmar o NO para reprogramar.\"</li><li><strong>Cancelación y reprogramación:</strong> el paciente cancela por chat y el sistema libera el horario automáticamente.</li><li><strong>Información de preparación:</strong> \"Para tu estudio de laboratorio, recordá venir con 8 horas de ayuno.\"</li><li><strong>Horarios, ubicación y obras sociales:</strong> respuesta instantánea a las 3 preguntas más frecuentes.</li></ul><p>Solo con los recordatorios automáticos, los consultorios reducen las <strong>ausencias entre un 30% y un 50%</strong>. Cada turno perdido es plata que no entra y un paciente que otro podría haber ocupado.</p>"
+        "body": "<p>Buena parte de los mensajes que recibe un consultorio son repetitivos. Estos son los que un bot resuelve perfectamente:</p><ul><li><strong>Agendar turnos:</strong> \"¿Querés sacar turno? Elegí la especialidad y te muestro los horarios disponibles.\"</li><li><strong>Recordatorio de turno:</strong> mensaje automático 24 hs antes: \"Recordá que mañana tenés turno a las 10:00 con el Dr. [Nombre]. Respondé SI para confirmar o NO para reprogramar.\"</li><li><strong>Cancelación y reprogramación:</strong> el paciente cancela por chat y el sistema libera el horario automáticamente.</li><li><strong>Información de preparación:</strong> \"Para tu estudio de laboratorio, recordá venir con 8 horas de ayuno.\"</li><li><strong>Horarios, ubicación y obras sociales:</strong> respuesta instantánea a las 3 preguntas más frecuentes.</li></ul><p>Solo con los recordatorios automáticos, los consultorios pueden <strong>reducir las ausencias</strong>. Cada turno perdido es plata que no entra y un paciente que otro podría haber ocupado.</p>"
       },
       {
         "heading": "Flujo de bot ideal para consultorios médicos",
@@ -27,7 +27,7 @@
       },
       {
         "heading": "Reducir ausencias con recordatorios automáticos",
-        "body": "<p>Las ausencias son el dolor de cabeza número uno de cualquier consultorio. Un paciente que no viene es un turno vacío que ya no podés llenar. Los recordatorios por WhatsApp son <strong>la herramienta más efectiva para reducirlas</strong>.</p><p>Un sistema de recordatorios bien armado incluye:</p><ul><li><strong>Recordatorio 48 hs antes:</strong> informativo, con datos del turno y opción de cancelar</li><li><strong>Confirmación 24 hs antes:</strong> \"Respondé SI para confirmar tu turno de mañana a las [hora]\"</li><li><strong>Si no confirma:</strong> un segundo mensaje o llamada automática 4 horas antes</li><li><strong>Si cancela:</strong> ofrecerle reprogramar automáticamente y liberar el turno para la lista de espera</strong></li></ul><p>Los consultorios que implementan este sistema reportan tasas de ausencia menores al <strong>10%</strong>, cuando el promedio sin recordatorios ronda el 25-35%. Eso puede significar recuperar entre 5 y 15 turnos por semana.</p><p>Combinado con una <a href=\"/blog/pagina-web-para-consultorios-medicos\">página web profesional</a> donde los pacientes también puedan sacar turnos, tenés un ecosistema digital completo.</p>"
+        "body": "<p>Las ausencias son el dolor de cabeza número uno de cualquier consultorio. Un paciente que no viene es un turno vacío que ya no podés llenar. Los recordatorios por WhatsApp son <strong>la herramienta más efectiva para reducirlas</strong>.</p><p>Un sistema de recordatorios bien armado incluye:</p><ul><li><strong>Recordatorio 48 hs antes:</strong> informativo, con datos del turno y opción de cancelar</li><li><strong>Confirmación 24 hs antes:</strong> \"Respondé SI para confirmar tu turno de mañana a las [hora]\"</li><li><strong>Si no confirma:</strong> un segundo mensaje o llamada automática 4 horas antes</li><li><strong>Si cancela:</strong> ofrecerle reprogramar automáticamente y liberar el turno para la lista de espera</strong></li></ul><p>Los consultorios que implementan este sistema reportan <strong>menos ausencias</strong> que sin recordatorios. Cada turno recuperado es un turno que se ocupa en lugar de perderse.</p><p>Combinado con una <a href=\"/blog/pagina-web-para-consultorios-medicos\">página web profesional</a> donde los pacientes también puedan sacar turnos, tenés un ecosistema digital completo.</p>"
       },
       {
         "heading": "Privacidad y regulaciones: qué tener en cuenta",
@@ -41,7 +41,7 @@
       },
       {
         "question": "¿Cuánto se reducen las ausencias con recordatorios automáticos?",
-        "answer": "Los consultorios que implementan recordatorios por WhatsApp reducen las ausencias entre un 30% y un 50%. Con un sistema de doble confirmación (48 hs y 24 hs antes), las tasas de ausencia bajan al 10% o menos."
+        "answer": "Los consultorios que implementan recordatorios por WhatsApp pueden reducir las ausencias. Con un sistema de doble confirmación (48 hs y 24 hs antes), la reducción suele ser mayor."
       },
       {
         "question": "¿Puedo usar el WhatsApp personal del consultorio para automatizar?",
