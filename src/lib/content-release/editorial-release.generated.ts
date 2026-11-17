@@ -393,7 +393,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/black-friday-argentina-2026-ecommerce-pyme",
       "kind": "blog",
       "sourcePath": "content/black-friday-argentina-2026-ecommerce-pyme.json",
-      "sourceFileSha256": "d976f16e1c2934e147766d3264adf85931a28a350171f4e103a5c68d51eb9c04",
+      "sourceFileSha256": "47ec36d267339b1a2ba4e7e1469e1ed94232dcf3f75dfba2a6a7acf926b7893c",
       "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3",
       "canonical": "https://sodi.com.ar/blog/black-friday-argentina-2026-ecommerce-pyme",
       "internalLinks": [
