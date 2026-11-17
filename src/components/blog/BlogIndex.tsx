@@ -39,6 +39,7 @@ export function BlogIndex({ siloGroups, featured }: Props) {
             <Link
               className={styles.featuredArticle}
               href={`/blog/${article.slug}`}
+              prefetch={false}
               key={article.slug}
             >
               <span>{index === 0 ? "Elegir" : index === 1 ? "Presupuestar" : "Ordenar"}</span>
@@ -63,6 +64,7 @@ export function BlogIndex({ siloGroups, featured }: Props) {
             <Link
               className={styles.routeLink}
               href={`/blog/${group.key}`}
+              prefetch={false}
               key={group.key}
             >
               <span>{group.articles.length} artículos</span>

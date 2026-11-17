@@ -31,3 +31,9 @@ Only this CI route gets receipt/freshness checks. Existing manual `npm run cf:de
 Coordinator reviews and integrates this local commit onto refreshed main, configures Builds, verifies first real build uses the new revision and existing Free Worker, then reads production health/content/version. Do not label automatic updates restored before that end-to-end run succeeds. Subsequent content releases must reach main through existing content gates; connecting CI does not merge stale Lagos branches or grant publication to drafts.
 
 To rerun local checks: `node scripts/test-free-ci.mjs`; `node --check scripts/build-free-ci.mjs`; `node --check scripts/deploy-free.mjs`.
+
+## 17/11/2026 · Menos pedidos al Worker (sodi-6a50)
+- robots.txt y sitemap.xml salen como assets nativos: `scripts/emit-crawl-assets.mjs` (paso de `cf:build`, despues de OpenNext) copia el `.body` prerenderizado de `src/app/robots.ts` y `src/app/sitemap.ts` a `.open-next/assets/`. Contenido byte a byte igual al de produccion del 17/11. La fuente sigue siendo robots.ts/sitemap.ts (no hay archivos en `public/`: chocarian con las rutas y ensuciarian el arbol que exige build-free-ci).
+- `prefetch={false}` en enlaces de listas: indice del blog, hubs de silo, relacionados de articulo, plantillas y pie.
+- El Worker (`cf/worker.ts`) ya no corre para esas dos rutas; lo unico que hacia ahi era el robots `Disallow: /` de hosts no productivos (workers.dev y previews estan apagados) y el middleware las exime del filtro de bots.
+- Revertir: `git revert <commit>` (vuelve a servirlas el Worker, sin perdida de datos) y esperar el Build.

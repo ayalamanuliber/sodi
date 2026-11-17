@@ -226,7 +226,7 @@ export default async function BlogArticlePage({ params }: Props) {
               <h2>Para seguir.</h2>
               <div className={styles.relatedList}>
                 {related.map((relatedArticle) => (
-                  <Link key={relatedArticle.slug} href={`/blog/${relatedArticle.slug}`}>
+                  <Link key={relatedArticle.slug} prefetch={false} href={`/blog/${relatedArticle.slug}`}>
                     <span>{siloLabel(relatedArticle.silo)}</span>
                     <strong>{relatedArticle.title.replaceAll("—", "-").replaceAll("–", "-")}</strong>
                   </Link>

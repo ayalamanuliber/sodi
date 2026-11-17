@@ -170,10 +170,10 @@ export default async function TemplateResourcePage({ params }: Props) {
           </div>
           <div className={styles.relatedLinks}>
             {resource.relatedRoutes.filter(isRelatedRouteLive).map((route) => (
-              <Link href={route} key={route}>Leer la guía relacionada</Link>
+              <Link prefetch={false} href={route} key={route}>Leer la guía relacionada</Link>
             ))}
             {otherTemplates.map((template) => (
-              <Link href={`/plantillas/${template.slug}`} key={template.slug}>{template.title}</Link>
+              <Link prefetch={false} href={`/plantillas/${template.slug}`} key={template.slug}>{template.title}</Link>
             ))}
           </div>
         </section>

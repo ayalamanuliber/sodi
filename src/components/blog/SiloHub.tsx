@@ -61,7 +61,7 @@ export function SiloHub({ silo, articles }: Props) {
         </div>
         <div className={styles.latestList}>
           {latest.map((article) => (
-            <Link href={`/blog/${article.slug}`} key={article.slug}>
+            <Link href={`/blog/${article.slug}`} prefetch={false} key={article.slug}>
               <span>{article.readingTime}</span>
               <strong>{cleanText(article.title)}</strong>
               <p>{cleanText(article.metaDescription)}</p>
@@ -77,7 +77,7 @@ export function SiloHub({ silo, articles }: Props) {
         </div>
         <div className={styles.libraryList}>
           {articles.map((article) => (
-            <Link href={`/blog/${article.slug}`} key={article.slug}>
+            <Link href={`/blog/${article.slug}`} prefetch={false} key={article.slug}>
               <strong>{cleanText(article.title)}</strong>
               <span>{article.readingTime}</span>
             </Link>

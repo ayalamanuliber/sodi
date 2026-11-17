@@ -20,9 +20,9 @@ export function Footer() {
               <li><a href="#servicios" className="hover:text-s-accent transition-colors">Webs y presencia</a></li>
               <li><a href="#servicios" className="hover:text-s-accent transition-colors">Automatización</a></li>
               <li><a href="#servicios" className="hover:text-s-accent transition-colors">Sistemas internos</a></li>
-              <li><Link href="/blog" className="hover:text-s-accent transition-colors">Blog</Link></li>
-              <li><Link href="/herramientas/calculadora-comisiones-cobro" className="hover:text-s-accent transition-colors">Calculadora de comisiones de cobro</Link></li>
-              <li><Link href="/diagnostico" className="hover:text-s-accent transition-colors">Diagnóstico</Link></li>
+              <li><Link prefetch={false} href="/blog" className="hover:text-s-accent transition-colors">Blog</Link></li>
+              <li><Link prefetch={false} href="/herramientas/calculadora-comisiones-cobro" className="hover:text-s-accent transition-colors">Calculadora de comisiones de cobro</Link></li>
+              <li><Link prefetch={false} href="/diagnostico" className="hover:text-s-accent transition-colors">Diagnóstico</Link></li>
             </ul>
           </div>
 

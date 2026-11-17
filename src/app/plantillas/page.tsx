@@ -60,7 +60,7 @@ export default function TemplatesHubPage() {
 
         <section className={styles.resources} aria-label="Plantillas disponibles">
           {resources.map((resource) => (
-            <Link href={`/plantillas/${resource.slug}`} key={resource.slug}>
+            <Link prefetch={false} href={`/plantillas/${resource.slug}`} key={resource.slug}>
               <span>{resource.buyerJob}</span>
               <h2>{resource.title}</h2>
               <p>{resource.directAnswer}</p>
