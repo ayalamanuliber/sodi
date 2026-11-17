@@ -24,12 +24,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SODI | Estudio de webs y automatización en Argentina",
+  title: "SODI | Webs y automatización para empresas que ya venden",
   description:
     "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
   metadataBase: new URL("https://sodi.com.ar"),
   openGraph: {
-    title: "SODI | Estudio de webs y automatización en Argentina",
+    title: "SODI | Webs y automatización para empresas que ya venden",
     description:
       "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SODI | Estudio de webs y automatización en Argentina",
+    title: "SODI | Webs y automatización para empresas que ya venden",
     description:
       "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
     images: ogImages("/"),
