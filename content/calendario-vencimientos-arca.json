@@ -1,0 +1,69 @@
+{
+  "slug": "calendario-vencimientos-arca",
+  "title": "Calendario de vencimientos ARCA: dónde ver el mes actual para monotributo, IVA y cargas sociales",
+  "metaTitle": "Calendario de vencimientos ARCA: monotributo, IVA, F.931",
+  "metaDescription": "Calendario de vencimientos ARCA por terminación de CUIT: enlace al mes vigente (diciembre 2026), cómo leer la agenda y dónde confirmar cada fecha.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "calendario vencimientos arca",
+    "vencimientos arca",
+    "calendario fiscal",
+    "monotributo vencimiento",
+    "pymes"
+  ],
+  "datePublished": "2026-11-17",
+  "dateModified": "2026-11-17",
+  "readingTime": "3 min lectura",
+  "relatedSlugs": [
+    "vencimientos-arca-diciembre-2026",
+    "vencimientos-arca-noviembre-diciembre-2026",
+    "aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+    "factura-electronica-arca-2026"
+  ],
+  "editorialReview": {
+    "packetId": "sodi-venc-20261117-02-v1",
+    "contentStatus": "ready_editorial",
+    "releaseStatus": "approved",
+    "evidenceStatus": "agent-compiled, no human editorial review; tanda con preview para Manuel, no publicar sin su OK (sodi-9918)",
+    "verifiedAt": "2026-11-17",
+    "integrationMethod": "packet_compiled",
+    "contentSha256": "a2851726203fb6a3126e9cd26c45b7efff4b185db216c06fd822d6990ca4240c"
+  },
+  "content": {
+    "intro": "<p><strong>Respuesta corta:</strong> el mes vigente es <a href=\"/blog/vencimientos-arca-diciembre-2026\">diciembre de 2026</a>: monotributo el 21/12, IVA entre el 18 y el 24/12 y cargas sociales (F.931) y autónomos del 9 al 11/12, según la terminación de tu CUIT. Esta página fija no cambia de dirección: cada mes apunta a la página del mes. Enero de 2027 se suma cuando ARCA lo cargue en su agenda.</p><p>Todas las fechas salen de la agenda oficial de ARCA, no de calendarios de terceros.</p>",
+    "sections": [
+      {
+        "heading": "Mes vigente y meses anteriores",
+        "body": "<ul><li><a href=\"/blog/vencimientos-arca-diciembre-2026\">Vencimientos ARCA diciembre 2026</a>: monotributo, IVA, F.931, autónomos, Ganancias y Bienes Personales.</li><li><a href=\"/blog/vencimientos-arca-noviembre-diciembre-2026\">Vencimientos ARCA noviembre y diciembre 2026</a>: incluye noviembre completo.</li></ul>"
+      },
+      {
+        "heading": "Cómo leer la agenda de ARCA",
+        "body": "<p>Casi todos los vencimientos dependen del último dígito de tu CUIT, el número que va después del guion final. La agenda oficial permite consultar por rango de fechas y por impuesto: <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a>. Si el rango que buscás no está cargado, la agenda lo avisa; ese fue el caso de enero de 2027 el 17/11/2026.</p>"
+      },
+      {
+        "heading": "Qué obligaciones cubren las páginas del mes",
+        "body": "<p>Monotributo, IVA, cargas sociales de empleadores (F.931), aportes de autónomos y, en los meses que corresponde, anticipos y declaraciones juradas de Ganancias y Bienes Personales. No incluyen Ingresos Brutos ni tasas municipales.</p>"
+      },
+      {
+        "heading": "Fuentes y fecha de lectura",
+        "body": "<p>Leído el 17/11/2026: <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">agenda de vencimientos de ARCA</a> y <a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">portal de vencimientos de ARCA</a>. <strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse: consultá con tu contador antes de presentar o pagar.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Dónde veo el calendario de vencimientos de ARCA?",
+        "answer": "En la agenda de vencimientos de ARCA, en el sitio oficial arca.gob.ar. Esta página enlaza al mes vigente, con las fechas por terminación de CUIT."
+      },
+      {
+        "question": "¿Qué vence en diciembre de 2026?",
+        "answer": "El monotributo el 21/12, el IVA de noviembre entre el 18 y el 24/12, y el F.931 y los autónomos del 9 al 11/12, según la terminación del CUIT. El detalle está en la página de vencimientos de diciembre 2026."
+      },
+      {
+        "question": "¿Cuándo se publican los vencimientos de enero 2027?",
+        "answer": "Cuando ARCA cargue el rango en su agenda. El 17/11/2026 todavía no estaba disponible."
+      }
+    ],
+    "ctaText": "¿Querés que los vencimientos de tu negocio te lleguen como recordatorio por WhatsApp? En SODI armamos esos avisos y tableros simples. Hablemos."
+  }
+}

@@ -4,8 +4,8 @@
   "channel": "production_release",
   "authority": "owner_authorized",
   "generatedAt": "2026-08-31",
-  "expectedRouteCount": 23,
-  "routeSetSha256": "9c80068c384c20a8258ad62e2384883823b2e22ec786427cac0b3c239f030731",
+  "expectedRouteCount": 25,
+  "routeSetSha256": "ba6285886fe981890e599c5f55c6244f9bf66ae06c71c1b391687d6a4906146f",
   "routes": [
     {
       "packetId": "sodi-content-sodi-010-v1",
@@ -464,7 +464,7 @@
       "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
-      "sourceFileSha256": "29d3de1d0677bf0945e800622c92d861c5ca5da33cec5ab1c164fa1f8bd75098",
+      "sourceFileSha256": "00a23264c402c2dfe3f43388af7e11919f13b6849bccd9a3eaa724ba25ba73fb",
       "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
       "internalLinks": [
@@ -472,7 +472,9 @@
         "/blog/factura-electronica-arca-2026",
         "/blog/monotributista-puede-vender-online-argentina",
         "/blog/que-pasa-si-vendo-online-sin-facturar",
-        "/blog/cuanto-cuesta-facturacion-electronica-argentina"
+        "/blog/cuanto-cuesta-facturacion-electronica-argentina",
+        "/blog/vencimientos-arca-diciembre-2026",
+        "/blog/calendario-vencimientos-arca"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=vencimientos-arca-noviembre-diciembre-2026&ruta=guias",
       "release": {
@@ -523,6 +525,53 @@
         "/blog/shopify-vs-tiendanube-argentina"
       ],
       "ctaDestination": "/diagnostico?origen=blog&articulo=cuanto-cuesta-empretienda-argentina&ruta=precios",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-venc-20261117-01-v1",
+      "route": "/blog/vencimientos-arca-diciembre-2026",
+      "kind": "blog",
+      "sourcePath": "content/vencimientos-arca-diciembre-2026.json",
+      "sourceFileSha256": "b6aebd638da97b75ec459f7a16600ae79ac3d9d51768deef830ed971dc7ea8ca",
+      "contentSha256": "1b7eeebb5b24dabf3bbb9c095490c4d356387486b541b3a42ce8ef9d7a30a827",
+      "canonical": "https://sodi.com.ar/blog/vencimientos-arca-diciembre-2026",
+      "internalLinks": [
+        "/blog/vencimientos-arca-noviembre-diciembre-2026",
+        "/blog/calendario-vencimientos-arca",
+        "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+        "/blog/factura-electronica-arca-2026",
+        "/blog/monotributista-puede-vender-online-argentina"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=vencimientos-arca-diciembre-2026&ruta=guias",
+      "release": {
+        "index": true,
+        "follow": true,
+        "sitemapEligible": true,
+        "ownerApproved": true,
+        "productionAuthorized": true
+      }
+    },
+    {
+      "packetId": "sodi-venc-20261117-02-v1",
+      "route": "/blog/calendario-vencimientos-arca",
+      "kind": "blog",
+      "sourcePath": "content/calendario-vencimientos-arca.json",
+      "sourceFileSha256": "175410f73e49284216385645854eddb16658340b5b1690984cd430b29436799f",
+      "contentSha256": "a2851726203fb6a3126e9cd26c45b7efff4b185db216c06fd822d6990ca4240c",
+      "canonical": "https://sodi.com.ar/blog/calendario-vencimientos-arca",
+      "internalLinks": [
+        "/blog/vencimientos-arca-diciembre-2026",
+        "/blog/vencimientos-arca-noviembre-diciembre-2026",
+        "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
+        "/blog/factura-electronica-arca-2026"
+      ],
+      "ctaDestination": "/diagnostico?origen=blog&articulo=calendario-vencimientos-arca&ruta=guias",
       "release": {
         "index": true,
         "follow": true,
