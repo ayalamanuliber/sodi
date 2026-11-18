@@ -321,7 +321,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-google-workspace-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-google-workspace-argentina.json",
-      "sourceFileSha256": "8ad344af3eddf7c4e588bdd0edf4d2a9551d44bad8f76b05eb2d05798293bad1",
+      "sourceFileSha256": "0729cfd0a7d210924778b4abdbee0d6a9e695248fdb8aef3f25c0d7890bfc88d",
       "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-google-workspace-argentina",
       "internalLinks": [
@@ -369,7 +369,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-redaccion-contenidos-seo-argentina.json",
-      "sourceFileSha256": "e58e62b34f4babd2b918c1f8409a058ac3b6e8864ef806b473755d0d872806b2",
+      "sourceFileSha256": "3912489420ebd864f83c72839249b465ca029e018825fd79351058a874033ddc",
       "contentSha256": "dd74981ffc9563b332af5278e3d57b28be8d8851a11dcea54a3a0dc64a4f7133",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-redaccion-contenidos-seo-argentina",
       "internalLinks": [
