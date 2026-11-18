@@ -40,7 +40,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 19/11/2026 (sodi-f959, radar fiscal): fecha de consulta a ARCA actualizada a 19/11/2026 en 3 notas (que-pasa-si-vendo-online-sin-facturar, como-preparar-negocio-para-vender-online, como-vender-por-internet-argentina) tras releer arca.gob.ar/monotributo/categorias.asp el 19/11 (valores desde 1/08/2026 sin cambio: categoria A $12.009.410,45 y $49.527,18/mes, B $17.595.182,74 y $56.379,08/mes). Sin cambio de cifras.
   // Re-pin 19/11/2026 (sodi-6664, regla 17/11): bloque "Respuesta corta" sin cifras al inicio de la intro en redes-sociales-para-nutricionistas-coaches y redes-sociales-para-constructoras (editoriales; manufactura y presencia-digital se saltan por traer precios). Sin cambio de cifras.
   // Re-pin 19/11/2026 (sodi-0da9, precios en falta primaria): hosting con Respuesta corta de Hostinger releido el 19/11 (ARS 2.499 / 9.699) y DonWeb sin cifra (su tarifario cambio y no rotula el periodo); pagina web para inmobiliarias con Respuesta corta sin cifras. Alternativas a Mercado Pago sin cambio: Mercado Pago dio 403 el 19/11. Informe projects/contenido-seo/informes/sodi-precios-primaria-20261119.md en lagos-lab.
-  approvedCatalogContentSha256: "04cd7a41ac4d02ca163e42163a53ef77466b188b907e9ce449f0590f01dba1c1",
+  // Re-pin 18/11/2026 (sodi-5582, sodi-4e26 punto b): SEO en Argentina sin los rangos freelancer/agencia en USD ni la conversion a pesos de abril ni el pago unico USD 500-1.500 (sin fuente); en su lugar los tarifarios en pesos de Web360 (24/04), Mind Circus (14/09) y Agencia Digital 2026 leidos el 18/11, sin promedios; freelancer sin rango propio (solo cifras generales de Web360 y FINMI rotuladas).
+  approvedCatalogContentSha256: "b932a1bdc7cd1767d6b2df4736bcf676b86974142fee8868b6cee5b56ee49808",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
