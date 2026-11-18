@@ -7,7 +7,7 @@
   "siloLabel": "Turnos por Rubro",
   "tags": ["turnos online", "nutricionistas", "agenda nutrición", "reservas online", "consultas online"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-18",
   "readingTime": "8 min lectura",
   "relatedSlugs": ["pagina-web-para-nutricionistas", "cuanto-cuesta-app-de-turnos", "como-crear-sistema-de-turnos-online"],
   "content": {
@@ -19,7 +19,7 @@
       },
       {
         "heading": "Opciones SaaS para nutricionistas",
-        "body": "<p>Plataformas que funcionan para nutrición:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> ideal para nutricionistas individuales. Configurás tipos de consulta (primera vez, seguimiento, online, presencial), sincronizás con Google Calendar y el link de Google Meet se envía automáticamente. Gratis y profesional.</li><li><strong>AgendaPro (no pudimos leer su tarifario el 27/10/2026, consultalo en su sitio):</strong> agenda, recordatorios por WhatsApp, ficha de paciente donde podés registrar peso, mediciones y notas de cada consulta. Más completo para llevar historial.</li><li><strong>Cloxsy (planes desde $12.900 por mes + IVA, <a href=\"https://cloxsy.com\" rel=\"nofollow noopener\" target=\"_blank\">Cloxsy, consulta 27/10/2026</a>):</strong> simple y funcional. Agenda online con link compartible y recordatorios. Para empezar rápido sin complejidad.</li></ul><p><strong>Para nutricionistas individuales, Cal.com gratis es la mejor opción</strong>. Si querés llevar historial de paciente dentro del mismo sistema, AgendaPro vale la inversión.</p>"
+        "body": "<p>Plataformas que funcionan para nutrición:</p><ul><li><strong>Cal.com (gratis el plan básico):</strong> ideal para nutricionistas individuales. Configurás tipos de consulta (primera vez, seguimiento, online, presencial), sincronizás con Google Calendar y el link de Google Meet se envía automáticamente. Gratis y profesional.</li><li><strong>AgendaPro (no pudimos leer su tarifario el 27/10/2026, consultalo en su sitio):</strong> agenda, recordatorios por WhatsApp, ficha de paciente donde podés registrar peso, mediciones y notas de cada consulta. Más completo para llevar historial.</li><li><strong>Cloxsy (desde $12.900 por mes por agenda, <a href=\"https://cloxsy.com\" rel=\"nofollow noopener\" target=\"_blank\">Cloxsy, consulta 18/11/2026</a>):</strong> simple y funcional. Agenda online con link compartible y recordatorios. Para empezar rápido sin complejidad.</li></ul><p><strong>Para nutricionistas individuales, Cal.com gratis es la mejor opción</strong>. Si querés llevar historial de paciente dentro del mismo sistema, AgendaPro vale la inversión.</p>"
       },
       {
         "heading": "Desarrollo a medida: cuándo tiene sentido",
