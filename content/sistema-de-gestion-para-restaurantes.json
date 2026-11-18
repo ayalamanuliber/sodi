@@ -12,7 +12,7 @@
     "punto de venta"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-18",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "pagina-web-para-restaurantes",
@@ -32,7 +32,7 @@
       },
       {
         "heading": "SaaS vs sistema a medida para gastronomía",
-        "body": "<p>El mercado argentino tiene opciones maduras para gastronomía:</p><p><strong>SaaS especializados:</strong> iRestaurant, Restolution, Biyux, RestBar. Son soluciones probadas con miles de locales. Pagás por mes, incluyen soporte y actualizaciones. Funcionan bien para el 80% de los restaurantes.</p><p><strong>Sistema a medida:</strong> Tiene sentido si manejás una cadena con múltiples locales, tenés procesos de producción central, o necesitás integraciones específicas (delivery propio, programa de fidelidad, integración con tu <a href=\"/blog/pagina-web-para-restaurantes\">página web de restaurante</a>).</p><p>Para un restaurante individual o con 2-3 locales, un SaaS es casi siempre la mejor opción. El sistema ya resolvió los problemas típicos del rubro y la implementación es rápida. Si tenés 5+ locales o un modelo operativo complejo (dark kitchen + salón + catering), ahí sí evaluá algo a medida.</p>"
+        "body": "<p>El mercado argentino tiene opciones maduras para gastronomía:</p><p><strong>SaaS especializados:</strong> iRestaurant, Restolution, Biyux, RestBar. Son soluciones probadas en muchos locales. Pagás por mes, incluyen soporte y actualizaciones. Funcionan bien para la mayoría de los restaurantes.</p><p><strong>Sistema a medida:</strong> Tiene sentido si manejás una cadena con múltiples locales, tenés procesos de producción central, o necesitás integraciones específicas (delivery propio, programa de fidelidad, integración con tu <a href=\"/blog/pagina-web-para-restaurantes\">página web de restaurante</a>).</p><p>Para un restaurante individual o con 2-3 locales, un SaaS es casi siempre la mejor opción. El sistema ya resolvió los problemas típicos del rubro y la implementación es rápida. Si tenés 5+ locales o un modelo operativo complejo (dark kitchen + salón + catering), ahí sí evaluá algo a medida.</p>"
       },
       {
         "heading": "Costos de un sistema de gestión gastronómico en 2026",
@@ -40,7 +40,7 @@
       },
       {
         "heading": "Cómo implementar el sistema sin frenar tu restaurante",
-        "body": "<p>La implementación en gastronomía tiene un desafío único: <strong>no podés cerrar el local mientras instalás el sistema</strong>. Así se hace bien:</p><ul><li><strong>Configuración previa:</strong> Cargá la carta completa, recetas, precios y configuración de mesas antes de arrancar. Esto se hace fuera del horario de servicio.</li><li><strong>Día de prueba:</strong> Elegí un lunes o martes (día flojo) para el primer servicio con el sistema. Tené el plan B (papel) listo por si algo falla.</li><li><strong>Capacitación por roles:</strong> Los mozos necesitan aprender la toma de pedidos, la cocina necesita la pantalla de comandas, y el cajero la facturación. No entrenes a todos juntos.</li><li><strong>Primer semana en paralelo:</strong> Mantené el registro manual como respaldo. Después de una semana sin problemas, cortá el papel.</li><li><strong>Ajustes post-implementación:</strong> La primera semana vas a descubrir que faltan platos en la carta, que algún mozo no entiende el split de cuenta, o que la impresora de cocina se desconecta. Es normal. Ajustá sobre la marcha.</li></ul><p>Un restaurante típico está operando 100% con el nuevo sistema en 2-3 semanas.</p>"
+        "body": "<p>La implementación en gastronomía tiene un desafío único: <strong>no podés cerrar el local mientras instalás el sistema</strong>. Así se hace bien:</p><ul><li><strong>Configuración previa:</strong> Cargá la carta completa, recetas, precios y configuración de mesas antes de arrancar. Esto se hace fuera del horario de servicio.</li><li><strong>Día de prueba:</strong> Elegí un lunes o martes (día flojo) para el primer servicio con el sistema. Tené el plan B (papel) listo por si algo falla.</li><li><strong>Capacitación por roles:</strong> Los mozos necesitan aprender la toma de pedidos, la cocina necesita la pantalla de comandas, y el cajero la facturación. No entrenes a todos juntos.</li><li><strong>Primer semana en paralelo:</strong> Mantené el registro manual como respaldo. Después de una semana sin problemas, cortá el papel.</li><li><strong>Ajustes post-implementación:</strong> La primera semana vas a descubrir que faltan platos en la carta, que algún mozo no entiende el split de cuenta, o que la impresora de cocina se desconecta. Es normal. Ajustá sobre la marcha.</li></ul><p>El tiempo hasta operar 100% con el sistema nuevo depende del local y del proveedor: pedí un plazo por escrito antes de contratar.</p>"
       }
     ],
     "faqs": [

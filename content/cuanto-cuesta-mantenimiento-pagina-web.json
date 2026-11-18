@@ -13,7 +13,7 @@
     "SSL"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-11-17",
+  "dateModified": "2026-11-18",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-pagina-web-argentina",
@@ -35,7 +35,7 @@
       },
       {
         "heading": "Qué pasa si no le das mantenimiento a tu web",
-        "body": "<p>Lo vemos todas las semanas en SODI: PyMEs que pagaron una web a medida y en un año está rota. Los problemas más comunes sin mantenimiento:</p><p><strong>Hackeo:</strong> WordPress sin actualizar es el blanco favorito de los bots. Un plugin desactualizado con vulnerabilidad conocida tarda en promedio 72 horas en ser explotado. El costo de limpiar un sitio hackeado depende de cuánto se infectó y de si hay backup: si no lo hay, a veces hay que empezar de cero. Pedí presupuesto por escrito.</p><p><strong>Velocidad degradada:</strong> sin optimización regular, la base de datos se infla, las imágenes no se comprimen, el caché se corrompe. Una web que cargaba en 2 segundos pasa a cargar en 8. Google te baja del ranking y los usuarios se van. El <a href=\"/blog/que-es-seo-y-por-que-importa\">SEO</a> que habías ganado se pierde.</p><p><strong>Incompatibilidad:</strong> PHP se actualiza, los navegadores cambian, Google modifica sus requisitos. Sin actualizar plugins y temas, empezás a ver errores visuales, formularios que no envían y páginas que se rompen en celulares.</p><p><strong>Certificado SSL vencido:</strong> Chrome muestra un cartel rojo de \"Sitio no seguro\" y el 90% de los visitantes se va sin entrar. Hemos visto estudios jurídicos con el SSL vencido durante meses sin enterarse. Un desastre para la credibilidad.</p>"
+        "body": "<p>Lo vemos todas las semanas en SODI: PyMEs que pagaron una web a medida y en un año está rota. Los problemas más comunes sin mantenimiento:</p><p><strong>Hackeo:</strong> WordPress sin actualizar es el blanco favorito de los bots. Un plugin desactualizado con vulnerabilidad conocida tarda en promedio 72 horas en ser explotado. El costo de limpiar un sitio hackeado depende de cuánto se infectó y de si hay backup: si no lo hay, a veces hay que empezar de cero. Pedí presupuesto por escrito.</p><p><strong>Velocidad degradada:</strong> sin optimización regular, la base de datos se infla, las imágenes no se comprimen, el caché se corrompe. Una web que cargaba en 2 segundos pasa a cargar en 8. Google te baja del ranking y los usuarios se van. El <a href=\"/blog/que-es-seo-y-por-que-importa\">SEO</a> que habías ganado se pierde.</p><p><strong>Incompatibilidad:</strong> PHP se actualiza, los navegadores cambian, Google modifica sus requisitos. Sin actualizar plugins y temas, empezás a ver errores visuales, formularios que no envían y páginas que se rompen en celulares.</p><p><strong>Certificado SSL vencido:</strong> Chrome muestra un cartel rojo de \"Sitio no seguro\" y muchos visitantes se van sin entrar. Hemos visto estudios jurídicos con el SSL vencido durante meses sin enterarse. Un desastre para la credibilidad.</p>"
       },
       {
         "heading": "Qué podés hacer vos mismo y qué conviene tercerizar",
