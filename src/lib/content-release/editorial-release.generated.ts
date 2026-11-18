@@ -225,7 +225,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-agencia-de-marketing-digital-argentina.json",
-      "sourceFileSha256": "095dc3178af7838d6b93ee65a5fb0b3e7712245f2908475f9d706ac672aaac58",
+      "sourceFileSha256": "672de5d4d2081792a61373c5a5af3ea8b6983f7754f98163c1ad96ef43f68654",
       "contentSha256": "a7ba0272068c15da350f3c5c3ac161509f617945e14917e411c8539c2424bbe3",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "internalLinks": [
@@ -297,7 +297,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-contratar-programador-freelance-argentina.json",
-      "sourceFileSha256": "591e0c3013f50f33cab95181b1d9f3e531479dc8dbf32fc566bc67d94dcc5726",
+      "sourceFileSha256": "44179ac5d815ac448ebc868e4df1fd48cce69e6fe3c2fdc4a3e9b24a9a83e1eb",
       "contentSha256": "87c0fd33904a18d6f0926921388953ef10a1777b192c327389c70f2e53279138",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
       "internalLinks": [
