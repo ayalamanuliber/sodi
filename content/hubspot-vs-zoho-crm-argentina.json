@@ -53,7 +53,7 @@
       },
       {
         "question": "¿Necesito un implementador para configurar el CRM?",
-        "answer": "Para HubSpot Free, no. La interfaz es tan intuitiva que la mayoría de los usuarios lo configuran solos en 2-4 horas. Para Zoho con automatizaciones o para HubSpot Professional, sí conviene un implementador que te configure workflows, reportes y integraciones correctamente. El costo de un implementador por el setup inicial depende de la complejidad: pedí al menos tres presupuestos con el mismo alcance."
+        "answer": "Para HubSpot Free, no. La interfaz es sencilla y la configuración inicial se puede hacer sin ayuda externa (en nuestra experiencia, una o dos tardes de trabajo, según cuántos datos tengas que importar). Para Zoho con automatizaciones o para HubSpot Professional, sí conviene un implementador que te configure workflows, reportes y integraciones correctamente. El costo de un implementador por el setup inicial depende de la complejidad: pedí al menos tres presupuestos con el mismo alcance."
       }
     ],
     "ctaText": "¿Querés implementar un CRM pero no sabés por dónde empezar? En <strong>SODI</strong> te ayudamos a elegir, configurar e integrar el CRM que mejor se adapte a tu PyME. No vendemos licencias — te armamos la solución que necesitás. <a href='/contacto'>Consultá sin compromiso</a>."
