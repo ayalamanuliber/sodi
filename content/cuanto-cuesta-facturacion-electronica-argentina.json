@@ -15,7 +15,7 @@
     "programa de facturación electrónica"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-11-17",
+  "dateModified": "2026-11-18",
   "readingTime": "10 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-sistema-de-gestion-pymes",
@@ -44,7 +44,7 @@
       },
       {
         "heading": "Integración custom con sistema propio: cuándo conviene y cuánto sale",
-        "body": "<p>Si tu empresa tiene un sistema de gestión propio, un ecommerce custom, o un flujo de facturación complejo, necesitás una <strong>integración a medida con la API de ARCA</strong> (WSFE - Web Service de Facturación Electrónica).</p><p><strong>Costo de desarrollo (estimación de SODI para este tipo de proyecto, no un precio de mercado publicado):</strong> $500.000-$1.500.000 ARS dependiendo de la complejidad. El rango bajo es para una integración básica (emitir facturas A/B/C desde tu sistema). El rango alto incluye: notas de crédito/débito, facturas de exportación, factura electrónica de crédito (FCE), y manejo de múltiples puntos de venta.</p><p><strong>Tiempo de desarrollo:</strong> 2-6 semanas. La API de ARCA usa SOAP (tecnología antigua), tiene documentación mediocre, y un entorno de testing (homologación) que funciona distinto al productivo. No es un desarrollo trivial.</p><p><strong>Mantenimiento anual:</strong> $100.000-$300.000 ARS/año. ARCA cambia regulaciones y endpoints periódicamente. Si nadie mantiene la integración, un día deja de funcionar y no podés facturar.</p><p>¿Cuándo conviene el desarrollo custom? Si emitís más de 200 facturas/mes, si necesitás integración bidireccional con tu ERP o sistema de ventas, o si tu flujo de facturación tiene reglas de negocio específicas que ningún SaaS cubre. Para el resto, un sistema ya hecho suele alcanzar sin desarrollo, y los precios de lista arrancan en la tabla de arriba.</p>"
+        "body": "<p>Si tu empresa tiene un sistema de gestión propio, un ecommerce custom, o un flujo de facturación complejo, necesitás una <strong>integración a medida con la API de ARCA</strong> (WSFE - Web Service de Facturación Electrónica).</p><p><strong>Costo de desarrollo (estimación de SODI para este tipo de proyecto, no un precio de mercado publicado):</strong> $500.000-$1.500.000 ARS dependiendo de la complejidad. El rango bajo es para una integración básica (emitir facturas A/B/C desde tu sistema). El rango alto incluye: notas de crédito/débito, facturas de exportación, factura electrónica de crédito (FCE), y manejo de múltiples puntos de venta.</p><p><strong>Tiempo de desarrollo:</strong> 2-6 semanas (estimación de SODI, no un dato publicado). Hay que desarrollar y probar primero en el entorno de pruebas (homologación) de ARCA y recién después pasar al productivo. No es un desarrollo trivial.</p><p><strong>Mantenimiento anual:</strong> $100.000-$300.000 ARS/año. ARCA cambia regulaciones y endpoints periódicamente. Si nadie mantiene la integración, un día deja de funcionar y no podés facturar.</p><p>¿Cuándo conviene el desarrollo custom? Si emitís más de 200 facturas/mes, si necesitás integración bidireccional con tu ERP o sistema de ventas, o si tu flujo de facturación tiene reglas de negocio específicas que ningún SaaS cubre. Para el resto, un sistema ya hecho suele alcanzar sin desarrollo, y los precios de lista arrancan en la tabla de arriba.</p>"
       },
       {
         "heading": "MercadoPago y facturación automática para ecommerce",

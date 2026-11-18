@@ -225,7 +225,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-agencia-de-marketing-digital-argentina.json",
-      "sourceFileSha256": "672de5d4d2081792a61373c5a5af3ea8b6983f7754f98163c1ad96ef43f68654",
+      "sourceFileSha256": "b13b3b08fb7f506c0ba2d5715953527daf2849180a931af85b8f6cca5d81bcb6",
       "contentSha256": "a7ba0272068c15da350f3c5c3ac161509f617945e14917e411c8539c2424bbe3",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "internalLinks": [
@@ -297,7 +297,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-contratar-programador-freelance-argentina.json",
-      "sourceFileSha256": "44179ac5d815ac448ebc868e4df1fd48cce69e6fe3c2fdc4a3e9b24a9a83e1eb",
+      "sourceFileSha256": "80c56f4d1bd789cbe14d33ab461f306475f6a00d4cc54cc5068ed3ef203e1ffd",
       "contentSha256": "87c0fd33904a18d6f0926921388953ef10a1777b192c327389c70f2e53279138",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-contratar-programador-freelance-argentina",
       "internalLinks": [
@@ -321,7 +321,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-google-workspace-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-google-workspace-argentina.json",
-      "sourceFileSha256": "0729cfd0a7d210924778b4abdbee0d6a9e695248fdb8aef3f25c0d7890bfc88d",
+      "sourceFileSha256": "9c79e6fe16742b19d09e4319d8c7bf0f236fd8f21d74ddc7b0dc0b3712bd1746",
       "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-google-workspace-argentina",
       "internalLinks": [
@@ -441,7 +441,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
       "kind": "blog",
       "sourcePath": "content/aguinaldo-2026-pymes-como-calcular-cuando-pagar.json",
-      "sourceFileSha256": "1a78165366deac25086eb093873fc2f544c6147d204b50eae34bd8a1bdac8144",
+      "sourceFileSha256": "59bc1026e944e2d3490a33b53989744270ce8001e5bd0e046c6afd2e08245362",
       "contentSha256": "2ce0e167bea748ad791c064aedeb3b53f91699ac2be5ecfb3527f3055319acc6",
       "canonical": "https://sodi.com.ar/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
       "internalLinks": [
