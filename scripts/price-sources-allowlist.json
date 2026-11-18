@@ -1017,13 +1017,6 @@
    "22237ba1276827c3": "Mailchimp tiene las automatizaciones más sofisticadas (customer journeys complejos), pero "
   },
   "marketing-digital-vs-tradicional": {
-   "0fd14ec3e78bf23b": "Meta Ads (Instagram + Facebook): CPC (costo por click) promedio $15-$50 ARS. Con $50.000/m",
-   "e5af7bb8c80e9149": "Google Ads: CPC promedio $30-$150 ARS dependiendo del rubro. Más caro que Meta pero con ma",
-   "4e2e1a581b0a21f9": "SEO: inversión de $50.000-$150.000/mes en contenido y optimización. Resultados en 3-6 mese",
-   "6542ec0e0caa868c": "Folletos/volantes: $15.000-$30.000 por 1.000 unidades full color",
-   "3038207337c48afa": "Cartelería vía pública: $50.000-$200.000/mes por ubicación (varía mucho por zona)",
-   "a2008e9b5bbb91de": "Radio local: $30.000-$100.000/mes por tanda de avisos",
-   "b5ba69b8ddf9b538": "Publicación en diario local: $20.000-$80.000 por aviso",
    "a940fd432db5321e": "$100.000 en Meta Ads:",
    "0de721006182fd17": "Costo por cliente: $5.500-$16.600",
    "06515d8145113f74": "$100.000 en radio local:",
@@ -2172,7 +2165,6 @@
   },
   "sistema-de-turnos-vs-whatsapp": {
    "e3ef92eff350f71d": "WhatsApp funciona para 5 turnos/día. Más de eso, perdés reservas por demora. Un sistema de",
-   "afa041354c2d8746": "Un sistema de turnos online cuesta desde $10.000 ARS/mes y elimina el 90% de estos problem",
    "76e66d8820bceb0b": "Si cada turno vale en promedio $15.000-$30.000 ARS (consulta médica, sesión de psicólogo, ",
    "bfd41bc77661a93e": "Un sistema de turnos online cuesta $10.000-$50.000/mes. El ROI es obsceno.",
    "b8c04e475b91b250": "Calendly: desde $0 (1 tipo de evento) hasta $10 USD/mes (~$12.000 ARS) por usuario. Simple",
@@ -2269,17 +2261,6 @@
    "a392154ca3d60d9c": "El plan gratuito de Notion es generoso para uso individual (páginas ilimitadas) pero limit",
    "5e064661b45da8fb": "El plan gratuito de Notion permite hasta 10 invitados con acceso limitado. Para colaboraci"
   },
-  "whatsapp-vs-email-para-ventas-argentina": {
-   "2ad69c74ab6ccb1a": "Costo Gratis (Business) / $0.03-0.08 USD/mensaje (API) Gratis (Brevo) / $9-50 USD/mes",
-   "f3ffab742c094a44": "Costo: $0.03-0.08 USD por mensaje según el tipo.",
-   "b0d70264769237be": "Escalabilidad: mandar 10.000 emails cuesta $0-$50 USD/mes. Mandar 10.000 mensajes de Whats",
-   "b5bd40043cc3e141": "El email es el canal de mayor ROI del marketing digital: $36 por cada $1 invertido según l",
-   "c2837cb34db2c0f3": "Brevo o Doppler ($0-$10 USD/mes): para email marketing con automatizaciones. Brevo tiene p",
-   "08cab48166aab7b1": "Zapier o Make ($0-$20 USD/mes): para conectar todo. Ejemplo: formulario web → crea contact",
-   "4ccbd8f64df81cca": "Costo total para arrancar: $0 si usás las versiones gratuitas de todo. $30-50 USD/mes si q",
-   "ed703921edab0136": "La API en sí es gratuita, pero necesitás un proveedor (Twilio, 360dialog, WATI). Los costo",
-   "31b71cbd4def1460": "Sí. El email tiene un ROI promedio de $36 por cada $1 invertido. La clave es hacer email m"
-  },
   "woocommerce-vs-tiendanube-argentina": {
    "47f9684b5534baad": "Tiendanube desde $0 ARS/mes sin developer. WooCommerce desde $5 USD/mes pero necesitás téc",
    "e4c7c0d485d0ce28": "Precio base $0 ARS/mes (plan gratis) $0 (plugin gratis) + hosting",
@@ -2367,7 +2348,6 @@
   "marketing-digital-vs-tradicional": {
    "e14cd55c437ad1b4": "Simulación ilustrativa, con supuestos nuestros y no datos medidos (estimación de SODI al 2",
    "c129adca12784983": "Es una estimación de SODI al 27/10/2026, sin fuente pública: mínimo $50.000-$100.000 ARS/m",
-   "4cebe00c2d5536f7": "Sí, Meta Ads (Instagram + Facebook) es el canal más accesible para PyMEs argentinas. Con $",
    "6d8498b1ca409f5e": "Sí, especialmente para servicios profesionales. Google Ads captura gente con intención de "
   },
   "sistema-de-turnos-para-gimnasios": {
