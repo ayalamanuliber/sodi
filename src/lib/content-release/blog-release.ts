@@ -38,7 +38,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 18/11/2026 (sodi-0b61, pre-vuelo lote 8, regla 17/11): SEO en Argentina con el rango en pesos de FINMI (leido 02/11) y Ahrefs rotulado como dato no argentino (leido 18/11) en lugar de los rangos en USD sin fuente en meta, intro y FAQ, sin el 80% de las PyMEs; WhatsApp para restaurantes sin el monto de setup custom sin fuente.
   // Re-pin 18/11/2026 (sodi-e441, publicacion de la tanda sodi-f1c0 aprobada por Manuel 18/11 11:20): bloque "Respuesta corta" con montos de terceros en 8 guias cuanto-cuesta (agencia, community manager, consultor por hora, consultoria, programador freelance, mantenimiento web, Facebook/Instagram, software a medida), 10 fuentes releidas el 18/11 y montos verificados; etiqueta de la intro renombrada en 3 paginas que ya abrian con Respuesta corta (community manager, programador, software a medida)
   // Re-pin 19/11/2026 (sodi-f959, radar fiscal): fecha de consulta a ARCA actualizada a 19/11/2026 en 3 notas (que-pasa-si-vendo-online-sin-facturar, como-preparar-negocio-para-vender-online, como-vender-por-internet-argentina) tras releer arca.gob.ar/monotributo/categorias.asp el 19/11 (valores desde 1/08/2026 sin cambio: categoria A $12.009.410,45 y $49.527,18/mes, B $17.595.182,74 y $56.379,08/mes). Sin cambio de cifras.
-  approvedCatalogContentSha256: "53cdd7dd65cd76ac81586d0307a0e7ab9d2eed5f47ccda61e00ddbb9e5f0d4d1",
+  // Re-pin 19/11/2026 (sodi-6664, regla 17/11): bloque "Respuesta corta" sin cifras al inicio de la intro en redes-sociales-para-nutricionistas-coaches y redes-sociales-para-constructoras (editoriales; manufactura y presencia-digital se saltan por traer precios). Sin cambio de cifras.
+  approvedCatalogContentSha256: "4b5dfb4b601e28abae5dc7478b468c09526241bd825d0cf5f974bcc98e3fe912",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
