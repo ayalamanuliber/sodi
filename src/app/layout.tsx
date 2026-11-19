@@ -1,22 +1,31 @@
 import type { Metadata, Viewport } from "next";
-import { Sora, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { ProductionAnalytics } from "@/components/analytics/ProductionAnalytics";
 import { WhatsAppFloat } from "@/components/landing/WhatsAppFloat";
 import { ogImages } from "@/lib/og-card";
 import "./globals.css";
 
-const sora = Sora({
+const sora = localFont({
   variable: "--font-heading",
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+  src: [
+    { path: "./fonts/sora-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/sora-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/sora-latin-700-normal.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/sora-latin-800-normal.woff2", weight: "800", style: "normal" },
+  ],
   // next/font's metric-matched fallback uses local(Arial), absent on Android and Linux; see globals.css.
   fallback: ["sodi-sora-fallback", "sans-serif"],
 });
 
-const inter = Inter({
+const inter = localFont({
   variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  src: [
+    { path: "./fonts/inter-latin-300-normal.woff2", weight: "300", style: "normal" },
+    { path: "./fonts/inter-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/inter-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/inter-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/inter-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
   fallback: ["sodi-inter-fallback", "sans-serif"],
   // Body font: not preloaded, so it does not hold the first render (preloaded fonts are render-blocking in Chrome).
   // With the metric-matched fallback the swap barely moves text.
