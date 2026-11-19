@@ -1,13 +1,25 @@
 import type { MetadataRoute } from "next";
 
-const SEARCH_AND_USER_TRIGGERED_BOTS = [
+// Reputable search, AI-assistant and AI-training crawlers that honor robots.txt.
+// Manuel 19/11/2026: SODI wants to be found and cited by AI tools, so good AI bots are welcome.
+const ALLOWED_SEARCH_AND_AI_BOTS = [
   "OAI-SearchBot",
   "ChatGPT-User",
+  "GPTBot",
   "Claude-SearchBot",
+  "Claude-User",
+  "ClaudeBot",
+  "anthropic-ai",
   "PerplexityBot",
+  "Perplexity-User",
+  "Google-Extended",
+  "Applebot-Extended",
+  "Amazonbot",
+  "CCBot",
 ];
 
-const TRAINING_AND_BULK_CRAWL_BOTS = [
+// SEO scrapers, bulk harvesters and crawlers for markets SODI does not serve.
+const BULK_CRAWL_BOTS = [
   "AhrefsBot",
   "SemrushBot",
   "MJ12bot",
@@ -20,12 +32,6 @@ const TRAINING_AND_BULK_CRAWL_BOTS = [
   "Bytespider",
   "PetalBot",
   "ZoominfoBot",
-  "GPTBot",
-  "CCBot",
-  "anthropic-ai",
-  "ClaudeBot",
-  "Amazonbot",
-  "Applebot-Extended",
   "Diffbot",
   "omgili",
   "Barkrowler",
@@ -45,11 +51,11 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
       {
-        userAgent: SEARCH_AND_USER_TRIGGERED_BOTS,
+        userAgent: ALLOWED_SEARCH_AND_AI_BOTS,
         allow: "/",
       },
       {
-        userAgent: TRAINING_AND_BULK_CRAWL_BOTS,
+        userAgent: BULK_CRAWL_BOTS,
         disallow: "/",
       },
     ],
