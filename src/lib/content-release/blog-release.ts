@@ -40,7 +40,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 19/11/2026 (sodi-f959, radar fiscal): fecha de consulta a ARCA actualizada a 19/11/2026 en 3 notas (que-pasa-si-vendo-online-sin-facturar, como-preparar-negocio-para-vender-online, como-vender-por-internet-argentina) tras releer arca.gob.ar/monotributo/categorias.asp el 19/11 (valores desde 1/08/2026 sin cambio: categoria A $12.009.410,45 y $49.527,18/mes, B $17.595.182,74 y $56.379,08/mes). Sin cambio de cifras.
   // Re-pin 19/11/2026 (sodi-6664, regla 17/11): bloque "Respuesta corta" sin cifras al inicio de la intro en redes-sociales-para-nutricionistas-coaches y redes-sociales-para-constructoras (editoriales; manufactura y presencia-digital se saltan por traer precios). Sin cambio de cifras.
   // Re-pin 19/11/2026 (sodi-0da9, precios en falta primaria): hosting con Respuesta corta de Hostinger releido el 19/11 (ARS 2.499 / 9.699) y DonWeb sin cifra (su tarifario cambio y no rotula el periodo); pagina web para inmobiliarias con Respuesta corta sin cifras. Alternativas a Mercado Pago sin cambio: Mercado Pago dio 403 el 19/11. Informe projects/contenido-seo/informes/sodi-precios-primaria-20261119.md en lagos-lab.
-  approvedCatalogContentSha256: "04cd7a41ac4d02ca163e42163a53ef77466b188b907e9ce449f0590f01dba1c1",
+  // Re-pin 20/11/2026 (sodi-cifras-top, sodi-1121): releidas las primarias del top 10 por impresiones (ARCA agenda, Randstad, Aprender21, Web360, Develop Argentina, FINMI, TikTok Ads, MODO, DonWeb, Mobbex, RG 5617). Software a medida sin el 70% de PyMEs, el 15-20% de mantenimiento, el 1,3-1,5x y los plazos sin fuente (plazos de Develop Argentina); MODO vs Mercado Pago sin el 0% de transferencia sin fuente.
+  approvedCatalogContentSha256: "77c4419c92645fbf21a571767db476d48cd867e7243b8f2ad5594cbbfa5f05c5",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
