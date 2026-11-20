@@ -2,7 +2,7 @@
   "slug": "vencimientos-arca-diciembre-2026",
   "title": "Vencimientos ARCA diciembre 2026: monotributo, IVA, F.931 y Ganancias por terminación de CUIT",
   "metaTitle": "Vencimientos ARCA diciembre 2026: monotributo, IVA, F.931",
-  "metaDescription": "Vencimientos ARCA diciembre 2026 por CUIT: monotributo 21/12, IVA 18 al 24/12, F.931 y autónomos 9 al 11/12. Agenda de ARCA leída el 17/11/2026. Enero 2027: pendiente.",
+  "metaDescription": "Vencimientos ARCA diciembre 2026 por CUIT: monotributo 21/12, IVA 18 al 24/12, F.931 y autónomos 9 al 11/12. Agenda de ARCA leída el 20/11/2026. Aguinaldo 18/12. Enero 2027: pendiente.",
   "silo": "guias",
   "siloLabel": "Guías Prácticas",
   "tags": [
@@ -13,7 +13,7 @@
     "pymes"
   ],
   "datePublished": "2026-11-17",
-  "dateModified": "2026-11-17",
+  "dateModified": "2026-11-20",
   "readingTime": "5 min lectura",
   "relatedSlugs": [
     "vencimientos-arca-noviembre-diciembre-2026",
@@ -32,7 +32,7 @@
     "contentSha256": "1b7eeebb5b24dabf3bbb9c095490c4d356387486b541b3a42ce8ef9d7a30a827"
   },
   "content": {
-    "intro": "<p><strong>Respuesta corta:</strong> el monotributo de diciembre vence el 21/12/2026 para todas las terminaciones de CUIT. El IVA de noviembre se presenta e ingresa entre el 18 y el 24 de diciembre, según la terminación. Las cargas sociales de empleadores (F.931) y los aportes de autónomos vencen del 9 al 11 de diciembre.</p><p><strong>¿Y enero de 2027?</strong> ARCA todavía no cargó enero de 2027: la consulta del 17/11/2026 por el rango 01/01/2027-31/01/2027 devolvió \"se ingresó un rango de fecha que no está cargado\". No publicamos fechas de enero hasta que estén en la agenda oficial. Cuando ARCA lo cargue, esta página suma una sección de enero.</p><p>Fechas de <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a> de ARCA, consulta por rango 01/12/2026-31/12/2026 hecha el 17/11/2026 (la pantalla mostró \"actualizada al 16/11/2026\"). No usamos calendarios de terceros. Si ARCA modifica un vencimiento por resolución, la agenda oficial es la que manda: revisala antes de pagar. Para el resto del mes pasado y el panorama general, mirá el <a href=\"/blog/calendario-vencimientos-arca\">calendario de vencimientos ARCA</a> y la página de <a href=\"/blog/vencimientos-arca-noviembre-diciembre-2026\">noviembre y diciembre 2026</a>.</p>",
+    "intro": "<p><strong>Respuesta corta:</strong> el monotributo de diciembre vence el 21/12/2026 para todas las terminaciones de CUIT. El IVA de noviembre se presenta e ingresa entre el 18 y el 24 de diciembre, según la terminación. Las cargas sociales de empleadores (F.931) y los aportes de autónomos vencen del 9 al 11 de diciembre.</p><p><strong>Aguinaldo y recategorización:</strong> la segunda cuota del aguinaldo vence el 18/12/2026 (viernes), según el art. 122 de la Ley de Contrato de Trabajo: la cuenta está en la <a href=\"/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar\">guía de aguinaldo 2026 para pymes</a>. La recategorización del monotributo no es en diciembre ni en enero: ARCA la hace en febrero y agosto, con trámite hasta el día 5 de febrero o de agosto según corresponda.</p><p><strong>¿Y enero de 2027?</strong> ARCA todavía no cargó enero de 2027: la consulta por el rango 01/01/2027-31/01/2027 devolvió \"se ingresó un rango de fecha que no está cargado\" el 17/11/2026 y de nuevo el 20/11/2026. No publicamos fechas de enero hasta que estén en la agenda oficial. Cuando ARCA lo cargue, esta página suma una sección de enero.</p><p>Fechas de <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a> de ARCA, consulta por rango 01/12/2026-31/12/2026 hecha el 17/11/2026 (la pantalla mostró \"actualizada al 16/11/2026\") y repetida el 20/11/2026 (la pantalla mostró \"actualizada al 19/11/2026\"), con las mismas fechas de monotributo, IVA, F.931 y autónomos. No usamos calendarios de terceros. Si ARCA modifica un vencimiento por resolución, la agenda oficial es la que manda: revisala antes de pagar. Para el resto del mes pasado y el panorama general, mirá el <a href=\"/blog/calendario-vencimientos-arca\">calendario de vencimientos ARCA</a> y la página de <a href=\"/blog/vencimientos-arca-noviembre-diciembre-2026\">noviembre y diciembre 2026</a>.</p>",
     "sections": [
       {
         "heading": "Cómo leer las tablas: la terminación de CUIT",
@@ -63,12 +63,16 @@
         "body": "<p>Sociedades, empresas o explotaciones unipersonales, fideicomisos y otros, régimen general: declaración jurada (F. 713) e ingreso del saldo de los ejercicios cerrados en julio/2026.</p><div class=\"table-wrap\"><table><thead><tr><th>Terminación de CUIT</th><th>Ejercicio cerrado en julio/2026: presentación</th><th>Ejercicio cerrado en julio/2026: saldo</th></tr></thead><tbody><tr><td>0, 1, 2 y 3</td><td>14/12/2026</td><td>15/12/2026</td></tr><tr><td>4, 5 y 6</td><td>15/12/2026</td><td>16/12/2026</td></tr><tr><td>7, 8 y 9</td><td>16/12/2026</td><td>17/12/2026</td></tr></tbody></table></div><p>Los anticipos de sociedades vencen el 14, 15 y 16/12/2026 (terminaciones 0-3, 4-6 y 7-9). La agenda también fija la presentación de memoria y estados contables de los ejercicios cerrados en junio/2026 el 31/12/2026.</p>"
       },
       {
+        "heading": "Aguinaldo y recategorización: qué fecha mirar",
+        "body": "<p>Dos fechas que se buscan junto con los vencimientos de fin de año y no figuran en las tablas de arriba:</p><ul><li><strong>Aguinaldo (sueldo anual complementario):</strong> la segunda cuota vence el 18/12/2026, que cae viernes (<a href=\"https://www.argentina.gob.ar/normativa/nacional/ley-20744-25552/actualizacion\" rel=\"nofollow noopener\">Ley de Contrato de Trabajo, art. 122, en Argentina.gob.ar</a>, leída el 20/11/2026). Cómo se calcula, con ejemplo numérico, está en la <a href=\"/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar\">guía de aguinaldo 2026</a>. La fecha de las cargas sociales sobre el aguinaldo no figura aparte en esta agenda: confirmala con tu contador.</li><li><strong>Recategorización del monotributo:</strong> ARCA indica que se hace dos veces por año, en febrero y en agosto, evaluando los últimos 12 meses de actividad, y que el trámite puede hacerse hasta el día 5 de febrero o de agosto (<a href=\"https://www.arca.gob.ar/monotributo/ayuda/recategorizacion.asp\" rel=\"nofollow noopener\">ARCA, recategorización</a>, leída el 20/11/2026). La fecha puntual de febrero de 2027 todavía no está publicada. Mientras tanto, la cuota de diciembre y la de enero se pagan en la categoría vigente.</li></ul>"
+      },
+      {
         "heading": "Qué no incluye esta página",
         "body": "<p>No incluye regímenes especiales ni obligaciones de provincias y municipios (Ingresos Brutos, tasas municipales), ni vencimientos propios de tu actividad. Tampoco hay fechas de enero de 2027 todavía, por lo dicho arriba.</p>"
       },
       {
         "heading": "Fuentes y fecha de lectura",
-        "body": "<p>Leído el 17/11/2026:</p><ul><li><a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a>, consulta por rango 01/12/2026-31/12/2026. La pantalla indicó \"información actualizada al 16/11/2026\". La consulta por 01/01/2027-31/01/2027 no devolvió datos (rango no cargado).</li><li><a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">ARCA, portal de vencimientos</a>: entrada a la agenda y a las formas de pago.</li></ul><p><strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse y cada contribuyente tiene obligaciones propias: consultá con tu contador antes de presentar o pagar.</p>"
+        "body": "<p>Leído el 17/11/2026 y releído el 20/11/2026 (agenda \"actualizada al 19/11/2026\", sin cambios en las fechas de esta página; la consulta de enero de 2027 siguió sin datos):</p><ul><li><a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a>, consulta por rango 01/12/2026-31/12/2026. La pantalla indicó \"información actualizada al 16/11/2026\". La consulta por 01/01/2027-31/01/2027 no devolvió datos (rango no cargado).</li><li><a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">ARCA, portal de vencimientos</a>: entrada a la agenda y a las formas de pago.</li></ul><p><strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse y cada contribuyente tiene obligaciones propias: consultá con tu contador antes de presentar o pagar.</p>"
       }
     ],
     "faqs": [
@@ -90,11 +94,19 @@
       },
       {
         "question": "¿Ya están los vencimientos de enero 2027?",
-        "answer": "Todavía no. El 17/11/2026 la agenda de ARCA no tenía cargado el rango de enero de 2027. Esta página se actualiza cuando lo publique."
+        "answer": "Todavía no. El 17/11/2026 y el 20/11/2026 la agenda de ARCA no tenía cargado el rango de enero de 2027. Esta página se actualiza cuando lo publique."
       },
       {
         "question": "¿Dónde confirmo las fechas?",
         "answer": "En la agenda de vencimientos de ARCA, en el sitio oficial arca.gob.ar. Es la fuente de esta página y la que prevalece si hay una modificación."
+      },
+      {
+        "question": "¿Cuándo vence el aguinaldo de diciembre 2026?",
+        "answer": "El 18/12/2026, viernes, según el art. 122 de la Ley de Contrato de Trabajo (Argentina.gob.ar, leído el 20/11/2026). Cuenta y ejemplo en la guía de aguinaldo 2026 para pymes."
+      },
+      {
+        "question": "¿Cuándo es la recategorización del monotributo?",
+        "answer": "ARCA la hace en febrero y en agosto, con trámite hasta el día 5 de esos meses (página de recategorización de ARCA, leída el 20/11/2026). No hay recategorización en diciembre ni en enero; la fecha puntual de febrero de 2027 todavía no está publicada."
       }
     ],
     "ctaText": "¿Querés que los vencimientos de tu negocio te lleguen como recordatorio por WhatsApp? En SODI armamos esos avisos y tableros simples. Hablemos."

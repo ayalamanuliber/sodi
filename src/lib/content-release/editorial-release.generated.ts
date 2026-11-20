@@ -441,10 +441,11 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
       "kind": "blog",
       "sourcePath": "content/aguinaldo-2026-pymes-como-calcular-cuando-pagar.json",
-      "sourceFileSha256": "59bc1026e944e2d3490a33b53989744270ce8001e5bd0e046c6afd2e08245362",
+      "sourceFileSha256": "d20fa71df3daacc0f226d030939ae797d59c075e305f66abf2f7ef6516e84858",
       "contentSha256": "2ce0e167bea748ad791c064aedeb3b53f91699ac2be5ecfb3527f3055319acc6",
       "canonical": "https://sodi.com.ar/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar",
       "internalLinks": [
+        "/blog/vencimientos-arca-diciembre-2026",
         "/blog/vencimientos-arca-noviembre-diciembre-2026",
         "/blog/como-escalar-operacion-sin-contratar",
         "/blog/contratar-programador-vs-agencia",
@@ -465,7 +466,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
-      "sourceFileSha256": "7c07d6548f0dac84c732bb85ebe50a80b022aeefe46fe034a2af1422597ce6f9",
+      "sourceFileSha256": "1b316b54e30968b379872d87a197428fa779ddd3f7ab1b0a1d9600825d3a30b2",
       "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
       "internalLinks": [
@@ -539,7 +540,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/vencimientos-arca-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-diciembre-2026.json",
-      "sourceFileSha256": "b6aebd638da97b75ec459f7a16600ae79ac3d9d51768deef830ed971dc7ea8ca",
+      "sourceFileSha256": "be54f8137015529dfce53c17e443a5d77eb886112242d48e9fa99a9f95c19632",
       "contentSha256": "1b7eeebb5b24dabf3bbb9c095490c4d356387486b541b3a42ce8ef9d7a30a827",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-diciembre-2026",
       "internalLinks": [
@@ -563,7 +564,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/calendario-vencimientos-arca",
       "kind": "blog",
       "sourcePath": "content/calendario-vencimientos-arca.json",
-      "sourceFileSha256": "175410f73e49284216385645854eddb16658340b5b1690984cd430b29436799f",
+      "sourceFileSha256": "a2dc4ed47ef6d39fe9ffb1434d700d7094d36fe09a3faab1f7f5b5f1a1f876f8",
       "contentSha256": "a2851726203fb6a3126e9cd26c45b7efff4b185db216c06fd822d6990ca4240c",
       "canonical": "https://sodi.com.ar/blog/calendario-vencimientos-arca",
       "internalLinks": [

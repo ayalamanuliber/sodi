@@ -13,7 +13,7 @@
     "pymes"
   ],
   "datePublished": "2026-11-17",
-  "dateModified": "2026-11-17",
+  "dateModified": "2026-11-20",
   "readingTime": "3 min lectura",
   "relatedSlugs": [
     "vencimientos-arca-diciembre-2026",
@@ -38,8 +38,12 @@
         "body": "<ul><li><a href=\"/blog/vencimientos-arca-diciembre-2026\">Vencimientos ARCA diciembre 2026</a>: monotributo, IVA, F.931, autónomos, Ganancias y Bienes Personales.</li><li><a href=\"/blog/vencimientos-arca-noviembre-diciembre-2026\">Vencimientos ARCA noviembre y diciembre 2026</a>: incluye noviembre completo.</li></ul>"
       },
       {
+        "heading": "Otras fechas de fin de año que se buscan junto con los vencimientos",
+        "body": "<ul><li><strong>Aguinaldo:</strong> segunda cuota el 18/12/2026 (<a href=\"https://www.argentina.gob.ar/normativa/nacional/ley-20744-25552/actualizacion\" rel=\"nofollow noopener\">LCT, art. 122</a>, leída el 20/11/2026). Guía con cálculo: <a href=\"/blog/aguinaldo-2026-pymes-como-calcular-cuando-pagar\">aguinaldo 2026 para pymes</a>.</li><li><strong>Recategorización del monotributo:</strong> febrero y agosto, con trámite hasta el día 5 de esos meses (<a href=\"https://www.arca.gob.ar/monotributo/ayuda/recategorizacion.asp\" rel=\"nofollow noopener\">ARCA</a>, leída el 20/11/2026); no es en enero. La fecha de febrero de 2027 todavía no está publicada.</li></ul>"
+      },
+      {
         "heading": "Cómo leer la agenda de ARCA",
-        "body": "<p>Casi todos los vencimientos dependen del último dígito de tu CUIT, el número que va después del guion final. La agenda oficial permite consultar por rango de fechas y por impuesto: <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a>. Si el rango que buscás no está cargado, la agenda lo avisa; ese fue el caso de enero de 2027 el 17/11/2026.</p>"
+        "body": "<p>Casi todos los vencimientos dependen del último dígito de tu CUIT, el número que va después del guion final. La agenda oficial permite consultar por rango de fechas y por impuesto: <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">Agenda de vencimientos de ARCA (sintética)</a>. Si el rango que buscás no está cargado, la agenda lo avisa; ese fue el caso de enero de 2027 el 17/11/2026 y el 20/11/2026.</p>"
       },
       {
         "heading": "Qué obligaciones cubren las páginas del mes",
@@ -47,7 +51,7 @@
       },
       {
         "heading": "Fuentes y fecha de lectura",
-        "body": "<p>Leído el 17/11/2026: <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">agenda de vencimientos de ARCA</a> y <a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">portal de vencimientos de ARCA</a>. <strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse: consultá con tu contador antes de presentar o pagar.</p>"
+        "body": "<p>Leído el 17/11/2026 y releído el 20/11/2026 (agenda actualizada al 19/11/2026, mismas fechas de diciembre; enero de 2027 sigue sin cargar): <a href=\"https://seti.afip.gob.ar/av/seleccionVencimientosSintetica.do\" rel=\"nofollow noopener\">agenda de vencimientos de ARCA</a> y <a href=\"https://www.arca.gob.ar/vencimientos/\" rel=\"nofollow noopener\">portal de vencimientos de ARCA</a>. <strong>Descargo:</strong> información orientativa, no es asesoramiento contable ni impositivo. Los vencimientos pueden modificarse: consultá con tu contador antes de presentar o pagar.</p>"
       }
     ],
     "faqs": [
@@ -61,7 +65,11 @@
       },
       {
         "question": "¿Cuándo se publican los vencimientos de enero 2027?",
-        "answer": "Cuando ARCA cargue el rango en su agenda. El 17/11/2026 todavía no estaba disponible."
+        "answer": "Cuando ARCA cargue el rango en su agenda. El 17/11/2026 y el 20/11/2026 todavía no estaba disponible."
+      },
+      {
+        "question": "¿Cuándo es la recategorización del monotributo?",
+        "answer": "En febrero y en agosto, con trámite hasta el día 5 de cada mes (ARCA, leído el 20/11/2026). No es en enero."
       }
     ],
     "ctaText": "¿Querés que los vencimientos de tu negocio te lleguen como recordatorio por WhatsApp? En SODI armamos esos avisos y tableros simples. Hablemos."
