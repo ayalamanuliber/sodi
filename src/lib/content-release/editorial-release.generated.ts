@@ -225,7 +225,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-agencia-de-marketing-digital-argentina.json",
-      "sourceFileSha256": "41e2e1a6b209207135bde899e195aa4664b24c812d991175f60bee1569947832",
+      "sourceFileSha256": "e24bfbcd3544d813332f69e39580ab649180fd90f6bb6cc0e4023dc312451650",
       "contentSha256": "a7ba0272068c15da350f3c5c3ac161509f617945e14917e411c8539c2424bbe3",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "internalLinks": [
@@ -321,7 +321,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-google-workspace-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-google-workspace-argentina.json",
-      "sourceFileSha256": "9c79e6fe16742b19d09e4319d8c7bf0f236fd8f21d74ddc7b0dc0b3712bd1746",
+      "sourceFileSha256": "b85fc44cdfe5d59c660fb3bcf63ffb27a79a1f50c686d68213900196b3caacc3",
       "contentSha256": "986eccd03808623a41c4af51592cdc0b9f0a5e0c7278aa648dc15f60da8047ec",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-google-workspace-argentina",
       "internalLinks": [
@@ -393,7 +393,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/black-friday-argentina-2026-ecommerce-pyme",
       "kind": "blog",
       "sourcePath": "content/black-friday-argentina-2026-ecommerce-pyme.json",
-      "sourceFileSha256": "68f5473b7dae709442451fa8f83e25c639c84abdece11aaeeaf4fb035a1d7787",
+      "sourceFileSha256": "4672d68498fcee9d6c63e5ca8e7fbe61f39d823137780a62778a1f3abe50b3a2",
       "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3",
       "canonical": "https://sodi.com.ar/blog/black-friday-argentina-2026-ecommerce-pyme",
       "internalLinks": [

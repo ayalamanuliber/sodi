@@ -5,11 +5,22 @@
   "metaDescription": "Diseño UX/UI en Argentina: landing page, sitio institucional, app/web completa y auditoría UX. Qué incluye cada servicio y cómo se cotiza en 2026.",
   "silo": "precios",
   "siloLabel": "Precios y Costos",
-  "tags": ["diseño UX", "diseño UI", "experiencia de usuario", "precios diseño", "UX Argentina"],
+  "tags": [
+    "diseño UX",
+    "diseño UI",
+    "experiencia de usuario",
+    "precios diseño",
+    "UX Argentina"
+  ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-11-18",
+  "dateModified": "2026-11-20",
   "readingTime": "7 min lectura",
-  "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "cuanto-cuesta-app-movil-argentina", "que-es-ux-y-por-que-importa", "como-elegir-agencia-web-argentina"],
+  "relatedSlugs": [
+    "cuanto-cuesta-pagina-web-argentina",
+    "cuanto-cuesta-app-movil-argentina",
+    "que-es-ux-y-por-que-importa",
+    "como-elegir-agencia-web-argentina"
+  ],
   "content": {
     "intro": "<p><strong>Respuesta corta:</strong> el diseño UX/UI en Argentina se cotiza a medida según la complejidad del proyecto: una landing page es el trabajo más acotado, el diseño completo de una app o plataforma es el más extenso y una auditoría UX queda en un punto intermedio. Pedí siempre presupuesto por escrito con el alcance detallado.</p><p>El <strong>diseño UX/UI en Argentina</strong> se cotiza a medida en 2026, según la complejidad del proyecto. Una landing page bien diseñada es el trabajo más acotado. El diseño completo de una app o plataforma web es el más extenso. Y una auditoría UX de un producto existente queda en un punto intermedio. En todos los casos conviene pedir presupuesto por escrito con el alcance detallado.</p><p>La confusión más grande en este rubro es que muchas PyMEs pagan por \"diseño web\" pensando que incluye UX, cuando en realidad solo están comprando estética. El diseño UX (experiencia de usuario) define cómo funciona tu producto; el UI (interfaz de usuario) define cómo se ve. Necesitás los dos, pero el UX es el que impacta en tus conversiones.</p>",
     "sections": [
@@ -23,7 +34,7 @@
       },
       {
         "heading": "Qué incluye un buen proceso de diseño UX/UI",
-        "body": "<p>Un proceso serio de UX/UI tiene 4 etapas, y si tu diseñador se saltea las dos primeras, estás comprando solo estética:</p><p><strong>1. Investigación (10-20% del presupuesto):</strong> entender a tus usuarios (quiénes son, qué necesitan, qué problemas tienen), analizar la competencia, revisar datos existentes. Para PyMEs, una investigación liviana (5-10 entrevistas + análisis de analytics) alcanza y es una fracción acotada del presupuesto total.</p><p><strong>2. Arquitectura y wireframes (20-30%):</strong> definir la estructura de información, los flujos de usuario (cómo navega alguien desde que entra hasta que convierte), y wireframes de baja fidelidad (esquemas en gris sin diseño visual). Esta etapa es donde se definen las decisiones importantes.</p><p><strong>3. Diseño visual / UI (30-40%):</strong> aplicar la identidad de marca, tipografía, colores, iconografía y crear las pantallas finales en alta fidelidad. Se trabaja en Figma (el estándar de la industria) y se genera un prototipo interactivo que podés probar antes de desarrollar.</p><p><strong>4. Testing y entrega (10-20%):</strong> probar el prototipo con usuarios reales (aunque sean 3-5 personas), iterar según el feedback, y preparar los archivos de entrega para desarrollo con especificaciones de spacing, tipografía, colores y comportamientos.</p>"
+        "body": "<p>Un proceso serio de UX/UI tiene 4 etapas, y si tu diseñador se saltea las dos primeras, estás comprando solo estética. Los porcentajes del presupuesto son una distribución orientativa de SODI, no una cifra publicada por una fuente:</p><p><strong>1. Investigación (10-20% del presupuesto):</strong> entender a tus usuarios (quiénes son, qué necesitan, qué problemas tienen), analizar la competencia, revisar datos existentes. Para PyMEs, una investigación liviana (5-10 entrevistas + análisis de analytics) alcanza y es una fracción acotada del presupuesto total.</p><p><strong>2. Arquitectura y wireframes (20-30%):</strong> definir la estructura de información, los flujos de usuario (cómo navega alguien desde que entra hasta que convierte), y wireframes de baja fidelidad (esquemas en gris sin diseño visual). Esta etapa es donde se definen las decisiones importantes.</p><p><strong>3. Diseño visual / UI (30-40%):</strong> aplicar la identidad de marca, tipografía, colores, iconografía y crear las pantallas finales en alta fidelidad. Se trabaja en Figma (el estándar de la industria) y se genera un prototipo interactivo que podés probar antes de desarrollar.</p><p><strong>4. Testing y entrega (10-20%):</strong> probar el prototipo con usuarios reales (aunque sean 3-5 personas), iterar según el feedback, y preparar los archivos de entrega para desarrollo con especificaciones de spacing, tipografía, colores y comportamientos.</p>"
       },
       {
         "heading": "Herramientas de UX/UI que podés usar vos mismo",
@@ -37,7 +48,7 @@
     "faqs": [
       {
         "question": "¿Cuánto cobra un diseñador UX/UI en Argentina?",
-        "answer": "El costo depende de la experiencia del diseñador y del alcance del proyecto. Una landing page es lo más acotado, un sitio web completo queda en el medio y una app es lo más extenso. Una agencia cobra 40-80% más que un freelancer por el mismo tipo de proyecto. Pedí presupuesto por escrito."
+        "answer": "El costo depende de la experiencia del diseñador y del alcance del proyecto. Una landing page es lo más acotado, un sitio web completo queda en el medio y una app es lo más extenso. Una agencia suele cobrar más que un freelancer por el mismo tipo de proyecto; no tenemos una diferencia medida que citar. Pedí presupuesto por escrito."
       },
       {
         "question": "¿Cuál es la diferencia entre UX y UI?",
@@ -49,11 +60,11 @@
       },
       {
         "question": "¿Necesita mi PyME invertir en diseño UX?",
-        "answer": "Si tu web genera ingresos directos o consultas comerciales, sí. Un buen diseño UX puede aumentar tu conversión entre 20% y 200%. Si tu web es solo presencia institucional con poco tráfico, un template bien aplicado por un freelancer junior alcanza."
+        "answer": "Si tu web genera ingresos directos o consultas comerciales, sí. Un buen diseño UX puede mejorar tu conversión, pero no hay una cifra general confiable: depende del punto de partida de tu web. Si tu web es solo presencia institucional con poco tráfico, un template bien aplicado por un freelancer junior alcanza."
       },
       {
         "question": "¿Qué herramienta se usa para diseño UX/UI?",
-        "answer": "Figma es el estándar de la industria en 2026. Es gratuito para hasta 3 proyectos, funciona en el navegador y permite colaboración en tiempo real. Otras opciones: Adobe XD (descontinuado pero todavía usado), Sketch (solo Mac), y Framer para prototipos avanzados."
+        "answer": "Figma es una de las herramientas más usadas en 2026. Tiene un plan gratuito (Starter, según figma.com/pricing, leído el 20/11/2026; los límites del plan gratuito cambian, revisalos ahí), funciona en el navegador y permite colaboración en tiempo real. Otras opciones: Adobe XD (descontinuado pero todavía usado), Sketch (solo Mac), y Framer para prototipos avanzados."
       }
     ],
     "ctaText": "¿Tu web tiene visitas pero no genera consultas? Probablemente sea un problema de UX. En SODI hacemos auditoría de experiencia de usuario y te mostramos exactamente qué cambiar para convertir más. Hablemos."
