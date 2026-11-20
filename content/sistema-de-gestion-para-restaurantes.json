@@ -12,7 +12,7 @@
     "punto de venta"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-11-18",
+  "dateModified": "2026-11-20",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "pagina-web-para-restaurantes",
@@ -24,11 +24,11 @@
     "sections": [
       {
         "heading": "El caos operativo en restaurantes: un problema que se come tus márgenes",
-        "body": "<p>La gastronomía tiene una particularidad: todo pasa en tiempo real. No podés decirle a un cliente \"esperá que busco el pedido en el Excel\". Los problemas más comunes sin un sistema son:</p><ul><li><strong>Comandas perdidas o mal tomadas:</strong> El mozo anota en papel, la cocina no entiende la letra, el plato sale mal.</li><li><strong>Stock descontrolado:</strong> No sabés cuánta mercadería tenés hasta que se acaba. Comprás de más o de menos.</li><li><strong>Costos de platos desconocidos:</strong> ¿Cuánto te cuesta realmente ese milanesón con papas? Si no lo sabés al centavo, no podés poner precios rentables.</li><li><strong>Reservas caóticas:</strong> Un cuaderno en la barra, llamadas que se pierden, mesas que se asignan dos veces.</li><li><strong>Facturación manual:</strong> Cierres de caja que no cierran, tickets que se pierden, problemas con AFIP.</li></ul><p>Un restaurante puede estar perdiendo una parte importante de su facturación por ineficiencias operativas: desperdicios, errores y tiempo perdido.</p>"
+        "body": "<p>La gastronomía tiene una particularidad: todo pasa en tiempo real. No podés decirle a un cliente \"esperá que busco el pedido en el Excel\". Los problemas más comunes sin un sistema son:</p><ul><li><strong>Comandas perdidas o mal tomadas:</strong> El mozo anota en papel, la cocina no entiende la letra, el plato sale mal.</li><li><strong>Stock descontrolado:</strong> No sabés cuánta mercadería tenés hasta que se acaba. Comprás de más o de menos.</li><li><strong>Costos de platos desconocidos:</strong> ¿Cuánto te cuesta realmente ese milanesón con papas? Si no lo sabés al centavo, no podés poner precios rentables.</li><li><strong>Reservas caóticas:</strong> Un cuaderno en la barra, llamadas que se pierden, mesas que se asignan dos veces.</li><li><strong>Facturación manual:</strong> Cierres de caja que no cierran, tickets que se pierden, problemas con ARCA.</li></ul><p>Un restaurante puede estar perdiendo una parte importante de su facturación por ineficiencias operativas: desperdicios, errores y tiempo perdido.</p>"
       },
       {
         "heading": "Qué funcionalidades necesita un sistema de gestión gastronómico",
-        "body": "<p>El sistema ideal para un restaurante cubre estas áreas:</p><ul><li><strong>Punto de venta (POS):</strong> Toma de pedidos por mesa, envío directo a cocina/barra, split de cuentas, propinas, múltiples medios de pago.</li><li><strong>Gestión de comandas:</strong> Pantalla en cocina con pedidos en tiempo real, tiempos de preparación, estados (en preparación, listo, entregado).</li><li><strong>Control de stock e insumos:</strong> Carga de mercadería, descuento automático por venta, alertas de stock mínimo, control de vencimientos.</li><li><strong>Costeo de recetas:</strong> Carga de recetas con ingredientes y cantidades, cálculo automático del costo por plato, actualización cuando cambian los precios de insumos.</li><li><strong>Reservas:</strong> Sistema online integrado con la web, confirmación automática, gestión de mesas y turnos.</li><li><strong>Facturación electrónica:</strong> Integración con AFIP para emisión de facturas y controlador fiscal.</li><li><strong>Reportes:</strong> Ventas por turno, platos más vendidos, margen por plato, productividad por mozo.</li></ul><p>Si además tenés delivery, necesitás integración con PedidosYa, Rappi y un módulo de pedidos online propio.</p>"
+        "body": "<p>El sistema ideal para un restaurante cubre estas áreas:</p><ul><li><strong>Punto de venta (POS):</strong> Toma de pedidos por mesa, envío directo a cocina/barra, split de cuentas, propinas, múltiples medios de pago.</li><li><strong>Gestión de comandas:</strong> Pantalla en cocina con pedidos en tiempo real, tiempos de preparación, estados (en preparación, listo, entregado).</li><li><strong>Control de stock e insumos:</strong> Carga de mercadería, descuento automático por venta, alertas de stock mínimo, control de vencimientos.</li><li><strong>Costeo de recetas:</strong> Carga de recetas con ingredientes y cantidades, cálculo automático del costo por plato, actualización cuando cambian los precios de insumos.</li><li><strong>Reservas:</strong> Sistema online integrado con la web, confirmación automática, gestión de mesas y turnos.</li><li><strong>Facturación electrónica:</strong> Integración con ARCA para emisión de facturas y controlador fiscal.</li><li><strong>Reportes:</strong> Ventas por turno, platos más vendidos, margen por plato, productividad por mozo.</li></ul><p>Si además tenés delivery, necesitás integración con PedidosYa, Rappi y un módulo de pedidos online propio.</p>"
       },
       {
         "heading": "SaaS vs sistema a medida para gastronomía",
@@ -61,8 +61,8 @@
         "answer": "Mínimo necesitás una tablet o computadora para el POS, una impresora térmica para cocina y un controlador fiscal. Algunos sistemas funcionan con el celular del mozo como toma de comandas."
       },
       {
-        "question": "¿El sistema emite factura electrónica para AFIP?",
-        "answer": "Sí, los sistemas homologados se integran con AFIP para emitir facturas A, B y C electrónicas, ya sea por software o a través de un controlador fiscal."
+        "question": "¿El sistema emite factura electrónica para ARCA?",
+        "answer": "Sí, los sistemas homologados se integran con ARCA para emitir facturas A, B y C electrónicas, ya sea por software o a través de un controlador fiscal."
       }
     ],
     "ctaText": "¿Tu restaurante necesita más control y menos caos? Agendá un diagnóstico gratuito y te recomendamos el sistema ideal para tu operación."

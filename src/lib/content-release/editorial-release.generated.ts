@@ -273,7 +273,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-consultor-por-hora-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-consultor-por-hora-argentina.json",
-      "sourceFileSha256": "295bf5dd421ca8b63125c8b0e680a5b954e278f8e1989d5e6798e22eecd84312",
+      "sourceFileSha256": "8b42441a2c1254303c13d3b1cf60b18710744262e592ab9e7c311b477c0b3d04",
       "contentSha256": "e253724313cbba8d1fc276732d08a5dcfcb34d7d4270dad1dbb51f4e98baacf0",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-consultor-por-hora-argentina",
       "internalLinks": [
@@ -465,7 +465,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
-      "sourceFileSha256": "bb1e671aec1f6dbc11c6f578de35c00ae278f2503ede2c34ba774c370f529a47",
+      "sourceFileSha256": "7c07d6548f0dac84c732bb85ebe50a80b022aeefe46fe034a2af1422597ce6f9",
       "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
       "internalLinks": [
