@@ -7,7 +7,7 @@
   "siloLabel": "WhatsApp por Rubro",
   "tags": ["seguros", "productores de seguros", "WhatsApp Business", "cotizaciones", "renovaciones"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-20",
   "readingTime": "8 min lectura",
   "relatedSlugs": ["cuanto-cuesta-bot-whatsapp-empresas", "cuanto-cuesta-crm-para-pymes", "cuanto-cuesta-pagina-web-argentina"],
   "content": {
@@ -23,7 +23,7 @@
       },
       {
         "heading": "Renovaciones automáticas: tu ingreso recurrente",
-        "body": "<p>Las renovaciones son el <strong>ingreso más importante</strong> de un productor de seguros. Perder una renovación por no avisar a tiempo es imperdonable. Secuencia de renovación automatizada:</p><ul><li><strong>60 días antes:</strong> revisión interna del productor. ¿Hay que ajustar suma asegurada? ¿Cambiar cobertura?</li><li><strong>30 días antes:</strong> mensaje al cliente: \"Tu póliza de [tipo] vence el [fecha]. Te preparamos la renovación con las mejores condiciones.\"</li><li><strong>15 días antes:</strong> \"Te enviamos la propuesta de renovación. [Adjunto]. ¿La revisamos juntos?\"</li><li><strong>7 días antes:</strong> si no respondió: \"Tu póliza vence en 7 días. Es importante renovarla para no quedar sin cobertura. ¿Hablamos?\"</li><li><strong>Día del vencimiento:</strong> \"Tu póliza vence hoy. Si no renovás, quedás sin cobertura desde mañana. ¿Necesitás ayuda?\"</li></ul><p>Los productores que implementan esta secuencia tienen tasas de renovación del <strong>85-90%</strong>, contra un promedio del 70-75% sin automatización. En una cartera de 200 pólizas, eso significa <strong>20-30 pólizas más renovadas por año</strong>.</p>"
+        "body": "<p>Las renovaciones son el <strong>ingreso más importante</strong> de un productor de seguros. Perder una renovación por no avisar a tiempo es imperdonable. Secuencia de renovación automatizada:</p><ul><li><strong>60 días antes:</strong> revisión interna del productor. ¿Hay que ajustar suma asegurada? ¿Cambiar cobertura?</li><li><strong>30 días antes:</strong> mensaje al cliente: \"Tu póliza de [tipo] vence el [fecha]. Te preparamos la renovación con las mejores condiciones.\"</li><li><strong>15 días antes:</strong> \"Te enviamos la propuesta de renovación. [Adjunto]. ¿La revisamos juntos?\"</li><li><strong>7 días antes:</strong> si no respondió: \"Tu póliza vence en 7 días. Es importante renovarla para no quedar sin cobertura. ¿Hablamos?\"</li><li><strong>Día del vencimiento:</strong> \"Tu póliza vence hoy. Si no renovás, quedás sin cobertura desde mañana. ¿Necesitás ayuda?\"</li></ul><p>La idea es que ninguna renovación dependa de que alguien se acuerde. No tenemos una cifra pública de cuánto sube la renovación con esta secuencia; medí la tuya: pólizas renovadas sobre pólizas vencidas, antes y después.</p>"
       },
       {
         "heading": "Gestión de siniestros por WhatsApp",
