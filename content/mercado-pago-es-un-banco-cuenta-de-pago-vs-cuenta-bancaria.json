@@ -1,0 +1,66 @@
+{
+  "slug": "mercado-pago-es-un-banco-cuenta-de-pago-vs-cuenta-bancaria",
+  "title": "¿Mercado Pago es un banco? Cuenta de pago vs cuenta bancaria para cobrar en tu negocio",
+  "metaTitle": "¿Mercado Pago es un banco? Cuenta de pago vs bancaria",
+  "metaDescription": "Qué dice el BCRA sobre las cuentas de pago de las billeteras: no son depósitos bancarios, dónde deben estar tus fondos y cómo decidir entre billetera y banco para cobrar.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "mercadopago",
+    "cuenta de pago",
+    "cuenta bancaria",
+    "BCRA",
+    "billetera virtual",
+    "PSP",
+    "cobrar"
+  ],
+  "datePublished": "2026-11-21",
+  "dateModified": "2026-11-21",
+  "readingTime": "5 min lectura",
+  "relatedSlugs": [
+    "modo-vs-mercadopago-para-negocios",
+    "como-reducir-comisiones-mercadopago",
+    "mercadopago-vs-mobbex-ecommerce",
+    "como-cobrar-con-qr-en-mi-negocio"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta directa:</strong> una billetera como Mercado Pago <strong>no es un banco</strong> si su cuenta es una \"cuenta de pago\" de un proveedor de servicios de pago (PSP). Según el BCRA, esos proveedores se limitan a ofrecer servicios de pago y no están autorizados a operar como entidades financieras, y el dinero en una cuenta de pago <strong>no constituye un depósito en una entidad financiera</strong> ni cuenta con las garantías que pueda tener un depósito bancario.</p><p>Lo que sí exige el BCRA es que ese dinero esté disponible al instante y que el 100% de los fondos de los clientes esté depositado en cuentas a la vista en pesos en entidades financieras del país. Fuente: <a href=\"https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf\" rel=\"nofollow noopener\" target=\"_blank\">BCRA, texto ordenado \"Proveedores de servicios de pago\", al 04/11/2026 (Com. A 8505, vigencia 01/11/2026), leído el 21/11/2026</a>. No leímos ninguna página de Mercado Pago (la de costos y la de ayuda respondieron 403 el 21/11/2026), así que no afirmamos cómo clasifica cada producto suyo: lo verificás en la pantalla de tu cuenta, como explicamos abajo.</p>",
+    "sections": [
+      {
+        "heading": "Cuenta de pago y cuenta bancaria: qué dice el BCRA",
+        "body": "<table><thead><tr><th>Punto</th><th>Cuenta de pago (PSP)</th><th>Cuenta bancaria</th></tr></thead><tbody><tr><td>Quién la ofrece</td><td>Personas jurídicas que, sin ser entidades financieras, cumplen una función en un esquema de pago (punto 1.2.1)</td><td>Entidades financieras</td></tr><tr><td>Qué es</td><td>Cuenta en pesos de libre disponibilidad que permite ordenar y recibir pagos (punto 1.4.1)</td><td>Cuenta de una entidad financiera; cuando es un depósito, rigen las garantías de esa regulación</td></tr><tr><td>Garantía de depósitos</td><td>El proveedor debe avisar que los fondos no son depósitos ni cuentan con las garantías de los depósitos (punto 4.2.1.2)</td><td>Según la legislación y reglamentación de depósitos aplicable</td></tr><tr><td>Dónde está la plata</td><td>El 100% de los fondos de clientes, en todo momento, en cuentas a la vista en pesos en entidades financieras del país (punto 4.1.2)</td><td>En la propia entidad</td></tr><tr><td>Disponibilidad</td><td>Inmediata ante tu pedido, por al menos el monto acreditado (punto 4.1.1)</td><td>Según el tipo de cuenta</td></tr></tbody></table><p>Fuente de la tabla: <a href=\"https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf\" rel=\"nofollow noopener\" target=\"_blank\">BCRA, texto ordenado \"Proveedores de servicios de pago\", al 04/11/2026 (Com. A 8505, vigencia 01/11/2026), leído el 21/11/2026</a>. Los números de punto son los del texto ordenado.</p>"
+      },
+      {
+        "heading": "Cómo saber qué tipo de cuenta tenés",
+        "body": "<p>El BCRA obliga a los PSP que ofrecen cuentas de pago a incluir en su publicidad y documentación una mención clara de que se limitan a ofrecer servicios de pago y no operan como entidades financieras (punto 4.2.1). Si la cuenta se usa dentro de la app de un tercero, esa app debe mostrar en la pantalla del saldo el nombre comercial del PSP que provee la cuenta (punto 4.5.3).</p><ol><li>Abrí la pantalla del saldo y buscá la leyenda legal y el nombre del proveedor.</li><li>Leé los términos y condiciones de la cuenta: ahí figura quién es el titular de la cuenta y qué entidad regula el producto.</li><li>Si necesitás saber en qué entidad financiera está depositado el dinero (para un trámite o una auditoría), pedilo por escrito al proveedor: no lo publicamos porque no lo pudimos verificar en una fuente primaria.</li></ol>"
+      },
+      {
+        "heading": "Qué cambia para tu negocio al cobrar en una billetera o en un banco",
+        "body": "<ul><li><strong>Cobros chicos y online:</strong> las billeteras suelen ser lo más fácil de activar (QR, link de pago, tienda online). Mirá la comparación en <a href=\"/blog/modo-vs-mercadopago-para-negocios\">MODO vs Mercado Pago</a>.</li><li><strong>Saldos grandes o que se quedan días:</strong> como el dinero de una cuenta de pago no es un depósito con garantía, conviene transferir a tu cuenta bancaria lo que no necesitás de inmediato. Es una decisión de riesgo tuya; no es una recomendación sobre ningún proveedor.</li><li><strong>Cobros B2B con facturas:</strong> una cuenta a nombre de tu empresa en un banco ordena mejor la conciliación. El <a href=\"/plantillas/checklist-conciliacion-pagos-ecommerce\">checklist de conciliación de pagos</a> te sirve para cruzar lo cobrado con lo vendido.</li><li><strong>Comisiones:</strong> no publicamos tasas de ningún proveedor porque no pudimos leer sus páginas oficiales hoy. Para calcular cuánto te llega de una venta, usá la <a href=\"/herramientas/calculadora-comisiones-cobro\">calculadora de comisiones de cobro</a> con los números de tu cuenta, o mirá <a href=\"/blog/como-reducir-comisiones-mercadopago\">cómo bajar las comisiones de Mercado Pago</a>.</li></ul><p>Para el tratamiento impositivo de lo que cobrás en cada tipo de cuenta, consultá a tu contador.</p>"
+      },
+      {
+        "heading": "Qué no dice esta guía",
+        "body": "<p>No dice con qué banco o bancos opera Mercado Pago, ni cuál es su estado en el registro de PSP del BCRA, ni qué comisión cobra: no hay primaria leída hoy para esos puntos. Las reglas citadas son las generales para PSP que ofrecen cuentas de pago, tomadas del texto ordenado vigente al 21/11/2026. Si la regulación cambia, el BCRA publica una nueva versión del texto."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Mercado Pago es un banco?",
+        "answer": "Según el BCRA, un proveedor de servicios de pago que ofrece cuentas de pago no es una entidad financiera y debe aclararlo en su publicidad y documentación. Para saber cómo se presenta tu cuenta, mirá la leyenda legal en la pantalla del saldo."
+      },
+      {
+        "question": "¿El dinero en una cuenta de pago está garantizado como un depósito?",
+        "answer": "El BCRA exige avisar que los fondos en cuentas de pago no constituyen depósitos en una entidad financiera ni cuentan con las garantías que esos depósitos puedan tener (punto 4.2.1.2 del texto ordenado al 04/11/2026)."
+      },
+      {
+        "question": "¿Dónde está el dinero de los clientes de una billetera?",
+        "answer": "El 100% de los fondos de los clientes debe estar depositado, en todo momento, en cuentas a la vista en pesos en entidades financieras del país (punto 4.1.2). Cuáles son esas entidades, pedilo por escrito al proveedor."
+      },
+      {
+        "question": "¿Conviene cobrar en una billetera o en una cuenta bancaria?",
+        "answer": "Depende de cómo vendés: la billetera suele ser más simple para cobros chicos y online; la cuenta bancaria ordena mejor saldos grandes y cobros B2B. Calculá tu neto con la calculadora de comisiones y consultá a tu contador por lo impositivo."
+      }
+    ],
+    "ctaText": "¿Querés ordenar cómo cobrás y dónde dejás la plata de tu negocio? <a href='/diagnostico'>Pedí tu diagnóstico gratuito</a> y lo vemos con tus números."
+  }
+}
