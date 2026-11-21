@@ -12,7 +12,7 @@
     "desarrollo web inmobiliario"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-11-19",
+  "dateModified": "2026-11-21",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "cuanto-cuesta-pagina-web-argentina",
@@ -37,7 +37,7 @@
       },
       {
         "heading": "Qué funcionalidades necesita sí o sí la web de una inmobiliaria",
-        "body": "<p>Sin importar el presupuesto, hay funcionalidades que una <strong>web inmobiliaria</strong> no puede no tener. Si tu proveedor no te incluye estas cosas, está dejando plata sobre la mesa.</p><ul><li><strong>WhatsApp integrado por propiedad</strong>: no un botón genérico. Cada propiedad tiene que abrir WhatsApp con un mensaje pre-armado que diga \"Hola, consulto por [nombre propiedad] en [dirección]\". Esto te ahorra preguntar \"por cuál propiedad consultas?\" en cada mensaje.</li><li><strong>Fotos de alta calidad con galería</strong>: las fotos pesan mucho en la decisión de un comprador. Si tu web no muestra fotos en alta resolución con galería deslizable, perdés consultas.</li><li><strong>Google Maps embebido</strong>: no la dirección escrita. El mapa embebido con la ubicación exacta o aproximada de la propiedad.</li><li><strong>Formulario calificado</strong>: que el potencial cliente complete tipo de operación, presupuesto estimado y zona de interés. Así filtrás consultas antes de responder.</li><li><strong>Carga rápida en celular</strong>: buena parte de las búsquedas inmobiliarias se hacen desde el celular. Si tu web tarda más de 3 segundos en cargar, Google te penaliza y el usuario se va.</li></ul><p>Estas funcionalidades son básicas. Si tu proveedor las cobra como \"extras\", está inflando el presupuesto.</p>"
+        "body": "<p>Sin importar el presupuesto, hay funcionalidades que una <strong>web inmobiliaria</strong> no puede no tener. Si tu proveedor no te incluye estas cosas, está dejando plata sobre la mesa.</p><ul><li><strong>WhatsApp integrado por propiedad</strong>: no un botón genérico. Cada propiedad tiene que abrir WhatsApp con un mensaje pre-armado que diga \"Hola, consulto por [nombre propiedad] en [dirección]\". Esto te ahorra preguntar \"por cuál propiedad consultas?\" en cada mensaje.</li><li><strong>Fotos de alta calidad con galería</strong>: las fotos pesan mucho en la decisión de un comprador. Si tu web no muestra fotos en alta resolución con galería deslizable, perdés consultas.</li><li><strong>Google Maps embebido</strong>: no la dirección escrita. El mapa embebido con la ubicación exacta o aproximada de la propiedad.</li><li><strong>Formulario calificado</strong>: que el potencial cliente complete tipo de operación, presupuesto estimado y zona de interés. Así filtrás consultas antes de responder.</li><li><strong>Carga rápida en celular</strong>: buena parte de las búsquedas inmobiliarias se hacen desde el celular. Google recomienda que el contenido principal cargue en 2,5 segundos o menos en la mayoría de las visitas (web.dev/articles/lcp, leído el 21/11/2026); una web lenta hace que el usuario se vaya.</li></ul><p>Estas funcionalidades son básicas. Si tu proveedor las cobra como \"extras\", está inflando el presupuesto.</p>"
       },
       {
         "heading": "Errores comunes al contratar una web para inmobiliaria",

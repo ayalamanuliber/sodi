@@ -12,7 +12,7 @@
     "agenda digital"
   ],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-11-20",
+  "dateModified": "2026-11-21",
   "readingTime": "8 min lectura",
   "relatedSlugs": [
     "sistema-de-turnos-para-consultorios-medicos",
@@ -63,7 +63,7 @@
       },
       {
         "question": "Cuanto reduce la ausencia un sistema de recordatorios automaticos?",
-        "answer": "Los recordatorios automaticos por WhatsApp ayudan a reducir las ausencias; no tenemos una cifra medida ni una fuente publica para cuanto (AgendaPro y Cloxsy publican porcentajes de reduccion de ausencias en sus propios sitios, leidos el 20/11/2026, pero son marketing del proveedor sin metodologia y no los usamos). El recordatorio ideal es doble: uno 24 horas antes y otro 2 horas antes del turno. Solo con esto, un consultorio que pierde 5 turnos por semana pasa a perder 2. En un mes, la diferencia se paga sola."
+        "answer": "Los recordatorios automaticos por WhatsApp ayudan a reducir las ausencias; no tenemos una cifra medida ni una fuente publica para cuanto (AgendaPro y Cloxsy publican porcentajes de reduccion de ausencias en sus propios sitios, leidos el 20/11/2026, pero son marketing del proveedor sin metodologia y no los usamos). El recordatorio ideal es doble: uno 24 horas antes y otro 2 horas antes del turno. Contá cuántos turnos perdés por semana hoy y medí el cambio después de activar los recordatorios."
       }
     ],
     "ctaText": "¿No sabés si necesitás SaaS o desarrollo a medida? Pedí tu diagnóstico gratuito y te recomendamos la mejor opción para tu negocio."
