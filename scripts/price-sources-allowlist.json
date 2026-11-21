@@ -207,8 +207,6 @@
    "40369c0b3a3cca80": "El ROI es clarísimo: si con automatización retenés 10 socios más por mes que pagaban $20.0"
   },
   "automatizar-whatsapp-inmobiliarias": {
-   "f482817935013088": "Cliengo / Botmaker (desde USD 30/mes): bots con flujos visuales, integración con CRM inmob",
-   "940921e22a8b99b4": "Waboxapp / Wati (desde USD 40/mes): API oficial de WhatsApp Business, mensajes masivos, se",
    "cb9fe46b0339153b": "Desarrollo custom con la API de WhatsApp Business (desde USD 200 setup): máxima flexibilid",
    "f487f519d4cea360": "El ROI es claro: si un agente pierde 2 horas por día respondiendo las mismas preguntas, es"
   },
@@ -342,12 +340,8 @@
   "como-crear-sistema-de-turnos-online": {
    "a704ca090a66a02e": "Presupuesto mensual de $5.000-$50.000/mes",
    "b7c496651e8fb5ab": "El costo mensual del SaaS supera los $80.000/mes",
-   "37933c2988af9b06": "AgendaPro: desde USD 19/mes por profesional. Muy popular en salud y belleza. Incluye agend",
    "4ef6b45ce8bbe33d": "Calendly: plan gratis (1 tipo de evento) o desde USD 10/mes. Ideal para reuniones y consul",
-   "df4f686e22acfa6e": "Cal.com: plan gratis (auto-hosted) o desde USD 12/mes (cloud). Open source, muy personaliz",
-   "70e0350e9cc29bd8": "SimplyBook.me: plan gratis (50 reservas/mes) o desde USD 9.90/mes. Muy completo: múltiples",
-   "f3d0fa533705935f": "Cloxsy: plataforma argentina. Desde $8.000/mes. Sistema de turnos + recordatorios por What",
-   "da83a1b826e63dbe": "Desde $0 (Cal.com self-hosted, Calendly gratis) hasta USD 19-50/mes por profesional (Agend"
+   "df4f686e22acfa6e": "Cal.com: plan gratis (auto-hosted) o desde USD 12/mes (cloud). Open source, muy personaliz"
   },
   "como-dejar-de-depender-de-excel": {
    "0b01c4253da9249d": "Gestión de clientes → CRM: HubSpot Free (gratis, hasta 1.000 contactos), Pipedrive (desde ",
@@ -415,10 +409,7 @@
   "como-implementar-crm-en-mi-empresa": {
    "6b7798cec86fe8ff": "HubSpot Free: $0/mes. Hasta 1.000 contactos, pipeline de ventas, email tracking, formulari",
    "fc332e364b7d7aa0": "Pipedrive: desde USD 14/usuario/mes. Pipeline visual muy intuitivo, integración con email ",
-   "83654f7308620af1": "Zoho CRM: plan gratuito hasta 3 usuarios. Plan Standard desde USD 14/usuario/mes. Muy comp",
-   "6df3e4d21c95f2ba": "Clientify: desde USD 39/mes (usuarios ilimitados). CRM + marketing automation pensado para",
-   "3253d57b0b1f5222": "Google Sheets + seguimiento manual: $0/mes. Si sos solo vos y tenés menos de 50 clientes, ",
-   "b5805d19967b0284": "Hay opciones desde $0 (HubSpot Free, Zoho Free). Los planes pagos arrancan en USD 14/usuar"
+   "3253d57b0b1f5222": "Google Sheets + seguimiento manual: $0/mes. Si sos solo vos y tenés menos de 50 clientes, "
   },
   "como-integrar-whatsapp-con-tienda-online": {
    "86c91edf67de7497": "WhatsApp Business API : la versión profesional para empresas. No es una app — es una API q",

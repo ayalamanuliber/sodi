@@ -7,7 +7,7 @@
   "siloLabel": "Turnos por Rubro",
   "tags": ["turnos clínicas", "agenda multi-doctor", "JIZEN", "Reservalo", "gestión de turnos médicos"],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-11-21",
   "readingTime": "9 min lectura",
   "relatedSlugs": ["sistema-de-turnos-para-consultorios-medicos", "pagina-web-para-clinicas-medicas", "cuanto-cuesta-app-de-turnos", "automatizar-whatsapp-consultorios"],
   "content": {
@@ -23,7 +23,7 @@
       },
       {
         "heading": "Funcionalidades clave que tu sistema de turnos debe tener",
-        "body": "<p>No todos los sistemas son iguales. Estas son las funcionalidades que marcan la diferencia en una clínica:</p><ul><li><strong>Agenda por especialidad y profesional:</strong> el paciente elige especialidad → profesional → día → horario. Con disponibilidad en tiempo real, sin depender de que alguien lo confirme manualmente.</li><li><strong>Recordatorios automáticos por WhatsApp:</strong> mensaje 24hs antes del turno con opción de confirmar o cancelar. Las clínicas que implementan esto reportan <strong>reducción de ausencias del 30-50%</strong>. Podés complementar con <a href=\"/blog/automatizar-whatsapp-consultorios\">automatizaciones de WhatsApp</a> más avanzadas.</li><li><strong>Lista de espera inteligente:</strong> cuando un paciente cancela, el sistema ofrece ese horario automáticamente al siguiente en la lista de espera de esa especialidad. Llena huecos que antes quedaban vacíos.</li><li><strong>Gestión de sobreturno:</strong> en la práctica, los médicos dan sobreturnos. El sistema tiene que permitirlo de forma controlada sin romper la agenda.</li><li><strong>Bloqueo de horarios:</strong> vacaciones, congresos, guardias. El sistema tiene que permitir bloquear rangos de horarios por profesional sin afectar la agenda general.</li><li><strong>Validación de cobertura:</strong> verificar en el momento de la reserva si la obra social o prepaga del paciente está activa y es aceptada por el profesional seleccionado.</li></ul><p>En <strong>SODI</strong> podemos ayudarte a elegir e implementar el sistema que mejor se adapta a la operación de tu clínica.</p>"
+        "body": "<p>No todos los sistemas son iguales. Estas son las funcionalidades que marcan la diferencia en una clínica:</p><ul><li><strong>Agenda por especialidad y profesional:</strong> el paciente elige especialidad → profesional → día → horario. Con disponibilidad en tiempo real, sin depender de que alguien lo confirme manualmente.</li><li><strong>Recordatorios automáticos por WhatsApp:</strong> mensaje 24hs antes del turno con opción de confirmar o cancelar. Los recordatorios ayudan a reducir las ausencias (no hay una cifra pública medida). Podés complementar con <a href=\"/blog/automatizar-whatsapp-consultorios\">automatizaciones de WhatsApp</a> más avanzadas.</li><li><strong>Lista de espera inteligente:</strong> cuando un paciente cancela, el sistema ofrece ese horario automáticamente al siguiente en la lista de espera de esa especialidad. Llena huecos que antes quedaban vacíos.</li><li><strong>Gestión de sobreturno:</strong> en la práctica, los médicos dan sobreturnos. El sistema tiene que permitirlo de forma controlada sin romper la agenda.</li><li><strong>Bloqueo de horarios:</strong> vacaciones, congresos, guardias. El sistema tiene que permitir bloquear rangos de horarios por profesional sin afectar la agenda general.</li><li><strong>Validación de cobertura:</strong> verificar en el momento de la reserva si la obra social o prepaga del paciente está activa y es aceptada por el profesional seleccionado.</li></ul><p>En <strong>SODI</strong> podemos ayudarte a elegir e implementar el sistema que mejor se adapta a la operación de tu clínica.</p>"
       },
       {
         "heading": "Integración del sistema de turnos con la web de la clínica",
@@ -41,7 +41,7 @@
       },
       {
         "question": "¿Cuánto se reducen las ausencias con recordatorios automáticos?",
-        "answer": "Las clínicas que implementan recordatorios automáticos por WhatsApp reducen ausencias del 20-30% al 5-10%. Con 200 turnos diarios, eso significa 30-40 turnos recuperados por día."
+        "answer": "Las clínicas que implementan recordatorios automáticos por WhatsApp ayudan a reducir las ausencias. Medí tu tasa actual antes de activarlos y comparala un mes después."
       },
       {
         "question": "¿Puedo mantener los turnos por teléfono y sumar los online?",

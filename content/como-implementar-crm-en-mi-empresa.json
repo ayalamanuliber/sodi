@@ -7,7 +7,7 @@
   "siloLabel": "Guías Prácticas",
   "tags": ["crm", "gestión de clientes", "hubspot", "pipedrive", "ventas"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-11-21",
   "readingTime": "9 min lectura",
   "relatedSlugs": ["crm-gratuito-vs-pago", "cuanto-cuesta-crm-para-pymes", "que-es-un-crm-y-para-que-sirve"],
   "content": {
@@ -19,7 +19,7 @@
       },
       {
         "heading": "Comparativa de CRMs: cuál elegir según tu presupuesto",
-        "body": "<p>Opciones reales con precios actualizados a 2026:</p><ul><li><strong>HubSpot Free:</strong> $0/mes. Hasta 1.000 contactos, pipeline de ventas, email tracking, formularios web, chat en vivo. Limitación: reportes básicos, sin automatización avanzada. <strong>Ideal para arrancar sin invertir un peso.</strong></li><li><strong>Pipedrive:</strong> desde USD 14/usuario/mes. Pipeline visual muy intuitivo, integración con email y calendario, reportes de ventas. <strong>Ideal para equipos de ventas de 2-10 personas.</strong></li><li><strong>Zoho CRM:</strong> plan gratuito hasta 3 usuarios. Plan Standard desde USD 14/usuario/mes. Muy completo, incluye automatización, reportes y multicanalidad. Interfaz menos intuitiva que Pipedrive.</li><li><strong>Clientify:</strong> desde USD 39/mes (usuarios ilimitados). CRM + marketing automation pensado para el mercado hispanohablante. Buena opción para PyMEs que quieren CRM + email marketing en uno.</li><li><strong>Google Sheets + seguimiento manual:</strong> $0/mes. Si sos solo vos y tenés menos de 50 clientes, una Sheet con columnas (nombre, contacto, estado, próximo paso, fecha) puede funcionar temporalmente.</li></ul><p>Nuestra recomendación: <strong>empezá con HubSpot Free</strong>. Es gratuito, fácil de usar, y te permite validar si un CRM realmente cambia tu operación antes de invertir. Si le sacás el jugo y necesitás más, migrás a Pipedrive o Zoho.</p>"
+        "body": "<p>Opciones reales (los precios de HubSpot, Pipedrive y Zoho Standard no se pudieron confirmar en texto el 21/11/2026: Pipedrive bloqueó la lectura y las otras páginas cargan los montos con scripts; verificalos en cada sitio):</p><ul><li><strong>HubSpot Free:</strong> $0/mes. Hasta 1.000 contactos, pipeline de ventas, email tracking, formularios web, chat en vivo. Limitación: reportes básicos, sin automatización avanzada. <strong>Ideal para arrancar sin invertir un peso.</strong></li><li><strong>Pipedrive:</strong> desde USD 14/usuario/mes. Pipeline visual muy intuitivo, integración con email y calendario, reportes de ventas. <strong>Ideal para equipos de ventas de 2-10 personas.</strong></li><li><strong>Zoho CRM:</strong> plan gratuito hasta 3 usuarios (<a href=\"https://www.zoho.com/crm/zohocrm-pricing.html\" rel=\"nofollow noopener\" target=\"_blank\">zoho.com/crm</a>, leído el 21/11/2026). Plan Standard desde USD 14/usuario/mes. Muy completo, incluye automatización, reportes y multicanalidad. Interfaz menos intuitiva que Pipedrive.</li><li><strong>Clientify:</strong> desde USD 39/mes por asiento con pago anual (USD 65 mes a mes; <a href=\"https://clientify.com/precios\" rel=\"nofollow noopener\" target=\"_blank\">clientify.com/precios</a>, leído el 21/11/2026). CRM + marketing automation pensado para el mercado hispanohablante. Buena opción para PyMEs que quieren CRM + email marketing en uno.</li><li><strong>Google Sheets + seguimiento manual:</strong> $0/mes. Si sos solo vos y tenés menos de 50 clientes, una Sheet con columnas (nombre, contacto, estado, próximo paso, fecha) puede funcionar temporalmente.</li></ul><p>Nuestra recomendación: <strong>empezá con HubSpot Free</strong>. Es gratuito, fácil de usar, y te permite validar si un CRM realmente cambia tu operación antes de invertir. Si le sacás el jugo y necesitás más, migrás a Pipedrive o Zoho.</p>"
       },
       {
         "heading": "Cómo migrar tus datos al CRM sin desastre",
@@ -27,7 +27,7 @@
       },
       {
         "heading": "Cómo lograr que tu equipo adopte el CRM",
-        "body": "<p>El <strong>70% de las implementaciones de CRM fracasan</strong>, no por la herramienta, sino porque el equipo no la adopta. Estas son las claves para que funcione:</p><ul><li><strong>Explicá el \"para qué\" antes del \"cómo\":</strong> tu equipo necesita entender qué gana con esto. \"Con el CRM, no te van a caer consultas encima sin aviso\" vale más que \"es obligatorio usar el CRM\".</li><li><strong>Hacelo simple al principio:</strong> no actives todas las funcionalidades desde el día 1. Empezá solo con: cargar contactos, registrar interacciones, y mover oportunidades por el pipeline. Nada más durante el primer mes.</li><li><strong>Liderá con el ejemplo:</strong> si vos como dueño no usás el CRM, nadie lo va a usar. Cargá tus propios contactos, hacé seguimiento desde ahí, y pedí reportes del CRM (no de planillas).</li><li><strong>Establecé la regla de oro:</strong> \"si no está en el CRM, no existe\". Esto significa que no vas a aceptar reportes verbales ni de Excel. La información del CRM es la única fuente de verdad.</li><li><strong>Revisá semanalmente durante el primer mes:</strong> reunión de 15 minutos para ver qué funciona, qué no, y resolver dudas. La adopción se consolida en los primeros 30 días o no se consolida nunca.</li></ul><p>Error clásico: comprar un CRM caro pensando que eso garantiza adopción. <strong>La adopción depende del proceso, no de la herramienta</strong>. HubSpot Free bien adoptado genera más valor que Salesforce ignorado.</p>"
+        "body": "<p>Muchas implementaciones de CRM fracasan, no por la herramienta, sino porque el equipo no la adopta (no citamos un porcentaje porque no hay una fuente única confiable). Estas son las claves para que funcione:</p><ul><li><strong>Explicá el \"para qué\" antes del \"cómo\":</strong> tu equipo necesita entender qué gana con esto. \"Con el CRM, no te van a caer consultas encima sin aviso\" vale más que \"es obligatorio usar el CRM\".</li><li><strong>Hacelo simple al principio:</strong> no actives todas las funcionalidades desde el día 1. Empezá solo con: cargar contactos, registrar interacciones, y mover oportunidades por el pipeline. Nada más durante el primer mes.</li><li><strong>Liderá con el ejemplo:</strong> si vos como dueño no usás el CRM, nadie lo va a usar. Cargá tus propios contactos, hacé seguimiento desde ahí, y pedí reportes del CRM (no de planillas).</li><li><strong>Establecé la regla de oro:</strong> \"si no está en el CRM, no existe\". Esto significa que no vas a aceptar reportes verbales ni de Excel. La información del CRM es la única fuente de verdad.</li><li><strong>Revisá semanalmente durante el primer mes:</strong> reunión de 15 minutos para ver qué funciona, qué no, y resolver dudas. La adopción se consolida en los primeros 30 días o no se consolida nunca.</li></ul><p>Error clásico: comprar un CRM caro pensando que eso garantiza adopción. <strong>La adopción depende del proceso, no de la herramienta</strong>. HubSpot Free bien adoptado genera más valor que Salesforce ignorado.</p>"
       },
       {
         "heading": "Métricas para saber si tu CRM está funcionando",
@@ -37,7 +37,7 @@
     "faqs": [
       {
         "question": "¿Cuánto cuesta un CRM para una PyME argentina?",
-        "answer": "Hay opciones desde $0 (HubSpot Free, Zoho Free). Los planes pagos arrancan en USD 14/usuario/mes (Pipedrive, Zoho Standard). Para un equipo de 3-5 personas, esperá gastar entre USD 42 y USD 100/mes. Clientify ofrece usuarios ilimitados desde USD 39/mes."
+        "answer": "Hay opciones gratuitas (HubSpot Free, Zoho Free para 3 usuarios) y planes pagos por usuario o por asiento; los montos están en el cuerpo de la guía con su fecha de lectura y cambian seguido, así que confirmalos en cada sitio antes de decidir."
       },
       {
         "question": "¿HubSpot Free alcanza para una PyME?",
@@ -49,7 +49,7 @@
       },
       {
         "question": "¿Puedo integrar mi CRM con WhatsApp?",
-        "answer": "Sí. HubSpot se integra con WhatsApp Business API. Pipedrive tiene integraciones vía Zapier. Cliengo incluye CRM + WhatsApp bot integrado. La integración con WhatsApp es clave para PyMEs argentinas donde el 90% de la comunicación comercial pasa por ahí."
+        "answer": "Sí. HubSpot se integra con WhatsApp Business API. Pipedrive tiene integraciones vía Zapier. Cliengo incluye CRM + WhatsApp bot integrado. La integración con WhatsApp es clave para PyMEs argentinas donde buena parte de la comunicación comercial pasa por ahí."
       },
       {
         "question": "¿CRM o Excel para gestionar clientes?",
