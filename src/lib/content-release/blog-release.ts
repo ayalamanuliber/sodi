@@ -50,7 +50,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 21/11/2026 (sodi-c74a, Head of SEO sobre Search Console): title, meta, intro y 2-3 enlaces internos en que-es-un-community-manager (consulta "que es cm", posicion ~10, 0 clics) y community-manager-vs-agencia (consulta "servicios de community manager", posicion ~18, 1 clic); meta sin los rangos en pesos sin fuente; sin cifras nuevas. Informe sodi-gsc-head-20261121.md en lagos-lab.
   // Re-pin 21/11/2026 (sodi-8e8c, respuestas directas): solo texto en 1 pagina. CRM para PyMEs con bloque "Respuesta corta" (Zoho Free para 3 usuarios, pagina de precios de Zoho leida el 21/11/2026; sin cifras de precio porque la pagina de HubSpot no es legible sin JavaScript). Informe sodi-respuestas-directas-20261121.md en lagos-lab.
   // Re-pin 21/11/2026 (sodi-8a44, cobertura de indexacion): solo enlaces internos descriptivos hacia paginas sin indexar o sin enlaces entrantes (diseno UX/UI, envios ecommerce, opticas, nutricionistas, Empretienda, herramientas IA) desde 7 paginas ya indexadas; sin cifras ni afirmaciones nuevas. Rollback: git revert este commit.
-  approvedCatalogContentSha256: "6eb7d8482aa03e24618a2ff3b434042da261ced1915e96d2f47eef92da333cf3",
+  // Re-pin 21/11/2026 (sodi-056b, enlaces por silo lote 2): solo 12 enlaces internos descriptivos (uno por par) hacia paginas con impresiones sin enlaces entrantes editoriales (farmacias, clubes, TikTok vs Facebook Ads, joyerias, panaderias, bot vs chatbot, publicidad online vs tradicional, imprentas, rediseno web, constructoras, migrar de Excel) desde 12 paginas ya indexadas; sin cifras ni texto monetario nuevos. Rollback: git revert este commit.
+  approvedCatalogContentSha256: "7c663b1a31f18f9d995cb1ef4057d77d0a41fba4b35bf14d23c3444583eb1c16",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
