@@ -49,7 +49,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 21/11/2026 (sodi-0063, Black Friday 27/11 adelantado desde la fila del 26/11): Black Friday y CyberMonday con el comunicado de CACE del 6/11 releido el 21/11 (fechas 2 al 4/11 y cifras sin cambio; cybermonday.com.ar 403, bloqueo), CyberMonday en pasado, Black Friday 27/11 rotulado como fecha por calendario y guias de terceros ("confirma en el sitio de cada tienda"), dateModified 21/11. Sin cifras de descuento nuevas.
   // Re-pin 21/11/2026 (sodi-c74a, Head of SEO sobre Search Console): title, meta, intro y 2-3 enlaces internos en que-es-un-community-manager (consulta "que es cm", posicion ~10, 0 clics) y community-manager-vs-agencia (consulta "servicios de community manager", posicion ~18, 1 clic); meta sin los rangos en pesos sin fuente; sin cifras nuevas. Informe sodi-gsc-head-20261121.md en lagos-lab.
   // Re-pin 21/11/2026 (sodi-8e8c, respuestas directas): solo texto en 1 pagina. CRM para PyMEs con bloque "Respuesta corta" (Zoho Free para 3 usuarios, pagina de precios de Zoho leida el 21/11/2026; sin cifras de precio porque la pagina de HubSpot no es legible sin JavaScript). Informe sodi-respuestas-directas-20261121.md en lagos-lab.
-  approvedCatalogContentSha256: "8c705ec4fe3bbdcab5b37844a94636ee5003470c87887e9b8b7d31c9b2a75ef3",
+  // Re-pin 21/11/2026 (sodi-8a44, cobertura de indexacion): solo enlaces internos descriptivos hacia paginas sin indexar o sin enlaces entrantes (diseno UX/UI, envios ecommerce, opticas, nutricionistas, Empretienda, herramientas IA) desde 7 paginas ya indexadas; sin cifras ni afirmaciones nuevas. Rollback: git revert este commit.
+  approvedCatalogContentSha256: "6eb7d8482aa03e24618a2ff3b434042da261ced1915e96d2f47eef92da333cf3",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
