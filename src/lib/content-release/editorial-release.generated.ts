@@ -76,7 +76,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/hot-sale-2026-ecommerce-argentina",
       "kind": "blog",
       "sourcePath": "content/hot-sale-2026-ecommerce-argentina.json",
-      "sourceFileSha256": "cb28f22789b7dc21c910591b69a2fc2b9d6c2937da322ea6ef6dbdc0adfdca28",
+      "sourceFileSha256": "c7bc385b9b8e3630f51861b62759b0a2c9609dafd6eecacef34b9c91f5d553ff",
       "contentSha256": "286827f7b57b3d1850d4fe4b34b40d6a05248c28bd325c9580342f6f2d0e4f01",
       "canonical": "https://sodi.com.ar/blog/hot-sale-2026-ecommerce-argentina",
       "internalLinks": [
@@ -393,7 +393,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/black-friday-argentina-2026-ecommerce-pyme",
       "kind": "blog",
       "sourcePath": "content/black-friday-argentina-2026-ecommerce-pyme.json",
-      "sourceFileSha256": "664d36bba672cc7ca4664d7bf335fc7e6dca836591e6a8c40d79c16a6a2503ad",
+      "sourceFileSha256": "941202d9c69544ca3f6d94973071af087102fcbf7893919d3ad89b01f7de4c33",
       "contentSha256": "8c59edf1a0fc3a7baf338666af5108f7906f540e47e1c2bcc14f70a1b7d49ce3",
       "canonical": "https://sodi.com.ar/blog/black-friday-argentina-2026-ecommerce-pyme",
       "internalLinks": [
