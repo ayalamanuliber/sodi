@@ -7,7 +7,7 @@
   "siloLabel": "Comparativas",
   "tags": ["excel", "sistema de gestión", "ERP", "PyMEs", "gestión empresarial"],
   "datePublished": "2026-04-11",
-  "dateModified": "2026-11-18",
+  "dateModified": "2026-11-21",
   "readingTime": "7 min lectura",
   "relatedSlugs": ["como-dejar-de-depender-de-excel", "cuanto-cuesta-sistema-de-gestion-pymes", "que-es-un-sistema-de-gestion"],
   "content": {
@@ -23,7 +23,7 @@
       },
       {
         "heading": "El costo oculto de seguir con Excel",
-        "body": "<p>Las empresas no miden cuánto les cuesta Excel porque pareciera gratuito. Pero hagamos la cuenta:</p><p><strong>Tiempo perdido:</strong> un empleado que busca datos en planillas, arma reportes manuales y verifica información inconsistente pierde entre <strong>5 y 10 horas semanales</strong>. Multiplicá esas horas por el costo laboral de tu equipo y vas a ver el trabajo improductivo mensual. Por empleado.</p><p><strong>Errores costosos:</strong> los estudios sobre auditoría de planillas (por ejemplo los de Raymond Panko, Universidad de Hawaii) encuentran errores en una gran parte de las planillas revisadas. En una PyME argentina, un error en una fórmula de precios, stock o cobranza puede costar <strong>una suma importante en una sola operación</strong>.</p><p><strong>Decisiones sin datos:</strong> sin un sistema que consolide información automáticamente, tomás decisiones por intuición. ¿Cuál es tu producto más rentable? ¿Qué cliente compra más? ¿Cuánto facturaste el trimestre pasado? Si tardás más de 30 segundos en responder, estás operando a ciegas.</p><p><strong>Dependencia de personas:</strong> si la persona que armó la planilla se va, ¿quién entiende las fórmulas? ¿Quién sabe dónde está cada dato? Excel crea dependencias personales que un sistema elimina.</p>"
+        "body": "<p>Las empresas no miden cuánto les cuesta Excel porque pareciera gratuito. Pero hagamos la cuenta:</p><p><strong>Tiempo perdido:</strong> un empleado que busca datos en planillas, arma reportes manuales y verifica información inconsistente pierde <strong>horas cada semana</strong> (cronometrá cuántas en tu equipo). Multiplicá esas horas por el costo laboral de tu equipo y vas a ver el trabajo improductivo mensual. Por empleado.</p><p><strong>Errores costosos:</strong> los estudios sobre auditoría de planillas (por ejemplo los de Raymond Panko, Universidad de Hawaii) encuentran errores en una gran parte de las planillas revisadas. En una PyME argentina, un error en una fórmula de precios, stock o cobranza puede costar <strong>una suma importante en una sola operación</strong>.</p><p><strong>Decisiones sin datos:</strong> sin un sistema que consolide información automáticamente, tomás decisiones por intuición. ¿Cuál es tu producto más rentable? ¿Qué cliente compra más? ¿Cuánto facturaste el trimestre pasado? Si tardás más de 30 segundos en responder, estás operando a ciegas.</p><p><strong>Dependencia de personas:</strong> si la persona que armó la planilla se va, ¿quién entiende las fórmulas? ¿Quién sabe dónde está cada dato? Excel crea dependencias personales que un sistema elimina.</p>"
       },
       {
         "heading": "Cómo migrar de Excel a un sistema sin que sea un caos",

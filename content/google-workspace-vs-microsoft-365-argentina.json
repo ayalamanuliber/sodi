@@ -13,7 +13,7 @@
     "herramientas colaborativas"
   ],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-11-21",
   "readingTime": "7 min lectura",
   "relatedSlugs": [
     "como-centralizar-informacion-empresa",
@@ -31,7 +31,7 @@
       },
       {
         "heading": "Google Workspace: para quién funciona mejor",
-        "body": "<p>Workspace es ideal cuando:</p><ul><li><strong>Tu equipo ya usa Gmail y Google Drive.</strong> No hay transición. Activás el plan, conectás tu dominio, y seguís trabajando como antes pero con email profesional.</li><li><strong>La colaboración en tiempo real es clave.</strong> Google Docs permite que 10 personas editen un documento al mismo tiempo sin conflictos. Microsoft mejoró mucho en esto, pero Google sigue siendo superior.</li><li><strong>No necesitás Excel avanzado.</strong> Google Sheets cubre el 90% de los usos de una PyME. Si no usás macros, tablas dinámicas complejas o Power Query, Sheets alcanza.</li><li><strong>Querés simplicidad.</strong> Todo funciona desde el navegador, sin instalar nada. Actualizaciones automáticas, cero mantenimiento.</li></ul><p>El plan Starter (USD 7 por usuario por mes en precio de lista, <a href=\"https://workspace.google.com/intl/es-419/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Google, consulta 22/10/2026</a>) cubre email, Drive (30 GB), Meet, Docs, Sheets y Slides. Para la mayoría de las PyMEs argentinas, esto es más que suficiente.</p>"
+        "body": "<p>Workspace es ideal cuando:</p><ul><li><strong>Tu equipo ya usa Gmail y Google Drive.</strong> No hay transición. Activás el plan, conectás tu dominio, y seguís trabajando como antes pero con email profesional.</li><li><strong>La colaboración en tiempo real es clave.</strong> Google Docs permite que 10 personas editen un documento al mismo tiempo sin conflictos. Microsoft mejoró mucho en esto, pero Google sigue siendo superior.</li><li><strong>No necesitás Excel avanzado.</strong> Google Sheets cubre el uso habitual de una PyME. Si no usás macros, tablas dinámicas complejas o Power Query, Sheets alcanza.</li><li><strong>Querés simplicidad.</strong> Todo funciona desde el navegador, sin instalar nada. Actualizaciones automáticas, cero mantenimiento.</li></ul><p>El plan Starter (USD 7 por usuario por mes en precio de lista, <a href=\"https://workspace.google.com/intl/es-419/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Google, consulta 22/10/2026</a>) cubre email, Drive (30 GB), Meet, Docs, Sheets y Slides. Para la mayoría de las PyMEs argentinas, esto es más que suficiente.</p>"
       },
       {
         "heading": "Microsoft 365: para quién funciona mejor",
@@ -39,7 +39,7 @@
       },
       {
         "heading": "Costos en Argentina: impuestos y pago anual",
-        "body": "<p>Ambos servicios se facturan en dólares y los precios de lista que publican no incluyen impuestos. En Argentina, al pagar con tarjeta se suman cargos e impuestos que cambian con la normativa y con tu condición fiscal, así que el costo en pesos no se puede fijar de antemano. Con precios de lista, 10 usuarios cuestan por mes: Google Workspace Starter USD 70, Plus USD 220 (<a href=\"https://workspace.google.com/intl/es-419/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Google, consulta 22/10/2026</a>); Microsoft 365 Empresa Básico USD 70, Empresa Estándar USD 140 (<a href=\"https://www.microsoft.com/es-ar/microsoft-365/business/compare-all-microsoft-365-business-products\" rel=\"nofollow noopener\" target=\"_blank\">Microsoft, consulta 22/10/2026</a>).</p><p>Hay un ahorro por pagar con compromiso anual: Google indica un 16% (<a href=\"https://workspace.google.com/intl/es-419/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Google, consulta 22/10/2026</a>) y Microsoft publica Empresa Básico a USD 7 con pago anual contra USD 8,40 con suscripción mensual (<a href=\"https://www.microsoft.com/es-ar/microsoft-365/business/microsoft-365-business-basic\" rel=\"nofollow noopener\" target=\"_blank\">Microsoft, consulta 22/10/2026</a>). Para ver qué impuestos se suman al pagar Google Workspace con tarjeta, mirá <a href=\"/blog/cuanto-cuesta-google-workspace-argentina\">cuánto cuesta Google Workspace en Argentina</a>. También existen resellers argentinos que facturan en pesos. Consultá con tu contador sobre la deducción impositiva.</p>"
+        "body": "<p>Ambos servicios se facturan en dólares y los precios de lista que publican no incluyen impuestos. En Argentina, al pagar con tarjeta se suman cargos e impuestos que cambian con la normativa y con tu condición fiscal, así que el costo en pesos no se puede fijar de antemano. Con precios de lista, 10 usuarios cuestan por mes: Google Workspace Starter USD 70, Plus USD 220 (<a href=\"https://workspace.google.com/intl/es-419/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Google, consulta 22/10/2026</a>); Microsoft 365 Empresa Básico USD 70, Empresa Estándar USD 140 (<a href=\"https://www.microsoft.com/es-ar/microsoft-365/business/compare-all-microsoft-365-business-products\" rel=\"nofollow noopener\" target=\"_blank\">Microsoft, consulta 22/10/2026</a>).</p><p>Hay un ahorro por pagar con compromiso anual: Google indica un 16% (<a href=\"https://workspace.google.com/intl/es-419/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Google, consulta 22/10/2026</a>) y Microsoft publica Empresa Básico a USD 7 con pago anual contra USD 8,40 con suscripción mensual (<a href=\"https://www.microsoft.com/es-ar/microsoft-365/business/microsoft-365-business-basic\" rel=\"nofollow noopener\" target=\"_blank\">Microsoft, consulta 22/10/2026</a>). Relectura del 21/11/2026: los precios de lista de Google (Starter USD 7 y Plus USD 22 por usuario por mes, y el 16% de ahorro anual) siguen iguales. La página de Microsoft bloqueó la lectura automática ese día, así que sus precios siguen con la consulta del 22/10/2026. Para ver qué impuestos se suman al pagar Google Workspace con tarjeta, mirá <a href=\"/blog/cuanto-cuesta-google-workspace-argentina\">cuánto cuesta Google Workspace en Argentina</a>. También existen resellers argentinos que facturan en pesos. Consultá con tu contador sobre la deducción impositiva.</p>"
       },
       {
         "heading": "Cómo elegir: la pregunta que define todo",
@@ -53,7 +53,7 @@
       },
       {
         "question": "¿Google Sheets reemplaza a Excel para una PyME?",
-        "answer": "Para el 90% de los usos sí: listas de clientes, presupuestos, seguimiento de ventas, reportes básicos. Donde no reemplaza es en macros VBA, Power Query, tablas dinámicas avanzadas y modelos financieros complejos. Si tu negocio depende de esas funciones, necesitás Excel."
+        "answer": "Para los usos habituales sí: listas de clientes, presupuestos, seguimiento de ventas, reportes básicos. Donde no reemplaza es en macros VBA, Power Query, tablas dinámicas avanzadas y modelos financieros complejos. Si tu negocio depende de esas funciones, necesitás Excel."
       },
       {
         "question": "¿Puedo cambiar de Google Workspace a Microsoft 365 después?",
