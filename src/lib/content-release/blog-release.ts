@@ -10,8 +10,8 @@ import { BLOG_MERGE_REDIRECTS, BLOG_NOINDEX_SLUGS } from "./blog-pruning.generat
 export const BLOG_RELEASE_BASELINE = {
   status: "legacy_live_baseline",
   approvedAt: "2026-08-28",
-  expectedSearchEligibleCount: 467,
-  approvedSlugSetSha256: "421cae56c6df5e021eb4d3add5a229cf55a8c598d3bb6324642abd606db6de25",
+  expectedSearchEligibleCount: 468,
+  approvedSlugSetSha256: "bdfdc3da74cfe2f420926d5b52bf6d9d006b7909124de111933c7b918fd18a7c",
   // Re-pin 22/10/2026: CyberMonday (title/H1/meta) + Community Manager (title/H1/H2, sueldo con fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: cifras de precio sin fuente (Meta Ads, agencia/freelance/consultoria/ads) con link de fuente o reescritas sin numero + gate price-sources. Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
@@ -55,7 +55,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 21/11/2026 (sodi-8a44, cobertura de indexacion): solo enlaces internos descriptivos hacia paginas sin indexar o sin enlaces entrantes (diseno UX/UI, envios ecommerce, opticas, nutricionistas, Empretienda, herramientas IA) desde 7 paginas ya indexadas; sin cifras ni afirmaciones nuevas. Rollback: git revert este commit.
   // Re-pin 21/11/2026 (sodi-056b, enlaces por silo lote 2): solo 12 enlaces internos descriptivos (uno por par) hacia paginas con impresiones sin enlaces entrantes editoriales (farmacias, clubes, TikTok vs Facebook Ads, joyerias, panaderias, bot vs chatbot, publicidad online vs tradicional, imprentas, rediseno web, constructoras, migrar de Excel) desde 12 paginas ya indexadas; sin cifras ni texto monetario nuevos. Rollback: git revert este commit.
   // Re-pin 21/11/2026 (sodi-6b24, lote 7 de sodi-cifras-top, 15 paginas del tramo 55-101 sin relectura esta semana): solo texto en 10 paginas. Turnos online con SimplyBook USD 11,9/13,9 (pagina leida 21/11), AgendaPro y Cloxsy sin precio publicado; CRM con Clientify USD 39 por asiento anual y sin el 70% de fracaso ni el 90% de WhatsApp; WhatsApp inmobiliarias con Botmaker Standard USD 149 y Wati Growth USD 59 en lugar de "desde USD 30/40"; porcentajes sin fuente retirados en turnos, clinicas, veterinarias, lavaderos e inmobiliarias; escribanias, farmacias y constructoras con el rango rotulado como estimacion de SODI. Resto releido sin cambio (Xubio, Alegra, Colppy, Facturante, RG 5893, Botpress, OpenAI, Meta, Calendly, Cal.com, Zoho Free). Informe sodi-cifras-top-lote7-20261121.md en lagos-lab.
-  approvedCatalogContentSha256: "892ae9885958a9ac14e36abe39a42df1bdea4677a6b5e42b337454de9969409e",
+  // Re-pin 21/11/2026 (sodi-45e3, rebase de sodi-02be sobre main 766ead5): guia nueva formas-de-cobro-mercado-pago (baseline 467 -> 468) y un enlace relacionado desde modo-vs-mercadopago, como-reducir-comisiones-mercadopago y mercadopago-vs-mobbex-ecommerce. Sin cifras: mercadopago.com.ar/costs-section y /ayuda devolvieron 403 el 21/11. Informe sodi-formas-pago-mp-20261121.md en lagos-lab. Pendiente del OK de la tanda.
+  approvedCatalogContentSha256: "8f6911b10e1745833ba14003bc7b5e7002a4a7f2432bbdda682732f1a97944dd",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
