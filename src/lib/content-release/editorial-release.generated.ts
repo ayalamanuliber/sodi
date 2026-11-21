@@ -492,7 +492,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-shopify-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-shopify-argentina.json",
-      "sourceFileSha256": "4800c5eaff2a984abe1b7466c49f606af6b9448355e96d6dd8a540d16fc2a09e",
+      "sourceFileSha256": "6eddc4c5a14589fad6357c550a3279a0682f22e2a6b06666dc3f01f1c280b99c",
       "contentSha256": "4f76a30e561f1d48d59f2a32f4a78b996a416359a07054c7e969dc18a8304476",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-shopify-argentina",
       "internalLinks": [
