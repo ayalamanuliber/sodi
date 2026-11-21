@@ -1,0 +1,70 @@
+{
+  "slug": "formas-de-cobro-mercado-pago",
+  "title": "Formas de cobro de Mercado Pago: QR, link de pago, Point y checkout, y cuál usar según tu negocio",
+  "metaTitle": "Formas de pago de Mercado Pago para cobrar: QR, link, Point",
+  "metaDescription": "Qué formas de cobro ofrece Mercado Pago a un negocio (QR, link de pago, Point, checkout, transferencia, débito y crédito), para qué sirve cada una y dónde ver tu comisión real.",
+  "silo": "guias",
+  "siloLabel": "Guías Prácticas",
+  "tags": [
+    "mercadopago",
+    "formas de pago",
+    "medios de cobro",
+    "cobrar con qr",
+    "link de pago",
+    "Point",
+    "checkout"
+  ],
+  "datePublished": "2026-11-21",
+  "dateModified": "2026-11-21",
+  "readingTime": "6 min lectura",
+  "relatedSlugs": [
+    "como-reducir-comisiones-mercadopago",
+    "modo-vs-mercadopago-para-negocios",
+    "mercadopago-vs-mobbex-ecommerce",
+    "como-cobrar-con-qr-en-mi-negocio"
+  ],
+  "content": {
+    "intro": "<p><strong>Respuesta directa:</strong> Mercado Pago le da a un negocio cuatro herramientas para cobrar: <strong>QR</strong>, <strong>link de pago</strong>, <strong>Point</strong> (lector de tarjetas) y <strong>checkout online</strong> para tu tienda. Con ellas tu cliente puede pagar con dinero en cuenta, transferencia, tarjeta de débito o de crédito, según la herramienta.</p><p>Cuánto cuesta cada una y en cuánto tiempo te acreditan la plata depende de la herramienta, del medio de pago y del plazo que elijas. <strong>No publicamos porcentajes</strong>: el <a href=\"https://www.mercadopago.com.ar/costs-section\" rel=\"nofollow noopener\" target=\"_blank\">mercadopago.com.ar/costs-section</a> no se pudo leer el 21/11/2026 (respondió 403), así que la tabla vigente la ves en \"Costos\" dentro de tu cuenta de Mercado Pago. Para decidir cuál conviene, mirá <a href=\"/blog/como-reducir-comisiones-mercadopago\">cómo bajar las comisiones de Mercado Pago</a>.</p>",
+    "sections": [
+      {
+        "heading": "Las formas de cobro de Mercado Pago, una por una",
+        "body": "<table><thead><tr><th>Forma de cobro</th><th>Para qué sirve</th><th>Con qué paga el cliente</th></tr></thead><tbody><tr><td>QR</td><td>Cobro presencial en local, feria o mostrador: el cliente escanea y paga desde su app</td><td>Dinero en cuenta, tarjeta, según la app que use</td></tr><tr><td>Link de pago</td><td>Vender por WhatsApp, Instagram o mail sin tienda web: mandás un link y el cliente paga</td><td>Dinero en cuenta, débito, crédito</td></tr><tr><td>Point</td><td>Cobrar con tarjeta de forma presencial con un lector físico</td><td>Débito y crédito, en cuotas si corresponde</td></tr><tr><td>Checkout online</td><td>Cobrar dentro de una tienda online o una web a medida (Checkout Pro, Bricks, API)</td><td>Dinero en cuenta, tarjetas, transferencia</td></tr></tbody></table><p>Comisión y plazo de cada fila: <strong>sin cifra</strong>, porque la página oficial de costos no estuvo legible el 21/11/2026. Es una decisión de caja: cobrar al instante suele costar más que esperar unos días, y ese cálculo lo hacés con los números de tu cuenta.</p>"
+      },
+      {
+        "heading": "Cuál usar según cómo vendés",
+        "body": "<ul><li><strong>Local físico con mucho pago chico:</strong> QR. Es la forma más simple de cobrar en el mostrador; más detalle en la guía para <a href=\"/blog/como-cobrar-con-qr-en-mi-negocio\">cobrar con QR</a>.</li><li><strong>Local que además cobra con tarjeta y cuotas:</strong> Point, con el QR como segunda opción.</li><li><strong>Vendés por chat o redes:</strong> link de pago. No necesitás tienda web, pero revisá en \"Costos\" cuánto te sale frente a un QR.</li><li><strong>Tienda online:</strong> checkout. En Tiendanube se activa de forma nativa; en una tienda a medida se integra por API. Si dudás entre pasarelas, mirá <a href=\"/blog/mercadopago-vs-mobbex-ecommerce\">Mercado Pago vs Mobbex</a>.</li><li><strong>Querés sumar un QR de tu banco:</strong> comparalo en <a href=\"/blog/modo-vs-mercadopago-para-negocios\">MODO vs Mercado Pago</a>.</li></ul>"
+      },
+      {
+        "heading": "Cómo ver cuánto te cobra cada forma de cobro",
+        "body": "<ol><li>Entrá a tu cuenta de Mercado Pago y abrí la sección <strong>Costos</strong>.</li><li>Elegí la herramienta (QR, Point, link o checkout) y el plazo de acreditación.</li><li>Anotá la tasa de cada medio de pago con la fecha de consulta: cambian y pueden variar por provincia.</li><li>Con esa tasa, calculá cuánto te llega de una venta con la <a href=\"/herramientas/calculadora-comisiones-cobro\">calculadora de comisiones de cobro</a>.</li></ol><p>Fuente primaria que intentamos leer: <a href=\"https://www.mercadopago.com.ar/costs-section\" rel=\"nofollow noopener\" target=\"_blank\">mercadopago.com.ar/costs-section</a> (21/11/2026, error 403, sin datos). Cuando esa página sea legible, esta guía se actualiza con las cifras y la fecha de lectura. Los costos no incluyen decisiones impositivas de tu negocio: para cómo facturar o cómo tributa lo que cobrás, consultá a tu contador.</p>"
+      },
+      {
+        "heading": "¿Con qué banco trabaja Mercado Pago?",
+        "body": "<p>Mercado Pago es una billetera y un proveedor de servicios de pago: tu plata queda en tu cuenta de Mercado Pago y de ahí la transferís a tu banco con tu CBU o CVU. Si tu duda es dónde acreditan tus cobros, la respuesta práctica es esa cuenta; la entidad con la que opera Mercado Pago no la afirmamos acá porque no pudimos verificarla en una fuente primaria el 21/11/2026. Si necesitás ese dato para un trámite, pedilo por escrito desde la ayuda de tu cuenta.</p>"
+      },
+      {
+        "heading": "Errores comunes al elegir la forma de cobro",
+        "body": "<ul><li>Cobrar todo por link aunque tengas local: suele ser de las opciones más caras; revisá Costos.</li><li>Fijar precios con tasas de una guía vieja en lugar de las de tu cuenta.</li><li>Elegir acreditación instantánea sin mirar cuánto cuesta frente a esperar.</li><li>No conciliar lo que acreditan contra lo vendido: usá este <a href=\"/plantillas/checklist-conciliacion-pagos-ecommerce\">checklist de conciliación de pagos</a>.</li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué formas de pago ofrece Mercado Pago para cobrar en mi negocio?",
+        "answer": "QR, link de pago, Point (lector de tarjetas) y checkout online. Con ellas el cliente puede pagar con dinero en cuenta, transferencia, débito o crédito, según la herramienta."
+      },
+      {
+        "question": "¿Cuánto cobra Mercado Pago por cada forma de cobro?",
+        "answer": "Depende de la herramienta, del medio de pago y del plazo de acreditación. No publicamos cifras porque la página oficial de costos no se pudo leer el 21/11/2026 (error 403). La tasa vigente la ves en \"Costos\" dentro de tu cuenta."
+      },
+      {
+        "question": "¿Con qué banco trabaja Mercado Pago?",
+        "answer": "Tus cobros quedan en tu cuenta de Mercado Pago y desde ahí los llevás a tu banco. No afirmamos con qué entidad opera porque no se pudo verificar en una fuente primaria el 21/11/2026."
+      },
+      {
+        "question": "¿Conviene cobrar con QR o con link de pago?",
+        "answer": "Para cobro presencial, el QR suele ser más simple; el link sirve para vender por chat sin tienda web. Compará el costo de ambos en \"Costos\" antes de fijar precios."
+      }
+    ],
+    "ctaText": "¿Querés ordenar tus formas de cobro y tu tienda online? <a href='/diagnostico'>Pedí tu diagnóstico gratuito</a> y lo vemos con tus números."
+  }
+}
