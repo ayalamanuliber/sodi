@@ -466,7 +466,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/vencimientos-arca-noviembre-diciembre-2026",
       "kind": "blog",
       "sourcePath": "content/vencimientos-arca-noviembre-diciembre-2026.json",
-      "sourceFileSha256": "1b316b54e30968b379872d87a197428fa779ddd3f7ab1b0a1d9600825d3a30b2",
+      "sourceFileSha256": "35221b8cfca65df5acd4208e51cb9c6ac420bd061e743be324fbc6933891606d",
       "contentSha256": "db5eb5a8f1cacb8629c3497d9847fd5025f1a50fc792dc751afed53160952e8e",
       "canonical": "https://sodi.com.ar/blog/vencimientos-arca-noviembre-diciembre-2026",
       "internalLinks": [
