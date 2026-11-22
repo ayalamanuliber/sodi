@@ -1,8 +1,8 @@
 {
   "slug": "sistema-de-gestion-para-restaurantes",
   "title": "Sistema de Gestión para Restaurantes en Argentina",
-  "metaTitle": "Sistema de Gestión para Restaurantes Argentina",
-  "metaDescription": "Organizá tu restaurante con un sistema de gestión: comandas, stock, costos y reservas en un solo lugar. Comparamos opciones SaaS y a medida en Argentina.",
+  "metaTitle": "Sistema para restaurantes en Argentina: precios y qué incluye",
+  "metaDescription": "Sistema de gestión para restaurantes en Argentina: qué incluye (comandas, stock, costos), cuánto publican los SaaS y cómo elegir entre SaaS y a medida.",
   "silo": "sistema-por-rubro",
   "siloLabel": "Sistemas por Rubro",
   "tags": [
@@ -22,6 +22,10 @@
   "content": {
     "intro": "<p>En la gastronomía argentina, los márgenes son ajustados y el ritmo es brutal. Si tu restaurante todavía toma pedidos en papel, controla el stock \"a ojo\" y calcula los costos de cada plato en una planilla de Excel que nadie actualiza, <strong>estás dejando plata sobre la mesa</strong> — literalmente.</p><p>Un <strong>sistema de gestión para restaurantes</strong> integra comandas, inventario, costos de recetas, reservas, facturación y reportes en un solo lugar. En esta guía te contamos qué necesitás según el tipo y tamaño de tu local, cuánto cuesta y cómo implementarlo sin frenar la operación.</p><p>Si buscás un <strong>sistema para restaurantes</strong> y todavía no sabés qué rango de costo es razonable, mirá <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión para PyMEs</a>; para la parte web del local, <a href=\"/blog/pagina-web-para-restaurantes\">página web para restaurantes</a>.</p>",
     "sections": [
+      {
+        "heading": "Cuánto cuesta un sistema de gestión para restaurantes: la respuesta corta",
+        "body": "<div class=\"direct-answer\"><p>Un sistema para restaurantes en Argentina se cobra como suscripción mensual. Fudo, por ejemplo, publica planes desde USD 35 al mes (<a href=\"https://fu.do/precios/\" rel=\"nofollow noopener\" target=\"_blank\">fu.do/precios, leído el 21/11/2026</a>), en dólares y sin aclarar si incluye IVA. Pedí presupuesto por escrito y comparalo con <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión para PyMEs</a> y con <a href=\"/blog/pagina-web-para-restaurantes\">la página web para restaurantes</a>.</p></div>"
+      },
       {
         "heading": "El caos operativo en restaurantes: un problema que se come tus márgenes",
         "body": "<p>La gastronomía tiene una particularidad: todo pasa en tiempo real. No podés decirle a un cliente \"esperá que busco el pedido en el Excel\". Los problemas más comunes sin un sistema son:</p><ul><li><strong>Comandas perdidas o mal tomadas:</strong> El mozo anota en papel, la cocina no entiende la letra, el plato sale mal.</li><li><strong>Stock descontrolado:</strong> No sabés cuánta mercadería tenés hasta que se acaba. Comprás de más o de menos.</li><li><strong>Costos de platos desconocidos:</strong> ¿Cuánto te cuesta realmente ese milanesón con papas? Si no lo sabés al centavo, no podés poner precios rentables.</li><li><strong>Reservas caóticas:</strong> Un cuaderno en la barra, llamadas que se pierden, mesas que se asignan dos veces.</li><li><strong>Facturación manual:</strong> Cierres de caja que no cierran, tickets que se pierden, problemas con ARCA.</li></ul><p>Un restaurante puede estar perdiendo una parte importante de su facturación por ineficiencias operativas: desperdicios, errores y tiempo perdido.</p>"
