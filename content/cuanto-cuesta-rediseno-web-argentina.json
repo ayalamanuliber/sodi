@@ -7,7 +7,7 @@
   "siloLabel": "Precios y Costos",
   "tags": ["rediseño web", "migración web", "actualizar sitio web", "precios web", "rediseño Argentina"],
   "datePublished": "2026-04-14",
-  "dateModified": "2026-04-14",
+  "dateModified": "2026-11-22",
   "readingTime": "7 min lectura",
   "relatedSlugs": ["cuanto-cuesta-pagina-web-argentina", "cuanto-cuesta-mantenimiento-pagina-web", "mi-sitio-web-no-vende-que-esta-mal", "como-elegir-agencia-web-argentina"],
   "content": {
@@ -19,7 +19,7 @@
       },
       {
         "heading": "Señales de que tu web necesita un rediseño (no solo un retoque)",
-        "body": "<p><strong>No es responsive:</strong> si tu web se ve mal en celulares, necesitás rediseño urgente. El 70%+ del tráfico web en Argentina viene de dispositivos móviles. Una web que no funciona en celular pierde 7 de cada 10 visitantes.</p><p><strong>Carga lenta (más de 3 segundos):</strong> medilo en Google PageSpeed Insights. Si tu web tarda más de 3 segundos en cargar, perdés el 53% de los visitantes según datos de Google. A veces se soluciona con optimización; otras veces el problema es la plataforma y necesitás migrar.</p><p><strong>Tasa de rebote mayor al 70%:</strong> si 7 de cada 10 personas que entran se van sin hacer nada, tu web tiene un problema de contenido, diseño o velocidad. Revisá Google Analytics: si el rebote es alto en todas las páginas, es un problema estructural que requiere rediseño.</p><p><strong>No genera consultas ni leads:</strong> si tu web tiene tráfico pero nadie te contacta, el problema es de conversión. No necesitás más tráfico: necesitás CTAs claros, formularios visibles, propuesta de valor en los primeros 5 segundos y botón de WhatsApp.</p><p><strong>Tiene más de 3-4 años:</strong> la web envejece rápido. Tendencias de diseño, estándares de velocidad, requisitos de SEO y expectativas de los usuarios cambian cada 2-3 años. Si tu web tiene más de 4 años, probablemente se ve y funciona como de otra época.</p>"
+        "body": "<p><strong>No es responsive:</strong> si tu web se ve mal en celulares, necesitás rediseño urgente. Buena parte del tráfico llega desde el celular: mirá en tu Google Analytics qué porcentaje de tus visitas es móvil. Una web que no funciona en celular pierde a esos visitantes.</p><p><strong>Carga lenta (más de 3 segundos):</strong> medilo en Google PageSpeed Insights. Si tu web tarda en cargar, perdés visitantes: medí la velocidad con PageSpeed Insights. A veces se soluciona con optimización; otras veces el problema es la plataforma y necesitás migrar.</p><p><strong>Tasa de rebote mayor al 70%:</strong> si 7 de cada 10 personas que entran se van sin hacer nada, tu web tiene un problema de contenido, diseño o velocidad. Revisá Google Analytics: si el rebote es alto en todas las páginas, es un problema estructural que requiere rediseño.</p><p><strong>No genera consultas ni leads:</strong> si tu web tiene tráfico pero nadie te contacta, el problema es de conversión. No necesitás más tráfico: necesitás CTAs claros, formularios visibles, propuesta de valor en los primeros 5 segundos y botón de WhatsApp.</p><p><strong>Tiene más de 3-4 años:</strong> la web envejece rápido. Tendencias de diseño, estándares de velocidad, requisitos de SEO y expectativas de los usuarios cambian cada 2-3 años. Si tu web tiene más de 4 años, probablemente se ve y funciona como de otra época.</p>"
       },
       {
         "heading": "Cómo rediseñar sin perder el SEO que ya tenés",

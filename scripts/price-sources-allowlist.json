@@ -502,24 +502,10 @@
    "6224922ad6cf0eea": "Los rubros con más crecimiento online en Argentina son: indumentaria, electrónica, aliment"
   },
   "cuanto-cuesta-bot-whatsapp-empresas": {
-   "cf85a4942652caeb": "Un bot de WhatsApp cuesta desde $30 USD/mes con plataformas como Wasapi hasta $2.500.000 A",
-   "c3e38462c4883efb": "Un bot de WhatsApp para empresas en Argentina cuesta entre $30 USD/mes con plataformas pre",
-   "3204610980ba2900": "Wasapi arranca en $30 USD/mes para 1 agente y 1.000 conversaciones. Es argentina, tiene bu",
-   "f9fb3d0113599f3d": "Cliengo cuesta entre $59 y $199 USD/mes. Incluye chatbot para web y WhatsApp, CRM básico i",
-   "954fff9923f6bd69": "Whaticket arranca en $49 USD/mes con múltiples agentes y conexión a WhatsApp, Instagram y ",
-   "e00f537b0626ce45": "WATI (basado en la API oficial de WhatsApp Business) cuesta desde $49 USD/mes. Es más técn",
-   "864c66c2a25fa2e2": "Un bot custom arranca en $800.000 ARS para un flujo básico (bienvenida, menú de opciones, ",
    "28040a8d335c5f18": "Un bot de complejidad media cuesta entre $1.200.000 y $2.500.000 ARS. Acá hablamos de: int",
    "dff93f37993a70b5": "Los bots enterprise con inteligencia artificial superan los $4.500.000 ARS. Usan modelos d",
    "2341782039f1eae0": "El desarrollo custom tarda entre 4 y 12 semanas dependiendo de la complejidad. Además del ",
-   "1c508dc1d106a47b": "Elegí una plataforma si: recibís menos de 100 consultas diarias, tus preguntas frecuentes ",
-   "58a9a042715c22e7": "Elegí desarrollo custom si: necesitás integrar WhatsApp con tu sistema de gestión o CRM, q",
-   "02357b47ea5ce7af": "La mayoría de las PyMEs argentinas debería arrancar con una plataforma y migrar a custom s",
-   "209feef0eb41867c": "Una PyME que recibe 50 consultas diarias por WhatsApp dedica entre 3 y 5 horas de una pers",
-   "c5c38ee81572df35": "El ROI típico de un bot de plataforma ($30-60 USD/mes) es de 3-6 meses. Para un bot custom",
-   "974d539f73cd22fa": "Desde $30 USD/mes con plataformas como Wasapi o WATI, hasta $800.000-$2.500.000 ARS por un",
-   "fecc9a5d05ef582f": "Wasapi ($30 USD/mes) es la mejor opción para PyMEs argentinas por precio, soporte local e ",
-   "e51ed7056c40026b": "Si recibís menos de 50 consultas diarias y usás una plataforma como Wasapi, la app Busines"
+   "58a9a042715c22e7": "Elegí desarrollo custom si: necesitás integrar WhatsApp con tu sistema de gestión o CRM, q"
   },
   "cuanto-cuesta-facturacion-electronica-argentina": {
    "11178c207f39ed05": "Sistema y plan Precio de lista (ARS) Límite publicado Dato a tener en cuenta",
@@ -974,15 +960,6 @@
    "eb255b1577543a84": "Sí, pero empezá con herramientas gratuitas (ChatGPT, Claude, Gemini). No necesitás inverti",
    "d2d1911aa0b2bd75": "Desde $25.000/mes con plataformas como Botmaker para un bot básico. Un chatbot entrenado c"
   },
-  "mailchimp-vs-doppler-vs-brevo-argentina": {
-   "e5ff19592161ff80": "Plan pago desde $13 USD/mes (500 contactos) ~$10 USD/mes (500 contactos) $9 USD/mes (5.000",
-   "bd58e9cc7ffbac21": "Factura en pesos No — USD con tarjeta internacional Sí — pesos argentinos, factura A/B No ",
-   "bf0eb53dc4ad567c": "Las limitaciones del plan gratis: branding de Brevo en los emails y sin testing A/B. El pl",
-   "f64a85bbd15001d2": "Los planes arrancan en ~$10 USD/mes (facturado en pesos al cambio oficial) para 500 contac",
-   "2d2e2ed2f18239f8": "Automatizaciones avanzadas — customer journeys complejos con múltiples ramas y condiciones",
-   "319bab7dde1b277a": "El problema para PyMEs argentinas: el plan gratuito bajó a 500 contactos y 1.000 envíos/me",
-   "22237ba1276827c3": "Mailchimp tiene las automatizaciones más sofisticadas (customer journeys complejos), pero "
-  },
   "marketing-digital-vs-tradicional": {
    "a940fd432db5321e": "$100.000 en Meta Ads:",
    "0de721006182fd17": "Costo por cliente: $5.500-$16.600",
@@ -1079,9 +1056,7 @@
   "pagina-web-para-constructoras": {
    "2e857d1f87deb20c": "Web institucional con portfolio: desde USD 600 a USD 1.500. Diseño responsive, portfolio d",
    "1c7be61fc03e6751": "Web con galería avanzada y before/after: desde USD 1.500 a USD 3.000. Suma slider before/a",
-   "a322f553f962222a": "Web con sistema integrado: desde USD 3.000 a USD 5.000. Incluye todo lo anterior más conex",
-   "78251b4cac1e22da": "Poné estos números en perspectiva: un solo presupuesto de obra residencial puede estar ent",
-   "c8a6c1fe901296e6": "Sí, es la inversión más importante junto con la web misma. En construcción, las fotos son "
+   "a322f553f962222a": "Web con sistema integrado: desde USD 3.000 a USD 5.000. Incluye todo lo anterior más conex"
   },
   "pagina-web-para-consultoras": {
    "b4c24f056288495d": "Web institucional básica (servicios + equipo + contacto): entre $200.000 y $400.000 ARS, o",
@@ -2086,13 +2061,6 @@
    "dc06cf383473dc79": "Costo estimado: entre $800.000 y $2.000.000 ARS. Para un consultorio individual, invertir ",
    "2073348635c8b467": "SaaS: entre USD 10 y USD 45/mes. Cal.com tiene plan gratuito. Desarrollo a medida: entre $"
   },
-  "sistema-de-turnos-para-opticas": {
-   "6eaddddb0b6b01c5": "Cal.com (gratis el plan básico): open source y flexible. Configurás tipos de examen con du",
-   "58d3c8122edd9ace": "AgendaPro (USD 15-45/mes): usado en salud y estética en Latam. Agenda por profesional, rec",
-   "3aeea529a8d75628": "Reservo (USD 10-25/mes): plataforma argentina con buena integración local. Agenda online, ",
-   "e197c3897f30943a": "Costo estimado: entre $800.000 y $2.500.000 ARS dependiendo de la complejidad. Para una óp",
-   "09513bba76d0580a": "SaaS: gratis con Cal.com o entre USD 10 y USD 45/mes con AgendaPro o Reservo. Desarrollo a"
-  },
   "sistema-de-turnos-para-peluquerias": {
    "bfb57b27f5571d11": "AgendaPro (USD 15-45/mes): muy usado en peluquerías y estética en Latam. Agenda por profes",
    "6984f83d034efe05": "Cloxsy (USD 10-30/mes): más simple y económico. Agenda online, link de reserva compartible",
@@ -2321,6 +2289,17 @@
   "sistema-de-turnos-para-kinesiologos": {
    "ed0b4f22dd9acf7c": "Costo estimado (estimación de SODI al 27/10/2026, sin fuente pública): entre $800.000 y $2",
    "21d24bbe746b7a01": "Cal.com tiene plan gratuito. AgendaPro: mirá su tarifario actualizado. Desarrollo a medida"
+  },
+  "sistema-de-turnos-para-opticas": {
+   "2df0b67160071a67": "Costo estimado (estimación de SODI al 22/11/2026, sin fuente pública): entre $800.000 y $2",
+   "9e3b8be702fbe84c": "SaaS: gratis con Cal.com para un usuario, con planes de equipo pagos (precio y fuente en l"
+  },
+  "cuanto-cuesta-bot-whatsapp-empresas": {
+   "1fa1bc4dd989e60d": "Los importes de desarrollo custom de esta sección son una estimación de SODI al 22/11/2026",
+   "e87cb78a2aa56b0b": "La mayoría de las PyMEs argentinas debería arrancar con una plataforma y migrar a custom s",
+   "fd650c60442c4569": "Una PyME que recibe 50 consultas diarias (cuenta de ejemplo, no un dato medido) por WhatsA",
+   "034a7c4b91d6a4a0": "El repago depende de tu volumen: comparalo con los $225.000-$375.000 mensuales de la cuent",
+   "0c72d50984457bfc": "Las plataformas publican planes mensuales en dólares (están en la sección de plataformas, "
   }
  }
 }
