@@ -225,7 +225,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-agencia-de-marketing-digital-argentina.json",
-      "sourceFileSha256": "e24bfbcd3544d813332f69e39580ab649180fd90f6bb6cc0e4023dc312451650",
+      "sourceFileSha256": "173aae627187413023657686294538c5ada30e48392c7556b6b476433c03c9a5",
       "contentSha256": "a7ba0272068c15da350f3c5c3ac161509f617945e14917e411c8539c2424bbe3",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-agencia-de-marketing-digital-argentina",
       "internalLinks": [
@@ -249,7 +249,7 @@ export const EDITORIAL_RELEASE = {
       "route": "/blog/cuanto-cuesta-auditoria-seo-argentina",
       "kind": "blog",
       "sourcePath": "content/cuanto-cuesta-auditoria-seo-argentina.json",
-      "sourceFileSha256": "90bea02ee18dfcd3b5399b62506dbf1343588d7efb287d9be6bf020f2ad62818",
+      "sourceFileSha256": "8fc814ba12e3ef25c68f6876f35f417852cdde888866af1a13bbc3f64a324c3b",
       "contentSha256": "429c6a0fb24725898a3d6e43693022daa7f4177681afc81b7f46a27beb454789",
       "canonical": "https://sodi.com.ar/blog/cuanto-cuesta-auditoria-seo-argentina",
       "internalLinks": [

@@ -1,18 +1,33 @@
 {
   "slug": "sistema-de-gestion-para-farmacias",
   "title": "Sistema de Gestión para Farmacias en Argentina",
-  "metaTitle": "Software para farmacias en Argentina 2026",
-  "metaDescription": "Software de gestión para farmacias: stock, obras sociales, facturación ARCA y vencimientos. Comparamos opciones SaaS y a medida.",
+  "metaTitle": "Software para farmacias en Argentina: qué debe cubrir 2026",
+  "metaDescription": "Software para farmacias en Argentina: stock con vencimientos, obras sociales, facturación ARCA y trazabilidad ANMAT. Qué pedir y cómo elegir.",
   "silo": "sistema-por-rubro",
   "siloLabel": "Sistemas por Rubro",
-  "tags": ["sistema de gestión", "farmacias", "stock de medicamentos", "obras sociales", "facturación ARCA"],
+  "tags": [
+    "sistema de gestión",
+    "farmacias",
+    "stock de medicamentos",
+    "obras sociales",
+    "facturación ARCA"
+  ],
   "datePublished": "2026-04-14",
   "dateModified": "2026-11-17",
   "readingTime": "7 min lectura",
-  "relatedSlugs": ["pagina-web-para-farmacias", "presencia-digital-ideal-farmacia", "cuanto-cuesta-sistema-de-gestion-pymes", "tienda-online-para-farmacias"],
+  "relatedSlugs": [
+    "pagina-web-para-farmacias",
+    "presencia-digital-ideal-farmacia",
+    "cuanto-cuesta-sistema-de-gestion-pymes",
+    "tienda-online-para-farmacias"
+  ],
   "content": {
     "intro": "<p>Gestionar una farmacia en Argentina es un ejercicio de malabarismo: <strong>miles de productos con vencimientos distintos, obras sociales con validaciones diferentes, facturación electrónica obligatoria, pedidos a droguerías, y márgenes que se achican cada año</strong>. Todo eso mientras atendés al público.</p><p>Un <strong>sistema de gestión para farmacias</strong> no es un lujo — es una necesidad operativa. Si todavía manejás stock con planillas, validás obras sociales por teléfono o facturás manualmente, estás perdiendo tiempo y plata. En esta guía te mostramos qué opciones tenés, cuánto cuestan y cómo elegir.</p>",
     "sections": [
+      {
+        "heading": "Qué tiene que cubrir un software para farmacias: la respuesta corta",
+        "body": "<div class=\"direct-answer\"><p>Además de stock, obras sociales y facturación, un software para farmacias tiene que registrar la dispensación de los productos con trazabilidad: la <a href=\"https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/html/17889.html\" rel=\"nofollow noopener\" target=\"_blank\">Disposición ANMAT 3683/2011</a> (texto original, leído el 21/11/2026) obliga a informar los movimientos logísticos, incluida la entrega al paciente, con su fecha. Mirá <a href=\"/blog/cuanto-cuesta-sistema-de-gestion-pymes\">cuánto cuesta un sistema de gestión</a> y <a href=\"/blog/pagina-web-para-farmacias\">la página web para farmacias</a>.</p></div>"
+      },
       {
         "heading": "Los problemas más comunes en farmacias sin sistema",
         "body": "<p>Las farmacias que operan sin un sistema dedicado enfrentan problemas diarios:</p><ul><li><strong>Vencimientos no controlados:</strong> Medicamentos que vencen en el estante y nadie se da cuenta hasta que un cliente los lleva al mostrador. Pérdida directa de plata.</li><li><strong>Stock desactualizado:</strong> No sabés cuántas unidades tenés de cada producto. Comprás de más o te quedás sin un medicamento clave un sábado a las 11 de la noche.</li><li><strong>Obras sociales manuales:</strong> Validar recetas, calcular descuentos y hacer las liquidaciones mensuales a mano es un proceso que consume horas y genera errores.</li><li><strong>Facturación ARCA desconectada:</strong> Facturás por un lado y registrás ventas por otro. Al final del mes, cruzar todo es una pesadilla contable.</li><li><strong>Pedidos a droguerías sin criterio:</strong> Pedís \"a ojo\" en vez de basarte en datos de rotación. Resultado: sobrestock de algunos productos y faltantes de otros.</li></ul>"

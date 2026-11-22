@@ -1,8 +1,8 @@
 {
   "slug": "que-es-whatsapp-business-y-como-usarlo",
   "title": "Qué es WhatsApp Business y Cómo Usarlo para tu Negocio",
-  "metaTitle": "Qué es WhatsApp Business y Cómo Usarlo | SODI",
-  "metaDescription": "Guía completa de WhatsApp Business: diferencias con el personal, catálogo, etiquetas, respuestas rápidas, API vs app y opciones de automatización.",
+  "metaTitle": "Qué es WhatsApp Business y cómo funciona | SODI",
+  "metaDescription": "WhatsApp Business es la app gratuita de WhatsApp para negocios: hasta 4 dispositivos, 20 etiquetas y 50 respuestas rápidas. Cuándo pasar a la API.",
   "silo": "conceptos",
   "siloLabel": "Conceptos",
   "tags": [
@@ -25,6 +25,10 @@
   "content": {
     "intro": "<p>Si usás WhatsApp personal para atender tu negocio, estás usando la herramienta equivocada. WhatsApp Business es la versión profesional de WhatsApp, diseñada específicamente para empresas: tiene catálogo de productos, respuestas rápidas, etiquetas para organizar chats y estadísticas. Y es gratis.</p><p>En esta guía te explicamos qué es WhatsApp Business, en qué se diferencia del WhatsApp normal, cómo aprovechar cada función, y cuándo conviene dar el salto a la API de WhatsApp Business para automatización real.</p><p>Si ya usás la app y querés automatizar respuestas, mirá <a href=\"/blog/que-es-un-bot-de-whatsapp\">qué es un bot de WhatsApp</a> y <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">cuánto cuesta un bot de WhatsApp para empresas</a>.</p>",
     "sections": [
+      {
+        "heading": "Qué es WhatsApp Business: la respuesta corta",
+        "body": "<div class=\"direct-answer\"><p>WhatsApp Business es la app gratuita de WhatsApp para negocios. Según la ayuda oficial (leída el 21/11/2026) permite <a href=\"https://faq.whatsapp.com/647349420360876\" rel=\"nofollow noopener\" target=\"_blank\">hasta cuatro dispositivos vinculados y un teléfono</a>, <a href=\"https://faq.whatsapp.com/3398508707096369/?cms_platform=android\" rel=\"nofollow noopener\" target=\"_blank\">20 etiquetas</a> y <a href=\"https://faq.whatsapp.com/1791149784551042/?cms_platform=android\" rel=\"nofollow noopener\" target=\"_blank\">50 respuestas rápidas</a> guardadas. Para automatizar, mirá <a href=\"/blog/que-es-un-bot-de-whatsapp\">qué es un bot de WhatsApp</a> y <a href=\"/blog/cuanto-cuesta-bot-whatsapp-empresas\">cuánto cuesta</a>.</p></div>"
+      },
       {
         "heading": "¿Qué es WhatsApp Business?",
         "body": "<p><strong>WhatsApp Business es la aplicación gratuita de WhatsApp pensada para negocios.</strong> Se instala aparte del WhatsApp personal y suma un perfil de empresa (dirección, horario, web), catálogo de productos, respuestas rápidas, etiquetas para ordenar chats y mensajes automáticos de bienvenida y ausencia.</p><p>Sirve para atender clientes desde un número dedicado al negocio sin mezclar lo personal con lo profesional. Si vendés online, también podés <a href=\"/blog/automatizar-whatsapp-ecommerce\">automatizar WhatsApp para tu ecommerce</a>: consultas, seguimiento de pedidos y carritos abandonados.</p>"
