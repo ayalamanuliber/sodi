@@ -10,8 +10,8 @@ import { BLOG_MERGE_REDIRECTS, BLOG_NOINDEX_SLUGS } from "./blog-pruning.generat
 export const BLOG_RELEASE_BASELINE = {
   status: "legacy_live_baseline",
   approvedAt: "2026-08-28",
-  expectedSearchEligibleCount: 468,
-  approvedSlugSetSha256: "bdfdc3da74cfe2f420926d5b52bf6d9d006b7909124de111933c7b918fd18a7c",
+  expectedSearchEligibleCount: 469,
+  approvedSlugSetSha256: "48b777ba4b41ba7f224365ceeb0939547ed35671e17f93181115725319297fef",
   // Re-pin 22/10/2026: CyberMonday (title/H1/meta) + Community Manager (title/H1/H2, sueldo con fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: title/meta CTR (comisiones Mercado Pago, facturacion electronica, MODO vs MP, publicidad FB/IG sin cifras sin fuente). Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
   // Re-pin 22/10/2026: cifras de precio sin fuente (Meta Ads, agencia/freelance/consultoria/ads) con link de fuente o reescritas sin numero + gate price-sources. Manuel TG3533: "siempre lo que tenga más sentido, no preguntes, ejecutá bien".
@@ -58,7 +58,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 21/11/2026 (sodi-45e3, rebase de sodi-02be sobre main 766ead5): guia nueva formas-de-cobro-mercado-pago (baseline 467 -> 468) y un enlace relacionado desde modo-vs-mercadopago, como-reducir-comisiones-mercadopago y mercadopago-vs-mobbex-ecommerce. Sin cifras: mercadopago.com.ar/costs-section y /ayuda devolvieron 403 el 21/11. Informe sodi-formas-pago-mp-20261121.md en lagos-lab. Pendiente del OK de la tanda.
   // Re-pin 21/11/2026 (sodi-f100, guia nueva mercado-pago-es-un-banco-cuenta-de-pago-vs-cuenta-bancaria, GSC 90 d: familia banco/cuenta + Mercado Pago 122 impr en 22 consultas, 3 clics, hoy rankean MODO vs MP y comisiones MP): pagina nueva en preview (baseline 467 -> 468) y un enlace relacionado desde modo-vs-mercadopago y como-reducir-comisiones-mercadopago. Solo reglas generales de PSP leidas en el texto ordenado del BCRA al 04/11/2026 (A 8505); paginas de Mercado Pago 403, sin cifras. Informe sodi-banco-mp-20261121.md en lagos-lab. Pendiente del OK de la tanda.
   // Re-pin 21/11/2026 (sodi-4bc3, page-two lote 1, pos 11-20 GSC 28 d): 8 paginas, solo title/meta y respuesta directa de 40-75 palabras con fuente releida hoy: logo (INPI, registro de marca 10 anos, sin precio en pesos), agencia de marketing (FINMI releido, sin cambio), restaurantes (Fudo desde USD 35/mes, sin IVA aclarado), farmacias (Disposicion ANMAT 3683/2011, texto original), WhatsApp Business (ayuda oficial: 4 dispositivos, 20 etiquetas, 50 respuestas rapidas); CM vs agencia, ERP y auditoria SEO solo title/meta sin cifras. Informe sodi-pagina-dos-lote1-20261121.md en lagos-lab. Rollback: git revert este commit.
-  approvedCatalogContentSha256: "8f6911b10e1745833ba14003bc7b5e7002a4a7f2432bbdda682732f1a97944dd",
+  // Re-pin 22/11/2026 (sodi-5e5f, tanda integrada): suma de sodi-45e3 (formas-de-cobro-mercado-pago), sodi-f100 (mercado-pago-es-un-banco) y sodi-4bc3 (page-two lote 1) sobre main 766ead5; baseline 469, digests recalculados.
+  approvedCatalogContentSha256: "8c1ce87c59d3caa4a15295c5c95ded45b18bce5208a5fd9f510940acbcfb162f",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
