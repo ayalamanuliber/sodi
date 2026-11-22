@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const articles = getSearchEligibleArticles(getAllArticles());
   const blogPages: MetadataRoute.Sitemap = articles.map((article) => ({
-    url: `${baseUrl}/blog/${article.slug}`,
+    url: encodeURI(`${baseUrl}/blog/${article.slug}`),
     lastModified: new Date(article.dateModified),
     changeFrequency: "monthly" as const,
     priority: 0.7,
@@ -53,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const templatePages: MetadataRoute.Sitemap = templateSlugs.map((slug) => {
     const resource = getTemplateResource(slug);
     return {
-      url: `${baseUrl}/plantillas/${slug}`,
+      url: encodeURI(`${baseUrl}/plantillas/${slug}`),
       lastModified: resource?.dateModified ? new Date(resource.dateModified) : undefined,
       changeFrequency: "monthly" as const,
       priority: 0.7,

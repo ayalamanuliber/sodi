@@ -12,10 +12,19 @@ import { Footer } from "@/components/landing/Footer";
 import { InteractiveCanvas } from "@/components/landing/InteractiveCanvas";
 import { ScrollRevealInit } from "@/components/landing/ScrollReveal";
 import { ANCHOR_LAYOUT_SCRIPT } from "@/lib/anchor-layout";
+import { ogImages } from "@/lib/og-card";
 
 export const metadata: Metadata = {
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    url: "/",
+    title: "SODI | Webs y automatización para empresas que ya venden",
+    description:
+      "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
+    type: "website",
+    images: ogImages("/"),
   },
 };
 
