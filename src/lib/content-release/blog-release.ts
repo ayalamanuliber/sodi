@@ -58,7 +58,8 @@ export const BLOG_RELEASE_BASELINE = {
   // Re-pin 22/11/2026 (sodi-91ad, Head of SEO semanal, regla 17/11 cambios chicos): metaTitle/metaDescription de 3 paginas por consulta GSC 28 d (CM sueldo, Mobbex es seguro, panel operativo); sin cifras nuevas. Lagos.
   // Re-pin 22/11/2026 (sodi-b6af, chicos-cifras-lote2): 8 paginas con cifras de terceros releidas contra primarias de hoy (bot WhatsApp empresas con Wasapi/Cliengo/WATI/Whaticket; chatbot IA con OpenAI GPT-6; Mailchimp/Doppler/Brevo; factura ARCA con Xubio/Alegra/Colppy/Facturante releidos sin cambio; rediseno web; turnos opticas; constructoras y club deportivo con porcentajes sin fuente retirados) y huecos de sodi-0169 (Kinsta anual y Jetpack retirados, Microsoft 365 sigue bloqueado: ultima lectura 22/10, fechas Mind Circus 14/09 y Web360 24/04 confirmadas por metadatos). Titulo de constructoras sin el 99% (la pagina no tiene tarjeta og). Informe sodi-chicos-cifras-lote2-20261122.md en lagos-lab.
   // Re-pin 22/11/2026 (sodi-ba2a, page-two lote, regla 17/11 cambios chicos): metaTitle/metaDescription de 6 paginas en posicion 8-20 por consulta GSC 28 d (vencimiento F.931, consultoria marketing digital, cobrar con QR, precio de un logo, CRM para pymes, sistema para restaurantes); sin cifras nuevas. Lagos.
-  approvedCatalogContentSha256: "509c648674f662e13faf21c39014dd69d7e1df9a63401e48c709cd5c704b41cf",
+  // Re-pin 23/11/2026 (sodi-destino-podados-2311, regla 17/11 cambios chicos): cuanto-cuesta-pagina-web-para-constructoras sin el 70% de trafico celular sin fuente y con los importes rotulados estimacion de SODI (las correcciones de sodi-b6af estaban en el slug podado); como-mejorar-presencia-digital revisada sin cambios.
+  approvedCatalogContentSha256: "d706114cfd93e4564e8abc187d0de333b28d1329253b3c003258c1fcb085bdeb",
   authority:
     "Migration baseline of the existing SODI article catalog. It preserves current coverage but is not a fresh editorial quality approval.",
 } as const;
