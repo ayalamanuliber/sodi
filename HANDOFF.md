@@ -37,3 +37,9 @@ To rerun local checks: `node scripts/test-free-ci.mjs`; `node --check scripts/bu
 - `prefetch={false}` en enlaces de listas: indice del blog, hubs de silo, relacionados de articulo, plantillas y pie.
 - El Worker (`cf/worker.ts`) ya no corre para esas dos rutas; lo unico que hacia ahi era el robots `Disallow: /` de hosts no productivos (workers.dev y previews estan apagados) y el middleware las exime del filtro de bots.
 - Revertir: `git revert <commit>` (vuelve a servirlas el Worker, sin perdida de datos) y esperar el Build.
+
+## 24/11/2026 · JSON-LD de plantilla (sodi-seo-2921, Ahrefs 697 paginas con error de rich results)
+- Causa probable (no confirmada con el validador de Ahrefs): validando las paginas en vivo contra los campos de Google, en 347/349 el nodo `ProfessionalService` (tipo LocalBusiness) de `src/app/layout.tsx` no tiene `address`, y en 328 articulos `author`/`publisher` eran solo `{"@id"}` a una Organization que vive en OTRO bloque `<script>` (sin name). Unico cambio de JSON-LD en codigo la ultima semana: d4ad4c3 (17/11, logo ImageObject, email, name del WebSite).
+- Arreglo c02f3b3 (main): ofertas movidas a la Organization y nodo ProfessionalService retirado (SODI no tiene direccion publica; no se inventa); `author`/`publisher` inline con name+url; ultimo item del breadcrumb con `item`; FAQPage sin `@id` relativo. Sin cambios de contenido. build, price-sources y og-cards OK. Workers Build de c02f3b3: success.
+- Pendiente: verificar en vivo (curl estaba sin cuota 2500/2500, vuelve a las 00:00 ART) 5 URLs sin ProfessionalService y con author.name; esperar el crawl de Ahrefs del 1/12. Links internos a redirect (40) y title largo (2): no tocados.
+- Rollback: git revert c02f3b3.
