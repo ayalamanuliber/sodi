@@ -121,6 +121,14 @@ export function siloLabel(silo: string): string {
 
 // ── Schema builders ──
 
+// Self-contained author/publisher: the root layout's Organization sits in another <script> block, so a bare @id reference does not give Google a name (Article author.name / publisher.name).
+const sodiOrgRef = {
+  "@type": "Organization",
+  "@id": "https://sodi.com.ar/#organization",
+  name: "SODI",
+  url: "https://sodi.com.ar",
+} as const;
+
 export function buildArticleSchema(article: ArticleMeta, url: string, imageUrl?: string) {
   return {
     "@context": "https://schema.org",
@@ -150,8 +158,8 @@ export function buildArticleSchema(article: ArticleMeta, url: string, imageUrl?:
         "@id": `${url}#article`,
         headline: article.title,
         description: article.metaDescription,
-        author: { "@id": "https://sodi.com.ar/#organization" },
-        publisher: { "@id": "https://sodi.com.ar/#organization" },
+        author: sodiOrgRef,
+        publisher: sodiOrgRef,
         datePublished: article.datePublished,
         dateModified: article.dateModified,
         mainEntityOfPage: { "@id": `${url}#webpage` },
@@ -185,6 +193,7 @@ export function buildArticleSchema(article: ArticleMeta, url: string, imageUrl?:
             "@type": "ListItem",
             position: 4,
             name: article.title,
+            item: url,
           },
         ],
       },
@@ -196,7 +205,6 @@ export function buildFAQSchema(faqs: FAQ[]) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "@id": "#faqpage",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,

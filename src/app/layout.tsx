@@ -90,6 +90,18 @@ const siteSchema = {
         contactType: "sales",
         availableLanguage: "Spanish",
       },
+      // Offers live on the Organization: a ProfessionalService/LocalBusiness node needs a street address (Google rich results), and SODI is a remote studio with none.
+      makesOffer: [
+        "Diseño y desarrollo web",
+        "Automatización de WhatsApp",
+        "Sistemas de gestión internos",
+        "Gestión de redes sociales",
+        "CRM a medida",
+        "Consultoría digital",
+      ].map((serviceType) => ({
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", serviceType },
+      })),
       knowsAbout: [
         "Desarrollo web",
         "Automatización empresarial",
@@ -118,32 +130,6 @@ const siteSchema = {
         "SODI es un estudio digital de Argentina: webs, automatizaciones, bots de WhatsApp y sistemas internos para empresas que ya venden y necesitan más orden.",
       isPartOf: { "@id": "https://sodi.com.ar/#website" },
       about: { "@id": "https://sodi.com.ar/#organization" },
-    },
-    {
-      "@type": "ProfessionalService",
-      "@id": "https://sodi.com.ar/#service",
-      name: "SODI",
-      url: "https://sodi.com.ar",
-      telephone: "+54-11-3869-6958",
-      email: "hola@sodi.com.ar",
-      areaServed: {
-        "@type": "Country",
-        name: "Argentina",
-      },
-      priceRange: "$$",
-      // serviceType/provider are Service properties, not valid on ProfessionalService (LocalBusiness).
-      parentOrganization: { "@id": "https://sodi.com.ar/#organization" },
-      makesOffer: [
-        "Diseño y desarrollo web",
-        "Automatización de WhatsApp",
-        "Sistemas de gestión internos",
-        "Gestión de redes sociales",
-        "CRM a medida",
-        "Consultoría digital",
-      ].map((serviceType) => ({
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", serviceType },
-      })),
     },
   ],
 };
